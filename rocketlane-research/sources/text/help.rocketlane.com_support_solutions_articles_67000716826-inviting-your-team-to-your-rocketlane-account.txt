@@ -1,0 +1,180 @@
+TITLE: Inviting Your Team to your Rocketlane Account : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000716826-inviting-your-team-to-your-rocketlane-account
+
+Inviting Your Team to your Rocketlane Account : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Inviting Your Team to your Rocketlane Account
+
+Inviting Your Team to your Rocketlane Account
+
+Created by Monica Madan, Modified on Wed, 22 Jul at 6:49 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Inviting Your Team to your Rocketlane Account
+
+Setting up team member fields
+
+Creating roles and using them as placeholders
+
+How to understand and manage deactivated user behaviour
+
+No article available
+
+As an admin or a super user, the first step in setting up your Rocketlane account is to invite your team to use the platform. Team members here are the participants from your company who will work on your projects and deliverables. Adding your team members to Rocketlane enables them to collaborate with customers on everyday tasks and seamlessly communicate your project's progress.
+Short of time to read the article? Watch video here
+
+Invite Team Members
+To invite your team members,
+
+Log in as an admin or super user and navigate to your avatar
+
+Click on Settings and select Team members under the Accounts section
+
+Click on Invite team members and start adding the necessary details: Field Description
+Email address Your team member's official email that they use to collaborate with customers on projects.
+Role Your team member's designation in your company; if the role does not exist in the system, you can type the role and create it from here. A good example here is "Creative Designer."
+Under Permissions You can grant the level of access the user needs to use Rocketlane and perform his everyday responsibilities.
+Timesheet approver Select the timesheet approver for this team member from the drop-down. It can be anyone from their immediate supervisor to the project administrator.
+Weekly capacity The weekly capacity is the number of hours a team member needs to work for the week. It is set to 40h by default. However, you have the option to set the hours manually as well.
+
+Click Invite to add the team member to Rocketlane
+
+Note You can setup team member fields like skills, employee ID and add the details while inviting team members.
+
+Tip You can add skills to your team member's profile by setting up a Skill Matrix. Click here to learn more .
+
+An invitation link will be sent to the invited team member's registered email address. They can click the link to access their account and set up their profile.
+An example of the invitation email will look like this:
+After inviting the team members, you can check their profile under the “ Invited ” tab in the team members section.
+After the team member activates their account, their profile will show up in the “ Active ” tab.
+
+Edit an Existing Team Member’s Profile
+To edit an existing team member’s profile,
+
+Click on the three dots near the member’s name
+
+Select View details
+
+Click Edit profile and edit the relevant details like role, weekly capacity and timesheet approver.
+Note You will not be able to edit the permissions and email addresses of other Admins.
+
+If you have any further questions, please reach out to us at care@rocektlane.com
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to manage your Rocketlane subscription?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+Creating roles and using them as placeholders
+
+How to invite customers to your portal
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,234 @@
+TITLE: Managing Expenses and Financials with Multi-Budgets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754569-managing-expenses-and-financials-with-multi-budgets
+
+Managing Expenses and Financials with Multi-Budgets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Managing Expenses and Financials with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Created by Advaith R, Modified on Wed, 1 Jul at 4:04 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+Splitting a project into multiple budgets gives you total visibility into your revenue, costs, and billing models. By mapping expenses and invoice line items directly to distinct financial buckets, you ensure that individual workstream performance is tracked accurately.
+
+Expenses and Budgets
+Expenses must also be linked to budgets so that cost is recorded correctly.
+
+Create an expense .
+
+Select the project .
+
+Select the project budget that should absorb the cost.
+
+If using a task or phase , select the task first so that its associated budget can prefill.
+
+Complete the remaining expense fields and submit.
+All expenses tied to a budget are reflected in that budget's cost in the project financials.
+
+Project Financials with Multi Budgets
+The project financial dashboard shows both project level and budget level views.
+
+Project Level View
+At the top level, the dashboard shows:
+
+Total revenue (sum of revenue from all budgets)
+
+Total cost (sum of cost from all budgets)
+
+Tracked hours vs allocated hours across the project
+
+Remaining budget and related calculations
+
+Margins calculated at the project level
+Charts and time series views can be used to see financial metrics month over month or quarter over quarter.
+
+Budget Level View
+From the financial dashboard:
+
+Scroll to the Budgets section.
+
+View all budgets under the project, with:
+Status
+
+Billing method
+
+Start and end date
+
+Revenue, cost, and other metrics
+
+Click a budget to drill into its financials, where it is possible to see:
+Actual vs forecasted values
+
+Tracked vs allocated hours
+
+Budget specific charts and time based breakdowns
+
+Invoicing and Multi Budgets
+When invoicing is configured with Multi budgets:
+
+Each budget can produce its own invoice line items.
+Examples:
+
+A fixed fee budget charges an agreed amount for a phase or milestone.
+
+A time and material budget bills by hours and rates.
+
+A subscription budget bills per period.
+Multi-project invoices still work, and budget lines provide additional detail under each project.
+Invoice PDFs can show:
+
+Project name
+
+Budget name
+
+Line items grouped or labeled by budget where applicable
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+How to Sync Integrations with Multi-Budgets
+
+Introducing Expense Management in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,283 @@
+---
+updatedAt: 2025-06-03T20:46:54.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Search
+
+The Search APIs can be used to apply filter conditions to return specific resources based on your requirements.  Each module has a search API where you can apply filters and look for particular tasks, projects, templates, or even time entries.  These filters are added as query parameters to the Search APIs.
+
+It may take a couple of seconds for a change made in an API to reflect in Search. Give example.
+
+***
+
+### How to add filter query parameters to your search APIs?
+
+Filters are added as query parameters and have a defined structure to get back search results that match the query. You can add multiple filters to a Search API by separating them using commas.
+
+* ***Syntax:***  field.operation=value
+* ***Eg:*** dueDate.lt=2023-09-31, minutes.eq=250
+
+***
+
+### Which operations are permitted for search APIs?
+
+| Operation | Definition                                                                                                                                                                                      | Example                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------- |
+| field.gt  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is greater than the specified field value.             | startDate.gt=2023-09-31 |
+| field.eq  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value matches the specified field value.                     | project.eq              |
+| field.lt  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is less than the specified field value.                | startDateActual.lt      |
+| field.ge  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is greater than or equal to the specified field value. | startDateActual.ge      |
+| field.le  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is less than or equal to the specified field value.    | dueDateActual.le        |
+| field.cn  | You can use this param to specify some text and the responses will include those particular resources that contain the given text in their field value.                                         | category.cn             |
+| field.nc  | You can use this param to specify some text and the responses will include those particular resources that DO NOT contain the given text in their field value. E                                | activityName.nc         |
+
+***
+
+### Examples for searching using custom fields
+
+<Table align={[null,null,"left"]}>
+  <thead>
+    <tr>
+      <th>
+        Operation
+      </th>
+
+      <th>
+        Example
+      </th>
+
+      <th>
+        Definition
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        `{type}.field.{field_id}.value=<value>`
+        (value operator is analogy of equals operation)
+      </td>
+
+      <td>
+        Let's consider `DATE` FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.value=2023-12-24`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` exactly equals to 2023-12-24
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.contains=<value>`
+      </td>
+
+      <td>
+        Let's consider `TEXT `FIELD\_TYPE for this example, `type = project, field_id = 12 `  
+
+        * \*Example\*\*: `project.field.12.contains="SearchText"`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` contains the string "SearchText"
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.notContains=<value>`  
+      </td>
+
+      <td>
+        Let's consider `TEXT `FIELD\_TYPE for this example, `type = project, field_id = 12 `  
+
+        * \*Example\*\*: `project.field.12.notContains="SearchText"`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` does not contain the string "SearchText"
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.greaterThan=<value>`  
+      </td>
+
+      <td>
+        Let's consider `DATE `FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.greaterThan=20220-12-24`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is greater than the date 20220-12-24
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.lessThan=<value>`
+      </td>
+
+      <td>
+        Let's consider `DATE `FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.lessThan=20220-12-24`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is lesser than the date 20220-12-24
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.greaterThanEqual=<value>`
+      </td>
+
+      <td>
+        Let's consider `DATE `FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.greaterThanEqual=20220-12-24`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is greater than or equal to the date 20220-12-24
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.lessThanEqual=<value>`
+      </td>
+
+      <td>
+        Let's consider `DATE `FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.lessThanEqual=20220-12-24`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is lesser than or equal to the date 20220-12-24
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.isEmpty`
+      </td>
+
+      <td>
+        Let's consider `DATE `FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.isEmpty`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is empty
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.isNotEmpty`
+      </td>
+
+      <td>
+        Let's consider `DATE `FIELD\_TYPE for this example, `type = project, field_id = 14 `  
+
+        * \*Example\*\*: `project.field.14.isNotEmpty`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is not empty
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.isNot=<value>`
+      </td>
+
+      <td>
+        Let's consider `SINGLE_CHOICE `FIELD\_TYPE for this example, `type = project, field_id = 16 `  
+
+        * \*Example\*\*: `project.field.16.isNot=2`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is not 2
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.isTrue`
+      </td>
+
+      <td>
+        Let's consider `YES_OR_NO `FIELD\_TYPE for this example, `type = project, field_id = 32 `  
+
+        * \*Example\*\*:  `project.field.32.isTrue`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is true 
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.isFalse`
+      </td>
+
+      <td>
+        Let's consider `YES_OR_NO `FIELD\_TYPE for this example, `type = project, field_id = 32 `  
+
+        * \*Example\*\*:  `project.field.32.isFalse`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is false
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.oneOf=<value1,value2,..>`
+      </td>
+
+      <td>
+        Let's consider `SINGLE_CHOICE `FIELD\_TYPE for this example, `type = project, field_id = 16 `  
+
+        * \*Example\*\*:  `project.field.16.oneOf = 1,3`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is one of 1 and 3 
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `{type}.field.{field_id}.noneOf=<value1,value2,..>`
+      </td>
+
+      <td>
+        Let's consider `SINGLE_CHOICE `FIELD\_TYPE for this example, `type = project, field_id = 16 `  
+
+        * \*Example\*\*:  `project.field.16.noneOf = 1,3`
+      </td>
+
+      <td>
+        This will return all the projects whose mentioned field's `fieldValue` is none of 1 and 3
+      </td>
+    </tr>
+  </tbody>
+</Table>

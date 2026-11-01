@@ -1,0 +1,251 @@
+TITLE: How to automate time based tasks using schedule automations in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000730109-how-to-set-schedules-using-automations-
+
+How to automate time based tasks using schedule automations in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+How to set schedules using Automations?
+
+How to set schedules using Automations?
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:27 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Automations
+
+Setting up Global automations
+
+Setting up Template automations
+
+What are saved automations and how to use them?
+
+Automation Pricing
+
+How to automate project workflows with HTTPS requests
+
+How to set schedules using Automations?
+
+Automation Logs in Rocketlane
+
+No article available
+
+Scheduled automations let teams run automations based on a predefined schedule. They can be used to trigger actions for time-sensitive workflows such as QBRs, steering committee meetings, stand-ups, delayed task reviews, and recurring reminders.
+Note As of February 6, 2026, Scheduled Automations have been deprecated. Existing configurations in your account will continue to function.
+
+Scheduled automations are triggered by time-based events running in the background. They can help automate recurring project actions and notify stakeholders without manual follow-up.
+For example, you can use scheduled automations to monitor on-hold tasks daily, send reminders for stand-up notes, or notify project stakeholders about recurring meetings and reviews.
+In this article
+
+Set up a scheduled automation
+
+Automate QBRs, steer-co meetings, and stand-ups
+
+Update status duration for delayed tasks
+
+Send daily reminders for task notes
+
+Set up a scheduled automation
+To set up a scheduled automation:
+
+Click your avatar.
+
+Select Settings and scroll to the Advanced section.
+
+Select Automations and create a new automation.
+The following sections cover a few sample use cases for scheduled automations.
+
+Automate QBRs, steer-co meetings, and stand-ups
+You can use scheduled automations to automate recurring meetings with customers during specific project stages. For example, you can schedule steering committee meetings, gather team members, and send meeting-related reminders or emails automatically.
+
+Add Set Schedule trigger
+
+Select Set Schedule as the trigger.
+
+Set the schedule for projects or tasks and choose the recurring frequency, such as daily, weekly, or custom.
+
+If the automation runs weekly, select the day of the week. If it runs monthly, specify the day of the month.
+
+Set the start date, time, and timezone for execution.
+
+Add condition
+Add a condition to define when the scheduled automation should run. For example, if you want to schedule QBRs only for projects with ARR greater than 4k or for a specific company such as Acme, add those as conditions.
+Note A condition is mandatory for schedule-based automations. Conditions act as validations for the configured automation. The condition does not necessarily need to be related to the automation outcome. For example, you can use a condition such as Task name is not empty .
+
+Add action
+
+Select the action you want the automation to perform. In this example, the action sends reminders through Slack or email.
+
+Add the recipient address, subject, and description.
+
+Include the reply-to address.
+
+Save the action.
+
+Update status duration for delayed tasks
+You can set up a scheduled automation to monitor on-hold tasks every day and update the duration for which each task has stayed on hold.
+
+Add Set Schedule trigger
+
+Select Set Schedule as the trigger.
+
+Set the schedule for projects or tasks and choose the recurring frequency, such as daily, weekly, or custom.
+
+If the automation runs weekly, select the day of the week. If it runs monthly, specify the day of the month.
+
+Set the start date, time, and timezone for execution.
+
+Add conditions
+
+Add conditions to trigger the automation when a task is in On Hold status.
+
+Add action
+If you have a custom number task field called On hold duration , use an action to update this field each day the task remains on hold.
+For example, use the Update task field action and add a value of 1 day for every day the task remains in On Hold status.
+Save the automation once the trigger, condition, and action are configured.
+
+Send daily reminders for task notes
+If your team conducts daily scrum meetings, you can use scheduled automations to remind task owners to update task notes before stand-ups.
+
+Add Set Schedule trigger
+
+Select Set Schedule as the trigger.
+
+Set the schedule for projects or tasks and choose the recurring frequency, such as daily, weekly, or custom.
+
+If the automation runs weekly, select the day of the week. If it runs monthly, specify the day of the month.
+
+Set the start date, time, and timezone for execution.
+
+Add conditions
+
+For example, add a condition to trigger the automation only when the project name is Acme .
+
+The time trigger monitors tasks in the Acme project. If the condition is met, a reminder is sent to the task owner every other day.
+
+Add actions
+
+Select the reminder action. Rocketlane supports reminders through Slack, email, or third-party tools using webhooks or HTTPS requests .
+
+Add the recipient address, subject, and description.
+
+Include the reply-to address.
+
+Construct the subject line and email body to remind task owners to update their notes before stand-ups.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to allocate resources as percentage of capacity
+
+Understanding Billing Schedules and Events
+
+Managing Invoicing Permissions in Rocketlane
+
+How to use dynamic project templates?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,346 @@
+---
+updatedAt: 2026-04-30T11:16:08.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get placeholders
+
+This endpoint can be used to search for placeholders across project. The response body is paginated and you can control the pagination using the `limit` and `pageToken` parameters.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Projects",
+      "description": "Endpoints for projects resource"
+    }
+  ],
+  "paths": {
+    "/1.0/projects/{projectId}/get-placeholders": {
+      "post": {
+        "tags": [
+          "Projects"
+        ],
+        "summary": "Get placeholders",
+        "description": "This endpoint can be used to search for placeholders across project. The response body is paginated and you can control the pagination using the `limit` and `pageToken` parameters.",
+        "operationId": "get-placeholders",
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponsePlaceholders"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "ExampleAPIResponsePlaceholders": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/PlaceholderPublicResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationPlaceholders"
+          }
+        }
+      },
+      "ExamplePaginationPlaceholders": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/placeholders?includeFields=category,minutes&billable.eq=false&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100&assignee.any=1&startDate.gt=2022-01-02"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "PlaceholderPublicResponseForExample": {
+        "type": "object",
+        "properties": {
+          "placeholderId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The placeholder's unique, system-generated identifier, which can be used to identify the placeholder globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "placeholderName": {
+            "type": "string",
+            "description": "The name of the placeholder.",
+            "example": "Customer Success"
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPIPlaceholderResponseEntity"
+          },
+          "role": {
+            "$ref": "#/components/schemas/RolePublicAPIPlaceholderResponseEntity"
+          },
+          "placeholderType": {
+            "type": "string",
+            "description": "The type of the placeholder.",
+            "enum": [
+              "NATIVE",
+              "EXTERNAL"
+            ]
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the placeholder was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the placeholder was updated. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      },
+      "ProjectPublicAPIPlaceholderResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "The project of the placeholder."
+      },
+      "RolePublicAPIPlaceholderResponseEntity": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The role's unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "roleName": {
+            "type": "string",
+            "description": "The name of the role.",
+            "readOnly": true,
+            "example": "Customer Success"
+          }
+        },
+        "description": "The role of the placeholder."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

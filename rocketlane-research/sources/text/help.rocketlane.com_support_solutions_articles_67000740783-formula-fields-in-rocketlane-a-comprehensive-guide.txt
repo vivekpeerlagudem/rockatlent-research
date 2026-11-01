@@ -1,0 +1,220 @@
+TITLE: Formula Fields in Rocketlane: A Comprehensive Guide : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740783-formula-fields-in-rocketlane-a-comprehensive-guide
+
+Formula Fields in Rocketlane: A Comprehensive Guide : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+Created by Advaith R, Modified on Mon, 21 Sep at 8:19 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Guide to setting up and managing custom reports
+
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+Report on Form Responses in Rocketlane
+
+No article available
+
+Formula fields in Rocketlane empower teams to create custom calculations directly within reports, eliminating the need for external tools. These fields enable dynamic, on-demand insights, allowing users to capture essential business metrics such as utilization (for example, productive or billable hours) and profitability. With formula fields, teams can tailor reports to their operational needs and make decisions using calculations based on current report data.
+Note Formula fields are available exclusively with Enterprise plans.
+
+How to Create a Formula Field
+Formula fields can be created within custom reports, specifically in tabular reports and pivot tables. To create a formula field:
+
+Add a Formula Field
+
+Under the Columns section, select Add fields .
+
+Select New formula field from the dropdown menu.
+
+Choose the type of formula field to create based on your requirements. The available options include:
+
+Project field
+
+Task field
+
+People field
+
+Role field
+
+Time tracking field
+By default, the formula field type matches the report's source. For example, if the report source is Projects , the formula field will be a project formula field.
+
+Construct the Formula
+
+Add the required fields to your formula using the Add fields button.
+For example, to calculate the percentage of billable tracked hours relative to budgeted hours, add fields such as Tracked hours and Budgeted hours .
+
+For fields with a one-to-many relationship, such as Tasks or Time Tracking, apply filters to control which records are included:
+Hover over the field, such as Tracked hours , and select the filter icon.
+
+Add conditions to refine the data. For example, filter Tracked hours to include only billable hours.
+
+Enter a name for the formula and define the calculation.
+For example, to calculate billable tracked hours as a percentage of budgeted hours, enter: (A/B)
+
+Note Formula fields support the following operators:
+
+Operator Details
+Addition (+)
+Subtraction (−)
+Multiplication (×)
+Division (÷)
+Date Calculate expressions such as date - date directly within custom reports. You can include or skip weekends when calculating the difference between dates.
+Conditional Logic The IF condition lets you create formulas based on conditional logic. Use the following syntax: IF ( condition, true_case, false_case )
+Condition: A comparison between two field values using an operator such as < , > , or = .
+
+True case: The value returned when the condition is met.
+
+False case: The value returned when the condition is not met.
+
+Using TODAY() in Date Calculations
+Use TODAY() in a formula field to calculate a day count against a date. This can help you measure days overdue, days remaining until a due date, or days elapsed since a record was created.
+Enter TODAY() directly in the formula box. There is no separate function picker.
+TODAY() - A
+In this example, A represents a date or date-time field that has been added to the formula.
+
+TODAY() does not accept any arguments.
+
+TODAY() cannot be used by itself as a formula. Combine it with a date field using either TODAY() - A or A - TODAY() .
+
+The Skip weekends option applies to calculations that use TODAY() . Turn it on to calculate business days instead of calendar days.
+
+The calculation works with both date and date-time fields.
+
+TODAY() uses UTC and changes at midnight UTC, regardless of your account or personal timezone.
+
+The value is calculated when the report loads. Results can therefore change over time without the formula field being edited.
+Note If the date field is empty for a record, Rocketlane returns a day count of 0.
+
+Examples
+Assume today is September 18, 2026, and A represents the task's Due Date.
+Due Date Formula Result Meaning
+September 10, 2026 TODAY() - A = 8 The task is 8 days overdue.
+September 25, 2026 TODAY() - A = -7 The task is due in 7 days.
+September 18, 2026 TODAY() - A = 0 The task is due today.
+When Skip weekends is turned on, weekend days are excluded. For example, if the due date was last Friday and today is the following Tuesday, the calendar-day difference is 4 days. With weekends skipped, the result is 2 days because only Monday and Tuesday are counted.
+Select Create to save your formula. Once saved, you can add the formula field to your report by selecting it under Add fields .
+Formula fields are reusable across Rocketlane reports. A formula field created in one report can be added to other reports. Formula fields behave like standard fields and support filtering and sorting.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Report on Form Responses in Rocketlane
+
+Configuring Fields in Sheets
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

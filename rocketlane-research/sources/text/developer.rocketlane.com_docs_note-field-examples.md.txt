@@ -1,0 +1,212 @@
+---
+updatedAt: 2026-08-26T11:02:41.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# NOTE Field Examples
+
+## How NOTE Fields Relate to Notes
+
+A `NOTE` field defines a note container on an object. Optional tags for that note field are created as `fieldOptions` on the field (stored as tags). Individual notes must reference the `NOTE` field via `fieldId`.
+
+**Relationship summary:**
+
+1. Create a `NOTE` field (optionally with tag options as `fieldOptions`).
+2. Create notes with the notes endpoint, passing that field’s `fieldId`.
+3. Retrieve notes using `includeFields=notes` on the parent resource get/list API.
+
+***
+
+## Example API Request
+
+***Create a NOTE field (POST)***
+
+***API endpoint:*** [\<https://api.rocketlane.com/api/1.0/fields>](https://developer.rocketlane.com/reference/get-all-fields)
+
+***
+
+## Request
+
+The base URL with versioning for all requests to Rocketlane APIs is: [https://api.rocketlane.com/api/1.0](https://developer.rocketlane.com/reference)
+
+Since we want to create a field, the full URL becomes:\
+[\<https://api.rocketlane.com/api/1.0/fields>](https://developer.rocketlane.com/reference/fields)
+
+We'll make a POST request to that URL. In the header, we'll authorize the request with our API key.
+
+```json
+curl --request POST  
+     --url <https://api.rocketlane.com/api/1.0/fields>  
+     --header 'accept: application/json'  
+     --header 'api-key: <api-key>'  
+     --header 'content-type: application/json'
+```
+
+For our POST body, we'll create a `NOTE` field. Optional `fieldOptions` become tags that can be applied to notes later.
+
+```
+{
+    "fieldLabel": "Account Notes",
+    "fieldType": "NOTE",
+    "objectType": "COMPANY",
+    "fieldOptions": [
+        {
+            "optionLabel": "sales",
+            "optionColor": "BLUE"
+        },
+        {
+            "optionLabel": "support",
+            "optionColor": "GREEN"
+        }
+    ]
+}
+```
+
+***
+
+## Response
+
+After requesting information from the API, you will receive a response in JSON format. In this case, the API returns a 201 Created response status code.
+
+```json
+{
+    "fieldId": 44,
+    "fieldLabel": "Account Notes",
+    "fieldType": "NOTE",
+    "objectType": "COMPANY",
+    "fieldOptions": [
+        {
+            "optionValue": 1,
+            "optionLabel": "sales",
+            "optionColor": "BLUE"
+        },
+        {
+            "optionValue": 2,
+            "optionLabel": "support",
+            "optionColor": "GREEN"
+        }
+    ]
+}
+```
+
+In the above code snippet, the created `NOTE` field is returned. Use `fieldId` when creating notes. For `NOTE` fields, `fieldOptions` are the field’s tags (`optionValue` is the tag id used in `tagIds`).
+
+***
+
+## Example API Request
+
+***Create a note (POST)***
+
+***API endpoint:*** [\<https://api.rocketlane.com/api/1.0/companies/{companyId}/add-notes>](https://developer.rocketlane.com/reference/create-company-note)
+
+***
+
+## Request
+
+We'll make a POST request to create a note. `fieldId` must reference a `NOTE`-type field.
+
+```json
+curl --request POST  
+     --url <https://api.rocketlane.com/api/1.0/companies/200/add-notes>  
+     --header 'accept: application/json'  
+     --header 'api-key: <api-key>'  
+     --header 'content-type: application/json'
+```
+
+```
+{
+    "fieldId": 44,
+    "noteTitle": "Q1 Planning Discussion",
+    "noteText": "Initial contact: discussed Q1 roadmap and pricing",
+    "tagIds": [1, 2]
+}
+```
+
+***
+
+## Response
+
+The API returns a 201 Created response with the created note.
+
+```json
+{
+    "noteId": 1,
+    "fieldId": 44,
+    "fieldLabel": "Account Notes",
+    "noteTitle": "Q1 Planning Discussion",
+    "noteText": "Initial contact: discussed Q1 roadmap and pricing",
+    "tags": [
+        {
+            "tagId": 1,
+            "label": "sales",
+            "color": "blue"
+        },
+        {
+            "tagId": 2,
+            "label": "support",
+            "color": "green"
+        }
+    ],
+    "createdAt": 1750343334605,
+    "updatedAt": 1750343334570
+}
+```
+
+***
+
+## Example API Request
+
+***Get a resource with notes (GET)***
+
+***API endpoint:*** [\<https://api.rocketlane.com/api/1.0/companies/{companyId}?includeFields=notes>](https://developer.rocketlane.com/reference/get-company)
+
+***
+
+## Request
+
+```json
+curl --request GET  
+     --url <https://api.rocketlane.com/api/1.0/companies/200?includeFields=notes>  
+     --header 'accept: application/json'  
+     --header 'api-key: <api-key>'
+```
+
+***
+
+## Response
+
+The response includes the `notes` array when `includeFields=notes` is specified.
+
+```json
+{
+    "companyId": 200,
+    "companyName": "Acme Inc",
+    "companyType": "CUSTOMER",
+    "notes": [
+        {
+            "noteId": 1,
+            "fieldId": 44,
+            "fieldLabel": "Account Notes",
+            "noteTitle": "Q1 Planning Discussion",
+            "noteText": "Initial contact: discussed Q1 roadmap and pricing",
+            "tags": [
+                {
+                    "tagId": 1,
+                    "label": "sales",
+                    "color": "blue"
+                },
+                {
+                    "tagId": 2,
+                    "label": "support",
+                    "color": "green"
+                }
+            ],
+            "createdAt": 1750343334605,
+            "updatedAt": 1750343334570
+        }
+    ]
+}
+```
+
+In the above code snippet, notes are returned only because `includeFields=notes` was requested. Each note is tied to its `NOTE` field through `fieldId`.

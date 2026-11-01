@@ -1,0 +1,270 @@
+TITLE: Time Tracking Report: Analyse how your team spends time where : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000710071-time-tracking-report-analyse-how-your-team-spends-time-where
+
+Time Tracking Report: Analyse how your team spends time where : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Time Tracking Report: Analyse how your team spends time where
+
+Time Tracking Report: Analyse how your team spends time where
+
+Created by Niharika Pandey, Modified on Mon, 9 Sep, 2024 at 6:19 PM by Ramnath Venkatesh
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+Note: The Time Tracking report will be officially deprecated on September 30, 2024, and replaced by the new, enhanced Time Analytics reports introduced in February 2024.
+
+The Time Tracking Report in Rocketlane lets you analyse how efficiently is your team managing their time and completing projects.
+
+You can track the total capacity of team members, how many hours out of total capacity have been tracked, the billable and non billable utilisations and the categories under which time has been tracked.
+
+There are three tabs in the Time Tracking report:
+
+The Project view: This view lets you track the time entry settings from a project level.
+
+T he People view: This view lets you track the time entry settings from a team member level.
+
+T he Category view: This view lets you track the time entry settings from a category level.
+
+Filter
+
+Lets you filter projects, people and categories based on project fields.
+
+Saving a filter as a view
+
+On clicking 'Save view as' you can save the filter as a view incase it is frequently used.
+
+From the 'New View' dialog box, add a Name for the view, edit Visibility and click Save .
+
+Saved Views
+
+Click on the All Projects button to view the Saved views.
+
+The Saved views pop up lists your private saved views as well as shared views.
+
+The 'All projects' view is the default view.
+
+The Dates Filter
+
+This filter lets you define the time period for which you want the time tracking report to display data for.
+
+You can view time entry settings from options that include This week, Last week, This month, Last month, This quarter and Custom.
+
+The ' Custom' option lets you add custom ' Start date' and ' Due date' so that you can analyse the time tracking behaviour for specific durations.
+
+Export CSV
+
+Click on the Export icon to export the data in the Time Tracking Report table as a csv .
+
+Time Tracking Report: The Projects Tab
+
+The Projects Tab: Time Tracking Report Table
+
+Here is a list of the Time Tracking Repot table fields for the Projects tab:
+
+Projects
+Mentions the Name of the Project.
+
+Budgeted Hours
+Mentions the total Budgeted hours for the project.
+
+Hours Tracked
+Mentions the hours that have been tracked in the project.
+
+Billable Hours
+Mentions the number of tracked hours that have been marked as billable.
+
+Non- Billable Hours
+Mentions the number of tracked hours that have been marked as non-billable .
+
+Custom Categories
+Each custom Category made by a team member has a column mentioning how many hours have been tracked under that category.
+
+No Category
+Mentions the number of hours that have been tracked with no category.
+
+Time Tracking Report: The People Tab
+
+The People Tab: Time Tracking Report Table
+
+Here is a list of the Time Tracking Repot table fields for the People tab:
+
+Team members
+Mentions the List of Team members
+
+Capacity
+Mentions the individual capacity of each team member.
+
+Hours Tracked
+Mentions the hours that have been tracked for the team member.
+
+Billable Hours
+Mentions the number of tracked hours that have been marked as billable.
+
+Non- Billable Hours
+Mentions the number of tracked hours that have been marked as non-billable .
+
+Billable Utilization
+Mentions the number of tracked hours that have been marked as billable to the total capacity of a team member.
+Billable utilization = (Billable time/Capacity) * 100
+
+Custom Categories
+Each custom Category made by a team member has a column mentioning how many hours have been tracked under that category.
+
+No Category
+Mentions the number of hours that have been tracked with no category.
+
+Time Tracking Report: The Category Tab
+
+The Category Tab: Time Tracking Report Table
+
+Here is a list of the Time Tracking Repot table fields for the Category tab:
+
+Categories
+Mentions the Categories that you can add for time entry settings.
+
+Hours Tracked
+Mentions the hours that have been tracked under that category.
+
+Billable Hours
+Mentions the number of tracked hours that have been marked as billable.
+
+Non- Billable Hours
+Mentions the number of tracked hours that have been marked as non-billable .
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Operations Insights Report: The Overview Tab
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Project Performance: Insights on Project Timelines and Task completion
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

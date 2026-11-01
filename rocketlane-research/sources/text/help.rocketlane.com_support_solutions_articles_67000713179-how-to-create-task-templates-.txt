@@ -1,0 +1,182 @@
+TITLE: How to create task templates? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000713179-how-to-create-task-templates-
+
+How to create task templates? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+How to create task templates?
+
+How to create task templates?
+
+Created by Shreeda R, Modified on Thu, 23 Jul at 6:43 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+Adding SmartFill to Templates and Projects
+
+How to Create and Manage Placeholders?
+
+Understanding Date Changes in Rocketlane
+
+No article available
+
+If you are tired of manually recreating repetitive tasks every time you start a new project, Rocketlane is here with a solution. Rather than recreating these tasks from scratch, you can seamlessly incorporate them into your new projects, complete with all the necessary subtasks, assignees, placeholders, properties, and attachments.
+In this article
+
+How to save a task template
+
+How to add task template to your project
+
+How? By templatizing these tasks and effortlessly adding them to the necessary phase in your project plan.
+Below, we provide a step-by-step guide to walk you through this process.
+
+How to save a task template
+
+Navigate to the Templates section.
+
+Choose the project template containing the task you wish to save.
+
+Click the task that you want to save and select Save as Template from the more actions menu.
+
+Confirm and save the task template.
+
+How to add task template to your project
+
+Select the project you want to add the task template to.
+
+Click the dropdown next to Add task , which is present at the end of each phase.
+
+You will see the Add from task template option in the dropdown. Select it.
+
+You will see a list of all the saved tasks from various templates. Select the task templates that you want to add.
+
+After selecting multiple tasks that you want to add in the phase, add start dates to the tasks by clicking Add start dates .
+
+Once the dates are added, you can add the tasks.
+
+Here, you can see that the tasks are reflected in the phase they are added to. By default, tasks will be added at the end of the phase, and you can reorder them according to your requirements.
+
+This is how Rocketlane's task templates allow you to seamlessly templatize tasks and add them to projects with a few clicks.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to Plan and Manage Resource Allocation using Templates?
+
+Task Fields
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

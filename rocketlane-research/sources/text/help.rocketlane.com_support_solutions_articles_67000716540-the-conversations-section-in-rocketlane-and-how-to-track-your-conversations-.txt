@@ -1,0 +1,158 @@
+TITLE: The Conversations Section in Rocketlane and How to Track your Conversations? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000716540-the-conversations-section-in-rocketlane-and-how-to-track-your-conversations-
+
+The Conversations Section in Rocketlane and How to Track your Conversations? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+The Conversations Section in Rocketlane and How to Track your Conversations?
+
+The Conversations Section in Rocketlane and How to Track your Conversations?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:38 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+The Conversations Section in Rocketlane and How to Track your Conversations?
+
+No article available
+
+In this article
+
+Conversation Sections in a Project in Rocketlane
+
+Tracking all the Conversations in a Project
+
+The Conversations section allows you to have a live chat with all the stakeholders associated with the module you are currently viewing in a project in Rocketlane.
+
+Conversation Sections in a Project in Rocketlane
+You can find the Conversations section in tasks and subtasks in the Project Plan, documents inside Spaces, and Status Updates.
+
+Conversations Section for tasks and subtasks in the Project Plan view
+
+Conversations Section for Documents inside Spaces
+
+Conversations Section for Status Updates
+
+Tracking all the Conversations in a Project
+The global Conversations section is a one-stop location to track all your ongoing conversations within your Rocketlane project. Whenever you receive or send a message in any of the Conversations sections mentioned above, you will see a notification badge in the Chat view, and all the conversations will be listed accordingly.
+All conversation updates happening in the project can be viewed under the Other Project Conversations section in the Chat view.
+Clicking any of these conversation updates will open a chat window for the conversation. You can send messages in the respective conversation from this chat window itself.
+All chats are actionable. You can click the links that redirect you to the Conversations section in the task, document, or status update. You can also copy the link to this conversation from here and share it with any stakeholders involved.
+For conversations in tasks or subtasks, the task description is also visible in this chat for more context.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Share Project Updates from your Projects in Rocketlane
+
+How to set up permissions for team members and customers (RBAC)
+
+Rocketlane for Mobile
+
+Getting started with Rocketlane's Jira Integration
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

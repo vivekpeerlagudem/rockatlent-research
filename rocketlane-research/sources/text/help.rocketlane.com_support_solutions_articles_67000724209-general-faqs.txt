@@ -1,0 +1,326 @@
+TITLE: General FAQs : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000724209-general-faqs
+
+General FAQs : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+General FAQs
+
+General FAQs
+
+Created by Aishwarya RV, Modified on Thu, 9 Apr at 5:04 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+General FAQs
+
+Rocketlane Support - How to reach us!
+
+Why am I receiving an error while performing an action?
+
+Resolving Webhook Issues Between Rocketlane and Zoho
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+We've ended our services with Rocketlane. How do we ensure our customers stop receiving emails, and what is Rocketlane's policy for data retention and deletion?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Why can't I see activity logs in the project chat?
+
+Why can't I add a Partner User, even though I have available licenses?
+
+How to Generate HAR
+
+The "Open Conversation" button in my email notifications doesn't redirect me to the Rocketlane Portal. How do I fix this?
+
+How can I tell if a task is private or visible to a customer?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+How to Troubleshoot and Manage Visibility Issues in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Why am I getting a rate limit error during bulk updates?
+
+Why is my public form still asking users to sign in?
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+No article available
+
+How can I re-trigger a password resend invitation for team members to join the team?
+N avigate to Project > Project Settings icon on the top right,
+
+Under Team member settings, click on More option to find the Resend invitation.
+
+Go to Settings > team members > invited tab > Three dots > Resend
+
+Why doesn't adjusting the task's due date also modify the due date for the phase it's associated with?
+Navigate to Settings>Workflow management>Phase Automation settings and check the option to adjust due date for phase upon task due date modification.
+
+How to disable timesheet notifications if I don’t track time in Rocketlane?
+To disable Timesheet notifications,
+Navigate to Settings>Timesheets>toggle Off the Enable switcher.
+
+Why am I not able to submit a timesheet?
+Reach out to your supervisor to check the timesheet settings.
+To check this go to
+
+Settings>Time tracking settings>Hours to be reported> check if the option "cannot submit less than X hrs per week" is chosen.
+
+I f the number of hours you submitted is less than X hours in the settings, you might have to re-check the timesheet and submit again.
+
+How to reactivate a deactivated user?
+This can be done under team member settings. Navigate to Settings>Team members>Deactivated tab> click the three dots for more actions and Reactivate.
+
+Can we mark a form as completed once a response is submitted?
+Sure, We can do so in the Tasks where the form is used. Navigate to projects>click on a particular project>select form responses>view form details>update status and change the status of the form
+
+How to enable soft allocations?
+You can Enable Soft allocations under Settings>Resource Managements
+
+Will removing sample data from the account remove the data that I have created so far?
+No. It will not remove the data that the Admins , Super Users or collaborators created. It would only remove the sample data that Rocketlane has provided during the time of signup. To do so, Navigate Settings> Preferences>Sample data>remove data
+
+Why am I not able to see the timesheet icon?
+To use timesheets, you can enable the feature under Settings >Timesheets>toggle on
+
+Can a collaborator edit their own allocations?
+Yes, Collaborators can View and manage their resources if the option is selected in the Settings > Resource Management
+
+Can collaborators manage resources?
+Collaborators have an option to manage their own allocations and only the Admins and Super Users have the option to do the resource allocations. However, these options can be modified under the Settings>Resource management.
+
+How to edit time entries? I have marked an entry as Billable and need to change it to Non-billable. Can I edit or delete and re-add?
+You can edit the Time entries from Timesheet>Edit>Uncheck billable option from the Timesheet settings
+
+Is it possible to allocate time on a weekly basis instead of daily basis?
+Yes, It is possible to allocate time on a weekly basis. Navigate to Settings>Resource management>Select Hours / week.
+
+How can I change my weekly capacity?
+You can do this, by going to the profile icon on the bottom left corner>settings>team members>view details>edit profile>set the weekly capacity to 5m as 5m is the least capacity the system allows to be set.
+
+How can I change the weekly capacity of my team members?
+As an admin you can set up the weekly capacity of team members. Upon adding Team members, you can either default it to 40h or manually set a capacity.
+
+My Google/Outlook calendar events are not showing up in the Timesheets page even though I have events on the selected week, why?
+Ensure to enable calendar integrations under settings>time tracking
+
+Is there a way to stop Customers from responding to form multiple times?
+Yes,It is possible to stop customers from responding to forms multiple times. Navigate to Templates>Forms> Select the form of choice> navigate to settings tab> under responses>allow one response.
+
+Can I set up an automation to create a task upon receiving a response on the form?
+It is possible to set up an automation to create a task upon receiving a response on the form in the Project Navigate to Templates>Forms> Select the form of choice> navigate to Automations>Create Automation to create tasks on form submission.
+
+How to add comments in a document to collaborate with the project team members?
+To add a comment in a document under Spaces>highlight part of the sentence and click on "Add comment" to comment on the highlight
+
+How can I approve the documents my team creates?
+In Spaces, you can request for document approval using the icon on the Toolbar.
+
+Is there a way to inform team members why The Project owner / Manager rejected their timesheet?
+Yes, There is way to inform the team members when a timesheet entry is rejected. You can do so by adding a comment or note while rejecting the timesheet entry.
+
+I invited a team member through an invite button in the projects section. What should I do?
+You can remove them as a team member and re-add them from Settings>Team member sections for them to become a team member of the your company, or reach out to care@rocketlane.com with the Email address of the team member that’s added incorrectly.
+
+Dashboard filter doesn't give me the right data. What am I missing?
+Dashboards are made up of multiple charts. A dashboard has a set of filters you can apply. And, each chart within the dashboard has its own filters. However, if you apply a project field filter on a dashboard level and on a chart level, the dashboard filter will override the chart filters.
+
+Where do I enable notification for customers?
+You can enable notifications under settings>customer portal
+
+How can I create a background and theme to my forms for it to be branded like our Company's logos and colour codes?
+Yes, you can upload your images to the form background and themes under forms or when creating form templates.
+
+Is it possible to use forms to get inputs on the project details from the customer?
+Yes, project and task fields can be used in the forms. despite the form fields and the general fields.
+
+How can I download form responses in PDF?
+Only CSV format is currently possible, using which you can manually convert files based on your choice.
+
+How can I add customer team members in Rocketlane? And assign them different roles?
+They can be created as placeholders under - Roles and Placeholders - Customers
+
+I don't want to add a Timesheet for everyone that is a part of the project. How do I do that?
+You can add Timesheet exclusion for select members in the team. Navigate to Settings - Timesheet settings - Timesheet exclusion
+
+I'm not online on Rocketlane, as a project owner, I have multiple things to look into. Is there a way for me to keep a tab on the project budget used?
+Yes, To keep a tab of Project Budget exhausted and Budgeted hours used, Navigate to Settings - Financial Management - Project budget alerts - Enable - Alerts / Emails.
+
+Why am I not able to add a file to a task?
+The size of the attachment is 20mb. IF exceeded, It would not accept files bigger than the limit.
+
+How do I get access to Rocketlane as a member of the Customer Team?
+To login as a Customer to Rocketlane, You can navigate to the Login page - Are you a customer - Type Email address.
+
+How do I autoallocate after the project is created?
+Upon Completion of creating a project and assigning effort time, Under Resource management, Select Project tab, Select the project, Click on Three dots beside the name of the project and Choose Enable Auto allocation. The Auto allocation will be done based on the availability and the hours mentioned in the efforts.
+
+How do I know who are all available in a particular time period for Ad Hoc projects?
+Resource Management has an option to Find availability under People Tab, Where you’d be able to allocate projects based on the people and their calendars where there is no effort time blocked.
+
+How can I create a chart to see all the tasks customers are responsible for, with a breakdown of their status?
+
+You can create this chart easily using dashboards in Rocketlane. Here’s how:
+
+Go to the Dashboards section in your Rocketlane account.
+
+Click on Create New Chart and select the "Task by Status"chart type. In the chart settings, select Group by Owner if you want to display tasks based on who owns them.
+
+To ensure you only see tasks that the customer is responsible for, click on Add Conditions . Set the condition as: Where Responsible is Customers (select the Customers placeholder).
+
+Save the chart and add it to your dashboard. The chart will now display all tasks that customers are responsible for, along with their status breakdown.
+
+Can I import a project plan or template from Excel into Rocketlane?
+While Rocketlane doesn’t currently support direct imports of templates from Excel sheets, there’s a handy workaround you can use to make it quicker to create templates from your sheets.
+Organize your tasks in a single column in your Excel file (one task per row).
+
+Copy the entire column, then navigate to the "Add Task" section in Rocketlane while creating a template.
+
+Paste the list of tasks into the field, and Rocketlane will automatically create separate tasks for each item in the column.
+
+Can I add the same customer email ID to multiple projects?
+Yes, you can add the same customer email ID to multiple projects, but there are specific considerations:
+For Projects Within the Same Account:
+
+Navigate to the project settings for each project where you want to add the customer.
+
+Go to the 'Team Members' section and invite the customer using their email ID.
+
+Ensure there are no discrepancies in company names if the customer was previously added to a different project or company. If needed, you can request to merge duplicate companies or remove the customer from the incorrect company.
+
+If the customer is already part of the project but not visible, contact support to resolve the issue and re-invite them.
+
+For Projects Across Different Accounts:
+
+Reach out to the support team. They will assist in merging the accounts into one, allowing the customer to be added to multiple projects across different accounts.
+
+How can I view all tasks (excluding milestones) in the task list filter without using two filters? Instead of applying two filters ("Type contains 'Task'" or "Type is empty"), you can simplify the process by using a single filter: "Type does not contain 'Milestone'". This approach will exclude all milestones while displaying all tasks in one step.
+
+Why do allocations that were showing earlier no longer appear?
+This could happen if some projects have been archived. When a project is archived, its allocations are no longer displayed in capacity planning. To view those allocations, you would need to unarchive the relevant projects.
+
+Can I use Rocketlane on mobile?
+Yes! The Rocketlane mobile app is available on both iOS and Android for team members and users of your Rocketlane account. You can download it from the App Store or Google Play and log in with your business email, password, or SSO. Please note that the mobile app is not available for customer portal users, your end clients can only access their portal through a web browser.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+Salesforce Integration FAQs
+
+PTO and Timesheets FAQs
+
+How to build your customer portal
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

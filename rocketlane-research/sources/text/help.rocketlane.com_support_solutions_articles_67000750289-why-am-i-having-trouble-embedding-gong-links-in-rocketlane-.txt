@@ -1,0 +1,191 @@
+TITLE: Why am I having trouble embedding Gong links in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000750289-why-am-i-having-trouble-embedding-gong-links-in-rocketlane-
+
+Why am I having trouble embedding Gong links in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why am I having trouble embedding Gong links in Rocketlane?
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+Created by Advaith R, Modified on Fri, 9 Jan at 7:56 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to add Salesforce object links to projects?
+
+How to Integrate Freshsales with Rocketlane
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+What are the current capabilities and limitations of the Slack integration.
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+My Workato automation is failing with a 'Rate limit exceeded' error. What should I do?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Salesforce Integration FAQs
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+No article available
+
+If a Gong link is not loading or shows an error when embedded in Spaces, it is usually because the URL is a "Public Share Link" rather than an "Embeddable Link." Public share links are designed for browser viewing but are blocked from being displayed inside an iframe (the technology used to embed content).
+
+How to resolve the issue
+1. Generate the correct Embed Link Instead of copying the URL from your browser or using a standard share link, follow these steps in Gong:
+
+Open the specific Call Page in Gong.
+
+In the top right corner, click Share call .
+
+Select Embed call from the dropdown menu.
+
+The resulting link should contain embedded-call?call-id= (e.g., https://us-42999.app.gong.io/embedded-call?call-id=123... ).
+
+2. Update Permissions Ensure the call's sharing settings are set to "Anyone with the link can view." If the link requires a Gong login, it will not load properly within the Rocketlane interface.
+3. Verify Compatibility You can test if your link is "iframe-friendly" using a tool like Iframely .
+
+Paste your Gong link into the tool.
+
+If it returns embeddable code , it will work in Rocketlane.
+
+If it returns a 403 error , the link is still blocked by Gong’s security settings.
+
+Workaround
+If you cannot generate an iframe-friendly link, you can create a blank document within your Space and simply paste the Gong share link as a hyperlink. This allows users to click and open the recording in a new tab.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+Embedding a File in Spaces
+
+PTO and Timesheets FAQs
+
+Integrating the Gong app to your Rocketlane account
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

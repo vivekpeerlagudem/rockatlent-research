@@ -1,0 +1,253 @@
+TITLE: Key Events and Intervals in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000717327-key-events-and-intervals-in-rocketlane
+
+Key Events and Intervals in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Key Events and Intervals in Rocketlane
+
+Key Events and Intervals in Rocketlane
+
+Created by Niharika Pandey, Modified on Wed, 13 Dec, 2023 at 10:11 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Key Events and Intervals
+
+Key Events and Intervals in Rocketlane
+
+The Interval IQ Report in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+How to access Key Events and Intervals in Rocketlane?
+
+How to create a new Key Event?
+
+How to create a new Interval from the Settings page?
+
+How to Automate the Capturing of Key events from a Template?
+
+How to access the Key events and Intervals captured in a Project?
+
+The Interval IQ report
+
+Key events capture the dates of significant events with implementations such as when the Kick-off call happened, the date of Go-live, or when sign-off was done for the requirements.
+
+Intervals measure the duration between any two key events in a project. By defining a benchmark for each Interval, Project managers can identify bottlenecks in real-time and solve problems during the project and not after it has been delivered. For Cx leaders, Interval trends against benchmarks help them to identify what’s working well, and what are the challenges and bottlenecks with implementations across teams or regions.
+
+How to access Key Events and Intervals in Rocketlane ?
+
+Click on your Profile icon from the left navigation bar and go to Settings .
+
+Click on Key events & Intervals from here.
+
+You can start creating new Key Events and Intervals from this page.
+
+How to create a new Key Event?
+
+Click the ' New key event' button .
+
+From the Create a Key event slider, add a Name and Description for the Key event .
+
+A Key event by default cannot be edited manually by team members and cannot be updated once a date has been captured but these can be configured under advanced options. Ideally you should c onfigure conditions in project templates to automatically capture the date in a key event.
+
+Choose from the following options:
+
+Capture the date of first activity only and ignore the dates of subsequent activities
+
+Applies only when the key event is updated through automation.For example, the key event to capture when Kick-off starts will be updated with the date when the kick-off task is marked as in progress for the first time. If the kick-off task is moved again to in progress at a later date, the subsequent dates will not be captured in the key event.
+
+Allow Admins and Project owners to edit dates in the key event
+
+Click Save to allow the Key event to capture dates for you.
+
+How to create a new Interval from the Settings page?
+
+Note: Once you have created two key events, you can successfully create a new interval.
+
+Click on New Interval.
+
+From the Create an Interval dialog box slider, add a name and description for the interval.
+
+An interval can be captured between two key events. So you can measure the interval between two key events by selecting them from the dropdown under 'How is this interval measured?'.
+
+Click Save to save the interval captured.
+
+How to Automate the Capturing of Key events from a Template?
+
+You can automate capturing of the key event dates for phases as well as tasks from a project template. This automation can be created based on the status change conditions. Follow the steps below to automate key event creation from a project template.
+
+In a Project Template, click on any phase or task for which you want to automate key event creation. Click on the ' Key events' tab from here.
+
+Click on 'Add Condition' to automate capturing key events based on status changes of the phase or task you have selected.
+
+In the Create Key event dialogue box, provide the task or phase status change condition. From the dropdown list under From and To, select the precise status choice.
+
+If you don't want to specify any particular status , you can choose the Any Status option.
+
+To record this status change, select the key event from the drop-down menu that appears after selecting the option to 'then record this key event'.
+
+The following options will pop in the same dialog box after you add the key event:
+
+Do you want to capture the planned date for this key event?
+Apart from capturing the status change date for the key event you can also record the planned dates for the same. This will help you to calculate deviation between planned and actual dates.
+
+Capture the Planned date for the task/phase
+You can choose whether you want the planned date to capture the start date or the due date for that task/ phase.
+
+Update the planned date when this date is changed in the project
+You can choose whether you want to update the planned date as well in case it is manually changed after being captured.
+
+Click on Save to add the Key Event automation conditions for the phase/ task in the template.
+
+You can create multiple automations for recording key events for a phase/ task.
+
+You can enable or disable these automation conditions from this page by the Status toggle button.
+
+How to access the Key events and Intervals captured in a Project?
+
+Note: You can view the Key Events and Intervals captured for a project from the Projects page.
+
+From the Project , click on the Overview tab.
+
+Scroll down to the Key Events & Intervals widget from this page.
+
+From the Key events tab, you can view the name of the Key Event, the planned date, the activity date and the performance from this tab.
+
+The performance indicates if the Key event is running on time, has been completed early or has been delayed and by how many days. This is calculated based on the number of working days between the planned date and the activity date.
+
+Click on Intervals to view the Intervals captured in the Project . You can view the name of the interval, the status, the planned duration and the actual duration of the interval.
+
+The planned as well as actual duration is calculated based on the number of working days between the planned and actual dates captured.
+
+The Status of an interval can be Not Started, In Progress or Completed depending in the status of the key events defining that interval.
+
+Pro Tip: You can also apply filters based on Key Events and Intervals.
+
+The Interval IQ report
+
+The Interval IQ report in Rocketlane is used to analyse Key Events & Intervals across projects and templates in your Rocketlane account. You can measure project performance and time to value for each individual deliverable by analysing its interval against other intervals and their benchmarks.
+
+Read more about the Interval IQ Report here .
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+The Interval IQ Report in Rocketlane
+
+Introduction to Key Events and Intervals
+
+Introduction to Key Events and Intervals
+
+Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

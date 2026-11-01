@@ -1,0 +1,191 @@
+TITLE: How to Generate HAR : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000750587-how-to-generate-har
+
+How to Generate HAR : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How to Generate HAR
+
+How to Generate HAR
+
+Created by Sai Pranav, Modified on Fri, 23 Jan at 8:16 PM by Sai Pranav
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+General FAQs
+
+Rocketlane Support - How to reach us!
+
+Why am I receiving an error while performing an action?
+
+Resolving Webhook Issues Between Rocketlane and Zoho
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+We've ended our services with Rocketlane. How do we ensure our customers stop receiving emails, and what is Rocketlane's policy for data retention and deletion?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Why can't I see activity logs in the project chat?
+
+Why can't I add a Partner User, even though I have available licenses?
+
+How to Generate HAR
+
+The "Open Conversation" button in my email notifications doesn't redirect me to the Rocketlane Portal. How do I fix this?
+
+How can I tell if a task is private or visible to a customer?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+How to Troubleshoot and Manage Visibility Issues in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Why am I getting a rate limit error during bulk updates?
+
+Why is my public form still asking users to sign in?
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+No article available
+
+(You can find the steps to generate the HAR file below.)
+
+Kindly open Rocketlane and navigate to the page where the issue is occurring.
+
+Right click anywhere inside the UI and click on Inspect .
+
+[image: Table Description automatically generated]
+
+Navigate to the Network tab in the opened panel.
+
+Kindly clear out any existing logs from the Network tab by clicking on Clear Icon( [image: Clear button] ).
+
+Click on the Record button ( [image: record button] ) in the upper left corner of the tab (If it is grey, kindly click it once to start recording).
+
+Enable the Preserve log check box.
+
+Now try to reproduce the issue while the network log is being preserved.
+
+Once the issue is reproduced, click Export HAR to download and then save this file in your computer: [image: Table
+Description automatically generated]
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How To Use AI Fills
+
+Configuring Nitro Page Templates
+
+Creating a Documentation Agent
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

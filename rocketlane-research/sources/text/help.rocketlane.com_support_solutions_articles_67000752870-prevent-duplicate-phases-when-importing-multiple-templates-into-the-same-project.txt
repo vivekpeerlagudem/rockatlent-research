@@ -1,0 +1,275 @@
+TITLE: Prevent Duplicate Phases When Importing Multiple Templates into the Same Project : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000752870-prevent-duplicate-phases-when-importing-multiple-templates-into-the-same-project
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Created by Advaith R, Modified on Mon, 13 Apr at 1:46 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Automating CSAT Score Updates From Form Responses
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Auto Invite Customer Champion on Project Creation
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Embedding Calendly Links in Rocketlane
+
+Turn Customer Form Submissions into Immediate Action
+
+No article available
+
+When onboarding a customer across multiple services or workstreams, separate templates are often imported into the same project. Some phases (service-specific setup and training) should repeat for every engagement. Other phases (account-level setup such as admin and billing) should only be created once per project, even if multiple templates contain the same phase.
+This article explains how to prevent duplicate phases by combining:
+
+A Yes/No project field to track whether the shared phase already exists
+
+A global automation to update the field when the phase is created
+
+A dynamic template condition to import the phase only when the field is still No
+
+When to Use
+Use this setup when:
+
+Multiple service templates are imported into the same project over time
+
+One or more phases should exist only once per project
+
+The same shared phase appears across multiple templates and should not be duplicated
+
+Example Scenario
+A professional services team onboards a customer who starts with Service A and later expands to Service B. Each service has its own onboarding template with three phases:
+Phase
+Purpose
+Should it repeat?
+Phase 1 - Service Setup Workstream-specific configuration ✅ Yes - once per engagement
+Phase 2 - User Training Workstream-specific training ✅ Yes - once per engagement
+Phase 3 - Admin & Billing Setup Account-level, shared across all engagements ❌ No - only once ever
+
+Expected behavior:
+
+Import Template A: Phase 1, Phase 2, and Phase 3 are added
+
+Import Template B later in the same project: Phase 1 and Phase 2 are added again for the new engagement, Phase 3 is skipped because it already exists
+
+How It Works
+This approach uses three parts working together:
+
+A custom Yes/No project field
+Acts as a flag that records whether Phase 3 has already been created in the project.
+
+A global automation
+Sets the flag to Yes as soon as Phase 3 is created.
+
+A dynamic condition on the template
+Tells Rocketlane to import Phase 3 only if the flag is still No.
+Phases 1 and 2 have no conditions and continue to import every time a template is applied.
+
+Step 1: Create a Custom Project Field
+
+Go to Settings → Project Fields .
+
+Click New Field .
+
+Enter a field name, for example Admin & Billing Phase Added .
+
+Select field type Yes/No .
+
+Click Save .
+
+This field becomes the project-level marker that determines whether the shared phase should be imported.
+
+Step 2: Create a Global Automation to Set the Flag
+
+Go to Settings → Automations .
+
+Click New Automation .
+
+Configure the automation:
+Trigger : On all phases, when a phase is created
+
+Condition : Phase name contains Admin & Billing
+
+Action : Set project field Admin & Billing Phase Added to Yes
+
+Click Save .
+
+This automation runs whenever a phase matching the naming condition is created in any project, and updates the flag immediately for that project.
+
+Step 3: Add a Dynamic Condition to the Template Phase
+
+Navigate to Templates → Project Templates
+
+Open the Service Onboarding template.
+
+Switch to the Dynamic view.
+
+Locate Phase 3 - Admin & Billing Setup.
+
+Add a dynamic condition:
+Condition : Admin & Billing Phase Added is False
+
+Leave Phase 1 and Phase 2 without any conditions.
+
+Click Save .
+
+Repeat this step for every service template that includes Phase 3, so the same project field controls behavior across templates.
+
+Expected Outcome
+
+First import (Service A template)
+
+The field Admin & Billing Phase Added is No by default.
+
+Phase 1, Phase 2, and Phase 3 are imported.
+
+The global automation fires when Phase 3 is created and sets the field to Yes.
+
+Second import (Service B template)
+
+Phase 1 and Phase 2 have no conditions, so they import again for Service B.
+
+Phase 3 checks the field:
+It is already Yes, so Phase 3 is skipped.
+
+No duplicate Admin & Billing phase is created.
+
+Points to Consider
+
+Ongoing projects
+This applies moving forward. If a project already includes Phase 3 before this configuration is implemented, manually set Admin & Billing Phase Added to Yes for that project.
+
+Matching phase names
+The automation utilizes a “name contains” condition. Make sure the phase name is detailed enough to prevent matching with unrelated phases.
+
+Applicable across templates
+The flag is established at the project level, so it doesn't matter which template introduced Phase 3. Any following template that includes it will adhere to the same flag.
+
+Independence of each project
+The flag is specific to each project. The value on one project does not affect other projects.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Import Project Phases from the Project Plan Tab?
+
+How to Identify and Replace an Incorrect Project Template in Rocketlane
+
+Organizing Templates into Folders
+
+How to create project templates?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

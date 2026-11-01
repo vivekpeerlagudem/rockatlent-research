@@ -1,0 +1,462 @@
+TITLE: Project Level Permissions : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000713035-project-level-permissions
+
+Project Level Permissions : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Project Level Permissions
+
+Project Level Permissions
+
+Created by Niharika Pandey, Modified on Mon, 7 Sep at 6:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Account Level Default Permissions
+
+Project Level Permissions
+
+Customer User Permissions in Rocketlane
+
+No article available
+
+The following table lists the project level features and the default permissions for the Project Owner role in Rocketlane. Project level permissions control what a team member can do within individual projects.
+To configure project level permissions (for RBAC enabled accounts), navigate to Settings > Permissions > Project level.
+Note These default permissions apply to all accounts. Customizing Role-Based Access Control (RBAC) requires a Rocketlane Enterprise plan.
+
+Feature Project Owner
+Projects
+Can edit projects.
+
+Can add partners.
+
+Can invite team members.
+
+Can invite customer team members.
+
+Can edit customer domains.
+
+Can set visibility.
+
+Can delete projects.
+
+Can manage which tabs in the project will be visible to the team and to customers.
+
+Cannot edit actual start date.
+
+Cannot edit actual completed date.
+
+Project fields
+Can view project field values.
+
+Can edit project field values.
+
+Note field values
+Can edit project notes.
+
+Project team member permissions
+Can associate project permissions to a project team member.
+
+Phase
+Can create phase.
+
+Can manage phase visibility, Both.
+
+Can edit phase name.
+
+Can edit phase dates.
+
+Can edit phase effort.
+
+Can delete phases.
+
+Tasks
+Can view tasks.
+
+Can create tasks, Private and shared.
+
+Can edit tasks.
+
+Can edit assignee.
+
+Can change status of the task.
+
+Can change start and due date.
+
+Can edit task name.
+
+Can edit task description.
+
+Cannot edit completed on date.
+
+Cannot edit started on date.
+
+Can edit effort.
+
+Can edit progress.
+
+Can edit priority.
+
+Can send messages.
+
+Can convert to milestone.
+
+Can mark task as at risk.
+
+Can mark task as private.
+
+Can move tasks across phases.
+
+Can request approval.
+
+Can add and edit attachments.
+
+Can delete attachments.
+
+Can create subtasks.
+
+Can create dependencies.
+
+Can delete tasks.
+
+Task field values
+Can view task field values.
+
+Can edit task field values.
+
+Spaces
+Can view documents.
+
+Can edit a document.
+
+Can edit the URL of an embedded document.
+
+Can rearrange documents.
+
+Can create a space, Private and Shared.
+
+Can create a document, Private and Shared.
+
+Can embed a URL.
+
+Can delete a space.
+
+Can delete a document.
+
+Chat
+Can view project conversations.
+
+Can send messages.
+
+Can invite team members to a project conversation.
+
+Can edit name and description of a project conversation.
+
+Can create both private and shared conversations.
+
+Can delete a conversation.
+
+Files and Folders
+Can view files and folders.
+
+Can create folders and upload files, Shared and private.
+
+Status updates
+Can view published updates.
+
+Can create and publish status updates, Private and Shared.
+
+Form responses
+Can edit form responses.
+
+Sprints
+Can create sprints.
+
+Can manage sprints.
+
+Can delete sprints.
+
+Key events and Intervals
+Can view Key event and Interval field values.
+
+Can manage Key event and Interval field values.
+
+Time tracking
+Can report time and submit timesheets.
+
+Can approve timesheets, Global, for all team members.
+
+Can add or change time entries while approving.
+
+Can approve their own timesheets.
+
+Resource management
+Can view allocation totals.
+
+Can turn auto-allocations on/off for a project.
+
+Can manage level of effort planning.
+
+Can raise a resource request for a project.
+
+Financials
+Can view financial fields and numbers.
+
+Can view Budgets and Revenue.
+
+Can view Bill rates.
+
+Cannot view Cost, Profit and margins.
+
+Can change billing type.
+
+Can change budgeted amount.
+
+Can change budgeted hours.
+
+Can apply and manage standard rate cards.
+
+Can apply and manage project-specific rate cards.
+
+Cannot manually override bill rates.
+
+Can manually override cost rates.
+
+Can edit currency on projects.
+
+Can edit subscription fields.
+
+Revenue recognition entry
+Can view revenue recognition entries.
+
+Can create revenue recognition entries.
+
+Can manage revenue recognition entries.
+
+Invoicing
+Can access invoices.
+
+Can create and edit invoices.
+
+Can request for approvals on invoices.
+
+Can edit approval requests on invoices.
+
+Can approve or reject approval requests assigned to them.
+
+Can approve or reject any approval requests on invoices.
+
+Can manually override invoice status to approved.
+
+Can create and manage payment records.
+
+Can create and manage write-off records.
+
+Can void an invoice.
+
+Can delete an invoice.
+
+Can apply a credit note to an invoice.
+
+Can remove an applied credit note from an invoice.
+
+Can view billing events for the project.
+
+Can create and manage billing events for the project.
+
+Credit notes
+Can access credit notes and invoices.
+
+Can create and edit credit notes.
+
+Can void a credit note.
+
+Can delete a credit note.
+
+Expenses
+Can create and manage expense budgets.
+
+Can view expenses and expense reports.
+
+Can create expenses and expense reports.
+
+Can submit expenses and expense reports.
+
+Can manage expenses and expense reports.
+
+Cannot manage billable defaults.
+
+Can approve or reject any expense.
+
+Customer team member fields
+Can view customer team member field values.
+
+Can edit customer team member field values.
+
+Change customer portal
+Can change customer portal from the project settings page.
+
+Spotlight
+Can add or remove spotlight on resources.
+
+Sheet Sheets
+
+Can view sheet tabs.
+
+Can create sheet tabs.
+
+Can edit sheet tab properties: assignee, status, due date, conditional highlights.
+
+Cannot rename a sheet tab.
+
+Can delete sheet tabs, Created by user.
+
+Can edit sheet properties: freeze, versions, comments, visualisations, run a scenario.
+Sheet tab
+
+Can view sheet columns.
+
+Can create sheet columns.
+
+Can edit sheet cell values.
+
+Can edit sheet column options.
+
+Can delete sheet columns, Created by user.
+
+Can manage sheet settings.
+Sheet settings
+
+Can create new sheet fields.
+
+Can edit existing sheet fields.
+
+Can delete sheet fields.
+
+Can create new sheet field sections.
+
+Can create sheet column sections.
+
+Can manage sheet permissions, All groups.
+Sheet field values
+
+Can view sheet field values.
+
+Can edit sheet field values.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Difference & Precedence Between Account and Project Level Permissions
+
+How to set up permissions for team members and customers (RBAC)
+
+Phase Level Effort Planning on Rocketlane
+
+Customer User Permissions in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

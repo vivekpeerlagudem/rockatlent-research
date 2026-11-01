@@ -1,0 +1,377 @@
+TITLE: Excluding Meetings and Emails from Capture : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000757523-excluding-meetings-and-emails-from-capture
+
+Excluding Meetings and Emails from Capture : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Excluding Meetings and Emails from Capture
+
+Excluding Meetings and Emails from Capture
+
+Created by Advaith R, Modified on Thu, 29 Oct at 7:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+Not every conversation should be captured in Rocketlane. Internal finance calls, legal discussions, interviews, and interactions with customers who have asked not to be recorded may appear in the same calendars and mailboxes used for customer work.
+
+Exclusions tell Rocketlane which meetings and email threads to skip. You can create rules based on participants, email domains, text within email addresses, meeting titles, and email subjects.
+
+In this article
+
+Before You Start
+
+How Exclusions Work
+
+Types of Exclusions
+
+Exclude People and Domains
+
+Exclude Meetings and Emails by Keyword
+
+Edit or Delete an Exclusion
+
+Exclusions or Internal Domains?
+
+FAQ
+
+Summary
+
+Before You Start
+
+To manage exclusions:
+
+Exclusions must be enabled for your account.
+
+You need the Can manage exclusion list permission under Interaction intelligence .
+
+If you cannot find Exclusions under Settings > AI capabilities , check your permissions or contact your Rocketlane account team.
+
+How Exclusions Work
+
+Rocketlane checks new meetings and email threads against the rules configured on the Exclusions page.
+
+Interaction What happens when it matches an exclusion
+Meeting Rocketlane’s recorder does not join, and the meeting is not processed.
+Email thread Rocketlane skips the thread.
+
+Note Exclusions apply only to new meetings and emails. Adding an exclusion does not remove meetings or email threads that Rocketlane has already captured.
+
+For more information about how Rocketlane captures meetings and emails, see Enabling Meeting Intelligence in Rocketlane (For Admins) and Email Intelligence: How Email Ingestion Works .
+
+Types of Exclusions
+
+The Exclusions page contains two tabs.
+
+Tab Excludes interactions based on Examples
+People and domains The email addresses or domains of the participants finance@acme.com , acme.com , finance
+Keywords The meeting title or email subject Internal training , bank , legal notice
+
+How Rocketlane Interprets People and Domain Exclusions
+
+You do not need to select an exclusion type. Rocketlane determines it from the value you enter.
+
+Value entered Exclusion type What it matches
+A value containing @ , such as finance@acme.com Email address That exact email address
+A value containing a dot but no @ , such as acme.com Domain Email addresses using that domain or one of its subdomains, such as us.acme.com
+A value without a dot or @ , such as finance Text in email address Any email address containing that text, such as finance@acme.com or finance-ops@beta.com
+
+Important Use text-based exclusions carefully. A short value such as ops matches every email address containing those letters, including addresses you may not intend to exclude.
+
+Exclude People and Domains
+
+Use the People and domains tab when meetings or email threads involving a particular person, organization, or email-address pattern should not be captured.
+
+Go to Settings > AI capabilities > Exclusions .
+
+Open the People and domains tab.
+
+Select + Add exclusion .
+
+Enter an email address, domain, or text that appears in an email address.
+
+Under Apply to , select Meetings , Email , or both.
+
+Select Add exclusion .
+
+Both interaction types are selected by default. At least one must remain selected.
+
+Rocketlane displays a confirmation and adds the rule to the list.
+
+Column What it shows
+Excluded The value and its detected type, such as Email address, Domain, or Text in email address
+Applies to Meetings and email, Meetings only, or Email only
+Added on When the exclusion was created
+Added by Who created the exclusion
+
+Note Excluding a domain also excludes its subdomains. For example, excluding acme.com also covers us.acme.com and eu.acme.com .
+
+Note Each value can have only one rule. If the value already exists, Rocketlane displays A rule with the same value already exists . Edit the existing rule instead of creating another one.
+
+Exclude Meetings and Emails by Keyword
+
+Use the Keywords tab when interactions should be excluded based on their meeting title or email subject.
+
+Go to Settings > AI capabilities > Exclusions .
+
+Open the Keywords tab.
+
+Select + Add keyword .
+
+Enter a word or phrase under Keyword or phrase , such as bank or legal notice .
+
+Under Where we look , select Meeting title , Subject line , or both.
+
+Configure the matching options.
+
+Select Add keyword .
+
+Both locations are selected by default. At least one must remain selected.
+
+Keyword Matching Options
+
+Option Default How it works
+Whole words only On Matches the keyword as a complete word. For example, bank matches bank review but not Fairbank or bankofamerica.com .
+Match case Off When enabled, capitalization must match. For example, Bank matches Bank but not bank .
+
+The Keywords list shows each keyword, where Rocketlane looks for it, and how the keyword is matched.
+
+Tip Rocketlane checks the subject of every message in an email thread, including replies and forwards. If the subject changes during the conversation and the updated subject contains an excluded keyword, Rocketlane skips the thread.
+
+Edit or Delete an Exclusion
+
+You can update or remove rules from either exclusion tab.
+
+Go to Settings > AI capabilities > Exclusions .
+
+Open the tab containing the rule.
+
+Open the rule’s More actions menu.
+
+Select one of the following:
+
+Action What it does
+Edit Opens the rule for changes. Update the rule and select Save changes .
+Delete Removes the rule immediately.
+
+Note Rocketlane does not ask for confirmation before deleting an exclusion.
+
+Deleting a rule affects future meetings and emails only. Meetings or emails previously skipped by the rule are not restored.
+
+Exclusions or Internal Domains?
+
+Exclusions and Internal Domains are both available under Settings > AI capabilities , but they serve different purposes.
+
+Goal Use
+Prevent new meetings or email threads involving a particular person, domain, address pattern, or keyword from being captured Exclusions
+Identify the email domains that belong to your organization Internal domains
+
+To stop capturing interactions with a customer, add the customer’s domain as an exclusion.
+
+Do not add the customer’s domain as an internal domain. Rocketlane would treat the customer’s participants as members of your organization, which can affect how meetings and emails are associated with that customer.
+
+For more information, see Managing Internal Domains for Meetings and Emails and How Rocketlane Matches Meetings to Customers .
+
+FAQ
+
+Can I exclude meetings but continue capturing emails?
+
+Yes. When adding or editing a rule on the People and domains tab, select Meetings and clear Email .
+
+You can also apply a rule only to emails or to both interaction types.
+
+What happens to meetings and emails that were already captured?
+
+They remain available in Rocketlane. Exclusions apply only to new meetings and emails.
+
+Does excluding a domain include its subdomains?
+
+Yes. Excluding acme.com also excludes email addresses using subdomains such as us.acme.com and eu.acme.com .
+
+How do I exclude everyone with “finance” in their email address?
+
+Enter finance on the People and domains tab.
+
+Because the value does not contain @ or a dot, Rocketlane treats it as text in an email address. It matches addresses such as finance@acme.com and finance-ops@beta.com .
+
+Why didn’t the keyword “bank” exclude a meeting called “Fairbank kickoff”?
+
+Whole words only is enabled by default. This means bank does not match when it appears inside another word, such as Fairbank .
+
+Turn off Whole words only if the keyword should match anywhere within the meeting title or email subject.
+
+Should I add a customer’s domain as an internal domain or an exclusion?
+
+Use an exclusion when you want to stop capturing new interactions involving that customer.
+
+Internal domains should contain only domains used by your own organization.
+
+Does an exclusion remove Rocketlane’s access to my mailbox or calendar?
+
+No. Exclusions control which meetings Rocketlane records and which email threads it captures. They do not change the access granted when you connected your calendar or mailbox.
+
+To stop recording or capturing entirely, see Disable Meeting Intelligence and Recording Sources .
+
+Why can’t I add an exclusion?
+
+A rule with the same value may already exist, even if the capitalization is different. Find and edit the existing rule instead.
+
+Why can’t I find the Exclusions page?
+
+The page appears only when Exclusions is enabled for your account and you have the Can manage exclusion list permission.
+
+Check your role permissions or contact your Rocketlane account team if the feature needs to be enabled.
+
+Summary
+
+Exclusions prevent Rocketlane from capturing new meetings and email threads that match a configured rule.
+
+Rules can match an email address, domain, text within an email address, meeting title, or email subject.
+
+People and domain rules can apply to meetings, emails, or both.
+
+Keyword rules can check meeting titles, email subjects, or both.
+
+Domain exclusions also cover subdomains.
+
+Exclusions affect new interactions only. Previously captured or skipped interactions are not changed.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Disable Meeting Intelligence and Recording Sources
+
+Managing Internal Domains for Meetings and Emails
+
+Creating and Managing Nitro Pages in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

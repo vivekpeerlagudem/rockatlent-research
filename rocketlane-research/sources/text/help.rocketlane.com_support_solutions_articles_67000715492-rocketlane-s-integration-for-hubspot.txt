@@ -1,0 +1,236 @@
+TITLE: Rocketlane's Integration for HubSpot : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000715492-rocketlane-s-integration-for-hubspot
+
+Rocketlane's Integration for HubSpot : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+Rocketlane's Integration for HubSpot
+
+Rocketlane's Integration for HubSpot
+
+Created by Niharika Pandey, Modified on Thu, 9 Jul at 4:39 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane's Integration for HubSpot
+
+No article available
+
+In this article
+
+Integrating HubSpot with Rocketlane
+
+Automating project creation using HubSpot workflows
+Field mapping reference
+
+Enabling fields sync between HubSpot and Rocketlane
+
+One-way and two-way sync compatibility
+
+The Rocketlane HubSpot integration allows you to automatically create projects and sync data seamlessly between HubSpot and Rocketlane.
+HubSpot is a CRM platform with all the software, integrations, and resources you need to connect marketing, sales, content management, and customer service. With HubSpot Workflows, you can use all the client data in HubSpot CRM to define automated processes. This integration enables you to seamlessly hand off work between teams - for example, when deals or tickets close in HubSpot, you can trigger automated project creation in Rocketlane.
+
+Integrating HubSpot with Rocketlane
+
+Click your profile icon in the bottom-left corner of the Rocketlane dashboard and select Settings . In the left sidebar, go to Partners > Integrations .
+
+On the Integrations page, locate the HubSpot card and click it to open the connection settings.
+
+You are redirected to the Connection tab on the HubSpot integration page. Click Login under Connect to HubSpot . This redirects you to HubSpot to securely authorize the connection.
+
+Select the HubSpot account you want to connect to Rocketlane, then click Choose Account .
+
+Review the permissions requested by Rocketlane to manage and view your CRM data.
+
+Review the HubSpot authorization agreement and click Connect app .
+
+[image: HubSpot authorization agreement checkbox and Connect app button]
+
+HubSpot redirects you back to Rocketlane with a success confirmation. Your HubSpot account is now integrated with Rocketlane.
+
+Automating project creation using HubSpot workflows
+The HubSpot integration lets you create a deal-based workflow that automatically creates a Rocketlane project when a deal reaches configured stages.
+
+In HubSpot, go to Automation > Workflows and click Create workflow . Select From scratch .
+
+Configure the trigger criteria. Select Record meets a set of filter conditions , choose Deal as the record type, and set Deal stage to any of the following: Closed Won (Sales Pipeline), Contract Sent (Sales Pipeline), Closed Won (Implementation Pipeline), or Contract Sent (Implementation Pipeline). You can test the criteria by selecting a sample deal.
+
+Click Next to open the Settings step. Turn Re-enroll on so deals can re-enroll in the workflow when they meet the trigger criteria again.
+
+Click Save and continue to open the workflow builder. Click the + icon to add a new action.
+
+In the action sidebar, go to Integrated Apps > Rocketlane and select Create Project .
+
+Configure the Rocketlane action by mapping HubSpot properties to Rocketlane fields, then click Save . Click the + icon to add a new action.
+
+From the Choose an action dialog box, go to Rocketlane > Rocketlane Create Project .
+
+Fill in the Rocketlane project details using HubSpot properties, then click Save .
+
+Click Review and turn on from the top right of the screen to review your automation workflow.
+
+In the Review Workflow panel, review enrollment, timing and performance, and connections. Enter a descriptive workflow name, then click Turn on workflow .
+
+Note You can only work with Contact-based, Company-based, Deal-based, Ticket-based, and custom objects in HubSpot to create a Rocketlane project automation workflow.
+
+Troubleshooting If you do not see the Rocketlane Create Project action, go back to Rocketlane and check that your HubSpot account is connected and that you have selected supported objects for the enrollment triggers. Contact care@rocketlane.com if you still face issues.
+
+Field mapping reference
+When configuring the Rocketlane Create Project action, map HubSpot properties to Rocketlane fields as follows:
+Rocketlane field What to map from HubSpot
+Associated RL Account Choose the Rocketlane account that has the HubSpot integration enabled.
+Project Name Deal Name (Enrolled deal)
+Project Start Date Create Date (Enrolled deal)
+Project End Date Close Date (Enrolled deal)
+Company Company Name (Contact: Most recently updated)
+Project Owner Deal owner (Enrolled deal)
+Template Choose a template from your Rocketlane account to use when creating the project.
+Once your workflows are up and running, go to the Field sync page to set up how data syncs between HubSpot and Rocketlane.
+
+Enabling fields sync between HubSpot and Rocketlane
+Fields sync allows one-way and two-way flow of data between HubSpot and Rocketlane. In this section you can map fields between your Rocketlane project and HubSpot objects such as Deals.
+
+In Rocketlane, go to Settings from the sidebar. In the left navigation, scroll to Integrations and select the HubSpot card. Open the Fields sync tab and click Add a HubSpot object .
+
+Select the HubSpot objects that you have used in your automation workflows, then click OK .
+
+Map HubSpot fields to Rocketlane project fields. Under the HubSpot column, choose the HubSpot object's fields and any referenced object fields.
+
+Under the Rocketlane column, choose the project fields that correspond to the HubSpot fields.
+
+Use the directional arrow button to set the direction of sync between HubSpot and Rocketlane fields.
+
+Note Select HubSpot objects that you have used in your automation workflows.
+
+One-way and two-way sync compatibility
+The following table lists compatibility and data flow directions between HubSpot and Rocketlane field types.
+HubSpot field type Sync direction Rocketlane field type
+Calculation HS → RL Text, Multiline, Number, Boolean (based on formula result type)
+Score HS → RL Text, Multiline, Number, Boolean (based on formula result type)
+Single checkbox (Yes/No) HS ↔ RL Boolean
+Currency HS ↔ RL Number
+Date HS ↔ RL Text, Multiline, Date
+HTML HS ↔ RL Text, Multiline
+Number HS ↔ RL Number, Text
+Radio select / Dropdown select (Single-select) HS ↔ RL Single-select, Text, Multiline
+Multiple checkboxes (Multi-select) HS ↔ RL Multi-select, Text, Multiline
+String HS ↔ RL Text, Multiline
+Date time HS → RL Text, Multiline, Date Time
+File HS ↔ RL Text, Multiline
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

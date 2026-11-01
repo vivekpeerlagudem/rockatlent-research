@@ -1,0 +1,152 @@
+TITLE: The 4 Letters to better Customer Experience : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746451-the-4-letters-to-better-customer-experience
+
+The 4 Letters to better Customer Experience : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Best Practices & Shortcuts
+The 4 Letters to better Customer Experience
+
+The 4 Letters to better Customer Experience
+
+Created by Advaith R, Modified on Fri, 25 Jul, 2025 at 6:10 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Best Practices for Users
+
+Setting Up Dashboards to Track Key Metrics
+
+The 4 Letters to better Customer Experience
+
+No article available
+
+A common challenge we see customers face when executing projects is that they struggle to capture the full picture of their users' experience, as they rely solely on post-launch feedback. This can leave you in the dark since you never get clarity on the customer’s journey and their experiences at every milestone. The key to solving this is to gather feedback at the right moments during your project.
+
+Here are two quick tips you can implement today in Rocketlane to stay ahead and ensure your projects deliver world class customer experience:
+
+Use a Milestone-Based CSAT Tracker : Monitor customer satisfaction at crucial stages of your project by leveraging Rocketlane's CSAT tracker for milestone tasks . Make sure to enable CSAT in any of these milestone tasks to ensure customers receive a notification on their homepage to rate each task upon completion (on a scale of 1 to 5). This approach allows you to gather detailed, real-time feedback throughout the various phases of your project, helping you identify and address any issues promptly.
+
+To do this, navigate to: Templates>Project templates>select a Milestone task>Task details>Additional info>toggle on CSAT
+
+Detailed Feedback Post-Launch : Use a comprehensive CSAT form to collect in-depth insights about the entire project by including relevant questions that cover various processes throughout the project such as ease of setup, support quality etc. You can also capture pain points, and areas of improvement throughout each phase. This allows you to gain a better understanding of the overall customer experience, similar to this form .
+
+To create a form, follow these steps and then attach the form to your project, so that customers can fill it out after project completion.
+
+Implementing these tips will ensure a smoother customer journey and stronger relationships.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Hide the Effort Column from the Customer Portal Task List
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Automating CSAT Score Updates From Form Responses
+
+Embedding your portal on On Prem and Cloud Solutions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,553 @@
+TITLE: How to get started with Rocketlane's Integration for Slack? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000696056-how-to-get-started-with-rocketlane-s-integration-for-slack-
+
+How to get started with Rocketlane's Integration for Slack? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+How to get started with Rocketlane's Integration for Slack?
+
+How to get started with Rocketlane's Integration for Slack?
+
+Created by Niharika Pandey, Modified on Mon, 15 Jun at 8:32 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Integrations
+
+Articles in this series
+
+How to get started with Rocketlane's Integration for Slack?
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+No article available
+
+Rocketlane’s Slack integration helps teams receive project updates, collaborate on project work, and take action on Rocketlane tasks directly from Slack.
+
+With the integration, Rocketlane can send project-related updates to Slack channels, create dedicated Slack channels for projects, notify users through the Rocketlane Slack app, and support task actions such as updating task status, changing assignees, updating due dates, and replying to task conversations from Slack.
+
+Customers can also connect their Slack workspace to receive updates for project-related activities.
+
+Connect Rocketlane to Slack
+
+Click your Profile icon from the left navigation bar.
+
+Go to Settings.
+
+Navigate to Integrations → Slack Integration.
+
+Click Add to Slack.
+
+Select the Slack workspace where Rocketlane should send updates.
+
+Click Allow to grant Rocketlane the required Slack permissions.
+
+Once authorization is complete, the Slack workspace is connected to Rocketlane.
+
+Configure Slack Channel Settings
+Rocketlane can send project updates to Slack in two ways:
+
+Create a new Slack channel for each project.
+
+Send updates from all projects to a single Slack channel.
+To configure this:
+
+Go to Settings → Integrations → Slack Integration.
+
+Open Slack Channel Settings.
+
+Choose how Rocketlane should send project updates.
+
+Create a new Slack channel for each project
+Select this option when each Rocketlane project should have its own dedicated Slack channel.
+When this option is enabled:
+
+A Slack channel is created when a new project is created.
+
+For existing projects, Rocketlane creates the Slack channel when there is an update in the project.
+
+Project-related updates are sent to that project’s dedicated Slack channel.
+
+Project members can collaborate in the same channel where updates are posted.
+This option is recommended when each project needs a focused collaboration space.
+
+Create private Slack channels for projects
+Rocketlane supports creating private Slack channels for project-specific collaboration.
+Use private project channels when project discussions should be visible only to invited members instead of everyone in the connected Slack workspace.
+Private Slack channels are useful for:
+
+Confidential customer projects
+
+Executive or strategic initiatives
+
+Sensitive internal planning
+
+Reducing visible channel clutter in Slack
+
+Reauthenticate Slack to enable private project channels
+If the Slack workspace was connected before private channel creation was enabled, reauthenticate the workspace to grant Rocketlane the permissions required to create private Slack channels.
+To reauthenticate:
+
+Go to Settings → Integrations → Slack .
+
+Click Reauthenticate for the connected Slack workspace.
+
+Complete the Slack authorization flow.
+
+Return to Rocketlane.
+After reauthentication, the Make project channels private option appears under Slack channel settings.
+
+Make project channels private
+
+Go to Settings → Integrations → Slack .
+
+Open Slack Channel Settings .
+
+Select Create a new Slack channel for each project to share updates .
+
+Enable Make project channels private .
+
+Save the settings.
+Once enabled, newly created project channels are created as private Slack channels. Only invited members can access these channels.
+Note: This setting applies to project channels created by Rocketlane after the option is enabled.
+
+Send updates to a single Slack channel
+Select this option when updates from all Rocketlane projects should be sent to one Slack channel.
+To configure this:
+
+Select Send updates to a single Slack channel .
+
+In the Choose Slack channel dialog, select the Slack channel where project updates should be sent.
+
+Click Save .
+Use this option when your team prefers a central channel for all Rocketlane project notifications.
+
+Configure Slack Channel Members
+Choose which team members should be automatically added to project Slack channels.
+
+Add project team members
+When this option is enabled, Rocketlane adds all project team members to the project’s Slack channel.
+If new team members are added to the project in Rocketlane, they are also added to the Slack channel.
+
+Add default members to every project channel
+You can also add specific members from your organization as default members to every project Slack channel.
+Use this when certain team members need visibility into all project updates, even if they are not part of every project team.
+For example:
+
+Delivery leaders
+
+Project operations managers
+
+Executive sponsors
+
+PMO team members
+
+Select Notifications to Send to Slack
+Rocketlane lets you choose the types of project updates that should be sent to Slack channels.
+Go to Settings → Integrations → Slack Integration → Send Notifications for the following .
+You can configure notifications for:
+
+Task updates
+Enable task notifications to send Slack updates for task-related activity.
+Depending on your configuration, this can include updates such as:
+
+Task creation
+
+Status changes
+
+Assignee changes
+
+Due date changes
+
+Other task activity
+
+Messages
+Enable message notifications to send Slack updates when team members post messages in:
+
+Task conversations
+
+Project chat
+
+Status updates
+
+Documents
+
+Configure Slack Notifications at the Project Level
+You can override Slack notification settings for an individual project.
+Use project-level Slack settings when a specific project should:
+
+Send notifications to a different Slack channel
+
+Stop sending Slack updates altogether
+
+Use a different collaboration channel from the default workspace-level configuration
+To configure Slack notifications for a project:
+
+Go to Projects .
+
+Open the project.
+
+Go to Project Settings .
+
+Select Slack notification .
+
+Choose one of the available options.
+
+Change the Slack channel for a project
+
+In Slack notification , click Change .
+
+Select the Slack channel where this project’s notifications should be delivered.
+
+Save the setting.
+All future Slack notifications for the project are sent to the selected channel.
+
+Disable Slack updates for a project
+Select I don’t want to receive Slack updates for this project .
+When this option is selected, Rocketlane does not send updates from that project to any Slack channel.
+
+Add the Rocketlane App to Slack
+The Rocketlane app in Slack lets users view assigned tasks, receive direct notifications, and create tasks from Slack.
+To add the Rocketlane app:
+
+Open Slack.
+
+Click Browse apps or Add apps under Apps .
+
+Search for Rocketlane .
+
+Click the Rocketlane app.
+
+Add the app to Slack.
+Once added, open the Rocketlane app in Slack.
+The Home page shows tasks assigned to you. You can filter tasks by:
+
+All open tasks assigned to you
+
+Tasks due this week
+
+Project
+
+Note: Project update notifications as direct messages and assigned tasks on the Rocketlane app Home page appear only when the email address used in Slack matches the email address used in Rocketlane.
+Configure Rocketlane App Notifications on Slack
+You can choose which personal Rocketlane notifications should be sent to you on Slack.
+To configure Slack notifications:
+
+In Rocketlane, go to Settings .
+
+Go to Notifications .
+
+Under the Slack column, select or clear the checkboxes for the notifications you want to receive.
+
+You can configure Slack notifications for updates related to:
+Messages
+
+Tasks
+
+Forms
+
+Documents
+
+Date changes
+
+Reminders
+
+Explore Slack Integration Features in a Project
+After configuring the Slack integration, create a project to see how Rocketlane sends project updates and enables task actions from Slack.
+
+Create a project and verify the Slack channel
+
+Go to Projects → New Project .
+
+Add the necessary project information.
+
+Click Create project .
+Rocketlane creates a Slack channel with the project name and automatically adds the project members to the channel.
+You will receive updates in the Slack channel when team members make changes in the project.
+For example, when a new phase is created in Rocketlane, a notification is posted in the project’s Slack channel.
+
+Open the project plan from Slack
+
+Open the project notification in Slack.
+
+Click View Project Plan .
+Rocketlane redirects you to the project plan page.
+
+Open a task from Slack
+
+Open the task notification in Slack.
+
+Click View Task .
+
+Send a task message from Slack
+Use Message to send public or private messages to the task’s Conversations tab.
+
+Open the task notification in Slack.
+
+Click Message .
+
+In the Send a task message dialog, choose whether the message should be public or private .
+
+Enter the message.
+
+Click Send .
+The message appears in the task’s Conversations tab in Rocketlane with a Slack icon, indicating that it was sent from Slack.
+*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]" data-scroll-anchor="false" data-testid="conversation-turn-204" data-turn="assistant" data-turn-id="request-691dae16-a964-8010-8da0-1dccd26259be-5" data-turn-id-container="request-691dae16-a964-8010-8da0-1dccd26259be-5" dir="auto">
+Use additional task actions
+The overflow icon in the Slack task notification gives additional options to update the task from Slack.
+Use it to:
+
+Change the task assignee
+
+Update the task status
+
+Update the task due date
+
+These actions update the task in Rocketlane.
+Change task assignees from Slack
+
+Open the Slack notification for the task.
+
+Click the overflow icon.
+
+Select Change Assignee .
+
+In the Update Assignment dialog, add or remove assignees.
+
+Click Assign .
+To remove an existing assignee, click the x icon next to the assignee.
+
+Update task status from Slack
+
+Open the Slack notification for the task.
+
+Click the overflow icon.
+
+Select Update Status .
+
+In the Update Status dialog, select the required status.
+
+Click Set Status .
+The task status is updated in Rocketlane.
+
+Update task due date from Slack
+
+Open the Slack notification for the task.
+
+Click the overflow icon.
+
+Select Update Due Date .
+
+In the Update due date dialog, choose the new due date.
+
+Click Submit .
+The task due date is updated in Rocketlane.
+
+Create Rocketlane Tasks from Slack
+You can create Rocketlane tasks directly from Slack in three ways.
+
+Create a task using the slash command
+
+Open the relevant Slack channel.
+
+Type: /rocketlane create
+
+Add the task name after the command.
+
+Complete the fields in the Create a task dialog.
+
+Create the task.
+The task is created in Rocketlane.
+
+Create a task using Slack shortcuts
+
+In Slack, click the + icon near the message field.
+
+Search for Create Task with Rocketlane .
+
+Select the shortcut.
+
+Fill in the task details.
+
+Create the task.
+
+Create a task from an existing Slack message
+
+Hover over the Slack message.
+
+Click More actions .
+
+Select Create task with Rocketlane .
+
+Fill in the task details.
+
+Create the task.
+Use this option when a Slack conversation needs to be converted into trackable project work in Rocketlane.
+
+Group Slack Notifications
+When multiple actions happen in a project within a short period, Rocketlane groups Slack notifications to reduce noise.
+Grouped notifications help prevent Slack channels from being flooded with individual updates.
+
+Group by task
+When multiple actions are performed on the same task within a short period, Rocketlane groups them into one Slack notification.
+The grouped message includes the details of all actions performed on that task.
+
+Group by event
+When multiple similar events happen within a short period, Rocketlane groups them into one Slack notification.
+The grouped message includes the details of the related events.
+
+Add Digest Notifications
+Digest notifications send a summary of project activity at the beginning and end of the work week.
+Digest behavior depends on your Slack channel configuration:
+
+If each project has a dedicated Slack channel, Rocketlane sends one digest notification to each project channel.
+
+If all project updates are sent to a single Slack channel, Rocketlane sends one digest notification per project to that channel.
+
+Start-of-week digest notifications
+Start-of-week digest notifications include:
+
+Tasks starting this week
+
+Tasks due this week
+
+Tasks overdue from last week
+
+End-of-week digest notifications
+End-of-week digest notifications include:
+
+Tasks completed this week
+
+Tasks overdue from previous week
+
+Send Automation Notifications to the Project’s Linked Slack Channel
+When configuring Slack notifications in Rocketlane automations, you can select Channel Linked to this Project .
+This sends automation notifications to the Slack channel associated with the project where the automation is triggered.
+This is useful when each project has its own Slack channel, because automation messages are routed to the right project channel automatically.
+If a project has a custom Slack channel configured at the project level, automation notifications are sent to that channel. If Slack updates are disabled for the project, automation notifications follow that project’s Slack notification setting.
+To configure this:
+
+Go to Settings → Automations .
+
+Create or edit an automation.
+
+Add a Slack notification action.
+
+Select Channel Linked to this Project as the Slack destination.
+
+Save the automation.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+The Workato Rocketlane Integration
+
+Getting started with Rocketlane's Jira Integration
+
+How to setup the Rocketlane Salesforce Integration?
+
+Rocketlane's Integration for HubSpot
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

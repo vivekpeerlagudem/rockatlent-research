@@ -1,0 +1,245 @@
+TITLE: Basics of Project Tasks : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000699662-basics-of-project-tasks
+
+Basics of Project Tasks : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Basics of Project Tasks
+
+Basics of Project Tasks
+
+Created by Niharika Pandey, Modified on Wed, 21 Oct at 6:40 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Project Management
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+Each project phase consists of tasks, which make it easier to delegate resources and manage the project at a more granular level.
+You can perform basic functions around a task, including adding assignees, start and end dates, and attachments. You can also add subtasks, create task dependencies, attach files, and have conversations around the task.
+This help article focuses on the actions that you can perform around a task.
+
+In this article
+
+Task pane properties
+
+More actions
+
+Task Info
+
+Additional Info
+
+Conversations
+
+Task pane properties
+Click on any task and edit the properties from the dialog box.
+
+Property Description
+Assign to Choose a team member or placeholder to assign to the task.
+Due Date Set a due date for the task.
+Task status Set any custom status according to your choice.
+Add time Track the number of hours you spent working on the task.
+Click to copy task link Lets you copy the link to the current task.
+Task followers Task followers get notified whenever a change is made to the task.
+
+More actions
+
+Action Description
+Convert to milestone / Convert to task Converts the task to a milestone, or a milestone back to a task. Milestones mark significant project checkpoints and can trigger a CSAT survey when completed.
+Mark as 'At risk' / Remove 'At risk' Flags the task as at risk, or removes the flag.
+Mark task as private / Mark task as shared Hides the task from customers, or shares it with them.
+Move to a phase Moves the task to another phase in the project. Available for top-level tasks.
+Remove as subtask Turns a subtask into a standalone task. Available for subtasks.
+Add task to sprint Adds the task to a sprint. Available to users with write access to sprints.
+Rearrange tasks Opens the Rearrange tasks window with this task selected, where you can move it to a new position in the project plan.
+Request approval Opens the Approvals tab, where you choose approvers, set a due date, add a note, and click Request .
+
+Duplicate task / Duplicate subtask Creates a copy of the task or subtask.
+Add spotlight / Remove spotlight Pins the task to the project's spotlight, or removes it.
+Create a Jira issue Creates a Jira issue from the task. Available when Jira is connected.
+Link a Jira issue Links an existing Jira issue. Paste the Jira issue URL and click Link a Jira issue .
+Follow task / Unfollow task Starts or stops notifications for changes to the task.
+Manage followers... Adds or removes followers on the task.
+Delete Deletes the task.
+Note You cannot delete a task that is part of a project's revenue recognition plan. Remove it from the plan first.
+
+Task Info
+
+Section Description
+Description Add a description for the task.
+Add a private note Add a private note to the task.
+Attachments Browse for a file from your PC and attach it to the task.
+Subtasks Add subtasks to be linked to the current task.
+Dependencies Add or remove tasks that are dependent on the current task.
+
+Additional Info
+
+Task fields
+
+Field Description
+Created by Mentions the team member who created the task.
+Created on Mentions the date the task was created.
+Completed on Mentions the date of completion in case of completed tasks.
+Started on Start date of the task.
+Effort The effort is the estimated time in hours required to execute the task.
+Progress Use the slider to indicate the progress of the task.
+Priority Set a priority to the task. Choose from High, Medium, and Low.
+Note To find a Task ID in Rocketlane, open the task and check the browser URL (or click Copy link). The URL ends with #task_drawer=<projectId>.<taskId> - the number after the dot is the Task ID. For automated workflows, retrieve the Task ID via Rocketlane’s public API.
+
+Time entry and allocation settings
+These settings are applied by default when time entries or allocations are created for the task, and can be changed on each entry or allocation if needed.
+
+Setting Description
+Billable Sets whether time entries and allocations for this task default to billable or non-billable. In auto-allocated projects, changing this setting also updates the billable status of the task's existing allocations. The setting is disabled when every budget in the project is Non billable.
+Category Sets the default category for time entries on this task.
+Note This section appears when Timesheets is enabled. Users with read access to Timesheets or Resource allocation can view it. Users with write access to either can edit it.
+
+Conversations
+Send messages to team members in the project and share important files.
+
+Action Description
+Private Messaging Allows you to send private messages on the chat that will only be visible to the project's team members from your organisation.
+Attach Files Browse for files from your PC and attach them to the conversation.
+Add an emoji Add emoji to the chat.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

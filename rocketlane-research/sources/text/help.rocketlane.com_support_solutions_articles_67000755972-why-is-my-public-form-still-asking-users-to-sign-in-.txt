@@ -1,0 +1,210 @@
+TITLE: Why is my public form still asking users to sign in? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755972-why-is-my-public-form-still-asking-users-to-sign-in-
+
+Why is my public form still asking users to sign in? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why is my public form still asking users to sign in?
+
+Why is my public form still asking users to sign in?
+
+Created by Advaith R, Modified on Tue, 8 Sep at 4:02 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+General FAQs
+
+Rocketlane Support - How to reach us!
+
+Why am I receiving an error while performing an action?
+
+Resolving Webhook Issues Between Rocketlane and Zoho
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+We've ended our services with Rocketlane. How do we ensure our customers stop receiving emails, and what is Rocketlane's policy for data retention and deletion?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Why can't I see activity logs in the project chat?
+
+Why can't I add a Partner User, even though I have available licenses?
+
+How to Generate HAR
+
+The "Open Conversation" button in my email notifications doesn't redirect me to the Rocketlane Portal. How do I fix this?
+
+How can I tell if a task is private or visible to a customer?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+How to Troubleshoot and Manage Visibility Issues in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Why am I getting a rate limit error during bulk updates?
+
+Why is my public form still asking users to sign in?
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+No article available
+
+When you update a Form Template's sharing setting to Anyone with the link , the change applies only to form tasks created after the update.
+Form tasks inherit the sharing permissions that were active on the form template at the time the task was created. Updating a form template does not retroactively change the access permissions of existing form tasks.
+In this article
+
+Why existing form links still ask for login
+
+Resolve the issue
+
+Verify public link access
+
+Why existing form links still ask for login
+If a form task was created before the template's sharing setting was changed, that task continues to use the earlier permission setting. This means its form link may still ask users to sign in, even if the form template is now set to Anyone with the link .
+To apply the updated sharing setting, create a new form task from the updated template and share the newly generated link.
+Note Updating a Form Template's sharing setting does not update links for form tasks that already exist.
+
+Resolve the issue
+
+Go to Templates > Forms .
+
+Open the required form template.
+
+Under Form Settings , verify that Sharing is set to Anyone with the link .
+
+Save the template, if needed.
+
+Go to the project where the form should be used.
+
+Add or create a new task using that form template.
+
+Copy and share the newly generated form link from the new form task.
+
+Verify public link access
+
+Verify the form template setting: Go to Templates > Forms , open the form template, and confirm that Sharing is set to Anyone with the link .
+
+Generate a new form task: Add a new task using this form template within your project.
+
+Test the public link: Copy the public link from the new form task and open it in a private or incognito browser window.
+If the sharing setting is applied correctly, the web form opens immediately without prompting for a Rocketlane login.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+General FAQs
+
+Updating SSO for Rocketlane's Authentication Migration
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

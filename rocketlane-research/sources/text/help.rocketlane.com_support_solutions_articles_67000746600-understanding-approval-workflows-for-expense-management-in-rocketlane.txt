@@ -1,0 +1,210 @@
+TITLE: Understanding Approval Workflows for Expense Management in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746600-understanding-approval-workflows-for-expense-management-in-rocketlane
+
+Understanding Approval Workflows for Expense Management in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Created by Advaith R, Modified on Fri, 12 Sep, 2025 at 6:21 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introducing Expense Management in Rocketlane
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Custom Expense Fields in Rocketlane
+
+Expense Notifications in Rocketlane
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+No article available
+
+TABLE OF CONTENTS
+
+Setting Up an Approval Chain
+
+Setting Up Approval Workflows for Expense Management
+
+When generating expenses and expense reports, having an effective approval mechanism is essential. Companies can enforce their expense policies using approval routing. If you're familiar with the Expense Management module's setup, you'll know you can configure reports for auto-approval upon creation or approval by the project owner. Beyond these options, Rocketlane also offers a setting to trigger a custom approval workflow upon the creation of an expense report.
+Types of expense approvals:
+
+Auto approve: expense is approved when submitted
+
+Needs approval
+
+PO approves: PO approves all expenses inside their projects
+
+Custom routing: setup custom routing for expenses
+
+If Approval Workflow is selected in settings, submitted reports follow a custom logic chain (e.g., Team Lead or Finance Head).
+Each level in the chain must approve before the expense is finalized. Approval chains can be configured based on project, department, or team hierarchy.
+Approval workflows for expenses is an enterprise-only feature
+
+Setting Up an Approval Chain
+When configuring a workflow in Rocketlane, you have the option to Use Approval Chain . This allows you to set up a series of approvers (e.g., Team Lead → Finance Head ) who must approve an expense in sequence. To create an approval chain, follow these steps:
+
+Go to Settings in Rocketlane.
+
+Under Operations and Financials , click on Approval Workflows (located below the Expenses section).
+
+In the Approval Chain tab, click New Approval Chain to start creating a new chain for expense approval.
+
+Enter a name for the approval chain (e.g., Team Lead → Finance Head ).
+
+Under Step 1 , choose the approver(s) for the first level. You can also set a fallback approver if no value is found for the designated approver based on a field.
+
+After selecting your first approver, click Add Step to continue building the chain. In each subsequent step, assign the next approver. The approval will move from one step to the next once the previous approver has approved it.
+
+Once you’ve set up all steps and approvers, click Create to finalize the approval chain.
+
+You can now incorporate these created approval chains into your approval workflows.
+Note: In Expense approval chains, Expense owner's Single User custom field can be used as placeholder to set approver on the expense. This placeholder automatically gets resolved when an expense is submitted & the approval chain is attached to the expense.
+
+Setting Up Approval Workflows for Expense Management
+Follow these steps to set up approval workflows for expense management:
+
+Navigate to Settings in Rocketlane.
+
+Under Operations and Financials , click on Approval Workflows (found below the Expenses section).
+
+In the Workflows tab, click New Workflow to create a new expense approval workflow.
+
+A pop-up window will appear similar to the automation window, prompting you to configure the expense approval workflow. By default, the trigger is set to When Expense moves from Not Submitted to Submitted .
+
+In the Conditions block, define the relevant conditions that trigger the approval workflow for the selected projects (e.g., specific project types, departments, or teams).
+
+In the Action block, click Add Action and select Expense Actions . You’ll have the option to choose between Assign Approval or Auto Approve Expense .
+
+If you select Assign Approval , a new window will appear asking you to choose between Single Approver or Use Approval Chain .
+
+Single Approver : You’ll select the project members who will act as the approvers.
+
+Use Approval Chain : Set up a series of approvers (e.g., Team Lead → Finance Head) to approve the expense in sequence.
+
+Once you’ve selected the approvers or defined the approval chain, click Save to finalize the workflow.
+
+After saving the workflow, check the Status tab to ensure it is active. You can activate or deactivate any workflow by toggling the status switch next to it.
+
+Note: In Expense approval workflow, you can use Team member custom fields of Expense owner & Expense created by as conditions to trigger an action block.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Expense Notifications in Rocketlane
+
+Introducing Expense Management in Rocketlane
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

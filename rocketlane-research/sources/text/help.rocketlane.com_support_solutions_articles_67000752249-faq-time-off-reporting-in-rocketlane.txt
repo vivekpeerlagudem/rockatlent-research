@@ -1,0 +1,151 @@
+TITLE: FAQ: Time Off & Reporting in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000752249-faq-time-off-reporting-in-rocketlane
+
+FAQ: Time Off & Reporting in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+FAQ: Time Off & Reporting in Rocketlane
+
+FAQ: Time Off & Reporting in Rocketlane
+
+Created by Advaith R, Modified on Fri, 20 Mar at 8:10 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+FAQ: Time Off & Reporting in Rocketlane
+
+PTO and Timesheets FAQs
+
+No article available
+
+Q1: How can I include the "Time Off" field in a report?
+A: The "Time Off" field will appear when you choose "People" as the report source. Just change the source of the report to "People," and the Time Off field will be available for you to add.
+
+Q2: Why doesn't Time Off appear in the hours on a timesheet?
+A: Time off is not included as a recorded hour entry on the timesheet. Instead, you can see the time off details by hovering over the purple boat icon on the timesheet. It is also shown at the top of the timesheet in the "Time Off" section.
+
+Q3: Why is a half-day Time Off displaying an unexpected duration?
+A: The duration of half-day time off is calculated based on the specific employee's weekly capacity, not a standard 8-hour day. The formula is:
+Daily capacity = Weekly capacity ÷ 5 (number of working days)
+Half-day = Daily capacity ÷ 2
+For instance, if an employee's weekly capacity is 26h 30m, their half-day time off would be 2h 39m. If this value seems unusual, verify the employee's weekly capacity in the system — the calculation will consistently rely on that parameter.
+
+Q4: How does the system handle time off in timesheets and capacity?
+A: When time off is requested for a team member, their weekly capacity is automatically modified to mirror their decreased availability for that week. The time off is represented by the purple boat icon on the timesheet and is summarized in the "Time Off" section. The system does not anticipate a full week's worth of logged hours when time off has been granted — the capacity is recalibrated accordingly.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+PTO and Timesheets FAQs
+
+Key Events and Intervals in Rocketlane
+
+Introduction to Invoicing on Rocketlane
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

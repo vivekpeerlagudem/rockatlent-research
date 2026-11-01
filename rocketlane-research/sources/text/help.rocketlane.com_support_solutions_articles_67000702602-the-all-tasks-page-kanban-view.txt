@@ -1,0 +1,202 @@
+TITLE: The All Tasks Page: Kanban View : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000702602-the-all-tasks-page-kanban-view
+
+The All Tasks Page: Kanban View : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+The All Tasks Page: Kanban View
+
+The All Tasks Page: Kanban View
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:11 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+In this article
+
+Adjusting Row and Column Settings
+
+Row Options
+
+Column Options
+
+Filters and Views
+
+Hide empty rows
+
+The Kanban view on the All Tasks page allows you to have a global view of all tasks across all projects in a board format.
+You can edit the task properties based on which the rows and columns are grouped.
+You can click on a task and edit task properties from the task pane that opens.
+You can also have custom views based on task status, assignee, due date, and other fields. Choose from default view options or create custom views using filters. You can filter tasks based on your preferences and save the filtered list as a shared or private view.
+
+Adjusting Row and Column Settings
+From the top navigation bar, you can choose which task fields you want to use to group your rows and columns.
+You can adjust these from the top navigation bar.
+
+Row Options
+You can categorize the rows using the following default task field options:
+
+None
+
+Assignee
+
+Priority
+
+Project
+
+Project Phase
+Note You can add custom task fields that have the field type value set as Single choice .
+
+Column Options
+You can categorize the columns using the following default task field options:
+
+Assignee
+
+Due Date
+
+Priority
+
+Status
+
+Filters and Views
+To read more about how to apply filters and save views, click here .
+
+Hide empty rows
+The Hide empty rows option allows you to get a clearer view of your tasks by removing empty rows.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+The All Tasks Page
+
+Best Practices for Users
+
+Step-by-step guide to Sprint Planning
+
+The All Tasks Page: List View
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

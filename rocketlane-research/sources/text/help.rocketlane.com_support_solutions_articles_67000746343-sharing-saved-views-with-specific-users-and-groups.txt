@@ -1,0 +1,221 @@
+TITLE: Sharing Saved Views with Specific Users and Groups : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746343-sharing-saved-views-with-specific-users-and-groups
+
+Sharing Saved Views with Specific Users and Groups : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Sharing Saved Views with Specific Users and Groups
+
+Sharing Saved Views with Specific Users and Groups
+
+Created by Advaith R, Modified on Thu, 23 Jul at 4:53 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+Where You Can Use This
+
+How to Share a Saved View
+
+Access and Permissions
+
+Rocketlane lets you share saved views for tasks with only the people who need to see them, reducing clutter and ensuring the right teams see the right data.
+When saving a view, including filters, columns, groupings, and other preferences, you can now control who gets access :
+
+Private: Keep the view just for yourself.
+
+Everyone: Share it across your organization.
+
+Specific users and groups: Choose exactly who can see the view.
+This update helps streamline dashboards and workspaces, especially for large teams managing multiple roles, departments, or customer segments.
+
+Where You Can Use This
+This feature is available anywhere you can save filters and views in Rocketlane. That includes:
+
+Project list views
+
+Tasks
+
+Time tracking
+
+Resource requests
+
+Invoices
+
+Any custom list-based modules
+
+How to Share a Saved View
+
+When Creating a New View
+
+Apply your filters, columns, and grouping preferences.
+
+Click Save View .
+
+Under Visibility , choose:
+Just Me
+
+Everyone
+
+Specific Users or Groups
+
+Click Save .
+
+Editing Existing Views
+
+Open the saved view.
+
+Click the three-dot menu ( ⋮ ) > Edit View .
+
+Update the visibility settings.
+
+Save your changes.
+Note Only the creator of a saved view can change its visibility. Other users will retain view-only access unless shared explicitly.
+
+Access and Permissions
+All other aspects of view access, such as what data is visible within the view, are still governed by existing Role-Based Access Control (RBAC) permissions.
+This means even if a view is shared with a group, users can only see the data they have permission to view.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Resource Management: The People Tab
+
+The Projects Page View in Rocketlane
+
+Hide the Effort Column from the Customer Portal Task List
+
+Resource Management: The Projects Tab
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

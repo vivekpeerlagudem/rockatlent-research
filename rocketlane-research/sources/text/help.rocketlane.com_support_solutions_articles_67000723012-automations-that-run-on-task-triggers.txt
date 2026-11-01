@@ -1,0 +1,212 @@
+TITLE: Examples of task triggers : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000723012-automations-that-run-on-task-triggers
+
+Examples of task triggers : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Automations that run on task triggers
+
+Automations that run on task triggers
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:30 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Automations that run on project triggers
+
+Automations that run on task triggers
+
+Automations that run on phase triggers
+
+Automations that run on form triggers
+
+No article available
+
+Task triggers monitor events that happen within tasks, such as status updates, assignee changes, field updates, approval responses, due date changes, and task deletion. You can use these triggers to automate small but important workflows across tasks.
+Task triggers can be configured at the template level for projects that use specific templates , or globally for all tasks across projects.
+In this article
+
+Status updated
+
+Assignee updated
+
+Field is updated
+
+Task approval response received
+
+CSAT submitted
+
+A new message on the task
+
+Task becomes overdue
+
+Due date changed
+
+Task deleted
+
+Team member invited to a project
+
+Status updated
+The Status updated trigger runs when a task status is updated.
+For example, when a milestone task is completed, you can email the billing team to raise an invoice and send project updates to project members.
+
+Assignee updated
+The Assignee updated trigger runs when the assignee on a task changes.
+For example, when the assignee is updated and the start date is empty, you can update the start date to the date on which the assignee was updated.
+
+Field is updated
+The Field is updated trigger runs when a task field is updated.
+For example, when the task effort is less than 1 hour, you can update the effort to 1h 30m .
+
+Task approval response received
+The Task approval response received trigger runs when an approval response is received on a task.
+You can use this trigger to run different actions based on the approval response.
+
+Action block 1: When a task is approved, such as a go-live sign-off, email the customer about next steps and send a new message in the task chat.
+
+Action block 2: When changes are requested, send a message in the task chat.
+
+CSAT submitted
+The CSAT submitted trigger runs when a CSAT response is submitted.
+You can use this trigger to follow up based on the submitted rating.
+
+Action block 1: When a CSAT is submitted with a rating less than 3, send an email to the project owner.
+
+Action block 2: When a CSAT is submitted with a rating greater than 4, send an appreciation message on Slack.
+
+A new message on the task
+The A new message on the task trigger runs when a new message is added to a task.
+For example, when a customer sends a new message on a task, you can send a canned response letting them know that the team will get back to them soon.
+
+Task becomes overdue
+The Task becomes overdue trigger runs when a task crosses its due date.
+For example, when a task becomes overdue by 3 days and is marked at risk, you can notify the project owner.
+
+Due date changed
+The Due date changed trigger runs when a task due date is updated.
+For example, when the due date is postponed by 3 days, you can send a message in the task chat asking the team member to share the reason for the change.
+
+Task deleted
+The Task deleted trigger runs when a task is deleted.
+For example, when a task is deleted, you can notify the project owner.
+
+Team member invited to a project
+The Team member invited to a project trigger runs when a team member is invited to a project.
+The invited user’s data can be accessed in downstream actions using SmartFill. The trigger runs once per invited user.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Automations
+
+Automations that run on form triggers
+
+Automation Pricing
+
+Automation Logs in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

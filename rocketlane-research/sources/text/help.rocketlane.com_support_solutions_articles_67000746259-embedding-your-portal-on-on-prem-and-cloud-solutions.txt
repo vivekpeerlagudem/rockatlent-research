@@ -1,0 +1,232 @@
+TITLE: Embedding your portal on On Prem and Cloud Solutions : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746259-embedding-your-portal-on-on-prem-and-cloud-solutions
+
+Embedding your portal on On Prem and Cloud Solutions : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Rocketlane Customer Portal
+Embedding your portal on On Prem and Cloud Solutions
+
+Embedding your portal on On Prem and Cloud Solutions
+
+Created by Advaith R, Modified on Wed, 29 Jul at 6:00 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build your customer portal
+
+How to invite customers to your portal
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Integrating Slack with the New Customer Portal
+
+Tracking Time in the Customer Portal
+
+Invoice Widget for the Customer Portal
+
+Embedding your portal on On Prem and Cloud Solutions
+
+No article available
+
+Rocketlane’s Customer Portal can be embedded directly into your product so customers can view project progress, receive notifications, and collaborate without leaving your application.
+If you host your Rocketlane solution on a private network or cloud environment, whitelist Rocketlane’s domains and IP addresses before embedding the portal.
+This article explains how to embed the Customer Portal using an iframe and secure access using JWT-based authentication.
+In this article
+
+Navigate to embed instructions
+
+Embed the portal in your product
+
+Secure the portal with JWT authentication
+
+Generate a JWT token
+
+Fetch project ID
+
+Set the Email Redirection URL
+
+Step 1: Navigate to embed instructions
+
+Log in to your Rocketlane workspace.
+
+Go to Settings > Customer Portal > Embed Customer Portal .
+
+Follow the on-screen instructions to get started with embedding.
+
+Step 2: Embed the portal in your product
+To embed the Customer Portal in your UI, insert the following HTML snippet where you want the portal to appear:
+<iframe src="https://xy.rocketlane.com/cp/embed?token=<jwt_token>"> <a href="https://xy.rocketlane.com/cp/embed?token=<jwt_token>">Go to Portal</a> </iframe>
+
+The iframe embeds the portal into your UI.
+
+The <a> link provides a fallback option so users can open the portal in a new tab if iframe rendering fails.
+
+Replace xy with your workspace subdomain and insert a valid JWT token for authentication.
+
+Step 3: Secure the portal with JWT authentication
+Rocketlane uses JWTs to authenticate users accessing the embedded portal. This gives customers a smooth login experience without requiring separate passwords.
+
+Benefits of JWT-based login
+
+One-click login from within your product.
+
+No email invite or manual login required.
+
+Secure, time-limited access.
+
+Authentication options
+Rocketlane supports two methods for JWT authentication:
+
+Shared Secret Key: Rocketlane provides a shared secret. You use this key on your backend to sign tokens and authenticate users.
+
+Public/Private Key Pair: Generate a private/public key pair, add your public key to Rocketlane from Settings, and sign JWTs on your server using your private key.
+Note You can use one key across all customers or use different keys for different customers.
+
+Step 4: Generate a JWT token
+Here is a sample Python function to generate a JWT token using your private key:
+import jwt def generate_jwt_token(your_private_key, email_id, project_id, hash_param, expires_at): payload = { "user": { "emailId": email_id, "emailLanguagePreference": "EN" }, "config": { "projectId": project_id, "inviteIfAbsent": True, "hashParam": hash_param }, "exp": expires_at } jwt_token = jwt.encode(payload, your_private_key, algorithm="HS256") return jwt_token
+
+Key payload fields
+
+emailId : The customer’s email ID.
+
+emailLanguagePreference : Sets the language used in system-generated emails. Supported values are EN , DE , FR , IT , ES , and NL .
+
+projectId : Optional ID of the project the customer is accessing.
+
+inviteIfAbsent : Automatically invites the customer if they are not already part of the project.
+
+hashParam : Hash used to validate redirection, fetched from the email invite URL.
+
+Step 5: Fetch project ID, if needed
+If you need to dynamically fetch the projectId , use the Rocketlane API:
+GET https://api.rocketlane.com/api/1.0/projects?externalRefKey=<external_reference_key> Headers: Accept: application/json api-key: <your_api_key>
+Replace <external_reference_key> with your external reference key and <your_api_key> with your Rocketlane API key.
+To learn more, read the Rocketlane Projects API documentation .
+
+Step 6: Set the Email Redirection URL
+To ensure email links take customers to your embedded portal, configure the Email Redirection URL .
+
+Go to Settings > Customer Portal > Customer Portal Invite Configuration .
+
+Scroll down to Email Redirection URL .
+
+Enter the URL where your Customer Portal iframe is embedded, such as https://yourapp.com/projects/portal .
+This ensures that when customers open invite links from emails, they are redirected to your product instead of Rocketlane’s default portal page.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why am I getting a 401 error when I try to embed my customer portal?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+How do I embed SharePoint links in Rocketlane Spaces and resolve common visibility issues?
+
+Introducing Custom Apps: Build What You Need Inside Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

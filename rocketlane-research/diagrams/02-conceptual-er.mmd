@@ -1,0 +1,61 @@
+%% Conceptual ER model. Relationship labels: [D] documented (help doc or API schema), [I] inferred.
+%% Evidence: D1-001..D1-012, D1-031..D1-033, D1-044..D1-053, D1-080. Attributes shown are examples, not full schemas.
+erDiagram
+  ACCOUNT ||--o{ PROJECT : "customer of [D]"
+  ACCOUNT }o--o{ PROJECT : "partner company on [D]"
+  ACCOUNT ||--o{ CONTACT : "has [D]"
+  ACCOUNT ||--o{ INVOICE : "billed [D]"
+  PROJECT ||--o{ PHASE : "contains [D]"
+  PHASE ||--o{ TASK : "contains [D]"
+  TASK ||--o{ TASK : "parent of (subtask) [D]"
+  TASK }o--o{ TASK : "depends on [D]"
+  TASK }o--o{ USER : "assigned to [D]"
+  TASK }o--o{ PLACEHOLDER : "assigned to [D]"
+  TASK ||--o{ APPROVAL : "requests [D]"
+  TASK |o--o| JIRA_ISSUE : "linked to [D]"
+  PROJECT ||--o{ BUDGET : "has [D]"
+  PROJECT ||--o{ SPACE : "has [D]"
+  SPACE ||--o{ DOCUMENT : "holds [D]"
+  PROJECT ||--o{ SHEET : "holds (e.g. RAID log) [D]"
+  SHEET }o--o{ TASK : "task-link column (URL) [D]"
+  PROJECT ||--o{ PROJECT_UPDATE : "publishes [D]"
+  USER ||--o{ TIME_ENTRY : "logs [D]"
+  TIME_ENTRY }o--|| PROJECT : "against [D]"
+  TIME_ENTRY }o--o| TASK : "against [D]"
+  TIME_ENTRY }o--o| BUDGET : "charged to [D]"
+  ALLOCATION }o--|| PROJECT : "for [D]"
+  ALLOCATION }o--o| USER : "member [D]"
+  INVOICE }o--o{ PROJECT : "covers [D]"
+  ACCOUNT ||--o{ MEETING_PAGE : "associated (auto-matched) [D]"
+  ACCOUNT ||--o{ EMAIL_PAGE : "mapped to [D]"
+  MEETING_PAGE }o--o{ PROJECT : "manually associated [D]"
+  MEETING_PAGE ||--|| TRANSCRIPT : "normalised as [D]"
+  EMAIL_PAGE ||--|| TRANSCRIPT : "normalised as [D]"
+  SIGNAL_DEFINITION ||--o{ SIGNAL_OCCURRENCE : "produces [D]"
+  TRANSCRIPT ||--o{ SIGNAL_OCCURRENCE : "triggers, cited by [D]"
+  ACCOUNT ||--o{ SIGNAL_OCCURRENCE : "attached to [D]"
+  SIGNAL_OCCURRENCE }o--o{ PROJECT : "manually associated [D]"
+  DOC_AGENT }o--|| NITRO_TEMPLATE : "uses [D]"
+  DOC_AGENT ||--o{ NITRO_PAGE : "generates [D]"
+  ACCOUNT ||--o{ NITRO_PAGE : "saved under [D]"
+  NITRO_PAGE }o--o{ TRANSCRIPT : "sources, cited [D]"
+  AI_FILL_TEMPLATE }o--o{ TRANSCRIPT : "applied to selected [D]"
+  PROJECT_UPDATE }o--o{ AI_FILL_TEMPLATE : "embeds [D]"
+  KNOWLEDGE_BASE }o--o{ DOC_AGENT : "context for [D]"
+  KNOWLEDGE_BASE }o--o{ SIGNAL_DEFINITION : "context for [D]"
+  ACCOUNT {
+    string name
+    string website "used for meeting matching"
+    user accountOwner
+  }
+  PROJECT {
+    string status
+    date start
+    date due
+    json financials
+  }
+  SIGNAL_OCCURRENCE {
+    enum type "Risk|Opportunity|Operational"
+    string reasonCode
+    text citations
+  }

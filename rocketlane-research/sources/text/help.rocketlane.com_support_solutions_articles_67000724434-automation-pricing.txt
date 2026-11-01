@@ -1,0 +1,186 @@
+TITLE: Automation Pricing : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000724434-automation-pricing
+
+Automation Pricing : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Automation Pricing
+
+Automation Pricing
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:25 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Automations
+
+Setting up Global automations
+
+Setting up Template automations
+
+What are saved automations and how to use them?
+
+Automation Pricing
+
+How to automate project workflows with HTTPS requests
+
+How to set schedules using Automations?
+
+Automation Logs in Rocketlane
+
+No article available
+
+Automation Pricing Breakdown
+Rocketlane’s automation feature is priced based on the number of runs per user per month. Each plan includes a specific monthly allocation of runs, which determines how many automation actions can successfully complete within that month.
+In this article
+
+Automation runs by plan
+
+Understanding runs/user/month
+
+Example
+
+Exceeding the limit
+
+Automation runs by plan
+Each plan includes a monthly automation run limit per licensed user.
+Plan Automation runs
+Essential 50 runs/user/month
+Standard 200 runs/user/month
+Premium 500 runs/user/month
+Enterprise 1000 runs/user/month
+
+Understanding runs/user/month
+A run is counted each time an automation successfully completes an action that a user may otherwise have performed manually.
+For example, if an automation updates the status of a task, each successful task status update counts as one run.
+Note Triggers that match an automation but do not result in an executed action are not counted as runs. For example, if the conditions in an action block are not met and the action does not execute, it does not affect your run limit.
+
+In simple terms, runs/user/month refers to the number of runs allocated to your account based on your plan and the number of user licenses you have purchased.
+
+Example
+If your company has purchased 8 licenses on the Premium plan, your total monthly run limit is calculated as:
+8 licenses × 500 runs/user/month = 4000 runs per month
+
+This means your account can complete up to 4000 successful automation actions in that month.
+
+Exceeding the limit
+If your account exceeds the run limit included in your plan, automations will stop running once the limit is reached.
+If you need additional runs, contact the Rocketlane support team to explore options for increasing your automation run limit.
+Tip Track your automation usage regularly so you can stay within your plan’s allocated run limit and avoid interruptions.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Approval workflow for Invoices
+
+What are saved automations and how to use them?
+
+Automation Logs in Rocketlane
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

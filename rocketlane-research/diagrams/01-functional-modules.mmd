@@ -1,0 +1,52 @@
+%% Rocketlane functional module map. [D] = documented in help/developer docs, [M] = marketing only, [I] = inferred.
+%% Evidence: ledger D1-001..D1-014, D1-020..D1-036, D1-040..D1-064, D1-070..D1-086
+flowchart TB
+  subgraph CORE["PSA core [D]"]
+    ACC["Accounts / customer companies [D]"]
+    PRJ["Projects: phases, tasks, milestones,<br/>dependencies, approvals [D]"]
+    SPC["Spaces and documents [D]"]
+    SHT["Sheets: project-scoped tables<br/>(RAID log is a Sheet template) [D]"]
+    TPL["Templates: project, task, document,<br/>update, form, sheet [D]"]
+    POR["Customer portal [D]"]
+  end
+  subgraph OPS["Operations and financials [D]"]
+    RES["Resource management<br/>allocations, placeholders, Resource AI [D]"]
+    TIME["Time tracking and timesheets [D]"]
+    FIN["Budgets, rate cards, revenue recognition,<br/>invoicing [D]"]
+    REP["Reports and dashboards [D]"]
+  end
+  subgraph NITRO["Nitro AI layer"]
+    MI["Meeting Intelligence:<br/>capture, matching, meeting pages [D]"]
+    EI["Email Intelligence:<br/>inbox sync, email pages [D]"]
+    AIF["AI Fills (user-invoked) [D]"]
+    SIG["Signals + Signal Analyst [D]"]
+    DOC["Documentation Agents / Nitro pages [D]"]
+    TGOV["Timesheet Governance agent [D]"]
+    PGOV["Project Governance agent [M]"]
+    ANA["AI Analyst (portfolio Q&A) [M]"]
+    KB["Knowledge base [D]"]
+    CRD["Nitro credits metering [D]"]
+  end
+  subgraph EXT["Extensibility [D]"]
+    API["REST API 1.0 (API key) [D]"]
+    WH["Webhooks: currently task triggers only [D]"]
+    MCP["Rocketlane MCP: 24 tools [D]"]
+    CA["Custom Apps [D]"]
+    INT["Integrations: Jira, Salesforce, HubSpot,<br/>Slack, Zapier, Workato [D]"]
+  end
+  ACC --> PRJ
+  PRJ --> SPC & SHT & POR
+  TPL --> PRJ
+  PRJ --> RES & TIME & FIN
+  RES & TIME & FIN --> REP
+  MI & EI --> ACC
+  MI & EI --> AIF & SIG & DOC
+  KB --> SIG & DOC
+  SIG --> ACC
+  DOC --> ACC
+  AIF --> PRJ
+  TGOV --> TIME
+  PGOV -.claimed.-> PRJ
+  ANA -.claimed.-> REP
+  API & WH & MCP --> PRJ
+  INT --> PRJ

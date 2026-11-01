@@ -1,0 +1,229 @@
+TITLE: Understanding Billing Schedules and Events : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747137-understanding-billing-schedules-and-events
+
+Understanding Billing Schedules and Events : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Understanding Billing Schedules and Events
+
+Understanding Billing Schedules and Events
+
+Created by Advaith R, Modified on Wed, 3 Jun at 10:55 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Understanding Billing Schedules and Events
+
+Event Based Billing events
+
+No article available
+
+Overview of Billing Schedule Feature and Permissions
+Rocketlane’s Billing Schedule feature allows project teams to automate and schedule invoicing events based on specific triggers (dates, task completion, or project milestones). This helps ensure that invoices are generated or reminders sent at the right times without manual intervention. Billing events can be configured as part of a billing schedule (multiple events planned together) or as individual events tied to particular triggers.
+Before using billing schedules, an admin must enable the feature and appropriate permissions for the team:
+
+Enable Billing Schedule Permissions:
+In Settings > Permissions (under the relevant User Type and Invoicing section), enable the options for viewing and managing billing events. Specifically, grant users:
+
+Can view the billing events for the project – allows viewing scheduled billing events (project-level scope).
+
+Can create and edit billing events for the project – allows creating new billing schedules/events and modifying them (project-level).
+Manage Billing Schedule Templates : If you want certain roles to create or edit global billing schedule templates, enable Permission to manage billing schedule template. This lets users define re-usable billing schedule structures across projects.
+
+Once the above permissions are in place, the Billing Schedule tab will be accessible within projects, and authorized users can create or modify billing schedules and events.
+
+Creating a Billing Schedule
+For projects where you need to set up multiple billing events (e.g., billing at various milestones or dates), you can create a custom billing schedule . This schedule is essentially a series of billing events defined in one go. Follow these steps to create a billing schedule within a project:
+
+Open the Billing Schedule Settings : Navigate to your project and go to Project Settings > Billing Schedule . In the Billing Schedule section, click Create Custom Billing Schedule to start the setup wizard.
+
+Set Schedule Details – Define the triggers and amounts for each billing event in the schedule.
+Choose an Action : First, select what action should happen when each billing event is triggered (this applies to all events in the schedule). The options include:
+Create draft invoices – automatically generate invoices in “Draft” status.
+
+Create in-review invoices – automatically generate invoices and mark them “In Review”.
+
+Send reminder to create invoice – no invoice is auto-created; instead, a reminder notification is sent prompting the user to create an invoice.
+
+Select Tasks as Billing Triggers : Choose the project tasks that will drive the billing events. Click Add tasks ... and select the relevant milestones or tasks from the list. (For example, you might select milestone tasks like "Kick-off Meeting", "Phase 1 Completion", etc., that correspond to when you want to bill.)
+Define Task Billing Details : After selecting tasks, a table will appear where you specify the billing details for each task:
+Task Status Condition : Set the status that the task must reach to trigger the invoice. Typically, this would be the task’s completion status (e.g., “Completed”). Each invoice in the schedule will be auto-created when its corresponding task reaches the specified status.
+
+Amount to be Invoiced : Enter the amount you plan to invoice for that task’s completion. This can be a fixed currency amount.
+
+% of Fixed Fee Budget : If the project has a fixed-fee budget, you can alternatively (or additionally) specify the amount as a percentage of the total project fee. For example, you might allocate 25% of the project’s fixed fee to a “Phase 1 Completion” task. The system will calculate the corresponding amount and display it. (Ensure that the sum of all percentages does not exceed 100% of the project’s fixed fee.)
+
+Scheduled Invoice Date : Set the date on which the invoice should be created for that task. This is effectively the target date for billing that milestone (often this might coincide with the task’s expected completion date).
+
+As you fill in these details for each task, the interface will typically show a Total of the amounts/percentages allocated versus the project’s budget, helping you verify your schedule planning.
+
+Set Invoice Details – Configure the details of the invoices that will be generated:
+
+Invoice Issue Date : Specify when each invoice should be dated in relation to the trigger. For example, you might set the issue date to 0 days after the invoice is created (meaning the invoice date will be the same day the event triggers), or you could post-date it a few days if needed.
+
+Invoice Due Date : Set the payment due date offset for the invoice, e.g., X days from the issue date. For instance, if you enter 30 days, the invoice due date will be 30 days after the issue date.
+
+Line Items Template : Define the line items that should appear on the invoice. You can add one or multiple line items and even include placeholders that pull in data from the task or project:
+
+Typically, for a milestone-based invoice, you might add a single line item with a description referencing the task name or milestone (e.g., “Completion of Phase 1: [Task Name]”), quantity (often “1” for a fixed-fee milestone), and the amount or rate to bill.
+
+Rocketlane allows using dynamic tokens for certain fields. For example, you could insert the task’s name automatically in the description field. (The interface provides options like Task Name, Task Completed Date, etc., along with the ability to set fallback text if those values are unavailable.)
+
+You can add additional line items if needed (e.g., other charges or adjustments) and also add taxes or discounts as applicable.
+
+You can also Auto-Generate Line Items from Time Entries/Subscription Periods.
+In Time and Materials-Based projects , When creating an invoice, you can choose to auto-generate line items based on unbilled time entries . You can define a window using T - X days, where the T is the date of creation of invoice and X indicates a time that can range between one day to a month or even an entire quarter based on when you want to schedule your invoice. You can also select the Tax Code you wish to apply to the invoices
+
+In Subscription-Based projects , you can select the option of billing at start or end of periods, which are defined at the project creation stage. Invoices can auto-generate line items based on the current subscription period, previous or an Upcoming period. You can also select the Tax Code you wish to apply to the invoices
+
+Preview and Confirm – Review the entire billing schedule before saving:
+
+The system will display a Preview of the billing schedule, usually in a list format. Each selected task will be listed alongside the scheduled invoice Due Date (or creation date) and the Scheduled Amount to be invoiced. This lets you verify that, for example, “Task A – Due on May 01, 2025 – $200” and so on for each event is correct.
+
+Verify that all tasks, dates, and amounts/percentages look correct. Ensure the total of all scheduled amounts matches expectations (especially for fixed-fee projects, check that 100% of the fee is allocated if that is desired).
+
+If something is incorrect, you can go back to adjust. Otherwise, click Create (or Confirm ) to finalize the billing schedule. Once created, the billing schedule is active – meaning as each task reaches the specified status and date, the system will carry out the chosen action (e.g., create a draft invoice for that milestone).
+
+Your billing schedule is now set up. You can always return to Project Settings > Billing Schedule to view the schedule, make edits, or manually trigger events if needed. Each billing event from the schedule will appear in the project’s invoicing section (as draft or in-review invoices, or as pending reminders) at the appropriate time.
+
+Billing Schedule and Billing Events for Time and Material & Subscription Projects
+When configuring recurring billing schedules for Time and Material & Subscription Projects, you have the option to create billing schedule based on Date or Task. If you select Task, Invoices will be auto-created when the tasks reach the specified statuses (Just like in Fixed Fee Projects). If you select Date based, you can configure the schedule Periodically (only in subscription projects), Weekly, monthly, or on specific weekdays (e.g., every Monday and Friday).
+
+The end of the billing cycle can be defined by:
+
+Project completion
+
+Specific date
+
+Number of occurrences
+If you select Project Completion you can also create an additional event after the project completion to invoice any remaining amount. Example: If a schedule runs Monday & Friday and the project ends on Thursday, create a project completion billing event to capture work done on Tuesday and Wednesday.
+
+How to create and import a billing schedule template
+To create a reusable billing schedule template, navigate to Settings and under the Operations and Financials section, select Invoicing > Billing Schedule Templates . Click the Create a new template button to begin. Start by naming your template in a way that clearly reflects its use case.
+
+Next, select the project type this template applies to. You can choose between Time & Material or Subscription depending on the billing model. Define the invoice creation frequency by specifying an interval; for example, every 1 week or every 2 months. Then, configure when the billing schedule should end: either upon project completion, after a specific number of occurrences, or on a set date.
+
+You'll then choose the type of action that should occur for each billing event; whether it should create a draft invoice , mark it as in review , or simply send a reminder to generate one. Set the invoice issue date (number of days after creation) and due date (number of days from issue date).
+
+For line items, you can either manually add details like description, quantity, unit price , and amount , or choose to auto-generate from time entries. There's also an option to apply taxes using the Add tax feature.
+
+Once everything is configured, click Save . Your billing schedule template is now ready for use and can be imported into applicable Time & Material or Subscription-based projects during billing setup.
+
+Note: Billing Schedule Templates Can be created only for Time and Material and Subscription projects. You can easily import the created templates when setting up new billing schedules.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing Invoicing Permissions in Rocketlane
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Event Based Billing events
+
+Introduction to Key Events and Intervals
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

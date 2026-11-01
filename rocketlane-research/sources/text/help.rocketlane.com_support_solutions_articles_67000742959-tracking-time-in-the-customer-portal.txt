@@ -1,0 +1,280 @@
+TITLE: Tracking Time in the Customer Portal : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000742959-tracking-time-in-the-customer-portal
+
+Tracking Time in the Customer Portal : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Rocketlane Customer Portal
+Tracking Time in the Customer Portal
+
+Tracking Time in the Customer Portal
+
+Created by Advaith R, Modified on Thu, 6 Aug at 6:16 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build your customer portal
+
+How to invite customers to your portal
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Integrating Slack with the New Customer Portal
+
+Tracking Time in the Customer Portal
+
+Invoice Widget for the Customer Portal
+
+Embedding your portal on On Prem and Cloud Solutions
+
+No article available
+
+The Time Tracking widget in the Customer Portal gives customers visibility into tracked hours across projects and accounts. This is useful for teams that work with bundled hours or time and material projects, where customers need to understand how many hours have been used and how those hours align with the project scope.
+You can add the widget to a Customer Portal template and configure what customers should see, including progress, trends, and detailed time breakdowns.
+In this article
+
+Add Time Tracking to the Customer Portal
+
+Time Tracking widget structure
+
+Progress Tracker
+
+Graph View
+
+Table View
+
+Add Time Tracking to the Customer Portal
+When creating or editing a Customer Portal template, you can add Time Tracking as a widget in a new section.
+
+Widget behavior based on project type
+The widget displays time tracking data differently based on the project type:
+
+Fixed Fee, Time & Material, and Non-Billable projects: Shows time tracking data as a cumulative summary.
+
+Subscription projects: Shows time tracking data period by period instead of as a single total.
+You can configure this behavior from the Configuration tab. Use the toggle to switch between settings for non-recurring projects and subscription projects.
+Note A single Customer Portal template can support both non-recurring and subscription projects. The widget adjusts automatically based on the project type it is applied to.
+
+Time Tracking widget structure
+The Time Tracking widget has three components. You can enable or disable each component based on what you want customers to see.
+
+Progress Tracker
+
+Graph View
+
+Table View
+
+Progress Tracker
+The Progress Tracker shows a visual summary of tracked hours using a progress bar.
+It can display the following metrics:
+
+Budgeted Hours
+
+Tracked Hours
+
+Remaining Hours
+You can choose whether to display budgeted hours or only tracked hours. The progress bar helps customers quickly understand how much time has been used and how much remains.
+In this example, the tracked hours are 591h 45m , remaining hours are 908h 15m , and budgeted hours are 1500h .
+
+Graph View
+The Graph View helps customers analyze time tracking trends across different time frames and categories.
+
+Graph type options
+You can choose from the following graph types:
+
+Bar Graph
+
+Line Graph
+
+Area Graph
+
+X-axis options
+You can customize the X-axis to represent:
+
+Weeks
+
+Months
+
+Roles
+
+Team Members
+
+Phases
+The Y-axis always represents tracked hours.
+
+Grouping and filtering
+The graph can be grouped and filtered by projects, roles, or team members.
+Note If a metric is used for the X-axis, it cannot be used in the Group By section of the same graph.
+
+In this example, the data is grouped by team members.
+
+Cumulative option
+The cumulative option displays the graph in a cumulative format.
+Note The cumulative option is available only when the X-axis is set to Weeks or Months.
+
+In this example, the X-axis is grouped by phases and the cumulative checkbox is enabled.
+
+Table View
+The Table View provides a detailed breakdown of tracked hours.
+
+Table name and grouping
+You can configure the table name and group the table by:
+
+Projects
+
+Roles
+
+Team Members
+
+Phases
+
+Tasks
+
+Categories
+
+Column breakdown options
+The table always includes Total Tracked Time by default. You can add more breakdown columns from Show Breakdown .
+Available breakdown options include:
+
+Overall Time Tracked
+
+Week-on-Week Tracking
+
+Month-on-Month Tracking
+
+Exporting data
+The export button at the top-right corner of the table provides two export options:
+
+Table Data (CSV): Exports the visible table data.
+
+Raw Data: Exports the underlying time analytics used to generate the table.
+
+Customize hours to display
+By default, the table displays billable hours. You can change this setting from Customize Hours to Display .
+You can filter the displayed hours by:
+
+Billable Hours
+
+Approval Status
+
+Categories
+
+Roles
+
+Team Members
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Account Level Default Permissions
+
+Introduction to Sheets in Rocketlane
+
+General FAQs
+
+Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

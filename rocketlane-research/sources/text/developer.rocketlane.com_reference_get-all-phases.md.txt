@@ -1,0 +1,863 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all phases
+
+The *Get all phases* API enables users to find phases in their Rocketlane instances using advanced filtering options. This API is intended to provide a flexible and fast means of getting phase related data based on various parameters.
+
+Developers can integrate phase search functionality into their applications and platforms by using this API. You can fine-tune your searches and retrieve the phase related data you need for integration into your applications or platforms by using the available parameters.
+
+The `includeFields` param can be used to customize the response. You can fine-tune your searches and retrieve specific phase related data you need for integration into your applications or platforms by using filters.
+
+You can use any combination of these parameters to execute searches based on your specifications. In addition to filters, `sortBy` and `sortOrder` can be used to sort the phases. The response body is [paginated](https://developer.rocketlane.com/v1.0/docs/pagination), and you can control the pagination using the `limit` and `pageToken` parameters.
+
+## Pagination
+
+The *Get all phases* API accommodates pagination in the response body. The `pageSize` option can be used to restrict the amount of responses displayed/ available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain a `pageToken`.
+
+Please refer to the [pagination](https://developer.rocketlane.com/v1.0/docs/pagination) section for further information on this.
+
+## Filtering
+
+The capacity to execute more sophisticated and nuanced searches on a dataset by combining numerous criteria and conditions is referred to as filtering.
+
+Complex filtering in the context of the *Get all phases* API allows users to build elaborate search queries to return specific subsets of phases that satisfy specific requirements. By catering to a wide range of use cases, this enhanced filtering functionality considerably increases the API's utility and versatility.
+
+The API reference includes a comprehensive range of filtering options.
+
+The *Get all phases* API offers custom field filtering in addition to the regular filtering options. You can apply filters for these fields: `startDate`, `projectID`, `dueDate`, `startDateActual`, `dueDateActual`, `phaseName`.
+
+Please refer to the below table for more information on how to construct the filtering criteria for phase related fields.
+
+| Operation | Definition                                                                                                                                                                                      | Example                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------- |
+| field.gt  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is greater than the specified field value.             | startDate.gt=2023-09-31 |
+| field.eq  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value matches the specified field value.                     | projectId.eq            |
+| field.lt  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is less than the specified field value.                | startDateActual.lt      |
+| field.ge  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is greater than or equal to the specified field value. | startDateActual.ge      |
+| field.le  | You can use this parameter to indicate a field's value, and the responses will only include those particular resources whose field value is less than or equal to the specified field value.    | dueDateActual.le        |
+| field.cn  | You can use this param to specify some text and the responses will include those particular resources that contain the given text in their field value.                                         | phaseName.cn            |
+| field.nc  | You can use this param to specify some text and the responses will include those particular resources that DO NOT contain the given text in their field value.                                  | phaseName.nc            |
+
+### Criteria Match
+
+In addition to standard filtering and custom field filtering, the *Get all phases* API also supports the use of ***AND*** and ***OR*** conditions for more advanced filtering options. Users can combine different filters and custom field queries with these logical operators to build complex yet accurate search queries.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Phases",
+      "description": "Endpoints for phases resource"
+    }
+  ],
+  "paths": {
+    "/1.0/phases": {
+      "get": {
+        "tags": [
+          "Phases"
+        ],
+        "summary": "Get all phases",
+        "operationId": "get-all-phases",
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "query",
+            "description": "The `identifier` of the project is generated by the system and can be used to identify the project globally.",
+            "required": true,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            },
+            "example": 200
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "startDateActual",
+                  "dueDateActual",
+                  "budgets"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "phaseName",
+                "startDate",
+                "dueDate",
+                "startDateActual",
+                "dueDateActual"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "startDate.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of phases that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of phases that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of phases that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of phases that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain phases whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "createdAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are greater than the given phases created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of phases that match the given phases created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are less than the given phases created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are greater than or equal to the given phases created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are less than or equal to the given phases created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are greater than the given phases updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of phases that match the given phases updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are less than the given phases updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are greater than or equal to the given phases updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain phases whose date are less than or equal to the given phases updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "phaseName.eq",
+            "in": "query",
+            "description": "You can use this param to specify some phase name and the responses will contain exact matches of phases that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Stark Onboarding"
+            }
+          },
+          {
+            "name": "phaseName.cn",
+            "in": "query",
+            "description": "You can use this param to specify some phase name and the responses will contain matches of phases that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Stark Onboarding"
+            }
+          },
+          {
+            "name": "phaseName.nc",
+            "in": "query",
+            "description": "You can use this param to specify some phase name and the responses will not contain matches of phases that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Stark Onboarding"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponsePhases"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "PhaseCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the phase."
+      },
+      "PhasePublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "The budgets associated with this phase."
+      },
+      "PhaseStatusPublicResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value of the status field is the unique identifier for status fields.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 2
+          },
+          "label": {
+            "type": "string",
+            "description": "The label is the name of the status.",
+            "readOnly": true,
+            "example": "In progress"
+          }
+        },
+        "description": "The phase status value along with the label will be present here."
+      },
+      "PhaseUpdatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the phase"
+      },
+      "ProjectPublicAPIPhaseResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "The `project` associated with phase."
+      },
+      "ExampleAPIResponsePhases": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/PhasePublicAPIResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationPhases"
+          }
+        }
+      },
+      "ExamplePaginationPhases": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/phases?includeFields=category,minutes&billable.eq=false&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100&assignee.any=1&startDate.gt=2022-01-02"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "PhasePublicAPIResponseForExample": {
+        "type": "object",
+        "properties": {
+          "phaseId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The phases's unique, system-generated identifier, which can be used to identify the phase globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "phaseName": {
+            "type": "string",
+            "description": "The name of the phase.",
+            "example": "Kick off"
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPIPhaseResponseEntity"
+          },
+          "phaseDescription": {
+            "type": "string",
+            "description": "The description of the phase providing additional context.",
+            "example": "Initial discovery and alignment with the customer."
+          },
+          "startDate": {
+            "type": "string",
+            "description": "On this date the phase's execution officially begins. . The due date is mandatory. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDate": {
+            "type": "string",
+            "description": "The day on which the phase's execution is planned to be completed. The due date is mandatory. The dueDate must be on or after the given startDate. The format for the due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "startDateActual": {
+            "type": "string",
+            "description": "The date on which the phase status is changed to in progress. The status can be either the default said status (in progress) or custom statuses that are categorised as in progress. It can be null for phases that have not yet begun. The format for the actual start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDateActual": {
+            "type": "string",
+            "description": "The date when phase status gets changed to completed. The status can be either the default provided status (completed) or a custom status that is labelled under the Completed category.  It will be null if the phase is yet to be completed. The format for the actual due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the phase was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the phase was last updated. Any changes that's related to the phase are captured and specified here in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/PhaseCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/PhaseUpdatedByUserPublicAPI"
+          },
+          "status": {
+            "$ref": "#/components/schemas/PhaseStatusPublicResponse"
+          },
+          "budgets": {
+            "type": "array",
+            "description": "The budgets associated with this phase.",
+            "items": {
+              "$ref": "#/components/schemas/PhasePublicProjectFinancialsBudgetResponse"
+            }
+          },
+          "private": {
+            "type": "boolean",
+            "description": "Describes the privacy of the phase i.e. if it is private or shared.",
+            "example": true
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

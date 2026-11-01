@@ -1,0 +1,256 @@
+TITLE: Rocketlane AI for Interaction Data: Mental Model and Behavior : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753317-rocketlane-ai-for-interaction-data-mental-model-and-behavior
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Created by Bala L, Modified on Wed, 8 Jul at 3:33 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Introduction to Signals in Rocketlane
+
+Email Intelligence: How Email Ingestion Works
+
+Meeting Page Templates
+
+Email Page Templates
+
+Setting Up Your Company Knowledge Base
+
+No article available
+
+In this article
+
+AI data sources in Rocketlane
+Rocketlane data
+
+Interaction data
+
+What is a transcript
+Meeting transcripts
+
+Email transcripts
+
+What Rocketlane generates from transcripts
+AI pages
+
+Signals
+
+Object model
+1. Accounts and projects
+
+2. Meeting and email pages
+
+3. Signals
+
+Rocketlane AI is designed to help teams manage project data more efficiently by pulling insights directly from their daily interactions. Instead of manually digging through threads, the AI uses Enterprise Listening to track sentiment and feedback across emails and meetings.
+Rocketlane AI can read interaction data, such as emails and meeting transcripts, and turn it into structured insights. This article explains how that works, which objects are involved, and what enablement or implementation teams should understand before configuring or troubleshooting anything.
+
+AI data sources in Rocketlane
+Rocketlane AI can be powered by two broad categories of data sources.
+
+Rocketlane data
+This is the structured data that lives inside your Rocketlane workspace across accounts, projects, resources, and financials. It tells the AI what the project is and where it stands in your business ecosystem.
+Examples include:
+Data type What it includes
+Account attributes High-level business context like ARR, lifecycle stage, and customer tier.
+Project metadata Specific details from custom fields, project types, and industry tags.
+Internal configuration Project status, assigned owners, resource allocation, and related system fields.
+
+Interaction data
+This is the external context - interaction data harvested from the actual conversations happening between your team and your customers. It helps the AI understand the sentiment and nuance of the relationship.
+Examples include:
+
+Emails
+
+Meeting transcripts
+Note The Signals module focuses on interaction data.
+
+What is a transcript
+A transcript is the normalized interaction data Rocketlane uses as the input for AI processing. Rocketlane AI treats different interaction sources (meetings and emails) as a common transcript object that the pipeline can process consistently.
+
+Meeting transcripts
+A meeting transcript may come from:
+
+A notetaker (for example, Rocketlane AI Notetaker)
+
+A native recorder (via Zoom, Teams, or Google Meet)
+
+An external source (for example, Gong)
+
+Email transcripts
+An email transcript is the email content plus headers, normalized and grouped into threads. It is a normalized representation of an email thread that combines message content and key headers into a single structured payload.
+
+What Rocketlane generates from transcripts
+From transcripts, Rocketlane generates two broad outputs, both classified as AI pages.
+
+AI pages
+AI pages is the umbrella term for structured AI-extracted content. In the product, this refers to:
+Page type Generated from
+Meeting pages Generated per meeting transcript.
+Email pages Generated per email thread.
+Nitro pages Generated per document.
+These pages surface structured AI-extracted information, including:
+
+Summaries
+
+Action items
+
+Key decisions
+
+Risks or opportunities mentioned in the interaction
+
+Signals
+Signals are insights generated through AI, based on transcripts. They come from meeting and email transcripts linked to an Account, and are designed to:
+
+Summarize important patterns or events in customer interactions.
+
+Classify those patterns as Risk, Opportunity, or Operational.
+
+Link back to the underlying transcripts through citations - excerpts or references that trace the insight to its source.
+Example: An "Account at risk" signal might include a citation like: "This detail was sourced from the March 5th sync meeting where the customer expressed dissatisfaction with the current onboarding timeline."
+
+Object model
+At its core, Rocketlane organizes your work around the Account. This serves as the central hub where projects, interaction data, and intelligence converge to give you a 360-degree view of the customer relationship.
+The relationship between your data follows a logical flow from raw conversation to high-level business intelligence.
+
+1. The foundation: Accounts and projects
+An Account acts as the primary container. It houses one or more Projects, representing the specific work being delivered, alongside all associated customer interactions.
+
+2. The documentation: Meeting and email pages
+Rocketlane automatically transforms every raw interaction into a structured record:
+
+Meeting pages: Every recorded session is processed into a dedicated page featuring the video recording, a searchable transcript, and AI-generated summaries.
+
+Email pages: Ongoing email threads between the customer and your team are captured as email pages, ensuring the full context of the correspondence is preserved and accessible.
+
+3. The intelligence: Signals
+The output of this ecosystem is the Signal.
+
+Extraction: Rocketlane AI analyzes transcripts from your meeting and email pages to identify key moments, risks, or sentiment shifts.
+
+Account correlation: Once detected, signals are attached directly to the Account. This allows leadership to monitor the health of a customer relationship without needing to read every individual email or watch every meeting.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Email Intelligence: How Email Ingestion Works
+
+Connect Rocketlane MCP to Claude
+
+Excluding Meetings and Emails from Capture
+
+Connect Rocketlane MCP to Claude Code
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,204 @@
+TITLE: How to setup and manage groups in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000728834-how-to-setup-and-manage-groups-in-rocketlane
+
+How to setup and manage groups in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How to setup and manage groups in Rocketlane
+
+How to setup and manage groups in Rocketlane
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 4:43 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to set up permissions for team members and customers (RBAC)
+
+How to setup and manage groups in Rocketlane
+
+No article available
+
+In this article
+
+Creating groups and adding team members
+
+Assign groups to team members
+
+Associating project visibility to groups
+
+Associating project and task fields visibility to groups
+
+Associating group access to permission sets
+
+In Rocketlane, you can organize team members into groups based on certain criteria like the region they belong to or the department they work for. Using groups, team members can have access to the information they need, to complete their everyday tasks, without being overwhelmed with irrelevant details.
+For instance, when managing global projects, it might be necessary to limit access to project details from different regions, like the US and EU. Rocketlane's group feature enables you to do just that, ensuring that team members only have access to relevant information. It ensures that team members can work efficiently, with the right people having access to the right information.
+
+Creating groups and adding team members
+To create groups and add team members to them, you can follow these steps:
+
+Navigate to your avatar and select Settings .
+
+Go to the Accounts section.
+
+Select Groups and click the New group button.
+
+Name your group and start adding team members.
+
+You can filter the team members you wish to add by region. For example, you can select the region as "US" to filter only team members who belong to the US region and create a group with them.
+
+You can also bulk-add team members. To do so:
+
+Click the three dots near the group and select Add team members in bulk .
+
+Add the email addresses of the team members separated by commas or spaces.
+
+Click the Add team member button.
+
+Assign groups to team members
+Learn more about inviting team members here .
+When inviting team members, you can associate them with groups. Additionally, under the Team Members page, you can edit a team member's profile and associate them with a group.
+
+Associating project visibility to groups
+When creating projects in Rocketlane, you have the option to restrict the visibility of your project to team members belonging to a certain group only.
+Learn more about creating projects here .
+To set up project visibility after a project is created:
+
+Navigate to Projects .
+
+Select the project you want to make changes to.
+
+Select the settings icon and go to Project visibility .
+
+To the right, set up the visibility to groups and team members and select the group from the drop-down.
+
+Associating project and task fields visibility to groups
+You can control access to a section of project and task fields by restricting visibility to team members and allowing it only for members belonging to specific groups.
+
+Navigate to your avatar and select Settings .
+
+Scroll down to the Fields section and select the project or task field that you wish to restrict.
+
+Click the settings icon near the field section you wish to restrict.
+
+Set the visibility for viewing and editing, select the preferred group , and save the changes.
+
+Associating group access to permission sets
+Learn more about creating and managing permission sets here .
+By providing group access to team members, you are enabling them to manage projects and related task fields based on the project's visibility and their group memberships. This will help ensure that everyone has access to the right information, while also maintaining data privacy and security.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How To Setup Your Company references?
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

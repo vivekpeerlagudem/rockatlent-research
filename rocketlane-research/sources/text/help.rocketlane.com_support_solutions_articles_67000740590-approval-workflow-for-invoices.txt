@@ -1,0 +1,286 @@
+TITLE: Approval workflow for Invoices : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740590-approval-workflow-for-invoices
+
+Approval workflow for Invoices : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Approval workflow for Invoices
+
+Approval workflow for Invoices
+
+Created by Monica Madan, Modified on Fri, 27 Dec, 2024 at 6:19 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Approval workflow for Invoices
+
+No article available
+
+TABLE OF CONTENTS
+
+Approval chains
+
+Setting up Approval chains
+
+Information to Configure:
+
+Automating and Managing Invoice Approvals
+
+Setting Up Approval Chain Automation
+
+Requesting Approvals Manually
+Invoices need approvals to ensure they are accurate, compliant, and transparent. The approval process checks that the billing amount, payment terms, and customer details are correct and match agreements or company policies. It also helps prevent errors, fraud, and duplicate invoices, ensures charges stay within budget, and creates a clear record for audits. This process safeguards the company while keeping financial operations smooth and reliable. With Invoicing in Rocketlane, you can achieve this by creating approval workflows and approval chains.
+There are two ways to streamline approvals in Rocketlane,
+
+Setting up Approval chains
+
+Automating approvals
+
+Approval chains
+
+Approval chains for invoices ensure accuracy, compliance, and accountability by having multiple approvers check details like amounts, taxes, and budgets. This process reduces errors, prevents fraud, and creates a clear record for transparency.
+Here’s an example of an approval chain for a business running Time and Material (T&M), Fixed Fee, or Subscription-based projects :
+
+Project Manager : Reviews the invoice to confirm that it aligns with the project type:
+
+For T&M projects, verifies that time entries and hourly rates match the work completed.
+
+For Fixed Fee projects, ensures the milestones or deliverables are accurately billed.
+
+For Subscription-based projects, checks that the subscription period and pricing details are correct.
+
+Finance Team : Validates the invoice for accurate calculations, tax compliance, and adherence to company billing policies, ensuring all charges are properly accounted for.
+
+Senior Management/Director : Approves high-value invoices, projects with special terms, or invoices with deviations from standard processes to ensure accountability and compliance with business goals.
+
+This approval chain ensures accuracy, compliance, and transparency across all project billing types.
+
+Setting up Approval chains
+You can create a step-by-step approval chain for specific accounts based on their size or business type. For instance, you might set up an approval chain for enterprise clients or projects with high-value contracts.
+To Set Up an Approval Chain:
+
+Access Settings : Click on your profile icon and navigate to Settings .
+
+Go to Approval Workflows : Under Operations and Finances , select Invoices , then click Approval Workflows , and switch to the Approval Chains tab.
+
+Create a New Chain : Click New Approval Chain and start defining the steps for your approval process.
+
+Information to Configure:
+
+Steps : Define each stage in the approval process, specifying what needs to happen at that stage.
+
+Automation Run Date : Set the due date by which the invoice must be approved.
+
+Days after automation run date : Specify an additional buffer period (X days) to complete the approval if the initial due date is missed.
+
+Requires Approval From : Choose whether the step requires approval from anyone or everyone in the designated group.
+
+Approvers : List the individuals responsible for reviewing the invoice, such as the account owner, project manager, or finance manager. You can also use placeholders like "Account Owner" for flexibility.
+
+Fallback Approvers : If you set the approver as a project/account field and that field value is empty, the system will route the approval request to fallback approver.
+
+Example :
+Suppose the invoice is for tasks completed under a time and material (T&M) project. The first level of approval could be set up as follows:
+
+Steps : Project Manager Approval – The project manager reviews the invoice to confirm that the tasks listed and time entries match the work completed.
+
+Automation Run Date : The project manager must approve the invoice within three days of submission.
+
+Automation Run Date + X Days : Allow an additional two days (three days + two days) for any delays.
+
+Requires Approval From : Set to anyone , allowing the project manager or the delivery/implementation manager to approve.
+
+Approvers : Assign the Project Manager and the Delivery/Implementation Manager as approvers. Note that you can add direct team member, project user fields, invoice user fields, account user fields
+
+Adding Steps to an Approval Chain :
+You can add more steps to an existing approval chain to reflect additional stages in your approval process.
+Example :
+Suppose a step needs to be added for validating project-specific expenses before the invoice reaches the final approver:
+
+Add a step after the finance manager’s review.
+
+Assign the project manager as the approver to verify that all time entries and expenses match the project scope and budget.
+
+Set the Automation Run Date as two days after the finance manager’s approval.
+
+Add a buffer period of three days ( 3 Days after automation run date ) to account for any delays.
+
+Assign the assistant project manager as the proxy approver in case the project manager is unavailable.
+
+Add more steps if there need to be more approvers to validate the invoices.
+This structured approach ensures accountability, reduces bottlenecks, and tailors the approval process to the needs of your business.
+
+Automating and Managing Invoice Approvals
+Streamlining Approval Workflows
+Approval workflows simplify the invoice approval process by automating routing, reducing delays, and ensuring faster approvals. With Rocketlane, you can automate these workflows when an invoice moves from draft to in review . You can choose between two methods:
+
+Single Approvals : Automatically send an invoice to a designated approver or group of approvers.
+
+Approval Chains : Implement a step-by-step approval process involving multiple stages.
+
+Setting Up Single Approval Automation
+To automate a single approval:
+
+Go to Profile Icon > Settings > Operations and Financials > Invoicing > Approval Workflows .
+
+Click Create New Approval Workflow .
+
+Name the workflow.
+
+Set the trigger to "Invoice moves from draft to in review."
+
+Define conditions (e.g., Account ARR, Project Fee, or specific invoice fields).
+
+Select the action "Assign Approval" and choose Single Approval to designate a team member or group.
+
+Set the due date for the approval as the automation run date or a specified number of days from it.
+
+Save and activate the automation.
+
+Setting Up Approval Chain Automation
+For a step-by-step process:
+
+Follow steps 1-6 above.
+
+Select "Use Approval Chain" instead of Single Approval.
+
+Choose an existing approval chain you have configured.
+
+Save and activate the automation.
+
+Requesting Approvals Manually
+You can manually request approvals on an invoice using either a single approval process or an approval chain.
+
+Navigate to Invoicing .
+
+Select the invoice you wish to send for approval.
+
+Go to the Approvals section on the right-hand side
+
+Choose one of the following:
+
+Click "Request for Approval" and add team members who need to approve the invoice.
+
+Click "Add an Approval Chain" to use a previously configured approval chain.
+
+In the Approvals Pane , click the "+" button to add more approvals or chains.
+
+Important Notes :
+You can add multiple approval chains to a single invoice. The invoice is considered fully approved only when all approvals and approval chains are completed.You can delete an approval using the three buttons on the approvals
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing Invoicing Permissions in Rocketlane
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes in Rocketlane
+
+Invoice Widget for the Customer Portal
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

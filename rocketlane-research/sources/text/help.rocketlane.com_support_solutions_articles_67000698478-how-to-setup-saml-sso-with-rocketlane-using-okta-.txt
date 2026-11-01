@@ -1,0 +1,202 @@
+TITLE: How to setup SAML SSO with Rocketlane using Okta? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000698478-how-to-setup-saml-sso-with-rocketlane-using-okta-
+
+How to setup SAML SSO with Rocketlane using Okta? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+Created by Niharika Pandey, Modified on Mon, 16 Mar at 8:07 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+Rocketlane offers seamless integration with your SSO provider, allowing you to consolidate access to all your applications under a single login. If you use an SSO provider like Okta, follow this guide to set up SSO integration with Rocketlane.
+
+Step 1: Set Up SSO in Okta
+
+Log in to Okta : Begin by logging into your Okta account. From the homepage, navigate to Applications > Applications > Create App Integration .
+
+Select SAML 2.0 : In the pop-up window, select SAML 2.0 and click Next . This will open the page to configure your SAML integration.
+
+Step 2: Configure SAML Integration
+
+General Settings : Under general settings, name your app and add an optional logo for the application you’re enabling SSO for. Click Next once you’re ready to proceed.
+
+Configure SAML :
+
+Enter a temporary single sign-on URL and copy the same URL into the Audience URI field.
+
+Tick the “Use this for Recipient URL and Destination URL” checkbox.
+
+In the Attribute Statements section, create fields for email and username with the Name Format set to “Unspecified.” Assign user.email as the value for both fields. Once completed, click Next .
+
+Feedback Section : Optionally, you can enter feedback information. Click Finish to finalize the SAML integration setup.
+
+Step 3: Retrieve SAML Details from Okta
+
+After completing the setup, you’ll be taken to a new page displaying sign-on details.
+
+Scroll down to find the View SAML Setup Instructions button. Clicking this opens a page with all the configuration details needed for Rocketlane, including:
+
+Single Sign-On (SSO) URL
+
+Issuer URL
+
+Certificate
+
+Step 4: Configure SSO in Rocketlane
+
+Access Rocketlane Security Settings : In your Rocketlane account, navigate to Settings > Security
+
+Set Up SAML SSO : Under the Single Sign-On section, click Setup SAML SSO . A pop-up window will appear.
+
+Copy Configuration Details : From the SAML setup instructions page in Okta, copy the provided details (SSO URL, issuer URL, certificate and relay sttate) and paste them into Rocketlane* in the format shown in the image below. Click Next .
+
+*(i.e, SSO URL -> IDP Login URL; Provider Issuer -> IDP Entity ID; x.509 Certificate -> Certificate; Relay State -> Default Relay State)
+
+Step 5: Update SAML URLs in Okta
+
+After clicking Next in Rocketlane, the pop-up will refresh, displaying new URLs.
+
+Return to Okta and edit your SAML integration. Paste the new URLs from Rocketlane into their corresponding fields in Okta* and save your changes.
+
+*(i.e, Entity ID -> SSO URL; Log in URL -> SP Entity ID)
+
+Step 6: Activate SSO Integration
+Your SSO integration is now set up. Click the Enable SSO button in Rocketlane to activate the integratio
+Your Rocketlane account is now configured with SSO, streamlining access and enhancing security for your team.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+Updating SSO for Rocketlane's Authentication Migration
+
+Rocketlane for Mobile
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

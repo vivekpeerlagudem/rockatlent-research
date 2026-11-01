@@ -1,0 +1,307 @@
+TITLE: ​Time analytics report : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000729717--time-analytics-report
+
+​Time analytics report : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+​Time analytics report
+
+​Time analytics report
+
+Created by Monica Madan, Modified on Thu, 13 Feb, 2025 at 2:51 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+​Time analytics report
+
+No article available
+
+Ensuring effective time management within your team is crucial to the success of your projects and Rocktetlane’s time analytics report enables you to do just that. You gain insights into utilization efficiency, identify and tackle time-consuming areas in projects, and easily compare planned and actual project completion times.
+
+In this article
+
+Utilization report
+
+Category time report
+
+Project time analytics
+
+People time analytics
+
+Timesheet submissions report
+
+Additionally, it enables timesheet evaluations, which help with accurate cost tracking and recognizing team contributions to improved profit margins. With this tool, you can ensure that every moment spent on projects contributes to your success.
+
+The analytics comprises five essential reports:
+
+1. Utilization : Understand how effectively your team's time is being utilised.
+2. Category time : Identify key areas of time consumption, such as meetings and training, providing insights into priority activities.
+3. Project time : Evaluate the alignment between planned and actual time spent on projects, ensuring better project management.
+4. People time : Gain a holistic view of your team's productivity landscape.
+5. Timesheet Submissions : Assess the accuracy and integrity of timesheet submissions, which is crucial for sound financial accounting.
+
+Let’s explore these reports in detail:
+
+Utilization report
+The utilization rate is a metric that can help you streamline your project management processes and optimize overall profitability.
+
+By measuring the percentage of billable work completed within the allotted time, you can assess your teams’ efficiency and identify areas for improvement.
+
+By closely monitoring individual utilization rates, teams can strategically align resource availability with project demands, ensuring that team members are engaging in billable work.
+
+This synchronization can lead to an increase in the number of billable hours, which can directly contribute to your revenue.
+
+Therefore, maintaining an optimal utilization rate is instrumental for equitable workload distribution, strategic resource allocation, and overall success in project management.
+
+In this comprehensive report, you'll access utilization rates for all team members categorized by roles or status within a selected time range.
+
+Filters : Use filters to focus on the utilization rates of a specific subset of team members. For instance, you can apply filters such as "Role is Consultant."
+
+Time Range : This denotes the time frame under scrutiny for analyzing utilization rates.
+
+Group By : Team members can be effectively grouped based on roles or status, allowing for a streamlined view of their utilization rates.
+
+Utilization : The overall utilization metric encompasses all work, both billable and non-billable, executed on projects.
+
+Utilization = Time tracked / (Capacity - Timeoffs - Holidays)
+
+Billable utilization: Billable utilization, on the other hand, is specifically time utilised to do billable work.
+
+Billable utilization = Billable time tracked / (Capacity - Timeoffs - Holidays)
+
+Monthly: Ability to categorize data into monthly, weekly, or quarterly intervals.
+
+Save Filter: Transform your applied filters into a saved view by assigning it a name. This personalized view can be kept private or shared with the entire team.
+
+Category time report
+Categorizing the time spent on project activities provides a clear overview of the primary areas where your team invests its time. This approach facilitates the optimization of team time management, helping you identify opportunities to streamline processes or automate tasks that require minimal attention. The resulting analysis is invaluable for guiding the team towards prioritizing billable work, leading to higher utilization rates and increased profits.
+
+In this report, you have a hours breakdown chart and summary table that reports on the hours spent on each project category like meetings, training and so on.
+
+Hours Breakdown
+Provides a detailed breakdown of the hours tracked under specific categories such as meetings and training within the selected time range.
+
+X-axis : Represents the chosen time range, whether monthly, yearly, etc.
+Y-axis : Measures the hours spent
+
+Summary table
+Offers a detailed breakdown of the total tracked hours, distinguishing between billable and non-billable hours, within each specified category.
+
+Click on any category from the list to view the list of projects, people and time entries tracked under that category.
+
+Filters : Use filters to focus on hours spent on specific subset of categories. For instance, you can apply filters such as “category is meetings”
+
+Time Range : This denotes the time frame under analyses for analyzing utilization rates.
+
+Save Filter : Transform your applied filters into a saved view by assigning it a name. This personalized view can be kept private or shared with the entire team.
+
+Project time analytics
+This report provides a comprehensive view of the role time plays in projects, including the total hours allocated, the breakdown of tracked hours on timesheets, and the distinction between approved and unapproved hours.
+
+By taking a 360-degree perspective, we can better understand how team members are managing their time in alignment with the project timeline. This illuminates both the required effort for project completion and the team's dedicated contributions to ensure timely delivery.
+
+Dashboard has cards that talk about:
+Allocated hours : Total hours allocated for all projects for the chosen time range
+Tracked hours : Total hours, the team tracked in timesheets categorized into billable and non-billable
+Approved hours : Total hours tracked on timesheets that are approved by project owners/managers.
+Unapproved hours : Total hours tracked on timesheets that are not approved by project owners/managers.
+Billable and Non-billable hours: Total billable and non billable hours spent on project work.
+
+Hours breakdown chart:
+Provides a detailed breakdown of the hours allocated vs tracked hours segmented into billable and non billable within the selected time range.
+
+X-axis : Represents the chosen time range, whether monthly, yearly, etc.
+Y-axis : Measures the hours spent
+
+Summary table
+Offers a detailed breakdown of the total allocated, tracked hours, distinguishing between billable and non-billable hours and approved and unapproved hours for each project.
+
+Click on any project in the summary table to delve into how time is allocated, tracked and approved under the below segments:
+
+Phases and tasks - Expand each phase to view time analytics for each task within the phase
+Roles and people - Expand each role to analyze time for all the team members with that role
+Categories - View time analytics for all categories for which team members tracked time.
+Time entries - View all time entries tracked on the project
+
+Filters : Use filters to focus on hours spent on specific subset of projects. For instance, you can apply filters such as “ARR is greater than 10k”
+
+Time Range : This denotes the time frame under analyses for analyzing project time.
+
+Group by : Organize the entire table based on specific criteria, like data at a customer portfolio level. For instance, group by "customer" to view the projects that contribute to the customer portfolio.
+
+Save Filter : Transform your applied filters into a saved view by assigning it a name. This personalized view can be kept private or shared with the entire team.
+
+People time analytics
+Provides insights into the total team member capacity of your organization, showcasing how much of that capacity is dedicated to productive, billable work. Additionally, it furnishes details on the total hours allocated to team members and the specific hours they tracked on timesheets.
+
+Dashboard has cards that talk about:
+Billable utilizatio n:is the percentage measurement of billable hours, indicating the portion of total available work capacity dedicated to billable work.
+Available capacity : is the total hours your team members are available for work.
+Allocated hours : Total hours allocated for all team members for the chosen time range
+Hours tracked : Total hours, your team members tracked in timesheets
+
+Billable Utilization chart:
+Provides a comparison between planned and actual billable utilization, where:
+Planned utilization signifies the billable hours allocated to team members for tasks within projects.
+Actual utilization represents the billable hours tracked by your team members using timesheets.
+
+Hours Breakdown chart
+Provides a detailed breakdown of the hours allocated vs tracked hours segmented into billable and non billable within the selected time range.
+
+X-axis : Represents the chosen time range, whether monthly, yearly, etc.
+Y-axis : Measures the hours spent
+
+Summary table
+Offers a detailed breakdown of the total allocated, tracked hours, utilization rates and timesheet approval status.
+
+Click on any team member in the summary table to delve into how time is allocated, tracked and approved under the below segments:
+
+Project : Expand each project to view the team member’s time utilization under each project
+Category : View time analytics for all categories for which team members tracked time.
+Time entries : View all time entries tracked by the team member
+
+Filters : Use filters to focus on hours spent on specific subset of team members. For instance, you can apply filters such as “Role is Consultant”
+
+Time Range : This denotes the time frame under analyses for analyzing team members’ time.
+
+Group by: Team members can be effectively grouped based on roles or status, allowing for a streamlined view of their time spent on projects.
+
+Save Filter : Transform your applied filters into a saved view by assigning it a name. This personalized view can be kept private or shared with the entire team.
+
+Timesheet submissions report
+This report serves as a straightforward method for tracking timesheet submissions and approvals for team members within the selected time period.
+
+Approvals and Submissions : Navigate the approvals drop-down to alternatively view the approvals and submissions of timesheets. The visual indicators are as follows:
+
+Green tick mark : Submitted or approved timesheets
+Yellow exclamation point : Partially submitted (if a few entries are filled and not submitted) or partially approved (if only a few and not all time entries are approved) timesheets
+Red cross mark : Unsubmitted or unapproved timesheets
+
+Show Actual Hours : Toggle this button to view the actual hours submitted or approved, color-coded as red, yellow, and green.
+
+Filters : Use filters to focus on timesheets from a specific subset of team members. For example, apply filters such as "Role is Consultant."
+
+Time Range : Denotes the time frame under scrutiny for analyzing timesheet submission or approval.
+
+Group By : Efficiently group timesheets based on roles or status for a streamlined view of submissions or approvals by each team member.
+
+Save Filter : Transform applied filters into a saved view by assigning a name. This personalized view can be kept private or shared with the entire team.
+
+Note: We have now moved all Time Analytics report exports to email, regardless of the number of records. This helps reduce the load on our API servers and ensures a smoother, more seamless experience by distributing the processing across multiple machines.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Time Tracking Report: Analyse how your team spends time where
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Configure How Utilisation Is Calculated
+
+How To Setup Your Company references?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

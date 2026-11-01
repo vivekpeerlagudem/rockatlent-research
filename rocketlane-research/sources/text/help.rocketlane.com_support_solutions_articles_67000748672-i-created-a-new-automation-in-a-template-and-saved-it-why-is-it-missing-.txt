@@ -1,0 +1,154 @@
+TITLE: I created a new automation in a template and saved it. Why is it missing? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748672-i-created-a-new-automation-in-a-template-and-saved-it-why-is-it-missing-
+
+I created a new automation in a template and saved it. Why is it missing? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+I created a new automation in a template and saved it. Why is it missing?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+Created by Advaith R, Modified on Mon, 17 Nov, 2025 at 5:21 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is the e-mail that I set up as an automation not getting sent out?
+
+Setting Up HTTPS Requests for project visibility
+
+How can I automate the visibility of project phases based on whether a project field contains a specific value, especially if the field has multiple values?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How do updates to automations in a project template affect existing and future projects?
+
+No article available
+
+A: The reason your saved automation is not appearing is that it was created but not fully saved within the template context.
+
+To ensure your new automation is available across other tasks and projects, you must explicitly save the automation in the template after you have created and before saving the the template it. Once the template is saved, the automation will be correctly registered and accessible for selection on new tasks.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What are saved automations and how to use them?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+Organizing Templates into Folders
+
+General FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

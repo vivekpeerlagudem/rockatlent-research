@@ -1,0 +1,252 @@
+TITLE: Auto Invite Customer Champion on Project Creation : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000752715-auto-invite-customer-champion-on-project-creation
+
+Auto Invite Customer Champion on Project Creation : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Auto Invite Customer Champion on Project Creation
+
+Auto Invite Customer Champion on Project Creation
+
+Created by Advaith R, Modified on Wed, 29 Jul at 4:12 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Automating CSAT Score Updates From Form Responses
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Auto Invite Customer Champion on Project Creation
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Embedding Calendly Links in Rocketlane
+
+Turn Customer Form Submissions into Immediate Action
+
+No article available
+
+This article explains how to automatically invite a customer champion after a project is created. The workflow uses a project field to capture the customer champion’s email address during project creation, then triggers an automation that calls a Rocketlane API to add that email as a customer member on the project.
+In this article
+
+When to use
+
+Prerequisites
+
+Create a customer champion email field
+
+Create a project-creation automation
+
+Configure the HTTPS request
+
+Add the request body
+
+Add headers
+
+Save the automation
+
+When to use
+Use this automation when:
+
+Every project needs a designated customer champion added as a project member.
+
+The champion’s email address is known at the time of project creation.
+
+Your team wants to avoid manually inviting the champion after each project is created.
+
+Prerequisites
+Before you begin, make sure you have:
+
+Permission to create project fields.
+
+Permission to create global automations.
+
+A Rocketlane API key from Settings > API .
+
+Create a customer champion email field
+Start by creating a project field to capture the customer champion’s email address.
+
+Navigate to Project Settings > Fields .
+
+Create a new Text field.
+
+Name the field Customer Champion Email ID .
+
+Ensure the field is marked Public .
+
+During project creation, enter the customer champion’s email address into Customer Champion Email ID .
+This field is used as the source value for the automation.
+
+Create a project-creation automation
+Next, create a global automation that runs when a project is created.
+
+Navigate to Settings > Automations .
+
+Click Create New Automation .
+
+Set the automation scope to All projects .
+
+Set the trigger to When project is created .
+
+Add the action Send HTTPS Request .
+
+Configure the HTTPS request
+
+Build tab
+In the URL field, use the following endpoint:
+https://api.rocketlane.com/api/1.0/projects/(Project->project_id)/add-members
+Replace (Project->project_id) with a Project ID SmartFill so the API call targets the correct project.
+
+Type {{{ in the URL field to open SmartFill options.
+
+Select Project > project_id .
+Set the request method to POST .
+This endpoint adds the provided customer email address as a customer member on the project.
+
+Add the request body
+In the Body section, paste the following JSON:
+{ "customers": [ { "emailId": "(Project->Customer Champion Email ID)" } ] }
+Replace (Project->Customer Champion Email ID) with the project field SmartFill.
+
+Type {{{ inside the JSON where the emailId value is expected.
+
+Select Project > Customer Champion Email ID .
+This ensures the automation uses the email stored in the project field during project creation.
+
+Add headers
+In the Headers section, add the following:
+Header Value
+Accept application/json
+Content-Type application/json
+Api-key <your API key>
+Copy the API key from Settings > API and paste it as the value for Api-key .
+Note The Params section can be left empty.
+
+Save the automation
+Save the automation.
+Once saved, every time a new project is created, Rocketlane will:
+
+Read the email address stored in Customer Champion Email ID .
+
+Call the add-members API for that project.
+
+Automatically invite the customer champion to the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+How to Create a Rocketlane Project?
+
+Account Level Default Permissions
+
+Client Partners in Rocketlane:
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

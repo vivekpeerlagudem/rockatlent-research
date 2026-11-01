@@ -1,0 +1,303 @@
+TITLE: Getting started with Rocketlane's Jira Integration : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701085-getting-started-with-rocketlane-s-jira-integration
+
+Getting started with Rocketlane's Jira Integration : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+Getting started with Rocketlane's Jira Integration
+
+Getting started with Rocketlane's Jira Integration
+
+Created by Niharika Pandey, Modified on Wed, 29 Jul at 6:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Integrations
+
+Articles in this series
+
+Getting started with Rocketlane's Jira Integration
+
+No article available
+
+Rocketlane’s Jira Integration allows you to create and sync Jira issues for your Rocketlane tasks. This helps your onboarding and engineering teams to communicate and collaborate without having to leave the systems they use everyday.
+
+Create Jira issues, get notified of status changes and talk to your Jira team, all from within Rocketlane.
+
+Integrating Jira with Rocketlane
+
+Navigate to Settings. Go to Integrations .
+
+Choose Jira.
+
+You will be redirected to the Jira Integration page. Click on ' Login to Jira' to authenticate the Integration.
+
+You will be asked to authenticate the integration. Click Accept .
+
+If you have successfully integrated your JIRA account, you will be redirected to the JIRA Integration page in Rocketlane.
+
+Rocketlane's Jira Integration
+
+Once you have successfully integrated JIRA with Rocketlane, lets talk about the features of this integration.
+
+Choose a Jira project
+
+Choose relevant Jira project while issue creation
+
+Lets you choose a Jira project when you create an issue.
+
+Create all issues under selected Jira project
+
+Lets you choose a single project under which all issues will be added in Jira.
+
+Sync Status Field
+
+Note: Jira issues can be corresponded with Rocketlane tasks.
+
+Once this field is checked, Rocketlane will update its task status as the linked Jira issue status changes.
+
+The terminologies used in a Jira status category and Rocketlane status field can be mapped as follows:
+
+Jira Status Category
+Rocketlane Status Field
+
+To Do
+To Do
+
+In Progress
+In Progress
+
+Done
+Completed
+
+Sync custom Jira Issue status to Rocketlane task status
+
+You can map custom Jira Issue status to Rocketlane task status and sync status updates from Jira to Rocketlane.
+
+Sync due dates from Jira to Rocketlane
+
+Automatically updates the due date of the Rocketlane task if the due date of Jira is updated.
+
+Sync Comments Between Jira and Rocketlane
+
+Comments made on Jira issues will appear as a private messages on linked Rocketlane tasks. Your team will also be able to send comments to Jira.
+
+Creating a Jira Issue for a Rocketlane Task
+
+Create a Jira Issue
+
+Go to your project and select the task you want to create a Jira issue for.
+
+Click on the ' More actions' button from the task controls and select ' Create a Jira issue'.
+
+You will be redirected to the ' New Jira Issue' dialog box.
+
+Click the Create button after you have customised the fields for your Jira issue .
+
+New Jira Issue Dialog Box
+
+Note: Jira fields from your Jira account which are necessary to create a new Jira issue will be automatically added to the ' New Jira issue' dialog box.
+
+Project
+
+Select the name of the Project where you want your Jira issue to be created in.
+
+Issue Type
+
+Select the Jira Issue Type from Story, Task or Bug.
+
+Epic
+
+Choose a Jira Epic from the list. A Jira Epic is a larger group of Jira issues combined together.
+
+Summary
+
+The summary of the issue is auto populated with the name of the task .
+
+Description
+
+The description of the issue is auto populated with the description of the task .
+
+Reporter
+
+The reporter is the team member who raises the issue .
+
+Assignee
+
+Assign a team member to resolve the Jira issue .
+
+Linking a Jira Issue to a Rocketlane Task
+
+Go to your project and select the task you want to create a Jira issue for.
+
+Click on the ' More actions' button from the task controls and select 'Link a Jira issue'.
+
+Paste the url for the Jira issue in the ' Jira issue url' section and click on the ' Link a Jira issue button'.
+
+Rocketlane's Tasks as Jira Issues: Functionalities
+
+As soon as you link create a new Jira issue or link one with a Rocketlane task, the Jira issue will be visible on the task pane under the Jira section.
+
+You can view the issue Summary, Status, Priority and Assignee.
+
+Click on the Jira issue and you will be redirected to the Jira portal.
+
+Unlink Jira Issue
+
+Lets you unlink the Rocketlane task with the associated Jira Issue .
+
+The Jira issue and the Rocketlane task do not cease to exist.
+
+Go to More actions > Unlink Jira Issue.
+
+Unlink and Delete Jira Issue
+
+Lets you unlink the Rocketlane task with the associated Jira Issue and the Jira issue is deleted.
+
+Go to More actions > Unlink and delete Jira Issue.
+
+Syncing Jira a nd Rocketlane Comments
+Rocketlane to Jira comment sync
+
+You can add a comment from Rocketlane that will be reflected for your Jira issue on the Jira portal.
+
+Click on the 'Add comment in Jira' button.
+
+Type your comment in the text box and click the 'Send comment' button.
+
+You can view the comment on your Jira portal.
+
+Jira to Rocketlane comment sync
+
+The same applies for comments made on the Jira portal which reflect in the Rocketlane's Task conversations section.
+
+Go to the Jira issue on the Jira portal. In the comments section add your comment and click Save.
+
+You can view the comment in the Conversations section of your task .
+
+Jira settings for Project Templates
+
+In project templates you can configure for which project tasks should we create and sync Jira issues. When a project is created out of the templates, the Jira issues for the corresponding task will be automatically created as well.
+
+Go to Templates > Project Templates.
+
+Choose a template and click on the task you want to add a Jira issue for.
+
+Go to the ' Jira details' section. To get started with linking a jira issue for the tasks , mark the 'Create a Jira issue for this task' checkbox.
+
+Edit the fields for the ' Jira details' and click Save from the top right corner of the screen.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+The Workato Rocketlane Integration
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+How to get started with Rocketlane's Integration for Slack?
+
+Rocketlane's Integration for HubSpot
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

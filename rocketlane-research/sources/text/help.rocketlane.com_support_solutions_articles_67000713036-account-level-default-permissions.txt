@@ -1,0 +1,1037 @@
+TITLE: Account Level Default Permissions : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000713036-account-level-default-permissions
+
+Account Level Default Permissions : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Account Level Default Permissions
+
+Account Level Default Permissions
+
+Created by Niharika Pandey, Modified on Mon, 7 Sep at 6:18 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Account Level Default Permissions
+
+Project Level Permissions
+
+Customer User Permissions in Rocketlane
+
+No article available
+
+Account Admins have every permission in Rocketlane, including permissions that are restricted for Super Users and Collaborators. The table below lists each Account Admin permission explicitly.
+Note These default permissions apply to all accounts. Customizing Role-Based Access Control (RBAC) requires a Rocketlane Enterprise plan.
+
+Feature Account Admin Super User Collaborator
+Projects
+Can create projects.
+
+Can view all projects (Global).
+
+Can edit projects.
+
+Can invite team members and customer team members.
+
+Can add partners.
+
+Can edit customer domains.
+
+Can set visibility.
+
+Can delete projects.
+
+Can view archived projects.
+
+Can manage project tab visibility.
+
+Can associate project permissions to a team member.
+
+Can edit actual start date.
+
+Can edit actual completed date.
+
+Can create projects.
+
+Can view all projects (Global).
+
+Can edit projects.
+
+Can invite team members and customer team members.
+
+Can add partners.
+
+Can edit customer domains.
+
+Can set visibility.
+
+Can delete projects.
+
+Can view archived projects.
+
+Can manage project tab visibility.
+
+Can associate project permissions to a team member.
+
+Cannot edit actual start date.
+
+Cannot edit actual completed date.
+
+Cannot create projects.
+
+Can view projects.
+
+Can invite team members and customer team members.
+
+Cannot add partners.
+
+Cannot edit customer domains.
+
+Cannot set visibility.
+
+Cannot delete projects.
+
+Cannot view archived projects.
+
+Cannot manage project tab visibility.
+
+Cannot associate project permissions to a team member.
+
+Cannot edit actual start/completed date.
+
+Phase
+Can create phases.
+
+Can manage phase visibility (Both).
+
+Can edit phase name, dates, and effort.
+
+Can delete phases.
+
+Can create phase.
+
+Can manage phase visibility (Both).
+
+Can edit phase name, dates, and effort.
+
+Can delete phases.
+
+Can create phase.
+
+Can manage phase visibility (Both).
+
+Can edit phase name, dates, and effort.
+
+Can delete phases.
+
+Tasks
+Can view, create, and delete tasks (Private & Shared).
+
+Can edit assignee, status, start/due dates, name, description, effort, progress, priority.
+
+Can send messages.
+
+Can convert tasks to milestones.
+
+Can mark tasks as 'at risk' and private.
+
+Can move tasks across phases, request approval, manage attachments, subtasks, and dependencies.
+
+Can edit completed on date.
+
+Can edit started on date.
+
+Can view, create, and delete tasks (Private & Shared).
+
+Can edit assignee, status, start/due dates, name, description, effort, progress, priority.
+
+Can send messages.
+
+Can convert to milestone.
+
+Can mark as 'at risk' and private.
+
+Can move tasks across phases, request approval, manage attachments, subtasks, and dependencies.
+
+Cannot edit completed on date.
+
+Cannot edit started on date.
+
+Can view, create, and delete tasks (Private & Shared).
+
+Can edit assignee, status, start/due dates, name, description, effort, progress, priority.
+
+Can send messages.
+
+Can mark as 'at risk' and private.
+
+Can move tasks across phases, request approval, manage attachments, subtasks, and dependencies.
+
+Cannot convert to milestone.
+
+Cannot edit completed on date.
+
+Cannot edit started on date.
+
+Accounts
+Can view accounts (Global).
+
+Can create, edit, merge, and delete accounts.
+
+Can manage account billing addresses.
+
+Can view accounts (Global).
+
+Can create, edit, merge, and delete accounts.
+
+Can manage account billing addresses.
+
+Can view accounts.
+
+Cannot create, edit, or delete accounts.
+
+Cannot manage account billing addresses.
+
+Cannot merge accounts.
+
+Account fields
+Can view account field values (Global).
+
+Can edit account field values.
+
+Can view and edit account notes.
+
+Can manage account field settings.
+
+Can create, edit, and delete account fields and sections.
+
+Can view account field values (Global).
+
+Can view and edit account notes.
+
+Cannot manage account field settings.
+
+Cannot create, edit, or delete account fields and sections.
+
+Cannot edit account field values.
+
+Can view account field values.
+
+Can view and edit account notes.
+
+Cannot manage account field settings.
+
+Cannot edit account field values.
+
+Cannot create, edit, or delete account fields and sections.
+
+Spaces
+Can view, edit, rearrange, and delete documents.
+
+Can edit embedded document URLs.
+
+Can create spaces (Private & Shared) and documents.
+
+Can embed URLs.
+
+Can delete spaces and documents.
+
+Can view, edit, rearrange, and delete documents.
+
+Can edit embedded document URLs.
+
+Can create spaces (Private & Shared) and documents.
+
+Can embed URLs.
+
+Can delete spaces and documents.
+
+Can view, edit, and rearrange documents.
+
+Can edit embedded document URLs.
+
+Can create spaces and documents.
+
+Can embed URLs.
+
+Can delete spaces.
+
+Cannot delete documents.
+
+Chat
+Can view, create, edit, and delete project conversations (Private & Shared).
+
+Can send messages, invite team members, edit name and description.
+
+Can view, create, edit, and delete project conversations (Private & Shared).
+
+Can send messages, invite team members, edit name and description.
+
+Can view, create, edit, and delete project conversations (Private & Shared).
+
+Can send messages, invite team members, edit name and description.
+
+Files and Folders
+Can view files and folders.
+
+Can create folders and upload files (Shared and Private).
+
+Can view files and folders.
+
+Can create folders and upload files (Shared and Private).
+
+Can view files and folders.
+
+Can create folders and upload files.
+
+Status updates
+Can view published updates.
+
+Can create and publish status updates (Private & Shared).
+
+Can view published updates.
+
+Can create and publish status updates (Private & Shared).
+
+Can view published updates.
+
+Can create and publish status updates.
+
+Form responses Can edit form responses. Can edit form responses. Can edit form responses.
+Sprints
+Can create, manage, and delete sprints.
+
+Can manage sprint settings.
+
+Can create, manage, and delete sprints.
+
+Cannot manage sprint settings.
+
+Cannot create, manage, or delete sprints.
+
+Cannot manage sprint settings.
+
+Epics
+Can create, manage, and delete epics.
+
+Can manage epic settings.
+
+Can create, manage, and delete epics.
+
+Can manage epic settings.
+
+Cannot create, manage, or delete epics.
+
+Cannot manage epic settings.
+
+Backlogs Can create, manage, and delete backlogs. Can create, manage, and delete backlogs. Cannot create, manage, or delete backlogs.
+Templates Can create and manage all templates. Can create and manage all templates. Cannot create and manage templates.
+Dashboards
+Can view dashboards.
+
+Can manage dashboards and widgets.
+
+Can view dashboards.
+
+Can manage dashboards and widgets.
+
+Cannot view dashboards.
+
+Cannot manage dashboards and widgets.
+
+Reports
+Can view all report types: CSAT, Time Tracking, Project/People Performance, Operations Insight, Interval IQ, Portfolio, time analytics, utilisation, timesheet submission, people time analytics, and Sprint reports.
+
+Can view custom reports.
+
+Can create and manage custom reports.
+
+Can view CSAT, Time Tracking, Project/People Performance, Operations Insight, Interval IQ, Portfolio, time analytics, utilisation, timesheet submission, people time analytics, and Sprint reports.
+
+Cannot view custom reports.
+
+Cannot create and manage custom reports.
+
+Cannot view custom reports.
+
+Cannot view individual report types (CSAT, Time Tracking, etc.).
+
+Cannot create and manage custom reports.
+
+Key events and Intervals
+Can create, edit, and delete Key Event and Interval fields.
+
+Can view and manage Key Event field values.
+
+Can create, edit, and delete Key Event and Interval fields.
+
+Can view and manage Key Event field values.
+
+Cannot create, edit, or delete Key Event and Interval fields.
+
+Cannot view Key Event field values.
+
+Cannot manage Key Event field values.
+
+Settings Can manage all account settings: Plans and billing, team members, roles, account preferences, invoice billing address, holiday calendars, Customer portal configuration, partner companies, integrations, Time tracking settings, Resource management settings, Financial management settings, Revenue recognition ledger settings, currencies, advanced settings, key events and intervals, automations, out of office, AI fills settings, and vault.
+Can manage Plans and billing.
+
+Can manage team members.
+
+Can manage roles.
+
+Cannot manage account preferences, invoice billing address, holiday calendars, Customer portal configuration, partner companies, integrations, Time tracking settings, Resource management settings, Financial management settings, Revenue recognition ledger settings, currencies, advanced settings, key events and intervals, automations, out of office, AI fills settings, vault.
+Cannot manage any settings (all available but disabled by default).
+Project fields
+Can view project field values (Global).
+
+Can edit project field values.
+
+Can edit project notes.
+
+Can manage project field settings.
+
+Can create, edit, and delete project fields and sections.
+
+Can view project field values (Global).
+
+Can edit project field values.
+
+Can edit project notes.
+
+Cannot manage project field settings.
+
+Cannot create, edit, or delete project fields and sections.
+
+Can view project field values.
+
+Can edit project notes.
+
+Cannot edit project field values.
+
+Cannot manage project field settings.
+
+Cannot create, edit, or delete project fields and sections.
+
+Task fields
+Can view task field values (Global).
+
+Can edit task field values.
+
+Can manage task field settings.
+
+Can create, edit, and delete task fields and sections.
+
+Can view task field values (Global).
+
+Can edit task field values.
+
+Cannot manage task field settings.
+
+Cannot create, edit, or delete task fields and sections.
+
+Can view task field values.
+
+Can edit task field values.
+
+Cannot manage task field settings.
+
+Cannot create, edit, or delete task fields and sections.
+
+Team member fields Can manage team member fields, settings, and sections. Cannot manage team member fields, settings, and sections. Cannot manage team member fields, settings, and sections.
+Skills
+Can view skill values (Global).
+
+Can edit skill values (Global).
+
+Can manage skill settings.
+
+Can create, edit, and delete skills and sections.
+
+Can manage skills matrix.
+
+Can view skill values (Global).
+
+Can edit skill values (Global).
+
+Cannot manage skill settings.
+
+Cannot create, edit, or delete skills and sections.
+
+Cannot manage skills matrix.
+
+Can view skill values.
+
+Cannot edit skill values.
+
+Cannot manage skill settings.
+
+Cannot create, edit, or delete skills and sections.
+
+Cannot manage skills matrix.
+
+Time tracking
+Can view and submit timesheets (Global).
+
+Can edit billable and category defaults.
+
+Can manage billable/category defaults for project tasks (Global).
+
+Can approve timesheets for all team members.
+
+Can add or change time entries while approving.
+
+Can view and edit custom time entry field values (Global).
+
+Can modify or delete approval-locked entries.
+
+Can edit date-locked time entry details.
+
+Can change status of date-locked time entries.
+
+Cannot approve own timesheets.
+
+Can view and submit timesheets (Global).
+
+Can edit billable and category defaults.
+
+Can manage billable/category defaults for project tasks (Global).
+
+Can approve timesheets (projects they own and all team members).
+
+Can add or change time entries while approving.
+
+Can view and edit custom time entry field values (Global).
+
+Cannot approve own timesheets.
+
+Cannot modify or delete approval locked entries.
+
+Cannot edit date-locked time entry details.
+
+Cannot change status of date-locked time entries.
+
+Can view and submit timesheets (Global).
+
+Can edit billable and category defaults.
+
+Can manage billable/category defaults for project tasks (Global).
+
+Can approve timesheets (projects they own and non-project).
+
+Can add or change time entries while approving.
+
+Can view and edit custom time entry field values.
+
+Cannot approve own timesheets.
+
+Cannot modify or delete approval locked entries.
+
+Cannot edit date-locked time entry details.
+
+Cannot change status of date-locked time entries.
+
+Time entry fields
+Can manage time entry field settings.
+
+Can create, edit, and delete time entry fields and sections.
+
+Cannot manage time entry field settings.
+
+Cannot create, edit, or delete time entry fields and sections.
+
+Cannot manage time entry field settings.
+
+Cannot create, edit, or delete time entry fields and sections.
+
+Resource management
+Can access People and Project views.
+
+Can view and manage allocations (Global).
+
+Can access Capacity Planning.
+
+Can access Resource AI (Global).
+
+Can view revenue, cost, profit, and margins.
+
+Can raise and approve resource requests (Global).
+
+Can view allocation totals.
+
+Can turn auto-allocations on/off.
+
+Can manage level of effort planning.
+
+Can access People and Project views.
+
+Can view and manage allocations (Global).
+
+Can access Capacity Planning.
+
+Can access Resource AI (Global).
+
+Can view revenue, cost, profit, and margins.
+
+Can raise and approve resource requests (Global).
+
+Can view allocation totals.
+
+Can turn auto-allocations on/off.
+
+Can manage level of effort planning.
+
+Can access People and Project views.
+
+Can view and manage allocations.
+
+Cannot access Capacity Planning.
+
+Cannot access Resource AI.
+
+Cannot view revenue, cost, profit, and margins.
+
+Cannot raise resource requests.
+
+Cannot approve resource requests.
+
+Cannot view allocation totals.
+
+Cannot turn auto-allocations on/off.
+
+Cannot manage level of effort planning.
+
+Financials
+Can view rate cards.
+
+Can view all financial fields (Budgets, Revenue, Bill rates, Cost, Profit, and margins).
+
+Can view cost rates.
+
+Can change billing type, budgets, and budgeted hours.
+
+Can apply and manage standard and project-specific rate cards.
+
+Can create and manage rate cards.
+
+Can manage cost rates.
+
+Can manually override bill/cost rates.
+
+Can edit currency and subscription fields on projects.
+
+Can view rate cards.
+
+Can view financial fields (Budgets, Revenue, Bill rates).
+
+Can change billing type, budgets, and budgeted hours.
+
+Can apply and manage standard and project-specific rate cards.
+
+Cannot view cost rates.
+
+Cannot create and manage rate cards.
+
+Cannot manage cost rates.
+
+Cannot view Cost, Profit and margins.
+
+Cannot manually override bill/cost rates.
+
+Cannot edit currency and subscription fields on projects.
+
+Can view financial fields (Budgets and Revenue only).
+
+Cannot view rate cards.
+
+Cannot view cost rates.
+
+Cannot create and manage rate cards.
+
+Cannot manage cost rates.
+
+Cannot view Bill rates, Cost, Profit and margins.
+
+Cannot change billing type, budgets, budgeted hours.
+
+Cannot apply rate cards.
+
+Cannot manually override bill/cost rates.
+
+Cannot edit currency and subscription fields.
+
+Revenue recognition entry
+Can create and delete posting periods.
+
+Can view, create, and manage revenue recognition entries, including locked entries.
+
+Can create and delete posting periods.
+
+Can view, create, manage, and manage locked revenue recognition entries.
+
+Cannot create and delete posting periods.
+
+Cannot view revenue recognition entries.
+
+Cannot create or manage revenue recognition entries, including locked entries.
+
+Invoicing
+Can access invoices (Global).
+
+Can create and edit invoices.
+
+Can request and manage approvals.
+
+Can approve/reject any approval requests.
+
+Can manually override invoice status.
+
+Can manage payment records and write-offs.
+
+Can void and delete invoices.
+
+Can apply and remove credit notes from invoices.
+
+Can manage approval workflows and invoice/credit note custom fields.
+
+Can create, edit, and delete invoice/credit note fields and sections.
+
+Can view billing events.
+
+Can create and manage billing events.
+
+Can manage billing schedule templates.
+
+Can access invoices (Global).
+
+Can create and edit invoices.
+
+Can request and manage approvals.
+
+Can approve/reject any approval requests.
+
+Can manually override invoice status.
+
+Can manage payment records and write-offs.
+
+Can void and delete invoices.
+
+Can apply and remove credit notes from invoices.
+
+Can manage approval workflows and invoice/credit note custom fields.
+
+Can create, edit, and delete invoice/credit note fields and sections.
+
+Cannot view billing events.
+
+Cannot create and manage billing events.
+
+Cannot manage billing schedule templates.
+
+Can access invoices.
+
+Cannot create and edit invoices.
+
+Cannot request and manage approvals.
+
+Cannot approve/reject any approval requests.
+
+Cannot manually override invoice status.
+
+Cannot manage payment records and write-offs.
+
+Cannot void and delete invoices.
+
+Cannot apply and remove credit notes from invoices.
+
+Cannot view billing events.
+
+Cannot create/manage billing events, invoice fields, or billing schedule templates.
+
+Credit notes
+Can access credit notes and invoices (Global).
+
+Can create and edit credit notes.
+
+Can void and delete credit notes.
+
+Can manage credit notes settings.
+
+Can access credit notes and invoices (Global).
+
+Cannot create and edit credit notes.
+
+Cannot void or delete a credit note.
+
+Cannot manage credit notes settings.
+
+Can manage credit notes settings.
+
+Can access credit notes and invoices.
+
+Can create and edit credit notes.
+
+Can void and delete credit notes.
+
+Taxes
+Can view tax codes and tax components.
+
+Can manage tax settings.
+
+Can create and manage tax codes and components.
+
+Can view tax codes and tax components.
+
+Cannot manage tax settings.
+
+Cannot create or manage tax codes and components.
+
+Cannot manage tax settings.
+
+Cannot view tax codes and tax components.
+
+Cannot create or manage tax codes and components.
+
+Expenses
+Can create and manage expense budgets.
+
+Can view, create, submit, and manage expenses and expense reports.
+
+Can manage billable defaults.
+
+Can approve or reject any expense.
+
+Can view and edit custom expense field values (Global).
+
+Can manage expense settings.
+
+Can manage expense approval chains and workflows.
+
+Can create and manage expense budgets.
+
+Can view, create, submit, and manage expenses and expense reports.
+
+Can manage billable defaults.
+
+Can approve or reject any expense.
+
+Can view and edit custom expense field values (Global).
+
+Cannot manage expense settings.
+
+Cannot manage expense approval chains and workflows.
+
+Can create and manage expense budgets.
+
+Can view, create, submit, and manage expenses and expense reports.
+
+Can approve or reject any expense.
+
+Can view and edit custom expense field values.
+
+Cannot manage billable defaults.
+
+Cannot manage expense settings.
+
+Cannot manage expense approval chains and workflows.
+
+Expense fields
+Can manage expense field settings.
+
+Can create, edit, and delete expense fields and sections.
+Cannot manage expense field settings, creation, editing, and deletion. Cannot manage expense field settings, creation, editing, and deletion.
+Webhooks
+Can view webhooks.
+
+Can create and edit webhooks.
+
+Cannot view webhooks.
+
+Cannot create and edit a webhook.
+
+Cannot view webhooks.
+
+Cannot create and edit a webhook.
+
+Customer team member fields
+Can view customer team member field values (Global).
+
+Can edit customer team member field values.
+
+Can manage field settings.
+
+Can create, edit, and delete fields and sections.
+
+Can view customer team member field values (Global).
+
+Can edit customer team member field values.
+
+Cannot manage field settings.
+
+Cannot create, edit, or delete fields and sections.
+
+Cannot view and edit customer team member field values.
+
+Cannot manage field settings.
+
+Cannot create, edit, or delete fields and sections.
+
+Customer portal Can access and manage customer portal embed settings.
+Cannot manage customer portal embed settings.
+
+Cannot access customer portal embed settings.
+
+Cannot manage customer portal embed settings.
+
+Cannot access customer portal embed settings.
+
+Customer portal template Can create, edit, and delete customer portal templates. Cannot create, edit, or delete customer portal templates. Cannot create, edit, or delete customer portal templates.
+Customer portal theme Can create, edit, and delete customer portal themes. Cannot create, edit, or delete customer portal themes. Cannot create, edit, or delete customer portal themes.
+Customer portal invite settings Can manage customer portal invite settings. Cannot manage customer portal invite settings. Cannot manage customer portal invite settings.
+Change customer portal Can change customer portal from project settings. Can change customer portal from project settings. Cannot change customer portal from project settings.
+Spotlight Can add or remove spotlight on resources. Can add or remove spotlight on resources. Cannot add or remove spotlight on resources.
+Saved views Can share saved views. Can share saved views. Cannot share saved views.
+Marketplace Can install, update, delete, and enable/disable custom apps. Cannot install, update, delete, or enable/disable custom apps. Cannot install, update, delete, or enable/disable custom apps.
+Language configurations
+Can update language configurations.
+
+Can add languages.
+
+Can edit translated content.
+
+Can disable languages.
+
+Can assign language to users.
+
+Can update language configurations.
+
+Can add language.
+
+Can edit translated content.
+
+Can disable language.
+
+Can assign language to user.
+
+Cannot update language configurations.
+
+Cannot assign language to user.
+
+Cannot add language, edit translated content, or disable language.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Multilingual Support in Rocketlane
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

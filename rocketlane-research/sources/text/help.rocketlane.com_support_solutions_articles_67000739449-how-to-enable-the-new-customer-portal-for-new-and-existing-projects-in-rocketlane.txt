@@ -1,0 +1,197 @@
+TITLE: How to enable the new customer portal for new and existing projects in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000739449-how-to-enable-the-new-customer-portal-for-new-and-existing-projects-in-rocketlane
+
+How to enable the new customer portal for new and existing projects in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Rocketlane Customer Portal
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Created by Monica Madan, Modified on Wed, 29 Jul at 5:53 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build your customer portal
+
+How to invite customers to your portal
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Integrating Slack with the New Customer Portal
+
+Tracking Time in the Customer Portal
+
+Invoice Widget for the Customer Portal
+
+Embedding your portal on On Prem and Cloud Solutions
+
+No article available
+
+You can move ongoing and new projects to the new Customer Portal by applying a Customer Portal template to those projects. The setup differs slightly based on whether the project is already active, newly created, or created through a CRM integration such as Salesforce or HubSpot.
+Note For customer accounts created before October 21, 2024, both the old and new Customer Portal will work. For customer accounts created after October 21, 2024, only the new Customer Portal will be applied by default.
+
+Note Before applying the new Customer Portal, build the Customer Portal template you want to use in your projects. If no template is selected, the default portal will be applied to newly created projects.
+
+Note For accounts created before October 21, 2024 with ongoing projects, the old Customer Portal will continue to work unless a Customer Portal template is explicitly applied.
+
+In this article
+
+Transition ongoing projects to the new Customer Portal
+
+Apply the new Customer Portal to new projects
+
+Apply the new Customer Portal to CRM-created projects
+
+Transition ongoing projects to the new Customer Portal
+To update older projects to the new Customer Portal, create an automation that changes the portal template for the required projects.
+
+Click your Profile icon and go to Settings .
+
+Click Automations , then select New Automation .
+
+Choose Blank Slate to create the automation from scratch.
+
+In the Trigger section, select Set Schedule .
+
+In the dialog box, choose Projects from the Set Schedule On dropdown.
+
+Set Repeats Every to 1 day , and specify the start date, time, and timezone.
+
+In the action block, select Change Portal and choose the Customer Portal template you want to assign to the project.
+Important After the Customer Portal has been updated to the new version, deactivate the automation. Keeping it active may result in unintended changes to future projects or configurations.
+
+Apply the new Customer Portal to new projects
+When creating a new project, select the Customer Portal template you want to use in the project creation flow. For example, if you select SMB Onboarding CP Template , the new project will inherit that template.
+If no Customer Portal template is selected during project creation, the project will inherit the default Customer Portal from the Customer Portal templates section.
+
+Apply the new Customer Portal to CRM-created projects
+If projects are created through CRM integrations such as Salesforce or HubSpot, create an automation that applies the required Customer Portal template when a project is created.
+
+Click your Profile icon, go to Settings , and open Automations .
+
+Create a new automation using the Blank Slate option.
+
+In the Trigger section, choose All Projects .
+
+Set the trigger as When Project is Created . Add conditions if required.
+
+Add an action and select Change Customer Portal . In the dialog box, choose the Customer Portal template you want to apply to the project.
+Note For accounts created before October 21, 2024, if the new Customer Portal template is not selected during project creation, the old Customer Portal will automatically apply.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Step-by-step guide to Sprint Planning
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Partners in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

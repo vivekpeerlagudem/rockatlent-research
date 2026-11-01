@@ -1,0 +1,172 @@
+TITLE: PTO and Timesheets FAQs : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755221-pto-and-timesheets-faqs
+
+PTO and Timesheets FAQs : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+PTO and Timesheets FAQs
+
+PTO and Timesheets FAQs
+
+Created by Advaith R, Modified on Thu, 30 Jul at 6:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+FAQ: Time Off & Reporting in Rocketlane
+
+PTO and Timesheets FAQs
+
+No article available
+
+This article answers common questions about time off, holidays, and PTO entries in Rocketlane timesheets.
+In this article
+
+Why are unexpected dates showing up as PTO or unavailable on my timesheet?
+
+How do I apply for time off directly in Rocketlane?
+
+What should I do if PTO submitted in my HR system is not showing in Rocketlane?
+
+Why are unexpected dates showing up as PTO or unavailable on my timesheet?
+If you see unexpected days off or generic PTO marked on your timesheet, these are often company holidays added to your account’s Holiday Calendar by your Project Manager or Account Admin.
+
+How to check: Hover over the highlighted date in your timesheet to view the specific holiday name.
+
+Next steps: If you believe a holiday is listed in error, reach out to your internal Rocketlane Account Administrator or Manager to update your assigned Holiday Calendar.
+
+How do I apply for time off directly in Rocketlane?
+If you need to request or log time off manually in Rocketlane, follow these steps:
+
+Go to Settings > Profile .
+
+Locate the Time off & Holidays section.
+
+Click Apply time off and select your dates.
+
+To check the status of your past requests, click View time off history under the same section.
+
+What should I do if PTO submitted in my HR system is not showing in Rocketlane?
+If PTO submitted in your HR system, such as Workday, is not showing in Rocketlane, try the following checks:
+
+Check sync frequency: Depending on your organization’s settings, the integration between your HR portal and Rocketlane may sync on a scheduled delay.
+
+Verify time off history: Go to Settings > Profile > Time off & Holidays > View time off history to check if the entries were processed successfully.
+
+Contact your admin: If the entries are still missing after the standard processing time, contact your internal system administrator to verify that your HRIS user profile is correctly mapped to Rocketlane.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+How to Manage Timesheet Approvers in Rocketlane
+
+Time Tracking in Rocketlane
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,235 @@
+TITLE: How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746959-how-can-i-enable-trigger-and-troubleshoot-csat-surveys-for-milestone-tasks-in-rocketlane-
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+Created by Advaith R, Modified on Thu, 14 Aug, 2025 at 2:43 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How is Project age calculated?
+
+How to delete a project?
+
+Can documents and files sent in "All Files" and "Conversations" be deleted?
+
+How to take an export of the project plan?
+
+How do I add a new project in Rocketlane?
+
+How can I find out the number of projects that were cancelled within a specific time period?
+
+Is there a reason I am added to every project?
+
+When setting a "Start on" date for a task within a project template, does this refer to working days or calendar days?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+How can I filter a project view to display multiple specific categories of phases?
+
+Allocations and Accomodations
+
+Why are users being automatically re-added to my Rocketlane projects after I remove them?
+
+How to Identify and Replace an Incorrect Project Template in Rocketlane
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+How is the 'Time to Onboard' metric calculated in Rocketlane?
+
+How do I reactivate a deactivated user in Rocketlane, and are there any associated costs?
+
+How can I access and retrieve documents using the Rocketlane API?
+
+How do I embed SharePoint links in Rocketlane Spaces and resolve common visibility issues?
+
+How to Create Clickable URLs in Rocketlane Tasks or Projects?
+
+How do I use the 'Completed At' field to filter tasks in Rocketlane dashboards?
+
+Enhanced Filtering and Task List Management (FAQ)
+
+Why are tasks created from forms not appearing on the Board or Project Plan view?
+
+Who can view form responses in Rocketlane, and how can they be shared with customers?
+
+How can I manage project status options in Rocketlane?
+
+FAQ: Reordering Phases in a Project Plan Template
+
+FAQ: Document Tasks in Document Templates
+
+How do I move a subtask to a different parent task?
+
+Categorize Projects by Focus Area
+
+Can I move or expose the standard "Effort" field into custom task field sections?
+
+Can I filter tasks assigned to me that are linked to a form submission ?
+
+No article available
+
+How Can I Enable, Trigger, and Troubleshoot CSAT Surveys for Milestone Tasks in Rocketlane?
+Customer Satisfaction (CSAT) surveys are important tools for gathering valuable feedback on completed tasks in Rocketlane. This guide provides a comprehensive overview of enabling, triggering, and troubleshooting CSAT surveys for milestone tasks in your projects.
+
+What Is CSAT in Rocketlane?
+CSAT (Customer Satisfaction Score) is a feature in Rocketlane that allows users to collect feedback on specific tasks from project stakeholders. It's commonly used for milestone tasks to gauge the level of satisfaction with the work delivered. CSAT surveys are typically sent via email and can also appear in the notifications panel for relevant stakeholders. The survey responses are tracked and accessible under the CSAT section of the task details.
+
+Steps to Enable CSAT for a Task
+Follow these steps to ensure CSAT is enabled:
+
+Change the Task's Status: First, ensure the task’s status is adjusted to a different state. This action is necessary to prepare the task for enabling CSAT feedback.
+
+Toggle CSAT Settings: Look for the option to enable CSAT feedback for the task. If you don’t see this setting or lack the required permissions, contact an admin or someone with appropriate access levels to enable it for you.
+
+How to Trigger a CSAT Survey for Milestone Tasks
+To manually trigger a CSAT survey for a milestone task:
+
+Adjust the Task Status: Change the current status of the task to something other than “Completed.”
+
+Return the Status to “Completed”: After making this change, set the status back to “Completed.” This will activate the CSAT survey for the milestone task.
+
+Survey Notification and Email: The CSAT survey will automatically be sent via email to stakeholders and displayed in their notification panel.
+
+You can access and review responses under the CSAT section in the task’s ‘Additional Info’ tab.
+
+Troubleshooting: Why Is the CSAT Section Missing?
+If the CSAT section is unavailable for a milestone task, consider the following troubleshooting steps:
+
+Check Task Visibility: Ensure the task is not marked as a private task. CSAT feedback is not enabled for private tasks as these are not visible to customers. Set the task to a public state if CSAT feedback is desired.
+
+Verify Milestone Status: Double-check that the task is correctly designated as a milestone.
+
+Role and Permissions: Confirm that you have adequate permissions to enable and view CSAT feedback. Admin privileges may be required in certain cases.
+
+By addressing these considerations, you can resolve common issues preventing CSAT functionality.
+
+Key Considerations
+
+Task Configuration: Ensure tasks are properly set up as milestones and public if feedback is required.
+
+Permissions: Admin or permissioned users may be needed to enable CSAT settings.
+
+CSAT Applicability: CSAT is specifically designed for public tasks, ensuring transparency and customer-focused feedback.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Setup Best Practices for Rocketlane Admins
+
+The 4 Letters to better Customer Experience
+
+Project Performance: Insights on Project Timelines and Task completion
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

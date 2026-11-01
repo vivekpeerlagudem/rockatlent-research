@@ -1,0 +1,230 @@
+TITLE: CSAT Reports: Measure and Analyse your Customers Reviews : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000709731-csat-reports-measure-and-analyse-your-customers-reviews
+
+CSAT Reports: Measure and Analyse your Customers Reviews : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Created by Niharika Pandey, Modified on Sat, 8 Feb, 2025 at 9:49 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+CSAT (Customer Satisfaction) Rating for Customers
+
+Each customer who has been assigned to a Milestone task that has CSAT enabled, can provide Customer Satisfaction (CSAT)Ratings for the task post completion.
+
+From the Customer Portal, the customer will receive a notification on the home page to rate the task post completion. Click on 'Rate your Experience'.
+
+You can rate your experience by giving star ratings. You can also leave comments incase you have any feedbacks. Click submit to complete the rating.
+
+CSAT Ratings and Inferences
+
+One Star Rating: Very Dissatisfied
+
+Two Stars Rating: Dissatisfied
+
+Three Stars Rating : Neutral
+
+Four Stars Rating : Satisfied
+
+Five Stars Rating: Very Satisfied
+
+Note: Y ou will not be able to alter CSAT reviews once they have been submitted CSAT Reports
+
+Post completion, e ach milestone task can be reviewed by your customers on the customer portal. The CSAT Report page generates a detailed report of all the CSAT Ratings given by customers for these milestone tasks.
+
+Filters
+
+Apply filters to view specific CSAT Ratings. You can filter milestone tasks based on project fields.
+
+Projects Created
+
+The 'Projects Created' filter lets you filter projects based on creation date.
+
+The Advanced option has two sections:
+
+Relative:
+
+You can choose the projects using the number of days ago the project was created. It can be a tentative number or an exact number of days.
+
+Absolute:
+
+You can provide a specific date and look up only those projects which have been created after, before or exactly on that date.
+
+Average CSAT Rating
+
+This card displays the average CSAT rating based on all the ratings received during the set time duration.
+
+Rating Distribution
+
+The Rating distribution card displays the percentage of reviews received in the form of a pie chart. Hovering on the pie chart displays the percentage of that rating received.
+
+Project Owners based Average Rating
+
+This card displays the Project Owners and the average ratings calculated for the milestone tasks for their projects.
+
+Ratings by Template
+
+This card displays the rating stats received on projects based on which template was used for project creation.
+
+CSAT Report Table
+
+Here is a list of CSAT Report table fields:
+
+Project
+
+Milestone
+
+Rated By
+
+Rating
+
+Comment
+
+Response Date
+
+Group By
+
+You can group the CSAT Report Table values based on Project, Response Date, Milestone, Customer and Rating.
+
+Export
+
+You can export the CSAT Report Table in a csv format by clicking on this button.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+The 4 Letters to better Customer Experience
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

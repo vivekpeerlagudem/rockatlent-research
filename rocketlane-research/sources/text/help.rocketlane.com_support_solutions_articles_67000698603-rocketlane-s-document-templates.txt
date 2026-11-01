@@ -1,0 +1,242 @@
+TITLE: Rocketlane's Document Templates : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000698603-rocketlane-s-document-templates
+
+Rocketlane's Document Templates : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+Rocketlane's Document Templates
+
+Rocketlane's Document Templates
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 6:55 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane's Document Templates
+
+No article available
+
+In this article
+
+Accessing Document Templates
+
+Document Template Menu Bar Options
+
+Document Template Features
+
+Adding Hyperlinks or Tasks to Documents
+
+Adding Untitled Tasks
+
+Inserting a Private section in the document template
+
+Document Templates make it easier to enforce overall consistency by using pre-determined structures and layouts for frequently needed docs. They help minimize errors and save time spent formatting documents. You can quickly add dedicated sections for tasks, panels, and private sections too.
+Let's explore the features of Rocketlane's Document Templates .
+
+Accessing Document Templates
+
+Choose Templates from the vertical navigation pane on the left side of the screen.
+
+On the Templates page, select Document templates .
+
+To get started with your first document template, click Create a new document template .
+
+A blank Untitled document will be created.
+
+You can edit the name of the document and get started with writing.
+
+You can select the text written on the document and highlight it using colors.
+
+Document Template Menu Bar Options
+
+Heading Styles: Choose from Normal text, Heading 1, Heading 2, and Heading 3.
+
+Format Text: Highlight text by using Bold, Italics, and Underline formatting options.
+
+Font Colour: Pick your text colour scheme from the colour panel.
+
+Strikethrough text: Cross out action items that have been completed or cancel out text that has lost relevance.
+
+Code Block: Add pieces of code using the code format to differentiate code from other text.
+
+Lists: Organize your text using numbered lists, bulleted lists, or checklists.
+
+Change Alignment: Left, centre, or right align text for ease of reading.
+
+Insert Image: Add images for better presentation.
+
+Add an emoji: Add an emoji to text to add emotion and communicate better.
+
+Insert table: Display associated data fields in a tabular format.
+
+Insert panels: Add a panel of specific text by marking it with different pre-designed formatting. You can add Information, Success, Warning, and Error panels.
+
+Insert Sections: Add task sections related to each phase and assign team members. Private text sections can also be added to make sure information is kept confidential.
+
+Document Template Features
+Tip Type @ to mention people, @@ for tasks, and @@@ for document templates.
+
+Adding Hyperlinks or Tasks to Documents
+While drafting documents, you can quickly add a hyperlink or a document task to a segment of text.
+Upon selecting text, you have two options:
+
+Link: Lets you add a URL to the web page that you want to open by clicking the selected text.
+
+Add task: Lets you add document tasks to related text.
+Follow the steps below to know how to add document tasks and use their features.
+
+Click Add task .
+
+A dialog box will pop up asking for Task name , Task Assignee , and Task description .
+
+By default, the selected text from the document is auto-filled as the Task description . You can edit the Task description after creating the task too.
+
+Click Create .
+
+The text with a related document task also gets a green underline.
+
+All these tasks created from selecting text snippets from the document are visible on the right side under the Document tasks section.
+
+You can assign people, scroll to the document reference, and delete tasks from this panel.
+
+For more detailed task assignments, click the task and explore the pop-up banner related to the task.
+
+Adding Untitled Tasks
+
+From the top navigation bar, go to Insert Sections > Add Tasks .
+
+An Untitled tasks section is added to the document where the cursor was placed. It is also added to the column of tasks on the right side of the screen.
+
+You can use this section for grouping tasks together.
+
+You can rename Untitled tasks and start adding tasks by clicking Add Task . Type the Task name and press Enter .
+
+Under the Assigned to column, click Choose and pick a team member from the drop-down list.
+
+To delete the task, click the More actions hamburger menu icon next to the task and click Delete .
+
+Inserting a Private section in the document template
+You can add sections of text that are confidential or not intended to be read by people in the team who are not from your organisation.
+
+From the top navigation bar, choose Insert Sections . Select Private Section .
+
+A private section will be added to your document with a pale yellow background. You can type the confidential information in that section.
+
+Do not forget to click Save from the top right side of the screen once you are done editing the document.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Organizing Templates into Folders
+
+Adding SmartFill to Templates and Projects
+
+Rocketlane's Forms Feature: An Introduction
+
+How to create task templates?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

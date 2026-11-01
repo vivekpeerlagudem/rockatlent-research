@@ -1,0 +1,238 @@
+TITLE: How to Integrate Freshsales with Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740180-how-to-integrate-freshsales-with-rocketlane
+
+How to Integrate Freshsales with Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How to Integrate Freshsales with Rocketlane
+
+How to Integrate Freshsales with Rocketlane
+
+Created by Shreeda R, Modified on Thu, 28 Nov, 2024 at 5:42 PM by Shreeda R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to add Salesforce object links to projects?
+
+How to Integrate Freshsales with Rocketlane
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+What are the current capabilities and limitations of the Slack integration.
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+My Workato automation is failing with a 'Rate limit exceeded' error. What should I do?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Salesforce Integration FAQs
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+No article available
+
+Navigate to Workflow Settings
+Go to Admin Settings > Teams & Territories > Workflows .
+
+Set Workflow Parameters
+
+Run this flow for : Deals.
+
+Trigger Condition : When a deal is created or updated.
+
+Condition : Deal stage is set to Won .
+
+Set Action to Trigger a Webhook
+
+Request Method : Select POST .
+
+Callback URL : Enter https://api.rocketlane.com/api/1.0/projects
+
+Add Custom Headers
+
+Header Name: Content-Type → Value: application/json .
+
+Header Name: api-key → Value: Enter your Rocketlane API key.
+
+To generate the API key, go to Settings > API > Create API Key, then copy and paste it here.
+
+Select Encoding Format
+
+Choose JSON .
+
+Compose the Request Body
+
+Use the Advanced option and paste the payload below:
+
+How to get the curl request?
+
+Go to our api documentation page.
+
+Go to Projects→ Create projects
+
+Enter all the details and get the payload.
+
+Paste this payload in Freshsales and modify with the placeholders in Freshsales.
+
+Here is a sample payload that you can use
+
+{
+"customer": {
+"companyName": "{{deal.sales_account.name}}"
+},
+"autoCreateCompany": true,
+"owner": {
+"emailId": "{{deal.owner.email}}"
+},
+"projectName": "{{deal.name}}",
+"status": {
+"value": 2
+},
+"visibility": "EVERYONE"
+}
+
+Test the Webhook
+
+Click on Test this Webhook .
+
+If the setup is correct, you should see a "Received success response."
+
+Save the Webhook
+
+Once the test is successful, save the webhook configuration.
+
+This webhook will automatically create a project in Rocketlane whenever a deal in Freshsales is updated to Won .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+The Workato Rocketlane Integration
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

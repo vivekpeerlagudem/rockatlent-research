@@ -1,0 +1,185 @@
+TITLE: How to Manage Timesheet Approvers in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000752749-how-to-manage-timesheet-approvers-in-rocketlane
+
+How to Manage Timesheet Approvers in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How to Manage Timesheet Approvers in Rocketlane
+
+How to Manage Timesheet Approvers in Rocketlane
+
+Created by Advaith R, Modified on Wed, 8 Apr at 4:44 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to sync Calendar to Timesheet?
+
+FAQ: Calendar Start Day Customization
+
+Why do deactivated users appear in my timesheet approval lists, and how can I manage their visibility?
+
+How do Time Offs reflect in resource management, and do they prevent accidental assignments?
+
+What time zone are timesheet submissions based on?
+
+Why can't I see a specific project in the Resource Management tab, even if other users with similar permissions can?
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+What are hard and soft allocations in Rocketlane, and how do I use them effectively?
+
+How to Manage Timesheet Approvers in Rocketlane
+
+What is the difference between allocation and utilization?
+
+Why is "Import from my allocations" coming up blank on my timesheet?
+
+No article available
+
+Managing timesheet approvers is an essential aspect of facilitating smooth timesheet submissions and approvals in Rocketlane. This guide details how to add, designate, or remove timesheet approvers and describes the fallback system for timesheet approval.
+
+Overview of Timesheet Approvers
+Timesheet approvers are tasked with reviewing and approving timesheets submitted by team members. Effectively managing approvers guarantees that timesheets are processed with efficiency and accuracy.
+
+How to Add or Designate a Timesheet Approver
+To assign a team member as a timesheet approver, follow these steps:
+
+Go to Settings .
+
+Access Team Members .
+
+Choose the relevant team member and click the 3 dots to edit.
+
+Update the Timesheet Approver field to assign them an approver.
+
+How to Remove a Timesheet Approver
+If it's necessary to remove a timesheet approver for a user, you can do this from the team member page. Here's how:
+
+Go to Settings .
+
+Navigate to Team Members .
+
+Select the appropriate team member.
+
+Clear the assigned approver from the Timesheet Approver field.
+In scenarios where a user lacks an assigned approver, their timesheets will automatically receive approval from the account admin.
+
+Fallback Mechanism for Timesheet Approval
+When a user has no designated timesheet approver, the account admin will assume the role of approving their timesheets. This guarantees that all timesheets are assessed and processed, even without a specific approver. By adhering to these steps, you can efficiently manage timesheet approvers in Rocketlane, guaranteeing a smooth approval process for your team.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Time Tracking in Rocketlane
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Timesheet Policies in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

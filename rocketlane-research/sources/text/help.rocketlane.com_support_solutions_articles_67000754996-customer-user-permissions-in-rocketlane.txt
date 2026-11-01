@@ -1,0 +1,247 @@
+TITLE: Customer User Permissions in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754996-customer-user-permissions-in-rocketlane
+
+Customer User Permissions in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Customer User Permissions in Rocketlane
+
+Customer User Permissions in Rocketlane
+
+Created by Advaith R, Modified on Fri, 24 Jul at 5:18 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Account Level Default Permissions
+
+Project Level Permissions
+
+Customer User Permissions in Rocketlane
+
+No article available
+
+The following table lists the project level features and the default permissions for the Customer User role in Rocketlane. Customer level permissions control what customer contacts can do within projects in the Customer Portal.
+To configure customer level permissions, navigate to Settings > Permissions > Customer level .
+Feature Customer User
+Projects
+Can invite their team members from their company.
+
+Phase
+No permissions enabled by default.
+
+Tasks
+Can view task.
+
+Can create task.
+
+Can edit tasks.
+
+Can edit assignee.
+
+Can change status of the task.
+
+Can change start and due date.
+
+Can edit task name.
+
+Can edit task description.
+
+Can edit effort.
+
+Can edit progress.
+
+Can edit priority.
+
+Can send messages.
+
+Can mark task as at risk.
+
+Can request approval.
+
+Can add and edit attachments.
+
+Can delete attachments.
+
+Can create subtasks.
+
+Can create dependencies.
+
+Can delete tasks.
+
+Can view task field values.
+
+Can edit task field values.
+
+Spaces
+Can view documents.
+
+Can edit a document.
+
+Can edit the URL of an embedded document.
+
+Can rearrange documents.
+
+Can create a document.
+
+Can embed a URL.
+
+Can delete a document.
+
+Chat
+Can view project conversations.
+
+Can send messages.
+
+Can invite team members to a project conversation.
+
+Can edit name and description of a project conversation.
+
+Can create a project conversation.
+
+Can delete a conversation.
+
+Files and Folders
+Can view files and folders.
+
+Can create folders and upload files.
+
+Form responses
+Can edit form responses.
+
+Sheet Sheets
+
+Can view sheet tab.
+
+Can create sheet tab.
+
+Can edit sheet tab properties: assignee, status, due date, conditional highlights.
+
+Can manage sheet and sheet tab freeze.
+Sheet tab
+
+Can view sheet columns.
+
+Can edit sheet cell values.
+
+Can manage comments in sheet.
+
+Can view sheet field values.
+
+Can edit sheet field values.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to set up permissions for team members and customers (RBAC)
+
+Connect Microsoft Teams to Rocketlane
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Multilingual Support in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,276 @@
+TITLE: Rocketlane Notifications : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701384-rocketlane-notifications
+
+Rocketlane Notifications : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Rocketlane Notifications
+
+Rocketlane Notifications
+
+Created by Niharika Pandey, Modified on Thu, 29 Oct at 10:19 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane Notifications
+
+No article available
+
+Projects move quickly, and it is easy to miss a new task, a reply or a date change when you are not looking at the right screen. Notifications keep you informed about activities related to your projects, and you decide which updates you receive and where.
+You receive updates in Rocketlane through in-app notifications, email notifications and, when your workspace connects Slack, Slack messages.
+In this article
+Customizable notifications
+In-app notifications
+Email notifications
+Reminders
+Notification channels
+View in-app notifications
+Act on email notifications
+Manage your notification settings
+Notifications you cannot turn off
+FAQ
+Summary
+
+Customizable notifications
+You can modify notification settings in the app and tailor notifications to your own preferences.
+You can customize notifications for in-app features such as tasks, messages, sheets, documents, forms, phases, projects and dates.
+
+In-app notifications
+All Rocketlane users get an overview of activity on the projects they are part of.
+Notifications that match your settings appear in the Notifications drawer, which opens from the bell icon in the left navigation bar. For details, see View in-app notifications .
+
+Email notifications
+You can also receive email notifications for updates that happen in Rocketlane.
+These emails are interactive. You can reply to an email to add a comment in Rocketlane, and task emails include links to change the task's status. For details, see Act on email notifications .
+
+Reminders
+Reminders alert you about upcoming start dates and due dates. You can receive them for tasks you are assigned to, or for all tasks on projects you are part of, and choose how far in advance they arrive.
+
+Notification channels
+For each notification, you choose one or more channels:
+Channel Where it arrives
+In-App The Notifications drawer in Rocketlane.
+Email Your inbox.
+Slack Your Slack direct messages. Available only after your workspace connects the Slack integration.
+[image: Notification settings with Email, In-App and Slack columns]
+View in-app notifications
+In-app notifications collect in one drawer, so you can catch up without opening each project.
+
+In the left navigation bar, click the bell icon ( Notifications ). A badge on the icon shows when you have new notifications. [image: Bell icon in the left navigation with the Notifications tooltip]
+
+Use the filters at the top of the drawer to narrow the list: All , Tasks I'm assigned to , Mentions , or Assigned to the team .
+
+The New tab lists the notifications you have not cleared yet.
+
+Click Clear all once you have read them. Cleared notifications move to the Cleared tab, so nothing is lost. [image: Notifications drawer with filters, New and Cleared tabs, and Clear all]
+
+Act on email notifications
+Email notifications keep work moving even when you are not signed in to Rocketlane.
+
+Reply to a notification email
+When you reply to a notification email about a task, a project conversation, a project update or a document, Rocketlane adds your reply as a comment in that conversation. Files attached to your reply are attached to the comment. Automatic replies, such as out-of-office messages, are ignored.
+
+Change a task's status from the email
+Task notification emails include links to change the task's status. Which two links you see depends on the task's current status:
+Task's current status Status changes offered in the email
+Not started (for example, To do) In progress, Completed
+In progress Completed, Blocked
+Completed In progress, Blocked
+Note The links in an email change the task's status only. Overdue is not a status, so an overdue task shows the links for its current status. To change assignees, dates or any other field, open the task in Rocketlane.
+
+Manage your notification settings
+Each person chooses which events they hear about, and where.
+
+Click your profile icon and select Settings .
+
+Under Personal , click Notifications .
+
+For each event, select the channels you want: In-App , Email or Slack .
+
+Notification groups
+Notifications are organized into groups. The table lists what each group covers.
+Group What you can be notified about
+Messages New messages in items you follow, messages mentioning you, message reactions, and replies to your messages
+Tasks New tasks created, status changed, task is assigned to you, you are mentioned in a task, assignee changed, dependency changes, priority changed, task estimates changed, attachment added, task name or description changed, custom field changed
+Sheets Sheet deleted, and sheet tab created, status changed, assigned to you, assignee changed, due date changed, renamed or deleted, and sheet row assigned to you
+Forms New form response or updates
+Documents New document is created, you are mentioned in a document
+Phases A phase is added or deleted or its status changes, and a phase's start date or due date changes
+Projects Project status is changed, project's start date or due date is changed, you are invited to a project
+Accounts A note is created or updated on accounts you are part of
+Project updates Project update is published
+Dates Start date changes, due date changes, due date overdue
+Reminders Start date and due date reminders
+Timesheet submission Timesheet submission reminder, timesheet overdue reminder, timesheet approved, timesheet rejected
+Timesheet approval Timesheet approval requested
+Expense owner Your expense is approved or rejected
+Expense approval You are assigned to approve an expense
+Note Accounts , Timesheet submission , Timesheet approval , Expense owner and Expense approval appear only for members of your own organization, not for customers.
+
+Choose which tasks you hear about
+Some notifications let you choose their scope:
+
+New tasks created : get notified and follow every task created in your projects, get notified only, or turn it off ( Do not notify ).
+
+Dates and Reminders : apply the notification to tasks you are assigned to, or to all tasks on projects you are part of.
+
+Set reminder timing
+For Start date - Remind me and Due date - Remind me , choose when the reminder arrives: same day , 1 day before , 2 days before , 3 days before or 1 week before .
+
+Slack notifications
+The Slack channel works only after your workspace connects the Slack integration. Until then, the Slack options are unavailable, and hovering over them shows "Enable Slack integration to receive project updates in your Slack DMs." A few events, such as being invited to a project, are not sent to Slack.
+Note Project status cannot be changed from a notification email, because replies are added as comments. Change the project status directly in Rocketlane.
+
+Notifications you cannot turn off
+Some notifications stay on for everyone because the feature depends on them. For example, the email sent when a project update is published cannot be switched off. When you hover over a locked option, Rocketlane shows "You cannot edit these notifications."
+
+FAQ
+
+Can I change a task's assignee or due date by replying to the email?
+No. A reply is added as a comment on the task. Use the status links in the email to change the status, or open the task in Rocketlane to change anything else.
+
+Why are the Slack options unavailable in my notification settings?
+Slack notifications need the Slack integration to be connected for your workspace. Ask your admin to set it up.
+
+I cleared a notification by mistake. Can I get it back?
+Yes. Open the Cleared tab in the Notifications drawer.
+
+Why can't I switch off a particular notification?
+A small number of notifications are required for a feature to work, so they stay on for everyone.
+
+Summary
+
+Notifications arrive in the app, by email and, when the Slack integration is connected, in Slack.
+
+Open in-app notifications from the bell icon in the left navigation bar. Use Clear all to move read items to the Cleared tab.
+
+Reply to a notification email to add a comment. Task emails include links to change the task's status, and nothing else.
+
+Manage your preferences in Settings > Personal > Notifications , by group and channel.
+
+Reminders can arrive on the same day or up to 1 week before a start or due date.
+
+A few notifications are always on because the feature depends on them.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Automation Pricing
+
+How to Manage Task Dependencies?
+
+How much does the permissions module cost
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

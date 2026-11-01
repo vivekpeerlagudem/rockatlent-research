@@ -1,0 +1,150 @@
+TITLE: A customer signed up with their email address but didn't provide their first or last name. How can they add this information later? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000744484-a-customer-signed-up-with-their-email-address-but-didn-t-provide-their-first-or-last-name-how-can-th
+
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later?
+
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later?
+
+Created by Advaith R, Modified on Wed, 7 May, 2025 at 7:18 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Can I restrict certain forms in the customer portal?
+
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later?
+
+2FA and Magic Links
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Why am I getting a 401 error when I try to embed my customer portal?
+
+Hide the Effort Column from the Customer Portal Task List
+
+How do I edit or customize the Customer Portal for a specific project?
+
+How can I embed a video in the Customer Portal?
+
+No article available
+
+A: The customer can easily add their first and last name by logging into their portal, navigating to their profile picture (or a similar user icon), and clicking on "Edit Profile." Within the profile settings, they will find fields where they can enter and save their first and last name.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Settings
+
+Quick guide to setting up Invoices
+
+How to setup the Rocketlane Salesforce Integration?
+
+Best Practices for Users
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

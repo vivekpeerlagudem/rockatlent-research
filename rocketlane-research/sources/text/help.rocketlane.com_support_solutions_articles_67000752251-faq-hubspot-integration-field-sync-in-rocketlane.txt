@@ -1,0 +1,181 @@
+TITLE: FAQ: HubSpot Integration & Field Sync in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000752251-faq-hubspot-integration-field-sync-in-rocketlane
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+Created by Advaith R, Modified on Fri, 20 Mar at 8:25 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to add Salesforce object links to projects?
+
+How to Integrate Freshsales with Rocketlane
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+What are the current capabilities and limitations of the Slack integration.
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+My Workato automation is failing with a 'Rate limit exceeded' error. What should I do?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Salesforce Integration FAQs
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+No article available
+
+Q1: I'm attempting to establish a one-way integration from Rocketlane Projects to HubSpot Tickets, but a custom dropdown field in Rocketlane isn’t showing up in the Rocketlane-side dropdown of the HubSpot integration UI. What could be the reason?
+A: This issue usually arises from a mismatch in field types. To ensure a field is available for syncing, both the Rocketlane field and its corresponding HubSpot field must share the same field type (e.g., Single choice / Multi choice). Moreover, the dropdown options need to match in case on both ends. Validate that the field type and option values are exactly the same in both platforms, and the field should then appear in the integration UI.
+
+Q2: Why isn't a User-type field in Rocketlane syncing to HubSpot as anticipated?
+A: Rocketlane can only synchronize fields that have matching field types. If a field in Rocketlane is a User-type (single-select), the related field in HubSpot must also be a user-type field — it cannot be a standard single-select text field. If the HubSpot field is set up as plain text or a dropdown field, the sync won't function as intended. Make sure the HubSpot field is designated as a user-type field to facilitate proper syncing.
+
+Q3: Is it possible to sync the Project Notes or Project Status fields from Rocketlane to HubSpot?
+A: Yes, these fields can be set up for synchronization within the HubSpot integration's Fields Sync tab. Go to the HubSpot integration settings, access the Fields Sync section, and map the applicable Rocketlane project fields (like Project Status or Project Notes) to their respective HubSpot fields. Ensure the field types are compatible on both sides for the synchronization to work effectively.
+
+Q4: Can I utilize automation in Rocketlane to transfer the value from a User-type field into a plain text field so that I can sync it to HubSpot as text-to-text?
+A: Absolutely! Rocketlane's built-in automations can facilitate copying data from one field to another. You can create an automation that reads the value from a User-type field and writes it into a different plain text field. Once the data is in a text field, it can then be synchronized to HubSpot as a text-to-text mapping, circumventing the user-to-user field type requirement.
+
+Q5: How is the Project Owner field synchronized between Rocketlane and HubSpot?
+A: The Project Owner is generally configured and synchronized through a HubSpot automation rather than a straightforward field mapping. When a deal is finalized and a project is initiated in Rocketlane via the integration, automation can be arranged to assign the appropriate owner. The "Project Owner" field in Rocketlane is a User-type field, which necessitates a user-type field counterpart in HubSpot for direct field synchronization to function.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+Rocketlane's Integration for HubSpot
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

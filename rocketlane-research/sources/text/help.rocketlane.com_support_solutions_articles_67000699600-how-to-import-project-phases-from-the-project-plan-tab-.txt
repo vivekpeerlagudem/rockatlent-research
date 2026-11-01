@@ -1,0 +1,168 @@
+TITLE: How to Import Project Phases from the Project Plan Tab? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000699600-how-to-import-project-phases-from-the-project-plan-tab-
+
+How to Import Project Phases from the Project Plan Tab? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Import Project Phases from the Project Plan Tab?
+
+How to Import Project Phases from the Project Plan Tab?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 4:56 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Import Project Phases from the Project Plan Tab?
+
+How to Add and Manage Phase Dependencies in Rocketlane?
+
+No article available
+
+You can add phases to your project by importing a Project Template from the Project Plan.
+
+Go to Create project phase > Import templates .
+
+The Import template dialog box opens.
+
+Add a prefix in case you want to differentiate between pre-existing and imported project phases. The imported project phases will have the prefix added to their names.
+
+Choose a Project template .
+
+Assign a Start date for the project template.
+
+The Due date will be auto-populated based on the total duration of the project template.
+
+Click Add another template + in case you want to add multiple templates.
+
+Click Next: Preview .
+
+You can view all the project phases that will be imported with the project template, along with their respective Start dates . You can expand each project phase and preview the tasks for that phase.
+
+In case Dynamic Conditions are set to the template, only those phases and tasks whose project fields meet the dynamic conditions will be imported.
+
+Click Import to import the project template to your current project.
+
+A new baseline is created upon importing a template in a project. You can view the new baseline from the Timeline view in a project under Baselines .
+
+Upon hovering over the new baseline, you will get a tooltip indicating when this baseline was created and which template import created it.
+
+You can click on the edit icon next to this baseline's name and edit this tooltip further. You can also delete this baseline from the dialog box.
+
+You can rename the baseline to add context about how the old timeline has been recorded before the template was imported to the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+Project Plan
+
+How to Identify and Replace an Incorrect Project Template in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

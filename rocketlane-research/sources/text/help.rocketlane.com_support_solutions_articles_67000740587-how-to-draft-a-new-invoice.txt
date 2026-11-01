@@ -1,0 +1,217 @@
+TITLE: How to draft a new invoice : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740587-how-to-draft-a-new-invoice
+
+How to draft a new invoice : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+How to draft a new invoice
+
+How to draft a new invoice
+
+Created by Monica Madan, Modified on Thu, 26 Dec, 2024 at 4:27 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Invoicing on Rocketlane
+
+Quick guide to setting up Invoices
+
+Setting up custom invoice fields
+
+How to draft a new invoice
+
+Invoice list page
+
+Managing Invoices on Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Credit Notes in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+Drafting a New Invoice
+Invoice details:
+
+Select Projects:
+
+Modify Line Items
+
+Additional information
+
+Drafting a New Invoice
+To draft a new invoice,
+
+Navigate to invoices
+
+In the Invoice list page, click on the “new invoice” button
+
+The new invoice pane pops up where you can start assembling the information as below.
+
+Invoice details:
+
+Account: The name of the customer account the invoice is addressed to (e.g., Acme Inc. ). This field is mandatory.
+Issue Date: The date when the invoice is created and issued to the customer.
+Due Date: The deadline by which the invoice payment must be completed.
+Bill To: The recipient's billing address where the invoice is directed.
+From: The address of your company issuing the invoice.
+
+If you use any custom fields for your invoice, ensure that this information is filled in before selecting the projects to be invoiced. Custom fields could include details like PO number, payment method or specific terms, which help personalize and clarify the invoice.
+
+Select Projects:
+Based on the customer account you select, all in-progress and completed projects for that customer will be displayed. To help you choose the right projects for invoicing, you can filter projects by billing type, project name, and other criteria.
+
+Time and Material Billing : For projects with a T&M billing type, the time entries associated with tasks where time was tracked will be available. You can select the specific items to include in the invoice.
+
+Fixed Fee Billing : For projects with a fixed fee billing type, you will need to manually add line items to be billed. This can be done in the next step.
+
+Subscription Billing : For projects with a subscription billing type, the subscription period will be displayed. You will also need to manually add line items to be billed in the next step.
+
+Modify Line Items
+For Time and Material (T&M) projects , details are pre-filled based on the time tracked for tasks. However, for Fixed Fee and Subscription projects, you need to manually fill in the details as outlined below:
+
+Description : A brief explanation of the task or service to be invoiced (e.g., Admin training ).
+
+Quantity (Qty) : The number of hours or units required to complete the task.
+
+Unit Price : The rate per hour or unit for the task completed.
+
+Amount : The total cost for the task, calculated as Qty × Unit Price .
+
+Total Before Tax : The sum of all task amounts listed as line items.
+
+Tax : The applicable tax amount for the work completed.
+
+Total : The final invoice amount, calculated as Total Before Tax + Tax .
+
+Additional information
+
+Notes : Add any relevant details for the customer, such as payment instructions, terms, or a thank-you message. For example: "Please make payment within 7 days via bank transfer to the account listed below."
+Attachments : Include supporting documents, such as contracts, timesheets, or receipts, if necessary. Attachments must be less than 20 MB in size.
+Preview
+In preview mode, the invoice will be displayed exactly as the recipient will see it. Review the details carefully, including the customer account, line items, payment terms, and any notes or attachments. If any changes are needed, you can go back and edit the invoice at any step.
+Final Step
+Once the invoice is complete, save it as a draft. This allows you to revisit and make further adjustments before sending it to the customer.
+Send for review
+You can access an invoice in draft from the Invoice list page and send it for review.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Event Based Billing events
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Credit Notes in Rocketlane
+
+Quick guide to setting up Invoices
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

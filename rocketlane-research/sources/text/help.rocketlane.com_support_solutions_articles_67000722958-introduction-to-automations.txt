@@ -1,0 +1,327 @@
+TITLE: How to Automate repetitive tasks in project delivery? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000722958-introduction-to-automations
+
+How to Automate repetitive tasks in project delivery? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Introduction to Automations
+
+Introduction to Automations
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 7:41 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Automations
+
+Setting up Global automations
+
+Setting up Template automations
+
+What are saved automations and how to use them?
+
+Automation Pricing
+
+How to automate project workflows with HTTPS requests
+
+How to set schedules using Automations?
+
+Automation Logs in Rocketlane
+
+No article available
+
+In the world of managing multiple projects, there is a lot to handle, from tracking due dates and managing task approvals to addressing CSATs and handling form responses. But what if you could manage these workflows through automation?
+That is where Rocketlane comes in. Automations seamlessly integrate into your projects. They keep an eye on due date changes, task approvals, and status updates, stepping in to prevent project delays due to manual intervention.
+You are in control. These automations can be customized to match your unique workflow. If you are not sure where to start, Rocketlane offers a carefully curated library of automations that you can plug into your projects.
+In this article
+
+Do it the Automations way
+
+Using Automation Triggers
+
+Using Automation Conditions
+
+Using Automation actions
+
+Do it the Automations way
+With automations as your sidekick, you can streamline your workflows effortlessly. So, what can these powerful automations do for you?
+Let's quickly learn automations through an example.
+An automation rule consists of a trigger, a condition, and an action.
+
+Trigger: The component that sets the automation rule in motion.
+
+Condition: The set of requirements that the automation must meet to run.
+
+Action: The resulting outcome of the automation rule running successfully.
+Short on time? Watch the video below.
+Let's consider a scenario where the project owner needs to act on any overdue task that exceeds three days.
+Here:
+
+When any task is overdue is the trigger.
+
+Exceeds 3 days is the condition.
+
+Notify project owner is the action.
+
+Add a trigger
+Automations are always on the lookout for an event to happen to get triggered. In our example, the trigger will execute when the system identifies an overdue task. You can start by setting up this trigger.
+
+Set up the condition
+The automation then checks for certain conditions it needs to meet before firing.
+
+In our example, the task should have been overdue for 3 days for it to match the condition. Set it up.
+
+You can add more conditions to the automation rule. If any of these conditions are not met, the automation will fail to execute.
+
+The conditions can be set to match All or Any of the filters.
+For example, you can choose Matches All and add conditions like Where at risk is true and Where priority is high .
+
+Execute the action
+The action that results from the automation being triggered and meeting the conditions is the success of the automation. In our example, if the project owner is notified of the overdue task within three days, it is the result of a successfully executed automation.
+You can also update the project owner as an assignee for this task by adding another action.
+You can have multiple action blocks for your workflow. For example, if the same task exceeds 5 days and 7 days, other project stakeholders like the BU head and CEO can also be notified using automations.
+Now that we understand the capabilities and workings of automations, let's explore the various ways Rocketlane empowers you to implement them.
+Rocketlane offers various ways for you to use automations. You can create a standardized automation blueprint that can be applied to specific projects by configuring automations at a template level. Click here to learn more.
+Alternatively, if you want to optimize workflows across all your projects, phases, and tasks, you can use Global Automations to configure account-wide automation rules. Click here to learn more.
+Here is how Rocketlane uses triggers, conditions, and actions in automations.
+
+Using Automation Triggers
+Triggers look out for events like status changes, task approvals, and CSAT ratings to kick-start an automation rule. These events can take place on a project, phase, task, or form. Rocketlane enables you to set up triggers specific to projects, phases, tasks, and forms.
+For example, whenever a status change happens on projects and you have set up a status changed project trigger, it will kick-start the automation rule. The same applies for phases and tasks. Rocketlane also enables triggers to be set up on forms, so that you can automate the next set of actions that follow form response submission.
+Note These triggers can be set up on project templates that will be inherited by projects during creation, or they can be set up globally for the entire account.
+
+Here is a quick breakdown of how triggers work in Rocketlane.
+Triggers that run on What does it do? Example
+Projects Listens to events happening across projects. When task approval is received, email customer.
+When task status is changed to overdue, notify project owner.
+When task is in the same status for 4 days, update assignee.
+Phases Listens to events happening across phases. When start date is updated, mark the phase status as in progress.
+When due date is updated, postpone the date by 3 days.
+Tasks Listens to events happening across tasks. When task is overdue, notify project owner.
+When assignee is updated, change the status to in progress.
+Forms Listens to events happening across forms. When form response is received, create a task.
+When CSAT rating is less than 3, notify project manager.
+A trigger can be set off for a phase but carry out actions on projects, phases, or forms. Here is a quick example:
+Trigger: When the status of the phase Go-live changes to Completed , then mark the status of the project as Completed .
+
+Project triggers
+Project Trigger Use case
+Project created When a project is created, import a template.
+Field is updated When a field like status is updated to in progress, assign customers.
+Customer invited When customers are invited, send welcome emails.
+Placeholder resolved When a placeholder is resolved, update a project field like project owner name with the placeholder value.
+Project archived When a project is archived, notify project owner.
+Project deleted When a project is deleted, notify project owner.
+More on how to set up automations that run on project triggers here .
+
+Phase triggers
+Phase Trigger Use case
+Start date updated When phase start date is updated, import template.
+Due date updated When project due date is updated, notify project owner.
+Status updated When final phase status is completed, set the project status as completed.
+Phase name updated When phase name is updated, notify project owner.
+Phase deleted When phase is deleted, notify project owner.
+More on how to set up automations that run on phase triggers here .
+
+Task triggers
+Task Trigger Use case
+Due date changed When a task due date is changed, send a private message on the chat.
+Status updated When a task field like status is updated to in progress, assign customers.
+Assignee updated When assignees are updated, set the status of the task as in progress.
+Field is updated When a task field like status is updated to completed, send email to the billing team.
+Task approval response received When task approval response is received, import project template.
+New message on task When a new message on task is received, send an automated response.
+CSAT submitted When CSAT received is less than 3 stars, notify project owner.
+Task deleted When a task is deleted, notify project owner.
+More on how to set up automations that run on task triggers here .
+
+Form triggers
+Form triggers include all task triggers, plus the triggers listed below.
+Form Trigger Use case
+Form approval response received When form approval response is received, import project template.
+CSAT submitted When a CSAT is submitted with rating less than 3, notify project owner.
+More on how to set up automations that run on form triggers here .
+
+Using Automation Conditions
+Automations can be customized and made more flexible by using conditions to control their flow. Conditions are specific criteria that must be met for an automated rule to take effect. They act as checkpoints, determining when actions should be executed and under what circumstances. If the conditions are satisfied, the automations will run successfully. Otherwise, they will remain inactive.
+Note Adding conditions to your automation rule is optional.
+
+You can add as many conditions as required and ensure All or Any of the conditions are met for the automation rule to trigger.
+Example for Match All conditions:
+Trigger: When assignee is updated.
+Condition: Where At risk is true and where Priority is high.
+Action: Then notify Project Manager.
+Here, the automation will notify the project manager only if the task is at risk and has a high priority.
+Example for Match Any conditions:
+Trigger: When assignee is updated.
+Condition: Where At risk is true or where Priority is high.
+Action: Then notify Project Manager.
+Here, the automation will notify the project manager if the task is at risk or has a high priority.
+Here is the list of conditions, filters, and advanced options.
+Type of Condition What it means Projects Phases Tasks and Forms
+Start date change
+Due date change Date change conditions:
+date is added
+date is removed
+date is postponed, by how many days, optional
+date is expedited, by how many days, optional Yes Yes Yes
+Status changed From one status to another, such as anything to completed. Yes Yes Yes
+Assignee is updated Assignee is added, removed, made empty, is exactly, is not, is one of, is none of, is empty, is not empty, added is, or removed is. Assignees can be placeholders, particular users, customers, partners, or resolved placeholders. Yes Yes
+Project or task field is updated All default and custom fields, including project status, task effort, and phase name. Yes Yes
+CSAT is submitted CSAT value received is greater than, less than, or equal to a specified value. Yes
+Task approval response received Whether approval was received or change was requested, and by whom. Yes
+
+Using Automation actions
+When it comes to automations, actions are the specific steps that are carried out in the automation rule. These actions are the end results of an automated workflow and can cover various activities, such as sending emails, updating assignees, notifying someone, and more.
+These actions can be performed on projects, phases, tasks, and forms. An automation rule can also perform more than one action.
+For example:
+Trigger: When assignee is updated.
+Action block 1:
+Condition: If the assignee updated on a task is empty.
+Action 1: Update assignee as Customer Success.
+Action 2: Notify project owner.
+
+Rearrange and delete actions
+
+You can rearrange actions inside an action block using the sort icon.
+
+Click the cross mark to delete any action.
+Action block 2: You can have more than one action block set up for an automation rule and use one rule to perform a set of actions if the predefined conditions are met. For example, if assignee is not empty, send a new message on task to initiate the task.
+Note Action blocks are executed linearly, meaning each action block is processed one after the other. If any action block encounters errors or exceptions, it might affect the subsequent blocks.
+
+Action Projects Phases Tasks
+Import template Yes
+Update due date Yes Yes
+Update start date Yes Yes
+Update assignee Yes
+Update status Yes Yes
+Shift task dates Yes
+Request approval Yes
+Update fields Yes Yes
+Send project update Yes
+Send message Yes Yes
+Delete Yes Yes Yes
+Archive Yes
+Notify someone Yes Yes Yes
+Notify via Slack Yes Yes Yes
+Turn all allocations Yes Yes Yes
+Send an email Yes Yes Yes
+Create subtask Yes
+Create task Yes
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Rocketlane's Forms Feature: An Introduction
+
+What are saved automations and how to use them?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

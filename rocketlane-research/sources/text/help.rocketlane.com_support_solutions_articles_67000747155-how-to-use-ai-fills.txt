@@ -1,0 +1,540 @@
+TITLE: How To Use AI Fills : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747155-how-to-use-ai-fills
+
+How To Use AI Fills : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+How To Use AI Fills
+
+How To Use AI Fills
+
+Created by Advaith R, Modified on Wed, 19 Aug at 5:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+AI Fills turns captured meeting conversations into structured content that teams can use across Rocketlane. Instead of manually reviewing a transcript and rewriting the same information, users can generate summaries, follow-up emails, action items, project updates, documents, and internal notes from one or more meetings.
+This article explains how to create AI Fill templates and use them in project updates, documents, and chat.
+In this article
+
+How AI Fills works
+
+Before you begin
+
+AI Fill template types
+
+Create a custom AI Fill template
+
+Configure a Summary template
+
+Configure an Action Items template
+
+Configure an Extract Information template
+
+Save the template
+
+Use AI Fills in documents and project updates
+
+Use AI Fills in chat
+
+Add AI Fills to project update templates
+
+Generate a meeting-powered project update
+
+Use internal meetings with AI Fills
+
+Review generated content
+
+Troubleshooting
+
+Frequently asked questions
+
+How AI Fills works
+An AI Fill combines three elements:
+
+A captured meeting or set of meetings.
+
+An AI Fill template that defines what information should be generated.
+
+An output location, such as a project update, document, or chat message.
+Meeting recordings can come from any configured Meeting Intelligence source:
+
+Gong
+
+Zoom
+
+Microsoft Teams
+
+Google Meet
+
+Rocketlane AI Notetaker
+Multiple recording sources can operate at the same time. Users do not need to choose one account-wide recording method before using AI Fills.
+
+Before you begin
+Ensure that:
+
+Meeting Intelligence and AI Fills are enabled for your Rocketlane account.
+
+At least one recording source has been configured.
+
+The meeting you want to use has been captured and processed by Rocketlane.
+
+You have access to the relevant project, document, update, or chat.
+
+You have permission to create or manage AI Fill templates if you need a custom template.
+Meeting pages are available for all captured meetings. Whether AI Fills can process an internal-only meeting depends on the meeting scope configured under Settings > Meeting Intelligence > AI Fills .
+Note A calendar connection is not required to use a meeting retrieved from Gong, Zoom, Microsoft Teams, or Google Meet. A connected calendar is required only for meeting hosts using the Rocketlane AI Notetaker.
+
+AI Fill template types
+Rocketlane provides built-in AI Fill templates and allows eligible users to create custom templates.
+An AI Fill template can generate one of the following types of content:
+Template type Use it to
+Summary Generate a structured summary, key takeaways, decisions, next steps, pain points, or another narrative output.
+Action Items Identify tasks and commitments discussed during the meeting.
+Extract Information Find specific values or answers in the meeting transcript using project-field choices or manually configured choices.
+
+Create a custom AI Fill template
+Custom templates allow you to define the information Rocketlane should generate from selected meetings.
+
+Step 1: Open AI Fill Templates
+
+Go to Templates .
+
+Select AI Fill Templates .
+
+Click New AI Fill Template .
+A side panel opens where you can name and configure the template.
+
+Step 2: Name the template
+Enter a clear name that describes the expected output.
+For example:
+
+Meeting minutes
+
+Customer pain points
+
+Implementation requirements
+
+Risks and blockers
+
+Decisions and next steps
+
+Customer action items
+The template name appears in the AI Fill menu when users generate content.
+
+Step 3: Choose the output type
+Under Generate As , select Summary , Action Items , or Extract Information .
+The available configuration changes based on the selected output type.
+
+Configure a Summary template
+Use a Summary template when the output should explain, condense, or organize information discussed during a meeting.
+To configure it:
+
+Select Summary under Generate As .
+
+Describe what the AI should generate.
+
+Select the desired tone.
+
+Select the output format.
+
+Review the instructions and create the template.
+Summary instructions can ask Rocketlane to generate content such as:
+
+A summary of the customer’s requirements
+
+Key implementation risks
+
+Pain points and desired outcomes
+
+Decisions made during the meeting
+
+Next steps for the project
+Depending on the options available, you can select a professional, neutral, or casual tone and choose between paragraph or list-based output.
+Tip Give the template one focused objective. A narrowly defined template usually produces more consistent output than a single template that asks for several unrelated deliverables.
+
+Configure an Action Items template
+Use an Action Items template to identify tasks, commitments, and follow-ups discussed during a meeting.
+To configure it:
+
+Select Action Items under Generate As .
+
+Choose whose action items should be included.
+
+Select how the action items should be grouped.
+
+Create the template.
+Depending on the available options, action items can be generated for:
+
+Internal team members
+
+Customer participants
+
+All meeting participants
+They can be grouped by participant, company, or topic.
+Note AI Fills identifies action items from the meeting conversation. Review generated ownership and due-date information before sharing or acting on it.
+
+Configure an Extract Information template
+Use Extract Information when you want Rocketlane to look for specific data points in a meeting transcript.
+For example, you can ask AI Fills to identify:
+
+Requested integrations
+
+Expected launch timeline
+
+Preferred communication channel
+
+Selected product package
+
+Customer region
+
+Implementation complexity
+You can configure the expected values in two ways.
+
+Use choices from a project field
+Select an existing single-select or multi-select project field. Rocketlane uses the choices configured for that field as the expected answers.
+For example, if an Integrations project field contains Salesforce, Jira, HubSpot, and NetSuite, the template can check the meeting transcript for those values.
+Where available, enable the option that allows AI Fills to generate a new choice when the transcript contains a relevant value that is not already configured.
+
+Enter choices manually
+Enter the expected choices directly in the AI Fill template. This is useful when you want structured extraction without using an existing project field.
+Where available, you can allow AI Fills to return additional relevant choices found in the transcript.
+Note Selecting a project field provides its choices to the AI Fill template. Generating the AI Fill does not automatically update or edit the project field.
+
+Save the template
+After configuring the template:
+
+Review the template name, output type, and instructions.
+
+Click Create .
+The template becomes available in supported Rocketlane editors and can be added to project-update and document templates.
+
+Use AI Fills in documents and project updates
+You can insert an AI Fill directly while editing a document or project update.
+
+Open the relevant project document or project update.
+
+Place the cursor where the generated content should appear.
+
+Type / to open the insert menu.
+
+Select the required AI Fill template.
+
+Select one or more captured meetings.
+
+Add any additional context, if required.
+
+Generate the content.
+
+Review and edit the result before publishing or sharing it.
+Additional context can include information that was discussed outside the selected meeting or instructions specific to the current update. Rocketlane considers this context while generating the output.
+
+Use AI Fills in chat
+AI Fills can also be inserted into supported Rocketlane chat conversations.
+
+Open the relevant chat.
+
+Type / to open the insert menu.
+
+Select an AI Fill template.
+
+Select the relevant meeting or meetings.
+
+Generate the content.
+
+Review the result before sending the message.
+This is useful when you need to share a concise meeting summary, decisions, or next steps with internal team members or customers.
+
+Add AI Fills to project update templates
+You can add AI Fills to a project update template so that teams generate consistent meeting-based updates across projects.
+
+Open the relevant project update template.
+
+Place the cursor in the section where generated content should appear.
+
+Type / .
+
+Select an AI Fill template.
+
+Repeat the process for each section that should use meeting content.
+
+Save the project update template.
+Built-in AI Fill templates can include:
+
+Meeting Summary
+
+Action Items
+
+Key Takeaways
+
+Next Steps
+
+Decisions Made
+Custom AI Fill templates can be added in the same way.
+
+Generate a meeting-powered project update
+When a project update template contains AI Fills, it appears as a meeting-powered template when users create an update.
+
+Step 1: Select a template
+
+Open the relevant project.
+
+Go to Project Updates .
+
+Click New Update .
+
+Select a template from the Meeting-powered templates section.
+
+Step 2: Select meetings
+Select one or more relevant captured meetings.
+Meetings retrieved from Gong, Zoom, Microsoft Teams, or Google Meet can be available without the user connecting a calendar to Rocketlane. For meetings recorded by the Rocketlane AI Notetaker, the meeting host must have connected their calendar before the meeting so the notetaker could be scheduled.
+You can also add information that was discussed outside the selected meetings. AI Fills uses this additional context when composing the update.
+If the project update template includes regular text, links, task sections, or other content, those elements are included alongside the generated AI Fill content.
+
+Step 3: Generate and review the update
+
+Click Generate .
+
+Wait for Rocketlane to populate the AI Fill sections.
+
+Review the generated content.
+
+Correct names, ownership, dates, and any other details that require confirmation.
+
+Add or edit information where necessary.
+
+Publish or send the project update.
+If a meeting does not have a usable recording or transcript, you can continue creating the update manually.
+
+Use internal meetings with AI Fills
+AI Fills can process internal-only meetings when the corresponding setting is enabled by an administrator.
+To enable internal meetings:
+
+Go to Settings > Meeting Intelligence > AI Fills .
+
+Enable internal meetings.
+
+Save the configuration.
+When this option is disabled, AI Fills processes customer meetings according to the account configuration. Meeting pages remain available for all captured meetings.
+
+Review generated content
+AI-generated content should be reviewed before it is shared with customers or used to update project records.
+Check that:
+
+Participant names are correct.
+
+Action items are assigned to the correct people.
+
+Dates and commitments match the conversation.
+
+Customer requirements have not lost important context.
+
+Internal information is not included in customer-facing content.
+
+Additional context has been interpreted correctly.
+Users can edit generated content before publishing, sending, or saving it.
+
+Troubleshooting
+
+No meetings are available for selection
+Verify that:
+
+The meeting was captured by the Rocketlane AI Notetaker or a connected cloud source.
+
+The recording and transcript have finished processing.
+
+You have access to the relevant project or meeting.
+
+The AI Fills meeting scope allows the selected type of meeting.
+
+The meeting falls within the available meeting-selection period, if one is applied.
+
+An internal meeting cannot be used with AI Fills
+Ask an administrator to verify that internal meetings are enabled under Settings > Meeting Intelligence > AI Fills .
+
+An AI Fill template is not visible
+Verify that:
+
+The template was created successfully.
+
+You are using a supported editor or content area.
+
+You have access to the template.
+
+The template has not been removed or restricted.
+
+Generated content is incomplete
+Try the following:
+
+Confirm that the complete recording and transcript are available.
+
+Select all meetings relevant to the requested output.
+
+Add missing background information as additional context.
+
+Use a more focused AI Fill template.
+
+Rewrite broad instructions as one specific question or objective.
+
+The extracted information did not update a project field
+This is expected. Using a project field in an Extract Information template provides its configured choices to AI Fills. It does not automatically write the generated answer back to that field.
+
+Frequently asked questions
+
+Can one AI Fill use multiple meetings?
+Yes. Where meeting selection supports it, you can select multiple captured meetings and generate one combined output.
+
+Can AI Fills use meetings from different recording sources?
+Yes. AI Fills can use captured meetings from Gong, Zoom, Microsoft Teams, Google Meet, and the Rocketlane AI Notetaker.
+
+Do I need to connect my calendar before using AI Fills?
+Not when the meeting was retrieved from a connected cloud source. Calendar connections are required for hosts using the Rocketlane AI Notetaker, not for general AI Fills usage.
+
+Can AI Fills be used for internal meetings?
+Yes, when internal meetings are enabled under Settings > Meeting Intelligence > AI Fills .
+
+Does Extract Information update the selected project field?
+No. The selected field supplies the choices used during extraction. AI Fills does not automatically update the field.
+
+Can generated content be edited?
+Yes. Review and edit the generated output before publishing, sending, or saving it.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,462 @@
+TITLE: Step-by-Step Guide: Building Your Customer Portal in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000738569-how-to-build-your-customer-portal
+
+Step-by-Step Guide: Building Your Customer Portal in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Rocketlane Customer Portal
+How to build your customer portal
+
+How to build your customer portal
+
+Created by Monica Madan, Modified on Tue, 18 Aug at 7:03 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build your customer portal
+
+How to invite customers to your portal
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Integrating Slack with the New Customer Portal
+
+Tracking Time in the Customer Portal
+
+Invoice Widget for the Customer Portal
+
+Embedding your portal on On Prem and Cloud Solutions
+
+No article available
+
+The Customer Portal helps customers stay connected with their projects. Customers can view project progress, access relevant tasks and documents, communicate with your team, receive notifications, and use self-serve resources such as FAQs and training content.
+You can also customize the Customer Portal to match your brand and decide what pages, sections, widgets, and content should be shown to customers.
+In this article
+
+Create a Customer Portal template
+
+Configure typography in a Customer Portal theme
+
+Navigation bar
+
+Default pages in the navigation bar
+
+Build your portal
+
+Create pages and add sections
+
+Available sections
+
+Configure a section
+
+Embed videos with an Iframe section
+
+Image dimensions
+
+Dynamically add pages
+
+Preview the Customer Portal
+
+Change the Customer Portal language
+
+Create a Customer Portal template
+You can create a Customer Portal template from the Templates section and customize its theme, colors, buttons, and fonts.
+
+Go to Templates and open the Customer Portal Templates section.
+
+Click New Customer Portal Template .
+
+Add your website URL so Rocketlane can suggest a theme for your portal.
+
+To edit colors, go to the Colors section, click the + icon, and add your preferred color to the palette.
+
+To edit buttons, click Edit near the button style and customize the primary, secondary, and tertiary buttons.
+
+To edit font styles, click Edit near the style option and customize the font name, size, and style for headings and paragraph text.
+Button settings include:
+
+Shape: Choose the button shape.
+
+Text color: Choose the color of the button text.
+
+Button color: Choose the button background color.
+
+Outline: Choose the border color and thickness.
+
+Font: Choose the font and size used on the button.
+
+Create a theme from Settings
+
+Go to Settings and scroll to the Customer Portal section.
+
+Open Customer Portal Theme , click New Customer Portal Theme , and follow the same theme setup steps.
+
+Configure typography in a Customer Portal theme
+Typography settings determine how text appears throughout Customer Portals that use the theme. Each setting represents a global typography role rather than a specific portal page, section, or widget.
+When you update a role, Rocketlane applies the selected font family, weight, and size everywhere that role is used. For example, changing Heading 2 updates every Heading 2 element across Customer Portals using that theme.
+To configure typography:
+
+Open the relevant Customer Portal Theme .
+
+Go to the typography or font styles section.
+
+Click Edit next to the typography role you want to customize.
+
+Select the font family, weight, and size.
+
+Save your changes.
+
+Preview the portal on desktop, tablet, and mobile to review the updated typography.
+
+Typography roles
+Typography role Used for
+Heading 1 Largest display text, including hero titles and large metric or value displays.
+Heading 2 Major section headings and prominent widget titles.
+Heading 3 Section headings and widget titles.
+Heading 4 Smaller headings and subsection titles.
+Paragraph Large Larger body text and descriptive content.
+Paragraph Medium Standard body text, field values, and most descriptive content.
+Paragraph Small Smaller body text and supporting information.
+Heading 5, Heading 6, and Heading 7 Reserved typography roles that are not currently used by live Customer Portal components.
+Link Hyperlink styling that is not currently used by live Customer Portal components.
+Caption Helper text and metadata styling that is not currently used by live Customer Portal components.
+Quote Block quote styling that is not currently used by live Customer Portal components.
+
+Supported typography roles
+The following roles are currently used by Customer Portal components:
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Paragraph Large
+
+Paragraph Medium
+
+Paragraph Small
+Changes made to these roles are reflected wherever the corresponding typography role is used.
+The following roles can be configured in the theme editor but are not currently used by live Customer Portal components:
+
+Heading 5
+
+Heading 6
+
+Heading 7
+
+Link
+
+Caption
+
+Quote
+Changing an unused role will generally not produce a visible change in the Customer Portal.
+Note Button text is not controlled by the typography settings. Configure button typography and appearance separately from the Buttons section of the theme editor.
+
+Responsive typography behavior
+On tablets and mobile devices, Rocketlane adjusts configured heading and paragraph font sizes to maintain a consistent responsive experience. The selected font family continues to apply across device sizes.
+If you do not configure a font for a typography role, Rocketlane uses the following default font stack:
+SF Pro Display, Segoe UI, Arial
+
+Navigation bar
+The navigation bar helps customers move between pages in the Customer Portal. Each page you add to the portal is represented by an icon in the navigation bar.
+
+Default pages in the navigation bar
+Rocketlane includes default pages that support customer visibility, communication, and collaboration. These pages cannot be disabled or deleted while customizing the portal.
+
+Accounts Overview
+The Accounts Overview page gives customers a complete view of account health, engagements, and projects. Customers can track project progress, review documents, and understand their overall relationship with your team.
+
+Chat page
+The Chat page lets customers communicate with team members and collaborate on project-related tasks.
+
+Notifications
+Notifications keep customers informed about project and account updates, such as task assignments, document mentions, and other activity. Customers can view notifications from the bell icon in the Customer Portal.
+
+Action items
+Action items help customers find items that need their attention, such as pending approvals and customer surveys triggered when milestone tasks are completed.
+
+Project Switcher
+If a customer is part of multiple projects, the Project Switcher lets them move between projects and work on project-specific tasks.
+
+Build your portal
+Before building a portal, decide what information customers need and how it should be organized. You can create pages for project plans, FAQs, training resources, account reviews, and more.
+A good portal structure usually includes:
+
+Required pages: Decide which pages the portal should include, such as a home page, project plan page, FAQ page, or training page.
+
+Sections: Decide what each page should contain. For example, the home page can include a welcome message, task list, resources, and footer.
+
+Widgets: Add widgets such as task lists, FAQs, team members, forms, or project updates to make each section useful.
+
+Pages
+Pages help organize the Customer Portal into clear areas, such as Home, Project Plan, FAQs, Training, or Account Review. Customers can navigate these pages like a website.
+
+Sections
+Sections help divide each page into focused blocks of content. For example, a page can include a hero section, project tasks, resources, training videos, FAQs, and a footer.
+
+Create pages and add sections
+
+Create the page
+
+Go to Templates and select the Customer Portal template.
+
+Click Create New Portal .
+
+Name the portal.
+
+Click the + icon on the left to create a new page.
+
+Name the page, such as Home Page .
+
+Click Add Sections to start building the page.
+
+Add sections
+
+Open the page you want to edit.
+
+Click the + icon to create a new section.
+
+Choose a widget from the list of available widgets.
+
+Add a title and description for the section.
+
+Use SmartFill where needed to personalize content, such as customer names.
+
+Add conditions if the section should only show specific data.
+
+Style sections
+You can style sections to match your brand and make the portal easier to read.
+
+Customize background colors and spacing.
+
+Add dividers and adjust their height or style.
+
+Set dynamic conditions for Rocketlane sections to show relevant data.
+
+Continue adding more sections, such as Features, Resources, and Footer.
+Note You can add as many pages as needed to match your customers’ needs.
+
+Available sections
+Customer Portal sections are grouped into Rocketlane sections and static sections.
+
+Rocketlane sections
+Section Description
+Project Plan Shows project phases and tasks. Customers can view progress, overdue tasks, spotlight tasks, and upcoming work.
+Project Plan Board View Shows a phase-wise board view of the project flow, tasks, and assignees.
+Project Plan Timeline View Shows project timelines using a Gantt chart format.
+Forms Shows forms attached to the project. Customers can access, fill, submit, or edit forms where applicable.
+Key Information Shows important project fields and summary information.
+All Files Shows project-related files such as contracts, agreements, and other documents.
+Spaces Provides access to project documents such as scope documents and SOWs.
+Team Members Shows all project team members in one place.
+Project Updates Shows project progress updates that are shared with customers.
+Task List Shows project tasks, statuses, deadlines, task views, and ownership details.
+Project Overview Shows project progress, milestones, risks, team members, and updates.
+Project Hours Shows hours allocated and tracked on the project.
+
+Static sections
+Section Description
+FAQ Adds frequently asked questions for customers to self-serve.
+Hero Section Adds a prominent top section that highlights key information or offerings.
+Logos Displays logos or icons for partnerships and collaborations.
+Metrics Displays company or project statistics.
+Feature Highlights key features of your product or service.
+Image Gallery Displays project-related images.
+Resources Links to external resources such as websites, help centers, or landing pages.
+Iframe Embeds videos from YouTube, Vimeo, Loom, Wistia, or another video provider using a video URL or HTML iframe embed snippet.
+Videos Embeds product, marketing, or training videos.
+CTA Adds call-to-action buttons that link customers to useful pages or resources.
+Footer Adds contact details, links, disclaimers, and other footer information.
+Note You can move sections up or down, duplicate them, and delete sections that are no longer needed.
+
+Note Rocketlane sections are dynamic and populate data based on project information.
+
+Configure a section
+Each section includes configuration options based on the section type.
+Field What it does Used in
+Title Adds a title to the section. Most static sections
+Description Adds supporting text for the section. Most static sections
+Image Adds an image to visually support the section. Hero, Feature, Resources, Videos, Image Gallery
+Metrics Adds numbers or statistics. Metrics
+Buttons and CTAs Adds buttons or links that redirect customers to another page or resource. Feature, Resources, CTA, Videos
+Question and Answer Adds FAQ content. FAQ
+Embed code Accepts a video URL or HTML iframe embed snippet. Iframe
+Group Title and Link Name Organizes footer links into groups. Footer, Resources
+Item tabs Organizes multiple items, each with its own embed code. Tabs can be added, selected, or deleted. Iframe
+Styling Controls background color, spacing, dividers, divider height, and flip style. All sections
+
+Embed videos with an Iframe section
+Use the Iframe section to embed videos from YouTube, Vimeo, Loom, Wistia, or another video provider into the Customer Portal. Alternatively you can use the Videos widget to embed simple Youtube links
+
+Open Customer Portal Templates , select the template you want to edit, and open the required page.
+
+Hover over the boundary where you want the video to appear and click the + button.
+
+Under Static sections , select Iframe and choose a layout.
+[image: Iframe layouts in the Static sections drawer]
+In the Section: Iframe sidebar, open Details .
+
+Enter a title and description.
+
+Select an item tab and paste the video URL or HTML iframe embed snippet into Embed code .
+
+Add tabs for additional embeds, switch between tabs, or delete unused tabs as needed.
+
+Review the embedded video section in the portal editor.
+
+Click Done to apply the section configuration.
+
+Click Preview to verify how the embedded video appears to customers.
+Note To embed a Loom or Wistia video, convert the provider embed code to HTML iframe format and paste it into the Embed code field. Recommended iframe size: 600 px x 918 px .
+
+Image dimensions
+Widget Dimensions Aspect ratio Max size
+Logo 100 x 100 px 1:1 20 MB
+Hero 1800 x 600 px 3:1 20 MB
+Feature 508 x 338 px 3:2 20 MB
+Image 288 x 288 px 1:1 20 MB
+Resources 294 x 200 px 3:2 20 MB
+Videos 300 x 192 px 16:9 20 MB
+Forms 74 x 74 px 1:1 20 MB
+Team member user photo 344 x 290 px 6:5 20 MB
+
+Dynamically add pages to the Customer Portal
+You can use conditional rules to decide when certain pages should appear in the Customer Portal.
+For example, if you want the project chat page to appear only for projects with fees above a certain amount, you can add that condition. The page will then be excluded from portals that do not meet the condition.
+
+Preview the Customer Portal
+You can preview the Customer Portal while building the theme to see how it will appear to customers.
+
+Go to Templates and select the Customer Portal Template .
+
+Choose the template you want to preview.
+
+Click Preview from the top-right corner.
+
+Preview the portal in Mobile , Desktop , or Tablet mode.
+
+Use the upward arrow to scroll through the portal in the selected view.
+
+Click Edit Portal to return to editing mode.
+
+Change the Customer Portal language
+Customers can change the portal language from the language icon at the top-right corner of the Customer Portal. By default, the portal language is picked from the customer’s browser language preference.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How can I embed a video in the Customer Portal?
+
+Introducing Custom Apps: Build What You Need Inside Rocketlane
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+How to invite customers to your portal
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

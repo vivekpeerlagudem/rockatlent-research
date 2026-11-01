@@ -1,0 +1,211 @@
+TITLE: Creating and Managing Subtasks : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701983-creating-and-managing-subtasks
+
+Creating and Managing Subtasks : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Creating and Managing Subtasks
+
+Creating and Managing Subtasks
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:07 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+In this article
+
+How to Add a Subtask
+
+Adding Multiple Subtasks
+
+Managing Subtasks
+
+Advanced Status Automations for Subtasks
+
+Subtasks in Rocketlane allow you to micro-manage tasks and task assignments by breaking a parent task into smaller tasks.
+Subtasks function as independent tasks with the same properties as a parent task and are constituted within a parent task.
+
+How to Add a Subtask
+
+Go to Projects and select the project where you want to add a subtask.
+
+Go to the Project Plan , List , or Board View and select the task that you want to add the subtask to.
+
+From the Task pane , go to Subtasks and click Add task .
+
+You can add a new subtask by typing in a name for the subtask and pressing Enter .
+
+The subtask will be added to the list of subtasks.
+
+Adding Multiple Subtasks
+You can bulk add a list of subtasks from the parent task's Task Pane .
+
+Create a list of subtasks that you want to add to your project. Select the list and copy it to clipboard.
+
+Go to Projects and select the project where you want to add subtasks.
+
+Go to the Project Plan , List , or Board View and select the task that you want to add subtasks to.
+
+From the Task pane , go to Subtasks and click Add task .
+
+Paste the list of tasks you want to add.
+
+The subtask list will be added to the Subtasks section.
+
+Managing Subtasks
+Subtasks function like independent tasks with all the same fields as a parent task, but are embedded within a parent task.
+To assign properties to a subtask and explore task functionalities, go to the project and click on the parent task.
+From the Subtasks section in the Task pane , select the subtask.
+Subtask functionalities are similar to task functionalities. To read more about the basics of a task, click here .
+Note Subtasks have a mention of the project followed by the parent task in the Task pane view.
+
+Advanced Status Automations for Subtasks
+You can automate the status update for a task based on the status update of subtasks.
+
+Go to Settings > Advanced > Workflow Management . Under the Status Automation > Tasks section, you have the following options:
+
+Here, you can set up the following automations:
+Change the parent task's status to Completed if all subtasks are completed.
+
+Change the parent task's status from To do to In progress when one or more subtask’s status is changed from To do to any other status.
+
+Change the status of all subtasks to Completed when a parent task is marked as Completed .
+
+You can select multiple options by clicking on the checkbox next to it.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to create project templates?
+
+The Conversations Section in Rocketlane and How to Track your Conversations?
+
+Understanding Date Changes in Rocketlane
+
+Enhanced Filtering and Task List Management (FAQ)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

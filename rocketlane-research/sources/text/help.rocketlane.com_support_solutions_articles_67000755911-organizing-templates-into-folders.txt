@@ -1,0 +1,257 @@
+TITLE: Organizing Templates into Folders : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755911-organizing-templates-into-folders
+
+Organizing Templates into Folders : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+Organizing Templates into Folders
+
+Organizing Templates into Folders
+
+Created by Advaith R, Modified on Fri, 4 Sep at 1:19 PM by Bala L
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build a Form Template?
+
+Organizing Templates into Folders
+
+No article available
+
+As your organization creates more project, form, document, and other templates, finding the right one in a single list can become difficult. Folders help you organize related templates and make them easier to find wherever templates are selected in Rocketlane.
+In this article
+
+Templates that support folders
+
+Creating a folder
+
+Moving templates into a folder
+
+Managing uncategorized templates
+
+Reordering templates
+
+Deleting a folder
+
+Finding folders in template pickers
+
+Where templates are used
+
+FAQ
+
+Templates that support folders
+Folder support depends on the template type.
+Supports folders Does not support folders
+Project templates Saved Automations
+Customer Portal templates Meeting Page templates
+Document templates
+
+Project Update templates
+
+Form templates
+
+Sheet templates
+
+AI Fill templates
+
+Built-in templates and templates created by your organization can both be moved into folders and reordered.
+
+Creating a folder
+
+Go to Templates .
+
+Select the template category you want to organize, such as Project templates . [image: Full size preview]
+
+Select New folder .
+
+Enter a name for the folder.
+
+Save the folder. [image: Full size preview]
+Note Folder names must be unique within each template type. Names are not case-sensitive, so Kickoff and kickoff are treated as the same name.
+
+Folders in different template types can use the same name. For example, you can have a Kickoff folder under both Project templates and Document templates.
+
+Moving templates into a folder
+You can move one template or several templates at once.
+
+Moving a single template
+
+Open the row menu for the template.
+
+Select Move to folder . [image: Full size preview]
+
+Select the destination folder. [image: Full size preview]
+
+Moving multiple templates
+
+Select the templates you want to move. [image: Full size preview]
+
+From the bulk action bar, select Move to folder . [image: Full size preview]
+
+Select the destination folder. [image: Full size preview]
+The bulk action bar also includes a Delete option for removing the selected templates.
+Note Moving a template into a folder changes only how it is organized. It does not affect automations, projects, integrations, or other workflows that already use the template.
+
+Managing uncategorized templates
+Templates that have not been moved into a folder appear under Uncategorized .
+Existing templates remain uncategorized until you create folders and move them. Creating a folder does not move or reorganize templates automatically.
+Note When you duplicate a template stored in a folder, the copy is added to the same folder. It does not return to Uncategorized .
+
+Reordering templates
+You can reorder templates within a folder or outside folders. You can also select and reorder multiple templates together.
+Reordering changes only the position of the templates you move. Templates you do not select retain their existing position. [image: Full size preview]
+
+Deleting a folder
+Deleting a folder does not delete the templates stored inside it. The templates are moved back to Uncategorized . [image: Full size preview]
+
+Finding folders in template pickers
+Folders appear wherever you select a supported template in Rocketlane. For example, when creating a project from a template, the template picker groups available project templates by folder instead of displaying one flat list.
+Folders do not change how templates work. A template remains available wherever its type is supported, regardless of which folder contains it.
+
+Where templates are used
+The following table lists common places where each supported template type is used.
+Template type Where it is used
+Project templates Creating a project, importing a template into an existing project, automation actions, the public API, and supported third-party integrations
+Customer Portal templates Changing a project's customer portal, automation actions, and portal-related webhook events
+Document templates Creating documents inside projects, automation actions, and Rocketlane's AI document assistant
+Project Update templates Creating project updates, automation actions, and scheduled automatic updates
+Form templates Attaching forms to tasks or cards, automation triggers and actions, and customer portal widgets
+Sheet templates Creating sheets, attaching sheets to tasks, and sheet-related automations
+
+FAQ
+
+Can I create two folders with the same name?
+Not within the same template type. Folder names are not case-sensitive, so changing capitalization does not make the name unique.
+You can use the same folder name in different template types.
+
+If I duplicate a template, is the copy added to the same folder?
+Yes. If the original template is stored in a folder, its copy is added to that folder. If the original is uncategorized, the copy remains uncategorized.
+
+Does moving a template break an automation or another workflow that uses it?
+No. Folders are purely organizational. Moving a template does not change its identity or affect where it is already being used.
+
+What happens to templates when I delete their folder?
+The templates move to Uncategorized . Deleting a folder does not delete its contents.
+
+Can I reorder templates within a folder?
+Yes. You can reorder templates within folders or outside folders, including multiple templates at once. Templates you do not move keep their current position.
+
+Can built-in templates be organized into folders?
+Yes. Built-in templates can be moved into folders and reordered alongside templates created by your organization.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Sheets in Rocketlane
+
+Account Level Default Permissions
+
+Creating a Documentation Agent
+
+Adding SmartFill to Templates and Projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

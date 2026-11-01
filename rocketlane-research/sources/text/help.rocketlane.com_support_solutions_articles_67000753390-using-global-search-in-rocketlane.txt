@@ -1,0 +1,232 @@
+TITLE: Using Global Search in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753390-using-global-search-in-rocketlane
+
+Using Global Search in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Using Global Search in Rocketlane
+
+Using Global Search in Rocketlane
+
+Created by Advaith R, Modified on Thu, 23 Jul at 4:55 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+How to Trigger Global Search
+
+What You Can Search
+
+Filtering Your Results
+
+Previewing and Interacting with Search Results
+
+Global Search in Rocketlane is your go-to option to instantly find anything: tasks, projects, chats, files, or spaces, across your entire workspace. It’s designed to give you fast, contextual access to every item, no matter where it's located.
+
+How to Trigger Global Search
+You can launch the global search bar in two ways:
+
+Click the Search Icon from the top navigation bar
+
+Use the shortcut: Ctrl + K on Windows/Linux or Cmd + K on Mac.
+Once triggered, a universal search bar will appear at the center of your screen.
+
+What You Can Search
+Global Search scans your entire Rocketlane instance, including:
+
+Tasks
+
+Projects
+
+Chats
+
+Files
+
+Spaces
+This means whether you're looking for a specific bug, a past conversation, a shared file, or a document in Spaces, you’ll find it here.
+
+Filtering Your Results
+To help you narrow down results, Rocketlane’s search allows you to filter by category or by object type .
+
+Filter by Category
+Refine your search to specific modules like:
+
+Tasks
+
+Projects
+
+Chats
+
+Files
+
+Spaces
+
+Filter by Attributes
+Depending on what you’re searching, you’ll see filter options related to:
+
+Task status or assignee
+
+Project phase
+
+File type
+
+Date ranges
+
+Custom tags or labels
+You can also apply custom filters to further narrow your results.
+
+Previewing and Interacting with Search Results
+Once your search results appear:
+
+Press Tab on a selected item to preview it within the same window. This helps you see context before jumping in.
+
+Hover over any result to see action buttons:
+Open: Opens the item in the current tab.
+
+Open in New Tab: Useful when you want to keep your current view intact.
+
+Copy Link: Instantly copy the item’s link for sharing or reference.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Rocketlane for Mobile
+
+Timesheet Policies in Rocketlane
+
+The Workato Rocketlane Integration
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

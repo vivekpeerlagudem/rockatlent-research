@@ -1,0 +1,554 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Remove dependencies from a task by Id
+
+Based on a task's unique identifier (`taskId`), users can remove dependencies associated with that task through the *Remove dependencies from a task by Id* API.
+
+This endpoint is particularly useful for removing task dependencies that are no longer necessary for the project. The `includeFields` parameter allows you to customize the response.
+
+> In case, any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Tasks",
+      "description": "Endpoints for tasks resource"
+    }
+  ],
+  "paths": {
+    "/1.0/tasks/{taskId}/remove-dependencies": {
+      "post": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Remove dependencies from a task by Id",
+        "operationId": "remove-dependencies-from-task",
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "path",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally",
+            "required": true,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            },
+            "example": 200
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskDependencyPublicAPI"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TaskPublicDependenciesAPIResponseEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "ProjectPublicAPITaskResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "The `project` associated with task."
+      },
+      "RevenueRecognitionPlanPublicResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "type": "integer",
+            "description": "The budget ID associated with this revenue recognition plan",
+            "format": "int64",
+            "example": 101
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "The budget name associated with this revenue recognition plan",
+            "example": "Budget A"
+          },
+          "recognisedPercentage": {
+            "type": "number",
+            "description": "The recognised revenue percentage",
+            "format": "double",
+            "example": 50
+          },
+          "recognisedAmount": {
+            "type": "number",
+            "description": "The recognised revenue amount",
+            "format": "double",
+            "example": 5000
+          }
+        },
+        "description": "This gives the breakdown of all the plans the task is in"
+      },
+      "TaskCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the task."
+      },
+      "TaskFieldPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the field.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The label of the field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "object",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an array and it must match the type of the field. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with task.",
+            "readOnly": true,
+            "example": 1000
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Fields lists the custom project fields whose values were provided during project creation or updated later. Refer these [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know more about different types of custom fields returned in response."
+      },
+      "TaskPublicLiteAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "taskName": {
+            "type": "string",
+            "description": "The **name** of the task.",
+            "readOnly": true,
+            "example": "Kick off"
+          }
+        },
+        "description": "The parent task of the task."
+      },
+      "TaskStatusPublicResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value of the status field is the unique identifier for status fields.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 2
+          },
+          "label": {
+            "type": "string",
+            "description": "The label is the name of the status.",
+            "readOnly": true,
+            "example": "In progress"
+          }
+        },
+        "description": "The task status value and the label. v 10, l xyz."
+      },
+      "TaskPublicDependenciesAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "taskName": {
+            "type": "string",
+            "description": "The **name** of the task.",
+            "example": "Kick off"
+          },
+          "taskDescription": {
+            "type": "string",
+            "description": "The `description` of the task. The description body needs to be in **html** format to avoid any formatting issues in the application.",
+            "example": "<p>Schedule Kick off meeting with the stakeholders involved.</p>"
+          },
+          "startDate": {
+            "type": "string",
+            "description": "The date when a task starts its execution. It can be empty. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDate": {
+            "type": "string",
+            "description": "The date when a task completes its execution. It can be empty. If both `startDate` and `dueDate` are specified for a given task, it is necessary that the latter should be on or after the given `startDate`. The format for the due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "archived": {
+            "type": "boolean",
+            "description": "The field `archived` denotes whether the task is archived or not. The task if archived will not be available in all search requests.",
+            "example": false
+          },
+          "effortInMinutes": {
+            "type": "integer",
+            "description": "The effort is the expected time required to complete the task. The value is determined in minutes.",
+            "format": "int32",
+            "example": 3000
+          },
+          "progress": {
+            "type": "integer",
+            "description": "The task's progress, if indicated, will be available here and ranges in value from 0 to 100. The task's status can be used in place of this field, however progress can offer more precise data.",
+            "format": "int32",
+            "example": 50
+          },
+          "atRisk": {
+            "type": "boolean",
+            "description": "Indicates whether the task has been marked as At Risk. This parameter is used to indicate that immediate action is necessary to unblock the task's execution.",
+            "example": true
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the task was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the task was last updated. Any changes that's related to the task are captured and specified here in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/TaskCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/TaskCreatedByUserPublicAPI"
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPITaskResponseEntity"
+          },
+          "status": {
+            "$ref": "#/components/schemas/TaskStatusPublicResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Fields lists the custom project fields whose values were provided during project creation or updated later. Refer these [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know more about different types of custom fields returned in response.",
+            "items": {
+              "$ref": "#/components/schemas/TaskFieldPublicResponseAPIEntity"
+            }
+          },
+          "revenueRecognitionTask": {
+            "type": "boolean",
+            "description": "This depicts if the task is part of a milestone revenue recognition plan or not. "
+          },
+          "revenueRecognitionDetails": {
+            "type": "array",
+            "description": "This gives the breakdown of all the plans the task is in",
+            "items": {
+              "$ref": "#/components/schemas/RevenueRecognitionPlanPublicResponse"
+            }
+          },
+          "revRecRecognisedPercentage": {
+            "type": "number",
+            "description": "The recognised revenue percentage (only when multi-line budgets is not enabled)",
+            "format": "double",
+            "example": 50
+          },
+          "revRecRecognisedAmount": {
+            "type": "number",
+            "description": "The recognised revenue amount (only when multi-line budgets is not enabled)",
+            "format": "double",
+            "example": 5000
+          },
+          "totalAllocatedMins": {
+            "type": "integer",
+            "description": "Total allocated minutes for this task",
+            "format": "int64",
+            "example": 2430
+          },
+          "dependencies": {
+            "type": "array",
+            "description": "Task Dependencies allow you to define relationships between tasks that are dependent on each other.\nNote: Rocketlane allows you to have finish to start task dependencies. This means that dependent tasks are meant to start after the dependencies are marked as Complete.",
+            "items": {
+              "$ref": "#/components/schemas/TaskPublicLiteAPIResponseEntity"
+            }
+          },
+          "private": {
+            "type": "boolean",
+            "description": "This depicts if the task is private or not.",
+            "example": false
+          }
+        }
+      },
+      "TaskDependencyPredecessorPublicRequest": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally",
+            "format": "int64",
+            "example": 201
+          },
+          "dependencyType": {
+            "type": "string",
+            "description": "Dependency type between tasks",
+            "example": "FINISH_TO_START",
+            "enum": [
+              "FINISH_TO_START",
+              "START_TO_START",
+              "FINISH_TO_FINISH",
+              "START_TO_FINISH"
+            ]
+          },
+          "lag": {
+            "type": "integer",
+            "description": "Lag in days between the predecessor and successor task",
+            "format": "int64",
+            "example": 2
+          }
+        },
+        "description": "Task Dependencies allow you to define relationships between tasks that are dependent on each other.",
+        "example": 201
+      },
+      "TaskDependencyPublicAPI": {
+        "required": [
+          "dependencies"
+        ],
+        "type": "object",
+        "properties": {
+          "dependencies": {
+            "type": "array",
+            "description": "Task Dependencies allow you to define relationships between tasks that are dependent on each other.",
+            "example": 201,
+            "items": {
+              "$ref": "#/components/schemas/TaskDependencyPredecessorPublicRequest"
+            }
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

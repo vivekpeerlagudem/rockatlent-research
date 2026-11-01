@@ -1,0 +1,168 @@
+TITLE: How to read the sprints report : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000734658-how-to-read-the-sprints-report
+
+How to read the sprints report : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Sprint Planning
+How to read the sprints report
+
+How to read the sprints report
+
+Created by Monica Madan, Modified on Sat, 8 Jun, 2024 at 10:03 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+How to read the sprints overview page
+
+How to read the sprints report
+
+Understanding Epics in Rocketlane
+
+Step-by-step guide to Sprint Planning
+
+Understanding Backlogs in Rocketlane
+
+No article available
+
+Sprint reports provide valuable insights into the velocity, efforts, and hours of sprints by tracking the completion of sprint points and tasks. This information helps in predicting how many similarly complex tasks can be handled in future sprints.
+
+Velocity chart:
+This chart shows the comparison between the total points allocated to tasks and the total points completed based on completed tasks. It helps in determining the velocity of each sprint and understanding if a balanced workload is allocated for each sprint.
+
+X-axis: Sprints
+Y-axis: Task count/points
+
+Planned vs actuals for sprints:
+
+This comparison shows the sum of efforts allocated versus the hours tracked for the tasks in the sprints.
+X-axis: Sprints
+Y-axis: Sum of efforts/Tracked hours
+
+Summary table:
+
+The summary table provides a list of sprints, and clicking on each sprint gives an overview of the sprint.
+
+The report tab gives you an overview of specific sprints for the selected time period
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Step-by-step guide to Sprint Planning
+
+Project Level Permissions
+
+Understanding Backlogs in Rocketlane
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

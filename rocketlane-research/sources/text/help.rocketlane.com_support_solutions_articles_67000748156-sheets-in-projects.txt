@@ -1,0 +1,482 @@
+TITLE: Sheets in Projects : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748156-sheets-in-projects
+
+Sheets in Projects : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Sheets in Projects
+
+Sheets in Projects
+
+Created by Advaith R, Modified on Wed, 21 Oct at 4:30 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+Add a sheet to your project
+
+Navigate to your project plan.
+
+Under a phase, open the dropdown menu next to Add task .
+
+Click Add sheet .
+
+Choose a sheet template or open a blank sheet.
+
+When you click a sheet from the project overview page, a side pane opens, similar to a task detail pane. From this pane, you can:
+
+Set task attributes such as Assignee , Due date , and Task status . Task status defaults to To Do when the sheet is created.
+
+View and configure sheet settings, including Sheet Tabs , Sheet Fields , Task Info , and Additional Info .
+
+Start conversations inside the sheet by clicking Conversations on the right side of the screen. You can tag people and use SmartFill to communicate relevant details about the sheet data.
+
+Freeze sheet entries
+If you need to lock data within a sheet and prevent further edits, you can freeze the entire sheet or a specific tab. This helps preserve data integrity when the information should no longer be changed.
+
+Freeze an entire sheet
+
+Navigate to the Sheets section in your project.
+
+Scroll to the sheet you want to lock.
+
+Click the three dots (...) menu next to the sheet name and select Freeze Sheet .
+
+Freeze a specific sheet tab
+
+Open the sheet.
+
+Click the sheet tab dropdown .
+
+Select Freeze Tab .
+
+Control what customers see in a sheet
+A project sheet can contain internal working data alongside information customers need to see. You can mark individual tabs as private so they are hidden from the Customer Portal while the rest of the sheet remains visible.
+
+Mark a tab as private
+
+Open the sheet.
+
+Right-click the tab, or select the tab and use the dropdown arrow next to its name.
+
+Select Mark tab as private .
+The tab is hidden from customers immediately. There is no confirmation step, and no other tab is affected.
+Tip The dropdown arrow appears only on the tab you currently have open. You can right-click any tab, whether it is selected or not.
+
+Mark a tab as shared
+
+Right-click the tab, or select it and use the dropdown arrow.
+
+Select Mark tab as shared .
+If the sheet itself is private, Rocketlane asks you to confirm with Share sheet tab? before continuing because sharing the tab also changes the visibility of the sheet.
+Important Sharing a tab on a private sheet also makes the entire sheet shared and visible to customers. Every tab that is not individually private becomes visible at the same time. If you intend to expose only one tab, review the privacy of the other tabs first.
+
+How sheet privacy and tab privacy interact
+A sheet is private when its underlying task is private, which you configure in the same way as any other task. Tab privacy is separate, and the two settings interact as follows:
+Action Effect
+Mark the sheet private Every tab in the sheet becomes private.
+Mark the sheet shared again Tabs stay private. They do not automatically revert to shared.
+Mark one tab private Only that tab becomes private. The sheet and other tabs are unchanged.
+Mark one tab shared while the sheet is private The sheet becomes shared along with every tab that is not individually private.
+Important Making a sheet shared again does not undo the privacy settings applied to its tabs when the sheet was made private. If a sheet appears shared but customers still cannot see its tabs, mark the required tabs as shared individually.
+
+What customers see
+
+Private tabs do not appear in the Customer Portal. They are not displayed as disabled or locked.
+
+The sheet itself still appears, and its Overview tab is always visible. Overview cannot be made private.
+
+If every tab is private, customers can still open the sheet and see Overview, with no other tabs listed.
+
+If a customer follows a link to a tab that has since been made private, the sheet opens on Overview instead of displaying an error.
+
+How to tell which tabs are private
+Where What you see
+On the tab An eye-with-a-slash icon to the left of the tab name, with the tooltip Private tab .
+On the sheets list The same icon with the tooltip Private sheet when the entire sheet is private.
+In the Fields drawer and sheet info panel The same icon appears beside each private tab.
+Note When the entire sheet is private, the per-tab private icon is not shown because everything in the sheet is already private. Private tabs are highlighted instead.
+
+When you cannot change tab privacy
+Situation What happens
+The sheet is under a private phase Mark tab as private and Mark tab as shared are disabled with the tooltip Phase is private . A private phase already hides everything inside it.
+You are viewing a saved version The option does not appear.
+You are a customer The option is not shown to customer users.
+
+Sheet templates
+Tabs in a sheet template can be marked private in the same way. A tab marked private in a template remains private on every sheet created from that template. Changing a tab's privacy on an individual sheet does not change the template.
+Note On a template, the privacy change is applied when you save the template, not immediately.
+
+Save and restore sheet versions
+Sheet versions let you save the current state of a sheet, review previous versions, and restore an earlier version when needed. Each version captures the complete sheet, including:
+
+Sheet fields
+
+Tabs
+
+Row and cell data
+
+Pivot tables
+
+Widgets
+
+Validation errors from Workforce Agent runs
+Note Restoring a version creates a new sheet in the project. It does not overwrite the current sheet.
+
+Save a version
+
+Open the sheet.
+
+Click the version history menu in the upper-right corner.
+
+Select Save version .
+
+Click Save version in the confirmation prompt.
+
+The saved version is added to the sheet's version history.
+
+Access the version history
+
+Click the version history menu in the upper-right corner.
+
+Select Open version history .
+The version history opens in a panel on the right. Each version displays the date, time, and team member who created it.
+
+Tip Use Cmd/Ctrl + Option/Alt + Shift + H to open the version history.
+
+Preview a previous version
+
+Select a version from the version history.
+
+Review its contents across the available tabs, including data sheets, overview tabs, and pivot tables.
+
+Confirm that you have selected the version you want to restore.
+
+Restore a version
+
+Select the required version from the version history.
+
+Click Restore this version .
+
+Review the default sheet name and edit it if required.
+
+Click Restore .
+
+Click View Sheet in the confirmation message to open the restored sheet.
+
+The restored version is added to the project as a new sheet.
+Note Access to save and restore sheet versions can be controlled through RBAC.
+
+Important You can access the 100 most recent versions or versions created within the last 30 days. Older versions are deleted automatically.
+
+Conditional highlighting
+Use conditional highlighting to visually flag important values in project sheets and sheet templates based on numeric thresholds.
+To configure conditional highlighting:
+
+Right-click any Sheet tab in a project sheet or sheet template.
+
+Select Conditional highlighting .
+
+Select a column to highlight, then configure the condition and color.
+
+Note At least one numeric column is required to configure conditional highlighting. Supported column types include Number , Percentage , Rating , and Currency .
+
+Single-color rules
+Use single-color rules to highlight cells in one color when they match a specific condition.
+
+Choose a numeric column .
+
+Set a condition: greater than, less than, equal to, greater than or equal to, or less than or equal to.
+
+Enter the threshold value.
+
+Choose a highlight color for matching cells.
+
+All cells in the selected column that meet the condition are highlighted in the chosen color.
+
+Multi-color rules
+Use multi-color rules to visualize a range of values using a gradient.
+
+Choose a numeric column .
+
+Define the minimum and maximum values.
+
+Select a color palette to represent the range.
+Cells in the column are automatically colored based on where their value falls between the defined minimum and maximum.
+
+Cell-level comments
+Cell-level comments let you collaborate directly inside a sheet on a specific cell.
+
+You can:
+
+Add comments to individual cells by right-clicking a cell and choosing the comment option.
+
+Mark comments as private when needed, based on workspace permissions.
+
+View all comments in the Comments pane for easier navigation.
+
+Hover over a cell to quickly view comments associated with it.
+
+Reply to comments to continue the conversation in context.
+
+Edit or delete comments when updates or corrections are required.
+
+Mark comments as resolved once the underlying issue or question has been addressed.
+
+Export a sheet
+You can export a project sheet when you need its data for offline review, reporting, sharing, or analysis outside Rocketlane.
+Rocketlane supports two export formats:
+Export format What gets downloaded
+CSV Downloads all tabs as a ZIP file. Each tab is exported as its own .csv file.
+Excel Downloads all tabs in one .xlsx file. Each sheet tab appears as a separate worksheet.
+To export a sheet:
+
+Open the project sheet.
+
+Click Export .
+
+Select CSV or Excel .
+
+Download the exported file.
+
+What is included in the export
+Exported data CSV export Excel export
+Sheet tabs Each tab is a separate .csv file inside a ZIP. Each tab is a separate worksheet in one .xlsx file.
+Sheet fields Exported as a separate file. Exported as a separate worksheet.
+Tab fields Exported as a separate file. Exported as a separate worksheet.
+Column order Matches the column order configured in the sheet. Matches the column order configured in the sheet.
+Sheet fields include sheet-level details such as Status , Assignee , Due Date , Start Date , and configured custom sheet fields.
+Tab fields include per-tab details such as Tab Name , Status , Assignee , Due Date , and Start Date .
+For CSV exports, these details are included as separate files in the ZIP. For Excel exports, they are included as separate worksheets in the workbook.
+
+Export processing time
+Sheet size Export behavior
+Less than 30,000 cells Rocketlane generates the export immediately and provides a download link.
+30,000 cells or more Rocketlane processes the export in the background and sends the download link to your email when it is ready.
+Note Empty cells are exported as blank values. Tabs with no active columns are skipped. Tabs with columns but no rows are exported with headers only.
+
+Control tab visibility in the Customer Portal
+A project sheet can contain both customer-facing information and internal working notes. Instead of hiding the entire Sheet task, you can mark individual tabs as private while keeping the remaining tabs visible to customers.
+Private tabs remain available to your internal project team but do not appear in the customer portal. A privacy icon on the tab indicates that it is private.
+
+Mark a tab as private
+
+Open the project sheet.
+
+Select the dropdown beside the tab name.
+
+Select Mark tab as private .
+The tab is hidden from customers while the other shared tabs remain available in the customer portal.
+Note If the entire Sheet task is private, customers cannot access the sheet, regardless of the visibility selected for its individual tabs.
+
+Share a private tab
+When the tab is ready for customers to view:
+
+Open the tab's dropdown.
+
+Select Mark tab as shared .
+The tab becomes visible in the customer portal again.
+Note You can switch a tab between private and shared whenever its content or review status changes. Marking one tab as private does not affect the visibility of the other tabs in the sheet.
+
+Notifications for sheet changes
+Sheets notifications keep project members informed when a sheet, tab, or row changes. Notifications can be triggered when tabs are created, reassigned, renamed, deleted, or given a new status or due date.
+
+Changes that trigger Sheets notifications
+
+A sheet is deleted.
+
+A sheet tab is created.
+
+A sheet tab's status changes.
+
+A sheet tab is assigned to someone.
+
+A sheet tab's assignees change.
+
+A sheet tab's due date changes.
+
+A sheet tab is renamed.
+
+A sheet tab is deleted.
+
+A sheet row is assigned to someone.
+Note Creating a sheet or changing the sheet's own status, assignee, or due date triggers a Tasks notification. Sheets notification events cover sheet deletion and changes to tabs and rows.
+
+Who receives notifications
+Most Sheets notifications are sent to everyone on the project except the person who made the change. Assignment events notify only the person being assigned.
+Event Who receives the notification
+Sheet tab is assigned to me The person newly assigned to the tab.
+Sheet row is assigned to me The person newly added to an assignee or user column in the row.
+All other Sheets events Project members except the person who made the change.
+For example, when someone changes a tab's assignees, the newly added assignee receives Sheet tab is assigned to me , other project members receive Sheet tab assignee changed , and the person who made the change receives no notification. The assignee change notification identifies the people who were added and removed.
+You receive a Sheets notification only when you are a member of the project, have permission to view the sheet, and have the notification event enabled in your notification settings.
+
+What the notifications include
+Each notification identifies the person who made the change and the tab where the change occurred. Examples include:
+
+[Name] created a new tab [Tab name]
+
+[Name] updated the status of [Tab name] from [Old status] to [New status]
+
+[Name] updated the due date of [Tab name] from Mar 01, 2026 to Mar 05, 2026
+
+[Name] updated assignees of tab [Tab name] (Added: [Names]) (Removed: [Names])
+
+[Name] renamed tab [New tab name]
+
+[Name] assigned you to tab [Tab name]
+
+[Name] assigned you to a row in tab [Tab name]
+
+[Name] deleted tab [Tab name]
+
+[Name] deleted the sheet "[Sheet name]"
+Note A rename notification shows the tab's new name, not its previous name.
+
+Opening a Sheets notification
+Select the tab name in a Sheets notification to open the sheet with the relevant tab already selected.
+Notifications about comments and mentions inside a sheet cell open the relevant tab, scroll to the affected row, and open the comment on the exact cell.
+Note Comment and mention notifications are controlled under Messages , not Sheets , in notification settings.
+
+Notifications for deleted tabs and sheets
+If a tab is deleted after a notification was sent, selecting the notification opens the sheet on its first available tab.
+If the entire sheet has been deleted, selecting the notification opens a Not found page with the message, "Sorry, the sheet you are looking for does not exist." Select Back home to leave the page.
+
+Configure Sheets notifications
+You can choose which events you receive by email, in-app, or through Slack. Go to Settings > Notifications > Sheets to configure your preferences. For the complete list of events, default channels, and Slack availability, see Managing Notification Settings .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing Notification Settings
+
+Sheets Widget in the Customer Portal
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Project Management
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

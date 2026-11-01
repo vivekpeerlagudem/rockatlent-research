@@ -1,0 +1,199 @@
+TITLE: Introduction to Invoicing on Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740584-introduction-to-invoicing-on-rocketlane
+
+Introduction to Invoicing on Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Introduction to Invoicing on Rocketlane
+
+Introduction to Invoicing on Rocketlane
+
+Created by Monica Madan, Modified on Tue, 7 Jan, 2025 at 5:09 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Invoicing on Rocketlane
+
+Quick guide to setting up Invoices
+
+Setting up custom invoice fields
+
+How to draft a new invoice
+
+Invoice list page
+
+Managing Invoices on Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Credit Notes in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+Lifecycle of an Invoice:
+Draft
+
+In Review
+
+Approved
+
+Paid
+
+Written Off
+
+Voided
+
+Rocketlane’s Invoicing ensures accurate tracking of project revenue, aligns payment schedules with service delivery, and maintains transparency with clients, meticulous tracking of all billable work and expenses, guaranteeing that every effort translates into revenue. This unified approach of integrating project management, time tracking, and invoicing into one platform, ensures no gaps between project delivery and billing, reducing administrative burden and human error.
+
+Professional services businesses often deal with diverse billing models, such as:
+
+Time and Material
+
+Fixed-fee
+
+Subscription (Recurring retainers)
+
+In this article series, we will explore the complete lifecycle of an invoice, from drafting and generating invoices to setting up approval workflows, managing payments, and handling exceptional cases like write-offs or voids. This guide will walk you through essential invoice management features, including how to customize your invoice settings, create approval workflows, and maintain accurate records.
+
+Lifecycle of an Invoice:
+Here are the consolidated definitions for each phase, incorporating all relevant data:
+
+Draft
+An invoice in the Draft phase is the preliminary version that is created but not finalized or sent for review. It is editable and used to capture initial details before further processing. During drafting of an invoice you can validate data for completeness, and save or submit the invoice for review.
+
+In Review
+An invoice enters In Review once it is submitted for approval. It undergoes checks by designated approvers to ensure accuracy and compliance before being finalized. During the In Review phase, you can notify approvers, review details and provide feedback if required.
+
+Approved
+An invoice is marked Approved when it passes all required reviews and is finalized for sending to the customer or processing for payment. You can send the invoice to the customer, initiating payment processes, and updating financial records.
+
+Paid
+An invoice in the Paid phase indicates that the total amount has been fully settled, and payment has been received and reconciled. When marking an invoice as paid, you can update payment records, generate it as a pdf and email the invoice for financial reporting.
+
+Written Off
+An invoice is marked Written Off when its outstanding amount is deemed uncollectible and recorded as a debt or loss. While writing off an invoice you can update the reason for the write-off.
+
+Voided
+An invoice is marked Voided when it is invalidated due to errors or cancellations, holding no financial value. By marking the invoice as void, you can prevent further processing, and updating of records to reflect the nullified status.
+In the next set of articles we will guide you through setting up your invoices in Rocketlane.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing Invoicing Permissions in Rocketlane
+
+How to manage your Rocketlane subscription?
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

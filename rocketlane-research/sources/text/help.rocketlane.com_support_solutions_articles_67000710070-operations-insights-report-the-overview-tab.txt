@@ -1,0 +1,329 @@
+TITLE: Operations Insights Report: The Overview Tab : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000710070-operations-insights-report-the-overview-tab
+
+Operations Insights Report: The Overview Tab : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: The Overview Tab
+
+Created by Niharika Pandey, Modified on Mon, 3 Mar, 2025 at 3:10 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+The Operations Insights Report lets you have an insight into the nitty- gritty of how projects, phases and tasks are being executed in your account. You can take a deep dive into each project, phase and task and view trends and charts that help you analyse what works for you and what needs improvement.
+
+This report also draws comparisons between planned versus actual timelines to help you get a better idea of what is being completed ahead of time and what is lagging behind. View trends for specific time periods by applying relevant filters, compare data that has been statistically presented to you and find areas of excellence as well as improvement, all through the Operations Insights Report.
+
+Operations Insights Report: The Overview Tab
+
+This tab gives you an overview of the planned vs actual completion time of the projects that have been created using templates and also for their respective phases and tasks. You can quickly identify both on-time completions and completion delays by glancing at the charts, graphs and tables in this tab.
+
+Filter
+
+Lets you filter projects or tasks or phases based on project fields
+
+Projects Created Filter
+
+This filter lets you analyse the people performance based on time frames so that you can specifically monitor performances for specific time periods.
+
+The ' Custom' option lets you add custom ' Start date' and ' Due date' so that you can analyse people performance for specific dates.
+
+Templates
+
+On-time completion performance: Graph
+
+This graph displays an overview of projects completed on time vs delayed for each template for the selected time period.
+
+The x-axis represents the templates that have been used for creating projects during the selected time period and the y-axis represents the completion performance in percentage.
+
+The bars in green indicate on-time completion and the bars in red indicate a delay in project completion.
+
+All Template Durations: Table
+
+This table lets you compare project completion time on the basis of templates used to create the projects.
+
+Template
+Name of the templates used for project creation
+
+Number of Projects
+Number of projects created using that template
+
+Planned Duration
+The duration of the template used
+
+Average Completion Time
+The average of all the completion times of the projects created using the template
+
+50th %ile Completion time
+Indicates that 50% of all projects created using the template have been completed on or before this time duration
+
+90th %ile Completion time
+Indicates that 90% of all projects created using the template have been completed on or before this time duration
+
+% projects Completed late
+The percentage of projects that have been completed later than the planned duration
+
+CSAT
+The average CSAT ratings from the projects created using the template
+
+Phases
+
+Most delayed phases: Graph
+
+This graph displays the top five phases that have been delayed the most vs the average deviation (in days) from the planned duration of the phase.
+
+The x-axis represents the phases from templates that have been used for creating projects during the selected time period and the y-axis represents the average deviation from the planned duration.
+
+Phases Completed Early: Graph
+
+Top five phases that have been completed earlier than the planned duration vs the average deviation from the planned duration of the phase
+
+The x-axis represents the phases from templates that have been used for creating projects during the selected time period and the y-axis represents the average deviation from the planned duration.
+
+Phases Durations Table
+
+This table lets you compare phase durations on the basis of templates used to create the projects.
+
+Phases
+Name of the phase
+
+Template
+Name of the templates which the phase belongs to
+
+Planned Duration
+The duration of the phase
+
+Average Completion Time
+The average of all the completion times of the phase for all the projects where the template is used
+
+50th %ile Completion time
+Indicates that 50% of all phases have been completed on or before this time duration
+
+90th %ile Completion time
+Indicates that 90% of all phases have been completed on or before this time duration
+
+% phases Completed late
+The percentage of phases that have been completed later than the planned duration
+
+CSAT
+The average CSAT ratings from the projects created using the template
+
+Tasks
+
+The Tasks section gives an insight about tasks that have been frequently completed early, late as well as tasks marked as blocked.
+
+Tasks most frequently completed early: Table
+This table gives an overview of the tasks that have been completed earlier than the planned time in the template.
+
+Task
+Name of the task
+
+Responsible
+Mentions if its your team or Customer's team or both teams which are responsible for the task
+
+Template
+Name of the templates which the task belongs to
+
+Planned Duration
+The duration of the task in the template
+
+Average Completion Time
+The average of all the completion times of the task in projects created using the template
+
+50th %ile Completion time
+Indicates that 50% of all tasks have been completed on or before this time duration
+
+90th %ile Completion time
+Indicates that 90% of all tasks have been completed on or before this time duration
+
+% tasks Completed early
+The percentage of tasks that have been completed earlier than the planned duration.
+
+Tasks most frequently completed late: Table
+This table gives an overview of the tasks that have been completed later than the planned time in the template.
+
+Task
+Name of the task
+
+Responsible
+Mentions if its your team or Customer's team or both teams which are responsible for the task
+
+Template
+Name of the templates which the task belongs to
+
+Planned Duration
+The duration of the task in the template
+
+Average Completion Time
+The average of all the completion times of the task in projects created using the template
+
+50th %ile Completion time
+Indicates that 50% of all tasks have been completed on or before this time duration
+
+90th %ile Completion time
+Indicates that 90% of all tasks have been completed on or before this time duration
+
+% tasks Completed late
+The percentage of tasks that have been completed later than the planned duration
+
+Tasks marked as blocked most frequently: Table
+
+This table gives an overview of the tasks that have been marked as blocked.
+
+Task
+Name of the task marked as Blocked
+
+Responsible
+Mentions if its your team or Customer's team or both teams which are responsible for the task
+
+Template
+Name of the templates which the task belongs to
+
+Planned Duration
+The duration of the task in the template
+
+Average Completion Time
+The average of all the completion times of the task in projects created using the template
+
+% times marked
+The percentage of times the task has been marked as blocked in a project
+
+Number of times marked
+The number of times the task has been marked as blocked
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+How to read the sprints report
+
+Setting up Dashboards in Sheets
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

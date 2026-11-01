@@ -1,0 +1,40 @@
+---
+updatedAt: 2025-06-03T20:48:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Resource Allocations
+
+## Resource Allocation Overview
+
+Resource allocation is a key aspect of project management, ensuring that the right resources are available at the right time to deliver projects efficiently. Rocketlane's Resource Allocation API allow developers and project managers to interact with Rocketlane's resource allocation functionality programmatically, providing a flexible way to manage resources for projects.
+
+***
+
+## Default Resource Allocation Fields
+
+| Field Type        | Definition                                                                                                                                                                                   |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `allocationId`    | The Resource Allocation’s unique, system-generated identifier, which can be used to identify the resource allocation globally.                                                               |
+| `allocationFor`   | Defines if it is a `TEAM_MEMBER` or a `PLACEHOLDER` to whom allocation is assigned. This is to keep track of whether the allocation is directly assigned to the user or via the placeholder. |
+| `startDate`       | The date when an allocation started. The format for the start date is YYYY-MM-DD.                                                                                                            |
+| `endDate`         | The date when an allocation ended. The format for the start date is YYYY-MM-DD                                                                                                               |
+| `secondsPerDay`   | The seconds allocated to a resource per day.                                                                                                                                                 |
+| `minutesPerDay`   | The minutes allocated to a resource per day.                                                                                                                                                 |
+| `hoursPerDay`     | The hours allocated to a resource per day.                                                                                                                                                   |
+| `allocationType`  | Denotes type of allocation to be made. It can be either `SOFT` or `HARD`.                                                                                                                    |
+| `project`         | The project associated with resource allocation.                                                                                                                                             |
+| `projectId`       | The project’s unique, system-generated identifier, which can be used to identify the project globally.                                                                                       |
+| `projectName`     | The name of the project associated with resource allocation.                                                                                                                                 |
+| `member`          | The team member associated with the allocation if chosen allocationFor is `TEAM_MEMBER`                                                                                                      |
+| `placeholder`     | The reference placeholder associated with the allocation if chosen allocationFor is `PLACEHOLDER`.                                                                                           |
+| `placeholderId`   | The unique, system-generated identifier, which can be used to identify the placeholders in the template globally.                                                                            |
+| `placeholderName` | The name of the placeholder.                                                                                                                                                                 |
+| `role`            | The role of the `member` or `placeholder` to whom allocation is assigned.                                                                                                                    |
+| `roleId`          | The company’s unique, system-generated identifier, which can be used to identify the role globally.                                                                                          |
+| `roleName`        | The name of the role of the `member` or `placeholder`  to whom allocation is assigned.                                                                                                       |
+| `createdAt`       | The time when the allocation was created. The referenced time will be in epoch milliseconds.                                                                                                 |
+| `updatedAt`       | The timestamp of the most recent update to the allocation. Any changes related to the allocation are recorded here, specified in epoch milliseconds for precise tracking.                    |
+| `createdBy`       | The team member who created the allocation.                                                                                                                                                  |
+| `updatedBy`       | The team member who last updated the allocation                                                                                                                                              |

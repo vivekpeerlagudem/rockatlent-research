@@ -1,0 +1,294 @@
+TITLE: Resource Management: The People Tab : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000704604-resource-management-the-people-tab
+
+Resource Management: The People Tab : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+Resource Management: The People Tab
+
+Resource Management: The People Tab
+
+Created by Niharika Pandey, Modified on Thu, 2 Feb, 2023 at 7:26 PM by Niharika Pandey
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+Resource Management
+
+Resource Management helps you to efficiently plan, schedule and allocate resources for your projects. You can manage projects, allocate resources or placeholders, look into resource demands, check for over allocation and under allocation.
+
+By keeping a tab over the work hours of your team members, you can ensure that resources are better allocated with a balanced load sharing model where no one is under/ over worked. Comparing project timelines and resource availability helps you to churn results faster with efficiency.
+
+How to Access Resource Management?
+
+You can access Resource Management by clicking on Resource Management icon from the vertical left navigation bar.
+
+Resource Management: The People Tab
+
+Using the People Tab in Resource Management , you can find the perfect set of people for your projects. The find availability feature automatically provides suggestions to show available resources.
+
+The Filter feature lets you look for specific people based on roles, departments, skills and much more.
+
+Add allocations to project timelines with extremely easy user interface which allows you to edit, drag, drop and split timelines!
+
+People Tab: Menu Bar Options
+
+Filter
+
+The filter feature helps you to filter team members or roles according to your requirements.
+
+Matches:
+
+The matches selection has two options namely All and Any .
+
+Select All in case you want to match all the filter conditions to be set.
+
+Select Any in case you want to display results for any one filter condition that matched.
+
+Where:
+
+You can select specific Team Members or Roles that you want to filter.
+
+Add Filter:
+
+You can add multiple filters.
+
+Click Done to apply the filter conditions.
+
+Click Clear to exit the filter mode.
+
+Saved Views
+
+Recurring filters can be saved as views for ease of access. To save a filter as a view click on Save view as.
+
+In the New View dialog box, give a name to the view. You can choose to make the view private or public. Click Save to save the view.
+
+To display your view click on the Saved Views Hamburger icon next to filters.
+
+All Users: Takes you to the default view without any filters applied.
+
+My Saved Views: Lists the Saved views marked as private.
+
+Shared Views: Lists the Shared views marked as public.
+
+Find Availability
+
+The Find Availability feature allows you look for team member's availabilities based on roles, for a specific time and required hours per day.
+
+Click Find after selecting Start date, End date and Minimum number of hours per day and applying additional filters .
+
+You view Focus mode wherein the availability of the team members is blurred for the rest of the timeline view except for the time duration you chose.
+
+There is a Focus mode toggle button which helps you to enter and exit Focus mode.
+
+To exit the Find availability mode, click on the 'Clear selection x' button next to the selection dates.
+
+Search
+
+The Search button helps you to look for specific Team members.
+
+The Month, Week and Day Views
+
+You can change the view by switching between the time spans that you want to see on the timelines. Switch between Month, Week and Day views.
+
+Zoom in and Zoom out
+
+This filter lets you maximise/ minimise the view and automatically changes timespans between Month, Week and Day view.
+
+Previous/ Next timespan
+
+Allows you to move to the previous/next timespan based on the level of zoom that you are currently on and your current viewing window size.
+
+Today
+
+Clicking on the Today button brings you back to the current date on the timeline.
+
+People Tab: The Team Members Column
+
+The Team members column next to the timeline lists all the team members in your account.
+
+Go to start of Project
+
+Clicking on the ' Go to start of project' icon takes the timeline view to the start date of the corresponding project .
+
+Remove team member from project
+
+To remove a Team member from a specific project , click on the Team member's name and go to the project . Click on More actions > Remove from project.
+
+A warning message pops to ask if you really want to remove the team membe r from the project . Click Remove .
+
+Placeholders
+
+In cases when the projects are in planning or when you are not sure about the exact team members who will be a part of a project, you can still add Placeholders and replace those with actual Team members later.
+
+Click on Placeholders to view the list of all placeholders. The number next to each placeholder indicates the number of projects that need team members to be allocated.
+
+Find Team Member
+
+The ' Find team member' icon next to each project name under a Placeholder helps you to find and allocate a Team member based on their Role and availability.
+
+The team member that you select will replace the placeholder.
+
+The ' Find team member' dialog box opens which lists all the team members in the role with their availability mentioned.
+
+You can select a role or search by the team member's name too. Click on the team member to select and click Add .
+
+The placeholder will be replaced by the selected team member's name.
+
+More Actions for Placeholders
+
+Edit placeholder
+
+'Edit placeholder' allows you to change the placeholder name.
+
+Note: This option is disabled for the default placeholders .
+
+Remove Placeholder
+
+The ' Remove placeholder' option allows you to remove the placeholder from your account .
+
+To read more about how to effectively manage your team's capacity, click here.
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+People Tab: Effectively Manage your Team's Capacity
+
+How to Manage Resources with Multi-Budgets
+
+Projects Tab: Find The Best Team For Your Projects
+
+Resource Management: The Projects Tab
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

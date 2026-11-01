@@ -1,0 +1,40 @@
+---
+updatedAt: 2026-08-26T11:22:21.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Companies
+
+Endpoints for the companies resource. Companies can have multiple addresses (see Addresses API; filter with companyId.eq). Company notes are managed via POST /1.0/companies/{companyId}/add-notes or included on create/update.
+
+## Company Overview
+
+Rocketlane's companies help you organize the customers you work with across projects, invoices, and other resources.
+
+Companies let you store core account details such as name, URL, description, and custom fields. You can also attach notes on `NOTE`-type company fields.
+
+The Rocketlane Companies API offers a robust and versatile solution for developers to integrate company management into their applications, empowering teams to create, retrieve, update, search, and delete company records efficiently.
+
+The Companies Public API currently supports **CUSTOMER** companies only. `companyType` is not accepted or returned — this endpoint always creates and operates on customer companies. A future partner companies API will do the same for partners.
+
+Swagger schemas for this API use the `CustomerCompanyPublic*` request/response entity names.
+
+***
+
+## Default Company Fields
+
+| Field        | Description                                                                                                                                                                                                                                                              |
+| :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| companyId    | The company’s unique, system-generated identifier, which can be used to identify the company globally.                                                                                                                                                                   |
+| companyName  | The name of the company.                                                                                                                                                                                                                                                 |
+| visibility   | Who can see the company. Responses may return `EVERYONE`, `MEMBERS`, or `GROUP`. Create/update accept only `EVERYONE` and `MEMBERS` (same as projects). `EVERYONE` allows all firm team members to view the company; `MEMBERS` restricts access to invited members only. |
+| accountOwner | Same shape as project `owner` (`userId` or `emailId`). **Required on create** — sets the account owner (user must already exist). Optional on update to change the account owner.                                                                                        |
+| companyUrl   | The website URL of the company. This field can be included in get and list responses using `includeFields=companyUrl`.                                                                                                                                                   |
+| description  | A detailed description or notes about the company. Useful for storing organizational context, business details, or internal notes.                                                                                                                                       |
+| fields       | Fields lists the custom company fields whose values were provided during company creation or updated later.                                                                                                                                                              |
+| notes        | Notes on `NOTE`-type custom fields for the company. Notes can be created with the company, updated on company update, or added later via `POST /1.0/companies/{companyId}/add-notes`. Include notes in get and list responses using `includeFields=notes`.               |
+| createdAt    | The time when the company was created. The referenced time will be in epoch millis.                                                                                                                                                                                      |
+| updatedAt    | The time when the company was updated. Any changes related to the company are captured and specified here in epoch millis.                                                                                                                                               |
+| createdBy    | The team member who created the company.                                                                                                                                                                                                                                 |
+| updatedBy    | The team member who last updated the company.                                                                                                                                                                                                                            |

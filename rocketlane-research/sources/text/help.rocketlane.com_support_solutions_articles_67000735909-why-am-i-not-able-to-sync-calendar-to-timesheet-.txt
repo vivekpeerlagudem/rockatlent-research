@@ -1,0 +1,166 @@
+TITLE: Why am I not able to sync Calendar to Timesheet? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000735909-why-am-i-not-able-to-sync-calendar-to-timesheet-
+
+Why am I not able to sync Calendar to Timesheet? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why am I not able to sync Calendar to Timesheet?
+
+Why am I not able to sync Calendar to Timesheet?
+
+Created by Shreeda R, Modified on Mon, 8 Jul, 2024 at 7:48 PM by Shreeda R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to sync Calendar to Timesheet?
+
+FAQ: Calendar Start Day Customization
+
+Why do deactivated users appear in my timesheet approval lists, and how can I manage their visibility?
+
+How do Time Offs reflect in resource management, and do they prevent accidental assignments?
+
+What time zone are timesheet submissions based on?
+
+Why can't I see a specific project in the Resource Management tab, even if other users with similar permissions can?
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+What are hard and soft allocations in Rocketlane, and how do I use them effectively?
+
+How to Manage Timesheet Approvers in Rocketlane
+
+What is the difference between allocation and utilization?
+
+Why is "Import from my allocations" coming up blank on my timesheet?
+
+No article available
+
+The reason why you are not able to sync calendar to timesheet might be because of the restricted access to third party apps in google.
+
+This can be resolved by disconnecting and reconnecting the google calendar to Rocketlane's timesheets. Here are the steps to be followed to resolve this issue.
+
+Step 1: Click on your Google Profile on the right top corner and select Disconnect.
+
+Step 2: Click on 'Sign In with Google'
+
+Step 3: Choose the Google account you would like to link, in case of multiple accounts and then click Allow to enable access
+
+Step 4: Now that you have integrated your Calendar, you'll be able to see the events for the selected week
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+PTO and Timesheets FAQs
+
+General FAQs
+
+FAQ: Time Off & Reporting in Rocketlane
+
+How to add Events from your Google Calendar to your Timesheet?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

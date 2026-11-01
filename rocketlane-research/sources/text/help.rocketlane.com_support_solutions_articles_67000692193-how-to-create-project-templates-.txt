@@ -1,0 +1,364 @@
+TITLE: Setting up project templates : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000692193-how-to-create-project-templates-
+
+Setting up project templates : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+How to create project templates?
+
+How to create project templates?
+
+Created by Monica Madan, Modified on Thu, 15 Oct at 5:33 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Templates
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+Adding SmartFill to Templates and Projects
+
+How to Create and Manage Placeholders?
+
+Understanding Date Changes in Rocketlane
+
+No article available
+
+Spending long hours creating project plans from scratch? Rocketlane has got you covered. You can create templates that can be reused for projects with similar requirements.
+Rocketlane provides new users with pre-built templates that can be easily customized to meet their project requirements. Alternatively, you can create entirely new templates from scratch and use them for your projects.
+To simplify your project planning, a project template is divided into three sections that can be easily combined to create a comprehensive template. By importing this template into your project plans, you can prioritize important milestones without any hassle.
+With the Project section , you can add all the necessary tasks to your project template and categorize them into phases. This feature lets you set project timelines, assign role-based placeholders, for example, Implementation Manager, and input other important details.
+Using Spaces , you and your team members can collaborate with customers on files and create documents related to the project. Add the necessary files and templates to the Space for easy and secure collaboration.
+Using the Allocations tab , you can assign resources to your project. This allows you to specify the roles of team members and the number of hours they need to work on the project.
+These sections have the following views:
+Views Projects Spaces Allocations
+List , has the list of tasks, spaces, and dynamic conditions. Yes Yes
+Timeline , a visual timeline displayed as a Gantt chart. Yes Yes
+Dynamic , conditions that prevent certain tasks from being created for specific projects. Yes
+In this article
+
+Configuring the projects section
+
+Creating a list of the phases and tasks
+
+Bulk updates in project templates
+
+Managing phases and tasks timelines
+
+Setting up dynamic conditions
+
+Configuring Spaces
+
+Allocating resources
+
+Task based revenue recognition
+
+Configuring the projects section
+When working on a project, team members need to handle various phases, tasks, and milestones. Each task comes with crucial information that helps team members understand their roles and responsibilities at different stages of the project. You can set timelines for these tasks and ensure that specific tasks are dynamically utilized in projects.
+To create a new template:
+
+In the left navigation, click Templates .
+
+Click Project templates .
+
+Click New template .
+
+Name your template.
+
+Under the Project tab, go to List view.
+Note Make sure to save each section before proceeding to the next.
+
+Creating a list of the phases and tasks
+You can create a list of all phases and tasks that a project should contain here.
+
+Adding phases to the project
+To add a new phase to your project plan:
+
+Go to the List view and click Add New phase .
+
+Name the phase, such as Kickoff meeting .
+
+Add a timeline to your project by specifying the start-on day. For instance, if the project's kickoff is planned for day 1 of a 60-day timeline, the start day will be noted as 1d .
+
+Specify the duration for the phase by indicating the number of days it should take to complete. For example, 5d means that the kickoff should begin on day 1 and be finished within 5 days.
+On the right-hand side, you can add more actions to the phase by clicking the three dots near the phase.
+
+Insert a phase above : adds a phase above the current phase.
+
+Shift days... : shifts the start day of the phase and its tasks earlier or later.
+
+Mark as private : hides the phase from customers so only your team sees it.
+
+Use smartfills : inserts smartfill variables into the phase.
+
+Delete : deletes the phase and all of its tasks from the template.
+
+You can access the key events tab on the right-hand side and mark the phase as a key event.
+
+Adding tasks or forms to the project
+Under the phases, you can add as many tasks and subtasks as needed.
+
+Click Add new task , name the task, and add the start-on day and duration for the task to complete.
+
+Choose an assignee for the task. For instance, if the sales handoff requires the involvement of a Sales executive, you can designate the role of Sales as a temporary placeholder until the actual salesperson takes over the task once the project begins.
+
+You can click the placeholder to select and deselect assignees.
+
+Click Done .
+On the right-hand side, you can add task details and additional info to the tasks.
+
+Task info : you can add a task description and add a private note that is only visible to your team.
+
+Add attachments : to make it easy for the customer to reference necessary materials, you can attach any files, decks, or documents to the corresponding task.
+
+Additional info : you can fill out task fields like effort in hours and priority.
+
+Time entry settings : mark the task as billable or non-billable.
+
+Dependencies : to ensure completion of a primary task, you can add a dependent task that must be finished beforehand. Only then can you mark the primary task as completed.
+
+On the right-hand side, you can add more actions to the task by clicking the three dots near the task.
+
+Add task above : adds a task above the current task.
+
+Mark as private / Mark as shared : hides the task from customers, or shares it with them.
+
+Mark as milestone / Unmark as milestone : a milestone triggers a CSAT survey to your customers when the task is completed.
+
+Rearrange : moves the task to a different position in the plan.
+
+Save as task template : saves the task as a task template you can add to projects from the project plan.
+
+Use smartfills : inserts smartfill variables into the task.
+
+Delete : deletes the task and its subtasks.
+
+You can access the key events tab on the right-hand side and mark the task as a key event.
+
+Adding subtasks to templates
+
+By clicking the subtask icon , you can add a subtask below your main task.
+
+Press Enter to finish adding the task.
+
+You can add as many subtasks as you wish under a main task.
+
+Note A task can have two levels of subtasks. Example: Main task > Subtask 1 > Subtask 1.1.
+
+Bulk updates in project templates
+You can bulk update assignees and task fields like effort, priority, and more for a project template.
+
+To do this, click the expand/collapse icon to show all task fields in a list view.
+
+Hover near a task to check the box near it.
+
+Similarly, check the boxes near all the tasks to bulk select them.
+
+Once the tasks are selected, update assignees, effort, and other fields for these tasks using the bulk editor on the right.
+Note When you select a task's checkbox, the list view expands to show all task fields and the bulk editor. From the bulk editor you can set the assignee, start on, duration, effort, privacy, and time entry settings for all selected tasks.
+
+Tip Use Shift + click to select a range of tasks for bulk update.
+
+Managing phases and tasks timelines
+
+The timeline view presents project timelines in a Gantt chart format, making it easy to see the overall schedule.
+
+You can adjust timelines by dragging them to the desired location.
+
+You can also create task dependencies by connecting the end of a dependent task to the start of the primary task.
+
+Setting up dynamic conditions
+If you don't wish to create certain phases or tasks for projects that don't need them, Rocketlane has a solution with dynamic conditions in project templates. For instance, if you only want to use the kickoff meeting task for projects with an ARR of over $100K, you can create a dynamic condition for that task. This feature allows you to tailor your project templates to your specific requirements.
+To set up the dynamic conditions :
+
+Click Add condition near the task you wish to make dynamic.
+
+Under Where , select the project field to trigger the condition.
+
+Choose the condition from the dropdown. It can be is greater than , is not empty , and so on, based on the type of project field you selected.
+
+Enter the value based on which the condition should apply.
+
+You can add multiple conditions to make the task or phase dynamic.
+
+Click Done after adding all conditions.
+
+Previewing a dynamic template
+When a template has many dynamic conditions, it is hard to tell which phases and tasks a project will actually get. In the Dynamic view, click Preview template , enter sample project field values, and click Change preview to see the resulting plan. Click Exit preview to return.
+If skipped phases leave gaps in the timeline, turn on compress timeline. Gaps in the project timeline created by skipped phases are then removed automatically.
+
+In the Dynamic view, hover over the settings (gear) icon next to Preview template .
+
+Click Turn on compress timeline... .
+
+Click Yes, turn on to confirm.
+To turn it off, follow the same steps and click Turn off compress timeline... .
+Note Preview template and the settings icon appear only after the template has at least one dynamic condition.
+
+Configuring Spaces
+Spaces inside the project template provide a central place for you to share important files and links with your customers and team members, and collaborate with them.
+Private Space: All the files added to this Space are visible and shared only with your team members.
+Shared Space: All the files added to this Space are visible and shared with team members and customers involved in the project.
+List in spaces: You can add a blank document, embed a URL, or add a template under each phase in the Spaces list, which your team or customers can fill.
+Dynamic conditions in spaces: These allow you to avoid creating spaces for projects that don't require them.
+
+Allocating resources
+Rocketlane allows you to allocate the resources and the time they will need to spend on the projects using this template.
+
+Open the Allocations tab.
+
+Click Add placeholders to add a role-based placeholder, or Add team members to add a specific person.
+
+Click in the row next to the placeholder or team member to block their time. In the allocation panel, enter the hours per day and the number of working days, then click Done .
+
+To create allocations from task effort and assignees instead, turn on Auto allocate .
+
+Note All the configurations done in the template will apply to all the projects that use the template. If you wish to convert a project into a template, you can do that under project settings.
+
+To do that, go to Projects , select a project, click Settings , under General information , select Workflow Management , expand it, and click Save project as template .
+
+Task based revenue recognition
+Rocketlane allows you to predefine task-based revenue recognition settings within a project template. When a user creates a milestone-based fixed fee project and applies a template with this configuration, the milestone revenue recognition plan is automatically applied.
+To set it up:
+
+Open the project template.
+
+Click the settings (gear) icon in the template header. The tooltip reads Template settings .
+
+Select Task based revenue recognition .
+
+Click Add new tasks , choose the tasks that trigger revenue recognition, and assign percentages until the plan totals 100%.
+This configuration is applied only if the following conditions are met:
+
+The template is the first one used in the project, whether during project creation or imported after.
+
+There is no existing task plan already set up in the project.
+
+The project type is fixed fee with milestone-based revenue recognition .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Manage Task Dependencies?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

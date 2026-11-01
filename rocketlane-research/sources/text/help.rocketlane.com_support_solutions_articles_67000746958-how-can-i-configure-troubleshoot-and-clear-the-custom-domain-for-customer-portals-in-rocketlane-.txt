@@ -1,0 +1,198 @@
+TITLE: How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746958-how-can-i-configure-troubleshoot-and-clear-the-custom-domain-for-customer-portals-in-rocketlane-
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Created by Advaith R, Modified on Thu, 14 Aug, 2025 at 2:42 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+General FAQs
+
+Rocketlane Support - How to reach us!
+
+Why am I receiving an error while performing an action?
+
+Resolving Webhook Issues Between Rocketlane and Zoho
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+We've ended our services with Rocketlane. How do we ensure our customers stop receiving emails, and what is Rocketlane's policy for data retention and deletion?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Why can't I see activity logs in the project chat?
+
+Why can't I add a Partner User, even though I have available licenses?
+
+How to Generate HAR
+
+The "Open Conversation" button in my email notifications doesn't redirect me to the Rocketlane Portal. How do I fix this?
+
+How can I tell if a task is private or visible to a customer?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+How to Troubleshoot and Manage Visibility Issues in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Why am I getting a rate limit error during bulk updates?
+
+Why is my public form still asking users to sign in?
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+No article available
+
+Rocketlane allows you to customize customer portals with unique domains for a tailored experience. This article provides a comprehensive guide on setting up, troubleshooting, and clearing custom domains within Rocketlane.
+
+Setting Up or Clearing Custom Domains
+To set up or modify a custom domain for your Rocketlane customer portal, follow these steps:
+
+Clearing the Custom Domain Field: - To remove an existing custom domain and configure a new one, navigate to the Custom Domain Configuration section in your Rocketlane account. - Click the 'Change' button to clear the current domain, enabling you to input a new one.
+
+Setting Up a New Custom Domain: - Make sure to use a subdomain (e.g., [portal.yourcompany.com](https://portal.yourcompany.com)). - Avoid using just the main domain (e.g., [yourcompany.com](https://yourcompany.com)), as it may lead to verification issues.
+
+Troubleshooting Domain Verification Issues
+Sometimes, even after completing the setup, custom domain verification might fail. Here’s how you can troubleshoot the issue:
+
+Verify Subdomain Entry: - Most verification failures occur due to incorrect subdomain entries. - Ensure you’ve entered the exact subdomain (e.g., [portal.yourcompany.com](https://portal.yourcompany.com)) rather than the main domain ([yourcompany.com](https://yourcompany.com)). Incorrect entries can cause verification to fail if your domain is hosted elsewhere.
+
+Check CNAME Records: - Ensure that the appropriate CNAME records are generated in your DNS settings and properly configured. This step is critical for verification success.
+
+Do You Need a Call? - A call for technical support is not mandatory if all settings are configured correctly. Focus on verifying the subdomain and CNAME record details first. - However, if the issue persists, additional action from the support team might be required.
+
+General Guidelines for Configuring Custom Domains
+
+Always use a unique subdomain for your customer portal.
+
+Double-check your DNS settings to ensure that all necessary records are updated correctly.
+
+Allow up to 48 hours for DNS changes to propagate fully after making any updates.
+
+By following these steps and guidelines, you should be able to successfully configure or troubleshoot your custom domain in Rocketlane. For further assistance, you may also reach out to Rocketlane's support team via the help center.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+2FA and Magic Links
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+PTO and Timesheets FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

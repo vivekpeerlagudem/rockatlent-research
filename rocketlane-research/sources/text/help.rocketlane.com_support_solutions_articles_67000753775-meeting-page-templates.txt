@@ -1,0 +1,291 @@
+TITLE: Meeting Page Templates : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753775-meeting-page-templates
+
+Meeting Page Templates : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Meeting Page Templates
+
+Meeting Page Templates
+
+Created by Advaith R, Modified on Wed, 8 Jul at 3:46 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Introduction to Signals in Rocketlane
+
+Email Intelligence: How Email Ingestion Works
+
+Meeting Page Templates
+
+Email Page Templates
+
+Setting Up Your Company Knowledge Base
+
+No article available
+
+In this article
+
+Navigate to meeting page templates
+
+Define template trigger conditions
+
+Configure template sections
+Meeting details and account information
+
+AI-generated summary
+
+Action items
+
+Finalize and save
+
+Meeting page template logic
+Template matching conditions
+
+Understanding template precedence
+
+RBAC for meeting intelligence
+Permission categories
+
+Scope options
+
+Meeting Page Templates automate how meeting discussions, summaries, and action items are structured and generated, based on conditions that match specific meetings.
+Different interactions - such as kickoff calls and success calls - require different focus areas. You can create custom templates for each call type to ensure you extract the most relevant data. For a kickoff call, you might configure the AI to identify implementation requirements and contract commits. For a success call, the focus might shift to tracking customer issues, sentiment, and specific action items.
+
+Navigate to meeting page templates
+
+Click Settings (gear icon) in the bottom-left of the sidebar.
+
+Go to Templates → Meeting Page Templates .
+
+Review the template list, which shows each template's status, creator, and last updated date.
+
+Click + New Template (top-right) to create a new template.
+
+Define template trigger conditions
+Use the Which meetings should be generated using this template? section to control when the template is applied.
+Setting What it does
+Matches: All Requires all conditions to be met.
+Matches: Any Requires at least one condition to be met.
+Field selection Choose from Account fields (for example ARR, MAU, Billing Cycle) or Meeting fields (for example Meeting Type, Participants).
+Operator Choose the comparison logic (for example is greater than, contains, is equal to).
+Value Enter the threshold or text value (for example 50000 for MAU).
+
+Configure template sections
+Templates are built using blocks. Each block can be renamed and configured to display specific information.
+
+Meeting details and account information
+Use these blocks to display metadata pulled from the meeting invite or CRM.
+
+Edit the Title (for example, "Minutes of Meeting").
+
+Use the Fields dropdown to add or remove data points such as meeting link, participants who attended, meeting owner, cost, and forecasted revenue.
+
+AI-generated summary
+Use the AI summary block to generate a structured summary from the meeting transcript. Configure the following options:
+Option What it does Available values
+AI context The prompt that drives the summary generation. Free text, for example: "Summarise the meeting and provide detailed minutes."
+Group by How the summary is structured. Topics, Company, Participants, Time period, None
+Generate as The output format. Paragraph, Bullet points, Numbered list, Checklist
+Include Whose input is considered. All, Customer participants only, Team only, Leadership or senior participants only
+
+Action items
+Use this block to extract commitments, next steps, and follow-ups.
+
+AI context: Define what to extract, for example: "Generate an action items list for the next meeting."
+
+Formatting: Use grouping and output formats similar to the summary block.
+
+Select Checklist to make action items easy to track.
+
+Finalize and save
+
+Reorder blocks using the drag handle (six dots) next to a block.
+
+Preview AI blocks using the Play icon to view a sample output.
+
+Click Save in the top-right corner.
+Note Templates follow first-match logic. The template highest in the list that matches the meeting conditions is applied to generate the meeting page.
+
+Meeting page template logic
+Meeting pages are dynamically generated using pre-defined templates. These templates ensure that every meeting is captured and presented with the right context and layout.
+
+Template matching conditions
+For a template to be applied, it must meet specific criteria. You can configure templates to trigger based on:
+
+Account fields: Segment meetings by account-specific data like ARR, lifecycle stage, or status.
+
+Meeting fields: Filter based on the organizer, participants, meeting title, or owner.
+
+Meeting metadata: Use any other custom metadata configured within your instance to refine template applications.
+
+Understanding template precedence
+When a meeting occurs, Rocketlane may find multiple templates that satisfy the criteria. The system uses a top-down priority logic:
+
+Sequential evaluation: Templates are evaluated in the specific order they appear in your list.
+
+First match wins: The system applies the first template that matches the meeting's criteria.
+
+Exclusionary logic: Once a match is found and applied, all remaining templates are ignored for that meeting.
+Tip Reorder the template list to set priority. Put your most specific templates at the top so they are evaluated before more general catch-all templates.
+
+The system selects a template through the following automated workflow:
+
+Evaluate conditions for Template 1.
+
+If Template 1 matches, apply it and end the process.
+
+If it does not match, move to Template 2 and repeat the evaluation.
+
+Continue down the list until a match is found or all templates are exhausted.
+
+RBAC for meeting intelligence
+The Meeting Intelligence module allows admins to define what team members can access and do with meeting intelligence features, meeting pages, and meeting page templates. Permissions are scoped to control both the action (view, edit, delete) and the reach (whose data is visible).
+Location: Settings → Permissions → Signals → Meeting Intelligence: Account level
+
+Permission categories
+
+1. Meeting intelligence and AI fills settings
+Permission Description
+Can access meeting intelligence and AI fills settings Allows viewing and using meeting intelligence features.
+
+2. Meeting pages
+Permission Scope Description
+Can view meeting pages Global - for all projects Allows viewing meeting pages within the selected scope.
+Can edit meeting pages Global - for all projects Allows editing meeting pages within the selected scope.
+Can delete meeting pages Global - for all projects Allows deleting meeting pages within the selected scope.
+
+3. Meeting page templates
+Permission Description
+Can view meeting page templates Allows viewing templates and their configuration.
+Can manage meeting page templates Allows creating, editing, and disabling templates for meeting pages.
+Can delete meeting page templates Allows permanently removing meeting page templates.
+
+Scope options
+Scopes control which meetings a user can see when a meeting page permission is granted.
+Scope Description
+Global access All meetings across all accounts.
+Account access Meetings from accounts in projects they can access.
+Group access Meetings with participants in their groups.
+Only me Meetings they personally participated in.
+Project access Meetings from projects they can access.
+Note By default, meetings are not associated with projects. You must manually associate meetings to projects. If this association is absent, users with Project access scope will see no meetings.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Configuring Nitro Page Templates
+
+Creating a Documentation Agent
+
+Organizing Templates into Folders
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

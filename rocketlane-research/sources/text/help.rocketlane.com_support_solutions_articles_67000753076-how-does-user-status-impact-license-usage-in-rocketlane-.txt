@@ -1,0 +1,192 @@
+TITLE: How Does User Status Impact License Usage in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753076-how-does-user-status-impact-license-usage-in-rocketlane-
+
+How Does User Status Impact License Usage in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How Does User Status Impact License Usage in Rocketlane?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+Created by Advaith R, Modified on Tue, 28 Apr at 5:33 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+General FAQs
+
+Rocketlane Support - How to reach us!
+
+Why am I receiving an error while performing an action?
+
+Resolving Webhook Issues Between Rocketlane and Zoho
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+We've ended our services with Rocketlane. How do we ensure our customers stop receiving emails, and what is Rocketlane's policy for data retention and deletion?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Why can't I see activity logs in the project chat?
+
+Why can't I add a Partner User, even though I have available licenses?
+
+How to Generate HAR
+
+The "Open Conversation" button in my email notifications doesn't redirect me to the Rocketlane Portal. How do I fix this?
+
+How can I tell if a task is private or visible to a customer?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+How to Troubleshoot and Manage Visibility Issues in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Why am I getting a rate limit error during bulk updates?
+
+Why is my public form still asking users to sign in?
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+No article available
+
+Managing licenses effectively is crucial for ensuring seamless operations in Rocketlane. This article explains how different user statuses—such as invited, active, or reactivated—affect license usage and allocation.
+
+Overview of License Usage
+Rocketlane licenses are allocated based on the total number of users associated with your account. This includes:
+
+Active users: Users who are currently using the platform.
+
+Partner users: External collaborators who are granted access.
+
+Invited (pending) users: Users who have been invited but have not yet accepted the invitation.
+All these user types count toward your total license consumption.
+
+Impact of User Status Changes on Licenses
+Any changes to a user's status can impact your license usage. For example:
+
+Inviting a new user: When you invite a user, even if they have not yet accepted the invitation, a license is reserved for them.
+
+Reactivating a user: If you reactivate a previously deactivated user, a license will be automatically allocated to them.
+
+Automatic License Allocation
+Rocketlane simplifies license management by automatically adjusting license usage based on user actions. Whether you are adding a new user or reactivating an existing one, the required license is seamlessly added to your account. This ensures that your team can focus on their work without worrying about manual license adjustments.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+PTO and Timesheets FAQs
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

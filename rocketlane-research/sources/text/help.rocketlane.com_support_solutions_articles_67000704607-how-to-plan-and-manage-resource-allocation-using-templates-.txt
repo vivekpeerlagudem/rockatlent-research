@@ -1,0 +1,363 @@
+TITLE: How to Plan and Manage Resource Allocation using Templates? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000704607-how-to-plan-and-manage-resource-allocation-using-templates-
+
+How to Plan and Manage Resource Allocation using Templates? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Plan and Manage Resource Allocation using Templates?
+
+Created by Niharika Pandey, Modified on Mon, 13 Mar, 2023 at 3:52 PM by Niharika Pandey
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+Resource Management
+
+Resource Management: Adding Resources Allocations to Templates
+
+How to Access Allocations in Project Templates?
+Zoom in and Zoom out
+
+Previous/ Next timespan
+
+Project Templates Allocation Tab: The Resources Column
+
+Project Templates Allocation Tab: The Allocated Column
+
+Adding Team Members to a Project Template
+
+Adding Placeholders to a Project template
+
+Removing Placeholders from a Project Template
+
+Project Templates: Allocations Tab's Timeline View
+
+How to add Allocations for a Resource in a Project Template?
+
+Enabling Auto Allocate for a Project Template
+
+Manually Adding Allocations for a Resource in a Project Template
+Editing Allocations
+
+More Actions for Allocations
+
+Resource Management
+
+Resource Management helps you to efficiently plan, schedule and allocate resources for your projects. You can manage projects, allocate resources or placeholders, look into resource demands, check for over allocation and under allocation.
+
+By keeping a tab over the work hours of your team members, you can ensure that resources are better allocated with a balanced load sharing model where no one is under/ over worked. Comparing project timelines and resource availability helps you to churn results faster and with efficiency.
+
+Resource Management: Adding Resources Allocations to Templates
+Project Templates at Rocketlane allow you to use pre defined project plans, phases, tasks and timelines so that you can create projects faster.
+
+With the addition of Resource Management to Project Templates , you can now plan resource allocation also way ahead of time by adding allocations for placeholders/ team members in a template.
+
+You can now templates the hourly requirements for different roles needed to make the project successful. This eases the process of project creation because we have defined who is needed, when they are needed, and how much time is expected from them.
+
+How to Access Allocations in Project Templates?
+
+Click on the Templates icon from the vertical left navigation bar.
+
+Click on the Project template that you want Resource allocation for.
+
+Click on the Allocations tab from the Project template.
+
+Project Template Allocations Tab: Menu Bar Options
+
+Zoom in and Zoom out
+
+This filter lets you maximise/ minimise the view and automatically changes timespans between Month, Week and Day view.
+
+Previous/ Next timespan
+
+Note : The timeline for project templates is based on a day level timespan. The phases are laid out based on the start date and duration assigned for the project template.
+
+The timeline for project templates has a day level time span setting starting with day one of the project.
+
+So the P revious/ Next timespan buttons can be used for shifting backward/ forward by one day.
+
+Project Templates Allocation Tab: The Resources Column
+
+The resources column is categorised based on roles .
+
+You can click on a role and on expand the list of placeholders and team members that have been allocated for the Project template.
+
+Project Templates Allocation Tab: The Allocated Column
+
+The Allocated column indicates the total number of hours that have been allocated to the placeholder/ team member for the project template.
+
+The resources column has a Total Allocation row which indicates the total time allocated for the template.
+
+Adding Team Members to a Project Template
+
+Click on ' Add team members' from the end of the Resources column.
+
+The ' Add team members' dialog box opens.
+
+You can filter the team member by using Team Member fields , search for the team member by name or simply find the team members from the list and select.
+
+You can select multiple team members to add to the Allocations tab.
+
+Click ' Invite and add team member' button to add the team member to your project template.
+
+Adding Placeholders to a Project template
+
+In cases when you are designing templates, you will not be sure about the exact team members who will be a part of a project, you can still add placeholders and replace those with actual team members later.
+
+Adding placeholders lets you plan resource allocation better.
+
+Click on ' Add placeholder' from the end of the Resources column.
+
+The ' Add placeholder' dialog box opens.
+
+You can filter the placeholder by role, search for the placeholder by name or simply find the placeholder from the list and select it.
+
+You can also select multiple placeholders. Click on the 'Add placeholder' button to add the placeholder to your project.
+
+In case the placeholder you are looking for does not exist, you can create a new placeholder by clicking the ' New placeholder +' button.
+
+From the New placeholder dialog box, choose a R ole and add a placeholder name.
+
+Click ' Create and add' to create the new placeholder and add it to the list of existing placeholders under your project .
+
+Removing Placeholders from a Project Template
+
+In case you want to remove a placeholder from the project template, go to More actions > Remove placeholder.
+
+Project Templates: Allocations Tab's Timeline View
+
+Rocketlane gives you a timeline view for your templates based on the start day and duration of each phase.
+
+You can hover over a project template's timeline bar and the project phases displayed across the timeline to get a summary of project and project phase duration.
+
+You can click on any role to see all the placeholders and team members allocated to the project template.
+
+The timeline bar for each placeholder/ team member displays the number of hours per day allocated to them for that project.
+
+Note: By default, each Team Member has a bandwidth of 8 hours per day.
+
+Hover over the timeline bar for a team member and you will see a bandwidth summary for that team member with respect to that project.
+
+Dates:
+Indicates the allocation start day considering the start of the project as day 1.
+
+It also displays the total number of days for the allocation.
+
+Allocated:
+Indicates the total number of hours for the allocation. The number of hours per day allocated to the placeholder/ team member is mentioned in parentheses.
+
+Note: In c ase of over allocation, you can notice a red line over the timeline bar for a placeholder/ team member.
+
+How to add Allocations for a Resource in a Project Template?
+
+You can add allocations for placeholders as well as team members in a template in Rocketlane. This can either be done manually or you can enable auto allocate for automatically allocating the resources based on the effort, duration and assignees updated at a task level in the template.
+
+Enabling Auto Allocate for a Project Template
+Click on the link nextread more about how to enable auto allocations for a template: How to Enable and Configure Auto-allocations in a Template?
+
+Manually Adding Allocations for a Resource in a Project Template
+
+Add a new placeholder/ team member to a project template by clicking on add placeholders/ add team members from the Resources column.
+
+After adding the placeholder/ team member to the project you can assign allocations to the placeholder/ team member by adding a timeline bar next to the placeholder/ team member for the corresponding dates.
+
+As soon as you add an allocation for a placeholder/ team member on the timeline, a panel opens on the right side of the screen.
+
+You can edit these fields from the panel:
+Hours per Day: Define the number of hours per day the team member is required for the project.
+
+Number of Working Days: Add the total number of working days for which that member is required for the project.
+
+Click Done to save changes.
+
+Editing Allocations
+
+For already existing allocations, you can increase/ decrease the total number of working days by expanding/ contracting the timeline bar from both ends.
+
+You can shift the timelines for each allocation by dragging and dropping the timeline bar to the new dates.
+
+Click on the timeline bar and edit the allocation properties from the panel on the right.
+
+You can edit these fields from this panel:
+
+Hours per Day: Define the number of hours per day the team member is required for the project.
+
+Number of Working Days: Add the total number of working days for which that member is required for the project.
+
+You can perform these actions from this panel:
+
+Split Time
+In cases where a placeholder/ team member is required for different number of hours for different project phases, you can use the split time feature.
+
+On clicking Split Time, the timeline bar is split evenly at regular intervals and cursor turns into a scissor. You can choose to split the bar into two parts by clicking on the interval where you want to split.
+
+Delete Allocation
+Click to delete the allocation.
+
+More Actions for Allocations
+
+Click on the More actions icon from the right most corner of the timeline bar.
+
+You can perform the following actions from here:
+
+Edit
+
+Clicking on this opens the allocations edit panel on the right where you can edit the hours per day and the number of working days. You can also delete the allocation from here.
+
+Split Time
+
+In cases where a placeholder/ team member is required for different number of hours for different project phases, you can use the split time feature.
+
+On clicking Split Time, the timeline bar is split evenly at regular intervals and cursor turns into a scissor. You can choose to split the bar into two parts by clicking on the interval where you want to split.
+
+Delete Allocation
+
+Click to delete the allocation.
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Phase Level Effort Planning on Rocketlane
+
+Introduction to Financial Management
+
+People Tab: Effectively Manage your Team's Capacity
+
+Projects Tab: Find The Best Team For Your Projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

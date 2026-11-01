@@ -1,0 +1,42 @@
+source,url,http_status_at_check,source_type,assigned_agent,access_note,read_status
+Website home,https://www.rocketlane.com/,200,Official (marketing),A/E,Reachable,not yet read
+Pricing,https://www.rocketlane.com/pricing,not checked,Official (marketing),A,Listed in sitemap,not yet read
+PSA product page,https://www.rocketlane.com/professional-services-automation,200 (sitemap),Official (marketing),A,Listed in sitemap,not yet read
+Intelligent delivery page,https://www.rocketlane.com/intelligent-delivery,200 (sitemap),Official (marketing),D,Listed in sitemap,not yet read
+Integrations directory,https://www.rocketlane.com/integrations,200,Official (marketing),C,Reachable,not yet read
+Integrations - Slack,https://www.rocketlane.com/integrations/slack,not checked,Official (marketing),C,Listed in sitemap,not yet read
+Integrations - Custom apps,https://www.rocketlane.com/integrations/custom-apps,not checked,Official (marketing),C,Listed in sitemap,not yet read
+Mobile app page,https://www.rocketlane.com/mobile-app,not checked,Official (marketing),A,Listed in sitemap,not yet read
+Nitro videos index,https://www.rocketlane.com/nitro-videos,200 (sitemap),Official (video pages),D,Video content cannot be watched; page text only,not yet read
+Nitro video - The making of Nitro,https://www.rocketlane.com/nitro-videos/the-making-of-nitro,200,Official (video page),D/E,Page text only,not yet read
+Nitro video - Documentation agent,https://www.rocketlane.com/nitro-videos/documentation-agent,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Migration agent,https://www.rocketlane.com/nitro-videos/migration-agent,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Nitro Analyst,https://www.rocketlane.com/nitro-videos/nitro-analyst,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Nitro Assistant,https://www.rocketlane.com/nitro-videos/nitro-assistant,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Nitro Signals,https://www.rocketlane.com/nitro-videos/nitro-signals,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Project governance,https://www.rocketlane.com/nitro-videos/project-governance,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Resource management agent,https://www.rocketlane.com/nitro-videos/resource-management-agent,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Time governance,https://www.rocketlane.com/nitro-videos/time-governance,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Workforce agents,https://www.rocketlane.com/nitro-videos/workforce-agents,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Podcast 1,https://www.rocketlane.com/nitro-videos/podcast-1,not checked,Official (video page),D,Page text only,not yet read
+Nitro video - Customer stories (4),https://www.rocketlane.com/nitro-videos,not checked,Official (video pages),D,actabl-x-doc-agent / clutch-x-time-governance / storable-x-migration-agent / virtuous-x-nitro-signals,not yet read
+Trust page,https://www.rocketlane.com/trust,200,Official,E,Reachable,not yet read
+Security and compliance PDF,https://cdn.prod.website-files.com/6360d3edc696260ba2aecbc7/64d0c65700a997dccc386c70_Security%20and%20compliance%20at%20Rocketlane.pdf,200 (PDF),Official,E,Reachable,not yet read
+Sub-processors,https://www.rocketlane.com/legal/sub-processors,200,Official (legal disclosure),E,Reachable; likely the strongest hosting/vendor evidence,not yet read
+Data processing agreement,https://www.rocketlane.com/legal/data-processing-agreement,200,Official (legal),E,Reachable,not yet read
+Beta policy,https://www.rocketlane.com/legal/beta-policy,200,Official (legal),D,Reachable; relevant to AI feature maturity,not yet read
+Terms,https://www.rocketlane.com/legal/terms,not checked,Official (legal),E,Listed in sitemap,not yet read
+Privacy policy,https://www.rocketlane.com/legal/privacy-policy,not checked,Official (legal),E,Linked from site,not yet read
+Responsible disclosure,https://www.rocketlane.com/responsible-disclosure,200,Official,E,Reachable,not yet read
+Sprinto trust centre,https://app.sprinto.com/trust-center/view/78e9adf1-54d8-42bf-8de2-d496b2750ef6,403 to curl,Official (third-party hosted),E,Blocked to plain HTTP; retry with REA browser in Phase 3,not yet read
+Status page,https://status.rocketlane.com/,200,Directly observable,E,Reachable; component list may reveal service boundaries,not yet read
+Web app shell,https://app.rocketlane.com/,200 (7 KB shell),Directly observable,E,Public pre-login shell only; REA bundle/header analysis target,not yet observed
+Developer portal,https://developer.rocketlane.com/docs/overview,200,Official,B,Reachable; llms.txt index downloaded,not yet read
+Careers (Kula),https://careers.kula.ai/rocketlane,200,External disclosure (job posts),E,Reachable,not yet read
+Rocketlane Academy,https://academy.rocketlane.com/,200,Official (training),A,Reachable,not yet read
+Zapier app listing,https://zapier.com/apps/rocketlane/integrations,200,External (partner listing),C,Reachable; lists triggers/actions,not yet read
+Apple App Store listing,https://apps.apple.com/in/app/rocketlane/id6450273789,not checked,External (store listing),A/E,Store metadata only,not yet read
+Google Play search,https://play.google.com/store/search?q=rocketlane&c=apps,not checked,External (store listing),A/E,Store metadata only; APK analysis excluded unless approved,not yet read
+YouTube channel,https://www.youtube.com/channel/UCAzcaPLGCCy60v-2xJza0PQ,not checked,Official (video),D,Cannot watch; titles/descriptions/transcripts only if published,not yet read
+LinkedIn company/jobs,https://www.linkedin.com/company/rocketlane/jobs/,999 (bot-blocked),External,E,Not accessible; jobs evidence from Kula instead,inaccessible
+StackShare,https://stackshare.io/rocketlane,429 (rate-limited),External (third-party profile),E,Retry later; low reliability source,inaccessible at check

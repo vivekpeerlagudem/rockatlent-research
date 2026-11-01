@@ -1,0 +1,793 @@
+---
+updatedAt: 2026-08-11T08:05:33.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all companies
+
+This endpoint can be used to search for companies. The response body is paginated and you can control the pagination using the `pageSize` and `pageToken` parameters. Native filters include companyName, companyUrl, and accountOwner. Custom company fields (including NOTE fields, treated as text) can be filtered with `company.field.<custom_field_id>.operator=value`.
+
+The *Get all companies* API enables users to find companies in their Rocketlane instances using advanced filtering options. This API is intended to provide a flexible and fast means of getting company data based on various parameters.
+
+Developers can integrate company search features into their applications and platforms by using this API. You can fine-tune your searches and retrieve the company data you need for integration into your applications or platforms by using the available parameters.
+
+> 📘 Note
+>
+> The Companies Public API currently returns **CUSTOMER** companies only. Partner companies are not included in the response body.
+
+The `includeFields` param can be used to customize the response. You can fine-tune your searches and retrieve the company related data you need for integration into your applications or platforms by using filters.
+
+You can use any combination of these parameters to execute searches based on your specifications. In addition to filters, `sortBy` and `sortOrder` can be used to sort the companies. The response body is [paginated](https://developer.rocketlane.com/v1.0/docs/pagination), and you can control the pagination using the `limit` and `pageToken` parameters.
+
+## Pagination
+
+The *Get All Companies* API accommodates pagination in the response body. The `pageSize` option can be used to restrict the amount of responses displayed/available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain the `pageToken`.
+
+Please refer to the [pagination](https://developer.rocketlane.com/v1.0/docs/pagination) section for further information on this.
+
+## Filtering
+
+The capacity to execute more sophisticated and nuanced searches on a dataset by combining numerous criteria and conditions is referred to as filtering.
+
+Complex filtering in the context of the *Get All Companies* API allows users to build elaborate search queries to return specific subsets of companies that satisfy specific requirements. By catering to a wide range of use cases, this enhanced filtering functionality considerably increases the API's utility and versatility.
+
+The API reference includes a comprehensive range of filtering options.
+
+### Native field filtering
+
+In addition to `companyName`, the following native company fields can be used as filter criteria:
+
+| Field          | Description                | Example operators       |
+| :------------- | :------------------------- | :---------------------- |
+| `companyName`  | Company display name       | `eq`, `cn`, `nc`        |
+| `companyUrl`   | Website URL of the company | `eq`, `cn`, `nc`        |
+| `accountOwner` | Account owner user id      | `eq`, `oneOf`, `noneOf` |
+
+Examples:
+
+* `companyUrl.cn=acme.com`
+* `accountOwner.eq=12`
+* `accountOwner.oneOf=12,34`
+
+### Custom Field Filtering
+
+The *Get All Companies API* offers custom field filtering in addition to the regular filtering options.
+
+Users can utilise custom field filtering to define and apply their own company fields as search criteria. This powerful feature allows users to search for companies based on custom company fields, allowing the API to be tailored to a variety of use cases where default fields may be insufficient.
+
+| Type    | Description           |
+| :------ | :-------------------- |
+| Company | Custom company fields |
+
+Please refer to the below table for more information on how to construct the filtering criteria for custom fields.
+
+| Field name                                       | Text                       | Number                     | Yes/No                     | Date                       | Single Selection           | Multi Selection            | Rating                     | Note (text)                |
+| ------------------------------------------------ | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ***`{type}.field.{field_id}.value`***            |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.contains`***         | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.notContains`***      | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.greaterThan`***      |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |                            |
+| ***`{type}.field.{field_id}.lessThan`***         |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |                            |
+| ***`{type}.field.{field_id}.greaterThanEqual`*** |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |                            |
+| ***`{type}.field.{field_id}.lessThanEqual`***    |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |                            |
+| ***`{type}.field.{field_id}.isEmpty`***          | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isNotEmpty`***       | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isTrue`***           |                            |                            | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.isFalse`***          |                            |                            | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.oneOf`***            |                            |                            |                            |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |                            |                            |
+| ***`{type}.field.{field_id}.noneOf`***           |                            |                            |                            |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |                            |                            |
+
+For companies, `{type}` is always `company`. Example:
+
+```text
+company.field.2047333.contains=sdsdd
+```
+
+The *field\_id* can be fetched from this [API](https://developer.rocketlane.com/v1.0/reference/get-all-fields). Additional parameters can be passed to fetch fields associated with companies, which can then be used to perform searches on the companies.
+
+For more information about this, please refer to the [custom fields](https://developer.rocketlane.com/v1.0/docs/custom-fields) section.
+
+### Note field filtering
+
+Company `NOTE` fields are always filtered as **text**.
+
+Use the same text operators as above (`contains`, `notContains`, `value` / `eq`, `isEmpty`, `isNotEmpty`) via `company.field.{field_id}.{operator}`.
+
+Example:
+
+```text
+GET /1.0/companies?company.field.2047333.contains=sdsdd
+```
+
+### Criteria Match
+
+In addition to standard filtering and custom field filtering, the *Get All Companies* API also supports the use of ***AND*** and ***OR*** conditions for more advanced filtering options. Users can combine different filters and custom field queries with these logical operators to build complex yet accurate search queries.
+
+Use the `match` query parameter:
+
+* `match=all` — all filter conditions must match (**AND**)
+* `match=any` — any filter condition may match (**OR**)
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Companies",
+      "description": "Endpoints for the companies resource. Companies can have multiple addresses (see Addresses API; filter with companyId.eq). Company notes are managed via POST /1.0/companies/{companyId}/add-notes or included on create/update."
+    }
+  ],
+  "paths": {
+    "/1.0/companies": {
+      "get": {
+        "tags": [
+          "Companies"
+        ],
+        "summary": "Get all companies",
+        "description": "This endpoint can be used to search for companies. The response body is paginated and you can control the pagination using the `pageSize` and `pageToken` parameters. Native filters include companyName, companyUrl, and accountOwner. Custom company fields (including NOTE fields, treated as text) can be filtered with `company.field.<custom_field_id>.operator=value`.",
+        "operationId": "get-all-companies",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "Use this query parameter to opt in for companies to be returned in the response body. Use comma separated values to fetch the respective fields. If left blank, default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "companyUrl",
+                  "notes"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "companyName",
+                "createdAt",
+                "updatedAt"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "companyName.eq",
+            "in": "query",
+            "description": "You can use this param to specify some company name and the responses will contain exact matches of companies that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Acme Inc"
+            }
+          },
+          {
+            "name": "companyName.cn",
+            "in": "query",
+            "description": "You can use this param to specify some company name and the responses will contain matches of companies that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Acme Inc"
+            }
+          },
+          {
+            "name": "companyName.nc",
+            "in": "query",
+            "description": "You can use this param to specify some company name and the responses will not contain matches of companies that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Acme Inc"
+            }
+          },
+          {
+            "name": "companyUrl.eq",
+            "in": "query",
+            "description": "You can use this param to specify a company URL and the responses will contain exact matches of companies that match the given URL.",
+            "schema": {
+              "type": "string",
+              "example": "https://www.acme.com"
+            }
+          },
+          {
+            "name": "companyUrl.cn",
+            "in": "query",
+            "description": "You can use this param to specify a company URL substring and the responses will contain companies whose URL contains the given value.",
+            "schema": {
+              "type": "string",
+              "example": "acme.com"
+            }
+          },
+          {
+            "name": "companyUrl.nc",
+            "in": "query",
+            "description": "You can use this param to specify a company URL substring and the responses will not contain companies whose URL contains the given value.",
+            "schema": {
+              "type": "string",
+              "example": "example.com"
+            }
+          },
+          {
+            "name": "accountOwner.eq",
+            "in": "query",
+            "description": "You can use this param to filter companies by account owner userId (exact match).",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "accountOwner.oneOf",
+            "in": "query",
+            "description": "You can use this param to filter companies whose account owner userId is one of the given comma-separated userIds.",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          },
+          {
+            "name": "accountOwner.noneOf",
+            "in": "query",
+            "description": "You can use this param to filter companies whose account owner userId is none of the given comma-separated userIds.",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseCompanies"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "This error denotes that there is an error that occured within our servers. The response body could help narrow down the cause for the error by our support team.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/serverErrorErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "Example500": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "SERVER_ERROR"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Server Error: Something went wrong on our end. Could not perform the requested action."
+          }
+        }
+      },
+      "serverErrorErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example500"
+            }
+          }
+        }
+      },
+      "CompanyAccountOwnerPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The Account owner's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for Account owner.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the Account owner.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the Account owner.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The account owner of the company."
+      },
+      "CompanyCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The Email id of the user who created the company.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The User id of the user who created the company.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user who created the company.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user who created the company.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The details of the user who created the company."
+      },
+      "CompanyFieldPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The field identifier",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The `fieldLabel` is the name of the custom Account field",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "string",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an number array and it must match the type of the field. Refer [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with project.",
+            "readOnly": true,
+            "example": "1000"
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Represents a custom field associated with the company account, including the field identifier, label, and its assigned value. Custom fields allow storing additional company-specific information beyond standard fields."
+      },
+      "CompanyNotePublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "noteId": {
+            "type": "integer",
+            "description": "Unique identifier of the note.",
+            "format": "int64",
+            "example": 1
+          },
+          "fieldId": {
+            "type": "integer",
+            "description": "ID of the note-type custom field this note belongs to.",
+            "format": "int64",
+            "example": 44
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "Display name of the note-type field.",
+            "example": "Account Notes"
+          },
+          "noteTitle": {
+            "type": "string",
+            "description": "Optional title of the note.",
+            "example": "Q1 Planning Discussion"
+          },
+          "noteText": {
+            "type": "string",
+            "description": "Plain text content of the note.",
+            "example": "Initial contact: discussed Q1 roadmap and pricing"
+          },
+          "tags": {
+            "type": "array",
+            "description": "Tags selected for this note, resolved from the field's tag options.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyNoteTagPublicResponseEntity"
+            }
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds when the note was created.",
+            "format": "int64",
+            "example": 1750343334605
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds when the note was last updated.",
+            "format": "int64",
+            "example": 1750343334570
+          }
+        },
+        "description": "Note on a company note-type custom field. Returned when includeFields=notes is specified."
+      },
+      "CompanyNoteTagPublicResponseEntity": {
+        "type": "object",
+        "properties": {
+          "tagId": {
+            "type": "integer",
+            "description": "The unique identifier of the tag",
+            "format": "int64",
+            "example": 1
+          },
+          "label": {
+            "type": "string",
+            "description": "The display label of the tag",
+            "example": "sales"
+          },
+          "color": {
+            "type": "string",
+            "description": "The color associated with the tag",
+            "example": "blue"
+          }
+        },
+        "description": "Tags selected for this note, resolved from the field's tag options."
+      },
+      "CompanyUpdatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The Email id of the user who last updated the company.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The User id of the user who last updated the company.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user who last updated the company.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user who last updated the company.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The details of the user who last updated the company."
+      },
+      "CustomerCompanyPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "companyId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The company's unique, system-generated identifier, which can be used to identify the company globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "companyName": {
+            "type": "string",
+            "description": "The name of the company.",
+            "example": "Acme Inc"
+          },
+          "companyUrl": {
+            "type": "string",
+            "description": "The URL of the client's website. Unless explicitly stated, the value for this field can be left blank.",
+            "example": "https://www.acme.com"
+          },
+          "visibility": {
+            "type": "string",
+            "description": "Visibility of the company. Allowed values: `EVERYONE`, `MEMBERS`, and `GROUP`. Create/update via the Public API only accept `EVERYONE` and `MEMBERS` (same as projects); `GROUP` may appear in responses when set through other product flows.",
+            "example": "EVERYONE",
+            "enum": [
+              "EVERYONE",
+              "MEMBERS",
+              "GROUP",
+              "EVERYONE",
+              "MEMBERS",
+              "GROUP"
+            ]
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the company was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the company was updated. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/CompanyCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/CompanyUpdatedByUserPublicAPI"
+          },
+          "description": {
+            "type": "string",
+            "description": "A detailed description or notes about the company. Useful for storing organizational context, business details, or internal notes.",
+            "example": "Leading software development partner for enterprise solutions"
+          },
+          "accountOwner": {
+            "$ref": "#/components/schemas/CompanyAccountOwnerPublicResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Custom fields associated with the company.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyFieldPublicResponseAPIEntity"
+            }
+          },
+          "notes": {
+            "type": "array",
+            "description": "Notes on note-type custom fields. Included when includeFields=notes.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyNotePublicResponseAPIEntity"
+            }
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      },
+      "ExampleAPIResponseCompanies": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/CustomerCompanyPublicAPIResponseEntity"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationCompanies"
+          }
+        }
+      },
+      "ExamplePaginationCompanies": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/companies?includeFields=category,minutes&billable.eq=false&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100&assignee.any=1&startDate.gt=2022-01-02"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

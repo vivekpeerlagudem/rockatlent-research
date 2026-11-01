@@ -1,0 +1,495 @@
+TITLE: Enabling Multi-Budget: Requirements and Constraints : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000756689-enabling-multi-budget-requirements-and-constraints
+
+Enabling Multi-Budget: Requirements and Constraints : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Enabling Multi-Budget: Requirements and Constraints
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Created by Advaith R, Modified on Fri, 25 Sep at 1:09 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+Multi-Budget lets you manage more than one budget within a Rocketlane project. It is useful for multi-phase engagements, change orders, or projects that span multiple teams, services, or products.
+Each budget can have its own billing type, budgeted hours, budget amount, and rate card. Tasks, phases, time entries, invoices, expenses, and resource allocations can then be associated with the appropriate budget.
+Enabling Multi-Budget changes how your account stores financial information and how some automations, integrations, reports, and APIs interact with project financials. Review the requirements, limitations, and validation checklist in this article before requesting access.
+In this article
+```
+At a glance
+
+Before you request enablement
+
+How existing projects are migrated
+
+Feature compatibility during Beta
+
+Salesforce integration requirements
+
+Rocketlane automation requirements
+
+API behavior
+
+Pre-migration validation checklist
+
+Requesting enablement
+
+FAQ
+```
+
+At a glance
+Item Details
+Plan required Enterprise
+Feature status Beta
+Can it be disabled after enabling? No. Enabling Multi-Budget is a one-way change.
+How it is enabled By the Rocketlane team, on request
+Migration for existing accounts Required and completed by Rocketlane before enablement
+
+Before you request enablement
+Before requesting Multi-Budget, confirm that your team understands the following:
+
+Multi-Budget cannot be disabled after it has been enabled.
+
+Existing project financial data must be migrated before the feature is enabled.
+
+Some Rocketlane automations and Salesforce field sync configurations are not compatible with Multi-Budget during Beta.
+
+Resource AI is not supported with Multi-Budget and will remain unsupported after General Availability.
+
+Project-level financial fields become read-only and display values aggregated across the project's budgets.
+Review your existing automations, Salesforce configuration, integrations, APIs, reports, saved views, and billing workflows before scheduling the migration.
+
+How existing projects are migrated
+For accounts with existing projects, Rocketlane runs a data migration before enabling Multi-Budget. This migration preserves the financial data used by your projects and reports.
+After the migration:
+
+Every existing project receives a default budget.
+
+The project's current budget becomes its default budget.
+
+Existing budget amounts, fees, and tracked hours carry over.
+
+Existing reports continue to reflect the migrated financial data.
+
+New budgets can be added to projects after Multi-Budget has been enabled.
+The default budget also acts as the fallback when a supported workflow does not specify another budget.
+Note The migration must be completed by the Rocketlane team. Multi-Budget is enabled only after the migration has been reviewed and completed.
+
+Feature compatibility during Beta
+Multi-Budget cannot currently be enabled if your account actively depends on any of the following configurations:
+
+Rocketlane automations that update project financial fields.
+
+Two-way Salesforce sync for project financial fields.
+
+Resource AI.
+Support for compatible automation and integration workflows is planned for General Availability unless stated otherwise.
+Note Resource AI will not support Multi-Budget, including after General Availability.
+
+Salesforce integration requirements
+
+Project creation
+Native Salesforce automation can continue creating Rocketlane projects after Multi-Budget is enabled. However, each project is created with only one default budget.
+If you need additional budgets to be created automatically, you can:
+
+Keep native Salesforce automation for project creation and configure additional budget creation through Workato.
+
+Move both project creation and budget creation to Workato.
+
+Project financial field sync
+Multi-Budget changes how project financial fields sync between Rocketlane and Salesforce.
+Area Behavior after enabling Multi-Budget
+Project financial fields Sync from Rocketlane to Salesforce only
+Salesforce updates to project financial fields Not supported
+Budget field sync Must be configured separately from project financial field sync
+Budget sync direction Can be configured in both directions, except for calculated fields
+Project financial fields include values such as Billing Type, Total Budgeted Hours, and Total Budget. After Multi-Budget is enabled, these fields represent totals aggregated across all budgets in the project.
+Note If your current Salesforce integration updates project financial fields in Rocketlane, review and revise that configuration before requesting enablement.
+
+Rocketlane automation requirements
+Automations that read project financial fields continue to work after Multi-Budget is enabled. The values returned by these fields are aggregated across all budgets in the project.
+Automations that update project financial fields do not continue to work because these fields become read-only.
+Before requesting enablement:
+
+Review automations that reference project financial fields.
+
+Identify any actions that update those fields.
+
+Remove or replace the unsupported update actions.
+
+Confirm that automations reading aggregated values still produce the intended result.
+Note An automation can continue using a project financial field as a condition or input. It cannot directly update that field after Multi-Budget is enabled.
+
+API behavior
+Multi-Budget introduces budget-level support across relevant Rocketlane APIs.
+
+Time Entries APIs
+When creating or updating a time entry through the API, pass a Budget ID to associate the entry with a specific budget.
+If the request does not include a Budget ID, Rocketlane associates the time entry with the project's default budget.
+Note Check that the default budget is the intended destination before relying on this fallback. Passing the Budget ID explicitly helps prevent time from being assigned to the wrong budget.
+
+Tasks, phases, and invoices
+Tasks, phases, and invoices can return information about their associated budgets.
+Where supported, include the budgets field in the request. For example:
+includeFields=budgets
+Use the returned budget information when downstream systems need to preserve the relationship between a record and its project budget.
+
+Budgets API
+A public Budgets API is available for creating, updating, and managing budgets programmatically.
+You can use the Budgets API to:
+
+Create additional budgets for a project.
+
+Update supported budget properties.
+
+Retrieve budget information.
+
+Manage budget-based integration workflows.
+Budgets can also be created and managed directly from the Rocketlane app.
+
+Pre-migration validation checklist
+Before enabling Multi-Budget, create a test project that represents a typical customer engagement. Use it to validate the workflows, views, reports, and integrations your team depends on.
+Complete the following checks before scheduling the account migration.
+
+Project setup
+
+Create multiple budgets with different billing types.
+
+Confirm which financial fields are available for each budget.
+
+Review the project's Financials and Budgets tabs.
+
+Go to Settings > Budget management and confirm who can create and edit budgets.
+
+Review any customized project-tab visibility settings.
+
+Test Subscription budgets with different billing periods.
+
+Identify workflows, views, or reports that depend on current-period fields.
+
+Filters and saved views
+
+Open your commonly used project and task views.
+
+Test multi-select Billing Type filters.
+
+Test budget-name filters.
+
+Identify saved views that use project-level subscription or period fields that are removed after migration.
+
+Compare budget filtering in project-scoped and account-wide timesheet views.
+Note Review saved views used by shared teams, dashboards, or operational processes, even if you did not create those views yourself.
+
+Reports and dashboards
+
+Confirm whether Budget is available as a Custom Report source for the reports you need.
+
+Check Budget availability in both tabular and pivot reports.
+
+Review the Profitability report at the project and budget levels.
+
+Test budget filtering and grouping in the Utilization report.
+
+Review the Budgets, phases and tasks breakdown in all three Time Analytics reports.
+
+Test dashboard cards and charts that use Budget as their source.
+
+Compare each project's aggregated totals with the values from its individual budgets.
+Note Aggregated project totals should equal the combined values of the project's budgets. Investigate any difference before proceeding with migration.
+
+Time tracking and resource management
+
+Log time without selecting a budget and confirm that Rocketlane uses the project's default budget.
+
+Attempt to submit a time entry using a budget from another project and confirm that the entry is rejected.
+
+Log time against each valid budget in the test project.
+
+Test time tracking as both a budget member and a non-member.
+
+Review bill-rate and cost-rate overrides.
+
+Create resource allocations and resource requests.
+
+Confirm that allocated and requested hours are associated with the intended budget.
+Note The default budget is used as the fallback when a supported time-entry workflow does not provide a Budget ID. Verify that the default budget is suitable for this behavior.
+
+Expenses
+
+Create an expense and confirm that a budget must be selected.
+
+Edit an existing expense and associate it with the appropriate budget.
+
+Review budget grouping and filtering in My expenses .
+
+Review budget grouping and filtering in Expense approvals .
+Note Expenses require a budget after Multi-Budget is enabled. Include existing expenses in your migration review so they remain associated with the correct financial structure.
+
+Billing and revenue
+
+Create a draft invoice using budgets from one project.
+
+Create a draft invoice using budgets from multiple projects.
+
+Review budget-level line-item groups.
+
+Confirm that every selected budget contains at least one described line item.
+
+Confirm that Non-Billable budgets are excluded.
+
+Review the customer-facing invoice with the budget breakdown both shown and hidden.
+
+Confirm that taxes are calculated and displayed as expected.
+
+Confirm that billing events target the intended budget.
+
+Create a test credit note.
+
+Confirm budget-level revenue recognition behavior.
+Note Test the complete billing flow through the draft stage. Use test data and avoid issuing invoices or credit notes to customers during validation.
+
+Integrations and automations
+
+Review mappings that use project financial fields.
+
+Confirm the expected behavior of Salesforce and HubSpot integrations.
+
+Test automations that read project financial fields.
+
+Identify automations that attempt to update project financial fields that become read-only.
+
+Confirm that connected systems receive the intended project-level or budget-level value.
+
+Confirm that budget fields are mapped separately where required.
+
+Test any Workato recipes that create, retrieve, or update budgets.
+Note A successful project-level sync does not confirm that individual budget fields are syncing correctly. Validate the project and budget mappings separately.
+
+Record your validation results
+For each test, record:
+
+The workflow or feature tested.
+
+The expected result.
+
+The actual result.
+
+Any configuration changes required before migration.
+
+The person responsible for completing those changes.
+
+Whether the test must be repeated after migration.
+Complete or resolve all migration-blocking issues before asking Rocketlane to enable Multi-Budget.
+
+Requesting enablement
+Multi-Budget is available as an early-access Beta feature for Enterprise accounts.
+To request enablement:
+
+Contact your Rocketlane CSM or account team.
+
+Share how your organization plans to use multiple budgets.
+
+Review your existing projects, financial automations, Salesforce sync configuration, APIs, reports, saved views, and Resource AI usage.
+
+Complete the pre-migration validation checklist using a representative test project.
+
+Confirm that no unsupported configuration blocks the migration.
+
+Schedule the account migration with the Rocketlane team.
+
+Validate your financial data, integrations, views, and reports after the migration.
+
+Begin creating and assigning additional budgets.
+The Rocketlane product team reviews each request to confirm that Multi-Budget is suitable for the account and to clarify the current Beta limitations.
+
+FAQ
+
+Can Multi-Budget be disabled after it is enabled?
+No. Enabling Multi-Budget is a one-way account change.
+
+What happens to the existing budget on a project?
+The existing budget becomes the project's default budget. Existing budget amounts, fees, and tracked hours carry over during migration.
+
+Do existing reports continue to work?
+Rocketlane migrates existing financial data before enabling Multi-Budget so reports can continue to reflect the migrated values. Complete the pre-migration and post-migration checks to confirm that your reports, filters, and breakdowns behave as expected.
+
+Can Salesforce continue creating projects?
+Yes. Native Salesforce automation can continue creating projects, but each project is created with only one default budget.
+
+Can Salesforce create additional budgets automatically?
+Not through native Salesforce project-creation automation. Configure additional budget creation through Workato, or move both project creation and budget creation to Workato.
+
+Can Salesforce update project financial fields after Multi-Budget is enabled?
+No. Project financial fields sync only from Rocketlane to Salesforce after enablement.
+
+Can individual budget fields sync with Salesforce?
+Yes. Budget field sync must be configured separately and can operate in both directions, except for calculated fields.
+
+What happens to automations that read project financial fields?
+They continue to work. The fields return values aggregated across all budgets in the project.
+
+What happens to automations that update project financial fields?
+They stop working because project financial fields become read-only after Multi-Budget is enabled.
+
+What happens if a Time Entries API request does not include a Budget ID?
+Rocketlane associates the time entry with the project's default budget.
+
+Can a time entry use a budget from another project?
+No. The selected budget must belong to the same project as the time entry.
+
+Do expenses require a budget?
+Yes. Expenses must be associated with a budget when Multi-Budget is enabled.
+
+Is there an API for creating and managing budgets?
+Yes. The public Budgets API supports programmatic budget management.
+
+Is Resource AI supported with Multi-Budget?
+No. Resource AI is not supported with Multi-Budget and will remain unsupported after General Availability.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+How do I embed SharePoint links in Rocketlane Spaces and resolve common visibility issues?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

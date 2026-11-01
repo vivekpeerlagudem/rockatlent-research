@@ -1,0 +1,168 @@
+TITLE: How to Add and Manage Phase Dependencies in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000716294-how-to-add-and-manage-phase-dependencies-in-rocketlane-
+
+How to Add and Manage Phase Dependencies in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Add and Manage Phase Dependencies in Rocketlane?
+
+How to Add and Manage Phase Dependencies in Rocketlane?
+
+Created by Niharika Pandey, Modified on Wed, 18 Dec, 2024 at 8:12 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Project Management
+
+Articles in this series
+
+How to Import Project Phases from the Project Plan Tab?
+
+How to Add and Manage Phase Dependencies in Rocketlane?
+
+No article available
+
+Phase Dependencies allow you to define relationships between phases that are dependent on each other. It is a handy feature for collaborative teams to mark the order in which activities need to be performed.
+
+Rocketlane notifies you about dependent phases so that you can schedule your phases and tasks accordingly.
+
+Note: Rocketlane allows you to have finish to start phase dependencies. This means that dependent phases are meant to start after the dependent phase is marked as Complete .
+
+Adding Phase Dependencies using the Timeline view
+
+Go to Projects and select the project where you want to add Phase dependencies.
+
+Go to the Timeline view.
+
+Drag and drop the cursor from the end bubble of the predecessor phase till the beginning bubble of the successor phase .
+
+A tooltip will indicate if the dependency you want to create is valid or not. The dependency will be created only when it is valid i.e. end to start dependency.
+
+Note: Dates for the successor phase will be auto adjusted according to the dates of the dependent tasks as and when you keep creating phase dependencies.
+
+Multiple Phase Dependencies from the Timeline View
+
+You can add multiple phase dependencies for a given phase from the timeline view.
+
+From the Timeline view, drag and drop the cursor from the end bubble of the predecessor phase till the beginning bubble of the successor phase .
+
+Deleting Phase Dependencies
+
+You can delete a Phase dependency from the timeline view by clicking on it.
+
+A dialog box will ask you to confirm the deletion. Click OK .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Plan
+
+General FAQs
+
+Understanding Task Dependencies in Rocketlane
+
+Phase Level Effort Planning on Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,264 @@
+TITLE: Automations in Sheets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748154-automations-in-sheets
+
+Automations in Sheets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Automations in Sheets
+
+Automations in Sheets
+
+Created by Advaith R, Modified on Wed, 8 Jul at 4:28 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+In this article
+
+Create an automation
+
+Event on sheet
+Sheet triggers
+
+Sheet tab triggers
+
+Available actions
+
+Click of a button
+
+Sheet automations allow you to streamline your workflows by setting up triggers that perform actions automatically , saving you time and effort.
+For example, you can use automations to:
+
+Schedule a daily check of your RAID sheet for SLA breaches. If a row has a "Risk Status" of "Open" and its "Date Reported" is older than 7 days, the automation will trigger.
+
+Send data to an external system via an HTTP request on a set schedule.
+You can also create manual triggers , allowing a user to activate an automation only after confirming a specific action - giving maximum control over when it runs.
+Note Automations are configured exclusively at the Sheet Template level .
+
+Create an automation
+
+Navigate to the Automations tab within your sheet template and click New automation .
+
+Select a trigger type :
+
+Event on sheet: Triggers when something changes in the sheet (for example a row is updated).
+
+Set schedule: Triggers at a specific time or on a recurring basis. (Deprecated)
+
+Click of a button: Allows for manual triggering of the automation.
+
+Configure the trigger: Define the specific conditions. You can choose between Sheet triggers and Sheet Tab triggers.
+For example, if you chose "Event on sheet," you might select "When row matches a condition" and specify the target sheet tab and exact criteria (for example "where Priority is exactly High").
+
+Define the actions: Add an action block. You can set conditions for this block to run.
+
+Choose an action: Select the action you want to perform from the list, which includes Sheet Actions, Project Actions, and Notifications (for example "Create sheet tab" or "Send HTTP request").
+
+Configure the action: Fill in the details. For example, an "Update sheet field" action requires selecting the field to update and the new value. For an "HTTP request," provide the URL, method, headers, and body.
+
+Save the automation. It will now run whenever the trigger conditions are met.
+
+Event on sheet
+Automations are triggered based on the occurrence of an event, such as a status being updated, which could then automatically create a new sheet tab.
+Once you choose the event, select the specific trigger type. Rocketlane offers two categories: Sheet triggers and Sheet tab triggers .
+
+Sheet triggers
+
+Sheet created
+
+Status updated
+
+Assignee updated
+
+Due date updated
+
+Field updated
+
+Sheet approval response received
+
+New message on sheet
+
+Sheet becomes overdue
+
+Sheet is deleted
+
+Sheet tab triggers
+
+Sheet tab assignee updated
+
+Sheet tab status updated
+
+Sheet tab becomes overdue
+
+Row matches condition
+
+Row updated
+
+Row created
+
+Row deleted
+
+Sheet tab created
+
+Sheet tab is deleted
+After selecting a trigger, you can add conditions and actions . If you're new to these concepts, see the Automations documentation for a refresher.
+
+Available actions
+In addition to standard actions, you can perform specific actions on your sheet's fields:
+Action What it does
+Change start date Postpone, expedite, set to today, or set a relative date based on a specific number of days or relative to another date field.
+Create sheet tab Automatically generates a new sheet tab. Define its name, initial status, and due date.
+Update assignee Clear the current value or replace, append, or remove individuals from the existing assignee list using users, placeholders, or fields.
+Change due date Postpone, expedite, set to today, or set a relative date.
+Shift dates Moves both the start date and due date forward or backward by a specified number of days (for example +5 or -3 days).
+Change status Updates the overall status of the sheet (for example from To Do to In Progress or Completed).
+Update sheet fields Automatically modifies the value of any field within the sheet (for example updating a priority or category field).
+Freeze sheet Locks the entire sheet and prevents any further data editing, ensuring all entries are finalized.
+Request for approval Sends an official approval request, specifying the person or placeholder to receive it and the required number of days for a response.
+Follow sheet Automatically subscribes a specific user to the sheet, ensuring they receive notifications for any major updates or changes.
+Delete sheet Permanently removes the entire sheet from the project.
+Send message on sheet Posts a predefined message into the sheet's conversation window, which can include tagging users or using smartfills for context.
+
+Click of a button
+The Click of a button trigger is designed for workflows where you need maximum control, ensuring an automation executes only when a user manually clicks a specific button. The configuration of conditions and actions remains the same as any other automation type, but the trigger requires a conscious user action.
+This is ideal for critical, high-impact processes like a UAT sign-off . The UAT Lead must first verify that all critical items are resolved before manually triggering the automation - preventing accidental or premature project advancement (for example marking the UAT phase as complete and notifying stakeholders).
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+How to Manage Task Dependencies?
+
+Automation Pricing
+
+Organizing Templates into Folders
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

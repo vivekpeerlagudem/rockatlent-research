@@ -1,0 +1,162 @@
+---
+updatedAt: 2026-08-26T11:06:46.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Fields
+
+***
+
+## updatedAt: 2025-06-03T20:47:43.000Z
+
+# Fields
+
+## Fields Overview
+
+The Fields API within Rocketlane's suite of APIs offers developers a versatile toolset to seamlessly incorporate custom fields and data attributes into their applications. This API empowers teams to tailor their project, task, or other entity structures to their unique needs, enhancing data organization and enabling more granular tracking and reporting.
+
+By incorporating the Fields API from Rocketlane's documentation, developers can enhance their applications with customized data capture and management capabilities, fostering adaptability and efficiency within their teams.
+
+***
+
+## Field Types Available in Rocketlane
+
+<Table>
+  <thead>
+    <tr>
+      <th>
+        Field Type
+      </th>
+
+      <th>
+        Definition
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        `TEXT`
+      </td>
+
+      <td>
+        An arbitrary, relatively short string of text
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `MULTI_LINE_TEXT`
+      </td>
+
+      <td>
+        An arbitrary, relatively long string of text
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `NOTE`
+      </td>
+
+      <td>
+        A rich-text note field that can store longer content and optional tags\
+        (Only available for ***company fields***)\
+        See [NOTE field examples](https://developer.rocketlane.com/docs/note-field-examples) for how NOTE fields relate to notes.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `YES_OR_NO`
+      </td>
+
+      <td>
+        Gives users a boolean choice between yes or no
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `DATE`
+      </td>
+
+      <td>
+        Used to record the date of occurrence of an event\
+        (the format for the date field is: YYYY-MM-DD)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `SINGLE_CHOICE`
+      </td>
+
+      <td>
+        A selection of a single option from a defined list of options\
+        (i.e., mutually exclusive selections)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `MULTIPLE_CHOICE`
+      </td>
+
+      <td>
+        A selection of one or more options from a defined list of options\
+        (i.e., mutually inclusive selections)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `SINGLE_USER`
+      </td>
+
+      <td>
+        Only one team member can be picked
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `MULTIPLE_USER`
+      </td>
+
+      <td>
+        Multiple team members can be picked
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `RATING`
+      </td>
+
+      <td>
+        This option allows the team members to rate the specific custom field based on the total rating scale provided  
+
+        (Only available for ***project fields***)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        `NUMBER`
+      </td>
+
+      <td>
+        A number with a defined level of precision
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+***
+
+## Related Examples
+
+* [NOTE field examples](https://developer.rocketlane.com/docs/note-field-examples) — how `NOTE` fields relate to notes, including create-field, create-note, and get-with-notes request/response examples.

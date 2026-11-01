@@ -1,0 +1,174 @@
+TITLE: How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746960-how-can-i-configure-automation-in-rocketlane-to-trigger-actions-based-on-specific-field-updates-or-co
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Best Practices & Shortcuts
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+Created by Advaith R, Modified on Thu, 14 Aug, 2025 at 2:44 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+Setup Best Practices for Rocketlane Admins
+
+No article available
+
+Configuring Automation in Rocketlane for Field Updates and Condition-Based Triggers
+To effectively use Rocketlane automations, understanding how to configure triggers and conditions is essential. Below, we explain some common automation setups and scenarios to help you streamline your workflows.
+
+Key Concepts in Automation
+Rocketlane automations operate on two essential components:
+
+Triggers : Define the event that initiates the automation. For example, 'Risk Details is updated'.
+
+Conditions : Specify criteria that must be met for the automation to proceed after the trigger is activated. For example, 'Risk Status is RED'.
+
+Triggers and conditions work together to ensure automations activate optimally, reducing manual intervention.
+
+Practical Setup Scenarios
+
+Scenario 1: Sending an Email When Risk Details are Updated for RED Risk Status Projects
+When managing project risks, it's crucial to stay informed about high-risk (RED status) updates. Here’s how to configure this automation:
+
+Set the Trigger : Choose 'Risk Details is updated' as the trigger event.
+
+Add a Condition : Specify the condition 'Risk Status is RED.'
+
+Define the Action : Configure the automation to send an email or notification when the condition is met.
+
+This setup ensures teams are alerted promptly when risk details are updated, aiding proactive risk management.
+
+Scenario 2: Email Notification for Projects Nearing Go-Live Date
+Ensuring readiness as a project's go-live date approaches involves keeping the team updated. Here’s how to set up an automation to send emails for projects with a go-live date within 30 days:
+
+Field Creation : Use a custom field like 'projected go live date' to capture the dates.
+
+Set Up a Scheduled Trigger : Configure the automation to run daily, checking all projects.
+
+Define the Condition : Create a condition that checks if the go-live date is exactly 30 days from the current date.
+
+Define the Action : In the automation settings, set the action to send an email. Customize the recipient list and content as needed.
+
+This automation helps teams stay informed about critical project milestones and ensures timely preparations.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Automations in Sheets
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Introduction to Automations
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

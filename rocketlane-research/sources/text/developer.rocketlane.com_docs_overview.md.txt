@@ -1,0 +1,70 @@
+---
+updatedAt: 2025-06-03T20:46:44.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Overview
+
+This page will help you get started with the Rocketlane API. You'll be up and running in a jiffy!
+
+## Introduction
+
+The Rocketlane Web API is an interface for requesting data from and making changes to your Rocketlane instance. The API follows RESTful principles and uses HTTP methods to perform operations on resources. Although some API calls follow an RPC-like structure. The API allows queries with JSON or form-encoded content, and it returns JSON content with UTF-8 encoding for every response, including errors. The APIs can be accessed by endpoints using HTTPS through TLS 1.2.
+
+The APIs support GET, POST, PUT, and DELETE requests.
+
+***
+
+## URL Structure
+
+The URL structures provided by the APIs are simple and predictable and fall into one of three categories:
+
+* `/api/version/resource/`\
+  For APIs used while performing actions on a resource. For example: Create a task\
+  (POST: [\<https://api.rocketlane.com/api/1.0/tasks>](https://developer.rocketlane.com/reference/create-task))
+* `/api/version/resource/id/`\
+  For APIs used to request data related to a specific resource.  For example: Get a task\
+  (GET: [\<https://api.rocketlane.com/api/1.0/tasks/\{taskId}>](https://developer.rocketlane.com/reference/get-task))
+* `/api/version/resource/id/action`\
+  For APIs used while acting on a specific resource. For example, Archive a project.\
+  (POST: [\<https://api.rocketlane.com/api/1.0/projects/\{projectId}/archive>](https://developer.rocketlane.com/reference/archiveproject))
+
+***
+
+## API Documentation Structure
+
+The API documentation is divided into three categories:
+
+* **Guides:** API usage context information, guides, and tutorials.
+* **API reference:** A comprehensive reference for the API's objects, schemas, and endpoints.
+* **Recipes:** : Developers can use recipes to incorporate the API into their applications successfully. They are practical manuals highlighting the syntax, parameters, and expected outcomes for specific API operations.
+
+You can switch between the two sections anytime using the navigation bar above.
+
+***
+
+## API Versioning
+
+The URL for requests includes the version number for the Rocketlane APIs. For instance, [\<https://api.rocketlane.com/api/1.0/time-entries/\{timeEntryId}>](https://developer.rocketlane.com/reference/get-time-entry).
+
+The version number is utilized as a safeguard for clients against API modifications that could be made in upcoming releases.
+
+Some changes introduced to the APIs might change existing API functions such that clients that use the API might need to be updated. The API version number is incremented to prevent such changes from forcing clients to be updated.
+
+The API changes to existing versions are always backward compatible. Rocketlane will increment the API version number and inform clients when a change is not backward compatible.
+
+Examples of backward incompatible changes:
+
+* Remove an existing attribute in the JSON sent to or returned from the REST API.
+* Removal of a URL or header. For example, if a header is renamed or a different URL is used.
+* Add a new mandatory JSON attribute to data sent to an existing URL.
+* Add a new mandatory HTTP header on an existing URL.
+
+***
+
+## Request Ids
+
+A request identifier is assigned to each API request. This value can be found in the response header *'X-Request-Id'.*
+
+You can contact us about a specific request by mentioning the X-Request-Id. If you need help with an API call, please contact <care@rocketlane.com>.

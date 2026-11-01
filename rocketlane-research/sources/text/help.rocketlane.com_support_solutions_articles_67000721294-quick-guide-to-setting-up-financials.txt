@@ -1,0 +1,176 @@
+TITLE: How to enable financials in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721294-quick-guide-to-setting-up-financials
+
+How to enable financials in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Quick guide to setting up Financials
+
+Quick guide to setting up Financials
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:33 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+The first step in getting your project financial set up is to enable the Financial Management feature for your account.
+
+Take up a course on Financial Management here .
+
+To do so,
+
+Navigate to your avatar at the bottom of the page
+
+Click on S ettings and scroll down to the Operations and Financials section.
+
+Select Financial Management
+
+Turn on the toggle to enable Financial for your account
+
+In Rocketlane, you can set the bill and cost rates for your team members. These rates play a significant role in calculating your revenue and profit margins, giving you a better understanding of how your project's revenue is progressing. Bill rates refer to the amount you charge your customers, while cost rates refer to the salary cost of your employees.
+
+After enabling Financials, proceed to configure the following:
+- Rate cards
+- Cost rate
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Quick guide to setting up Invoices
+
+Understanding Task Dependencies in Rocketlane
+
+Rocketlane Project Management
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,227 @@
+TITLE: Quick guide to setting up Invoices : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740585-quick-guide-to-setting-up-invoices
+
+Quick guide to setting up Invoices : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Quick guide to setting up Invoices
+
+Quick guide to setting up Invoices
+
+Created by Monica Madan, Modified on Mon, 28 Apr, 2025 at 6:56 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Invoicing on Rocketlane
+
+Quick guide to setting up Invoices
+
+Setting up custom invoice fields
+
+How to draft a new invoice
+
+Invoice list page
+
+Managing Invoices on Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Credit Notes in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+Invoice Essentials
+Invoice Number
+
+Time Inclusions
+
+Payment Terms
+
+Line Item Format
+
+To get started with invoicing, follow the below steps:
+
+Go to your profile icon>Settings>Operations and Financials>Invoicing
+
+Toggle on the feature to enable it for your account
+
+Now, let’s see what comprises an invoice and how to customize it for your financial needs:
+
+Invoice Essentials
+This part of the article covers all the essential parts of an invoice that need to be set up in advance so that information is drawn accordingly while you draft and generate an invoice.
+
+Invoice Number
+A unique identifier assigned to each invoice for tracking and reference purposes.
+
+Prefix : A customizable string added before the invoice number to distinguish or organize invoices. Example: INV-2024-.
+
+Next Invoice Number : The sequential number assigned to the next invoice. Example: 000040.
+
+Editing Permissions : You can allow team members to edit the automatically generated invoice numbers if needed.
+
+Time Inclusions
+Configuration settings that determine which time entries are eligible for invoicing.
+
+Eligibility: By default, only billable and approved time entries are included.
+
+Additional Options that allows invoicing
+
+Unapproved Time Entries: Time logged but not yet approved.
+
+Non-billable Time Entries: Time entries not marked as billable but optionally included in invoices.
+
+Payment Terms
+Default terms outlining when payment for the invoice is due.
+
+Invoice Due Date : Specifies the default payment term (e.g., Net 7 means payment is due within seven days). Payment terms can be adjusted by team members on the invoice as needed.
+
+Line Item Format
+Default settings for organizing line items in invoices, especially for projects with Time and Material billing type.
+
+Time Entries for Invoicing : Specifies which time entries to include, such as those logged in the last 30, 7 or 15 days, or include all uninvoiced invoices
+
+Grouping Method : Defines how to group invoice items. Example: By task, phase, projects team members, roles, and detailed time entries .
+
+Add From address
+Add your business address that needs to be used as the address from which the invoice is sent.
+
+Go to your profile icon and select settings
+
+Scroll to the accounts section and select account addresses
+
+Click the new address button and details like Name of the address, Country, State, City, Zip, Address line 1, line 2, Email and Phone
+
+You also have the option to make the address default
+
+Add account billing address
+A billing address ensures legal compliance and secure payments by verifying the customer’s location. It also provides a point of contact for communication and builds trust through clear, professional documentation.
+
+Go to accounts and select the customer account from the list view
+
+Under general information, go to billing address
+
+Click the add address button and details like Name of the address, Country, State, City, Zip, Address line 1, line 2, Email and Phone
+
+Default notes
+When a new invoice is created, this field gets pre-populated with a default value which you can change, to add notes to your invoice
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Invoicing on Rocketlane
+
+Approval workflow for Invoices
+
+Invoice list page
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

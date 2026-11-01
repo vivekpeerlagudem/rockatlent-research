@@ -1,0 +1,177 @@
+TITLE: Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746412-why-isn-t-my-automation-working-when-using-the-is-exactly-condition-in-rocketlane-
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+Created by Advaith R, Modified on Tue, 12 Aug, 2025 at 4:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is the e-mail that I set up as an automation not getting sent out?
+
+Setting Up HTTPS Requests for project visibility
+
+How can I automate the visibility of project phases based on whether a project field contains a specific value, especially if the field has multiple values?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How do updates to automations in a project template affect existing and future projects?
+
+No article available
+
+Automation conditions play a crucial role in ensuring workflows execute as expected in Rocketlane. One commonly used condition, 'is exactly,' has specific limitations that can cause automations to behave unexpectedly if the condition is not configured correctly.
+
+Key Limitations of the 'Is Exactly' Condition
+The 'is exactly' condition functions effectively only under certain circumstances, which depend on the field type and the number of values selected:
+
+Multi-Select Fields - The 'is exactly' condition fails if multiple values are selected in fields such as single select fields configured to allow multiple options. For instance, if a field contains multiple entries like 'Paypal' and 'Stripe,' the automation will not trigger as expected. In these cases, you should use the 'is one of' condition instead to enable automation for multiple values.
+
+Single Select Fields with One Value - The 'is exactly' condition works correctly when a single select field has only one value. For example, if only 'Paypal' is selected, the condition will trigger the automation as expected. The issue arises only with multiple values.
+
+Boolean Fields - There is no compatibility issue with boolean fields (fields with true/false options). Automations using the 'is exactly' condition in these fields will work as intended.
+
+Troubleshooting and Best Practices for Automation Conditions
+If you encounter issues with the 'is exactly' condition, consider the following troubleshooting tips and best practices:
+
+Replace 'Is Exactly' with 'Is One Of' - Whenever the field in question may include multiple values and the automation fails to trigger, changing the condition from 'is exactly' to 'is one of' will allow the automation to account for multiple selections. This is especially useful for fields like a multi-select dropdown.
+
+Structuring Automations for Status Changes - For scenarios where using 'is one of' introduces an either/or dynamic and the automation needs to act on status changes, set up two separate action blocks with identical triggers but different conditions. By adding each condition separately, you ensure that the automation triggers correctly regardless of the specific status change.
+
+Example Scenarios
+To help illustrate these principles, consider the following examples:
+
+Multi-Select Field Automation - Problem: A marketing project’s payment method field includes both 'Paypal' and 'Stripe,' but the automation doesn’t trigger. - Solution: Change the condition to 'is one of' and list the accepted values ('Paypal' and 'Stripe') in the configuration.
+
+Single Value Field Automation - Context: An approval field uses a single select dropdown with 'Approved' as the only value. - Result: The 'is exactly' condition will trigger the automation whenever the field is set to 'Approved.'
+
+Status Changes - Challenge: Automating updates when a project status changes from 'In Progress' to 'Completed.' - Solution: Create two duplicate action blocks, each targeted to one specific status change condition. This ensures precise triggering of the automation for either case.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+Enhanced Filtering and Task List Management (FAQ)
+
+General FAQs
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

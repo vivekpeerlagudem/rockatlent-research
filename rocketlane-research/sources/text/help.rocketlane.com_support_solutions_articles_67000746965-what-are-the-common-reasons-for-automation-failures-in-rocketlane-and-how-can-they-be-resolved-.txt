@@ -1,0 +1,192 @@
+TITLE: What are the common reasons for automation failures in Rocketlane and how can they be resolved? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746965-what-are-the-common-reasons-for-automation-failures-in-rocketlane-and-how-can-they-be-resolved-
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+Created by Advaith R, Modified on Thu, 14 Aug, 2025 at 2:49 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is the e-mail that I set up as an automation not getting sent out?
+
+Setting Up HTTPS Requests for project visibility
+
+How can I automate the visibility of project phases based on whether a project field contains a specific value, especially if the field has multiple values?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How do updates to automations in a project template affect existing and future projects?
+
+No article available
+
+Common Reasons for Automation Failures in Rocketlane and How to Resolve Them
+Automation in Rocketlane enables streamlined workflows by triggering actions like email notifications when specific conditions are met. However, occasional issues may arise due to misconfigurations or unmet criteria. Below, we outline typical causes for automation failures and offer practical solutions.
+
+Email Automation and Status Change Triggers
+A frequent issue occurs when automations are designed to send emails upon project status changes but fail to trigger. This often happens when the trigger condition is set incorrectly. For example:
+
+Issue: If the email automation trigger requires a status change from 'Anything' to 'Completed' but the status is already set to 'Completed,' the automation won’t activate.
+
+Resolution: Update the trigger condition to reflect a status change event (e.g., 'Anything' to 'Completed') rather than a static value like 'Completed.' This ensures the condition is dynamically met.
+
+Understanding Email Automation Recipients
+Another concern users have is tracing which recipients received an automation-triggered email:
+
+Key Insight: Once email automation is triggered, its recipients can be tracked via backend systems in Rocketlane. However, it is important to note that emails already sent cannot be retrieved or recalled.
+
+Configuring Automations with Conditional Logic
+More complex automations may depend on multiple conditions being satisfied. For instance, the automation may fail if any dependent fields are not set correctly:
+
+Scenario: An automation designed to capture a de-escalation date fails when the project's completion status aligns, but the required 'Is account at risk?' field is set to 'False.'
+
+Resolution: Ensure that all required conditions are fulfilled simultaneously. In this example, setting 'Is account at risk?' to 'True' and leaving the 'De-escalation Date' field empty before marking the project as 'Completed' enables the automation to proceed properly.
+
+Best Practices for Automation Configuration
+Follow these guidelines to avoid common pitfalls:
+
+Define Broad Trigger Criteria: Avoid overly restrictive conditions that limit automation activation.
+
+Test Automations Thoroughly: Use test projects to validate that triggers and conditions behave as expected.
+
+Check Dependencies: Confirm that values in all relevant fields align with automation requirements before initiating workflows.
+
+Troubleshooting Automation Failures
+If an automation fails to trigger as expected:
+
+Review Trigger Conditions: Verify that the conditions are set correctly and dynamically reflect changes.
+
+Check Field Values: Ensure that all required fields meet the specified criteria simultaneously.
+
+Consult Backend Data (if necessary): For email automations, verify recipient details to ensure successful execution.
+
+Following these steps and guidelines should help resolve common automation issues in Rocketlane efficiently.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+Salesforce Integration FAQs
+
+Automation Logs in Rocketlane
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

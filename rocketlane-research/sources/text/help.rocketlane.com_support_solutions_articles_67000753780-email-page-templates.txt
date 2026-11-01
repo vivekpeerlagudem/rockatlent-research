@@ -1,0 +1,236 @@
+TITLE: Email Page Templates : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753780-email-page-templates
+
+Email Page Templates : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Email Page Templates
+
+Email Page Templates
+
+Created by Advaith R, Modified on Wed, 8 Jul at 3:50 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Introduction to Signals in Rocketlane
+
+Email Intelligence: How Email Ingestion Works
+
+Meeting Page Templates
+
+Email Page Templates
+
+Setting Up Your Company Knowledge Base
+
+No article available
+
+In this article
+
+Define template trigger conditions
+
+Configure template sections
+Email details
+
+AI summary
+
+Extract info
+
+Finalize and save
+
+RBAC for email intelligence
+Permission categories
+
+Scope options
+
+Email Page Templates automatically document and analyze email threads using a predefined structure. Templates apply to email threads based on configured trigger conditions , and can include AI-generated summaries and structured extraction blocks.
+Trigger conditions ensure the right analysis runs on the right conversations. Instead of applying the same template to every email thread, trigger conditions let the team focus deeper analysis on high-impact accounts, specific workflows (such as onboarding or escalations), or critical topics.
+Rocketlane supports one standard email page template that extracts relevant information with your company's context.
+
+Define template trigger conditions
+Use the conditions section at the top of your template to control when it is applied. For example, you could set a condition where the Account ARR is greater than 50,000 and the Email Subject contains the word "Onboarding" - ensuring the AI applies the correct business lens only when both criteria are met.
+Setting What it does
+Matches: All Requires all conditions to be met.
+Matches: Any Requires at least one condition to be met.
+Field selection Choose from Account fields (for example ARR, MAU, Billing Cycle, Account Name) or Email fields (for example Subject, First Email, Latest Reply).
+Operator Choose the comparison logic (for example is greater than, contains, is equal to).
+Value Enter the threshold or text value (for example 5000 for MAU).
+
+Configure template sections
+Email page templates are built using blocks - individual components that extract specific details from the ingested email. Each block can be renamed and configured to control what the page displays and what AI extracts from the thread.
+
+Email details
+Use this block to display key email thread metadata.
+
+Edit the Title (for example, "Email Thread Overview").
+
+Use the Fields dropdown to add or remove data points such as Subject, First email, Latest reply, Participants, and Email body.
+
+AI summary
+Use the AI summary block to generate a structured summary from the email thread. Configure the following options:
+Option What it does Available values
+AI context The prompt that drives the summary generation. Free text, for example: "Focus on the contributions of each participant and summarize the discussion."
+Group by How the summary is structured. Topics, Company, Participants, Time period, None
+Generate as The output format. Paragraph, Bullet points, Numbered list, Checklist
+Include Whose input is considered. All, Customer participants only, Team only, Leadership only
+
+Extract info
+Use this block to extract specific structured information from the email thread. Configure the following options:
+Option What it does
+Title Define what is being extracted, for example "Tools to migrate from."
+AI context Provide the scenario to detect, for example: "If there is any mention of migrating from one tool to another, extract the tool name."
+Answer type Select Single choice or Multi choice depending on what is expected.
+Answer from Restrict where the answer should be sourced from: Customer, Vendor, or All participants.
+Word limit Set a maximum length for the extracted response (for example 20-500 words).
+
+Finalize and save
+
+Add new blocks using the + button (for example Action Items, Table Details, Account Details).
+
+Reorder blocks using the drag handle (six dots) next to a block.
+
+Click Save in the top-right corner to activate the template.
+
+RBAC for email intelligence
+Controls what team members can configure and access within the Email Intelligence module, including email settings and scoped email pages.
+Location: Settings → Permissions → Signals → Email Intelligence
+
+Permission categories
+
+1. Email intelligence settings
+Permission Description
+Can manage email intelligence settings Allows configuring email intelligence features and processing rules.
+
+2. Email pages
+Permission Scope Description
+Can view email pages Global - for all projects Allows viewing email pages within the selected scope.
+Can edit email pages Global - for all projects Allows editing email pages within the selected scope.
+Can delete email pages Global - for all projects Allows deleting email pages within the selected scope.
+
+Scope options
+Scopes control which emails a user can see when an email page permission is granted.
+Scope Description
+Global access All emails across all accounts.
+Account access Emails from accounts in projects they can access.
+Group access Emails with participants in their groups.
+Only me Emails they personally participated in.
+Project access Emails from projects they can access.
+Note By default, emails are not associated with projects. You must manually associate them to projects. If this association is absent, users with Project access scope will see no emails.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Creating a Documentation Agent
+
+How to Create a Rocketlane Project?
+
+General FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

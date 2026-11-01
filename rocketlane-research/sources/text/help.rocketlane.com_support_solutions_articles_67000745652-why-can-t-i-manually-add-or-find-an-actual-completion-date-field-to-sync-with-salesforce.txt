@@ -1,0 +1,169 @@
+TITLE: Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000745652-why-can-t-i-manually-add-or-find-an-actual-completion-date-field-to-sync-with-salesforce
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+Created by Advaith R, Modified on Mon, 23 Jun, 2025 at 7:55 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to add Salesforce object links to projects?
+
+How to Integrate Freshsales with Rocketlane
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+What are the current capabilities and limitations of the Slack integration.
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+My Workato automation is failing with a 'Rate limit exceeded' error. What should I do?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Salesforce Integration FAQs
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+No article available
+
+Q: Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce, and what's its equivalent?
+A: You won't find a field explicitly named "Actual Completion Date" to add manually for syncing. This is because it's a calculated field within Rocketlane and is automatically available for Salesforce integration. When setting up your Salesforce field sync, look for it under the name "Due Date Actual." This field represents the same data as "Actual Completion Date" and can be synced directly to your Salesforce instance.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Setting up and managing Accounts
+
+How to add Salesforce object links to projects?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,290 @@
+TITLE: How to Manage Task Dependencies? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701982-how-to-manage-task-dependencies-
+
+How to Manage Task Dependencies? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Manage Task Dependencies?
+
+How to Manage Task Dependencies?
+
+Created by Niharika Pandey, Modified on Fri, 30 Oct at 7:50 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Premium
+
+Standard
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+On collaborative projects, some work cannot begin until other work is done, and it is easy to lose track of which task is waiting on which. Task dependencies define the relationships between tasks that rely on each other, so the order in which activities need to be performed is clear to everyone on the project.
+Rocketlane notifies you about dependent tasks so that you can schedule your tasks accordingly.
+In this article
+
+Before You Start
+
+Dependency Types and Lag
+
+Turn On the Additional Dependency Types
+
+Mark Dependent Tasks From the Task Pane
+
+Add Dependencies Using the Timeline View
+
+Multiple Task Dependencies
+
+Receiving Email Notifications for Dependent Tasks
+
+FAQ
+
+Summary
+
+Before You Start
+
+Available to every account: finish-to-start dependencies, where the successor task starts after the predecessor finishes.
+
+Setting required for more types and lag: start to start, finish to finish, start to finish and lag become available once an admin turns on Additional dependencies in Settings > Automations > Workflow management . The setting applies to all projects and templates in the account.
+
+Plan: the Additional dependencies setting is available on the Premium and Enterprise plans, and to accounts that have it as an add-on.
+
+Permission: to add or remove dependencies, your role needs the Can create dependencies task permission. Without it, the add controls are disabled or hidden.
+
+Dependency Types and Lag
+Finish to start covers work that strictly queues. Work that overlaps needs more. A design task that can begin once build begins, or a review that cannot close until testing closes, are relationships that finish to start cannot express. Rocketlane supports four dependency types:
+Type Meaning
+Finish to start (FS) Task B can only start after task A finishes. This is the default, and the only type available when Additional dependencies is off.
+Start to start (SS) Task B can only start after task A starts.
+Finish to finish (FF) Task B can only finish after task A finishes.
+Start to finish (SF) Task B can only finish after task A starts.
+Lag adds a waiting period, in days, to the relationship. For example, a finish-to-start dependency with a lag of 2 days means the successor starts 2 days after the predecessor finishes.
+Note Lag must be zero or more. Phases support finish-to-start dependencies only, even when Additional dependencies is turned on. To sequence work in other ways, set the dependency on the tasks inside the phases.
+
+Turn On the Additional Dependency Types
+An admin turns on the additional types and lag for the whole account:
+
+Select your profile icon, then select Settings .
+
+Go to Automations > Workflow management .
+
+Under Additional dependencies , select Enable additional dependencies such as Start to Start, Finish to Finish and Start to Finish for all projects .
+
+Once the setting is on, the Dependency type and Lag fields appear wherever you add a predecessor, in both projects and templates, and the Predecessors column is available in the Timeline view.
+Important You cannot turn Additional dependencies back off while it is in use. Rocketlane shows Dependencies must be removed first! and asks you to remove the dependencies from your active projects and templates, then try again.
+
+Mark Dependent Tasks From the Task Pane
+
+Go to Projects and select the project where you want task dependencies.
+
+Select the task that you want to create dependencies for.
+
+In the task pane, go to Dependencies and select Add a blocking task . If Additional dependencies is turned on and the task has no dependencies yet, the option is named Add predecessor .
+
+Choose the predecessor task from the list of tasks in the project.
+If Additional dependencies is off, search for the task and select it. The dependency is added as finish to start.
+
+If Additional dependencies is on, the Add predecessor tasks for drawer opens. Select the Predecessor , select the Dependency type , and optionally enter a Lag in days. To link another predecessor, select Add another predecessor . Then select Done .
+
+The task is added to the list of dependencies. When Additional dependencies is on, the list also shows the Dependency type .
+
+To remove a dependency, hover over the dependent task and select the x ( Remove ).
+Note If adding a dependency would change the dates of tasks in other phases, Rocketlane asks you to confirm before it makes the change and shows the tasks that will move.
+
+Add Dependencies Using the Timeline View
+
+Drag Between Tasks
+
+Go to Projects and select the project where you want task dependencies.
+
+Go to the Timeline view.
+
+Drag from the end bubble of the predecessor task to the beginning bubble of the successor task.
+
+To remove a dependency, hover over the connection line and select it once it turns red. In Delete dependency? , confirm the change.
+
+Note Dates for the successor task are adjusted automatically to respect each dependency as you create it.
+
+Use the Predecessors Column
+When Additional dependencies is turned on, set the type and lag from the Predecessors column:
+
+In the Timeline view, select the Predecessors cell for the task you want to link.
+
+In Add predecessor tasks for , select the Predecessor .
+
+Select the Dependency type . Finish to start is selected by default.
+
+Enter the Lag in days, if the successor should wait after the predecessor.
+
+To link another predecessor, select Add another predecessor .
+
+Select Done .
+
+Multiple Task Dependencies
+A task can depend on several tasks. From the task pane, add each predecessor to the list of dependencies.
+From the Timeline view, drag from the end bubble of each predecessor task to the beginning bubble of the successor task.
+
+Receiving Email Notifications for Dependent Tasks
+When a predecessor task is marked Completed , the assignee of the successor task receives an email asking them to get started on it.
+
+FAQ
+
+Why Can't I See the Dependency Type or Lag Fields?
+They are hidden until an admin turns on Additional dependencies in Settings > Automations > Workflow management . If you cannot find that setting, your account is not on the Premium or Enterprise plan and does not have it as an add-on. Tasks can still be linked with finish-to-start dependencies.
+
+Why Can't I Turn Off Additional Dependencies?
+Something is still using it. Rocketlane blocks the change while any active project or template uses one of the additional types or a lag. Remove those dependencies first, then turn the setting off.
+
+Do These Types Work for Phases as Well as Tasks?
+No. Phases support finish-to-start dependencies only.
+
+What Happens to the Successor's Dates When I Add a Dependency?
+Rocketlane adjusts them to respect the relationship. If the change would move tasks in other phases, it asks you to confirm first and shows what will move.
+
+Summary
+
+Every account can link tasks with finish-to-start dependencies, from the task pane or the Timeline view.
+
+Start to start, finish to finish, start to finish and lag need Additional dependencies turned on in Settings > Automations > Workflow management (Premium and Enterprise plans, or as an add-on).
+
+Lag is entered in days and cannot be negative. Phases support finish to start only.
+
+The setting cannot be turned off while projects or templates still use the additional types or lag.
+
+The successor's assignee gets an email when a predecessor is marked Completed .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+Automation Pricing
+
+Project Level Permissions
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,268 @@
+TITLE: How to read the sprints overview page : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000734657-how-to-read-the-sprints-overview-page
+
+How to read the sprints overview page : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Sprint Planning
+How to read the sprints overview page
+
+How to read the sprints overview page
+
+Created by Monica Madan, Modified on Fri, 18 Sep at 4:46 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+How to read the sprints overview page
+
+How to read the sprints report
+
+Understanding Epics in Rocketlane
+
+Step-by-step guide to Sprint Planning
+
+Understanding Backlogs in Rocketlane
+
+No article available
+
+Halfway through a sprint, it can be difficult to tell where things actually stand: how much is done, how much is left, and whether the people carrying the most complex tasks are keeping pace. The Sprint Overview page brings this information together so you do not have to piece it together from the task list.
+Watch the video tutorial:
+
+In this article
+
+Where to find it
+
+Sprint details
+
+Task overview
+
+Sprint fields
+
+Task progress and point progress
+
+Sprint summary
+
+Burndown chart
+
+Tasks in the sprint
+
+Sprint team members
+
+FAQ
+
+Where to find it
+
+Open the project and go to the Plan tab in List or Timeline view.
+
+Select the sprint you want to review.
+
+In the sprint that opens, select the Overview tab. The other tab, Sprint board , is the working view for managing tasks day to day
+
+Sprint details
+The Sprint Details section provides a high-level view of the sprint.
+Field What it shows
+Status The sprint's current status
+Owner Who owns the sprint
+Sprint dates The sprint's start and end dates
+Duration The length of the sprint in days
+
+Task overview
+The Task Overview section summarizes the work included in the sprint.
+Field What it shows
+Tasks in this sprint The total number of tasks in the sprint
+Total points from tasks The combined points across every task in the sprint
+Total effort from tasks The combined estimated effort across every task
+Tracked hours The total time logged against tasks in the sprint
+
+Note If your account does not use sprint points, the total points field shows a dash instead of a number.
+
+Sprint fields
+Any custom fields completed when the sprint was created appear in this section, with up to five fields shown at a time. If the sprint has more than five fields, select See more to view the remaining fields in a drawer.
+
+Task progress and point progress
+Two progress bars show how the sprint is moving.
+Progress bar Calculated from
+Sprint progress The number of completed tasks compared with the total number of tasks
+Point progress The points from completed tasks compared with the total points in the sprint
+
+Why sprint points matter
+Each task can be assigned a number of points based on its complexity or the effort required to complete it, rather than only its duration. A quick task might have a low point value, while a more complex task has a higher value. Both still count as one task when Sprint progress is calculated.
+This is why Sprint progress and Point progress can differ. If Sprint progress is 50% but Point progress is 70%, the team has completed tasks with more weight behind them. The remaining tasks still represent half the task count, but may account for less of the sprint's total complexity.
+
+Sprint points are set directly on a task by anyone with edit access to that task. There is no separate sprint-specific permission for setting points. Your account can use a Linear, Fibonacci, Exponential, or custom point scale. The selected scale controls which values are available, but does not change how Point progress is calculated.
+Note When your account does not use sprint points, point-related columns, chart series, and axes are hidden from the Sprint team members table, Tasks in the Sprint section, Sprint Summary, and Burndown Chart.
+
+[image: Sprint task and point progress]
+Sprint summary
+The Sprint Summary chart groups the sprint's work by task status.
+
+Task statuses appear along the bottom.
+
+Task count and points, when enabled, are measured against the left axis.
+
+Effort and tracked hours are measured against the right axis.
+[image: Sprint summary chart]
+Burndown chart
+The Burndown Chart compares the sprint's ideal pace with its actual progress across the sprint duration. If your account uses sprint points, you can switch the chart between task count and points.
+[image: Sprint burndown chart]
+Tasks in the sprint
+This section organizes tasks into status tabs, with a live task count displayed for each status. For example, you can see how many tasks are Not Started, In Progress, or Completed.
+If the sprint includes tasks from more than one project, an additional Underlying projects tab lists the projects contributing tasks to the sprint.
+Each task row shows the task name, project name, points when enabled, estimated effort, tracked hours, assignee, due date, and completion date when applicable.
+
+Sprint team members
+This section breaks down the sprint by the people working on it, with one row for each team member.
+Column What it shows
+Team members The person's name, with the total number of team members shown in the header
+Task count The number of sprint tasks assigned to the person
+Points The combined points across all tasks assigned to the person, regardless of status
+Total effort The combined estimated effort across the person's assigned tasks
+Tracked hours The total time the person has logged against tasks in the sprint
+Completed tasks The number of the person's assigned tasks that are completed
+
+You can sort the table by any column. Team member name is used as the default sorting option.
+The table does not support filtering, and selecting a team member does not filter the Tasks in the Sprint section. The two sections work independently.
+Note The Points column includes all tasks assigned to the person, not only completed tasks. Use the Completed tasks column alongside it to understand how many tasks the person has finished. Rocketlane does not currently show completed points per team member.
+
+[image: Sprint team members table]
+FAQ
+
+Can I see how many points each team member has completed?
+Not currently. The Points column in Sprint team members includes every task assigned to that person, regardless of status. The Completed tasks column shows how many tasks they have finished, but Rocketlane does not currently show a completed-points total for each person.
+
+Why is the Points column missing or blank?
+If the field shows a dash, sprint points are not enabled for your account. Points-related columns, chart series, and axes may also be hidden when points are not in use.
+
+What is the difference between Sprint progress and Point progress?
+Sprint progress compares completed tasks with the total task count. Point progress compares points from completed tasks with the total points in the sprint, so the two percentages may differ.
+
+Can I select a team member to filter the task list?
+No. The Sprint team members table and the Tasks in the Sprint section do not affect each other.
+
+Why do I see an Underlying projects tab?
+This tab appears when the sprint includes tasks from more than one project. It lists the projects contributing tasks to the sprint.
+
+Who can see the Sprint Overview page?
+Anyone with access to the sprint can view the Overview page. There is no separate permission for viewing it.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to read the sprints report
+
+Step-by-step guide to Sprint Planning
+
+Project Level Permissions
+
+Understanding Backlogs in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

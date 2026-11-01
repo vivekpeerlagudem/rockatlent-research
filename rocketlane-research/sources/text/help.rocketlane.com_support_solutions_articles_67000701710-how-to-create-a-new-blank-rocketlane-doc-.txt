@@ -1,0 +1,158 @@
+TITLE: How to Create a New Blank Rocketlane Doc? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701710-how-to-create-a-new-blank-rocketlane-doc-
+
+How to Create a New Blank Rocketlane Doc? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Create a New Blank Rocketlane Doc?
+
+How to Create a New Blank Rocketlane Doc?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:29 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+What are Spaces?
+
+Private and Shared Spaces
+
+Embedding a File in Spaces
+
+Rocketlane Documents
+
+Adding Documents to Your Project on Rocketlane
+
+How to Create a New Blank Rocketlane Doc?
+
+No article available
+
+Need to start a new document from scratch? Rocketlane Spaces give you a flexible canvas to document project details, share updates, and collaborate with team members and clients. Use this step-by-step guide to create a new blank document in your project space:
+
+Click the Projects tab from the left navigation bar.
+
+Choose the project you want to add a document to.
+
+Click the Spaces tab.
+
+From the left navigation bar, go to the space that you want to add the document to and click Add private file or Add shared file .
+
+Click Blank document .
+
+Your blank document is ready for you to edit.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What are Spaces?
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane Documents
+
+Task Fields
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,317 @@
+TITLE: Setting Up SCIM User Provisioning with Okta in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000749965-setting-up-scim-user-provisioning-with-okta-in-rocketlane
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Created by Amritha V, Modified on Thu, 23 Jul at 4:05 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+In this article
+
+Prerequisites
+
+Step 1: Enable SCIM in Rocketlane
+
+Step 2: Create an API Key for SCIM in Rocketlane
+
+Step 3: Add Rocketlane SCIM Application in Okta
+
+Step 4: Configure API Integration in Okta
+
+Step 5: Enable SCIM Provisioning Features in Okta
+
+Step 6: Assign Users from Okta to Rocketlane
+
+Step 7: Sync Role Changes from Okta to Rocketlane
+
+Step 8: Configure Role Mapping in Rocketlane
+
+Step 9: Configure Field Mapping (Optional)
+
+Rocketlane supports SCIM-based provisioning with Okta, allowing your organization to automatically create, update, and deactivate users directly from Okta. This ensures centralized identity management and reduces manual user administration.
+This article walks you through setting up the Okta > Rocketlane SCIM integration.
+
+Prerequisites
+Before you begin:
+
+You must be an admin in both Rocketlane and Okta.
+
+You must know your Rocketlane subdomain, for example, yourcompany.rocketlane.com .
+
+Step 1: Enable SCIM in Rocketlane
+
+Log in to your Rocketlane instance.
+
+Navigate to Settings > SCIM .
+
+Click Set up SCIM integration .
+
+Under Choose Integration , select Okta .
+
+Set a Default Role and Permission Set .
+Recommendation: Choose the lowest-privilege role and permissions to avoid giving unnecessary access by default.
+
+Click Enable .
+
+Step 2: Create an API Key for SCIM in Rocketlane
+
+Go to Settings > API .
+
+Click Create API Key .
+
+Name it something identifiable like "Okta SCIM" .
+
+Copy the generated API key. You will need it shortly.
+
+Important Copy and store the API key securely when it is generated. You will need to paste it into Okta as the API token.
+
+Step 3: Add Rocketlane SCIM Application in Okta
+
+Open Okta and navigate to Applications > Applications > Browse App Catalog .
+
+Search for Rocketlane SCIM .
+
+Click Add Integration .
+
+Fill the application details:
+Application Label: Rocketlane SCIM, or any name.
+
+Entity ID: Your Rocketlane URL.
+
+ACS URL: Your Rocketlane URL.
+
+Click Done .
+
+Step 4: Configure API Integration in Okta
+
+Inside the Rocketlane SCIM application in Okta, click Provisioning in the top menu.
+
+Click Configure API Integration .
+
+Check Enable API Integration .
+
+Enter the following:
+Base URL:
+https://<your-subdomain>.api.rocketlane.com/api/scim/v2
+
+Example: If your Rocketlane URL is acme.rocketlane.com , use https://acme.api.rocketlane.com/api/scim/v2 .
+
+API Token: Paste the API key you created earlier.
+
+Click Test Credentials .
+
+Once validated, click Save .
+
+Step 5: Enable SCIM Provisioning Features in Okta
+
+Navigate to Provisioning > To App .
+
+Click Edit .
+
+Enable:
+Create Users
+
+Update User Attributes
+
+Deactivate Users
+
+Disable:
+Set Password on New User
+Rocketlane manages passwords separately.
+
+Click Save .
+
+Step 6: Assign Users from Okta to Rocketlane
+
+Navigate to Directory > People in Okta.
+
+Choose a user and click Assign > Assign to People .
+
+Edit any required user details and click Save .
+
+When you check Settings > Team Members in Rocketlane, you will see the newly assigned user automatically added with the default role and permission set.
+
+Step 7: Sync Role Changes from Okta to Rocketlane
+
+Go back to the user in Okta.
+
+Click the Edit icon next to their Rocketlane assignment.
+
+Locate the Roles field.
+
+Change value to create and update , and give any configured role input.
+
+Save the changes.
+When you return to Rocketlane, you’ll see that the user’s role/permission has been updated based on your Okta changes.
+Note Please allow a few minutes for the changes to take effect.
+
+Step 8: Configure Role Mapping in Rocketlane
+Role Mapping allows Rocketlane to understand how Okta roles should translate into Rocketlane roles.
+
+Go to Settings > SCIM in Rocketlane.
+
+Scroll to Role Mapping .
+
+Click Add New Field .
+
+Define:
+Okta Role Input , for example, Product Manager
+
+Mapped Rocketlane Role , for example, Product Manager
+
+Permission Set , for example, Superuser
+
+This ensures role updates from Okta sync correctly.
+
+Step 9: Configure Field Mapping (Optional)
+To map Okta profile fields to Rocketlane fields:
+
+Go to Field Mapping inside SCIM settings.
+
+Click Add New Field .
+
+Select:
+The Okta Attribute, for example, department or title .
+
+The Rocketlane Field it should sync into.
+
+This helps maintain clean and centralized user data.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Updating SSO for Rocketlane's Authentication Migration
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,184 @@
+TITLE: Keyboard Shortcuts in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000724519-keyboard-shortcuts-in-rocketlane
+
+Keyboard Shortcuts in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Best Practices & Shortcuts
+Keyboard Shortcuts in Rocketlane
+
+Keyboard Shortcuts in Rocketlane
+
+Created by Niharika Pandey, Modified on Tue, 17 Dec, 2024 at 7:13 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Keyboard Shortcuts in Rocketlane
+
+No article available
+
+Rocketlane is a powerful collaboration and project management tool that offers a wide range of keyboard shortcuts to help streamline your workflow and boost productivity. These keyboard shortcuts provide quick access to essential features and actions within the platform, making it easier for you to manage your projects and teams efficiently.
+
+In this guide, we'll explore a comprehensive list of keyboard shortcuts in Rocketlane, allowing you to harness the full potential of this platform with ease.
+
+Command K
+
+You can press ⌘+K/ Ctrl+K to quickly navigate to important screens such as home, notifications, dashboards, reports, projects, all tasks page, resource management, timesheets, templates, settings and automations.
+
+You can also search for specific projects and get to them from the quick access screen.
+
+P for Projects
+
+You can press the hotkey P on your keyboard to access the Projects page from anywhere in your Rocketlane instance
+
+H for Home page
+
+You can press the hotkey H on your keyboard to access the Home page from anywhere in your Rocketlane instance
+
+N creating a new task
+
+You can press the hotkey N on your keyboard to create a new task in a project from anywhere in your Rocketlane instance. Additionally, you can add assignees, due dates, and task descriptions as well & choose the privacy settings for the task.
+
+@@@ mention
+
+@@@ mention for referring to documents in conversations sections for tasks, documents and project updates, descriptions and project updates, etc.
+
+@@ mention
+
+@@ mention for referring tasks in the general (shared and private) chats, task descriptions, project updates, etc.
+
+@ mention
+
+@ mention to notify team members in general (shared and private) chats & in conversations sections for tasks, documents and project updates.
+
+Adding new lines in the multiline text type fields
+
+You can press Shift+Enter to add a new line in the Multiline text field. To save the text while updating project fields from the project list page, click anywhere outside the text box of the field.
+
+SmartFill
+
+Add the opening braces for the syntax ( {{ ) and choose project field or team member field option from the SmartFill selection panel. SmartFill is supported for rich text format fields in both Project modules as well as Templates.
+
+Syntax: {{project.projectField | FALLBACK}}
+
+Bulk updates for Tasks
+
+Bulk select tasks in the List tab in Projects, Project Templates and the All Task page by pressing Shift + clicking on the first and last task to select a range of tasks for bulk updates.
+
+You can bulk update the start date, duration, assignee, milestone, privacy settings, effort, billable or non- billable settings and saving tasks as templates.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Best Practices for Users
+
+Rocketlane Sheets Shortcuts & Tips
+
+Copy-Paste Data into Rocketlane Sheets
+
+How to get started with Rocketlane's Integration for Slack?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

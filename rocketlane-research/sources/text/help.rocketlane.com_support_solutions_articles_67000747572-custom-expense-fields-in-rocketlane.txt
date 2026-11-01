@@ -1,0 +1,240 @@
+TITLE: Custom Expense Fields in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747572-custom-expense-fields-in-rocketlane
+
+Custom Expense Fields in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Custom Expense Fields in Rocketlane
+
+Custom Expense Fields in Rocketlane
+
+Created by Advaith R, Modified on Mon, 15 Sep, 2025 at 9:00 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introducing Expense Management in Rocketlane
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Custom Expense Fields in Rocketlane
+
+Expense Notifications in Rocketlane
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+No article available
+
+Rocketlane lets you define custom Expense fields inside the Expenses module. This feature enables teams to collect more context around time entries, enforce mandatory inputs, and even inherit values from existing fields in tasks, projects, or accounts.
+Here’s how to set up and use custom Expense fields effectively.
+
+Setting up Custom Expense Fields
+To configure custom fields for time entries:
+
+Go to Settings in your Rocketlane instance.
+
+Navigate to Fields .
+
+Locate the section labeled Expense Fields .
+
+To add a new custom field:
+
+Click New Field .
+
+Provide a Name for your field.
+
+Choose a Field Type (e.g., text, dropdown, date, number).
+
+Add an optional Description to help team members understand the field’s purpose.
+
+Assign the field to a specific Section , for organizational clarity.
+
+You’ll see a toggle labeled Mandatory . Enabling this means:
+
+The Expense cannot be submitted unless this field is filled. It is mandatory for all users.
+
+When making a field mandatory, you must also define how its value should be populated:
+
+Manual Entry: The user is prompted to enter the value manually during time submission.
+
+Inherited Entry: The field value is automatically pulled from another source such as:
+
+A task-level field
+
+A project-level field
+
+An account-level field
+
+On Selecting inherited fields allow you to define a fallback value , which is used if:
+
+A user skips filling a manual field.
+
+An inherited source field is empty.
+
+This ensures smooth submission without interruptions due to missing data.
+
+Click Save to finalize the field setup.
+
+Setting Section level Permissions
+Once you’ve saved the field:
+
+Click on the Section where the field was added.
+
+You can now set:
+
+View permissions : Who can see the field.
+
+Edit permissions : Who can update it.
+
+? Note: If a field is marked as mandatory, it overrides permission settings —meaning it will be visible to everyone , regardless of the view/edit rules.
+
+RBAC Permissions:
+
+Expenses:
+Custom Expense Field Values:
+
+Can view custom Expense field values:
+
+Permission Scope: Either Group & Visible (can view custom field values in sections assigned to their groups) or Global (can view all custom Expense field values).
+
+Function: Allows users to view custom Expense field values for the time entries they can access.
+
+Can edit custom Expense field values:
+
+Permission Scope: Either Group & Visible (can edit all visible field values and those custom field values in sections assigned to their groups) or Global (can edit all custom Expense field values).
+
+Function: Allows users to edit custom Expense field values for the time entries they can access.
+
+Expense Fields
+
+Can manage Expense fields settings: Allows a user to configure the settings for Expense fields.
+
+Allows Expense fields creation: Enables a user to create new Expense fields.
+
+Can edit existing Expense fields: Enables a user to edit existing Expense fields.
+
+Can create new Expense field sections: Enables a user to create new Expense field sections.
+
+Can associate field sections to groups: Allows a user to map Expense field sections to groups. This permission has two options:
+
+All groups: The user can map Expense field sections to any group.
+
+Restricted: The user can only map Expense field sections to groups they belong to.
+
+Can delete Expense fields: Enables a user to delete Expense fields
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Multilingual Support in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

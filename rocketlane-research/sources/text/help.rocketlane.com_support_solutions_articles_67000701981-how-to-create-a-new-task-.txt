@@ -1,0 +1,242 @@
+TITLE: How to Create a New Task? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701981-how-to-create-a-new-task-
+
+How to Create a New Task? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Create a New Task?
+
+How to Create a New Task?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:00 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+In this article
+
+Ways to Create a New Task
+
+From Project Plan
+
+From Project Tasks List
+
+From the New Task Hotkey
+
+Adding Bulk Tasks
+
+How To Add a Spotlight Task
+
+This help article lists the ways to create a new task and how to execute creating a task successfully.
+
+Ways to Create a New Task
+
+From Project Plan
+
+From Project Tasks list
+
+The new task hotkey N
+
+From Project Plan
+
+Go to Projects and select the project you want to add a task to.
+
+In case the project has no phases, you have to create a phase to add a task. Click Create phase .
+
+To add a task to an already existing phase, click Add Task at the end of each phase.
+
+Add a task name , choose assignees , set a due date or set a start and end date , add a task description , and click Create .
+
+The task will be added to the phase.
+
+From Project Tasks List
+
+Go to Projects and select the project you want to add a task to.
+
+Go to the List tab.
+
+Click Add new task .
+
+Add a Task name and press Enter .
+
+The task will be added to the list.
+
+You can add Assignee, Priority, Start Date, Due Date, Effort, Process, At risk, Completed at, Responsible, Created by, Created at, Jira issue, Task type, Budget, Product Board URL and Project Phase to the task.
+Note Only Account admins will have access to edit the Completed At date of the task.
+
+From the New Task Hotkey
+
+Press the alphabet key N while you are logged in to Rocketlane from anywhere in the product.
+
+Type a Task name for the task and choose a project to assign to the task.
+
+Post adding a project , you can add Assignees , Due date , and Task Description .
+
+The Create button has a drop-down with two options:
+
+Create and Open: Allows you to create a public task and open the task details.
+
+Create as Private: Allows you to create a private task and open the task details.
+
+Choose an option from the two and a new task will be created and will open.
+
+Adding Bulk Tasks
+You can bulk add a list of tasks from the List view in a Project .
+
+Create a list of tasks that you want to add to your project. Select the list and copy it to clipboard.
+
+Go to Projects and select the project you want to add a task to.
+
+Go to the List tab and click Add new task . Paste the list of tasks you want to add.
+
+A list of new tasks will be added to the Tasks List in the project.
+
+You can add Assignee, Priority, Start Date, Due Date, Effort, Process, At risk, Completed at, Responsible, Created by, Created at, Jira issue, Task type, Budget, Product Board URL and Project Phase to the tasks.
+
+How To Add a Spotlight Task
+To draw attention to a specific task or prioritize it, you can use the Spotlight feature in Rocketlane. For instance, if there's a hand-off form that your team needs to fill out to move a project from one team to another, you can spotlight it to ensure that the task is given top priority.
+To do this:
+
+Select the task you want to highlight for your team.
+
+Click the sunlight icon within the task.
+
+Label the spotlight to convey your message.
+
+Click Add to spotlight the task.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+How do I move a subtask to a different parent task?
+
+Task Fields
+
+Rocketlane's Forms Feature: An Introduction
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

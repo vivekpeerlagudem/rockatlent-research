@@ -1,0 +1,248 @@
+TITLE: Managing Invoicing Permissions in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000749237-managing-invoicing-permissions-in-rocketlane
+
+Managing Invoicing Permissions in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Managing Invoicing Permissions in Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Created by Advaith R, Modified on Tue, 2 Dec, 2025 at 1:19 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Invoicing on Rocketlane
+
+Quick guide to setting up Invoices
+
+Setting up custom invoice fields
+
+How to draft a new invoice
+
+Invoice list page
+
+Managing Invoices on Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Credit Notes in Rocketlane
+
+No article available
+
+This article explains how to provide users with the correct permissions to access, create, edit, and manage invoicing features in Rocketlane. These permissions determine what each role or user type can perform within the invoicing workflow.
+
+Overview
+Rocketlane provides granular invoicing permissions so you can control who can view invoices, update invoice details, request approvals, manage billing schedules, and modify invoice field settings. You can assign these permissions to any user type through the Permissions section in Settings.
+
+How to Access Invoicing Permissions
+
+Navigate to Settings
+
+Select Permissions
+
+Choose the user type you want to configure
+
+Scroll to the Invoicing section
+
+You will see a list of invoicing permissions that can be adjusted based on responsibility and access needs.
+
+Invoicing Permission Levels
+Several permissions support access at different scopes. When a permission has a scope selector, you can click Global to choose from the available options:
+
+Scope Options
+Scope Option Description
+Global (For all projects) User can perform the action across all projects in the workspace.
+Group (For projects belonging to their groups and visible to all) User can act on projects assigned to their groups and on projects visible to everyone.
+Participant and visible to all (For projects you are part of and visible to all) User can act only on projects where they are a participant and on projects visible to everyone.
+Projects they own (For projects you are the owner of and visible to all) User can act only on projects they own and on projects visible to everyone.
+
+Invoice Access and Action Permissions
+Below is a complete list of invoicing actions you can enable for a user type.
+
+Access and Creation
+
+Can access invoices
+
+Can create and edit invoices
+
+Approval Workflow Permissions
+
+Can request approvals on invoices
+
+Can edit approval requests on invoices
+
+Can approve or reject approval requests assigned to them
+
+Can approve or reject any approval requests on invoices
+
+Status Management
+
+Can manually override invoice status to approved
+
+Financial Record Management
+
+Can create and manage payment records
+
+Can create and manage write-off records
+
+Invoice Control
+
+Can void an invoice
+
+Can delete an invoice
+
+Each of the above permissions supports scope configurations.
+
+Billing Events and Billing Schedules
+The following permissions apply when working with billing events or project billing schedules.
+
+Can view billing events for the project
+
+Can create and manage billing events for the project
+Users with this permission can manage billing events, create billing schedules manually, or import billing schedule templates.
+
+Invoice Settings Permissions
+These permissions define who can configure invoice-related settings across the workspace.
+
+Can manage invoice essential settings
+
+Can manage approval workflows
+
+Can manage invoice custom fields
+
+Managing Invoice Fields
+Users with the appropriate permissions can:
+
+Create new invoice fields from the settings page
+
+Edit existing invoice fields
+(For example, disable a field, show or hide a custom field on the invoice PDF, add or remove options from a multi-select field, or move fields across sections)
+
+Delete invoice fields
+
+Create and manage invoice field sections
+(Users can create new sections, rearrange them, or delete them)
+
+Billing Schedule Templates
+
+Can manage billing schedule templates
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introducing Expense Management in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Understanding Billing Schedules and Events
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

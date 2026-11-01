@@ -1,0 +1,244 @@
+TITLE: Configure How Utilisation Is Calculated : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755684-configure-how-utilisation-is-calculated
+
+Configure How Utilisation Is Calculated : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Configure How Utilisation Is Calculated
+
+Configure How Utilisation Is Calculated
+
+Created by Advaith R, Modified on Thu, 20 Aug at 5:12 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How To Setup Your Company references?
+
+How to configure your company email address?
+
+How to customize your domain URL?
+
+Configure How Utilisation Is Calculated
+
+No article available
+
+Rocketlane lets you choose which capacity figure a person’s utilisation is measured against. This helps you decide whether holidays and time off should be included in or excluded from utilisation calculations.
+Your selection applies wherever Rocketlane displays utilisation percentages, including Resource Management, Timesheets, native reports, custom reports, and dashboards.
+This setting does not change anyone’s configured weekly capacity. It only changes the capacity used as the denominator when calculating utilisation percentages.
+Note This setting is available on all plans and can be changed only by Account Admins.
+
+In this article
+```
+How utilisation is calculated
+
+Configure the utilisation calculation
+
+Utilisation calculation options
+
+Example
+
+Where the setting is applied
+Resource Management
+
+Timesheets
+
+Native reports
+
+Custom reports and dashboards
+
+```
+
+How utilisation is calculated
+Rocketlane calculates planned and actual utilisation as follows:
+Planned utilisation percentage = Allocated hours ÷ Selected capacity × 100
+Actual utilisation percentage = Tracked hours ÷ Selected capacity × 100
+
+The Utilization setting determines which capacity value is used as the denominator.
+
+Configure the utilisation calculation
+To select a calculation method:
+
+Go to Settings > Preferences .
+
+Find the Utilization setting.
+
+Click Change .
+
+In the What do you calculate utilisation against? pop-up, select a capacity option.
+
+Save your changes.
+The default option is Available Capacity .
+
+Utilisation calculation options
+Option Capacity used for the calculation
+Total Capacity Full expected working hours based on the person’s weekly capacity.
+Total Capacity Net Holidays Weekly capacity minus holidays.
+Total Capacity Net Timeoffs Weekly capacity minus time off.
+Available Capacity Weekly capacity minus both holidays and time off. This is the default.
+To learn more about the capacity adjustments used by these options, see How to set up Holiday Calendar? and How to Apply for Time Off in Rocketlane?
+
+Example
+Consider a person with:
+
+Weekly capacity: 40 hours
+
+Time off: 8 hours
+
+Allocated hours: 24 hours
+If Total Capacity is selected:
+Planned utilisation = 24 ÷ 40 × 100 = 60%
+If Total Capacity Net Timeoffs is selected:
+Planned utilisation = 24 ÷ 32 × 100 = 75%
+The person’s configured weekly capacity remains 40 hours. Only the denominator used to calculate the utilisation percentage changes.
+
+Where the setting is applied
+The selected calculation method is used wherever Rocketlane displays utilisation percentages.
+
+Resource Management
+The setting affects utilisation percentages displayed across Resource Management.
+To learn more about viewing capacity, allocations, and utilisation in Resource Management, see People Tab: Effectively Manage Your Team’s Capacity .
+
+Timesheets
+The setting affects utilisation percentages displayed in Timesheets and related team summaries.
+To learn more about reviewing and approving tracked time, see Enhanced Time Tracking and Approval Experience in Rocketlane .
+
+Native reports
+The setting is applied to utilisation percentages in Rocketlane’s native reports.
+To learn more about analysing team utilisation in native reports, see People Performance and the Time Analytics report .
+
+Custom reports and dashboards
+For custom reports using the People or Project source, the setting affects percentage fields such as:
+
+Utilisation
+
+Billable Utilisation
+
+Planned Utilisation
+The configured calculation method also applies when these percentage fields are used in filters, charts, or dashboard components.
+To learn more about presenting utilisation data, see the guides to setting up and managing custom reports and creating dashboards and adding widgets .
+Note Changing this setting does not change the values shown in the Available Capacity or Total Capacity columns. It changes only the utilisation percentages calculated using those capacity values.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Automation Pricing
+
+Getting started with the Rocketlane Salesforce Integration
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,361 @@
+TITLE: How to Set Up and Manage Multiple Budgets in a Project : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754566-how-to-set-up-and-manage-multiple-budgets-in-a-project
+
+How to Set Up and Manage Multiple Budgets in a Project : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+Created by Advaith R, Modified on Wed, 28 Oct at 6:36 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+In this article
+
+Enabling multi-budgets
+
+Creating budget fields
+
+Creating multi-budgets in a new project
+
+Creating multi-budgets in an existing project
+
+Managing budgets in projects
+Managing budgets from the Budgets tab
+
+Budget details and custom fields
+
+Adding team members to budgets
+
+Linking revenue entries to budgets
+
+Linking tasks and phases to budgets
+
+When a single project encompasses various work streams, billing models, or service lines, tracking everything under one financial umbrella can get complicated. By enabling multiple budgets within a project, you gain granular control over time tracking, expenses, and team allocations.
+
+Enabling multi-budgets
+To enable the multi-budgets feature for your entire account:
+
+Click on your Profile icon in the navigation sidebar and select Settings .
+
+From the left-hand menu, scroll down and click Financial management .
+
+Check the box labeled Enable multiple project budgets .
+Important Once enabled, this cannot be disabled manually. Contact Rocketlane Support if you need to make changes after enabling.
+
+Creating budget fields
+Each budget can have its own individual fields. To create a new budget field:
+
+Navigate to Settings and scroll down to the Fields section.
+
+Select Budget Fields .
+
+Click Add new budget field or Add a new section .
+
+Configure the field by assigning a Name and a Type . You can also add a description and mark the field as private if needed.
+
+Creating multi-budgets in a new project
+
+Go to the Projects tab and click New Project .
+
+Under the Financials tab, select the Multi Budget option.
+
+Click New Budget to create the first budget.
+
+Enter the Budget name , Status , Billing method , Start date , and End date .
+
+Configure the billing method fields based on your selection:
+Billing method Required fields
+Fixed fee Revenue recognition method, budgeted hours, amount
+Time and materials Rate card, budgeted hours, amount
+Subscription Subscription frequency, number of periods, period budget, period hours
+Non-billable Budgeted hours
+
+Fill in the budget fields in the next window and click Save .
+
+Repeat steps 3 to 6 to add more budgets to the project.
+Tip By default, the first budget created is set as the default. To change this, click the three-dot menu next to a budget and select Set as default budget .
+
+Creating multi-budgets in an existing project
+In the budget drawer, configure the following details:
+
+Budget name
+
+Status
+
+Billing method
+
+Start date and End date
+
+Budgeted hours
+
+Budgeted amount
+
+The applicable Rate card
+Click Next: Budget Fields , complete any budget-specific fields, and click Save . The budget appears in the budget list after it is created.
+[image: Budget management under Operations and financials in Project Settings, with the Add budget button] [image: New budget drawer with status, billing method, dates, budgeted hours, budgeted amount, and Next: Budget Fields] [image: Created budget displayed in the budget list with a success confirmation]
+Note All budgets created under the project use the project's currency.
+
+Once a budget is created, manage it using the More actions (three-dot) menu next to the budget name:
+
+Set as default : Make a specific budget the primary reference for project financials.
+
+Check audit logs : View a detailed history of changes and updates made to that budget.
+
+Managing budgets in projects
+Once budgets are added to a project, you can review and manage them from the project’s Budgets tab or open an individual budget from Project Settings > Budget Management to configure its details.
+
+Managing budgets from the Budgets tab
+When a project contains several budgets, opening each one individually makes it difficult to compare financial details or update common fields. The Budgets tab provides a filterable list of every budget in the project and allows supported fields to be edited inline.
+
+Where to find it
+
+Open the project.
+
+Go to Financials .
+
+Select the Budgets tab alongside Dashboard , Tracked time , Expenses , and Invoices . Budget amount and revenue columns appear in the list and its exports only when you have permission to view that financial data.
+Note The Budgets tab is available only when Multiple Project Budgets is enabled. If it is not visible, confirm that the feature is enabled for the account. See Enabling multi-budgets .
+
+What you can do from the list
+
+Review every budget in the project. Available columns include budget name, status, billing method, revenue recognition method, budgeted amount, revenue, budgeted hours, consumed hours, start and end dates, and custom budget fields.
+
+Filter the list. For example, display only active budgets or budgets that use the Fixed Fee billing method.
+
+Edit supported fields inline. Select a custom-field or status cell to update it without opening the budget’s settings.
+
+Configure the columns. Show, hide, and reorder columns based on the information you need.
+
+Save a view. Save the active columns and filters so you can return to the same configuration later.
+
+Export the list. Export the currently displayed columns and filtered results to a CSV file.
+Important Inline editing is available only for custom fields and the Status field. To update fields such as budgeted amount, dates, or billing method, open the budget from Project Settings > Budget Management . See Budget details and custom fields .
+
+Budget details and custom fields
+Review and update native fields such as name, dates, billing method, status, revenue recognition method, amount, and hours, as well as any custom fields and sections configured at the account level.
+Custom fields can be used to store information such as:
+
+Linked sales order or opportunity identifier
+
+Region or business unit
+
+Any other financial or operational metadata needed at the budget level
+You can also link a Salesforce object from this section.
+For Salesforce Budget field-mapping instructions, see How to Sync Integrations with Multi-Budgets .
+
+Adding team members to budgets
+To add members to a specific budget:
+
+From Budget management , open the required budget.
+
+Select the Team members tab and click Add team member .
+
+Select one or more users or placeholders.
+
+Click Invite .
+[image: Add Team Members to Budget dialog with a placeholder and a named user selected]
+Note If a selected user is not part of the project, Rocketlane displays a warning. Click Invite & assign to add the user to both the project and the selected budget.
+
+Effects of budget membership:
+
+Only team members in a budget can be allocated to that budget.
+
+Only those members can track time and record expenses against that budget when restrictions are enabled.
+
+Removing a member from a budget does not remove them from the project. Removal from the project only happens through project-level actions.
+[image: Team member not in project warning with the Invite and assign action]
+
+Linking revenue entries to budgets
+To recognise revenue against a budget:
+
+Open the budget and select the Revenue entries tab.
+
+Click Recognise revenue .
+
+Confirm the Project , select the Budget and Posting period , enter the Amount , and add optional Notes .
+
+Click Next: Review following entries .
+
+On Review impact on subsequent periods , check how the entry changes the recognized totals for this period and the periods after it, then click Create recognised revenue to save the entry.
+The saved entry appears in the Revenue entries table for the selected budget.
+Note A budget can hold more than one revenue entry in the same posting period, for example when revenue is recognized in instalments. The recognized revenue for the period is the total of all its entries. For more information, see Managing the Revenue Recognition Ledger in Rocketlane .
+
+[image: Recognise revenue drawer with project, budget, posting period, amount and notes] [image: Recognized revenue entry listed in the budget Revenue entries table]
+
+Linking tasks and phases to budgets
+When your project uses more than one budget, you may need to distribute specific tasks or phases across different financial lines. For example, a "Requirements Gathering" task could be tracked under a Discovery budget, while a "User Training" phase draws from a separate Enablement budget.
+To associate a budget with a task or phase:
+
+Open the Project Plan .
+
+Select the specific phase or task you want to edit.
+
+If editing a task : Navigate to Additional info in the task window, scroll to Financial settings , and select the budget or budgets the task should consume from.
+
+If editing a phase : Click Edit project phase and select the appropriate budgets.
+
+Save your changes.
+With budgets linked to tasks and phases:
+
+Time tracked against that task or phase uses the selected budgets.
+
+Expenses linked to that task or phase use the same budgets.
+
+Auto allocation for that task consumes from the chosen budgets.
+
+Budget filters in the project plan can be used to focus on items linked to specific budgets.
+Tip When you import a template into a project, all phases and tasks are automatically assigned to the project's default budget. You can customize these assignments for individual tasks or phases by following the steps above.
+
+Note A task does not automatically inherit the budget assigned to its parent phase. This independence allows you to configure specific tasks to draw from a different budget than the phase they belong to.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Introducing Expense Management in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,163 @@
+TITLE: How to manage deactivated users in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000729680-how-to-understand-and-manage-deactivated-user-behaviour
+
+How to manage deactivated users in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How to understand and manage deactivated user behaviour
+
+How to understand and manage deactivated user behaviour
+
+Created by Monica Madan, Modified on Wed, 22 Jul at 7:05 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Inviting Your Team to your Rocketlane Account
+
+Setting up team member fields
+
+Creating roles and using them as placeholders
+
+How to understand and manage deactivated user behaviour
+
+No article available
+
+This article explains how Rocketlane handles deactivated users. It outlines where they're completely removed from the system and where they're labeled with a "deactivated suffix" to maintain historical context. For example: You can't add a deactivated user to a project or template, but tasks assigned to them before deactivation display with a "deactivated icon" for reference.
+Here is what it looks like
+Module Shown in the UI Removed from the system
+Projects Deactivated users are not removed from a project, including cases where the user is the project owner. The UI displays the user's name with a (deactivated) suffix." Project invitations will not show other deactivated users, even in search. If a deactivated user is removed from a project, they cannot be added again."
+Tasks Deactivated users are not removed from task assignees. The UI displays the user's name with a (deactivated) suffix. Tasks cannot be assigned to a user after they are deactivated. Assignee dropdowns will still show deactivated users if previously assigned, but will not display other deactivated users, even in search.
+Single and multi user fields Deactivated users are not removed from these fields if their value is already present. The UI displays the user's name with a (deactivated) suffix. Once a deactivated user is removed from a user field, they cannot be added again. User fields will still display deactivated users if previously selected but will not show other deactivated users, even in search.
+Filters
+Any team member type field filters will display only the list of active users
+
+If the user searches by name on a filter, it will show matching deactivated users as well, if any. This applies to any and all team member type filters throughout the product
+
+Reports will include a user filter with status options: active/deactivated/invited
+NA
+Resource management
+When a team member is deactivated, their allocations from the projects are not removed.
+
+In the projects page, when expanding a project, deactivated users that were already there will continue to be visible.
+
+In the people page, deactivated users are not shown by default. However, users can go to the filters, search for the specific deactivated user, and the page will then display the deactivated user and all their relevant information.
+NA
+Templates NA When a team member is deactivated, we need to remove them as assignees from any tasks and eliminate them from the resource allocation page, deleting any allocations the user had from the template.
+Reports Any team member based report should display deactivated users as a row only if there is data to show for that user; deactivated users without any data will not be included in the report.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why do deactivated users appear in my timesheet approval lists, and how can I manage their visibility?
+
+How do I reactivate a deactivated user in Rocketlane, and are there any associated costs?
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

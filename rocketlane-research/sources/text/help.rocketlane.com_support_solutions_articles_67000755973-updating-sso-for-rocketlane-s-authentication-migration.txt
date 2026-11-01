@@ -1,0 +1,314 @@
+TITLE: Updating SSO for Rocketlane's Authentication Migration : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755973-updating-sso-for-rocketlane-s-authentication-migration
+
+Updating SSO for Rocketlane's Authentication Migration : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+Updating SSO for Rocketlane's Authentication Migration
+
+Updating SSO for Rocketlane's Authentication Migration
+
+Created by Advaith R, Modified on Tue, 8 Sep at 7:48 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+Rocketlane is migrating its internal authentication infrastructure from Okta to AWS Cognito. This change affects only the login layer. Your project data, workflows, settings, automations, integrations, and provisioning setup remain unchanged.
+If your account uses SSO, you may see an SSO update needed banner in Rocketlane. This means your account requires a short, scheduled migration coordinated with the Rocketlane team.
+[image: SSO update needed banner]
+In this article
+```
+Why this update is needed
+
+Who is affected
+
+Before the migration
+
+During the migration
+
+After the migration
+
+What changes after migration
+
+What does not change
+
+FAQ
+
+Summary
+```
+
+Why this update is needed
+Rocketlane currently uses Okta as part of its internal authentication infrastructure. This internal authentication layer is being moved to AWS Cognito.
+This does not change your organization's identity provider. If your company uses Okta, Microsoft Entra ID, or another SAML-compatible identity provider, that system remains under your control.
+The migration is described as an SSO update because:
+
+The required changes are completed from Rocketlane's SSO settings.
+
+Your SSO configuration must be removed and reconfigured as part of the migration.
+
+The updated authentication infrastructure supports identity provider-initiated login.
+After migration, users can launch Rocketlane directly from an identity provider dashboard, such as an Okta app tile, Microsoft My Apps, or another SAML-compatible application dashboard.
+
+Who is affected
+This migration applies to Rocketlane accounts that currently use SSO.
+If your company uses Okta as its identity provider, you are not affected twice. The Okta infrastructure being replaced belongs to Rocketlane and is separate from your company's Okta tenant.
+The migration does not change your:
+
+Okta tenant
+
+Identity provider configuration
+
+User directory
+
+Existing identity provider settings
+External project members and customer portal users do not need to make any configuration changes. However, new logins may be temporarily unavailable during the migration window. Users who are already signed in can continue using Rocketlane.
+
+Before the migration
+Coordinate a migration window with the Rocketlane team. Before the scheduled migration begins, you must delete your existing SSO configuration from Rocketlane.
+
+Go to Settings .
+
+Select SSO .
+
+Delete the current SSO configuration.
+Important Do not only disable the configuration. It must be deleted before Rocketlane can complete the migration.
+
+Schedule the migration during a period when fewer users are expected to sign in, such as a late evening or weekend in your timezone.
+
+During the migration
+The migration usually takes between 30 minutes and 1 hour , depending on the number of users in your account.
+During this period, authentication is temporarily unavailable. Users cannot start a new login while the migration is in progress.
+The following remain available and unaffected:
+
+Active user sessions
+
+Project data
+
+Project workflows
+
+Automations
+
+Integrations
+
+SCIM provisioning
+
+Account settings
+Note Rocketlane's engineering team operates in IST. Migration windows that fall very early in the morning in your timezone may require additional coordination.
+
+After the migration
+After Rocketlane confirms that the migration is complete, configure SSO again.
+
+Go to Settings .
+
+Select SSO .
+
+Create your SSO configuration again.
+
+Copy the updated credentials or configuration values displayed in Rocketlane.
+
+Update the corresponding values in your identity provider application.
+
+Complete the SSO configuration and test the login flow.
+After SSO is reconfigured, users can resume signing in through your identity provider.
+
+What changes after migration
+The updated authentication infrastructure supports identity provider-initiated login .
+Users can open Rocketlane directly from an identity provider dashboard, including:
+
+An Okta application tile
+
+Microsoft My Apps
+
+Another SAML-compatible identity provider dashboard
+Users can also continue starting the login process from Rocketlane.
+
+What does not change
+The migration does not change your Rocketlane subdomain or login URLs.
+SCIM and automated user provisioning continue to work as before. SCIM operates independently of authentication, so no changes are required to your provisioning configuration.
+Users are not required to reset their passwords:
+
+SSO users can sign in through your identity provider after SSO is reconfigured.
+
+Email and password users retain their existing credentials.
+Your project data, workflows, account settings, automations, and integrations also remain unchanged.
+
+FAQ
+
+What does the SSO update needed banner mean?
+The banner indicates that your SSO-enabled account must be moved to Rocketlane's updated authentication infrastructure.
+Only the authentication layer is changing. Your project data, workflows, settings, automations, integrations, and provisioning setup are not affected.
+
+Why does the banner refer to an SSO update if the migration is an infrastructure change?
+The required customer-side actions take place in Rocketlane's SSO settings. Your existing SSO configuration must be deleted before migration and configured again afterward.
+The migration also introduces identity provider-initiated login.
+
+We use Okta as our identity provider. Are we affected twice?
+No. Rocketlane's internal Okta infrastructure is separate from your company's Okta tenant.
+Your tenant, application configuration, user directory, and identity provider settings are not migrated by Rocketlane.
+
+Are external project members and customer portal users affected?
+They do not need to make any configuration changes. However, new logins may be temporarily unavailable during the migration window. Active sessions can continue using Rocketlane.
+
+How long does the migration take?
+The migration usually takes between 30 minutes and 1 hour , depending on the number of users in your account.
+
+Can we choose the migration time?
+Yes. The Rocketlane team will coordinate a migration window with you. A low-traffic period, such as a late evening or weekend in your timezone, is recommended.
+
+Do we need to configure SSO again after migration?
+Yes. After migration, you must recreate the SSO configuration in Rocketlane and update the corresponding credentials or configuration values in your identity provider application.
+
+Will SCIM provisioning continue to work?
+Yes. SCIM runs independently of authentication and is not affected. No changes are required to your SCIM or automated provisioning setup.
+
+Will our Rocketlane login URL or subdomain change?
+No. Your Rocketlane subdomain and login URLs remain the same.
+
+Will users need to reset their passwords?
+No. SSO users can sign in through the identity provider after SSO is reconfigured. Email and password users retain their existing credentials.
+
+Summary
+
+Rocketlane is moving its internal authentication infrastructure from Okta to AWS Cognito.
+
+The migration applies to accounts that use SSO and typically takes 30 minutes to 1 hour.
+
+Your current SSO configuration must be deleted before migration and recreated afterward.
+
+New logins are temporarily unavailable during the migration, but active sessions and account data remain unaffected.
+
+SCIM provisioning, login URLs, subdomains, integrations, workflows, and user passwords do not change.
+
+After migration, users can launch Rocketlane directly from their identity provider dashboard.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+2FA and Magic Links
+
+Rocketlane's Forms Feature: An Introduction
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

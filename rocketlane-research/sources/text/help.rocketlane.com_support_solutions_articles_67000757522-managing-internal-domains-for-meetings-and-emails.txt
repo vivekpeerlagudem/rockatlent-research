@@ -1,0 +1,348 @@
+TITLE: Managing Internal Domains for Meetings and Emails : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000757522-managing-internal-domains-for-meetings-and-emails
+
+Managing Internal Domains for Meetings and Emails : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Managing Internal Domains for Meetings and Emails
+
+Managing Internal Domains for Meetings and Emails
+
+Created by Advaith R, Modified on Thu, 29 Oct at 7:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+Internal domains help Rocketlane distinguish members of your organization from customers when processing meetings and emails.
+
+Rocketlane treats participants whose email addresses use an internal domain as members of your team. Participants using other domains are treated as external and used to identify the relevant customer account.
+
+Configuring internal domains correctly prevents internal meetings from being treated as customer interactions and helps Rocketlane associate meetings and emails with the correct account.
+
+In this article
+
+Before You Start
+
+How Rocketlane Uses Internal Domains
+
+Domains Rocketlane Adds Automatically
+
+Internal Domains or Exclusions?
+
+Add an Internal Domain
+
+How Subdomains Are Covered
+
+Remove an Internal Domain
+
+FAQ
+
+Summary
+
+Before You Start
+
+To manage internal domains:
+
+Internal Domains must be enabled for your account.
+
+You need the Can manage internal domains permission under Interaction intelligence .
+
+If you cannot find Internal domains under Settings > AI capabilities , check your permissions or contact your Rocketlane account team.
+
+How Rocketlane Uses Internal Domains
+
+Rocketlane checks the email domain of each participant against your Internal Domains list.
+
+Interaction How internal domains are used
+Meetings Participants using an internal domain are treated as members of your team. Rocketlane uses the remaining external participants to determine which customer account the meeting belongs to. If every participant is internal, the meeting is treated as an internal meeting.
+Emails If every participant in a thread uses an internal domain, Rocketlane skips the thread. If at least one participant is external, the thread is processed unless it matches an exclusion.
+
+For example, your team uses yourcompany.com , while a customer uses customer.com . Add yourcompany.com as an internal domain. Do not add customer.com , because Rocketlane uses the customer’s domain to identify their account.
+
+For more information, see How Rocketlane Matches Meetings to Customers and Email Intelligence: How Email Ingestion Works .
+
+Note The same Internal Domains list applies to both meetings and emails. You cannot configure separate internal domains for each interaction type.
+
+Domains Rocketlane Adds Automatically
+
+Rocketlane automatically adds email domains used by active or invited team members and partners in your account.
+
+Automatically added domains display a lock icon. Hover over the icon to see:
+
+This domain is managed by your organization and cannot be removed.
+
+A locked domain remains on the list while at least one active or invited team member or partner uses it. Rocketlane removes the domain automatically when it is no longer associated with anyone in the account.
+
+Add a domain manually only when your organization uses a domain that is not already represented by a Rocketlane user. For example, you may need to add a domain used by a regional entity or an acquired company.
+
+Note You cannot manually add a domain that Rocketlane already manages through system sync.
+
+Internal Domains or Exclusions?
+
+Internal Domains and Exclusions are both available under Settings > AI capabilities , but they serve different purposes.
+
+Goal Use
+Identify email domains that belong to your organization Internal domains
+Prevent new meetings or emails involving a specific address, domain, or keyword from being captured Exclusions
+
+For example, if you want Rocketlane to stop capturing new emails involving customer.com , add the domain under Exclusions and apply it to emails.
+
+Do not add the customer’s domain as an internal domain for this purpose. Rocketlane would treat participants using that domain as members of your organization, which can affect how meetings and emails are matched to the customer.
+
+For more information, see Excluding Meetings and Emails from Capture .
+
+Add an Internal Domain
+
+Go to Settings > AI capabilities > Internal domains .
+
+Enter the domain, such as yourcompany.com .
+
+Select Add or press Enter.
+
+Rocketlane displays a confirmation and adds the domain to the list. The column heading shows the total number of domains, for example, Domain (4) .
+
+You can also paste a complete web address. Rocketlane removes the protocol, www , and any path from the address.
+
+For example:
+
+https://www.yourcompany.com/about
+
+is added as:
+
+yourcompany.com
+
+If the value is not a valid domain, Rocketlane displays:
+
+Enter a valid domain name (e.g. acme.com)
+
+The domain is not added until you enter a valid value.
+
+Note Duplicate domains are not allowed. If the domain already exists, Rocketlane displays a message explaining that it has already been added.
+
+How Subdomains Are Covered
+
+Adding a parent domain also covers all of its subdomains. Adding a specific subdomain covers that subdomain and anything beneath it, but not its parent domain or sibling subdomains.
+
+Domain added Domains treated as internal Domains not included
+yourcompany.com yourcompany.com , emea.yourcompany.com , mail.emea.yourcompany.com , and all other subdomains None of its subdomains are excluded
+emea.yourcompany.com emea.yourcompany.com , mail.emea.yourcompany.com , and subdomains beneath it yourcompany.com , apac.yourcompany.com , and other sibling subdomains
+
+If a parent domain is already listed, Rocketlane does not let you add one of its subdomains because the subdomain is already covered.
+
+For example, if yourcompany.com is listed, you do not need to add emea.yourcompany.com .
+
+Remove an Internal Domain
+
+You can remove domains that were added manually.
+
+Go to Settings > AI capabilities > Internal domains .
+
+Find the domain you want to remove.
+
+Select the delete icon for that domain.
+
+Rocketlane removes the domain immediately and displays a confirmation.
+
+Locked domains do not have a delete option because they are managed automatically. See Domains Rocketlane Adds Automatically for more information.
+
+Note Removing a domain does not require confirmation and cannot be undone. To restore the domain, add it again.
+
+FAQ
+
+Should I add a customer’s domain as an internal domain?
+
+No. Internal domains should contain only domains used by your organization.
+
+If you add a customer’s domain, Rocketlane treats that customer’s participants as members of your team. This can affect how meetings and emails are associated with the customer.
+
+Use Exclusions when you need to prevent interactions involving a customer domain from being captured.
+
+Do I need to add every subdomain separately?
+
+No. Adding a parent domain such as yourcompany.com covers all its subdomains, including emea.yourcompany.com .
+
+Add a specific subdomain only when you want to treat that part of the domain as internal without including the parent domain or its other subdomains.
+
+Why can’t I add a subdomain?
+
+Its parent domain may already be listed. Because a parent domain automatically covers its subdomains, you do not need to add the subdomain separately.
+
+Does marking a domain as internal stop every email involving that domain?
+
+No. Rocketlane skips an email thread only when every participant uses an internal domain.
+
+If at least one participant is external, Rocketlane continues processing the thread unless it matches an exclusion.
+
+To skip emails involving a particular address or domain, configure an email exclusion.
+
+Can I remove a locked domain?
+
+No. Locked domains come from the email addresses of active or invited team members and partners.
+
+Rocketlane removes a locked domain automatically when it is no longer associated with anyone in the account.
+
+Why is there a domain on the list that I did not add?
+
+Rocketlane may have added it automatically from a team member’s or partner’s email address.
+
+Automatically managed domains display a lock icon. Hover over the icon to confirm that the domain is managed by your organization.
+
+Why can’t I find the Internal Domains page?
+
+The page appears only when Internal Domains is enabled for your account and you have the Can manage internal domains permission.
+
+Check your role permissions or contact your Rocketlane account team if the feature needs to be enabled.
+
+Summary
+
+Internal domains identify meeting and email participants who belong to your organization.
+
+Rocketlane uses external participants to associate interactions with customer accounts.
+
+Email threads containing only internal participants are skipped.
+
+Domains used by active or invited team members and partners are added automatically and cannot be removed manually.
+
+Adding a parent domain also covers all its subdomains.
+
+Use Exclusions , not Internal Domains, when you need to prevent specific interactions from being captured.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Excluding Meetings and Emails from Capture
+
+Email Intelligence: How Email Ingestion Works
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+How Rocketlane Matches Meetings to Customers
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

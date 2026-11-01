@@ -1,0 +1,223 @@
+TITLE: Project Overview : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000699076-project-overview
+
+Project Overview : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Project Overview
+
+Project Overview
+
+Created by Niharika Pandey, Modified on Thu, 15 Oct at 5:29 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+Overview cards
+
+Project Info
+
+Project hours
+
+Team members
+
+To get an overview of your entire project plan and your onboarding journey, go to the Overview tab.
+
+Overview cards
+Card Description
+Status Indicates the status of the project. Project Status can be set to any status of your choice.
+Project dates Indicates the project dates that have been set at the time of project creation. Note The actual dates for the start and end of the project are subject to change. The project dates are set at the beginning of each project. They are independent of delays, the start date of the first task and the end date of the last task.
+
+Completion Indicates the percentage of tasks completed based on the total number of tasks added in the project plan. Task count boards
+Board Description
+Overdue tasks Tasks that have not been completed beyond the due date.
+At risk tasks Tasks that have been marked at risk.
+Completed tasks Tasks that have been completed.
+Blocked tasks Indicates the number of tasks that have been blocked.
+
+All phases Lists all the phases in the project plan. The list also reflects the average CSAT rating for each phase.
+Planned vs Actual progress Compares planned progress with actual progress over the project timeline. The chart plots a Planned line and a Progress line, with time on the horizontal axis and work on the vertical axis. Progress is calculated based on your project plan.
+Business goals Lets you add business goals with a description.
+Last 5 Project updates Lists the five most recent project updates.
+Tasks overdue Lists all the overdue tasks.
+Tasks at risk Lists all the tasks that are marked At risk .
+Key events and Intervals Shows each key event's planned date, actual date, and performance, and each interval's planned duration, actual duration, and status.
+Blocked tasks Lists tasks that have been blocked.
+Tasks completed late Lists all the tasks that have been completed late.
+Note You see only the cards your role has access to. For example, if you can't view tasks, the task count boards and task lists are hidden.
+
+Project Info
+
+Project fields
+Project Info shows the first five project fields in the order set in your project field sections. Select See more fields... to open every section, search for a field, and edit values. The card header shows which companies can see these fields. Customers never see this card.
+Field Description
+Status Indicates the status of the project. Project Status can be set to any status of your choice.
+Start Date Indicates the start date of the project.
+Due date Indicates the due date of the project.
+Annualised Recurring Revenue Indicates the value of the recurring revenue of the customer's subscriptions for a single calendar year.
+Project Fee The total fee that is charged for the project.
+
+Project hours
+Field Description
+Tracked (or Billable hours ) Hours logged on the project. When the project separates billable and non-billable time, this shows billable hours.
+Remaining Budgeted hours minus tracked hours.
+Budgeted Total hours budgeted for the project.
+Allocated Hours allocated to team members through resource management.
+ETC (Estimate to completion) Hours needed to complete the project.
+EAC (Estimate at completion) Projected total hours at the end of the project. A warning shows when it exceeds the budget.
+Billable vs non-billable chart Split of billable and non-billable hours.
+Category Hours by time-tracking category.
+Allocated , ETC , EAC , the chart, and categories are visible only to your team. To let customers see billable hours, select More actions on the card, then Show billable hours to customers .
+
+Team members
+Lists the team members from your team as well as the customer's team.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+How to Manage Task Dependencies?
+
+Automation Pricing
+
+Getting started with the Rocketlane Salesforce Integration
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,352 @@
+TITLE: Creating and Managing Nitro Pages in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755214-creating-and-managing-nitro-pages-in-rocketlane
+
+Creating and Managing Nitro Pages in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Creating and Managing Nitro Pages in Rocketlane
+
+Creating and Managing Nitro Pages in Rocketlane
+
+Created by Advaith R, Modified on Thu, 30 Jul at 10:39 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Documentation Agents in Rocketlane
+
+Configuring Nitro Page Templates
+
+Creating a Documentation Agent
+
+Creating and Managing Nitro Pages in Rocketlane
+
+No article available
+
+Nitro pages help teams generate structured post-sales documentation using AI. Rocketlane uses selected meeting recordings, email threads, knowledge bases, and the configured Documentation Agent to create documents such as handoff notes, onboarding summaries, implementation documentation, and customer context pages.
+Use Nitro pages to create documentation that captures important customer discussions, decisions, risks, requirements, action items, and next steps in one place.
+Note: To use meeting recordings as sources, ensure meeting capture is set up through Rocketlane AI features or a supported meeting integration such as Gong.
+
+When to Use Nitro Pages
+Use Nitro pages when teams need to:
+
+Generate handoff documentation between sales, professional services, customer success, or implementation teams.
+
+Summarize customer meetings and email threads into a structured document.
+
+Maintain a record of onboarding decisions, risks, action items, and customer context.
+
+Create documents from selected calls and emails instead of manually compiling notes.
+
+Review AI-generated content with citations back to the original source material.
+
+Edit, refine, and track updates to generated documentation.
+
+Create a Nitro Page
+To generate a Nitro page from a Documentation Agent:
+
+Go to Accounts from the main navigation.
+
+Search for and open the relevant account.
+
+From the account dashboard, click the Nitro pages tab.
+
+Under Documentation Agents , select the agent you want to use.
+For example, select PS x CS handoff documentation agent to create a handoff document.
+
+If the "Allow users to select specific calls and emails" option is unchecked, the Agent runs automatically and pulls meetings and emails. If it is checked, skip directly to step 6.
+
+Click the Meetings dropdown.
+
+Select the meeting recordings that should be used as source context.
+For example, select implementation check-ins, sprint or epic discussions, Q&A sessions, or other relevant customer calls.
+
+Click Done .
+
+Click the Email dropdown.
+
+Select the email threads that should be included as source context.
+
+Click Done .
+
+After selecting the required meetings and emails, click Generate .
+
+Rocketlane processes the selected sources and generates the Nitro page using the structure defined in the Documentation Agent’s company page template.
+
+Review Sources Used in a Nitro Page
+After the document is generated, review the sources that Rocketlane used to create the page.
+To view sources:
+
+Open the generated Nitro page.
+
+Click the Sources icon from the sidebar.
+
+Review the selected meetings in the Sources panel.
+
+Switch to the Email tab to view the email threads used during generation.
+
+Use the Sources panel to verify that the generated document is based on the correct meetings and emails.
+
+Edit a Nitro Page
+Generated Nitro pages can be edited manually.
+To edit a Nitro page:
+
+Open the generated document.
+
+Click Edit from the top corner.
+
+Select or highlight the text you want to modify.
+
+Use the inline toolbar to update the content.
+
+Make manual changes directly in the editor as needed.
+
+Click the back arrow in the top corner to save and return to the main document view.
+
+Use manual editing when you want to add context, clarify wording, correct details, or append notes that were not captured in the selected sources.
+
+Updating a Nitro Page
+Nitro pages can be updated either automatically or manually depending on your settings:
+
+Automated Updates (Living Documents): If you have enabled the "Living document" setting, the page will automatically update itself with new meetings and emails as they occur.
+
+Manual Updates: If the living document setting is turned off, or if you want to manually include additional meetings regarding the same subject, you can add those meetings as information sources. This allows the page to pull in and auto-fill relevant details from the new discussions.
+
+How to Add a Meeting Source (Manual Update):
+
+Open Accounts and select the specific account.
+
+Navigate to the Nitro pages tab.
+
+Select the Nitro page you wish to configure.
+
+Click the Sources on the right-hand side to open the side panel.
+
+In the Meetings / Email section, click Add .
+
+Click the dropdown, search for your relevant meeting/email, select it, and click Done .
+
+Click Add in the confirmation dialog to save the meeting source.
+
+Note: The document will automatically refresh and update with the newly integrated information from the meeting.
+
+For more about generating content from meetings, see How To Use AI Fills .
+
+Use Inline Formatting
+While editing a Nitro page, highlight text to open the inline formatting toolbar.
+Use the formatting options to:
+
+Change text style.
+
+Add blockquotes.
+
+Insert code blocks.
+
+Format sections for readability.
+
+Update selected text directly.
+
+This helps keep generated documentation clean, structured, and ready to share with internal stakeholders.
+
+Refine Content with AI
+Nitro pages allow sections to be refined using AI.
+To refine content with AI:
+
+Open the Nitro page.
+
+Click Edit .
+
+Select the paragraph or block of text to improve.
+
+Click Enhance from the toolbar.
+
+Enter custom instructions in the Edit with AI panel.
+For example:
+
+“Make this more concise.”
+
+“Expand this section with more implementation context.”
+
+“Rewrite this as customer-facing handoff notes.”
+
+“Summarize this as action items.”
+
+Click Replace to update the selected text with the AI-generated version.
+
+You can also use Ask AI from the toolbar to quickly expand or shorten selected text.
+
+Review Inline Citations
+Generated Nitro pages include inline citations that link sections of the document back to the source material.
+To review a citation:
+
+Open the Nitro page.
+
+Find the inline citation number in the document.
+
+Hover over or click the citation number.
+
+Review the popover showing a summary of the source meeting or email.
+
+Use citations to verify where a statement, answer, decision, or summary came from.
+
+Review Question and Answer Sections
+Nitro pages can include structured question-and-answer sections based on the configured page template.
+Scroll through the generated document to review:
+
+Summaries
+
+Questions and answers
+
+Decisions
+
+Risks
+
+Action items
+
+Customer requirements
+
+Implementation details
+
+The exact sections depend on the blocks configured in the company page template used by the Documentation Agent.
+
+View Answer History
+Rocketlane tracks changes to generated answers and document blocks over time.
+To view answer history:
+
+Open the Nitro page.
+
+Click the Answer History icon from the sidebar.
+
+Review previous versions and updates made to document blocks.
+
+Use Answer History to understand how the document has changed and track revisions over time.
+
+View Saved Nitro Pages for an Account
+Generated Nitro pages are saved under the account.
+To view saved pages:
+
+Go to Accounts .
+
+Open the relevant account.
+
+Click the Nitro pages tab.
+
+Review the saved documents.
+
+Newly created documents appear under the General folder unless they are organized differently.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Configuring Nitro Page Templates
+
+Nitro Credit Consumption
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Introduction to Signals in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,1001 @@
+---
+updatedAt: 2026-07-28T19:15:05.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Update manual revenue recognition configs for a budget
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Budgets",
+      "description": "Endpoints for budget resources"
+    }
+  ],
+  "paths": {
+    "/1.0/budgets/{budgetId}/manual-revenue-recognition-configs": {
+      "put": {
+        "tags": [
+          "Budgets"
+        ],
+        "summary": "Update manual revenue recognition configs for a budget",
+        "operationId": "update-budget-manual-revenue-recognition-configs",
+        "parameters": [
+          {
+            "name": "budgetId",
+            "in": "path",
+            "description": "Unique identifier of the budget",
+            "required": true,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int64",
+              "example": 101
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "manualRevenueRecognitionConfigs",
+                  "milestoneRevenueRecognitionConfigs"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BudgetManualRevenueRecognitionPlanPublicAPIRequestEntity"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BudgetPublicAPIResponseEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "ProjectRateCardPublicResponse": {
+        "minimum": 1,
+        "type": "object",
+        "properties": {
+          "rateCardId": {
+            "type": "integer",
+            "description": "The `rateCardId` is the unique identifier of the rate card",
+            "format": "int64",
+            "readOnly": true,
+            "example": 21
+          },
+          "rateCardName": {
+            "type": "string",
+            "description": "The `rateCardName` is the name of the rate card",
+            "readOnly": true,
+            "example": "US Project rate"
+          }
+        },
+        "description": "Rate cards allow you to standardise bill rates to be charged depending on the roles of the project's resources. If the rate card chosen does not include the bill rates for the project's currency, then the project will not have a rate card set."
+      },
+      "ProjectVendorUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who last updated the budget"
+      },
+      "SubscriptionFinancialsPublicResponse": {
+        "type": "object",
+        "properties": {
+          "subscriptionFrequency": {
+            "type": "string",
+            "description": "Refers to the interval at which a subscription renews or takes place, such as on a monthly, quarterly, or yearly basis.",
+            "example": "MONTHLY",
+            "enum": [
+              "MONTHLY",
+              "QUARTERLY",
+              "YEARLY",
+              "HALF_YEARLY"
+            ]
+          },
+          "subscriptionStartDate": {
+            "type": "string",
+            "description": "The subscription start date is the date when the subscription interval begins. The format for the subscription start date is YYYY-MM-DD.",
+            "example": "2023-03-28"
+          },
+          "periodMinutes": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Period minutes refer to the budgeted minutes for each subscription period.",
+            "format": "int32",
+            "example": 60
+          },
+          "periodBudget": {
+            "type": "number",
+            "description": "Period budget represents the fixed budget of every subscription period.",
+            "format": "double",
+            "example": 10000
+          },
+          "noOfPeriods": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Represents the number of periods in a subscription.",
+            "format": "int32",
+            "example": 10
+          }
+        },
+        "description": "Financial aspects of the Subscription contract type for this budget and its associated fields.",
+        "readOnly": true
+      },
+      "BudgetFieldPublicResponseEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the field.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The label of the field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "object",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an array and it must match the type of the field. Refer [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with task.",
+            "readOnly": true,
+            "example": 1000
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Custom fields on the budget"
+      },
+      "BudgetFinancialsMetrics": {
+        "type": "object",
+        "properties": {
+          "actualRevenue": {
+            "type": "number",
+            "description": "The revenue recognized for this budget. For a time and material budget, `Actual Revenue = Sum of all (Tracked time * Bill rates for the roles)`. For a fixed fee budget, this is the recognised revenue for the budget.",
+            "readOnly": true,
+            "example": 10000
+          },
+          "estimatedRevenue": {
+            "type": "number",
+            "description": "The potential revenue for this budget based on your resource allocation plan.",
+            "readOnly": true,
+            "example": 200000
+          },
+          "actualRevenueInAccountCurrency": {
+            "type": "number",
+            "description": "Actual revenue for this budget in the account currency.",
+            "readOnly": true,
+            "example": 10000
+          },
+          "estimatedRevenueInAccountCurrency": {
+            "type": "number",
+            "description": "Estimated revenue for this budget in the account currency.",
+            "readOnly": true,
+            "example": 200000
+          },
+          "actualTimeCost": {
+            "type": "number",
+            "description": "Actual time cost incurred for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedTimeCost": {
+            "type": "number",
+            "description": "Estimated time cost for this budget based on allocation.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualTimeCostInAccountCurrency": {
+            "type": "number",
+            "description": "Actual time cost for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedTimeCostInAccountCurrency": {
+            "type": "number",
+            "description": "Estimated time cost for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualExpenseCost": {
+            "type": "number",
+            "description": "Actual expense cost incurred for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedExpenseCost": {
+            "type": "number",
+            "description": "Estimated expense cost for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualExpenseCostInAccountCurrency": {
+            "type": "number",
+            "description": "Actual expense cost for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedExpenseCostInAccountCurrency": {
+            "type": "number",
+            "description": "Estimated expense cost for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualCost": {
+            "type": "number",
+            "description": "The actual cost incurred on this budget. `Actual Cost = Sum of all (Tracked time * Cost rates for the team members)`.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedCost": {
+            "type": "number",
+            "description": "The potential cost for this budget based on your resource allocation plan. `Estimated Cost = Sum of all (Allocated time * Cost rates for the team members)`.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualCostInAccountCurrency": {
+            "type": "number",
+            "description": "Actual total cost for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedCostInAccountCurrency": {
+            "type": "number",
+            "description": "Estimated total cost for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "trackedMinutes": {
+            "type": "number",
+            "description": "Tracked minutes logged against this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "remainingMinutes": {
+            "type": "number",
+            "description": "Remaining minutes in this budget based on allocations and tracking.",
+            "readOnly": true,
+            "example": 200
+          },
+          "allocatedMinutes": {
+            "type": "number",
+            "description": "Allocated minutes planned for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "billableAllocatedMinutes": {
+            "type": "number",
+            "description": "Allocated billable minutes planned for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "nonBillableAllocatedMinutes": {
+            "type": "number",
+            "description": "Allocated non-billable minutes planned for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "billableTrackedMinutes": {
+            "type": "number",
+            "description": "Tracked billable minutes against this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "nonBillableTrackedMinutes": {
+            "type": "number",
+            "description": "Tracked non-billable minutes against this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualProfit": {
+            "type": "number",
+            "description": "The actual profit for this budget. `Profit = Revenue - Cost`.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedProfit": {
+            "type": "number",
+            "description": "The potential profit for this budget. `Estimated Profit = Estimated Revenue - Estimated Cost`.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualProfitInAccountCurrency": {
+            "type": "number",
+            "description": "Actual profit for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedProfitInAccountCurrency": {
+            "type": "number",
+            "description": "Estimated profit for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualProfitMargin": {
+            "type": "number",
+            "description": "The actual profit margin for this budget. Tracking the margin helps you monitor profitability for the budget. `Margin (%) = Profit / Revenue * 100`.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedProfitMargin": {
+            "type": "number",
+            "description": "The potential margin for this budget. `Estimated Profit Margin (%) = Estimated Profit / Estimated Revenue * 100`.",
+            "readOnly": true,
+            "example": 200
+          },
+          "actualProfitMarginInAccountCurrency": {
+            "type": "number",
+            "description": "Actual profit margin for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimatedProfitMarginInAccountCurrency": {
+            "type": "number",
+            "description": "Estimated profit margin for this budget in account currency.",
+            "readOnly": true,
+            "example": 200
+          },
+          "percentageBudgetedHoursConsumed": {
+            "type": "number",
+            "description": "Percentage of budgeted hours consumed for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "percentageBudgetConsumed": {
+            "type": "number",
+            "description": "Percentage of budget amount consumed for this budget.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimateAtCompletion": {
+            "type": "number",
+            "description": "EAC (Estimate at Completion) predicts the total number of hours that would be consumed when this budget is complete.",
+            "readOnly": true,
+            "example": 200
+          },
+          "estimationToCompletionInHours": {
+            "type": "number",
+            "description": "ETC (Estimate to Complete) is the number of hours required to complete work under this budget based on the resource allocation plan.",
+            "readOnly": true,
+            "example": 200
+          }
+        },
+        "description": "The metrics used to evaluate and assess the financial aspects of this budget.",
+        "readOnly": true
+      },
+      "BudgetManualRevenueRecognitionConfigPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "manualRevenueRecognitionConfigId": {
+            "type": "integer",
+            "description": "Unique identifier of this manual revenue recognition configuration.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1001
+          },
+          "recognitionDate": {
+            "type": "string",
+            "description": "Recognition date for this manual revenue recognition configuration.",
+            "format": "date",
+            "readOnly": true,
+            "example": "2026-04-01"
+          },
+          "recognisedRevenue": {
+            "type": "number",
+            "description": "Revenue amount recognized by this manual revenue recognition configuration.",
+            "format": "double",
+            "readOnly": true,
+            "example": 1000
+          },
+          "recognisedPercentage": {
+            "type": "number",
+            "description": "Revenue percentage recognized by this manual revenue recognition configuration.",
+            "format": "double",
+            "readOnly": true,
+            "example": 10
+          }
+        },
+        "description": "Manual revenue recognition configurations for this budget."
+      },
+      "BudgetMilestoneRevenueRecognitionConfigPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "milestoneRevenueRecognitionConfigId": {
+            "type": "integer",
+            "description": "Unique identifier of this milestone revenue recognition configuration.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1001
+          },
+          "sourceType": {
+            "type": "string",
+            "description": "Milestone source type for this revenue recognition configuration.",
+            "readOnly": true,
+            "example": "TASK",
+            "enum": [
+              "TASK",
+              "TASK"
+            ]
+          },
+          "sourceId": {
+            "type": "integer",
+            "description": "Milestone source id for this revenue recognition configuration.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 2001
+          },
+          "recognisedRevenue": {
+            "type": "number",
+            "description": "Revenue amount recognized by this milestone revenue recognition configuration.",
+            "format": "double",
+            "readOnly": true,
+            "example": 1000
+          },
+          "recognisedPercentage": {
+            "type": "number",
+            "description": "Revenue percentage recognized by this milestone revenue recognition configuration.",
+            "format": "double",
+            "readOnly": true,
+            "example": 10
+          }
+        },
+        "description": "Milestone-based revenue recognition configurations for this budget."
+      },
+      "BudgetPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "example": 101
+          },
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Project this budget belongs to",
+            "format": "int64",
+            "example": 42
+          },
+          "projectName": {
+            "type": "string",
+            "description": "Name of the project containing this budget",
+            "example": "Acme Implementation"
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "example": "FY 2024 Services"
+          },
+          "startDate": {
+            "type": "string",
+            "description": "Budget period start date (_YYYY-MM-DD_)",
+            "format": "date",
+            "example": "2024-01-01"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "Budget period end date (_YYYY-MM-DD_)",
+            "format": "date",
+            "example": "2024-12-31"
+          },
+          "status": {
+            "$ref": "#/components/schemas/BudgetStatusPublicResponse"
+          },
+          "currency": {
+            "type": "string",
+            "description": "Currency code for budget amounts",
+            "example": "USD",
+            "enum": [
+              "AFN",
+              "ALL",
+              "DZD",
+              "ARS",
+              "AMD",
+              "AUD",
+              "AZN",
+              "BHD",
+              "BDT",
+              "BYN",
+              "BZD",
+              "BOB",
+              "BAM",
+              "BWP",
+              "BRL",
+              "GBP",
+              "BND",
+              "BGN",
+              "BIF",
+              "KHR",
+              "CAD",
+              "CVE",
+              "XAF",
+              "CLP",
+              "CNY",
+              "COP",
+              "KMF",
+              "CDF",
+              "CRC",
+              "HRK",
+              "CZK",
+              "DKK",
+              "DJF",
+              "DOP",
+              "EGP",
+              "ERN",
+              "EEK",
+              "ETB",
+              "EUR",
+              "GEL",
+              "GHS",
+              "GTQ",
+              "GNF",
+              "HNL",
+              "HKD",
+              "HUF",
+              "ISK",
+              "INR",
+              "IDR",
+              "IRR",
+              "IQD",
+              "ILS",
+              "JMD",
+              "JPY",
+              "JOD",
+              "KZT",
+              "KES",
+              "KWD",
+              "LVL",
+              "LBP",
+              "LYD",
+              "LTL",
+              "MOP",
+              "MKD",
+              "MGA",
+              "MYR",
+              "MUR",
+              "MXN",
+              "MDL",
+              "MAD",
+              "MZN",
+              "MMK",
+              "NAD",
+              "NPR",
+              "TWD",
+              "NZD",
+              "NIO",
+              "NGN",
+              "NOK",
+              "OMR",
+              "PKR",
+              "PAB",
+              "PYG",
+              "PEN",
+              "PHP",
+              "PLN",
+              "QAR",
+              "RON",
+              "RUB",
+              "RWF",
+              "SAR",
+              "RSD",
+              "SGD",
+              "SOS",
+              "ZAR",
+              "KRW",
+              "LKR",
+              "SDG",
+              "SEK",
+              "CHF",
+              "SYP",
+              "TZS",
+              "THB",
+              "TOP",
+              "TTD",
+              "TND",
+              "TRY",
+              "USD",
+              "UGX",
+              "UAH",
+              "AED",
+              "UYU",
+              "UZS",
+              "VEF",
+              "VND",
+              "XOF",
+              "YER",
+              "ZMK",
+              "ZWL"
+            ]
+          },
+          "billingType": {
+            "type": "string",
+            "description": "Financial contract type for the budget (e.g. TIME_AND_MATERIAL, FIXED_FEE)",
+            "readOnly": true,
+            "enum": [
+              "FIXED_FEE",
+              "TIME_AND_MATERIAL",
+              "SUBSCRIPTION",
+              "NON_BILLABLE"
+            ]
+          },
+          "revenueRecognitionType": {
+            "type": "string",
+            "description": "Revenue recognition type configured for the budget. For custom revenue recognition, this is `CUSTOM_REVENUE_RECOGNITION` and `customRevenueRecognitionConfigId` identifies the config.",
+            "readOnly": true,
+            "example": "TRACKED_HOURS_BY_PERIOD_HOURS"
+          },
+          "customRevenueRecognitionConfigId": {
+            "type": "integer",
+            "description": "Unique identifier of the custom revenue recognition configuration associated with this budget. Present when `revenueRecognitionType` is `CUSTOM_REVENUE_RECOGNITION`.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 101
+          },
+          "budgetAmount": {
+            "type": "number",
+            "description": "Total budgeted amount for the budget",
+            "readOnly": true
+          },
+          "budgetHours": {
+            "type": "number",
+            "description": "Budgeted hours for this budget, returned as a decimal with up to two decimal places. The fractional part represents minutes (e.g. `1.65` = 1 hour 39 minutes). Internally, budget time is stored as whole minutes; this value is derived as `minutes ÷ 60`, rounded to two decimal places. For tracked, allocated, and remaining time, see the whole-minute fields under `budgetFinancialsMetrics`.",
+            "format": "double",
+            "readOnly": true,
+            "example": 1.65
+          },
+          "timeAndMaterialContract": {
+            "$ref": "#/components/schemas/BudgetTimeAndMaterialFinancialsPublicResponse"
+          },
+          "subscriptionContract": {
+            "$ref": "#/components/schemas/SubscriptionFinancialsPublicResponse"
+          },
+          "budgetFinancialsMetrics": {
+            "$ref": "#/components/schemas/BudgetFinancialsMetrics"
+          },
+          "manualRevenueRecognitionConfigs": {
+            "type": "array",
+            "description": "Manual revenue recognition configurations for this budget.",
+            "items": {
+              "$ref": "#/components/schemas/BudgetManualRevenueRecognitionConfigPublicAPIResponseEntity"
+            }
+          },
+          "milestoneRevenueRecognitionConfigs": {
+            "type": "array",
+            "description": "Milestone-based revenue recognition configurations for this budget.",
+            "items": {
+              "$ref": "#/components/schemas/BudgetMilestoneRevenueRecognitionConfigPublicAPIResponseEntity"
+            }
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Timestamp when the budget was created",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "Timestamp when the budget was last updated",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/ProjectVendorUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/ProjectVendorUserPublicAPI"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Custom fields on the budget",
+            "items": {
+              "$ref": "#/components/schemas/BudgetFieldPublicResponseEntity"
+            }
+          },
+          "isDefault": {
+            "type": "boolean",
+            "description": "Whether this is the default budget for the project",
+            "example": false
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      },
+      "BudgetStatusPublicResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value of the status field is the unique identifier for status fields.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 2
+          },
+          "label": {
+            "type": "string",
+            "description": "The label is the name of the status.",
+            "readOnly": true,
+            "example": "In progress"
+          }
+        },
+        "description": "The budget status value along with the label will be present here."
+      },
+      "BudgetTimeAndMaterialFinancialsPublicResponse": {
+        "type": "object",
+        "properties": {
+          "rateCard": {
+            "$ref": "#/components/schemas/ProjectRateCardPublicResponse"
+          }
+        },
+        "description": "Financial aspects of the Time & Material contract type for this budget and its associated fields.",
+        "readOnly": true
+      },
+      "BudgetManualRevenueRecognitionConfigPublicAPIRequestEntity": {
+        "required": [
+          "recognitionDate"
+        ],
+        "type": "object",
+        "properties": {
+          "recognitionDate": {
+            "type": "string",
+            "description": "Recognition date for this manual revenue recognition rule.",
+            "format": "date",
+            "example": "2026-04-01"
+          },
+          "recognisedRevenue": {
+            "type": "number",
+            "description": "Revenue amount to recognize for this manual revenue recognition rule.",
+            "format": "double",
+            "example": 1000
+          },
+          "recognisedPercentage": {
+            "type": "number",
+            "description": "Revenue percentage to recognize for this manual revenue recognition rule.",
+            "format": "double",
+            "example": 10
+          }
+        },
+        "description": "Manual revenue recognition configurations for this budget."
+      },
+      "BudgetManualRevenueRecognitionPlanPublicAPIRequestEntity": {
+        "type": "object",
+        "properties": {
+          "manualRevenueRecognitionConfigs": {
+            "type": "array",
+            "description": "Manual revenue recognition configurations for this budget.",
+            "items": {
+              "$ref": "#/components/schemas/BudgetManualRevenueRecognitionConfigPublicAPIRequestEntity"
+            }
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

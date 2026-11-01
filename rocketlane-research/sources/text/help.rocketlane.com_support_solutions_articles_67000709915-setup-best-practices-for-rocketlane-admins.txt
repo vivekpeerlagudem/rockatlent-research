@@ -1,0 +1,160 @@
+TITLE: Setup Best Practices for Rocketlane Admins : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000709915-setup-best-practices-for-rocketlane-admins
+
+Setup Best Practices for Rocketlane Admins : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Best Practices & Shortcuts
+Setup Best Practices for Rocketlane Admins
+
+Setup Best Practices for Rocketlane Admins
+
+Created by Niharika Pandey, Modified on Wed, 18 Dec, 2024 at 8:10 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+Setup Best Practices for Rocketlane Admins
+
+No article available
+
+Following is a list of best practices to be followed by Rocketlane Admins:
+
+It is recommended to create templates for recurring projects with similar project plans to save time during project creation. You can create multiple templates based on the maturity of your offering.
+
+The same goes for Document Templates, Status Update Templates and Form Templates.
+
+You should provide detailed instructions for team members allocated to tasks in the conversations section. Share files and add private notes to your tasks too.
+
+Not every Milestone needs a CSAT . You can choose which Milestone task needs a feedback from your customers. Toggle the CSAT button to enable/ disable CSAT for Milestone tasks from Task details > Additional Info > CSAT.
+
+You can add multiple project fields and customise them according to your project requirements.
+
+Create new Project Fields by going to Settings > Project fields > New Field.
+
+Mark dependencies for key activities by adding dependent tasks under the Dependencies section.
+
+You can set Task Type at the template level under the Additional Info section. This makes it easy to group and filter tasks later.
+
+Add Team members/ Placeholders while creating tasks under Assignee . You can easily filter
+project tasks by teams and bulk assign tasks to people from different roles using placeholders.
+
+You can set Effort, Billable / Non billable status, Time tracking category at the
+template level for it to reflect as default values for time entry.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+Best Practices for Users
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

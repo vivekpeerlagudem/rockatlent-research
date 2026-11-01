@@ -1,0 +1,365 @@
+TITLE: Experience the Rocketlane Mobile app for your teams : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000726896-rocketlane-for-mobile
+
+Experience the Rocketlane Mobile app for your teams : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Rocketlane Mobile App
+Rocketlane for Mobile
+
+Rocketlane for Mobile
+
+Created by Monica Madan, Modified on Wed, 22 Jul at 6:11 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane for Mobile
+
+No article available
+
+In this article
+
+Installing Rocketlane
+Login using SSO
+
+Notifications: Stay Informed Anytime, Anywhere
+
+Task Management Made Easy
+
+Sort and View Tasks
+
+Work on Tasks
+Advanced Task Options
+
+Chat Within Tasks
+
+Sorting and Filtering Projects
+
+Project Details Overview
+
+Create a Task
+
+Search projects
+Inside Each Project
+
+Search tasks
+
+Update Your Profile
+
+To Track Time for a Week:
+
+To Add Events from Your Calendar:
+
+For Calendar Integration:
+To Change the Calendar:
+
+To Withdraw Timesheets:
+
+Rocketlane's mobile app enables you to work seamlessly from anywhere, freeing you from the constraints of a desk or computer. You can stay connected with your customers, manage tasks, and update project details - all from the palm of your hand.
+The app also allows you to,
+
+Stay up-to-date on project progress
+
+Contribute to discussions, and provide valuable inputs
+
+Manage tasks and stay in constant touch with your customers
+
+Bring accountability to your work and optimize project-related activities at your convenience
+
+Installing Rocketlane
+To install the Rocketlane app on your mobile device,
+
+Go to your Play store/AppStore
+
+Search for Rocketlane
+
+Install and open the app
+
+Enter your business email used for Rocketlane login
+
+Enter your password and login
+
+If you don't remember your password, click forgot password and login using a magic link sent to your email
+
+Check your email for login instructions from care@rocketlane.com
+
+Click launch and start using rocketlane on mobile.
+
+Login using SSO
+If you use SSO to login,
+
+Enter your business email
+
+Select login using SSO
+
+You will be redirected to browser to select your email account, select the right account
+
+You will be redirected back to the app and logged in
+Note Upon installation, you'll receive a notification prompt; allow notifications to manage tasks and communication efficiently.
+
+Notifications: Stay Informed Anytime, Anywhere
+Receive personalized notifications to stay informed about:
+Notification type Description
+Messages New messages and mentions.
+Tasks New tasks, status changes, and assignments.
+Forms New form responses.
+Documents New documents and mentions
+Phases Phase status changes
+Projects Project status and date changes.
+Project Updates Published project updates.
+Dates Start and due date changes for tasks and projects.
+Reminders Personalized timely reminders on task start and due date
+Effortlessly navigate notifications using filters.
+Filter Description
+Assigned to You Swiftly filter and view notifications exclusively assigned to you.
+You Are Mentioned Identify and prioritize notifications where you are specifically mentioned.
+Assigned to Your Team Focus on team collaboration by filtering notifications assigned to your team.
+Clear After Action Clear notifications bulk after taking necessary actions, ensuring a clutter-free workspace.
+
+Task Management Made Easy
+It's easy to keep track of your tasks with Rocketlane. You can quickly see which tasks are due, when they need to be completed, and how they fit into the larger goals of project management.
+
+Sort and View Tasks
+
+Home page organizes tasks by due dates.
+
+Click the filter icon to choose your view and grouping preferences.
+
+Filter tasks by completion status and group by due date/project
+
+Work on Tasks
+
+Open tasks to view details like description, status, due date, and assignee.
+
+Access and add attachments directly from your mobile.
+
+Prioritize tasks with information on priority and effort required.
+
+Update assignee, due dates , and task status within the app.
+
+Advanced Task Options
+In addition, click on the three dots within the task to access powerful features:
+Option Description
+Go to Project Navigate to the project associated with the task and view real-time project progress.
+Mark as at Risk Flag the task as at risk, drawing attention to it for immediate action.
+Move to Phase Seamlessly transition the task to a different phase within the same project.
+Request Approval Initiate the task approval process by forwarding it to a manager or project owner for review.
+
+Delete Task: Remove the task from the project
+
+Chat Within Tasks
+
+Utilize the chat feature within tasks for contextual discussions with team members and customers.
+
+Send private messages to team members for confidential communication.
+
+Access the audit trail of updates and changes within the task.
+
+Sorting and Filtering Projects
+Under the Projects section, efficiently manage your projects with sorting and filtering options:
+Option Description
+View All Projects Get an overview of all your projects in one comprehensive list.
+Saved Views Choose from saved views to access projects based on specific criteria.
+Filter Utilize the filter icon to refine projects based on conditions such as "project status" or "completion date."
+Scroll Left Scroll Left to explore detailed project information for each individual project.
+
+Project Details Overview
+Click on any project to access a wealth of information:
+Section Description
+Project Plan Organize tasks seamlessly into phases, providing a structured project plan.
+Global Chat Collaborate with project members in real-time, sharing vital information and fostering teamwork.
+Spaces Access project documents and tasks within documents, facilitating discussions and communication with team members.
+Project Update Stay informed with a comprehensive list of project updates sent out to project members.
+Task List View all tasks associated with a project in a single, organized list.
+Attachments Access all attachments related to the project, ensuring easy retrieval and reference.
+
+Create a Task
+
+Navigate to the Projects section.
+
+Choose the specific project where you want to create a task.
+
+Tap on the + icon to initiate task creation.
+
+Provide essential details such as task name, description, assignee, due date, and phase
+
+Click Create to add the task to the appropriate phase within the selected project.
+
+Search projects
+Utilize the search feature on the Projects page to swiftly locate specific projects.
+
+Inside Each Project:
+
+Spaces Section: Search within the Spaces section to find documents.
+
+Chat Section: Access the search functionality in the Chat section to quickly locate conversations and fetch tasks.
+
+Files Section: Effortlessly search for files and folders within the Files section.
+
+Search tasks
+Navigate to the All Tasks section to search for Tasks and Forms and enter relevant keywords to efficiently locate any task or form matching your search criteria.
+
+Update Your Profile
+Navigate to the Account section to view profile details, designation, and weekly capacity.
+
+Tap on your name to access profile options.
+
+Make changes such as updating your name, profile picture, or changing your password.
+
+Click Update Profile to confirm and save the updated information.
+Log time effortlessly with the Rocketlane mobile app. Track every moment spent on both project and non-project activities. Enjoy the flexibility of logging time with just a few clicks, anytime, anywhere.
+
+To Track Time for a Week:
+
+Navigate to timesheets.
+
+Click the add new event button.
+
+Choose project, time, task/activity, and category.
+
+Click the add time button.
+
+Add time for the week and hit submit.
+
+To Add Events from Your Calendar:
+
+Click add from calendar.
+
+Choose the email account for the calendar.
+
+Select project, task/activity, add activity, and create more events.
+
+Hit submit.
+
+Note If your admin has set a minimum logged hours rule, adhere to it during submission or editing.
+
+For Calendar Integration:
+If not integrated, log into your Rocketlane account on the web browser from the desktop and integrate it.
+
+To Change the Calendar:
+
+Click add from calendar under timesheets.
+
+Under calendar activity, select the email account and choose a different calendar.
+
+To Withdraw Timesheets:
+In the timesheet tab, click the withdraw option on the top right to redo time entries.
+Note This won't work if your admin has locked the timesheet to freeze entries after a specific date.
+
+Timesheets approved by managers and project owners will bear an approved seal.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+How to setup SAML SSO with Rocketlane using Google?
+
+General FAQs
+
+Timesheet Policies in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

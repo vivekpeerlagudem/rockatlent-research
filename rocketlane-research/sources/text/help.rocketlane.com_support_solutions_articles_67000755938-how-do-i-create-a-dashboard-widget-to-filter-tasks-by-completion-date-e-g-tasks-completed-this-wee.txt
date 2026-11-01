@@ -1,0 +1,146 @@
+TITLE: How do I create a dashboard widget to filter tasks by completion date (e.g., tasks completed this week or last week)? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755938-how-do-i-create-a-dashboard-widget-to-filter-tasks-by-completion-date-e-g-tasks-completed-this-wee
+
+How do I create a dashboard widget to filter tasks by completion date (e.g., tasks completed this week or last week)? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How do I create a dashboard widget to filter tasks by completion date (e.g., tasks completed this week or last week)?
+
+How do I create a dashboard widget to filter tasks by completion date (e.g., tasks completed this week or last week)?
+
+Created by Advaith R, Modified on Fri, 4 Sep at 1:24 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Q: How can I create a dashboard chart to accurately show the total number of projects in the same current phase?
+
+How do I create a dashboard widget to filter tasks by completion date (e.g., tasks completed this week or last week)?
+
+No article available
+
+To filter a dashboard widget by task completion timeframe, follow these steps:
+
+1. Open Widget Settings: Navigate to your dashboard and open the configuration settings for the widget you want to update.
+
+2. Set the Time Range Filter: Locate the time range filter option and select Completed at as the task field.
+
+3. Choose Your Timeframe: Select your preferred timeframe (such as This Week or Last Week ) to restrict the data to tasks completed within that period.
+
+4. Apply Additional Filters (Optional): Add any secondary criteria—such as filtering by a specific team, party, or task owner—to narrow down the results further.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How do I use the 'Completed At' field to filter tasks in Rocketlane dashboards?
+
+How to Create Dashboards in Rocketlane and add Widgets to it?
+
+General FAQs
+
+Operations Insights Report: By Template Tab
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

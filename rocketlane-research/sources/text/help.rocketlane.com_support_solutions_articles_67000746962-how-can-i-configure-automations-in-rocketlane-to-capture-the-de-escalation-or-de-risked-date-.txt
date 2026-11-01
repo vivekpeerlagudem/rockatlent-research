@@ -1,0 +1,172 @@
+TITLE: How can I configure automations in Rocketlane to capture the De-escalation or De-risked date? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746962-how-can-i-configure-automations-in-rocketlane-to-capture-the-de-escalation-or-de-risked-date-
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+Created by Advaith R, Modified on Thu, 14 Aug, 2025 at 2:47 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is the e-mail that I set up as an automation not getting sent out?
+
+Setting Up HTTPS Requests for project visibility
+
+How can I automate the visibility of project phases based on whether a project field contains a specific value, especially if the field has multiple values?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How do updates to automations in a project template affect existing and future projects?
+
+No article available
+
+Configuring automations in Rocketlane to accurately capture the De-escalation or De-risked date requires understanding key triggering conditions and avoiding potential conflicts between automations. This article provides actionable guidance on setup, best practices, and troubleshooting common issues regarding automation in Rocketlane.
+
+Automation Setup to Capture De-escalation or De-risked Date
+To ensure your automations effectively capture the required dates, consider the following:
+
+Trigger Conditions for Capturing Dates : - When the Is account at risk? status changes from True to False, set the De-escalation or De-risked date to the current date. - When a project status changes to Completed, and: - The De-escalation Date field is empty. - The Is account at risk? field is set to True. In this case, set the De-escalation Date to the project completion date.
+
+Combining Automations : - To avoid race conditions—where multiple automations trigger simultaneously and interfere with each other—combine related actions into a single automation. This ensures consistent results and avoids missing date captures.
+
+Purpose of Predefined Automations
+Rocketlane offers specific automations to address distinct conditions:
+
+'Capture De-risked Date' : - This automation sets the De-escalation Date when the Is account at risk? field is set to False.
+
+'Capture De-escalation for At-risk Completed Projects' : - This automation sets the De-escalation Date to the project completion date when the status changes to Completed, the De-escalation Date is empty, and Is account at risk? is True.
+
+Troubleshooting Automation Issues
+
+Missing De-escalation Date After Project Completion : - If the automation does not trigger after project completion, check whether the Is account at risk? field is set to True. If this field was previously set to False by another automation, the condition for the automation to trigger will not be met.
+
+Automation Fails to Capture Dates : - Race conditions could prevent an automation from successfully capturing the date if multiple automations are set up for the same trigger. To resolve this, consolidate overlapping automations into a single workflow to avoid conflicts.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+Auto Invite Customer Champion on Project Creation
+
+Rocketlane's Forms Feature: An Introduction
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

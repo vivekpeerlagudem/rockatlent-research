@@ -1,0 +1,178 @@
+TITLE: How to customize your domain URL? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000705521-how-to-customize-your-domain-url-
+
+How to customize your domain URL? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How to customize your domain URL?
+
+How to customize your domain URL?
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 4:36 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How To Setup Your Company references?
+
+How to configure your company email address?
+
+How to customize your domain URL?
+
+Configure How Utilisation Is Calculated
+
+No article available
+
+In this article
+
+Customizing your domain
+
+Things to remember when adding CNAME records to your DNS
+
+Rocketlane enables you to customize the domain used by your team members and customers to log in and access the platform. For example, if your default domain is "projects.rocketlane.com" at the time of account creation, this feature gives you the flexibility to modify the default "rocketlane" name and white-label it with your company name. This feature provides a more personalized and professional touch to the user experience, aligning it with your brand's identity.
+White-labeling your domain is useful while sending email notifications to your team members, as they can identify and react more personally to email notifications from your company domain.
+
+Customizing your domain
+To set up your custom domain:
+
+Navigate to your profile icon and select Settings .
+
+Scroll down to the Advanced settings section and select Custom domain .
+
+Field Description
+Default domain The Rocketlane domain that was issued to you during the time of account creation.
+A domain that you want your team to use for login The domain you can white-label to suit your company brand and share with team members to log in.
+
+Add your custom domain in the format "projects.yourcompany.com," where "projects" is only an example; you can use any definition you choose.
+
+Click Setup URL .
+To change your Rocketlane domain URL and confirm that you own the domain you changed, it is essential to set up the CNAME records in your DNS settings. The system will automatically populate these records for you. You need to add these records to your DNS account.
+
+Things to remember when adding CNAME records to your DNS
+You can use your respective DNS provider to add CNAME records to your DNS. In this example, we used GoDaddy DNS.
+
+Copy and paste all the CNAME record entries into your DNS.
+
+Remember that some DNS providers may require a specific format for the name.
+
+For instance, entering domain names in GoDaddy automatically fills in the "yourcompany.com" detail.
+
+After adding all four records, waiting for some time before clicking on verify is essential. DNS records typically take 24 to 48 hours to get published and verifying right after adding the records might lead to failed verification.
+After adding the CNAME records to your DNS, return to your Rocketlane Custom domain page and click Verify .
+This setup will white-label your Domain URL and enable your team members to use Rocketlane while feeling connected to your brand.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+How to configure your company email address?
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+Managing Internal Domains for Meetings and Emails
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

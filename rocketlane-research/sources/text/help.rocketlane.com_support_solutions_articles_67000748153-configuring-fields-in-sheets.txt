@@ -1,0 +1,245 @@
+TITLE: Configuring Fields in Sheets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748153-configuring-fields-in-sheets
+
+Configuring Fields in Sheets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Configuring Fields in Sheets
+
+Configuring Fields in Sheets
+
+Created by Advaith R, Modified on Wed, 8 Jul at 4:18 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+In this article
+
+Create a sheet field
+
+Field types
+
+Formula fields
+Count of rows
+
+Total / Sum
+
+Average
+
+View all sheet fields
+
+Sheet fields can be created in both templates and on the fly in projects to operate on the data within a sheet. Use them to aggregate data, set up workflows, and surface relevant insights.
+
+Create a sheet field
+
+From the sheet, click the Fields button. By default, two fields are available: Status and Assignees.
+
+Click New field and select a field type.
+
+Field types
+Field type What it does
+Text Single line of text input.
+Multiline text Longer text blocks spanning multiple lines.
+Number Whole number or decimal input.
+Yes / No True/false input displayed as a checkbox or toggle.
+Date Specific calendar date input.
+Single choice Choose one predefined option from a dropdown.
+Multiple choice Choose one or more predefined options from a dropdown.
+Single user Select a single user from the system.
+Multiple user Select multiple users from the system.
+Count of Returns the number of rows, either as a general count or limited to rows that meet specific conditions.
+Formula field Performs calculations (add, subtract, multiply, divide) on number-based columns and fields.
+Note If you are unable to select a specific field when building a formula, ensure it is a number-based data type (Number, Percentage, Rating, etc.). Formula fields do not support text or other non-numeric field types.
+
+Formula fields
+To create a formula field, select Formula field from the field type list, then follow the steps below to define your calculation.
+
+Navigate to the Field Configuration section of your sheet, select the option to add a new field or column, and choose Formula field .
+
+Choose a formula type: Count of rows , Total/Sum , Average , or Create formula . The configuration changes based on your selection.
+
+Define your calculation by adding existing fields or columns, which are represented as variables (for example A, B). Write your formula using these variables (for example A + B).
+
+You can create sub-formulae within a single formula field. For example, if variable A represents a calculated Total and variable B represents an Average, you can set the formula expression as A + B to generate the sum of those two values.
+
+Note In the Expression field, specify only the variable's name as shown in the formula creation window.
+
+Learn more about formula fields here .
+
+Count of rows
+This formula type returns the number of rows in a sheet tab, either as a total or filtered to rows that meet specific conditions.
+
+Select the Sheet tab you want to analyze.
+
+Set up filters to define which rows should be counted, or select all rows.
+
+Set the condition to your liking. For example, where the column "Priority is High" - the field will only count rows that meet this condition.
+
+Add the expression symbol (for example A ) and click Save .
+
+Once saved, the field immediately displays the count (for example the total number of high-priority tasks) in your sheet when you open the fields menu.
+
+Total / Sum
+This formula type calculates and displays the sum of all values in a selected number column. Only Number-type columns are supported.
+
+Select the Sheet tab and Column you want to analyze.
+
+Set up filters to define conditions for the summation.
+
+Set the condition to your liking. For example, where the column "Impact is Critical or High" - the field will only consider rows that meet this condition.
+
+Add the expression symbol (for example A ) and click Save .
+
+Once saved, the field immediately displays the sum (for example the total ARR for accounts whose impact is critical or high) in your sheet when you open the fields menu.
+
+Average
+This formula type calculates and displays the average of all values in a selected number column. Only Number-type columns are supported.
+
+Select the Sheet tab and Column you want to analyze.
+
+Set up filters to define conditions for the average calculation.
+
+Set the condition to your liking. For example, where the column "Priority is Low" - the field will only consider rows that meet this condition.
+
+Add the expression symbol (for example A ) and click Save .
+
+Once saved, the field immediately displays the average (for example the average cost of items with comments) in your sheet when you open the fields menu.
+
+View all sheet fields
+To view all sheet fields, click the small settings button next to the New field button. It will redirect you to the Sheet Fields page.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Sheets Widget in the Customer Portal
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Sheets in Projects
+
+Can I restrict certain forms in the customer portal?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

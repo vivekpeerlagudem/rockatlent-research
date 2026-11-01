@@ -1,0 +1,167 @@
+TITLE: Setting Up Your Company Knowledge Base : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753781-setting-up-your-company-knowledge-base
+
+Setting Up Your Company Knowledge Base : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Setting Up Your Company Knowledge Base
+
+Setting Up Your Company Knowledge Base
+
+Created by Advaith R, Modified on Mon, 25 May at 6:46 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Introduction to Signals in Rocketlane
+
+Email Intelligence: How Email Ingestion Works
+
+Meeting Page Templates
+
+Email Page Templates
+
+Setting Up Your Company Knowledge Base
+
+No article available
+
+Rocketlane AI relies on business context to interpret what counts as risk, opportunity, or operational importance for your organization. This context can be sourced from a knowledge base.
+
+Create a knowledge base
+
+Navigate to Settings → Knowledge base .
+
+Select Create knowledge base .
+
+Enter a name.
+
+Assign permissions or roles. Permissions control who can update the knowledge base.
+
+Select the type of data to add:
+AI pages (information derived from transcripts)
+
+API docs
+
+Website
+
+Upload a file from your computer
+
+Select Add to the knowledge base to add the content.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating a Documentation Agent
+
+How to configure your company email address?
+
+Setting up currencies
+
+Rocketlane Support - How to reach us!
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

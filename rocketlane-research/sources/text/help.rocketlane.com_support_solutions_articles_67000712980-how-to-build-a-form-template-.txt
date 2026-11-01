@@ -1,0 +1,269 @@
+TITLE: How to build a Form Template? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000712980-how-to-build-a-form-template-
+
+How to build a Form Template? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+How to build a Form Template?
+
+How to build a Form Template?
+
+Created by Niharika Pandey, Modified on Tue, 28 Jul at 8:12 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build a Form Template?
+
+Organizing Templates into Folders
+
+No article available
+
+Form templates enable you to collect project-relevant data from customers and seamlessly integrate that information into your projects. You can add forms as part of your project plan or share them as a link and view form responses within the respective projects. In this article, we will learn how to set up forms, view responses, set up automated actions that follow form submissions, and enable sharing permissions.
+In this article
+
+Builder
+
+Question Properties
+
+Themes
+
+Text
+
+Choices
+
+Grid Type Questions
+
+Attachment
+
+Date
+
+Currency
+
+Contact Info
+
+Number
+
+Rating
+
+Project Fields
+
+Task Fields
+
+Responses
+
+Automations
+
+Settings
+
+Short on time? Watch this quick video on how to set up and customize form templates.
+
+Builder
+Using the Form Builder tab from the Form Template, you can add questions to the form. Choose from a wide range of answer formats and add options for conditional questions.
+
+Question Properties
+Whenever you choose a question type, you can edit it in the Question properties tab from the right side of the screen.
+
+Description: This option lets you add a short description to explain the question.
+
+Required: This option lets you mark the question as a required field.
+
+Themes
+The Themes section lets you customize the form using your brand's colour theme, images, and backgrounds.
+
+Header Image: The header image is a graphic added as the header of your form. You can choose from a variety of default image options or add your own custom image.
+
+Theme Colours: The theme colour is the colour of the form background. You can choose from default colour options or provide exact RGB details of your brand's colour to personalize your forms.
+
+Background Image: The background image provides the background for the form. You can customize the form by using a patterned background instead of solid colours.
+
+Text
+
+Short text: The Short text option allows you to add a question that has a short text answer. You can type the question under Field label and click Done to add the question to your form.
+
+Long text: The Long text option allows you to add a question that may have a long answer. You can type the question under Field label and click Done to add the question to your form.
+
+Statement: The Statement option lets you add a statement to the form. You can even add a description to the statement to expand further. You can use this text option to share information with the respondent.
+
+Choices
+You can add questions that have only specific answers to your form so that it is easy for recipients to choose and easy for you to record form answers.
+
+Adding branches to a Choices type question
+You can add branches to a choices type question. Click the Add a branch button next to the option that needs a branch question to be added.
+You can add any question type as the branch question.
+
+Radio: The Radio option allows the respondent to choose one option from a predefined set of mutually exclusive options.
+
+Checkbox: A checkbox question lets your responders select multiple answers from a list of available options. Use this question when you want people to choose more than one answer option in the same question.
+
+Single select dropdown: The Single select dropdown option allows the respondent to choose one option from a list of multiple options.
+
+Multi select dropdown: The Multi select dropdown option allows the respondent to choose more than one option from a list of multiple options.
+
+Grid Type Questions
+The multiple-choice grid form has two sets of fields: rows and columns. The rows are the questions, and the columns are the answer options. There is only one set of answers for all of the questions.
+
+Multiple Choice Grid: A multiple choice grid question lets your responders select one answer from the available options for each row.
+
+Checkbox Grid: The checkbox grid option allows your responders to select multiple answers from the available options for each row.
+
+Attachment
+The Attachment question type lets the user add a file to the form, up to the file limit of 20MB.
+
+Date
+The Date question type lets the user add a date to the form. This can be entered in the DD/MM/YYYY format or chosen from an on-screen calendar.
+
+Currency
+The Currency question type allows users to add numeric values to the answer. You can set the default currency type to ensure uniformity.
+
+Contact Info
+
+Phone: The Phone question type allows users to add numeric values to the answer. You can set the default country code for the phone number.
+
+Email: The Email question type allows users to add email IDs to the answer.
+
+Number
+The Number question type allows users to add numeric values to the answer.
+
+Rating
+The Rating question type allows users to add star ratings as the answer. The default option is a scale of five stars.
+
+Project Fields
+When a form is submitted with a filled-in value, the project field for that project will be updated. The form shows the list of default and custom project fields from your account that can be added.
+Status: You can choose the project status from the list of default options that include Cancelled, Blocked, Proposed, In Planning, To be Staffed, In progress, and Completed.
+
+Task Fields
+Add task fields to the form. Any response to these questions will be synced to the task fields if Task Automations is enabled from the Automations tab. The form shows the list of default and custom task fields from your account that can be added.
+
+Task Name: Add a new task to your project by providing task name details.
+
+Task Description: Add a description to the new task in your project by providing task description details.
+
+Priority: Add a priority to the task. You can choose between High, Medium, and Low from the option choices.
+
+Status: Add a status to the task. You can choose between To do, In progress, Completed, and Blocked from the option choices.
+
+Responses
+View all responses submitted by project members in this section and download the file if necessary.
+
+Automations
+Set up automations to create a task in the project upon submission of a form. You can also add conditions to add the newly created task under a particular phase of a project template.
+
+Settings
+Here, you can choose to receive single or multiple responses and restrict sharing.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+FAQ: Document Tasks in Document Templates
+
+Understanding the Rocketlane's Forms Feature
+
+How to automate project workflows with HTTPS requests
+
+FAQ: Reordering Phases in a Project Plan Template
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

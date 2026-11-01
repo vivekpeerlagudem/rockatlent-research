@@ -1,0 +1,618 @@
+TITLE: Introducing Expense Management in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746414-introducing-expense-management-in-rocketlane
+
+Introducing Expense Management in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Introducing Expense Management in Rocketlane
+
+Introducing Expense Management in Rocketlane
+
+Created by Advaith R, Modified on Mon, 25 May at 10:02 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introducing Expense Management in Rocketlane
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Custom Expense Fields in Rocketlane
+
+Expense Notifications in Rocketlane
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+No article available
+
+Rocketlane’s Expense Management module aims to provide service teams with immediate insight into project expenses and profitability. Whether you’re monitoring reimbursable costs, overseeing project budgets, or consolidating expenses for approval, this module enhances financial transparency in your project processes.
+TABLE OF CONTENTS
+
+What Is Expense Management?
+
+Enabling Expense Management
+
+Configuring Expense Settings
+Expense Categories
+
+Attachments
+
+Reimburse Settings
+
+Track Expenses Against
+
+Expense Approvals
+
+Uninvoiced Approved Billable Expenses
+
+Navigating to Expense Management
+
+Creating Expense Reports
+
+Setting up an Expense Budget
+Why Set an Expense Budget?
+
+How to Create an Expense Budget
+
+Creating an Expense
+
+Approving an Expense
+
+Billable vs Non-Billable vs Reimbursable
+
+How Expenses Affect Financials
+
+Invoicing an Expense
+How It Works
+
+Multi-Currency Support
+
+Currency Conversion Logic
+
+Managing RBAC Permissions for Expenses in Rocketlane
+Managing Expense Budgets
+Permission:
+
+Scope Selector (Project Access)
+
+Sub-Permissions
+
+✅ Can view expenses and expense reports
+
+✅ Can create expenses and expense reports
+
+✅ Can submit expenses and expense reports
+
+✅ Can manage expenses and expense reports
+
+✅ Can manage Billable defaults
+
+✅ Can approve or reject any expense
+
+TABLE OF CONTENTS
+What Is Expense Management?
+
+Enabling Expense Management
+
+Configuring Expense Settings
+Expense Categories
+
+Attachments
+
+Reimburse Settings
+
+Track Expenses Against
+
+Expense Approvals
+
+Uninvoiced Approved Billable Expenses
+
+Navigating to Expense Management
+
+Creating Expense Reports
+
+Setting up an Expense Budget
+Why Set an Expense Budget?
+
+How to Create an Expense Budget
+
+Creating an Expense
+
+Approving an Expense
+
+Billable vs Non-Billable vs Reimbursable
+
+How Expenses Affect Financials
+
+Invoicing an Expense
+How It Works
+
+Multi-Currency Support
+
+Currency Conversion Logic
+
+Managing RBAC Permissions for Expenses in Rocketlane
+Managing Expense Budgets
+Permission:
+
+Scope Selector (Project Access)
+
+Sub-Permissions
+
+✅ Can view expenses and expense reports
+
+✅ Can create expenses and expense reports
+
+✅ Can submit expenses and expense reports
+
+✅ Can manage expenses and expense reports
+
+✅ Can manage Billable defaults
+
+✅ Can approve or reject any expense
+
+What Is Expense Management?
+Expense Management revolves around two key concepts:
+
+Expense : A single itemized cost—like a cab bill, meal, or fuel receipt.
+
+Expense Report : A container that groups multiple expenses for submission and approval.
+All expenses must be linked to a report in order to be submitted and approved. This process helps project owners to ensure financial integrity and support downstream actions.
+
+Enabling Expense Management
+To enable Expense Management:
+
+Navigate to Settings .
+
+Under Operations and Financials, select Expenses .
+
+Toggle the feature on.
+
+Configuring Expense Settings
+Once enabled, you can configure the following:
+
+Expense Categories
+Add, edit, or delete categories to organize expenses based on type: travel, food, lodging, etc. You can set category billable defaults as well.
+
+Attachments
+Make receipts mandatory by enforcing attachment uploads with every new expense. If enabled, new expenses cannot be created without an attachment. Existing expenses cannot be edited without attaching an expense
+
+Reimburse Settings
+This tag is used to specify the method of reimbursement for the expense. Outline who is eligible for reimbursement:
+
+Expense Owner
+
+Partner (added to the project)
+
+Vendor (requires setting up vendor lists)
+
+Track Expenses Against
+Choose items with which I can track my expenses against:
+
+Projects
+
+Phases
+
+Milestones
+
+Tasks
+
+Expense Approvals
+Select the approval behavior:
+
+Auto Approve : Expenses are approved on submission. Typically used if your company's expenses are approved when they're entered into the system (eg: expenses made on the company card, etc.)
+
+Project Owner Approves : Expenses are approved by the project owners
+
+Approval Workflow : (Enterprise only) Set up multi-level chains for complex approval logic.
+
+Uninvoiced Approved Billable Expenses
+Billable expenses aren’t computed in cost since the expectation is they’ll be forwarded to the customer through an invoice. However, at project closure (when a project enters any Completed status), some companies may want to treat these as incurred costs till invoiced, while others may not. This setting provides flexibility to accommodate both approaches.
+
+Default behavior : Add to cost until invoiced — expenses will continue to be counted in project cost until invoiced, and are automatically removed once invoiced.
+
+Alternative option : Exclude from cost — expenses will not be counted in project cost once the project is completed.
+
+Navigating to Expense Management
+Click the Management icon on the left navigation panel, then select Expense Management . You’ll find two main sections:
+
+My Expenses : View and manage your own expenses and reports.
+
+Approvals : View and act on expenses you can approve based on your approval workflows and your permission sets
+Each section includes two tabs:
+
+Expenses - granular list of all your expenses across projects
+
+Expense Reports - list of your expense reports
+
+To access Expense management for a specific project, go to your project's Financials tab. You'll find expenses and expense reports within the sub-tab.
+
+Creating Expense Reports
+To log expenses, start by creating a report:
+
+Go to My Expenses > Expense Reports .
+
+Click Create Report.
+
+Name your report, assign the related project, and designate the expense owner. Each expense report is unique for a project and expense owner
+
+Once created, use the three-dot menu to edit or sub mit the report.
+
+Note: Once submitted, reports cannot be edited. To make changes, you must withdraw and resubmit the report. You can create an expense report on the fly when you’re creating an expense
+Report statuses include:
+
+Not Submitted - when the report isn’t submitted for approval
+
+In Review - when there are one or more expenses inside the expense report that need approval
+
+Partially Approved - when all expenses in the report have been reviewed (some approved, some rejected) but none need a decision
+
+Approved - all expenses inside the report are approved
+
+Rejected - all expenses inside the report are rejected
+
+Setting up an Expense Budget
+When managing a project, it's important to track not just time and effort but also the money being spent. Rocketlane's Expense Budget feature lets you define a clear budget specifically for expenses, helping you monitor and control project costs effectively.
+An expense budget is a way to track expenses inside a project. Users can set limits based on contract or internal policies. For example, if my company policy allows me to have $5,000 worth of expenses, I can create an expense budget for $5,000 and I can track how much I have consumed out of it.
+
+Why Set an Expense Budget?
+An expense budget allows you to:
+
+Define a cap for total expenses on the project
+
+Track expenses against a fixed monetary limit
+
+Ensure billable expenses stay within scope
+
+Improve visibility into project profitability
+Only expenses within this budget will be counted, helping you maintain cost discipline throughout project execution.
+
+How to Create an Expense Budget
+Follow these steps to create a new expense budget for your project:
+
+Navigate to your project
+
+Click on Project Settings
+
+Go to the Expense Budgets section
+
+Click on Add Expense Budget
+
+Fill in the Budget Details:
+Budget Name : Give your expense budget a clear, descriptive name.
+
+Currency : Choose the primary currency for recording and tracking expenses within the project. While you can record actual expenses in their native currency, all consumption calculations will be based on the project's budget currency.
+
+Amount : Enter the total expense budget limit.
+
+If your project is billable, check the box labeled “ Mark budget as billable ” to ensure all associated expenses can be included in invoicing. If this is left unchecked, expenses will be treated as non-billable.
+Once created, you can select the expense budget while creating an expense report for the project.
+Note: We don't enforce expense budgets, so you can continue to track expenses even if they exceed the allocated amount. Keep in mind that non-billable expense budgets are added to the forecasted cost on their due date.
+Creating an Expense
+To create a new expense:
+
+Go to My Expenses > Expenses.
+
+Click Add Expense.
+
+Upload receipt files (optional). Rocketlane will auto-read and populate fields using AI.
+
+Assign the expense to:
+A project
+
+A related expense budget
+
+An expense report (can add expenses only to a not submitted report, or the user can create an expense report on the fly)
+
+Choose the category, date, and task (if applicable).
+
+Define whether the expense is:
+Billable (chargeable to client) - this value is populated from your category, or expense budget. Expenses reported against a billable budget are billable, whereas expenses reported against a non-billable budget are non-billable
+
+Reimbursable (payable to a person or vendor)
+
+Attach relevant documents and click Add Expense to finish.
+
+Approving an Expense
+Depending on your settings, expenses may:
+
+Be auto-approved
+
+Require approval from the project owner, which they can provide by navigating to the approvals tab
+
+Follow a predefined approval workflow
+Approvers can open a report and bulk-approve all expenses inside the report.
+Note: when clicking ‘bulk approve’, all expenses inside the report are approved. If an expense has an approval chain where the approver is the current approver, approve will just approve that step. For expenses where the approver is not the current approver, the approver can click “Force approve” manually for each expense
+
+Per individual expense (partial approval possible) - approvers can granularly approve and reject expenses
+
+Billable vs Non-Billable vs Reimbursable
+Type
+Description
+
+Billable Can be invoiced. Not counted in project cost unless left unbilled at the end of a project.
+Non-Billable Cannot be invoiced. Immediately counted in project cost.
+Reimbursable Identifies if the expense is to be paid back to a person/vendor. Doesn’t impact cost or revenue.
+
+How Expenses Affect Financials
+Once expenses are submitted and approved, they are reflected directly in your project’s Financials tab.
+To view the impact of expenses:
+
+Navigate to your project and open the Financials tab
+
+Scroll to the bottom to find the Expense Details table
+This table lists all expense reports with the following details:
+
+Expense Report
+
+Owner of the report
+
+Amount- Tracked (total expenses submitted)
+
+Approved Expenses
+
+Approved Billable and Non - Billable amounts
+Expense budgets directly impact a project's financials, particularly its forecasted costs. If an expense budget is marked as non-billable, the entire amount of that budget is added to the project's forecasted cost on its due date.
+
+For example, if you have a non-billable expense budget of $5,000 with a due date of January 1, 2026, the forecasted cost for that day will increase by $5,000, reflecting the expected expense. This helps project owners and finance teams get a more accurate picture of a project's total anticipated costs over its timeline.
+
+Invoicing an Expense
+When it's time to bill clients for approved expenses, Rocketlane simplifies the process by surfacing all billable expense data directly within the invoicing module.
+
+How It Works
+
+Navigate to the Invoicing module and begin creating a new invoice.
+
+When you select time entries from a Project, you’ll see a list of all approved and billable expenses associated with that project.
+
+These expenses can be added as line items on the invoice, ensuring they are fully accounted for and transparently passed on to the client.
+
+Multi-Currency Support
+Rocketlane supports expense tracking and invoicing across different currencies.
+
+You can track an expense in one currency and invoice it in project currency (as defined in the project’s currency setting).
+
+The system automatically converts the expense to the project’s currency using the conversion rate set in Settingsunder:
+Settings > Currency > Set Conversion Rate
+
+Currency Conversion Logic
+
+The conversion rate applied is based on the date the invoice is created and the most recent rate set prior to that date.
+
+Even if currency rates are updated after the invoice is generated, the system will lock in the rate as of the invoice date.
+
+To apply a newer rate retroactively, you'll need to backdate the currency rate change in the settings.
+
+Managing RBAC Permissions for Expenses in Rocketlane
+To set permissions, navigate to:
+Settings → Permissions → Expenses
+You'll find a list of expense-related permissions with granular control over:
+
+Who can create and manage expense budgets
+
+Who can view, create, edit, submit, and approve expenses and expense reports
+
+The project scope these permissions apply to
+
+The team members these permissions apply to
+
+Managing Expense Budgets
+This is the parent permission that unlocks all other expense permissions.
+
+Permission:
+✅ Can create and manage expense budgets
+
+What it allows: Create and edit expense budgets in projects
+
+Required for: Accessing and setting sub-permissions
+
+Scope Selector (Project Access)
+Choose where this permission applies:
+
+Global: All projects
+
+Group and visible to all: Projects within user’s group, visible to all
+
+Participant and visible to all: Projects user is part of, visible to all
+
+Participant: Projects user is part of
+
+Projects they own: Only projects where user is the project owner
+
+Sub-Permissions
+Once the main permission is enabled, you can configure the following:
+
+✅ Can view expenses and expense reports
+Allows : Viewing all expenses and reports
+
+Project scope :
+
+Global : All projects
+
+Group and visible to all : Projects within user’s group, visible to all
+
+Participant and visible to all : Projects user is part of, visible to all
+
+Participant : Projects user is part of
+
+Projects they own : Only projects where user is the project owner
+
+Team member scope :
+
+Global (all team members)
+
+Group and assigned approver
+
+Assigned approver
+
+Myself (only their own)
+
+✅ Can create expenses and expense reports
+Allows : Creating expenses and reports for self or others
+
+Project scope
+
+Team member scope
+
+✅ Can submit expenses and expense reports
+Allows : Submitting expense reports for approval
+
+Project scope
+
+Team member scope
+
+✅ Can manage expenses and expense reports
+Allows : Editing or deleting expenses/reports (Submitted reports must be withdrawn before editing).
+
+Project scope
+
+Team member scope
+
+✅ Can manage Billable defaults
+Allows : Editing or deleting default billable status of expenses
+
+Project scope
+
+Team member scope
+
+Note: Users who do not have the "Edit billable default" permission are prevented from manually changing the system-derived default value in the billable field (ie, if the project is Billable or No.
+However, even without this permission, users can still influence the billable status through related fields:
+
+Change the expense category
+
+Select an expense budget
+
+If a user's selection in one of these related fields results in a new system-derived billable default, the system will automatically update the billable value to match the new default.
+
+✅ Can approve or reject any expense
+Allows : Approving or rejecting submitted expenses
+
+Project scope:
+
+Participant : Projects user is part of
+
+Projects they own : Only projects where user is the project owner
+
+Team member scope
+
+Assigned approver - For team members where they are assigned as approver
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Understanding Task Dependencies in Rocketlane
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+How to Manage Task Dependencies?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,232 @@
+TITLE: Setting Up Okta User Provisioning Integration with SCIM : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000745647-setting-up-okta-user-provisioning-integration-with-scim
+
+Setting Up Okta User Provisioning Integration with SCIM : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Created by Advaith R, Modified on Fri, 8 Aug, 2025 at 7:07 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+Rocketlane supports SCIM-based user provisioning through Okta, enabling automated user management for your organization. With this integration, users can be created, updated, or deactivated in Rocketlane directly from Okta, streamlining user lifecycle management.
+This article walks you through how to set up and configure Okta SCIM provisioning for Rocketlane.
+
+Note: This is a Beta feature. In case you can't set this up, please contact Rocketlane Support
+Overview of SCIM Provisioning Capabilities
+The SCIM integration allows you to automate the following user actions:
+
+Create Users : Automatically provision users in Rocketlane when assigned in Okta.
+
+Update Users : Sync user attribute changes (e.g., name, email) in real-time.
+
+Deactivate Users : Automatically remove or disable users in Rocketlane when they are unassigned in Okta.
+
+Prerequisites
+SCIM-based user provisioning is currently available to select Rocketlane customers.
+To enable this feature for your organization, please contact Rocketlane Support.
+
+Step 1: Set Up the Rocketlane Application in Okta
+
+Log in to your Okta Admin Console .
+
+Navigate to Applications > Browse App Catalog .
+
+Search for Rocketlane in the catalog.
+
+Click Add Integration .
+
+On the setup screen:
+
+Set an appropriate Application Label (e.g., “Rocketlane”).
+
+Click Done to complete the app setup.
+
+Step 2: Generate API Token in Rocketlane
+To connect Okta with Rocketlane, you’ll need an API token that authorizes SCIM operations.
+
+Go to Settings in your Rocketlane account.
+
+Scroll to API Settings .
+
+Click Create API Key .
+
+Name the key clearly (e.g., “Okta SCIM Integration”).
+
+Copy the generated API key. You'll use this in Okta setup.
+
+Step 3: Configure SCIM in Okta
+
+Go to the Rocketlane application in Okta.
+
+Select Provisioning from the left-hand panel.
+
+Under Integration , check the box for Enable API Integration .
+
+Enter the following:
+
+SCIM Base URL :
+https://<your-subdomain>.api.rocketlane.com/api/scim/v2
+
+Example : If your Rocketlane domain is okta.rocketlane.com , the SCIM Base URL would be
+https://okta.api.rocketlane.com/api/scim/v2
+
+API Token : Paste the API key you generated from Rocketlane.
+
+Click Test API Credentials to verify the connection.
+
+Upon success, click Save to confirm and enable the integration.
+
+Step 4: Enable SCIM in Rocketlane
+To activate SCIM provisioning:
+
+Contact Rocketlane Support and request SCIM enablement for your workspace.
+
+Once enabled, provisioning actions from Okta will begin syncing with Rocketlane.
+
+Step 5: Test the Integration
+After enabling SCIM, verify that provisioning is working correctly:
+
+Assign a user in Okta to the Rocketlane application.
+
+Confirm that the user is created in Rocketlane.
+
+Update user details (e.g., email or name) in Okta and check that changes reflect in Rocketlane.
+
+Unassign or deactivate a user in Okta and verify that the user is deactivated in Rocketlane.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Updating SSO for Rocketlane's Authentication Migration
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

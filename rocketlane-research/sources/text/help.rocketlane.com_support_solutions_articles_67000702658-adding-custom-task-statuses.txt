@@ -1,0 +1,181 @@
+TITLE: Adding Custom Task Statuses : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000702658-adding-custom-task-statuses
+
+Adding Custom Task Statuses : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Adding Custom Task Statuses
+
+Adding Custom Task Statuses
+
+Created by Niharika Pandey, Modified on Fri, 9 Oct at 7:15 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+Task statuses show the current state of a task and make it easier to track progress across a project. Rocketlane includes the following default task statuses:
+
+To Do
+
+In Progress
+
+Completed
+
+Blocked
+You can also create custom task statuses to match the stages and terminology your team uses. Each custom status belongs to one of the default status groups, which determines how Rocketlane treats tasks assigned that status.
+
+Add a custom task status
+
+Click your profile icon, then select Settings .
+
+Under Fields , select Task fields .
+
+Next to the Status field, open More actions , then select Edit .
+
+In Edit task field , under Choices , select Add option .
+
+Enter a name for the status and select a color.
+
+From the dropdown next to the status name, choose the group the status belongs to: Todo , In Progress , Completed , or Blocked . Rocketlane treats the custom status according to the group you select. For example, if you create an Awaiting Sign-off status and place it in the Completed group, tasks with that status are treated as completed.
+
+To reorder statuses, drag the handle to the left of a status.
+
+Select Save .
+
+Note Status names must be unique. If you enter a name that already exists, Rocketlane displays This status already exists . Some default statuses cannot be renamed or removed. The remove option is available only for statuses that can be deleted.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Step-by-step guide to Sprint Planning
+
+How to set up permissions for team members and customers (RBAC)
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

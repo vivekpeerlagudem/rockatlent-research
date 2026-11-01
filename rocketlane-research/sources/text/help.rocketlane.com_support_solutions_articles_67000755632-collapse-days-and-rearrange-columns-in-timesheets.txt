@@ -1,0 +1,198 @@
+TITLE: Collapse Days and Rearrange Columns in Timesheets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755632-collapse-days-and-rearrange-columns-in-timesheets
+
+Collapse Days and Rearrange Columns in Timesheets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+Collapse Days and Rearrange Columns in Timesheets
+
+Collapse Days and Rearrange Columns in Timesheets
+
+Created by Advaith R, Modified on Mon, 17 Aug at 5:38 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Time Tracking in Rocketlane
+
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+Importing Time Entries from Allocations
+
+Collapse Days and Rearrange Columns in Timesheets
+
+No article available
+
+You can collapse completed days and rearrange columns while adding time from your calendar or allocations. These options help keep the drawer focused on the entries you still need to review.
+In this article
+
+Collapse days in Calendar Activity
+
+Rearrange columns
+
+Add from calendar
+
+Import from my allocations
+
+Collapse days in Calendar Activity
+Go to Timesheets > My timesheet > Add from calendar .
+Calendar events imported from Google Calendar or Outlook are grouped by day. Click a day header to collapse its entries. The day name and date remain visible while the entries are hidden.
+Click the same header again to expand the day and review or edit its entries.
+Rocketlane remembers which days you collapsed for each week. If you navigate away and return to that week, those days remain collapsed.
+This can help you:
+
+Collapse each day after completing its time entries.
+
+Keep only unfinished days visible.
+
+Continue a partially completed weekly timesheet from where you stopped.
+
+Rearrange columns
+You can rearrange the columns displayed in the following drawers:
+
+Timesheets > My timesheet > Add from calendar
+
+Timesheets > My timesheet > Add rows > Import from my allocations
+Click the table icon in the upper-right corner of either drawer to open Rearrange columns .
+In the Rearrange columns window, you can:
+
+Drag a column using its handle to change its position.
+
+Hover over a column and click the up arrow to move it to the top.
+
+Click the X beside a removable column to hide it.
+
+Click Reset to default to restore the original columns and order.
+
+Click Done to apply your changes.
+Note Rearranged or removed columns apply only while the drawer remains open. The default column arrangement returns after you close and reopen the drawer.
+
+Add from calendar
+Use this option to import time entries from calendar events and adjust the columns shown in the calendar activity drawer.
+
+Import from my allocations
+Use this option to import time entries from your allocations. The same column controls are available when importing time from allocations.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Level Permissions
+
+Private and Shared Spaces
+
+Project Plan
+
+Basics of Project Tasks
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

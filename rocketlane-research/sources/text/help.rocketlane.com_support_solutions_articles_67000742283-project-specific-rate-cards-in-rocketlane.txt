@@ -1,0 +1,198 @@
+TITLE: Project-Specific Rate Cards in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000742283-project-specific-rate-cards-in-rocketlane
+
+Project-Specific Rate Cards in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Project-Specific Rate Cards in Rocketlane
+
+Project-Specific Rate Cards in Rocketlane
+
+Created by Advaith R, Modified on Fri, 21 Feb, 2025 at 6:28 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+What Are Project Rate Cards?
+A Project Rate Card functions similarly to a standard Rate Card, but it is applied only to a specific project rather than across multiple projects. This allows businesses to maintain customized billing rates for individual projects without modifying account-wide rate structures.
+When setting up a Project Rate Card, users can define:
+
+Default Bill Rates – A base rate that applies to all roles if no specific rate is defined.
+
+Role-Specific Rates – Custom billing rates for different roles involved in the project.
+
+Effective Date – The date from which the updated rates take effect within the project.
+
+This flexibility ensures that teams can control and customize billing rates at the project level while maintaining clarity in rate application.
+
+Why Use a Project Rate Card Instead of Custom Rates for Individuals?
+Using Project Rate Cards instead of assigning custom rates per individual brings several advantages:
+
+1. Simplified Billing Setup
+If you want to apply a single custom rate for everyone in a project, a Project Rate Card makes this process easier. Instead of adjusting individual rates, you can simply define a default rate at the project level.
+
+2. Automatic Rate Application for New Team Members
+When new people are added to a project, you don’t have to manually edit their bill rates every time. The system will:
+
+Assign role-specific rates if available.
+
+If no role-specific rate is set, it will use the default project rate.
+
+This removes the need for repetitive updates and maintains billing consistency for every project.
+Previously, when a bill rate was changed, Rocketlane prompted users to choose whether to apply the new rate going forward or from the project start date. Instead of choosing between two options, users must now define the exact date from which the updated rates will take effect.
+Note: These changes apply not only to Project Rate Cards but also to existing billing rate structures like: Account-Level Rate Cards , Custom Bill Rates on Projects
+How to Set Up a Project Rate Card
+
+Navigate to the Project Settings
+
+Go to Billing & Rates → Rate Card Settings
+
+Select Use Project-Specific Rate Card
+
+Define the default bill rate for the project
+
+Set up role-specific rates (if applicable)
+
+Choose the effective date for the rate card to take effect
+
+Save the changes
+
+Once set, the Project Rate Card will automatically apply the defined rates for all billable hours logged in the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Level Permissions
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Account Level Default Permissions
+
+Introduction to Financial Management
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

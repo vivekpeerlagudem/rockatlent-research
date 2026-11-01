@@ -1,0 +1,429 @@
+TITLE: Report on Form Responses in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754835-report-on-form-responses-in-rocketlane
+
+Report on Form Responses in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Report on Form Responses in Rocketlane
+
+Report on Form Responses in Rocketlane
+
+Created by Advaith R, Modified on Thu, 16 Jul at 5:57 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Guide to setting up and managing custom reports
+
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+Report on Form Responses in Rocketlane
+
+No article available
+
+Table Of Contents
+
+When to Use
+
+Before you start
+
+Create a Report Using Forms as the Source
+
+Create a Tabular Form Report
+
+Create a Pivot Form Report
+Grouping rules for pivot reports (Rows and Columns)
+
+Supported Fields
+Standard Fields Available in Every Form Report
+
+Question Fields in Form Reports
+Choice-Based Questions
+
+Miscellaneous Question Types
+
+Excluded Fields
+
+How Forms Connect to Other Data
+
+Use Formula Fields with Form Reports
+
+Template Scope for Formula Fields
+
+Use Form Data in Dashboard Cards and Charts
+
+Grouping and Filtering Columns
+
+Related Articles
+
+Form reports let you use responses submitted through forms as a reporting source in Rocketlane.
+Just as you can build reports using project, task, people, and time tracking data, you can also report on the form responses received in your Rocketlane account. Every question on a form template becomes a reportable field, so you can track submissions, analyze answers, and connect form data with the related project, task, and company context.
+For example, you can report on customer onboarding forms, internal review forms, handoff forms, risk assessment forms, or feedback forms, and use those responses to understand trends, identify blockers, monitor completion, and support better project decisions.
+Use Form reports when you want to move form data out of individual submissions and into dashboards, charts, pivot reports, and tabular reports that your teams can act on.
+Note This feature is available for accounts where Forms is enabled as a reporting source. If you do not see Form listed as a data source while creating a report, contact your Rocketlane representative. Creating and editing reports requires the Create and Edit report permission.
+
+When to Use
+Use Form reports when you want to:
+
+Track form submission volume over time.
+
+Monitor completion trends.
+
+Analyze responses to specific questions across projects.
+
+View individual form responses in one place.
+
+Summarize form responses by project, task, or company details.
+
+Combine form answers with related project and task information.
+
+Build dashboards using form response data.
+
+Before you start
+
+Feature availability: Form reports are available on accounts where Forms is enabled as a reporting source. If you don't see Form listed as a data source when creating a report, contact your Rocketlane representative.
+
+Permission: You need the Create and Edit report permission to create or edit reports.
+
+Data: You need at least one form template that has received responses. A report pulls from one form template at a time to compare several templates (for example, different onboarding forms for different programs), creating one report per template.
+
+Create a Report Using Forms as the Source
+When you create a report, select Form as the data source. Rocketlane then lets you choose the form template you want to report on.
+You can create two types of reports using form responses:
+
+Tabular reports
+
+Pivot reports
+Note A report can pull responses from only one form template at a time. To compare responses across multiple templates, create a separate report for each template. For example, if you use different onboarding forms for different programs, create one report for each onboarding form template.
+
+Create a Tabular Form Report
+Use a Tabular report when you want to view individual form responses as a list.
+To create a Tabular Form report:
+
+Navigate to Reports
+
+Click +New Custom Report .
+
+Select Tabular .
+
+Under the ' What would you like to report on?' section, click + Choose a source and select Form from the dropdown menu.
+
+Choose the form template you want to report on.
+
+Add the fields you want to include.
+Examples:
+Submission Date
+
+Submitted By
+
+Question fields from the selected form template
+
+Related project, task, or company fields
+
+Click + Add fields... again to add more fields, such as Start date and Billing type , and Click Create . The tabular report will automatically populate with the form submission data.
+
+Note For forms that accept multiple responses, each submission appears as its own row in the report. Submission Count reflects the number of responses, not the number of tasks.
+
+Create a Pivot Form Report
+Use a Pivot report when you want to summarize form responses.
+For example, you can count submissions, average a numeric answer, or group responses by a form answer, submission date, project, task, or company field.
+To create a Pivot Form report:
+
+Navigate to Reports > +New Custom Report
+
+Select Pivot table .
+
+Select Form as the data source.
+
+Choose the form template you want to report on.
+
+Add a field to Values .
+
+Add fields to Rows or Columns to group the results.
+
+Click Create .
+Note In Pivot reports, only Submission Count and numeric question types, such as Number , Currency , and Rating , can be used in Values . Project, Task, and Company numeric fields, such as cost, effort, or ARR, are not available as Values in a Form-sourced Pivot report. User, Role, Time tracking, and Budget fields are not available in Form reports.
+
+Grouping rules for pivot reports (Rows and Columns)
+Whether a field can be used to group a pivot report depends on its type:
+Field type Can group by (Rows/Columns)?
+Short text Yes
+Phone Yes
+Email Yes
+Date Yes
+Single-choice (radio buttons, dropdowns) Yes
+Single user select Yes
+Long text No
+Multi-choice / multi-select dropdowns No
+Multi-user select No
+Attachment No
+Matrix questions No
+Number No, use in Values instead
+Currency No, use in Values instead
+Rating No, use in Values instead
+Note Number, Currency, and Rating questions cannot be used as Rows or Columns. Use them in Values instead.
+
+Supported Fields
+
+Standard Fields Available in Every Form Report
+Every Form report includes standard fields in addition to the question fields.
+Field Description
+Submission Date The date and time when the response was submitted.
+Submitted By The user who submitted the response.
+Template Name The form template used for the response.
+Template Version The version of the form template the response was submitted against.
+Updated By The user who last updated the response.
+Updated At The date and time when the response was last updated.
+Note If a form response is edited after submission, the updated answer replaces the original answer wherever it appears in reports. Form reports do not maintain a historical snapshot of the earlier response value.
+
+Question Fields in Form Reports
+When you select a form template, every question on that template becomes a reportable field.
+The field label is based on the question text, so you can identify the exact question you want to include in the report.
+For example, if a form question is What is the customer’s launch timeline? , that question appears as a field in the report builder.
+Note Renaming a question does not break saved reports. Saved reports continue to reference the underlying question even if the question text changes later.
+
+Choice-Based Questions
+For choice-based questions, reports show the option label instead of a raw stored value.
+This applies to question types such as:
+
+Dropdowns
+
+Radio buttons
+
+Checkboxes
+For example, if the selected value is High Priority , the report displays High Priority .
+
+Miscellaneous Question Types
+Some form question types behave differently in reports.
+Question type Reporting behavior
+Matrix questions Each matrix row becomes its own reportable field. The matrix header itself is not reportable.
+Statement or instruction blocks These do not collect responses, so they are not available as report fields.
+Note Deleting a question from a form template does not remove its historical response data from reports. Past answers continue to appear in reports. Deleting a question only hides it from future form submissions.
+
+Excluded Fields
+Form reports do not support all fields from related objects.
+You cannot include:
+
+Custom fields from Projects, Tasks, or Companies.
+
+User or Role data.
+
+Time tracking data.
+
+Budget or financial data.
+These fields are not connected to Forms in Tabular or Pivot reports.
+Tip If you need to analyze a form answer alongside time tracking, budget, or a custom field, map the question to a Project field while building the form. When the form is submitted or edited, the answer syncs into that Project field. You can then use that Project field in Project-sourced reports.
+
+Note Mapping to a Task field works differently. It only seeds the value on a new task created by the form’s automation. It does not sync the answer into an existing task. This mapping works in one direction. Reporting from the Form source still does not show Time tracking, User, Role, or Budget data.
+
+How Forms Connect to Other Data
+Every form is connected to a task, a project, and a company. Because of this, Form reports can include identifying details from these related records.
+This works similar to how a People report can show related project fields.
+You can include standard fields from:
+
+Project
+
+Task
+
+Company
+Examples of related fields include:
+Object Example fields
+Project Project Name, Start Date, Due Date, Project Owner
+Task Task Name, Task Status, Assignees
+Company Company Name, Company Stage
+Use related project, task, or company fields to add context to form responses.
+Examples:
+
+Add Project Name to see which project each response belongs to.
+
+Add Task Status to see whether the task linked to the form is still open.
+
+Add Company Stage to understand the customer relationship stage tied to each response.
+
+Use Formula Fields with Form Reports
+You can create formula fields in Form-sourced reports to calculate values from form data. Just click +Add Fields > New Formula Field
+
+For example, you can create a formula that:
+
+Combines two number questions.
+
+Uses Submission Count in a calculation.
+
+Calculates based on a date question.
+
+Calculates based on a currency or rating question.
+A new formula in a Form report can use:
+
+Submission Count
+
+Submission Date
+
+Updated At
+
+Number questions
+
+Currency questions
+
+Rating questions
+
+Date questions
+Note Project, Task, and Company fields are not available as formula ingredients in a Form report. This follows the same restriction as Pivot Values.
+
+To learn more about Formula Fields, refer to this article
+
+Template Scope for Formula Fields
+Formula fields in Form reports are scoped to the selected form template.
+A formula created for one template appears only in reports built using that same template. It does not carry over if you switch templates or create a report using a different form template.
+Tip If you need a formula that combines a form answer with Project, Task, or Company data, map the form question to a Project field first. Then, build the formula in a Project-sourced report where that field is available.
+
+This works reliably for Project fields. Mapping to a Task field only seeds a value on a newly auto-created task, so it is not a dependable way to get form answers into an existing task’s fields.
+For more information on formula setup, see Formula Fields in Rocketlane: A Comprehensive Guide .
+
+Use Form Data in Dashboard Cards and Charts
+Forms can also be used as a data source for dashboard Cards and Charts.
+Cards and Charts use the same form template picker as reports.
+Only the following fields can be used as the value being measured or charted:
+
+Submission Count
+
+Number question fields
+
+Currency question fields
+
+Rating question fields
+Note The same value rule used for Pivot reports applies to dashboard Cards and Charts. Project, Task, and Company numeric fields are not available as the measured value for Form-sourced Cards and Charts.
+
+Grouping and Filtering Columns
+Form reports include date fields that you can filter and group by.
+Use these fields to analyze trends:
+
+Submission Date
+
+Updated At
+For example, you can group by Submission Date to understand how form submissions change over time.
+
+Note Form reports do not currently support the one-click time period zoom that automatically groups data by Day, Week, Month, Quarter, or Year. To view trends over time, manually group by Submission Date in a Pivot report.
+
+Related Articles
+
+Understanding Rocketlane’s Forms Feature
+
+Guide to setting up and managing Custom reports
+
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Level Permissions
+
+Who can view form responses in Rocketlane, and how can they be shared with customers?
+
+Account Level Default Permissions
+
+Rocketlane's Forms Feature: An Introduction
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

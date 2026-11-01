@@ -1,0 +1,279 @@
+TITLE: Creating Posting Periods in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000750769-creating-posting-periods-in-rocketlane
+
+Creating Posting Periods in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Creating Posting Periods in Rocketlane
+
+Creating Posting Periods in Rocketlane
+
+Created by Advaith R, Modified on Wed, 28 Oct at 6:37 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+Finance teams close their books period by period, and once a month or quarter is reported, the revenue in it should not move. Posting periods give the revenue recognition ledger that structure: every revenue entry belongs to a posting period, and closed periods can be locked so their recognized revenue stays final.
+In this article
+What is a posting period
+Posting period rules
+Create a posting period
+Delete a posting period
+Lock posting periods
+Change or remove a lock
+Auditability
+FAQ
+Summary
+
+What is a posting period
+A posting period refers to a specific timeframe (usually a month, quarter, or year) during which financial transactions can be recorded, or posted, into the accounting system, for example:
+
+A month, such as 1 January to 31 January
+
+A quarter, such as 1 January to 31 March
+
+A week, for organizations that close books weekly
+
+The finance team:
+
+Configures posting periods in Settings
+
+Recognizes revenue against these periods
+
+Locks periods when books are closed so that entries cannot be changed
+
+Posting period rules
+
+Posting periods cannot overlap.
+
+Posting periods need to be contiguous.
+
+Posting periods support 4-4-5 calendars or non-calendar fiscal months.
+
+Each posting period needs a unique name.
+
+Create a posting period
+You need the Can create posting periods permission.
+
+Click your profile icon and select Settings .
+
+In the left sidebar, click Revenue recognition ledger and select Posting periods .
+
+Click Create posting period .
+
+In New posting period , enter the Period name and set the Start date and End date .
+
+Click Create posting period .
+Note If no posting periods exist yet, the Revenue essentials page shows a banner, "No posting periods yet. Create your first posting period to start recognising revenue." Click Create here to go straight to Posting periods .
+
+Delete a posting period
+You need the Can delete posting periods permission. Deleting a posting period permanently removes it, so Rocketlane asks you to confirm in Delete posting period .
+Rule What you see
+Only the most recent posting period can be deleted. "Only the most recent period can be deleted."
+A posting period that contains recognized revenue entries cannot be deleted. Remove its entries first. "This posting period cannot be deleted because it contains recognised revenue entries. Remove all entries from this period first to delete it."
+
+Lock posting periods
+Once a month or quarter is closed, the finance team usually wants to prevent any further changes. Locking works up to a posting period: when you lock a period, it and every period before it are locked.
+To lock posting periods:
+
+Click your profile icon and select Settings .
+
+In the left sidebar, click Revenue recognition ledger and select Revenue essentials .
+
+Go to Lock posting period .
+
+Under Lock recognised revenue up to a posting period , select the last posting period that is ready to be closed in Posting period: .
+
+Confirm the lock.
+Before the lock is applied, Rocketlane may warn you about gaps:
+Warning What it means
+Revenue not recognized for {count} projects Some projects have no recognized revenue up to the selected posting period. Review them before you lock, or click Proceed anyway .
+Time entries haven’t been locked Time entries are still open up to the selected posting period. Lock them first, or click Proceed anyway .
+
+After a period is locked
+
+Revenue entries in that period cannot be created, edited or deleted (recognized amounts are frozen), except by users with the Can manage locked revenue recognition entries permission. The settings page describes this as admin-only access.
+
+Notes and attachments can still be edited or added, even after lock.
+
+Recognized revenue for that period becomes final and stable.
+If corrections are required, they are usually recorded in a future posting period rather than by modifying past periods. This mirrors standard accounting practice for closing books.
+
+Change or remove a lock
+Users with the Can manage revenue locking permission can set or change the lock period. To reopen periods, select an earlier posting period under Lock recognised revenue up to a posting period ; every period after the new selection is unlocked. To remove the lock entirely, clear the selected posting period.
+
+Auditability
+The audit log captures at least the date created and date modified for revenue entries. To see an individual entry's history, open its More actions menu in the ledger and select Audit logs . For more information, see Managing the Revenue Recognition Ledger in Rocketlane .
+
+FAQ
+
+Why can't I delete a posting period?
+Only the most recent posting period can be deleted, and only if it contains no recognized revenue entries. Remove its entries first, then delete it.
+
+Can anyone add revenue to a locked period?
+Only users with the Can manage locked revenue recognition entries permission can create, edit or delete entries in a locked period. Everyone else can still add or edit notes and attachments.
+
+I locked the wrong period. How do I undo it?
+A user with Can manage revenue locking can select an earlier posting period under Lock recognised revenue up to a posting period , which unlocks every period after it, or clear the selection to remove the lock.
+
+Summary
+
+Posting periods are contiguous, non-overlapping timeframes that every revenue entry belongs to.
+
+Create and delete them in Settings under Revenue recognition ledger, Posting periods.
+
+Only the most recent period can be deleted, and only when it has no revenue entries.
+
+Locking applies to the selected period and every period before it.
+
+Locked periods are frozen except for users with the locked-entries permission. Notes and attachments stay editable.
+
+Users with Can manage revenue locking can move the lock earlier to reopen periods.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,216 @@
+TITLE: Operations Insights Report: The Tracked vs Planned Tab : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000711806-operations-insights-report-the-tracked-vs-planned-tab
+
+Operations Insights Report: The Tracked vs Planned Tab : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Operations Insights Report: The Tracked vs Planned Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Created by Niharika Pandey, Modified on Tue, 1 Nov, 2022 at 1:31 PM by Niharika Pandey
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+The Operations Insights Report lets you have an insight into the nitty- gritty of how projects, phases and tasks are being executed in your account. You can take a deep dive into each project, phase and task and view trends and charts that help you analyse what works for you and what needs improvement.
+
+This report also draws comparisons between planned versus actual timelines to help you get a better idea of what is being completed ahead of time and what is lagging behind. View trends for specific time periods by applying relevant filters, compare data that has been statistically presented to you and find areas of excellence as well as improvement, all through the Operations Insights Report.
+
+Operational Insights Report: The Tracked vs Planned Tab
+
+This tab gives you an overview of the hours tracked vs the planned effort for templates and tasks in specific.
+
+You can quickly identify how many excess hours have been planned, billable hours tracked, non billable hours tracked and under which category have they been tracked.
+
+Templates
+
+Hours tracked by project: Table
+
+Template
+The template used for project creation
+
+Planned Effort
+The average number of hours of effort added during project creation
+
+Average Hours Tracked
+The average of number of hours tracked for all projects created using the respective template
+
+% of planned effort
+Indicates the percentage of planned effort that has been tracked
+
+Excess hours of planned
+This indicates the difference between the average planned effort and the average tracked hours
+
+Avg. Billable tracked
+Indicates the percentage as well as average number of hours tracked in the billable category
+
+Avg. Non-Billable tracked
+Indicates the percentage as well as average number of hours tracked in the non-billable category
+
+Tasks
+
+Hours tracked by tasks: Table
+
+Task
+Name of the task
+
+Template
+Name of the template to which the task belongs
+
+Phase
+Name of the phase to which the task belongs
+
+Planned Effort
+The average number of hours of effort added for the task during project creation
+
+Average Hours Tracked
+The average of number of hours tracked for the tasks in all projects created using the respective template
+
+% of planned effort
+Indicates the percentage of planned effort that has been tracked
+
+Excess hours of planned
+This indicates the difference between the average planned effort vs the average tracked hours
+
+Avg. Billable tracked
+Indicates the percentage as well as average number of hours tracked in the billable category
+
+Avg. Non-Billable tracked
+Indicates the percentage as well as average number of hours tracked in the non-billable category
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Operations Insights Report: By Template Tab
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+How to read the sprints report
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

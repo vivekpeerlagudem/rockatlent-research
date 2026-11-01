@@ -1,0 +1,194 @@
+TITLE: Adding Documents to Your Project on Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000662922-adding-documents-to-your-project-on-rocketlane
+
+Adding Documents to Your Project on Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Adding Documents to Your Project on Rocketlane
+
+Adding Documents to Your Project on Rocketlane
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:27 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Spaces
+
+Articles in this series
+
+What are Spaces?
+
+Private and Shared Spaces
+
+Embedding a File in Spaces
+
+Rocketlane Documents
+
+Adding Documents to Your Project on Rocketlane
+
+How to Create a New Blank Rocketlane Doc?
+
+No article available
+
+In this article
+
+Creating a native Rocketlane document
+
+Embedding external documents and files
+
+Creating a document from a template
+
+Rocketlane enhances your onboarding experience by enabling your internal teams and customers to access all documents related to a project from one single space. You can read more about Private and Shared Spaces here .
+Note You can create or add documents common to all projects while creating the project template. This ensures all the documents are readily available when the template is used. Add documents specific to a customer in the Shared Spaces section within a project.
+
+To create or add a document to a template or project, click a phase in the shared or private spaces section where the document needs to reside. You can add or embed a document or file using three options:
+
+Blank document
+
+Embed URL
+
+Use a template
+
+Creating a native Rocketlane document
+
+Open the document editor page to create a native Rocketlane document by clicking Blank document . Give the document a title and add content.
+
+Use the toolbar to change formatting and add tables, images, panels, and tasks to the document.
+
+Add panels to the document to highlight important sections and information.
+
+Highlight the native Rocketlane document’s content to add tasks and comments, both private and public. Use the window to the right of the document editor to collaborate internally and externally and access all the comments and tasks related to this document.
+
+You can also embed tasks within a document.
+
+You can also create multiple documents in a phase by clicking the + button at the top of the editor.
+
+Embedding external documents and files
+
+To add documents that are created outside of Rocketlane, click Embed URL . Paste the document URL and click Embed .
+
+Note Ensure the person viewing the embedded document has access to it.
+
+Collaborate and add tasks to these documents by clicking the Conversations button on top of the document.
+
+Note All tasks that are added to the documents will get appended to the task list.
+
+Creating a document from a template
+In addition to this, Rocketlane allows you to turn native Rocketlane documents into document templates. This way, you do not need to create these documents from scratch each time, and you can use them across multiple templates or projects. More information on this is available here .
+To create a document from a template, click Use a template and choose the required document template from the template list.
+Note If a document template is modified, these changes will not be reflected in the projects where it was applied before the edits were made.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What are Spaces?
+
+Embedding a File in Spaces
+
+Spotlighting on Rocketlane
+
+Adding SmartFill to Templates and Projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

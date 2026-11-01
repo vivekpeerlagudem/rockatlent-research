@@ -1,0 +1,197 @@
+TITLE: What are Spaces? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701003-what-are-spaces-
+
+What are Spaces? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+What are Spaces?
+
+What are Spaces?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:17 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+What are Spaces?
+
+Private and Shared Spaces
+
+Embedding a File in Spaces
+
+Rocketlane Documents
+
+Adding Documents to Your Project on Rocketlane
+
+How to Create a New Blank Rocketlane Doc?
+
+No article available
+
+In this article
+
+How to access Spaces
+
+Spaces: Features and Functionalities
+
+Private and Shared Spaces
+
+Blank Document
+
+Embed URL
+
+Use a Template
+
+Rocketlane Documents
+
+The Rocketlane Spaces feature lets you share content related to your project with your team members. You can draft shared documents, mark documents as private, embed URLs for shareable files, and use predesigned document templates.
+
+How to access Spaces
+
+Go to Projects and choose any project.
+
+Click the Spaces tab.
+
+The view for a blank Spaces tab looks like this. You can now start adding content to your Spaces.
+
+Spaces: Features and Functionalities
+
+Search Space Documents Search Bar
+Allows you to look up a specific shared or private document.
+
+Private and Shared Spaces
+To read more about private and shared spaces and how to create spaces, click here .
+Space type Description
+Private Spaces Allows you to privately share documents within your team without involving the customer's team.
+Shared Spaces Allows you to share documents with your team and the customer's team.
+
+Blank Document
+Lets you get started on a blank document from your Rocketlane project.
+To read more about creating a Rocketlane document, click here .
+
+Embed URL
+View your files by adding links from apps and services.
+To read more about embedding a file in Spaces, click here .
+
+Use a Template
+Allows you to choose an existing document template for your document.
+To know more about document templates, click here .
+
+Rocketlane Documents
+Creates collaborative private and shared documents accessible to team members of the project.
+To know more about documents, click here .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Automation Logs in Rocketlane
+
+Sheets Widget in the Customer Portal
+
+Email Page Templates
+
+What is the difference between allocation and utilization?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

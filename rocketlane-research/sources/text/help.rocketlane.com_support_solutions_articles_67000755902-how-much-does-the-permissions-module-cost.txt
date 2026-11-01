@@ -1,0 +1,146 @@
+TITLE: How much does the permissions module cost : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755902-how-much-does-the-permissions-module-cost
+
+How much does the permissions module cost : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How much does the permissions module cost
+
+How much does the permissions module cost
+
+Created by Advaith R, Modified on Thu, 3 Sep at 12:09 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to add a customer team member to a project?
+
+Why is the Customer not receiving the Magic Link in their Email?
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+Why Can't I Upload and Save a Customer Logo?
+
+How much does the permissions module cost
+
+No article available
+
+Custom Role-Based Access Control (RBAC) is exclusively available on the Enterprise plan.
+
+Standard/non-Enterprise plans use Rocketlane's default permission levels. You can review the full details of these default access settings in the following two articles: 1 and 2 .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introducing Expense Management in Rocketlane
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,562 @@
+TITLE: Timesheet Policies in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755077-timesheet-policies-in-rocketlane
+
+Timesheet Policies in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Timesheet Policies in Rocketlane
+
+Timesheet Policies in Rocketlane
+
+Created by Advaith R, Modified on Mon, 27 Jul at 2:13 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Timesheet Policies in Rocketlane
+
+No article available
+
+Timesheet Policies let teams set rules for how time should be logged in Rocketlane using plain English. Rocketlane turns each rule into a working policy that flags or blocks time entries that do not meet the rule.
+Instead of relying on managers, approvers, or finance teams to catch issues later during approvals, billing, reporting, or reconciliation, Timesheet Policies validate time entries as they are created, edited, or submitted.
+Policies are created through conversation. Describe the rule in plain language, and Rocketlane identifies the fields, conditions, and logic needed to enforce it.
+Timesheet Policies are part of Rocketlane’s Timesheet Governance agent, available under Nitro AI capabilities.
+In this article
+
+What Timesheet Policies Do
+
+When to Use
+
+Policy Types
+
+How Multiple Policies Work Together
+
+Navigating to Timesheet Policies
+
+Creating a Policy
+
+Testing a Policy Before Going Live
+
+What Users See When a Policy Triggers
+
+Example Policies
+
+Managing Policies
+
+Best Practices
+
+Frequently Asked Questions
+
+What Timesheet Policies Do
+Every services team has time-tracking rules. For example:
+
+Engineers should not log more than 40 hours in a week.
+
+All time logged on customer projects should include notes.
+
+Time should not be logged against completed tasks or closed projects.
+
+Billable work should be tagged correctly.
+
+Budget thresholds should not be exceeded silently.
+Timesheet Policies let teams define these rules once and have Rocketlane enforce them wherever time is logged.
+For example: Flag time entries on a project once we cross 80% of its budget.
+
+Rocketlane evaluates time entries in the background and identifies entries that conflict with the policy.
+Use Timesheet Policies to:
+
+Catch errors early, such as unusually long entries, missing notes, or time logged on closed work.
+
+Enforce billing hygiene by ensuring billable work is categorized correctly and rates or budgets are not missed.
+
+Reduce the review burden on approvers by catching issues before approval.
+
+Match business-specific rules across roles, regions, project types, customers, or custom fields.
+
+When to Use
+Use Timesheet Policies when:
+
+Timesheet volume is high and correctness becomes reactive.
+
+Time entries are logged quickly to meet deadlines.
+
+Approvals become routine and issues are discovered only later.
+
+Errors such as missing notes, wrong projects, wrong billing classification, or incorrect time categories surface during invoicing, margin reviews, or finance reconciliation.
+
+Different teams, roles, regions, or project types need different time-tracking rules.
+Timesheet Policies shift quality control upstream. Conflicts are flagged or blocked before submission or approval, reducing downstream corrections and manual follow-up.
+
+Policy Types
+Every policy belongs to one of three types. The policy type determines how strict the enforcement should be when a time entry conflicts with the rule.
+The rule creation process is similar across all three types. Choose the policy type based on what should happen when the rule is triggered.
+
+Flag for Review
+A Flag for review policy allows the time entry to be saved and submitted, but highlights it for review.
+Use this when the issue should be visible to approvers, but not blocked outright.
+Example: Flag time entries when a project crosses 90% of its budgeted hours.
+
+When a policy triggers, the entry appears in orange with a note explaining what needs attention. Approvers can still approve flagged entries, but they know to review them more carefully first.
+Validation runs whenever time is logged, updated, or deleted. If a later valid entry resolves the conflict, previously flagged entries in scope are automatically unflagged.
+Use this type for rules such as:
+
+Flag entries over 3 hours without notes.
+
+Flag entries logged on weekends.
+
+Flag entries when a monthly total is less than the required threshold.
+
+Flag entries when billable time falls below a user’s expected capacity.
+
+Block Creation
+A Block creation policy prevents a time entry from being saved if it violates the rule.
+Use this for hard constraints where the user must correct the entry before moving on.
+Example: Block creation of time entries on completed tasks.
+
+When this policy triggers, the person logging time sees the reason and must fix the entry before it can be saved.
+Use this type for rules such as:
+
+Block time entries on completed tasks.
+
+Block time entries without required notes.
+
+Block time entries on dates where time off is recorded.
+
+Block entries shorter than 15 minutes.
+
+Block single entries above a defined duration.
+
+Block Submission
+A Block submission policy allows time entries to be saved, but prevents the timesheet from being submitted until the conflict is resolved.
+Use this when the issue is about completeness or readiness for approval, rather than the individual act of logging time.
+Example: Block submission if the weekly total is less than the user’s capacity.
+
+This policy type sits between Flag for review and Block creation:
+
+Time logging is not interrupted.
+
+Entries can be saved and edited.
+
+Submission is blocked until the issue is fixed.
+Use this type for rules such as:
+
+Block submission if the week has less than 40 hours.
+
+Block submission if required notes are missing.
+
+Block submission if any entry exceeds a daily threshold.
+
+Block submission if last week’s timesheet is not approved.
+
+How Multiple Policies Work Together
+You can have many policies of each type running at the same time. Each policy evaluates independently.
+If more than one policy applies to the same time entry, the strictest applicable enforcement wins.
+For example:
+
+If one policy flags an entry and another blocks creation, the entry cannot be saved.
+
+If one policy flags an entry and another blocks submission, the entry can be saved but cannot be submitted until the blocking issue is resolved.
+
+Navigating to Timesheet Policies
+Timesheet Policies are managed inside the Timesheet Governance agent.
+To navigate:
+
+Click the sparkle icon from the left sidebar.
+
+Select Agents .
+
+Select Timesheet Governance . [image: Agents dashboard showing the Timesheet Governance card]
+This opens the Time tracking policies page, which is the central hub for creating and managing policies.
+The page is organized into three tabs:
+
+Flag for review
+
+Block creation
+
+Block submission [image: Time tracking policies dashboard with policy-type tabs and the New policy button]
+
+Creating a Policy
+Policies are created in conversation. Choose the policy type, describe what should be enforced, and Rocketlane generates the policy.
+To create a policy:
+
+Open Settings > Timesheet Governance .
+
+Choose the policy type: Flag for review , Block creation , or Block submission .
+
+Click + New policy .
+
+Describe the rule in plain language. [image: Flag for review policy builder with an eight-hour minimum requirement entered]
+Example: Flag time entries on a fixed-fee project if the entry isn’t associated with a milestone task.
+
+Rocketlane reads the rule, identifies the fields and conditions involved, and generates a plain-language policy preview.
+If the rule needs refinement, continue the conversation and tell Rocketlane what to change. For example:
+Actually, apply this only to implementation projects.
+
+Rocketlane updates the policy based on the additional instruction.
+
+What a Policy Can Reference
+A policy can reference different Rocketlane objects and fields, including:
+Area Examples
+People Roles, regions, employment type, capacity, skills, location, level, custom fields
+Projects Status, type, practice, budget, billing model, custom fields
+Tasks Status, due date, assignee, effort, task type, custom fields
+Time entries Duration, billable flag, notes, category, date, custom fields
+Allocations Planned hours vs tracked hours
+Time periods Weekdays, weekends, current month, last 30 days, subscription periods
+Policies can combine multiple conditions in one rule.
+Example: For Implementation Managers in North America, flag the week if billable time is under 80% of capacity.
+
+This policy references role, region, billable time, and capacity in a single rule.
+
+Reviewing the Generated Policy
+After Rocketlane generates the policy, review the preview before creating it.
+The policy preview includes:
+
+Policy name
+
+Description
+
+How it works
+
+User message
+For Flag for review policies, the preview also includes how flags are applied, including when entries are flagged and when they are automatically unflagged.
+The user message is the explanation shown to the person logging time when the policy triggers. Review and refine it so it is clear and useful for your team.
+
+Testing a Policy Before Going Live
+Every policy includes a Test Policy option. Use it to simulate time entries before enabling the policy for your team.
+Testing opens a simulation environment that uses the same timesheet-style experience your team uses when logging time. Existing entries for the week are pulled into the simulation so the test reflects real context. [image: Timesheet policy simulation sandbox with Add project and Exit testing controls]
+To test a policy:
+
+Click Test policy from the policy creation screen.
+
+Log or edit time in the simulation.
+
+Check whether the policy triggers as expected. [image: Five-hour time entry flagged for review with the policy-conflict message]
+
+Review the message shown to the user.
+
+Refine the policy if needed.
+
+Exit testing and return to the policy editor.
+Note Testing does not affect actual timesheet data.
+
+Once the policy works as expected, enable it. The policy applies to new entries from that point forward.
+Note Existing entries are not retroactively flagged or blocked. Policies are forward-looking.
+
+Testing Flag for Review Policies
+When testing a Flag for review policy, log time in the simulation as usual.
+If a time entry triggers the policy:
+
+The entry is highlighted.
+
+A tooltip appears on the entry.
+
+The tooltip shows the flag indicator, conflict count, and user message.
+The tooltip includes:
+
+A flag indicator labeled This time entry is flagged for review
+
+The number of policy conflicts on that entry
+
+The exact user message configured in the policy
+Example message: Your total logged time this month is less than 40 hours. Please review your timesheet for completeness.
+
+Testing Block Creation Policies
+When testing a Block creation policy, log time in the simulation as usual.
+If a time entry violates the rule:
+
+The entry cannot be saved.
+
+A message explains what needs to be corrected.
+
+The user must update the entry before saving.
+In the simulation, the entry detail panel shows a red warning icon next to the Time tracked field. The error includes:
+
+This time entry could not be created
+
+The number of policy conflicts
+
+The user message defined in the policy
+Example message: You can’t save this time entry because it would exceed the 8-hour daily limit for this task. Please reduce your hours or contact your manager if you worked overtime.
+
+Testing Block Submission Policies
+When testing a Block submission policy, time entries save normally. The policy triggers when the user attempts to submit the timesheet.
+If a conflict exists:
+
+Submission is blocked.
+
+A banner appears at the top of the timesheet.
+
+The affected entry is marked with a warning icon.
+
+The user must resolve the conflict before submitting.
+The red alert banner reads:
+Submission blocked. Policy conflicts detected!
+
+The banner also shows the specific user message configured in the policy. The Submit week for approval button remains visible, but submission is blocked until the conflict is resolved.
+Once the conflict is fixed:
+
+The banner clears.
+
+Submission is allowed.
+
+What Users See When a Policy Triggers
+When a time entry triggers a policy, users see exactly what happened and why.
+Policy type What the user sees
+Flag for review The entry appears in orange with a tooltip explaining the rule that triggered.
+Block creation The entry does not save, and a message explains what needs to change.
+Block submission A banner appears at the top of the timesheet listing the issue blocking submission.
+The message users see comes from the policy itself. Rocketlane generates this message when the policy is created, and it can be edited so it matches your team’s tone and process.
+Policies apply across the places where your team logs time, including:
+
+Weekly timesheet
+
+Project Time tab
+
+Global Time tab
+
+Task drawer
+
+Example Policies
+Here are example policies teams commonly create.
+
+Flag for Review
+
+Flag entries when a project crosses 90% of its budgeted hours.
+
+Flag entries on T&M projects where the cost rate is higher than the bill rate.
+
+Flag Implementation Managers whose weekly billable hours are under 80% of their capacity.
+
+Flag Forward Deployed Engineers in APAC whose weekly billable falls below 65%, or below 70% in other regions.
+
+Flag a week where the user’s tracked hours exceed their allocated hours on the project.
+
+Block Creation
+
+Block creation of time entries shorter than 15 minutes.
+
+Block creation of any single entry over 4 hours for users with the Engineer role.
+
+Block time entries on tasks that are marked Completed.
+
+Block time entries more than 7 days after a task’s due date.
+
+On pre-sales projects, only allow the Business Development category.
+
+Block Submission
+
+Block submission of the current week if last week’s timesheet isn’t approved.
+
+Block submission if more than 30% of the user’s weekly capacity has been logged as non-billable.
+
+Require notes on non-billable entries before submission.
+
+Block submission if any entry exceeds a daily threshold.
+These examples are starting points. If the rule can be described clearly, the agent can usually build it.
+
+Managing Policies
+After policies are created, they can be edited, enabled, disabled, deleted, and audited.
+
+Enable or disable a policy
+Each policy card includes a toggle.
+Policies are disabled by default when first created. Toggle the policy on to activate it. Once enabled, enforcement begins on new time entries immediately.
+Turning a policy off stops it from evaluating new entries.
+For Flag for review policies, existing flags hide while the policy is disabled and reappear when the policy is turned back on.
+For Block creation and Block submission policies, disabling the policy stops enforcement.
+
+Edit a policy
+Open a policy and continue the conversation with the agent.
+Example: Actually make this 50 hours instead of 40.
+
+The change is saved as a new version, and the previous version’s history is preserved.
+
+Delete a policy
+Delete is permanent.
+When a policy is deleted:
+
+Existing flags from that policy are cleared.
+
+The policy no longer evaluates new time entries.
+
+Rocketlane asks for confirmation before deleting.
+Use the three-dot menu on a policy card to delete it. A confirmation dialog appears before deletion.
+
+Search for policies
+Use the search icon in the top-right of the policies list to find a policy by name or description.
+
+Audit policy changes
+Every change to a policy is recorded, including:
+
+Who edited it
+
+When it was edited
+
+What changed
+
+When it was enabled or disabled
+This provides a clear paper trail for governance and compliance.
+
+Best Practices
+
+Start with Flag for review
+Start by flagging entries instead of blocking them. This lets the team see what the policy catches without introducing too much friction.
+After reviewing the flagged entries and refining the rule, convert the policy to a stricter enforcement type if needed.
+
+Test before turning on
+Use Test Policy before enabling a policy. This is especially important when the rule combines multiple conditions.
+Simulate the expected scenarios and confirm the policy triggers only when it should.
+
+Write rules in plain language
+Write rules in language your team understands.
+For example: Flag the week if a Solutions Engineer has less than 32 billable hours.
+This is easier to review than a technical expression such as billable_hours < 32 AND role = SE .
+
+Both may express the same rule, but the plain-language version is easier for teams to understand.
+
+Be specific about scope
+Scope policies clearly.
+For example, a rule that says on fixed-fee projects runs only on fixed-fee projects. If scope is not specified, the policy may apply more broadly.
+
+Frequently Asked Questions
+
+Do policies apply to existing time entries, or only new ones?
+Policies apply only to new entries from the moment the policy is enabled. Historical entries are not retroactively flagged or blocked.
+This prevents a newly enabled policy from creating conflicts on time that has already been submitted or approved.
+
+Can someone override a Block creation policy?
+No. Block creation is a hard guardrail. The entry does not save until the issue is corrected.
+
+What happens to a flagged entry once the rule no longer applies?
+The flag clears automatically.
+For example, if a policy flags entries when billable time is below 80% and the user later adds enough billable time to cross 80%, the previously flagged entries are unflagged automatically.
+
+Do policies work in the mobile app?
+Time entries logged from mobile are evaluated by the policy engine on the server. However, the mobile app does not yet show the full conflict UI, such as gradient highlighting or the conflict drawer.
+For full visibility into policy conflicts, use the web app. Mobile parity is on the roadmap.
+
+Can a policy combine multiple conditions?
+Yes. A policy can combine multiple conditions.
+Example: Flag billable entries by users in the Product role on projects that don’t have ‘Faye Products’ as the practice.
+
+The agent reads the rule as written and creates the corresponding policy.
+
+Can different cohorts of users have different rules?
+Yes. Policies can be scoped by role, region, team, capacity, employment type, or custom fields configured on users.
+Different cohorts can have different policies running at the same time.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+PTO and Timesheets FAQs
+
+How to Manage Timesheet Approvers in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

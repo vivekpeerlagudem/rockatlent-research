@@ -1,0 +1,44 @@
+%% System context and integration architecture (C4 level-1 style). Mechanism notes from docs; [U] = not documented.
+%% Evidence: D1-021..D1-025, D1-036, D1-070..D1-086
+flowchart TB
+  PM(["Delivery team: PMs, consultants, admins"])
+  CU(["Customer users via portal / magic link"])
+  RL["ROCKETLANE<br/>PSA + Nitro AI"]
+  PM --> RL
+  CU --> RL
+  subgraph MEET["Meeting sources"]
+    MS["Microsoft 365 / Teams<br/>Graph, admin consent, app access policy [D]<br/>subscription vs polling [U]"]
+    ZM["Zoom cloud recordings<br/>Zoom API [D]"]
+    GM["Google Meet<br/>Google APIs / Drive [D]"]
+    GG["Gong<br/>Gong API [D]"]
+    CAL["Google / Outlook calendar<br/>per-user, for Notetaker scheduling [D]"]
+  end
+  subgraph MAIL["Email"]
+    MB["User mailboxes<br/>per-user authentication [D]<br/>provider APIs [U]"]
+  end
+  subgraph CRM["CRM"]
+    SF["Salesforce: any object, incl. custom,<br/>auto-create projects + field sync,<br/>idempotent 1:1 mapping [D]"]
+    HS["HubSpot: workflow action 'Create Project',<br/>one- or two-way field sync [D]"]
+  end
+  subgraph WORK["Work management and messaging"]
+    JR["Jira: task-issue create/link,<br/>status, due date and comment sync [D]"]
+    SL["Slack: project channels and notifications [D]"]
+  end
+  subgraph EXT["Developer surface"]
+    API["REST API v1.0, API key [D]"]
+    WHK["Webhooks: currently task triggers only,<br/>Basic Auth, 200/204 success, 10 s timeout [D]"]
+    MCPS["Rocketlane MCP: Claude, ChatGPT, Cursor,<br/>Gemini Enterprise [D]"]
+    IPAAS["Zapier, Workato, embedded iPaaS [D]"]
+  end
+  MS & ZM & GM & GG -->|recordings + transcripts| RL
+  CAL -->|events to schedule Notetaker| RL
+  MB -->|threads| RL
+  SF <-->|projects + fields| RL
+  HS <-->|projects + fields| RL
+  SF -. "accounts and contacts for email mapping [D]" .-> RL
+  JR <-->|issues, status, comments| RL
+  RL -->|updates| SL
+  RL --> WHK
+  API <--> RL
+  MCPS <--> RL
+  IPAAS <--> RL

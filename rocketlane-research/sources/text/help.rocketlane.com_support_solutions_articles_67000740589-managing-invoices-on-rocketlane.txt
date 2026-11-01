@@ -1,0 +1,250 @@
+TITLE: Managing Invoices on Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740589-managing-invoices-on-rocketlane
+
+Managing Invoices on Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Managing Invoices on Rocketlane
+
+Managing Invoices on Rocketlane
+
+Created by Monica Madan, Modified on Mon, 27 Jul at 8:07 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Invoicing on Rocketlane
+
+Quick guide to setting up Invoices
+
+Setting up custom invoice fields
+
+How to draft a new invoice
+
+Invoice list page
+
+Managing Invoices on Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Credit Notes in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+Draft Mode
+
+Review Mode
+
+Approved
+
+How to Write Off Records?
+
+How to Record Payments?
+
+How to Void an Invoice?
+
+How to Delete an Invoice?
+
+Rocketlane streamlines invoice management by allowing you to take specific actions depending on the invoice's current status. Here's a breakdown of what you can do at each stage:
+
+Draft Mode
+In the draft stage, you can:
+
+Edit Invoice : Make changes to the invoice details.
+
+Email Invoice : Send the invoice to the intended recipient via email.
+
+Void : Cancel the invoice, marking it as invalid.
+
+Delete : Permanently remove the invoice from the system.
+
+Additionally, you can add comments or extra information and submit the invoice for review.
+
+Review Mode
+When an invoice is under review, the following actions are available:
+
+Edit Invoice : Update invoice details.
+
+Email Invoice : Share the invoice via email.
+
+Void : Cancel the invoice, marking it invalid.
+
+Move Back to Draft : Revert the invoice to the draft state for further revisions.
+
+During this stage, you can also add comments, additional details, and request approvals or approval chains before finalizing the invoice.
+
+Approved
+Once an invoice is approved, you can:
+
+Edit Invoice : Adjust details even after approval.
+
+Email Invoice : Send the invoice via email.
+
+Void : Invalidate the invoice.
+
+Move to Review : Revert the invoice to the review stage for additional checks or edits.
+
+Write Off : Mark uncollectable amounts as written off.
+
+In this phase, you can also add comments, include supplementary information, and record payments for better tracking.
+
+How to Write Off Records?
+Writing off records involves marking an outstanding invoice amount as uncollectable. This action updates your financial records to reflect that the amount will no longer be pursued for payment.
+In Rocketlane, you can write off an invoice while it's in the review mode or after it has been approved. Follow these steps to write off an invoice:
+
+Navigate to the Invoices section and select the invoice you want to write off.
+
+Click on More Actions and choose Write Off from the dropdown menu.
+
+Enter the following details:
+
+Date : Specify the date of the write-off.
+
+Amount : Enter the amount to be written off.
+
+Notes : Provide a reason or context for why the invoice is being written off.
+
+Save your changes, and the write-off will be recorded.
+
+How to Record Payments?
+Recording payments involves logging the details of a payment received against an invoice. This includes specifying the payment amount, method, and date to update the invoice status as paid or partially paid.
+In Rocketlane, you can record payment against an invoice after it has been approved. Follow these steps to record payment
+
+Navigate to the Invoices section and select the invoice you want to record.
+
+Click the Record payment button
+Enter the following details:
+
+Date : Specify the date of the record.
+
+Amount : Enter the amount to be recorded.
+
+Notes : Provide a reason or context for why the invoice is being recorded.
+
+Save your changes, and the payment will be recorded.
+
+How to Void an Invoice?
+Voiding an invoice means canceling it and marking it as invalid. A voided invoice remains in the system for reference but is excluded from financial calculations. You can void an invoice at any point.
+
+How to Delete an Invoice?
+Deleting an invoice permanently removes it from the system. This action erases all records of the invoice, making it irretrievable. You can delete the invoice only in the draft mode.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Rocketlane Project Management
+
+Managing Invoicing Permissions in Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

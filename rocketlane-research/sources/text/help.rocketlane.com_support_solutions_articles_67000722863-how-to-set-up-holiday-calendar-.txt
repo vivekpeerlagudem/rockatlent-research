@@ -1,0 +1,215 @@
+TITLE: Setting up holiday calendar : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000722863-how-to-set-up-holiday-calendar-
+
+Setting up holiday calendar : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+How to set up Holiday Calendar?
+
+How to set up Holiday Calendar?
+
+Created by Monica Madan, Modified on Wed, 6 Mar, 2024 at 3:43 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Apply for Time Off in Rocketlane?
+
+How to set up Holiday Calendar?
+
+How to automate Out-of-Office responses and assign stand-In team members to help customers
+
+No article available
+
+Ensure project timelines stay on track by effectively managing calendar holidays and preventing delays. In Rocketlane, you can now set up a holiday calendar that enhances visibility into resource availability during allocations.
+
+Now, the weekly capacity of your team members will exclude their time offs and holiday hours.
+
+In this article
+
+Creating and editing Holiday Calendar
+
+Assigning Holiday calendars to Team members
+
+Impact areas
+
+Creating and editing Holiday Calendar
+To create a holiday calendar,
+
+Login as an admin and navigate to your avatar
+
+Select settings and get to the Accounts section
+
+Select Holiday calendar
+
+Click the Create new calendar button
+
+Name the calendar (for example Holidays for the US region)
+
+Click A dd new holida y and name the holiday (example: Christmas Day)
+
+Choose the date or set a start and end date based on the holiday type.
+
+Click Create
+
+Toggle the holiday calendar on to enable it
+
+Note: The holiday calendar needs to be updated every year and assigned to the team members for it get reflected on timesheets.
+
+To edit a holiday calendar,
+
+Click on the three dots near the calendar
+
+Click edit holiday calendar
+
+Make the necessary edits and click update
+
+If you wish to remove a holiday, click the delete icon but note that this will affect your team’s total capacity.
+
+Assigning Holiday calendars to Team members
+
+Now, if you have team members who work around the world, you can assign them a holiday calendar.
+
+Navigate to your avatar
+
+Under Settings , go to Accounts
+
+Select Team member
+
+Click on the three dots near a team member and
+
+Click view details
+
+Click Edit profile and add a calendar to the Holiday Calendar section
+
+Users can see their holiday calendar under Profile settings.
+
+Note: if users apply time-off for a date that was marked as a holiday in their holiday calendar, the system will skip that entry.
+
+Impact areas
+Under Timesheets
+While submitting and approving time on timesheets, if the day of the week is a holiday, the user will be notified of it.
+
+Under Resource Management
+While allocating resources, if a team member has holidays coming up, it will show up at the time of allocation.
+
+Under Time tracking report
+The weekly capacity of your team will exclude time-offs and holiday hours
+
+=
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Configure How Utilisation Is Calculated
+
+Allocations and Accomodations
+
+PTO and Timesheets FAQs
+
+Partners in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

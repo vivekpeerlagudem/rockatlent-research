@@ -1,0 +1,158 @@
+TITLE: How to automate Out-of-Office responses and assign stand-In team members to help customers : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000737507-how-to-automate-out-of-office-responses-and-assign-stand-in-team-members-to-help-customers
+
+How to automate Out-of-Office responses and assign stand-In team members to help customers : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+How to automate Out-of-Office responses and assign stand-In team members to help customers
+
+How to automate Out-of-Office responses and assign stand-In team members to help customers
+
+Created by Monica Madan, Modified on Wed, 14 Aug, 2024 at 9:17 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Apply for Time Off in Rocketlane?
+
+How to set up Holiday Calendar?
+
+How to automate Out-of-Office responses and assign stand-In team members to help customers
+
+No article available
+
+When team members take time off during a project, customers need to be notified, especially if they @mention those team members in project chats . It's also important to have another team member ready to help with any urgent questions. Rocketlane makes this easy by letting you set up out-of-office messages and assign backup team members to respond when someone is away.
+
+Here’s how to set it up:
+
+To set this up, follow these steps:
+
+Log in as an admin and go to your avatar.
+
+Click on Settings and scroll down to the Accounts section.
+
+Select "out of office" and enable the feature.
+
+Draft and add the message that needs to be sent out to customers when project team members are out of office.
+
+Use smart-fills to include the end date of the time off to provide accurate information about when the project team members will be back.
+
+Add a team member or placeholder as a stand-in team member to be notified of customer interactions when the team members are out of office.
+
+Once configured, whenever a customer mentions a team member who is in their time off period, the out-of-office message that you configured will be sent to them. Additionally, the stand-in team member will be notified of the message the customer mentioned the user in, so that they can respond and assist the customer in the absence of other project team members.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why are users being automatically re-added to my Rocketlane projects after I remove them?
+
+Who can view form responses in Rocketlane, and how can they be shared with customers?
+
+How to set up permissions for team members and customers (RBAC)
+
+How to Add Partners to your Rocketlane Projects?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

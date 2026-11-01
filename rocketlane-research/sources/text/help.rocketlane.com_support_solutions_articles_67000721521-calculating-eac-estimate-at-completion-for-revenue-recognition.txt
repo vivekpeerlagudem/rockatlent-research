@@ -1,0 +1,219 @@
+TITLE: How to caculate EAC (Estimate at completion) in project management? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721521-calculating-eac-estimate-at-completion-for-revenue-recognition
+
+How to caculate EAC (Estimate at completion) in project management? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Calculating EAC (Estimate at completion) for revenue recognition
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:58 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+EAC (Estimate at Completion): refers to the projected total number of hours required to complete a project.
+
+ETC (Estimate to Complete): refers to the remaining number of hours the system forecasts the project needs to complete based on the resource allocation plan.
+
+Take a course on Financial Management here.
+
+In this article
+
+EAC (Estimate at Completion)
+
+ETC (Estimate to Complete)
+
+Calculation for ETC and EAC
+
+If resources are not "auto-allocated"
+
+If resources are "auto allocated:"
+
+By using the EAC, project managers can gain insight into the expected total hours needed to complete the project and make informed decisions regarding resource allocation, scheduling, and budgeting.
+
+For example: if the Estimated at Completion (EAC) exceeds the allocated budget for a project, it serves as an early indication that there is a potential for going over budget. Recognizing this allows project managers to take proactive measures rather than reacting after the budget has already been surpassed. This proactive approach enables more effective budget management throughout the project's duration.
+
+Calculation for ETC and EAC:
+In Rocketlane, you can allocate resources for your projects manually or use auto-allocate to take care of resource allocation for you. The calculation of ETC and EAC depends on whether the project was auto-allocated or manually allocated.
+
+If resources are not "auto-allocated"
+
+ETC = The sum of all the remaining hours from today onwards based on the existing resource allocation data.
+
+EAC = ETC + Total tracked hours
+
+Let's consider a project called "Modert," which lasts 20 days. The budgeted hours for the project is 200h and t he resources allocated on the project is 8h/day for 20 days = 160h
+
+Today is Day 4 (September 21st) of the 20 day project. The time tracked by the resources in timesheets until today (Day 4) is 24h
+
+Now, the ETC is the remaining number of allocated hours from today (Day 4)
+
+ETC = 16 (remaining days)* 8h/day = 128h
+
+EAC = 128h (ETC) + 24h (tracked hours) = 152h
+
+If resources are "auto allocated:"
+
+ETC = For all tasks that are not yet completed, ETC is the sum of the difference between the estimated effort and the tracked hours for that task.
+
+If the tracked hours for a task are greater than or equal to the estimated effort, then ETC for that task as 0.
+
+EAC = ETC + Total tracked hours.
+
+Let’s consider a sample project Acme with the below information:
+
+Here,
+
+Total budgeted hours = 60h
+
+Total Allocated hours = 50h
+
+Sum of tracked hours for completed and in-progress tasks = (7+8+6)h = 21h
+
+ETC = ((10-6) under requirement gathering task)4 + 10 +10)h = 24h
+
+EAC = ETC + Tracked hours = 45h
+
+It's important to note that these calculations rely on the available information within the system and are continuously updated as progress is made on projects and tasks. By ensuring that task statuses and tracked hours accurately reflect reality, you can obtain precise insights for your projects.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Overview
+
+Understanding revenue recognition for Fixed Fee projects
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

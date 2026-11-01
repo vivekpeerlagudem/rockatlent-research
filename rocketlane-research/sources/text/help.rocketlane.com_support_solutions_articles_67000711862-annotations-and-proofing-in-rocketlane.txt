@@ -1,0 +1,274 @@
+TITLE: Annotations and Proofing in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000711862-annotations-and-proofing-in-rocketlane
+
+Annotations and Proofing in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Annotations and Proofing in Rocketlane
+
+Annotations and Proofing in Rocketlane
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:43 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Annotations and Proofing in Rocketlane
+
+No article available
+
+In this article
+
+Adding an attachment to a Task
+
+Basic Image Annotation Options
+
+Versions
+
+Version Comparison Views
+
+Hide/Show Comments Section
+
+Copy link to Clipboard
+
+Download Image
+
+Open Parent Task
+
+Annotation Logs
+
+The Annotations & Proofing tool in Rocketlane helps streamline your review and approval process, enhance client participation, track file versions, and manage creative projects more efficiently.
+Use Rocketlane to avoid searching through project Slack channels and inboxes for the most recent comments and asset revisions. Accelerate your approval and review process and empower your creative team to focus on important tasks.
+
+Adding an attachment to a Task
+Let's begin with how you can add attachments to a task and preview them.
+Go to the task, click Add attachment , and choose the image.
+You can preview the image by clicking it. To add annotations, click Annotate .
+
+Basic Image Annotation Options
+You can annotate images by highlighting certain parts of the image or by adding a comment to the image.
+Note The highlight options, including arrow, rectangle, and freehand, are always accompanied by a comment. All these comments will be added to the comments section in the right panel.
+
+View
+This is the default tab, which allows you to view the current state of the image.
+
+Comment
+The comment option allows you to add a comment to your image. Type your comment in the text box and click Add to add the comment. Click Cancel to delete the comment.
+You can mark your comment as shared or private by clicking the eye icon.
+
+Private Comments: Private comments will only be visible to members of your team and not your customer's team.
+
+Shared Comments: Shared comments will be visible to all project members, including the customers you have added.
+
+Arrow
+The arrow option allows you to add a resizable arrow to your image to highlight certain parts. Add a comment to the arrow as annotation feedback. Click Add from the dialog box to add the annotation.
+
+Rectangle
+The Rectangle option allows you to add a resizable rectangle to your image. Add a comment to the rectangle as annotation feedback. Click Add from the dialog box to add the annotation.
+
+Freehand
+The freehand option allows you to create drawings freely. Add a comment to the freehand annotation as feedback. Click Add from the dialog box to add the annotation.
+
+Colour
+The colour option lets you pick a colour for annotation options like Arrow , Rectangle , Freehand , and Comment .
+
+Zoom to fit
+Fit your image in the viewing window using the Zoom to fit option.
+
+Zoom in
+Zoom into the image to help with annotations.
+
+Zoom out
+Zoom out of the image to help with annotations.
+
+Rotate clockwise
+Rotate the image clockwise.
+
+Show/Hide annotations
+Switch between viewing the actual image and the image with annotations.
+
+Versions
+The versioning functionality allows you to add different versions to the same attachment thread. Adding versions allows you to compare two different versions side by side or in overlay mode to draw better comparisons. This is especially helpful when proofing documents or creatives.
+Click the Versions icon from the menu bar on the top right to view the Version History panel on the left side of the screen.
+
+Adding a version
+To add a new version of your attachment, click New version from the Version History panel on the left and browse for image files or PDFs to upload.
+
+Version History
+You can view all versions from the version history panel on the left. The versions get a number starting from one and are numbered in the order in which they are added.
+You can also view a log of deleted versions from the version history panel. This helps maintain the numbering and track record of how many versions have been updated.
+
+Deleting a version
+From the version history panel on the left, you will see thumbnails of all the versions. From the thumbnail of a version, click the More actions icon and select Delete .
+A log of the deleted version will be maintained under Version History for future reference.
+
+Current Version
+The current version is the thumbnail you see in the task when you preview the attachment. The current version is also the default version for comparison when you choose to compare versions.
+You can mark any version as the current version by clicking More actions > Make current version from the version's thumbnail under Version History .
+
+Comparing Versions
+You can compare two versions by clicking Compare with version from the menu options available at the top of the screen. You can choose to compare the version you are currently viewing with any version on the list by selecting that version. By default, the version you are currently viewing will be selected.
+Note You can change the version later when you are in the Version Comparison view from the bottom of the screen.
+
+You can also compare a version with the version you are currently viewing by clicking More actions > Compare with version from the version thumbnail.
+
+Version Comparison Views
+
+Side by Side View
+You can view the two versions being compared side by side, making it easier to compare differences and suggest better reviews.
+
+Linking Views
+You can click the link icon from the bottom of the screen, and the two versions will be synced for the Zoom to fit , Zoom in , Zoom out , and Rotate clockwise options. This means that when you use any of these options on one version, the second version will also show the same behaviour.
+The Show/Hide annotations option and all other annotation options can only be used for individual versions.
+
+Overlay View
+The Overlay view allows you to overlay one image on the other to compare versions better. You can hold and drag the slider horizontally sideways.
+
+Show/Hide comments section
+You can view the comments section for both versions being compared by clicking the show/hide comments section icon in the Version Comparison view.
+You can choose which version you want to see the comments for, or you can click the annotation in a version and the related comments will be reflected in the comments section.
+
+Exit Comparison
+You can exit the comparison view by clicking the Exit comparison button from the top right corner of the screen.
+
+Hide/Show Comments Section
+You can add comments to your versions by selecting the Comment option. All comments you add as part of the Arrow, Rectangle, and Freehand annotation options also get reflected as part of the comments section.
+You can reveal or hide the comment section for a version by clicking the Show/Hide comment section button.
+
+Resolving Comment Threads
+You can resolve a comment thread once the feedback has been incorporated by clicking the Resolve Thread option from the comment thread.
+Note Once the comment is resolved, the corresponding annotation in the image will also be removed.
+
+Showing and Hiding Resolved Comments
+You can revisit resolved comments by clicking Show resolved comments .
+The resolved comments will also appear as part of the Comments section with a green tick against them.
+Click Hide resolved comments to only see unresolved comment threads.
+
+Copy link to Clipboard
+You can copy the link to the version you are currently viewing and share it with your team members. Click the Copy link icon and paste the link in your conversations.
+
+Download Image
+You can download the image you are currently viewing by going to More actions > Download image from the top right side of the screen.
+
+Open Parent Task
+You can go to the parent task of the attachment's versions you are currently viewing by going to More actions > Open parent task from the top right side of the screen.
+
+Annotation Logs
+You can view the annotation logs from the Conversations tab in the parent task window. The tab records any new versions added or annotations made to an attachment with a timestamp.
+You can also click a log record and view an annotation or a version update.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Cursor
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

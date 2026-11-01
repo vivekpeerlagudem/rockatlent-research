@@ -1,0 +1,283 @@
+TITLE: Projects Tab: Find The Best Team For Your Projects : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000704605-projects-tab-find-the-best-team-for-your-projects
+
+Projects Tab: Find The Best Team For Your Projects : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+Projects Tab: Find The Best Team For Your Projects
+
+Projects Tab: Find The Best Team For Your Projects
+
+Created by Niharika Pandey, Modified on Wed, 28 Jan at 5:19 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+TABLE OF CONTENTS
+
+Resource Management
+
+How to Access Resource Management?
+
+Resource Management: The Projects Tab
+Projects Tab: The Timeline View
+
+Adding allocations to a Project
+
+Enabling Auto Allocate for a Project
+
+Manually Adding Allocations for a Resource in a Project
+
+Editing Allocations More Actions for allocations
+
+Resource Management
+Resource Management helps you to efficiently plan, schedule and allocate resources for your projects. You can manage projects, allocate resources or placeholders, look into resource demands, check for over allocation and under allocation.
+
+By keeping a tab over the work hours of your team members, you can ensure that resources are better allocated with a balanced load sharing model where no one is under/ over worked. Comparing project timelines and resource availability helps you to churn results faster and with efficiency.
+
+How to Access Resource Management?
+
+You can access Resource Management by clicking on Resource Management icon from the vertical left navigation bar.
+
+Resource Management: The Projects Tab
+
+Rocketlane gives you a timeline view of all your projects. You can click on any project to see all the members working on that project, along with their roles and the time allocated to each member.
+Make the most of your employee’s time without burning them out. Effectively plan your team’s capacity to ensure balanced workloads while maximising utilisation. Enable your project managers to commit timelines with confidence based on your team’s available capacity.
+
+Projects Tab: The Timeline View
+
+Rocketlane gives you a timeline view of all your projects.
+
+You can click on any project and view the project phases displayed across the timeline so that you can have a better look at phase timelines too.
+
+You can click on any project to see all the members working on that project, along with their roles and the time allocated to each member.
+
+The timeline bars for each team member display the number of hours per day allocated to the member for that project.
+
+Note: You can edit the weekly team capacity by going to Settings > Preferences > Weekly Team Capacity. This will be the default capacity for each team member until you go and edit the capacity for a member from their settings.
+
+Hover over the timeline bar for a team member and you will see a bandwidth summary for that team member with respect to that project.
+
+Dates:
+Indicates the Start date and End date for the allocation. The total number is days is mentioned in parentheses.
+
+Allocated:
+Indicates the total number of hours for the allocation. The number of hours per day allocated to the team member is mentioned in parentheses.
+
+Note: In c ase of over allocation, you can notice a red line over the timeline bar for a team member.
+
+Adding allocations to a Project
+
+You can add allocations for placeholders as well as team members in a project in Rocketlane. This can either be done manually or you can enable auto allocate for automatically allocating the resources based on the effort, duration and assignees updated at a task level in the project.
+
+Enabling Auto Allocate for a Project
+Click on the link next to read more about how to enable auto allocations for a project: How to Enable and Configure Auto-allocations in a Project?
+
+Manually Adding Allocations for a Resource in a Project
+
+You can add allocations for existing team members in a project or add a new team member and then allocate. Add a new team member to a project by clicking on ' Add team members' from the projects column.
+
+After adding the team member to the project you can assign allocations to the team member by adding a timeline bar next to the team member for the corresponding dates.
+
+As soon as you add an allocation for a team member on the timeline, a panel opens on the right side of the screen.
+
+You can edit these fields from this panel:
+Hours per Day: Define the number of hours per day the team member is required for the project.
+
+Number of Working Days: Add the total number of working days for which that member is required for the project.
+
+Allocation Type: Choose the type of allocation based on the conformation status of the project and the team members.
+
+Hard allocation is for confirmed allocations and Soft allocation is for tentative allocations.
+
+Note: Soft allocations are denoted using a pattern on the timeline bar.
+
+Click Done to save changes.
+
+Editing Allocations
+
+For already existing allocations, you can increase/ decrease the total number of working days by expanding/ contracting the timeline bar from both ends.
+
+You can shift the timelines for each allocation by dragging and dropping the timeline bar to the new dates.
+
+Click on the timeline bar and edit the allocation properties from the panel on the right.
+
+You can edit these fields from this panel:
+
+Hours per Day: Define the number of hours per day the team member is required for the project.
+
+Number of Working Days: Add the total number of working days for which that member is required for the project.
+
+Allocation Type: Choose the type of allocation based on the conformation status of the project and the team members.
+
+Hard allocation is for confirmed allocations and Soft allocation is for tentative allocations .
+
+You can also delete the allocation from here by clicking on the delete button at the bottom of the dialog box.
+
+More Actions for allocations
+
+Click on the ' More actions' icon from the right most corner of the timeline bar.
+
+You can perform the following actions from here:
+
+Edit
+
+Clicking on this opens the allocations edit panel on the right where you can edit the hours per day, number of working days and the allocation type.
+
+You can also delete the allocation from here.
+
+Split Time
+
+In cases where a team member is required for different number of hours for different project phases, you can use the split time feature.
+
+On clicking Split Time , the timeline bar is split evenly at regular intervals and cursor turns into a scissor.
+
+You can choose to split the bar into two parts by clicking on the interval where you want to split.
+
+Delete Allocation
+
+Click to delete the allocation.
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Resource Management: The Projects Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+Resource Management: The People Tab
+
+Operations Insights Report: By Template Tab
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

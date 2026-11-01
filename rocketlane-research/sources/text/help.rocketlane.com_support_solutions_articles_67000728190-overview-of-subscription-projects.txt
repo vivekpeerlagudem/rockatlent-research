@@ -1,0 +1,263 @@
+TITLE: Overview of subscription projects : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000728190-overview-of-subscription-projects
+
+Overview of subscription projects : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Overview of subscription projects
+
+Overview of subscription projects
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:54 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+With Rocketlane's subscription billing, you can easily manage projects with monthly, quarterly, or yearly recurring fixed budgets and budgeted hours.
+
+Take a course on Financial Management here.
+
+In this article
+
+Key concepts for navigating the subscription dashboard
+
+Current Subscription values
+
+Total project values
+
+Current period details
+
+Project hours vs. period chart
+
+Subscription totals
+
+Periods
+
+Current period financial dashboard
+
+Revenue tracker
+
+Hours tracker
+
+Summary table
+
+Key concepts for navigating the subscription dashboard
+
+Current subscription period values
+
+Subscription frequency typically refers to how often a subscription renews or occurs within a set timeframe, such as monthly, quarterly or yearly.
+
+Period : represents the ongoing period of the subscription.
+
+Period dates : Encompasses the entire subscription interval from start to end.
+
+Period budget represents the fixed budget of every subscription period.
+
+Period hours represent the budgeted hours of every subscription period.
+
+Recognized revenue is the portion of the period budget that can be recognised (based on the revenue recognition method chosen in financials settings). At the end of every period, recognized revenue = period budget.
+
+More on revenue recognition formulas here .
+
+Tracked Hours : Represents the total hours tracked by your team for a subscription period.
+
+Allocated hours is the total number of hours allocated for a subscription period.
+
+Billable hours is the total billable hours tracked for a subscription period
+
+Total project values
+Total revenue recognized : The overall revenue recognized on the project up to the current period..
+
+Total time tracked : The aggregate of all hours tracked in the project.
+
+Project cost is calculated based on the team member's tracked hourly cost rates.
+(Hours tracked * Cost rates of respective team members/roles)
+
+Project Margin is the ratio of profit to recognised revenue where Profit is the difference between recognised revenue and cost incurred (Recognised revenue - Cost)
+
+(Profit/Recognised revenue)*100
+
+Total project budget : Is calculated as the sum of the fixed fee budget for all subscription periods.
+
+Total project hours : Is calculated as the sum of budgeted hours for all subscription periods .
+
+Total allocated hours: is the total number of hours allocated for the project.
+
+Non-billable hours is the total non-billable hours tracked for every subscription period
+
+Current period details
+Indicates the current period of your subscription for which financials are tracked.
+
+Note : You can click on “show details” to get an overview of the financials for the current period
+
+Project hours vs period chart
+The progress charts provide you with information on the Allocated vs tracked hours (billable and non billable) for the project over the subscription period.
+
+X-axis - Periods
+Y-axis - Project hours
+
+Subscription totals
+Summarizes the project cost, margin, budget and time tracked for the entire subscription duration of the project.
+
+Periods
+Get detailed insights on current and future subscription periods. The breakdown includes hours consumed, billable hours, non-billable hours, and remaining hours for each subscription period.
+
+Note : From here, you can click on any period and view the financial dashboard for that period.
+
+Current period financial dashboard
+
+Revenue tracker
+The period budget tracker enables you to track recognized revenue relative to the period budget and determine the remaining amount.
+
+Hours tracker
+The Budgeted hours tracker helps monitor tracked hours in comparison to the budgeted hours and identifies the remaining budgeted hours.
+
+Summary table
+You can view the detailed summary of hours usage and cost for the subscription period on a granular monthly basis.
+
+Hours details table shows the detailed breakdown tracked hours for the subscription period.
+
+Cost details table shows the detailed breakdown cost incurred for the subscription period.
+Group by Roles and People Visualize the cost and hours utilized by each role and team member on the project
+Group by Phases and tasks Visualize the cost and hours utilized by different phases and tasks in the project.
+You also can choose the option to view
+
+Cost, profit and margins which are metrics that keep changing based on the time your resources spend on the project.
+
+Estimated revenue and allocated time which are metrics that are planned at the start of the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding revenue recognition for subscription projects
+
+Understanding Billing Schedules and Events
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

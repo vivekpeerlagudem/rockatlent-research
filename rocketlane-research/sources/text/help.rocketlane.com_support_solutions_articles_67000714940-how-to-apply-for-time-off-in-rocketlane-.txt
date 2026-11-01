@@ -1,0 +1,196 @@
+TITLE: How to Apply for Time Off in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000714940-how-to-apply-for-time-off-in-rocketlane-
+
+How to Apply for Time Off in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+How to Apply for Time Off in Rocketlane?
+
+How to Apply for Time Off in Rocketlane?
+
+Created by Niharika Pandey, Modified on Tue, 28 May, 2024 at 4:47 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Apply for Time Off in Rocketlane?
+
+How to set up Holiday Calendar?
+
+How to automate Out-of-Office responses and assign stand-In team members to help customers
+
+No article available
+
+Regardless of size, managing holidays and vacation time is essential for all businesses. Applying for time off can be done for a number of reasons, including vacation, personal leave, maternity leave, medical leave, or sabbatical. Regardless of the nature, the most crucial step is to make sure that your coworkers are aware of your absence.
+
+In this article
+
+Apply time off
+
+Types of time offs
+
+View time offs
+
+Impact areas
+
+Apply time off on behalf of team members
+
+At Rocketlane, you can apply time off and update your timesheets and team members to stay informed about your unavailability.
+
+Apply time off
+
+Click on the profile icon and go to Settings .
+
+Go to Profile > Apply time off.
+
+From the Apply time off dialog box, set time of duration and add notes for others.
+
+You can also choose to notify the Project Owners of the projects you are a part of. Choose other people from your team who you wish to notify about your unavailability on email.
+
+Types of time offs
+
+You have the flexibility to request time off for a full working day, half a day, or a custom duration.
+
+For instance, if your weekly capacity is 40 hours and you take a full-day time off, it will be for 8 hours. Opting for a half-day time off corresponds to 4 hours, and with custom time off, you can select any desired number of hours.
+
+View time offs
+
+Go to View time off history from your Profile settings. In case you delete any of the time off entries, a strike through will appear on it so that a log of all the time offs is maintained.
+
+Impact areas
+
+Users can request for time-off inside Rocketlane, and this will show up in multiple areas - timesheets, reports (will account for the change in capacity), resource management and task assignments during the time off.
+
+Notice the time off icon for the dates you applied for on the timesheets and next to your name on chats.
+
+The time tracking report also has a time off column which reflects the total number of time off hours for the selected time period.
+
+Apply time off on behalf of team members
+
+Admins and timesheet approvers now have the capability to request time off for their team members.
+
+To do so,
+
+Simply navigate to Timesheets
+
+Go to the Approvals tab and choose the team member for whom you wish to submit a timesheet
+
+click the "Time Off" button to apply the time off on their behalf.
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+PTO and Timesheets FAQs
+
+How to Set Up your Profile in Rocketlane?
+
+Configure How Utilisation Is Calculated
+
+Key Events and Intervals in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

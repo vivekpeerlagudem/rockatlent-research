@@ -1,0 +1,146 @@
+TITLE: Why am I seeing an error? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000745545-why-am-i-seeing-an-error-
+
+Why am I seeing an error? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why am I seeing an error?
+
+Why am I seeing an error?
+
+Created by Advaith R, Modified on Wed, 18 Jun, 2025 at 4:08 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I seeing an error?
+
+Q: Why didn't the bot record my meeting, and why can't I find the recording in my account?
+
+No article available
+
+Q: Why can't I add or enable AI Fills for certain users, and why am I seeing an error?
+A: If you're encountering errors when trying to enable AI Fills for users, especially after a trial period, it might be due to a few reasons:
+
+Trial Expiration: If your AI Fills trial has ended, the feature might be restricted. Check your subscription status in Chargebee or contact support.
+
+Invalid User Profile Picture URL: In some cases, an invalid or broken URL for a user's profile picture can prevent the AI Fills toggle from working correctly for that specific user. This often results in a generic error.
+
+Q: How can I resolve the "invalid profile picture URL" issue affecting AI Fills?
+A: If an invalid profile picture URL is the cause, updating or re-uploading the user's profile picture in Rocketlane should fix the problem. This action corrects the URL, allowing the AI Fills toggle to function as expected. If the issue persists after updating the profile picture, please contact Rocketlane support.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+Why am I not able to sync Calendar to Timesheet?
+
+Why am I getting a rate limit error during bulk updates?
+
+PTO and Timesheets FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

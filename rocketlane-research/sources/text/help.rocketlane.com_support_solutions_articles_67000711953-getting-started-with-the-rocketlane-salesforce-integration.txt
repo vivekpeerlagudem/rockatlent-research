@@ -1,0 +1,354 @@
+TITLE: Getting started with the Rocketlane Salesforce Integration : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000711953-getting-started-with-the-rocketlane-salesforce-integration
+
+Getting started with the Rocketlane Salesforce Integration : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+Getting started with the Rocketlane Salesforce Integration
+
+Getting started with the Rocketlane Salesforce Integration
+
+Created by Niharika Pandey, Modified on Thu, 12 Jun, 2025 at 6:40 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup the Rocketlane Salesforce Integration?
+
+Getting started with the Rocketlane Salesforce Integration
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+No article available
+
+The Rocketlane Salesforce integration allows you to automatically create projects and sync data seamlessly between Salesforce and Rocketlane.
+
+The integration helps with streamlining your sales to onboarding handoff. It improves communication and visibility between your sales and onboarding teams by keeping all necessary information such as sales notes, project status, estimated completion date in sync.
+Characteristics:
+
+Any objects (including custom objects) can be selected to auto-create projects and for field-sync.
+
+Field-sync for the selected object and any objects linked via look-up relationships can be used to map to fields in Rocketlane.
+
+Points to note
+
+The integration can be tested via Sandbox before connecting to Production.
+
+The integration creates AppEx classes for the triggers and data sync.
+
+List of default input fields
+
+Field Type
+Status Picklist (Single)
+
+Values:
+Cancelled
+Blocked
+Proposed
+In Planning
+To be Staffed
+In progress
+Completed
+
+(The above are default values. However, additional custom values can be added.)
+
+Start Date Date
+Due Date Date
+Annualized Recurring Revenue Number
+Project Fee Number
+Project Owner Email
+
+Apart from default fields, custom project fields can be added. List of types:
+
+Text
+
+Multiline Text
+
+Number
+
+Yes/No
+
+Date
+
+Single Choice (Single choice picklist)
+
+Multiple Choice (Multiple choice picklist)
+
+Single User
+
+Multiple User
+We also have auto-calculated fields (metrics) that can be sent to fields in SFDC. These fields cannot be edited by users. This is the list:
+
+Field Type
+Blocked Milestones Number
+Blocked Tasks Number
+Completed Milestones Number
+Completed Tasks Number
+Current Phase Names Text
+Last Current Phase Text
+Last Completed Phase Name Text
+In Progress Milestones Number
+In Progress Tasks Number
+Todo Tasks Number
+Total Tasks Number
+Todo Milestones Number
+Total Milestones Number
+Progress Percent Alphanumeric
+project URL Alphanumeric
+ProjectBudgetedHours Number
+ProjectTrackedHours Number
+
+Common data fetched from Salesforce:
+
+Company Name
+
+Company Size (SMB/MM/Enterprise)
+
+Service Type (If you charge for services)
+
+Subscription (Plan/Bundle, etc.)
+
+Opportunity Value/Amount/ARR
+
+CSM/IC (Project Owner)
+
+AE/AM
+
+Exec Sponsor
+
+Location/Region
+
+Contract Start/End Dates
+
+Industry
+
+ID (Object ID)
+
+Common data fetched from Rocketlane:
+
+Project Name
+
+Project Owner
+
+Health Notes
+
+No. of Tasks in each status (blocked tasks, completed tasks, todo tasks, etc)
+
+No. of Milestones in each status
+
+Active Phases
+
+Latest Active Phase
+
+Placeholder Assignments (Selecting role-based owners for Project tasks)
+
+Tracked project hours
+
+Phase metrics
+
+Overall milestone rating
+
+Last milestone rating
+
+Important points to note
+
+Custom profile permissions required for an 'Integration User' profile*:
+
+System Permissions: Manage Custom Permissions, Customize Application, API enabled, Modify Metadata Through Metadata API Functions, View Setup and Configuration, View Roles and Role Hierarchy, Author Apex
+
+Apex Class access: Needs access to anything starting with 'RL' or 'TestRL' [Note that Apex classes get added with every additional field sync - Should automatically get added to the custom profile]
+
+Object Settings (and field access): Access levels are required depending on how you have decided to set things up in your Salesforce environment.
+
+*Optional: If the 'System Admin' profile isn't being used.
+
+Field mapping
+
+Every time a new field is added, a few new pieces of code get added into SFDC by the integration user. Check Deployment Status under SFDC setup to ensure components have been successfully installed before testing (few seconds to a few minutes); otherwise, field sync tests will fail and so will automation.
+
+List of APIs we invoke
+
+get Oauth user-info
+GET /services/oauth2/userinfo
+
+sObject APIs
+GET /services/data/v52.0/sobjects GET /services/data/v52.0/sobjects/${sObjectType}/describe GET /services/data/v52.0/sobjects/${sObjectType}/${sObjectId} PATCH /services/data/v52.0/sobjects/${sObjectType}/${sObjectId}
+
+RemoteSite APIs
+POST /services/data/v52.0/tooling/sobjects/RemoteProxy PATCH /services/data/v52.0/tooling/sobjects/RemoteProxy/${remoteSiteId}
+
+ApexClass APIs
+POST /services/data/v52.0/metadata/deployRequest
+
+Supported Field Types for Synchronization
+Rocketlane supports a wide range of field types for syncing with Salesforce, allowing for deeper alignment between onboarding and sales operations. These include:
+
+Native Fields
+These are standard Rocketlane project fields like Project Name , Status , Start Date , and Due Date . They’re available by default and typically used in most integrations.
+
+Custom Fields
+Custom fields created within Rocketlane for your specific use cases—such as Customer Tier , Region , or Engagement Type —can be mapped to Salesforce fields to maintain a consistent view across systems.
+
+Metric Fields
+Metric fields are auto-calculated by Rocketlane based on project data. Examples include:
+
+Progress Percent
+
+Blocked Tasks
+
+Completed Milestones
+
+Tracked Project Hours
+
+These fields provide real-time performance and progress data that can be synced to Salesforce for visibility and reporting.
+
+Derived Fields
+These are internally computed values derived from other project data points. They include:
+
+projectUrl – A direct link to the Rocketlane project.
+
+projectAge – The number of days since project creation.
+
+plannedDuration – The total planned duration in days.
+
+These fields give Salesforce users insight into project timelines and accessibility without needing to switch platforms.
+
+Internal Fields
+Internal fields capture backend data used for system tracking or references. These include:
+
+startDateActual – The actual date the project started.
+
+dueDateActual – The actual date the project was completed.
+
+externalRefKey – A unique reference for syncing external tools or objects.
+
+These are not user-facing but are essential for syncing metadata accurately.
+
+Financial Fields
+To support billing and revenue-related integrations, Rocketlane includes dedicated financial fields such as:
+
+financialContractType – Defines the billing type (e.g., Fixed Fee, T&M).
+
+revenueRecognitionType – Specifies how revenue should be recognized.
+
+projectBudget – Total budget allocated for the project.
+
+These fields are especially useful for syncing with finance-related objects or workflows in Salesforce.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to get started with the Rocketlane Zapier integration?
+
+How to setup the Rocketlane Salesforce Integration?
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

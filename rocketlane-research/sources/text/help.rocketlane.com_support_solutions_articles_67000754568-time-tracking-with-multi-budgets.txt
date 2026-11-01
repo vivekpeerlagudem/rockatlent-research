@@ -1,0 +1,275 @@
+TITLE: Time Tracking with Multi-Budgets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754568-time-tracking-with-multi-budgets
+
+Time Tracking with Multi-Budgets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Time Tracking with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Created by Advaith R, Modified on Wed, 2 Sep at 6:43 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+To maintain accurate financial tracking, revenue logging, and cost analysis, time entries in Rocketlane need to be mapped to specific project budgets.
+This article explains how to configure time-tracking restrictions, log hours against the appropriate budget, and group time entries to review tracked time by budget.
+In this article
+
+Time Tracking with Budgets
+
+Configure time tracking restrictions
+
+Create time entries
+
+Grouping time entries by budget
+
+Time Tracking with Budgets
+Time entries need to be associated with budgets for accurate revenue and cost tracking.
+
+Configure time tracking restrictions
+Admins can restrict the projects and budgets that team members can select while logging time.
+
+Click your profile icon in the bottom-left corner.
+
+Select Settings .
+
+Under Operations and financials , select Time tracking .
+
+Under Team members can only track time for , select Projects they are part of and Budgets they are part of .
+This restricts time-entry choices based on project and budget membership.
+[image: Time tracking settings with project and budget membership restrictions selected]
+Create time entries
+Team members can select the relevant budget while creating a time entry from Timesheets.
+
+Open Timesheets .
+
+Select a day’s cell for the relevant task .
+
+In the time-entry modal, enter the tracked hours and choose a category , if applicable.
+
+Open the Budget dropdown.
+
+Select the appropriate budget from the available options.
+
+Click Done to save the time entry.
+
+When the week is complete, click Submit week for approval in the top-right corner of Timesheets.
+Budget options are grouped under:
+
+Budgets of this task
+
+Budgets you’re a part of
+A budget may be prefilled when:
+
+A default project budget exists and no task-level budget overrides it.
+
+The task or phase has only one budget assigned.
+[image: Time-entry modal with budgets grouped by task and team member membership] Note Each individual time entry belongs to one budget. To use a different budget for the same task on another day, open that day’s entry, select a different budget from the Budget dropdown, and click Done .
+
+Important If a user is not a member of a budget, that budget does not appear as a selectable option.
+
+Grouping time entries by budget
+When a project has multiple budgets, reviewing time only by project or team member may not show how hours are distributed across different workstreams.
+List View lets you group time entries by budget and combine Budget with other fields. For example, you can group entries by Project > Budget > Team member to see how time is distributed across each budget and who logged it.
+You can apply up to three grouping levels when Multiple Project Budgets is enabled.
+
+Group time entries by budget
+
+Open one of the following List Views:
+Account-wide: Go to Timesheets > Manage and approve > List view .
+
+Project-specific: Open the project and go to Financials > Tracked time .
+
+Select Group by at the top of the list.
+
+Choose the first grouping level, such as Project .
+
+Add Budget as the second grouping level.
+
+If required, add a third grouping level, such as Team member .
+With Project > Budget > Team member selected, time entries are grouped first by project, then by budget within each project, and finally by the team member who logged the time.
+
+Available grouping fields
+Depending on the List View and grouping level, you can group entries by:
+
+Team member
+
+Task
+
+Phase
+
+Project
+
+Role
+
+Status
+
+Category
+
+Budget
+Note Project grouping is available only in the account-wide List View because the project-specific view already contains entries from one project.
+
+Note In the account-wide List View, Phase and Task cannot be used as the first grouping level because the entries may belong to different projects.
+
+Important Budget grouping and the third grouping level are available only when Multiple Project Budgets is enabled. Without it, List View supports up to two grouping levels and does not include Budget as a grouping option.
+
+Save your grouping
+Rocketlane remembers your grouping selection in the same browser on the same device.
+If you open List View from another browser or device, the grouping returns to its default configuration. Save the configuration as a named view when it needs to be:
+
+Available across browsers or devices
+
+Reused later
+
+Shared with other team members
+A saved view retains its grouping configuration regardless of the browser or device used to open it.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Sync Integrations with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

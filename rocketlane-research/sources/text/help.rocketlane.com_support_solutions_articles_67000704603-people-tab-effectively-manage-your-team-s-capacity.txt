@@ -1,0 +1,435 @@
+TITLE: People Tab: Effectively Manage your Team's Capacity : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000704603-people-tab-effectively-manage-your-team-s-capacity
+
+People Tab: Effectively Manage your Team's Capacity : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+People Tab: Effectively Manage your Team's Capacity
+
+People Tab: Effectively Manage your Team's Capacity
+
+Created by Niharika Pandey, Modified on Mon, 6 Jul at 6:40 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+In this article
+
+Resource Management: People tab
+Access Resource Management
+
+Timeline view
+
+View a team member's capacity summary
+Total Capacity
+
+Hard Allocations
+
+Soft Allocations
+
+Remaining Capacity
+
+Show Utilization for Filtered Results
+
+Filter Allocations by Allocation Type
+
+Add allocations for a team member
+
+Configure allocation details
+Set hours per day
+
+Set allocation dates
+
+Include weekends in an allocation
+
+Choose allocation type
+
+Edit, move, split, and delete allocations
+Edit allocations
+
+Move an allocation on the timeline
+
+Delete an allocation
+
+Split an allocation
+
+Filters and Find availability
+Show Utilization for Filtered Results
+
+Filter Allocations by Allocation Type
+
+Resource Management: People tab
+The People tab helps you view resource availability by team member. It shows each team member's allocations across projects in a timeline view.
+From the People tab, you can:
+
+Expand team members to view project-level allocations.
+
+Add allocations for team members.
+
+Edit existing allocations.
+
+View hard and soft allocations.
+
+Check remaining capacity.
+
+Identify over-allocation.
+
+Use filters to narrow the list.
+
+Use Find availability to locate resources with available capacity.
+
+Access Resource Management
+To open Resource Management:
+
+Click the Timesheet and Resource Management icon from the left sidebar.
+
+Select Resource management .
+
+The Resource Management page opens with tabs such as:
+
+People
+
+Projects
+
+Capacity Planning
+
+Apps
+
+Timeline view
+The timeline view shows how occupied each team member is during the selected time period.
+Each team member row includes a timeline bar with a percentage value indicating how much of their capacity is allocated. Timeline bars are color-coded based on allocation level, making it easy to spot availability and workload at a glance.
+Note A red line on the timeline bar indicates over-allocation. By default, each team member has a bandwidth of 8 hours per day.
+
+View a team member's capacity summary
+Hover over a team member's timeline bar to view their bandwidth summary. The summary changes based on the timeline view you select - daily, weekly, or monthly.
+
+Field Description
+Total Capacity The total number of hours the team member is available during the selected time period.
+Hard Allocations Confirmed allocated hours for the team member.
+Soft Allocations Tentative allocated hours for the team member.
+Remaining Unallocated hours remaining from the team member's total capacity.
+
+Total Capacity
+Total Capacity shows the number of available hours for a team member based on the selected timeline period. You can view capacity by day, week, or month.
+For example, if a team member has 8 available hours per day, their total capacity will be calculated based on the selected date range and timeline view.
+
+Hard Allocations
+Hard Allocations are confirmed allocations. Use hard allocations when the project work and team member assignment are finalized.
+For example, if a consultant is confirmed to work 4 hours per day on an implementation project for two weeks, that allocation can be marked as hard.
+
+Soft Allocations
+Soft Allocations are tentative allocations. Use soft allocations when the work is expected but not fully confirmed - useful for planning upcoming projects, tentative staffing, or pipeline work.
+Note Soft allocations appear with a different pattern on the timeline bar so they can be distinguished from confirmed allocations.
+
+Remaining Capacity
+Remaining shows the number of unallocated hours available for the team member during the selected time period. Use this to identify whether a team member has enough bandwidth for additional project work.
+
+Managing Project Allocations
+You can manage and configure allocations for an entire project for a selected team member directly from the timeline view. Click the More actions (three dots) icon next to the project name to perform the following actions:
+
+Delete all allocations: Instantly remove all scheduled allocation hours for that person on the project.
+
+Turn all allocations to soft: Convert all confirmed (hard) allocations back to tentative (soft) planning blocks.
+
+Go to project plan: Jump directly to the detailed project plan view for deeper scheduling.
+
+Remove from project: Completely remove the team member from the project roster.
+
+Show Utilization for Filtered Results
+Use Show Utilization for Filtered Results to control whether team member filters applied on the People page also apply to the Utilization Summary view.
+When this setting is enabled, the Utilization Summary reflects the same filtered results shown in the People tab. This keeps both views aligned.
+For example, if you filter the People tab to show only team members from a specific role, department, or skill group, the Utilization Summary also shows utilization for that filtered set of team members.
+When this setting is disabled, the People tab and Utilization Summary can be viewed independently. Filters applied on the People page do not affect the Utilization Summary.
+Use this setting when:
+
+You want the Utilization Summary to match the filtered team member list.
+
+You are reviewing utilization for a specific role, department, region, or skill group.
+
+You want consistent data across the People timeline and Summary view.
+
+You are preparing for resource planning or staffing discussions.
+To enable this feature: > Navigate to the Gear Icon (next to the export button) and select Show utilization for filtered results.
+
+Filter Allocations by Allocation Type
+Use the Allocation Type filter to view allocations based on whether they are hard or soft. This filter is available in the People and Projects pages in Resource Management.
+Allocation type Description
+Hard Shows confirmed allocations.
+Soft Shows tentative allocations.
+Both Shows both confirmed and tentative allocations.
+Use this filter to separate committed work from tentative plans. For example, during a resourcing call, you can filter by Soft allocations to review tentative staffing, or filter by Hard allocations to focus only on confirmed commitments.
+To Ignore Soft Allocations : > Navigate to the Gear Icon (next to the export button) and select the option.
+Tip When Ignore Soft Allocations is enabled, Rocketlane automatically applies the Hard allocation filter. This keeps the setting and the Allocation Type filter in sync and avoids conflicting filter behavior. Use Ignore Soft Allocations when you want utilization and allocation views to consider only confirmed work.
+
+Add allocations for a team member
+You can add an allocation for a team member directly from the People timeline.
+To add an allocation:
+
+Go to the People tab in Resource Management.
+
+Expand the team member's row in the Team members column. This shows the projects the team member is allocated to.
+
+Go to the required project row. If the project is not listed, click Add project to add the project first.
+
+In the required project row and week, click the + placeholder icon. The allocation drawer opens on the right side of the screen.
+
+Configure the allocation details.
+
+Click Done to save the allocation. The allocation is added to the team member's timeline.
+
+Configure allocation details
+When adding or editing an allocation, configure the details from the allocation drawer.
+Field Description
+Dates The date range for the allocation.
+Allocation method How the allocation should be calculated.
+Hours per day The number of hours per day the team member is required for the project.
+Allocation type Whether the allocation is hard or soft.
+Total allocation hours The total allocation hours based on the selected dates and hours per day.
+
+Set hours per day
+Use Hours per Day to define how many hours per day the team member is required for the project. For example, if a team member is needed half-time, enter 4 hours per day.
+
+Set allocation dates
+Use Dates to select the allocation date range. The drawer displays total days and total allocation hours, which update based on the selected date range and hours per day.
+
+Include weekends in an allocation
+By default, allocation calculations follow the working days configured for the team member or workspace.
+To include weekends:
+
+Click Include weekend in the Dates field.
+
+Select Saturday and/or Sunday in the date picker.
+
+Review the updated total days and total allocation hours.
+
+Click Done to save the allocation. The allocation timeline updates based on the selected weekend dates.
+[image: Saturday and Sunday selected in the allocation date picker]
+
+Choose allocation type
+Use Allocation Type to define whether the allocation is confirmed or tentative.
+Allocation type Description
+Hard allocation Use for confirmed allocations.
+Soft allocation Use for tentative allocations.
+Tip Use hard allocations when the staffing decision is final. Use soft allocations when the work is still tentative or dependent on project confirmation.
+
+Edit, move, split, and delete allocations
+
+Edit allocations
+To edit an existing allocation:
+
+Click the allocation block on the team member's timeline. The allocation drawer opens on the right side of the screen.
+
+Update the allocation details - dates, allocation method, hours per day, or allocation type.
+
+Click Done to save the changes. The timeline updates after the changes are saved.
+
+Move an allocation on the timeline
+You can shift allocation dates by dragging and dropping the allocation block on the timeline. Use this when project dates shift and the allocation needs to move to a new date range. After moving the allocation, open the drawer to review and confirm the updated dates if required.
+
+Delete an allocation
+To delete an allocation:
+
+Click the allocation block on the timeline. The allocation drawer opens.
+
+Click the delete icon at the bottom of the drawer.
+
+Confirm the deletion. The allocation is removed from the team member's timeline.
+
+Split an allocation
+Use Split time when an allocation needs to be broken into separate segments. For example, a team member may be needed for 4 hours per day in the first week and 2 hours per day in the second week.
+To split an allocation:
+
+Click the allocation block on the timeline. The allocation drawer opens.
+
+Click the scissors icon for Split time at the bottom of the drawer.
+
+Adjust the dates for the split allocation.
+
+Update the hours per day for each allocation segment.
+
+Click Done to save. The timeline updates to show the split allocation segments.
+
+Filters and Find availability
+
+Show Utilization for Filtered Results
+Use Show Utilization for Filtered Results to control whether team member filters applied on the People page also apply to the Utilization Summary view.
+When this setting is enabled, the Utilization Summary reflects the same filtered results shown in the People tab. This keeps both views aligned.
+For example, if you filter the People tab to show only team members from a specific role, department, or skill group, the Utilization Summary also shows utilization for that filtered set of team members.
+When this setting is disabled, the People tab and Utilization Summary can be viewed independently. Filters applied on the People page do not affect the Utilization Summary.
+Use this setting when:
+
+You want the Utilization Summary to match the filtered team member list.
+
+You are reviewing utilization for a specific role, department, region, or skill group.
+
+You want consistent data across the People timeline and Summary view.
+
+You are preparing for resource planning or staffing discussions.
+
+Filter Allocations by Allocation Type
+Use the Allocation Type filter to view allocations based on whether they are hard or soft. This filter is available in the People and Projects pages in Resource Management.
+Allocation type Description
+Hard Shows confirmed allocations.
+Soft Shows tentative allocations.
+Both Shows both confirmed and tentative allocations.
+Use this filter to separate committed work from tentative plans. For example, during a resourcing call, you can filter by Soft allocations to review tentative staffing, or filter by Hard allocations to focus only on confirmed commitments.
+Note When Ignore Soft Allocations is enabled, Rocketlane automatically applies the Hard allocation filter. This keeps the setting and the Allocation Type filter in sync and avoids conflicting filter behavior. Use Ignore Soft Allocations when you want utilization and allocation views to consider only confirmed work.
+
+Use filters in the People tab to narrow the resource list and focus on the right set of team members. You can filter by team, role, availability, or allocation status, depending on your Resource Management setup.
+Use Find availability to identify team members who have available capacity for a specific period or project need. This helps resource managers quickly locate the right people for upcoming work.
+Quick recap
+Using the People tab, you can:
+
+View team member availability on a timeline.
+
+Check total capacity, hard allocations, soft allocations, and remaining capacity.
+
+Identify over-allocation using timeline indicators.
+
+Add, edit, move, split, or delete allocations.
+
+Configure allocation dates, hours per day, allocation method, and type.
+
+Use filters and Find availability to locate available resources.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Resource Management: The People Tab
+
+Configure How Utilisation Is Calculated
+
+Time Tracking Report: Analyse how your team spends time where
+
+​Time analytics report
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

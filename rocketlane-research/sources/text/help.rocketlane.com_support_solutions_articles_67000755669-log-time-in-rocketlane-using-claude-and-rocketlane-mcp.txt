@@ -1,0 +1,337 @@
+TITLE: Log Time in Rocketlane Using Claude and Rocketlane MCP : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755669-log-time-in-rocketlane-using-claude-and-rocketlane-mcp
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+Created by Advaith R, Modified on Wed, 19 Aug at 8:17 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Essential
+
+Articles in this series
+
+Guide to Using Rocketlane MCP Tools
+
+Connect Rocketlane MCP to Claude
+
+Connect Rocketlane MCP to Claude Code
+
+Connecting Rocketlane MCP to Cursor
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+No article available
+
+Rocketlane MCP lets you use Claude to review your work, match it to the appropriate Rocketlane projects and tasks, and create time entries after you confirm the details.
+You can use this workflow with Rocketlane alone or combine it with connected sources such as Google Calendar, Slack, Gmail, Avoma, or Granola.
+The workflow separates research and review from creation. Claude prepares a draft, flags uncertain matches, identifies missing or duplicate time, and creates entries only after you confirm the final table.
+In this article
+
+Before you begin
+
+How the workflow works
+
+Choose a workflow
+
+Track A: Use Rocketlane only
+
+Track B: Use Rocketlane with connected activity sources
+
+Review the draft table
+
+Situational prompts
+
+Review before creating time entries
+
+Before you begin
+Ensure that:
+
+Rocketlane MCP is connected to Claude.
+
+Your Rocketlane permissions allow you to view projects and create or update time entries.
+
+Time tracking is enabled for your Rocketlane account.
+
+You know the date range for which you want to log time.
+
+Any additional sources you want Claude to use, such as Calendar, Slack, Gmail, Avoma, or Granola, are connected and available.
+To connect Rocketlane MCP, see Connect Rocketlane MCP to Claude .
+Note Additional activity sources are optional. If only Rocketlane is connected, use the Rocketlane-only workflow.
+
+How the workflow works
+The workflow contains six steps:
+Step Purpose Writes to Rocketlane?
+1. Calibrate Reviews your profile, recent entries, and available time-entry categories. No
+2. Recall or gather Builds a picture of what you worked on by interviewing you or reviewing connected sources. No
+3. Attribute and flag Matches work to Rocketlane projects, phases, tasks, categories, and billable status. No
+4. Check gaps Identifies days that do not add up to your expected hours. No
+5. Correct Applies your changes to the draft. No
+6. Deduplicate and commit Checks existing entries, requests confirmation, and creates the approved entries. Yes, after confirmation
+Steps 1 through 5 are review-only. Step 6 is the only step that should create time entries.
+Important The review and confirmation steps are instructions provided to Claude. The confirm-and-commit gate is not currently enforced by the Rocketlane MCP server. Always review the proposed entries before confirming creation.
+
+Choose a workflow
+Choose the workflow that matches the sources available in Claude.
+Workflow Use it when How activity is collected
+Track A: Rocketlane only Rocketlane MCP is connected without other activity sources. Claude asks you what you worked on.
+Track B: Connected activity sources Claude can access Calendar, Slack, Gmail, Avoma, Granola, or similar sources. Claude uses the connected sources to prepare an activity timeline.
+Both workflows use the same review, correction, duplicate-check, and confirmation process. The main difference is how Claude gathers your activity.
+
+Track A: Use Rocketlane only
+Use this workflow when Claude has access to Rocketlane but does not have access to your calendar, messages, emails, or meeting notes.
+Claude asks you about your work one day at a time and matches your answers to records in Rocketlane.
+Run the following prompts in order.
+
+Step 1: Calibrate
+This step helps Claude understand how you normally record time. It does not create or update anything.
+Before we start, review my Rocketlane profile, my time entries from the last two weeks, and the time-entry categories available on my projects. Use this information to understand how I usually log time, including my rounding habits, category names, and billable defaults. Do not create or update anything.
+
+Step 2: Recall your work
+Claude interviews you one day at a time and uses your answers to prepare a draft.
+Let’s complete my time entries for last week. Go through the week one day at a time and ask what I worked on, including the project, approximate duration, and whether the work was billable. Match my answers to the actual project, phase, and task names in Rocketlane. Do not create or update anything yet.
+Tip Replace “last week” with a specific date range when required.
+
+Step 3: Attribute work and flag uncertain matches
+Ask Claude to present the proposed entries as a table.
+Uncertain project or task matches should remain unresolved instead of being assigned automatically.
+Show the draft as a table with these columns: date, project, phase, task, hours, billable status, category, notes, confidence, and review status. If you are not confident about a project, phase, task, category, or billable status, mark the row as “Needs check” instead of guessing. Do not create or update anything.
+
+Step 4: Check for gaps
+Review whether each day accounts for the hours you expected to record.
+Check the draft against my expected working hours. If my expected hours are not available, ask me for them. Show which days have missing or excess time and calculate the difference for each day. Do not create or update anything.
+
+Step 5: Correct the draft
+Describe the required changes in your own words. Claude should apply the changes only to the draft table.
+For example:
+Update the draft only. Move 1.5 hours from Tuesday to the Acme discovery task, and mark Thursday afternoon as non-billable internal time. Show me the revised table and keep any unresolved rows marked as “Needs check.” Do not create or update any Rocketlane entries.
+Repeat this step until the projects, tasks, hours, categories, notes, and billable statuses are correct.
+
+Step 6: Check for duplicates and create the entries
+This is the only step that should use a Rocketlane write tool.
+Compare the final draft with my existing Rocketlane time entries for the same dates and flag anything that may be a duplicate. Exclude confirmed duplicates. Show the final table one more time and ask for my explicit confirmation. Do not create or update anything until I confirm. After I confirm, create each confirmed row as a Rocketlane time entry and report which entries succeeded or failed.
+Review the final table. If everything is correct, reply with an explicit confirmation such as:
+Confirmed. Create the time entries shown in the final table.
+
+Track B: Use Rocketlane with connected activity sources
+Use this workflow when Claude can access one or more activity sources, such as:
+
+Google Calendar
+
+Slack
+
+Gmail
+
+Avoma
+
+Granola
+These sources help Claude reconstruct your work before matching it to Rocketlane.
+Only reference sources that are connected and available in your Claude workspace. If a source is unavailable, remove it from the prompt.
+
+Step 1: Calibrate
+Use the same calibration prompt from Track A:
+Before we start, review my Rocketlane profile, my time entries from the last two weeks, and the time-entry categories available on my projects. Use this information to understand how I usually log time, including my rounding habits, category names, and billable defaults. Do not create or update anything.
+
+Step 2: Gather a raw activity timeline
+Ask Claude to collect your activity without assigning it to Rocketlane projects or creating entries.
+Review my connected Google Calendar, Slack activity, and Gmail threads for last week. Also review meeting notes from Avoma or Granola if either source is available. Build a raw activity timeline by date and time. Do not match the activity to Rocketlane or create anything yet. Show the source used for each timeline item.
+Modify the prompt to include only the sources available to Claude.
+
+Step 3: Attribute work and flag uncertain matches
+Claude can now group related evidence and match it to Rocketlane records.
+Match each item in the activity timeline to a Rocketlane project, phase, and task. Cluster activity that belongs to the same meeting, email thread, or work item so it is not counted more than once. Propose a time-entry category and billable status, and label the confidence of every match as High, Medium, or Low. Do not guess on Low-confidence matches. Mark them as “Needs check” and ask me to resolve them. Show the result as a draft table and do not create or update anything.
+
+Step 4: Check for gaps
+Check the draft against my expected working hours. If my expected hours are not available, ask me for them. Show which days have missing or excess time and calculate the difference for each day. Do not create or update anything.
+
+Step 5: Correct the draft
+Tell Claude what needs to change.
+For example:
+Update the draft only. Move 1.5 hours from Tuesday to the Acme discovery task, and mark Thursday afternoon as non-billable internal time. Show me the revised table and keep any unresolved rows marked as “Needs check.” Do not create or update any Rocketlane entries.
+
+Step 6: Check for duplicates and create the entries
+Compare the final draft with my existing Rocketlane time entries for the same dates and flag anything that may be a duplicate. Exclude confirmed duplicates. Show the final table one more time and ask for my explicit confirmation. Do not create or update anything until I confirm. After I confirm, create each confirmed row as a Rocketlane time entry and report which entries succeeded or failed.
+Review the final table and explicitly confirm before Claude creates the entries.
+
+Review the draft table
+Before confirming the time entries, verify the following information:
+Field What to verify
+Date The work is recorded on the correct date.
+Project The selected Rocketlane project is correct.
+Phase The work is associated with the correct phase, where applicable.
+Task The selected task accurately represents the work.
+Hours The duration is accurate and follows your normal rounding convention.
+Billable status The entry is correctly marked as billable or non-billable.
+Category The selected category exists and accurately describes the work.
+Notes The description is clear enough for later review or approval.
+Confidence Medium-confidence matches have been reviewed and Low-confidence matches remain unresolved.
+Review status No row marked Needs check is included in the commit.
+Important Similar customer names, project names, and recurring meetings can result in ambiguous matches. Resolve every Needs check row before creating the entries.
+
+Situational prompts
+Use the following prompts when the standard weekly workflow does not fit your situation.
+
+Complete multiple weeks
+I have not logged time for three weeks. Work through one week at a time so each review stays manageable. For every week, prepare and review the draft before moving to the next week. Do not create any time entries until I have reviewed the final table for that week.
+
+Split one day across projects
+Wednesday was split between two projects: 3 hours on Acme and 5 hours on Globex. Replace the current Wednesday row with two draft entries and match each one to the correct Rocketlane project and task. Do not create or update anything yet.
+
+Change billable status before creation
+In the draft, mark all internal standup time this week as non-billable. Show the revised rows before creating anything.
+
+Correct an existing time-entry note
+Find my Acme time entry from Monday and show me the current entry first. If there is only one clear match, update its note to “Sprint planning and backlog grooming” after I confirm. If there are multiple matches, ask me which entry to update.
+
+Check time-entry status
+Show my time entries for this month that are still unsubmitted or unapproved. Group them by week and include the date, project, task, hours, and current status. Do not update anything.
+
+Review before creating time entries
+Even if you ask Claude to create the entries immediately, review the final table first.
+The final review helps prevent an uncertain project match, duplicate activity, incorrect duration, or wrong billable status from becoming a Rocketlane record.
+Follow these safeguards:
+
+Keep Steps 1 through 5 read-only.
+
+Do not approve rows marked Needs check .
+
+Ask Claude to compare the draft with existing entries for the same dates.
+
+Require explicit confirmation before any time entry is created or updated.
+
+Ask Claude to report successful and failed creations.
+
+Verify the created entries in Rocketlane before submitting your timesheet for approval.
+Note Creating time entries through Rocketlane MCP does not submit the timesheet for approval. Complete the submission from Rocketlane according to your organization’s timesheet process.
+
+For a complete overview of supported MCP actions, see Guide to Using Rocketlane MCP Tools .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connect Rocketlane MCP to Claude Code
+
+Connect Rocketlane MCP to Claude
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Guide to Using Rocketlane MCP Tools
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

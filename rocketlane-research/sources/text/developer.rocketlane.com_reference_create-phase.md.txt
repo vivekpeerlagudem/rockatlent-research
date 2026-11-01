@@ -1,0 +1,498 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Create a phase
+
+The *Create a phase* API allows users to create new phases in the system for the given project. This endpoint provides a way for developers to add phase details, including the `phaseName`, `startDate`, `dueDate`, `status` and  `private` fields for the phase. This API returns the created phase object.
+
+To customise the response, utilise the `includeFields` parameter and it will return the created phase in the response body.
+
+Here is a reference table for phase status and their corresponding values.
+
+| Label       | Value | Color     |
+| :---------- | :---- | :-------- |
+| To do       | 1     | Blue      |
+| In Progress | 2     | Green     |
+| Complete    | 3     | Green     |
+| Blocked     | 4     | Cool Grey |
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Phases",
+      "description": "Endpoints for phases resource"
+    }
+  ],
+  "paths": {
+    "/1.0/phases": {
+      "post": {
+        "tags": [
+          "Phases"
+        ],
+        "summary": "Create a phase",
+        "operationId": "create-phase",
+        "parameters": [
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "startDateActual",
+                  "dueDateActual",
+                  "budgets"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhasePublicAPIRequestEntity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "The resource was successfully created in the database.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PhasePublicAPIResponseEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "PhaseCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the phase."
+      },
+      "PhasePublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "phaseId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The phases's unique, system-generated identifier, which can be used to identify the phase globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "phaseName": {
+            "type": "string",
+            "description": "The name of the phase.",
+            "example": "Kick off"
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPIPhaseResponseEntity"
+          },
+          "phaseDescription": {
+            "type": "string",
+            "description": "The description of the phase providing additional context.",
+            "example": "Initial discovery and alignment with the customer."
+          },
+          "startDate": {
+            "type": "string",
+            "description": "On this date the phase's execution officially begins. . The due date is mandatory. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDate": {
+            "type": "string",
+            "description": "The day on which the phase's execution is planned to be completed. The due date is mandatory. The dueDate must be on or after the given startDate. The format for the due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "startDateActual": {
+            "type": "string",
+            "description": "The date on which the phase status is changed to in progress. The status can be either the default said status (in progress) or custom statuses that are categorised as in progress. It can be null for phases that have not yet begun. The format for the actual start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDateActual": {
+            "type": "string",
+            "description": "The date when phase status gets changed to completed. The status can be either the default provided status (completed) or a custom status that is labelled under the Completed category.  It will be null if the phase is yet to be completed. The format for the actual due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the phase was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the phase was last updated. Any changes that's related to the phase are captured and specified here in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/PhaseCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/PhaseUpdatedByUserPublicAPI"
+          },
+          "status": {
+            "$ref": "#/components/schemas/PhaseStatusPublicResponse"
+          },
+          "budgets": {
+            "type": "array",
+            "description": "The budgets associated with this phase.",
+            "items": {
+              "$ref": "#/components/schemas/PhasePublicProjectFinancialsBudgetResponse"
+            }
+          },
+          "private": {
+            "type": "boolean",
+            "description": "Describes the privacy of the phase i.e. if it is private or shared.",
+            "example": true
+          }
+        }
+      },
+      "PhasePublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "The budgets associated with this phase."
+      },
+      "PhaseStatusPublicResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value of the status field is the unique identifier for status fields.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 2
+          },
+          "label": {
+            "type": "string",
+            "description": "The label is the name of the status.",
+            "readOnly": true,
+            "example": "In progress"
+          }
+        },
+        "description": "The phase status value along with the label will be present here."
+      },
+      "PhaseUpdatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the phase"
+      },
+      "ProjectPublicAPIPhaseResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "The `project` associated with phase."
+      },
+      "PhaseStatusPublicRequest": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value of the status field.",
+            "format": "int32",
+            "example": 2
+          }
+        },
+        "description": "The value of the phase status can be specified here and this is essential to keep track of the phase."
+      },
+      "PhasePublicAPIRequestEntity": {
+        "required": [
+          "dueDate",
+          "phaseName",
+          "project",
+          "startDate"
+        ],
+        "type": "object",
+        "properties": {
+          "phaseId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The `identifier` of the phase is generated by the system and can be used to identify the phase globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "phaseName": {
+            "type": "string",
+            "description": "The `name` of the phase. The name specified will be displayed everywhere else and can be used for filtering purposes.",
+            "example": "Kick off"
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPIPhaseRequestEntity"
+          },
+          "phaseDescription": {
+            "type": "string",
+            "description": "An optional `description` of the phase providing additional context.",
+            "example": "Initial discovery and alignment with the customer."
+          },
+          "startDate": {
+            "type": "string",
+            "description": "On this date the phase's execution officially begins. The start date is required. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDate": {
+            "type": "string",
+            "description": "The day on which the phase's execution is planned to be completed. The due date is required and cannot be left blank. The `dueDate` must be on or after the given `startDate`. The format for the due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "status": {
+            "$ref": "#/components/schemas/PhaseStatusPublicRequest"
+          },
+          "private": {
+            "type": "boolean",
+            "description": "Describes the privacy of the phase i.e. if it is private or shared.",
+            "example": true
+          }
+        }
+      },
+      "ProjectPublicAPIPhaseRequestEntity": {
+        "required": [
+          "projectId"
+        ],
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The `identifier` of the project is generated by the system and can be used to identify the project globally.",
+            "format": "int64",
+            "example": 201
+          }
+        },
+        "description": "The `project` associated with phase needs to be specified here and it is mandatory for the phase to get created and map accordingly."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

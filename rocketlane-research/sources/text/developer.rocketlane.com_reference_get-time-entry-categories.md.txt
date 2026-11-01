@@ -1,0 +1,254 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get time entry categories
+
+This endpoint can be used to fetch the time entry categories. This API returns a paginated object containing the various time entry categories present.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Time Tracking",
+      "description": "Endpoints for time entries and timesheets"
+    }
+  ],
+  "paths": {
+    "/1.0/time-entries/categories": {
+      "get": {
+        "tags": [
+          "Time Tracking"
+        ],
+        "summary": "Get time entry categories",
+        "description": "This endpoint can be used to fetch the time entry categories. This API returns a paginated object containing the various time entry categories present.",
+        "operationId": "get-time-entry-categories",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseTimeEntryCategories"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "ExampleAPIResponseTimeEntryCategories": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/TimeEntryCategoryPublicForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationTimeEntryCategories"
+          }
+        }
+      },
+      "ExamplePaginationTimeEntryCategories": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/time-entries/categories?includeFields=category,minutes&billable.eq=false&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100&assignee.any=1&startDate.gt=2022-01-02"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "TimeEntryCategoryPublicForExample": {
+        "type": "object",
+        "properties": {
+          "categoryName": {
+            "type": "string",
+            "description": "The name of the category.",
+            "readOnly": true,
+            "example": "Pre-sales"
+          },
+          "categoryId": {
+            "type": "integer",
+            "description": "The unique identifier for the category.",
+            "format": "int64",
+            "example": 8
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

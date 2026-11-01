@@ -1,0 +1,243 @@
+TITLE: How to set up and manage rate cards in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721295-setting-up-rate-cards
+
+How to set up and manage rate cards in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Setting up Rate cards
+
+Setting up Rate cards
+
+Created by Monica Madan, Modified on Tue, 11 Nov, 2025 at 5:46 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+An effective way to charge customers for your team's work on their projects is using Rate cards for time and material projects. This approach involves creating rate cards, which details the hourly billing rates of the team members who will be working on customer projects. By utilizing rate cards, you can avoid discrepancies in the billing process when invoicing customers.
+
+The rate card contains the bill rates for specific project roles like designer, engineer, etc. You can create multiple rate cards, for your different service offerings or products.
+
+Using Rocketlane's Rate cards along with the time tracking feature, you can estimate the charges your customers should pay for the time your team spends on their projects. This is essential to ensure that your revenue is accurately tracked.
+
+Take up a course on Financial Management here.
+
+In this article
+
+Components of a rate card and what they mean:
+
+Rate card Versions
+
+Creating Rate cards
+
+Creating new versions of rate cards
+
+Disabling a rate card
+
+Components of a rate card and what they mean:
+
+Name Name your rate card to suit its purpose (example: Enterprise rate card)
+Versions If you wish to revise your rate cards owing to your business growth, you can create new versions of existing rate cards and set an effective date.
+Roles Assigned roles of your team members
+Rates Standard hourly rates to bill customers for the role
+Default Rate If the bill rate is missing for a specific role in a project, the system uses the Default rate for that role
+
+Effective date The date at which a version of the rate card becomes available
+
+Rate card Versions
+Active Version The rate card presently active and available to be used in new projects
+Upcoming Version The upcoming version of the rate card that will take effect based on the set effective date
+Past Version These are previous versions of the rate card that cannot be used in new projects
+Add Currency
+
+Creating Rate cards
+
+To enable rate cards for your projects,
+
+Navigate to your profile icon, click on settings
+
+Under Operations and Finances, select Rate Cards
+
+Click on New card+
+
+Name your card and select the effective date from when the rate card takes effect.
+
+Select the currencies you want to use in projects that utilize this rate card.
+
+Start adding roles to the rate card and set the bill rates ($/hour)
+
+Toggle the Rate card to use it in your projects.
+
+Note: You cannot add currency to an active version of the rate card
+
+Creating new versions of rate cards
+
+If you need to update your pricing due to the growth of your business, you can make new versions of your existing rate cards and choose an effective date. The upcoming version of the rate cards will be applied for projects created on or after the effective date. It's important to note that only one version of the rate card can be active at any given time and will be used while creating new projects.
+Note 1 : You cannot make changes to the past and active versions of the rate card. However, you can make changes to the upcoming version of the rate cards, until it becomes active. Note 2 : Once a new version of the rate cards becomes active, any projects using the past version will continue to use that version, unless changed explicitly.
+
+To create a new version of the rate card,
+
+Click and open an existing rate card
+
+Click on + next to Versions
+
+Set the Effective Date as the date from which the version of rate card should apply to new projects
+
+Start modifying the rates under Bill rates ($/hour) for all the roles or specific ones.
+
+Once done, click Create
+
+Disabling a rate card
+
+If you wish to disable any of your rate cards that are outdated and not in use anymore,
+
+Navigate to your profile icon, click on settings
+
+Under Operations and Finances, select Rate Cards
+
+Here, you will see the list of rate cards and toggle button next to each rate card
+
+Toggle off the rate card that you wish to disable.
+
+Note: The effective date on the rate card indicates when that version of the rate card was created. However, when you apply it to a project, you can set a custom effective date at the project level, which can also be backdated. It’s this project-level effective date that drives the financial calculations — regardless of the effective date on the rate card itself.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project-Specific Rate Cards in Rocketlane
+
+Setting up currencies
+
+Quick guide to setting up Financials
+
+Understanding Task Dependencies in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

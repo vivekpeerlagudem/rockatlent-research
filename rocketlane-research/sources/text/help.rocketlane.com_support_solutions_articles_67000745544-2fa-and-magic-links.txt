@@ -1,0 +1,162 @@
+TITLE: 2FA and Magic Links : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000745544-2fa-and-magic-links
+
+2FA and Magic Links : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+2FA and Magic Links
+
+2FA and Magic Links
+
+Created by Advaith R, Modified on Wed, 18 Jun, 2025 at 3:59 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Can I restrict certain forms in the customer portal?
+
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later?
+
+2FA and Magic Links
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Why am I getting a 401 error when I try to embed my customer portal?
+
+Hide the Effort Column from the Customer Portal Task List
+
+How do I edit or customize the Customer Portal for a specific project?
+
+How can I embed a video in the Customer Portal?
+
+No article available
+
+Can I set up Two-Factor Authentication (2FA) for specific customers in Rocketlane?
+No, Rocketlane doesn't currently offer a direct way to enable 2FA for individual customers or specific projects out of the box. 2FA is generally configured at a broader account level if available.
+
+How secure are the "magic links" customers use to access the Rocketlane portal without 2FA?
+Rocketlane's "magic links" are designed with security in mind, even without traditional 2FA:
+
+Unique and Time-Sensitive: When a customer logs in, the system generates a unique, single-use, time-sensitive token (valid for 7 days) and sends it to their registered email address.
+
+Secure Verification: The customer's browser securely transmits this token back to Rocketlane's backend for rigorous verification and validation. Access is granted only if the token is valid and unexpired.
+
+Encryption: All data transmissions during this process are encrypted to protect sensitive information.
+
+Non-Reusable: The token cannot be reused or exploited after its initial use or expiration.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to invite customers to your portal
+
+Why is the Customer not receiving the Magic Link in their Email?
+
+Embedding Calendly Links in Rocketlane
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

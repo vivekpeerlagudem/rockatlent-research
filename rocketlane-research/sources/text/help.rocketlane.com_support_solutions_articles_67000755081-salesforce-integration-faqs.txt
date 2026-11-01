@@ -1,0 +1,198 @@
+TITLE: Salesforce Integration FAQs : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755081-salesforce-integration-faqs
+
+Salesforce Integration FAQs : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Salesforce Integration FAQs
+
+Salesforce Integration FAQs
+
+Created by Advaith R, Modified on Mon, 27 Jul at 8:24 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to add Salesforce object links to projects?
+
+How to Integrate Freshsales with Rocketlane
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+What are the current capabilities and limitations of the Slack integration.
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+My Workato automation is failing with a 'Rate limit exceeded' error. What should I do?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Salesforce Integration FAQs
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+No article available
+
+In this article
+
+Default visibility of Salesforce automation-created projects
+
+Why object fields show record IDs
+
+Re-authenticating a connected user
+
+Does reconnecting preserve existing setup?
+
+1. What is the default visibility of projects created through Salesforce automation, and can it be changed?
+Projects created through Salesforce automation have Team Members visibility by default.
+This visibility cannot be changed through the Rocketlane user interface. However, it can be changed by making a custom request.
+
+2. Why does selecting an Account or another object in the Project Create Field Configuration populate the field with a value such as a4rRo0000001pgPIAQ ?
+This value is the unique Salesforce record ID of the selected Account or object, rather than its display name.
+To display the object’s name, map its specific Name field. For example, select Account > Account Name instead of selecting the base Account object.
+
+3. What should I do if the connected Salesforce user needs to re-authenticate?
+Do not disconnect and reconnect the integration.
+Re-authentication can be completed by making a custom request without disconnecting the existing integration.
+Important Reconnecting creates a brand new integration state, causing a loss of existing automation and field sync that cannot be fully restored.
+
+4. Will reconnecting the integration preserve existing automations and field syncs?
+No. Reconnecting creates a new integration state. Existing automations and field sync settings will not be preserved.
+This design prevents failures caused by:
+
+Salesforce organization changes: The Salesforce organization may change during reconnection. Fields available in the original organization may not exist in the newly connected organization.
+
+Permission discrepancies: The newly authenticated user may not have the same permissions as the previous user, which could cause existing field syncs and automations to fail.
+Because of these variables, resetting to a clean state ensures full transparency and prevents silent background failures.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+How to setup the Rocketlane Salesforce Integration?
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

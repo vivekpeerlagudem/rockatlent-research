@@ -1,0 +1,281 @@
+TITLE: How to measure revenue recognition for time and material projects? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721298-understanding-revenue-recognition-for-fixed-fee-projects
+
+How to measure revenue recognition for time and material projects? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Created by Monica Madan, Modified on Thu, 30 Apr at 11:22 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+Revenue recognition, a core accounting principle, guides how companies record their earnings over a particular period, regardless of when they receive payment. This is part of the accrual accounting method, which prioritizes recording revenue when it’s earned.
+
+Take a course on Financial Management here.
+
+In this article
+
+Let's break down the definitions used in the revenue recognition calculations:
+
+Recognise revenue based on hours tracked as percentage of budgeted hours.
+
+Recognise revenue based on hours tracked as percentage of total allocated hours
+
+Recognise revenue based on hours tracked as percentage of Estimate at completion (EAC) hours
+
+Milestone based
+
+Manual
+
+To properly apply this principle, careful project planning and budgeting are essential. By monitoring the time spent on a project, a company can gradually record revenue in line with project advancement. This method ensures that recorded revenue corresponds accurately with the services delivered, providing a true representation of the company’s performance.
+
+Rocketlane offers multiple methods for recognising revenue, making it easy to keep track of finances. You have the flexibility to set up revenue recognition for all projects or allow project owners to choose a specific revenue recognition method when creating a project.
+
+Let's break down the definitions used in the revenue recognition calculations:
+Fixed fee : This is the predetermined fee that you have agreed upon with the customer for the entire project. It is the amount that the customer will pay you for the completion of the project.
+
+Tracked hours : This refers to the total number of hours that your team has logged for the project. It represents the actual time spent working on the project and is reported by your team via timesheets.
+
+Budgeted hours : When you create a project, you typically estimate or set the total number of hours you expect to take to complete the project. This estimation is the budgeted hours, representing the planned time for the project.
+
+Allocated hours : The sum allocated for individual resources assigned to the project.
+
+Let's understand revenue recognition using an example:
+
+Example: Let's consider a project called "Modert," which lasts 10 days. The budgeted hours for the project is 80h and the resources allocated across the project is 76h. The time tracked by the resources in timesheets so far is 8h
+
+Method 1:
+
+Recognise revenue based on hours tracked as percentage of budgeted hours.
+
+Recognised revenue for a period = (Tracked hours for that period / Budgeted hours) * Fixed Fee
+= (8/80)*20,000
+= 2000 USD
+
+Forecasted recognised revenue for a period = (Allocated hours for that period / Budgeted hours) * Fixed Fee
+
+Method 2:
+
+Recognise revenue based on hours tracked as percentage of total allocated hours
+
+Recognised revenue for a period = (Tracked hours for that period / Total allocated hours) * Fixed Fee
+
+= (8/76)*20000
+= 2,105.27 USD
+
+Forecasted recognised revenue for a period = (Allocated hours for that period / Total allocated hours) * Fixed Fee
+
+Method 3:
+
+Recognise revenue based on hours tracked as percentage of Estimate at completion (EAC) hours
+Read more about EAC here .
+
+Recognised revenue for a period = (Tracked hours for that period / EAC) * Fixed Fee
+
+Forecasted recognised revenue for a period = (Allocated hours for that period / EAC ) * Fixed Fee
+
+Method 4:
+
+Milestone based
+
+Milestone-based revenue recognition is a process where revenue is recognized only when certain predetermined milestones/tasks are reached. The completion of each task is associated with a portion of the total fixed fee, which is recognized as revenue. In order for revenue to be recognized at any task, that task task must be explicitly marked as completed.
+
+You can use the Revenue Recognition Plan to set the amount of revenue that will be recognized at each task/milestone. This plan allows you to define the percentage of the fixed fee amount to be recognized upon completion of each milestone task.
+
+Actual revenue is recognized only when these tasks, as specified in the revenue recognition plan, are marked as completed.
+
+To set up milestone-based revenue recognition, follow these steps:
+
+Navigate to the project for which you want to set up revenue recognition.
+
+Go to settings and select budgets and rates.
+
+Scroll down to revenue recognition and click edit plan.
+
+Begin adding tasks and specify the amount of fixed fee to be recognized as revenue upon completion.
+
+The system automatically calculates the percentage of revenue recognized when the specified task is completed.
+
+Plan revenue recognition for project tasks so that the total recognized revenue equals the fixed fee budget.
+
+As tasks in the project are marked as completed, actual revenue will be recognized accordingly.
+
+Method 5:
+
+Manual
+You can manually add the revenue to be recogn ised on a certain date for the project.
+
+To manually recognize revenue:
+
+Navigate to the project for which you want to set up revenue recognition.
+
+Go to settings and select budgets and rates.
+
+Scroll down to revenue recognition and click on "Recognize More."
+
+Choose the date and the fixed fee amount to be recognized. The system automatically calculates the percentage of revenue recognized.
+
+You can also view the remaining fixed fee amount to be recognized here.
+
+Note: In manual recognition, the entire forecasted revenue recognition value is attributed to the project's due date in the portfolio report.
+
+Things to remember:
+1. As the team keeps logging more hours and makes progress on the project, the revenue gets recognized for those hours.
+2. However, the revenue that can be recognized is limited to the fixed fee, with a maximum cap of 100%.
+3. Once a project is marked as completed, if the recognized revenue is below 100%, the system will recognize the remaining portion of the fixed fee on the project completion date.
+
+You can choose the appropriate revenue recognition method for fixed fee projects in Rocketlane,
+
+Navigate to your avatar, and select settings
+
+Scroll down to the Operations and Financials section
+
+Select Financial Management
+
+On the Financials page, you can select the preferred Revenue recognition for fixed fee projects
+
+To get an overview of the Financials Dashboard, click here .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+Understanding revenue recognition for subscription projects
+
+Overview of fixed fee projects
+
+Portfolio reporting
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

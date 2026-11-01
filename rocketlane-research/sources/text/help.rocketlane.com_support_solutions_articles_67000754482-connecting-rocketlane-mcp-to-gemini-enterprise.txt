@@ -1,0 +1,264 @@
+TITLE: Connecting Rocketlane MCP to Gemini Enterprise : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754482-connecting-rocketlane-mcp-to-gemini-enterprise
+
+Connecting Rocketlane MCP to Gemini Enterprise : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Created by Advaith R, Modified on Wed, 19 Aug at 7:07 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Essential
+
+Enterprise
+
+Articles in this series
+
+Guide to Using Rocketlane MCP Tools
+
+Connect Rocketlane MCP to Claude
+
+Connect Rocketlane MCP to Claude Code
+
+Connecting Rocketlane MCP to Cursor
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+No article available
+
+Rocketlane MCP can be connected to Gemini Enterprise using an MCP server and OAuth authentication.
+Gemini Enterprise requires Rocketlane OAuth credentials to be provisioned for your organization before the connection can be configured.
+In this article
+
+Prerequisites
+
+Rocketlane MCP server URL
+
+Request OAuth credentials
+
+Add Rocketlane MCP in Gemini Enterprise
+
+Authenticate Rocketlane
+
+Test the connection
+
+Troubleshooting
+
+Prerequisites
+Before connecting Rocketlane MCP to Gemini Enterprise, ensure that:
+
+Your organization uses Gemini Enterprise.
+
+Rocketlane OAuth credentials have been requested for Gemini Enterprise.
+
+You have permission to add tools or connectors in Gemini Enterprise.
+
+You can complete the Rocketlane sign-in flow.
+
+Rocketlane MCP server URL
+Use the following MCP server URL while adding Rocketlane MCP in Gemini Enterprise:
+https://rocket-mcp.rl-platforms.rocketlane.com/mcp
+
+Request OAuth credentials
+Gemini Enterprise requires a client ID and client secret before Rocketlane MCP can be connected.
+To request credentials:
+
+Contact Rocketlane support.
+
+Request MCP OAuth credentials for Gemini Enterprise.
+
+Rocketlane provides:
+client_id
+
+client_secret
+
+Note Keep the OAuth credentials secure. They are required while configuring the MCP server in Gemini Enterprise.
+
+Add Rocketlane MCP in Gemini Enterprise
+In Gemini Enterprise, add a new MCP server.
+Use the following configuration:
+Field Value
+MCP Server URL https://rocket-mcp.rl-platforms.rocketlane.com/mcp
+Authorization URL https://rocketlane.scalekit.com/oauth/authorize
+Token URL https://rocketlane.scalekit.com/oauth/token
+Client ID Use the value provided by Rocketlane.
+Client Secret Use the value provided by Rocketlane.
+Scopes Leave empty.
+Save the MCP server configuration after entering the required values.
+
+Authenticate Rocketlane
+After the MCP server is added, authenticate the connection.
+
+Click Login in Gemini Enterprise.
+
+Complete the Rocketlane sign-in flow in the browser.
+
+Return to Gemini Enterprise.
+
+Confirm that the connector shows an authenticated state.
+Once authentication is complete, Rocketlane MCP is connected to Gemini Enterprise.
+
+Test the connection
+Run a simple prompt in Gemini Enterprise:
+Show me my Rocketlane account profile.
+If Gemini Enterprise returns the Rocketlane account profile, the connection is working.
+
+Troubleshooting
+
+Authentication fails or returns an invalid token error
+If authentication fails, verify that the OAuth URLs are configured correctly.
+Use the following Authorization URL:
+https://rocketlane.scalekit.com/oauth/authorize
+Use the following Token URL:
+https://rocketlane.scalekit.com/oauth/token
+Note Both URLs must use the scalekit.com host.
+
+The connector does not authenticate
+If the connector does not authenticate:
+
+Confirm the client_id and client_secret were entered correctly.
+
+Confirm the Scopes field is empty.
+
+Start the login flow again.
+
+Complete Rocketlane sign-in in the browser.
+
+Confirm that the connector shows an authenticated state.
+
+Rocketlane data does not appear after authentication
+If authentication succeeds but Rocketlane data is not returned:
+
+Confirm the authenticated Rocketlane user has access to the selected Rocketlane instance.
+
+Confirm the user has permission to view the requested data.
+
+Test with:
+Show me my Rocketlane account profile.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Automation Pricing
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Cursor
+
+Connect Rocketlane MCP to Claude
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

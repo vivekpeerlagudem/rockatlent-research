@@ -1,0 +1,219 @@
+TITLE: The Projects Page View in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000718035-the-projects-page-view-in-rocketlane
+
+The Projects Page View in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+The Projects Page View in Rocketlane
+
+The Projects Page View in Rocketlane
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 4:50 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+Custom and Default Filter Views
+
+Applying Filters and Adding Views
+
+Grouping Projects Based on Project Fields
+
+Column Customisation
+
+Projects List Export
+
+The Projects Page View is where you can view all the projects created in your Rocketlane account.
+Tip Click on the hotkey P on your keyboard to access the Projects page from anywhere in your Rocketlane account.
+
+You can access the Projects page by clicking on the Projects icon from the left navigation bar.
+
+Custom and Default Filter Views
+The Projects page has default and custom filter views that help you view your saved filter conditions so that you can view only specific relevant projects.
+The default filter options are:
+Default view Description
+My Projects Displays all the projects where you are added as a team member.
+All Projects Displays all the projects visible to you in your Rocketlane account.
+You can apply custom filters on projects based on your preferences and save it as a private or shared view.
+The custom filter view categories are:
+Custom view category Description
+My Saved Views Displays your private saved views. Only you can view these.
+Shared Views Displays all the views that have been saved as shared.
+
+Applying Filters and Adding Views
+
+From the Projects page, click on Filter .
+
+You can apply multiple filters based on project fields to view specific projects based on your requirements from the Projects page. Choose from all or any based on your filter criteria in case of multiple filters.
+
+Click Done to view the filtered tasks.
+
+Click Save view as to save this filter as a view.
+
+From the New View dialog box, give a name to the view and choose if you want the view to be private or shared.
+
+Click Save to save the view.
+
+Your view will be added to My saved views for views marked as Only me and Shared views for views marked as All team members .
+
+Click Clear to exit the filter mode.
+
+Grouping Projects Based on Project Fields
+You can group similar projects together based on project fields. This will help you to get a count of the number of projects in each category too.
+Click on the drop down menu next to Group by and select the field based on which you want to categorise your projects.
+Post grouping, the project groups for each category can be collapsed and expanded by clicking on the field values of each group. You can also view the number of projects in each group from here.
+
+Column Customisation
+You can customise the columns that you see on the Projects page by clicking on the Edit Columns button from the toolbar on the top.
+Based on whether you want to show or hide a column, select or deselect the check box next to each column name.
+You can also determine the order of the columns by clicking and holding on the reorder icon next to each column name and dragging and dropping it in the required order.
+You can also arrange the projects based on the order of column values by clicking on each of the column headers. For example: Click on the Progress column header to arrange the Projects list based on maximum to least progress or vice versa.
+
+Projects List Export
+The Projects page includes an export feature that allows you to generate a .csv type file of the entire list, comprising the columns you have selected.
+The .csv type file generated will be directly downloaded to your device if the number of projects in the Projects List View is less than 200.
+If the number of projects is more than 200, the .csv type file exported will be sent to your email, which is the email ID you used for signing into Rocketlane.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to set up permissions for team members and customers (RBAC)
+
+Rocketlane for Mobile
+
+Setting up and managing Accounts
+
+Embedding your portal on On Prem and Cloud Solutions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,238 @@
+TITLE: Guide to Permissions and Access Levels in Rocketlane (RBAC) : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000728833-how-to-set-up-permissions-for-team-members-and-customers-rbac-
+
+Guide to Permissions and Access Levels in Rocketlane (RBAC) : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How to set up permissions for team members and customers (RBAC)
+
+How to set up permissions for team members and customers (RBAC)
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 4:42 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+How to set up permissions for team members and customers (RBAC)
+
+How to setup and manage groups in Rocketlane
+
+No article available
+
+In this article
+
+Define Access Levels in Rocketlane
+
+Global and Group Access Levels
+
+Create and assign a custom permission set for a team member
+
+Create and assign custom permissions for team members in projects
+
+Create and assign permissions for customers in projects
+
+In Rocketlane, each team member is assigned specific responsibilities, such as viewing projects, creating templates, reporting time, and managing project elements like tasks, chats, and documents. They are given specific permissions to carry out these responsibilities while maintaining security and preventing unauthorized changes.
+You can also customize permissions for specific projects. For instance, a user with Collaborator permissions can be granted elevated access to become a project consultant within a particular implementation project. This allows them to perform tasks like updating project status and fields exclusively within that specific project.
+Rocketlane's detailed permission controls extend to managing how customers interact with projects, ensuring a secure and collaborative environment.
+Now, let's explore how to configure these permissions within Rocketlane.
+
+Define Access Levels in Rocketlane
+Rocketlane employs a nuanced permission structure, categorizing access levels into three key domains: Account, Project, and Customers.
+Access level Description
+Account Level permissions Account Level permissions are tailored to the team member's responsibilities related to the overall account. This includes the ability to create templates and projects, manage dashboards, update project fields, track finances, and other account-specific actions. Team members with account-level permissions play a pivotal role in shaping the broader aspects of your business.
+Project Level permissions Project Level permissions are designed for team members engaged in specific projects. Here, users have the authority to view, create, edit, and access all components within a project.
+Customer Level permissions Customer Level permissions are extended to customers interacting with your projects. Customers are granted specific actions within a project, such as updating task statuses or adding files. This level of permission ensures that customers can engage meaningfully within the project framework while maintaining control over their actions.
+
+Global and Group Access Levels
+Certain sections within your Rocketlane account contain sensitive and business-specific information. To maintain confidentiality, it is essential to limit access to this information within your company. To strike a balance between safeguarding sensitive information and providing transparency at executive levels, Rocketlane uses a tiered access approach.
+For instance, when managing projects globally, you may need to restrict access to details from projects in different regions, like the US and EU. To achieve this, Rocketlane adds a new permission layer that lets you carefully control what your team members can access, especially within specific groups. This ensures that individuals have access only to the information relevant to their responsibilities and groups they belong to. However, for executives like CXOs or board members, a broader perspective is crucial. Hence, Rocketlane provides global access to such high-level roles, offering a comprehensive overview of the entire business.
+Learn more about setting up and managing groups here .
+Access type Description
+Global Access Team members with this level of access can manage all projects, project fields, and task fields.
+Groups and Projects Visible to All Depending on project visibility and group memberships, team members can manage projects and related task fields.
+Participant of and Projects Visible to All Team members involved in a project can access both the project itself and the associated project and task fields, provided they are visible to all.
+
+Create and assign a custom permission set for a team member
+To create a custom permission set for users joining your company:
+
+Navigate to your avatar and select Settings .
+
+Under the Account section, select Permissions .
+
+Determine if the permission set you wish to create for your team member is on an account level or project level.
+
+If it is account level permissions, select the Accounts tab.
+
+Click the New permission button.
+
+Give the permission set a name . For example, if you are creating this for a Delivery Manager, add that name and add a clear description .
+
+Determine the access that a team member with this permission should have by selecting the appropriate checkboxes under each module, like projects, tasks, etc.
+
+Save the permission set.
+
+To assign account level permissions to team members when they are invited:
+
+Go to the Team members page under Accounts.
+
+Click the three dots near a team member, click View details , and then click Edit profile .
+
+Under Permissions , associate the user to the custom permissions you created.
+
+Associate them to a group if they should be part of one, for example, “US project delivery team.”
+
+Click Save .
+
+Create and assign custom permissions for team members in projects
+Repeat the same steps as the above section to navigate to the Permissions page and choose the Projects tab to create a permission set that allows team members to have custom access to the projects they are part of.
+To give team members special permissions within projects they are part of:
+
+Navigate to Projects and select the project the team member belongs to.
+
+Click the Settings icon and go to Team members .
+
+Click the three dots near the team member you wish to assign permissions to.
+
+Select Set project permissions .
+
+Select the relevant permission from the drop-down and click Set permissions .
+
+Note When a team member is granted both account and project-level permissions, the permission set providing the highest level of access to projects will take precedence. This ensures that in cases of overlapping permissions, the more extensive access rights for project-related activities will be applied.
+
+Create and assign permissions for customers in projects
+Repeat the same steps as the above section to navigate to the Permissions page and choose the Customers tab to create a permission set that allows customers to have custom access to the projects they are part of.
+Module Customer permission
+Projects Allows customers to invite team members from their companies.
+Phase Allows customers to edit and delete phases.
+Tasks Allows customers to view, edit, and perform all task actions. This also allows customers to view, edit, and delete tasks.
+Spaces Allows customers to create and delete private and shared spaces, create, edit, delete, and rearrange documents, and embed URLs in spaces.
+Chat Allows users to create project conversations that are only private or both private and shared, edit names, send messages, invite customer team members to conversations, and delete conversations.
+To associate permissions to customers:
+
+Navigate to Projects and select the project the team member belongs to.
+
+Click the Settings icon and go to the customer team members section.
+
+Click the three dots near the customer you wish to assign permissions to.
+
+Select Set project permissions .
+
+Select the relevant permission from the drop-down and click Set permissions .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Difference & Precedence Between Account and Project Level Permissions
+
+Project Level Permissions
+
+Inviting Your Team to your Rocketlane Account
+
+Partners in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,194 @@
+TITLE: How to configure your company email address? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000722551-how-to-configure-your-company-email-address-
+
+How to configure your company email address? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How to configure your company email address?
+
+How to configure your company email address?
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 4:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How To Setup Your Company references?
+
+How to configure your company email address?
+
+How to customize your domain URL?
+
+Configure How Utilisation Is Calculated
+
+No article available
+
+In this article
+
+Configure your company domain
+
+Setting up DKIM
+
+Things to remember when adding CNAME records to your DNS
+
+Configuring custom emails
+
+Using Rocketlane, you can invite your team members to join the platform via email. Once they're on board, they'll receive email notifications to remind them of any overdue tasks or timesheets. By default, these emails are sent from Rocketlane's email address. However, if you want to personalize the emails by sending them from your company email address, Rocketlane enables you to set this up.
+
+Configure your company domain
+To do so:
+
+Navigate to your Profile icon and select Settings .
+
+Scroll down to the Advanced settings section and select Email configuration .
+
+Under Send emails from your company domain by configuring DKIM , enter the domain from which you wish to send emails, for example, yourcompanyname.com or success.yourcompanyname.com.
+
+Click Add+ .
+
+After adding your company domain, the system will generate the CNAME records to be configured in your DNS provider.
+
+Setting up DKIM
+DKIM protocol is relied upon by companies worldwide to identify and flag your business emails as secure. To ensure that all emails sent using your company email address are not marked as spam, it's important to enable DKIM.
+By enabling DKIM, you establish a digital signature that confirms the integrity and authenticity of your outgoing emails. This signature allows recipient email servers to verify that the emails originated from your domain are safe.
+
+Things to remember when adding CNAME records to your DNS
+You can use your respective DNS provider to add CNAME records to your DNS. In this example, we used GoDaddy DNS.
+
+Copy and paste all the CNAME record entries into your DNS.
+
+Remember that some DNS providers may require a specific format for the name. For instance, entering domain names in GoDaddy automatically fills in the "yourcompany.com" detail.
+Note After adding all four records, waiting for some time before clicking on verify is essential. DNS records typically take 24 to 48 hours to get published and verifying right after adding the records might lead to failed verification.
+
+After adding the CNAME records to your DNS, return to your Rocketlane Email configuration page and click Verify .
+
+A green verified sign next to your domain signals that your DKIM is set up successfully.
+Note Click delete domain if you wish to delete the company domain.
+
+Configuring custom emails
+If you want to customize the email address from which you send invitations and notifications to your team members, you can edit the section before the @ symbol. An example would be changing the "welcome" portion of the email welcome@yourcompanyname.com to something that suits your liking.
+To edit emails:
+
+Scroll down to the Configure emails section.
+
+Click Edit emails .
+
+In the custom emails pop-up box, edit the prefix of the emails for invitations and notifications .
+
+Click Save .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Partners in Rocketlane
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Email Page Templates
+
+How To Setup Your Company references?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

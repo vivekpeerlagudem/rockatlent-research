@@ -1,0 +1,402 @@
+TITLE: Introduction to Signals in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753773-introduction-to-signals-in-rocketlane
+
+Introduction to Signals in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Introduction to Signals in Rocketlane
+
+Introduction to Signals in Rocketlane
+
+Created by Advaith R, Modified on Wed, 8 Jul at 3:38 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Introduction to Signals in Rocketlane
+
+Email Intelligence: How Email Ingestion Works
+
+Meeting Page Templates
+
+Email Page Templates
+
+Setting Up Your Company Knowledge Base
+
+No article available
+
+In this article
+
+Signal types
+Risk
+
+Opportunity
+
+Operational
+
+What a signal card contains
+
+Signal occurrences
+
+Signal lifecycle
+Transcript ingestion
+
+Eligibility and filtering
+
+Signal detection
+
+Signal occurrence and visibility
+
+Creating a signal definition
+Inputs used to build the signal configuration
+
+Clarifying questions
+
+Reason codes and examples
+
+Create and test a signal
+Create a new signal
+
+Review the generated configuration
+
+RBAC for signals
+Permission categories
+
+Scope options
+
+When critical project information is buried in email threads or lost in hours of meeting footage, staying proactive becomes a challenge. Signals solve this by transforming unstructured interaction data into clear, AI-powered insights.
+This capability, known as Enterprise Listening , allows Rocketlane AI to monitor conversations across your team for specific, pre-configured statements. Rather than just scanning text, the AI applies your unique business context to evaluate interactions through your organization's specific lens.
+By analyzing one or more transcripts from your interactions, Rocketlane AI identifies specific patterns or events that carry business significance. For example, if a customer mentions a budget freeze in an email or expresses frustration during a weekly sync, the AI signals this as a potential risk to the account.
+
+Signal types
+Signals are classified into three broad types:
+Type What it captures
+Risk Negative impact potential - renewal risk, churn signals, escalations.
+Opportunity Positive impact potential - expansion, upsell interest.
+Operational Important signals that are not clearly risk or opportunity - bugs, process gaps.
+
+Risk
+Factors that may negatively impact renewal or adoption, for example:
+
+Churn threats
+
+Escalations
+
+Repeated dissatisfaction
+
+Opportunity
+Factors that may lead to more revenue, for example:
+
+Expansion interest
+
+Cross-sell or upsell signals
+
+Interest in new modules or higher tiers
+
+Operational
+Signals that matter but are not defined as a risk or opportunity, for example:
+
+Bugs
+
+Gaps in process or documentation
+
+Repeated how-to friction points
+
+What a signal card contains
+A signal card typically includes:
+
+Signal type: Risk, Opportunity, or Operational
+
+Reason code: A finer category of the issue (for example, "Data sync issue")
+
+Title
+
+Description
+
+Citations: Excerpts or references from the transcript
+
+Date
+
+Person(s) who raised it
+
+Signal occurrences
+Each time a signal is detected from a transcript, Rocketlane creates a signal occurrence - the specific instance of a signal triggered by a specific transcript. Signal occurrences are what get surfaced and grouped in the Signals UI as cards.
+
+Signal lifecycle
+When a new transcript arrives (meeting or email), Rocketlane runs a detection pipeline. The pipeline follows a logical, step-by-step path to filter out noise and focus on high-value data.
+
+Transcript ingestion
+The process triggers immediately whenever a new transcript - whether from a recorded meeting or a synced email thread - arrives in the system.
+For a transcript to enter the signal detection workflow, it must be linked to a customer account. Rocketlane identifies these interactions through two methods:
+
+Project membership: The system checks if the meeting or email includes a participant who is already a member of the project.
+
+Domain matching: If the participant is not a project member, the system cross-references their email domain against the domain fields stored within your Account objects.
+Purely internal communications are automatically excluded from signal detection. If all participants belong to your organization's domain, the system classifies the transcript as internal and bypasses it. Similarly, interactions from domains not associated with a known customer account will not trigger signal generation.
+Tip Use the Blacklist feature to explicitly block specific domains or email addresses from generating signals. This keeps your data clean and relevant.
+
+Eligibility and filtering
+Before the AI begins its analysis, the transcript passes through a set of defined filters - the conditions you establish when creating a signal to clarify exactly what counts and what doesn't. If the transcript does not meet these eligibility requirements, the process stops here.
+Example: A GDPR compliance signal can be configured to trigger only for customers in the European Union, preventing noise for teams managing accounts in other territories.
+
+Signal detection
+Once a transcript is deemed eligible, the AI performs a comprehensive evaluation - comparing your specific conditions against the meeting or email transcript to find a match. If the stated conditions are not detected within the text, the evaluation ends.
+
+Signal occurrence and visibility
+If the AI confirms a match, a signal occurrence is created and surfaced directly in your Signals UI.
+Conditions act as a gate - if a transcript is not eligible, Rocketlane does not run detection for it.
+Example: Condition: ARR > 100K. Transcript arrives for an account with ARR = 20K. Result: detection is skipped for that transcript.
+Note Signal visibility is based on signal RBAC.
+
+Creating a signal definition
+When you create a signal definition, Rocketlane builds a structured signal configuration through a guided flow.
+
+Inputs used to build the signal configuration
+Signal configuration is built using three inputs:
+
+User input: The user defines what they want the AI to look for using natural language. For example: "Flag an escalation risk whenever a leadership-level stakeholder from the account is involved in the conversation and expresses dissatisfaction."
+
+Business context: Signals depend on what "risk" or "opportunity" means for your business. For example, "billing issues" may be operational for one company but a major risk for a billing platform company. This context is sourced from a knowledge base.
+
+Conditions and filters parsing: The system extracts structured eligibility criteria from your request. For example, "Only run this for high-value accounts" becomes an account filter like ARR > $100K.
+
+Clarifying questions
+Rocketlane asks clarifying questions before finalizing the configuration to narrow down the specifics. Examples:
+
+"Does leadership involvement apply only to high-value accounts or any account?"
+
+"Should this signal trigger on general dissatisfaction, or only when the customer mentions churn or switching vendors?"
+
+Reason codes and examples
+Signal definitions often need second-level classification through a reason code, which defines what the signal is specifically for. For example, a broad "Feature request" signal can result in reason codes such as:
+
+Workflow
+
+Mobile app
+
+Reporting
+
+Customization
+To improve accuracy, signal configurations can include:
+
+Positive examples: When to trigger the signal - for example, "When a customer explicitly requests a new feature."
+
+Negative examples: When not to trigger the signal - for example, "Customer asks how to do something."
+Tip To make signals more specific to your use case, you can add documents, pieces of text, or a URL. The agent will scrape the URL to get better context. For example, if the signal generator needs more context about your app features, point it to your help documentation.
+
+Create and test a signal
+
+Create a new signal
+
+Navigate to Settings → Signals → Create signal .
+
+Select the signal type: Risk, Opportunity, or Operational.
+
+Enter your prompt in Nitro AI. For example: "Whenever any high value account or if the leadership of any account says that they are considering moving away from our product because we don't support integration of X."
+Rocketlane uses your input prompt, business context from the knowledge base, and parsed conditions from your request to generate the configuration.
+Rocketlane may ask follow-up questions to refine conditions. For example, if you say "high value account," Rocketlane may ask you to define it - you might specify "accounts by ARR." Conditions can be generated from transcript content as well as Rocketlane account data.
+
+Review the generated configuration
+After answering clarifying questions, Rocketlane presents a window with the chat on the side and four configuration tabs.
+
+Instructions
+The detailed description of what Nitro AI will look for and how it will evaluate transcripts. Instructions typically include:
+
+Signal identity and purpose: Defines the segment and objective.
+
+Detection logic: Defines phrases, behaviors, or sentiments that trigger an alert.
+
+Eligibility criteria: Sets guardrails for which accounts or personas apply.
+
+Classification by reason and root cause: Categorizes the business driver and source of the interaction.
+
+Output format: Defines how findings are presented.
+
+Filter
+The structured conditions Rocketlane uses to gate eligibility and scope. Filters typically include:
+
+Signal metadata: Core identification and categorization.
+
+Primary target filters: Quantitative and qualitative thresholds (for example ARR > $50K, leadership titles).
+
+Data exclusions: Excludes accounts like internal or test accounts.
+
+Channel scope: Defines which interaction channels are monitored (meetings, emails).
+
+Plain language summary: A readable explanation of what the filter is doing.
+
+Negative examples
+Examples of scenarios that should NOT trigger a signal, with reasoning. For example:
+
+Neutral request: "It would be great to have X integration one day." (No urgency or threat)
+
+Internal note: "CSM noted customer uses X." (Not customer voice)
+
+Positive examples
+Examples of scenarios that SHOULD trigger a signal, with reasoning. For example:
+
+Explicit threat: "If we don't get X soon, we'll switch to a competitor." (Clear intent to leave)
+
+Executive mandate: "CFO says we need this in X or we can't renew." (Leadership-driven risk)
+You can use the chat on the left to edit the skill, filters, or add more refinement.
+
+Test the signal
+
+Click Test (top right).
+
+Select the transcript source: Meetings or Emails .
+
+Select the meeting or email.
+
+Click Run .
+Rocketlane AI analyzes the selected transcript based on your signal definition. After testing, proceed to create the signal if it is satisfactory, or continue to tweak it in the chat window.
+Note Transcripts are currently associated only with accounts, not projects. As a result, signals primarily behave as account-level insights. There is currently no mechanism to automatically resolve or close a signal once it is raised.
+
+RBAC for signals
+The Signals module lets admins control who can view, hide, and configure signals, as well as who can access the Signal Analyst feature. Viewing permissions are scoped to limit the reach of signal data across the account.
+Location: Settings → Permissions → Signals → Signals: Account level
+
+Permission categories
+
+1. Viewing signals
+Permission Scope Description
+Can view signals Global - for all projects Allows viewing signals according to the selected scope.
+Can hide signals Global - for all projects Allows hiding signals from all users within the selected scope.
+
+2. Signal settings
+Permission Description
+Can view signal configuration Allows viewing signal configuration.
+Can manage signal configuration Allows creating, modifying, and disabling signal configuration and their conditions.
+Can delete signal configuration Allows permanently removing signal configuration.
+
+3. Signal analyst
+Permission Description
+Can access Signal Analyst Allows viewing signals according to the selected scope.
+
+Scope options
+Scopes control which signals a user can see when a viewing or Signal Analyst permission is granted.
+Scope Description
+Global access All signals across all accounts.
+Account access Signals from accounts in projects they can access.
+Group access Signals from meetings or emails with participants in their groups.
+Only me Signals from meetings or emails they personally participated in.
+Project access Signals from projects they can access.
+Note By default, signals are not associated with projects. You must manually associate signals to projects. If this association is absent, users with Project access scope will see no signals.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Rocketlane AI for Interaction Data: Mental Model and Behavior
+
+Disable Meeting Intelligence and Recording Sources
+
+How Rocketlane Matches Meetings to Customers
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

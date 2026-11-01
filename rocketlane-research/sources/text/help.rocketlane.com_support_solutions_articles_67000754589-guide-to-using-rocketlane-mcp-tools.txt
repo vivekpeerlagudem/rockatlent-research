@@ -1,0 +1,518 @@
+TITLE: Guide to Using Rocketlane MCP Tools : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754589-guide-to-using-rocketlane-mcp-tools
+
+Guide to Using Rocketlane MCP Tools : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Guide to Using Rocketlane MCP Tools
+
+Guide to Using Rocketlane MCP Tools
+
+Created by Advaith R, Modified on Mon, 10 Aug at 8:41 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Guide to Using Rocketlane MCP Tools
+
+Connect Rocketlane MCP to Claude
+
+Connect Rocketlane MCP to Claude Code
+
+Connecting Rocketlane MCP to Cursor
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+No article available
+
+Rocketlane MCP lets AI assistants work with Rocketlane data and actions through a defined set of tools. These tools can read information from Rocketlane, create or update supported records, and help users complete common project, task, time tracking, and template workflows from an AI interface.
+This article explains what Rocketlane MCP tools support, common use cases, and the actions that are not currently available through MCP.
+In this article
+
+Available MCP tools
+
+Projects
+
+Tasks
+
+Phases
+
+Time entries
+
+Users and customer companies
+
+Custom fields
+
+Project templates
+
+Messages
+
+Example prompts
+
+Available MCP tools
+Rocketlane MCP currently supports 24 tools. These are grouped into read tools and write tools.
+Tool type Tools
+Read tools get_my_profile , get_projects , get_tasks , get_users , get_phases , get_fields , get_customer_companies , get_time_entries , get_time_entry_categories , get_task_comments , get_conversations , get_project_comments
+Write tools create_phase , update_phase , create_task , update_task , create_time_entry , update_time_entry , update_project , create_project_template , send_task_comment , update_task_comment , send_project_comment , update_project_comment
+Use read tools to search, retrieve, and inspect Rocketlane data. Use write tools to create or update supported records.
+
+Projects
+Rocketlane MCP can search, read, and update projects.
+
+Search and filter projects
+Use get_projects to find projects by name, status, team member, or date range.
+Use case What it does
+Search projects by name Finds projects by partial project name match.
+Filter by status Finds projects in a specific status such as In Progress, On Hold, Go-live, or Completed.
+Filter by team member Finds projects assigned to a specific person.
+Filter by date range Finds projects with start or due dates in a specific window.
+Get full project detail Retrieves owner, team, financials, metrics, and custom fields.
+Portfolio health sweep Pulls active projects and reads values such as Health custom fields.
+For status-based filters, use get_fields to retrieve the required status value IDs before filtering projects.
+To retrieve full project detail, use get_projects with the project ID and includeAllFields: true .
+
+Update projects
+Use update_project to update supported project attributes.
+Supported project updates include:
+
+Project name
+
+Start date
+
+Due date
+
+Project owner
+
+Project status
+
+Supported custom field values
+For example, use update_project to move a project to a new status, reassign ownership, or update a custom field such as Health, Segment, Region, or GMV target.
+Important Project financial fields such as budgeted hours or project fee are not supported through MCP project update parameters. Do not use MCP to update project financials.
+
+Tasks
+Rocketlane MCP can search, create, and update tasks.
+
+Search and filter tasks
+Use get_tasks to find tasks by name, project, phase, status, due date, or external reference ID.
+Use case What it does
+Search tasks by name Finds tasks using a keyword or partial task name.
+Filter by project Lists tasks in a specific project.
+Filter by phase Lists tasks under a specific phase.
+Filter by status Lists tasks in a selected status.
+Find overdue tasks Finds tasks with due dates before today and not completed.
+Find tasks by due date range Supports sprint planning and upcoming work reviews.
+Search task by custom field value Read tasks and filter client-side using fields[] , or use exact externalReferenceId where available.
+Task status filters require status value IDs from get_fields .
+Note MCP does not support direct filtering by the at-risk flag. A task can be marked at risk, but at-risk tasks cannot be searched or filtered directly through MCP.
+
+Create tasks
+Use create_task to create tasks with supported attributes.
+A task can include:
+
+Task name
+
+Start date
+
+Due date
+
+Effort
+
+Assignees
+
+Phase
+
+Status
+
+Custom fields
+Use create_task to create regular tasks, subtasks, milestones, tasks from meeting notes, or tasks from emails and action items.
+To create a subtask, pass the parent task ID. The subtask inherits the phase from the parent task.
+To create a milestone, set the task type as MILESTONE .
+
+Update tasks
+Use update_task to update supported task attributes.
+Supported updates include:
+
+Assignees
+
+Status
+
+Progress
+
+Start date
+
+Due date
+
+Effort
+
+At-risk flag
+
+Dependencies
+
+Custom field values
+Important Updating assignees replaces the current assignee set. To remove an assignee, use is_delete: true .
+
+Dependencies can also be added or removed. Use is_delete: true to remove a dependency.
+
+Phases
+Rocketlane MCP can list, create, and update phases.
+
+Read phases
+Use get_phases to:
+
+List all phases in a project.
+
+Retrieve phase IDs and names.
+
+Get full phase details.
+
+Read phase status and fields.
+To get full phase information, use get_phases with the phase ID and includeAllFields: true .
+
+Create phases
+Use create_phase to add a new phase to an existing project.
+A phase can include:
+
+Project ID
+
+Phase name
+
+Start date
+
+Due date
+You can also use MCP to create a phase and then create tasks under that phase. This is useful when turning action items or planning notes into a structured project plan.
+
+Update phases
+Use update_phase to update:
+
+Phase name
+
+Start date
+
+Due date
+Note Setting a phase as private is not reliable through MCP. The API may return success, but the private value does not persist when read back. Do not rely on this behavior in demos or customer workflows.
+
+Time entries
+Rocketlane MCP can read, create, and update time entries.
+
+Log time
+Use create_time_entry to log time against a task, project phase, project, or ad hoc source.
+Use case What it does
+Log time from calendar Reads calendar context, matches meetings to projects, and creates entries.
+Log time conversationally Allows prompts such as “I spent 5 hours on Acme on Tuesday.”
+Set billable or non-billable Marks entries as billable or non-billable.
+Log with category Adds a category such as Meeting, Workshop, or Setup.
+Use get_time_entry_categories to retrieve category IDs before creating or updating entries with categories.
+
+Find time entries
+Use get_time_entries to find time entries by date range, project, user, approval status, billable status, source type, or approver.
+Examples:
+
+Find time entries for the current week.
+
+Find time logged on a specific project.
+
+Find a user’s logged hours.
+
+Find unsubmitted entries.
+
+Find billable vs non-billable time.
+
+Find entries by source type such as task, phase, project, or ad hoc.
+
+Find entries approved by a specific manager.
+
+Update time entries
+Use update_time_entry to correct supported time entry details, such as:
+
+Minutes
+
+Notes
+
+Category
+Note MCP cannot delete a time entry or reassign a time entry to another user. The user is set when the entry is created.
+
+Users and customer companies
+Rocketlane MCP can search users and customer companies.
+
+Users
+Use get_users to find users by email, first name, last name, or status.
+Use get_my_profile to retrieve the authenticated user’s user ID, role, and permission set.
+
+Customer companies
+Use get_customer_companies to:
+
+Find a customer company by partial company name.
+
+Get full company details by company ID.
+These tools are useful when creating tasks, updating ownership, assigning work, or matching prompts to the correct Rocketlane records.
+
+Custom fields
+Rocketlane MCP can read field definitions and set supported custom field values on records.
+It cannot create, rename, update, or delete custom field definitions.
+
+Read custom fields
+Use get_fields to:
+
+List project custom fields.
+
+List task custom fields.
+
+List user custom fields.
+
+Find fields by name.
+
+Retrieve option values for fields.
+Supported object types include Project , Task , and User .
+
+Read custom field values
+Use record read tools with includeAllFields: true to read custom field values.
+For example:
+
+Use get_projects with includeAllFields: true to read project fields such as Health, Segment, or Risk Reason.
+
+Use get_tasks with includeAllFields: true to read task fields such as Zendesk Ticket ID or Ticket Status.
+
+Set custom field values
+Use update_project to set project custom field values and update_task to set task custom field values.
+When setting a custom field value, pass the field ID and field value.
+
+Find records by custom field value
+MCP does not provide direct filtering by most custom field values.
+To find a record by custom field value:
+
+Read the relevant records.
+
+Include all fields.
+
+Filter client-side using the fields[] values.
+For tasks, externalReferenceId can be used for exact matching where applicable.
+
+Project templates
+Rocketlane MCP can create project templates.
+Use create_project_template to generate templates from:
+
+SOWs
+
+RFPs
+
+Onboarding plans
+
+Vertical-specific delivery models
+
+Compliance workflows
+
+Implementation playbooks
+
+Supported template creation use cases
+Use case What it does
+Create template from SOW or RFP Parses the document and generates phases and tasks.
+Create vertical-specific template Creates templates for industry-specific onboarding or delivery workflows.
+Create template with placeholder roles Uses role IDs instead of specific users.
+Set effort planning mode Uses task-level or phase-level effort planning.
+Create template with dependencies Adds task dependencies such as finish-to-start or start-to-start.
+Create template with dynamic conditions Conditionally includes phases or tasks based on project field values.
+Important create_project_template creates and publishes the template immediately. There is no draft state through MCP.
+
+New IDs must be generated programmatically. Do not hardcode IDs.
+There is no update_project_template tool. Templates created through MCP are immutable through MCP after creation.
+
+Messages
+Rocketlane MCP can read, post, and update comments on tasks and project conversations.
+
+Task comments
+Use get_task_comments to fetch a single task comment by ID, or list all comments on a task or project. It supports filtering by isPrivate , pagination, and optionally including attachments.
+Use send_task_comment to post a new comment on a task. It supports marking the comment as private, making it visible only to task members.
+Use update_task_comment to edit the content or privacy setting of an existing task comment.
+
+Conversations
+Use get_conversations to fetch a project conversation by ID, or list all conversations on a project.
+Use get_project_comments to fetch a single conversation comment by ID, or list all comments in a project conversation.
+Use send_project_comment to post a new comment into a project conversation. It supports marking the comment as private, making it visible only to conversation members.
+Use update_project_comment to edit the content or privacy setting of an existing conversation comment.
+
+Example prompts
+Use these prompts to explore supported Rocketlane MCP workflows.
+
+Projects
+
+“Find all active projects owned by Priya.”
+
+“Show me projects due this month.”
+
+“Update the Acme onboarding project status to Go-live.”
+
+“Set the Health custom field on the Acme project to Red.”
+
+Tasks
+
+“Find overdue tasks in the Acme onboarding project.”
+
+“Create a milestone task called Go-live Readiness Review due next Friday.”
+
+“Assign the Data Migration task to Alex.”
+
+“Mark the API Setup task as at risk.”
+
+“Create tasks from these meeting notes.”
+
+Phases
+
+“List all phases in the Acme project.”
+
+“Create a phase called Data Migration for the Acme project.”
+
+“Move the kickoff phase due date to next Friday.”
+
+Time entries
+
+“Log 3 hours on the Acme project for Tuesday as billable.”
+
+“Show my time entries for this week.”
+
+“Find all unsubmitted time entries for this week.”
+
+“Update yesterday’s Acme time entry notes.”
+
+Custom fields
+
+“List all project custom fields.”
+
+“Find the field ID for Project Health.”
+
+“Set the Segment field on Acme to Enterprise.”
+
+“Find tasks where the Zendesk Ticket ID is 239.”
+
+Project templates
+
+“Create a project template from this SOW.”
+
+“Create a SaaS onboarding template with kickoff, implementation, UAT, and go-live phases.”
+
+“Create a SOC 2 onboarding template with dependencies between review tasks.”
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Connect Rocketlane MCP to Claude Code
+
+Connect Rocketlane MCP to Claude
+
+Connecting Rocketlane MCP to Cursor
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

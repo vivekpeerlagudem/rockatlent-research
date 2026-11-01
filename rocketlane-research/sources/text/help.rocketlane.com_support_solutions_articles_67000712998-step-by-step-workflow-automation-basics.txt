@@ -1,0 +1,155 @@
+TITLE: How to automate basic project workflows in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000712998-step-by-step-workflow-automation-basics
+
+How to automate basic project workflows in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Step-by-Step Workflow Automation Basics
+
+Step-by-Step Workflow Automation Basics
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 4:41 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Step-by-Step Workflow Automation Basics
+
+No article available
+
+Unlock the power of Workflow Management to effortlessly enhance your task and project handling. With this feature, you can seamlessly:
+
+Set the status of parent tasks automatically based on the progression of subtasks.
+
+Automate start and end dates of phases based on the start date and due dates of the first and last tasks within those phases.
+
+Stop scheduled notifications for projects in specific statuses.
+To configure these automations:
+
+Log in as an administrator.
+
+Navigate to your avatar and select Settings .
+
+Scroll down to Advanced settings and choose Workflow Management .
+Within Workflow Management, you can set up the following automations by checking the appropriate boxes:
+Automation Description
+Status Automation Automate progress and completion status of parent tasks based on subtask statuses, simplifying parent-child task management.
+Phase Automation Automatically assign phase start and end dates based on the first and last task in the phase.
+Scheduled Automation Stop overdue task reminders and notifications for projects in statuses like completed or cancelled . Unsubscribe agents from unnecessary notifications, boosting productivity.
+Experience streamlined workflows with these automated solutions.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Approval workflow for Invoices
+
+Creating and Managing Subtasks
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Turn Customer Form Submissions into Immediate Action
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

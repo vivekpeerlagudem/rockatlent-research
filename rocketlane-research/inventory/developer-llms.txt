@@ -1,0 +1,118 @@
+# Rocketlane Documentation
+
+> Documentation for Rocketlane
+
+## Guides: GETTING STARTED
+- [Overview](https://developer.rocketlane.com/docs/overview.md): This page will help you get started with the Rocketlane API. You'll be up and running in a jiffy!
+
+## Guides: DEVELOPER TOOLS
+- [API Explorer](https://developer.rocketlane.com/docs/api-explorer.md): Discover how to use Rocketlane's API Explorer
+- [Examples](https://developer.rocketlane.com/docs/examples.md): Understand Rocketlane's APIs with an example use case
+- [NOTE Field Examples](https://developer.rocketlane.com/docs/note-field-examples.md)
+
+## Guides: FEATURES
+- [Search](https://developer.rocketlane.com/docs/search.md)
+- [Pagination](https://developer.rocketlane.com/docs/pagination.md)
+- [Custom Fields](https://developer.rocketlane.com/docs/custom-fields.md)
+
+## Guides: webhooks
+- [Overview](https://developer.rocketlane.com/docs/webhooks-overview.md)
+- [Setting up Webhooks in Rocketlane](https://developer.rocketlane.com/docs/setting-up-webhooks-in-rocketlane.md)
+- [Event Payload](https://developer.rocketlane.com/docs/event-payload.md)
+- [Webhook Delivery](https://developer.rocketlane.com/docs/webhook-delivery.md)
+- [Examples](https://developer.rocketlane.com/docs/examples-1.md)
+
+## API Reference: Rocketlane API
+- Invoices
+  - [Get invoice payments by invoice Id](https://developer.rocketlane.com/reference/get-invoice-payments.md)
+  - [Get invoice line items by invoice Id](https://developer.rocketlane.com/reference/get-invoice-line-items.md)
+  - [Get invoice by Id](https://developer.rocketlane.com/reference/get-invoice.md)
+  - [Get all invoices](https://developer.rocketlane.com/reference/search-invoices.md)
+- [Companies](https://developer.rocketlane.com/reference/companies.md): Endpoints for the companies resource. Companies can have multiple addresses (see Addresses API; filter with companyId.eq). Company notes are managed via POST /1.0/companies/{companyId}/add-notes or…
+  - [Get company by Id](https://developer.rocketlane.com/reference/get-company.md)
+  - [Update company by Id](https://developer.rocketlane.com/reference/update-company.md)
+  - [Delete company by Id](https://developer.rocketlane.com/reference/delete-company.md)
+  - [Create a note for a company](https://developer.rocketlane.com/reference/create-company-note.md): Creates a note on a NOTE-type custom field for a company.
+  - [Get all companies](https://developer.rocketlane.com/reference/get-all-companies.md): This endpoint can be used to search for companies. The response body is paginated and you can control the pagination using the `pageSize` and `pageToken` parameters. Native filters include…
+  - [Create a company](https://developer.rocketlane.com/reference/create-company.md)
+- [Resource Allocations](https://developer.rocketlane.com/reference/resource-allocations.md)
+  - [Get all Resource allocations](https://developer.rocketlane.com/reference/get-all-resource-allocations.md)
+- [Time-Offs](https://developer.rocketlane.com/reference/time-offs.md)
+  - [Get all time-offs](https://developer.rocketlane.com/reference/get-all-timeoffs.md)
+  - [Create a time-off](https://developer.rocketlane.com/reference/create-timeoff.md)
+  - [Get time-off by Id](https://developer.rocketlane.com/reference/get-timeoff.md)
+  - [Delete a time-off](https://developer.rocketlane.com/reference/delete-timeoff.md)
+- [Fields](https://developer.rocketlane.com/reference/fields.md)
+  - [Get field by Id](https://developer.rocketlane.com/reference/get-field.md)
+  - [Update field by Id](https://developer.rocketlane.com/reference/update-field.md)
+  - [Delete field by Id](https://developer.rocketlane.com/reference/delete-field.md)
+  - [Update field Option](https://developer.rocketlane.com/reference/update-field-option.md): Update an option on a `SINGLE_CHOICE` or `MULTIPLE_CHOICE` field, or a tag on a `NOTE` field. For NOTE fields, tags are exposed and updated via fieldOptions.
+  - [Add field Option](https://developer.rocketlane.com/reference/add-field-option.md): Add an option to a `SINGLE_CHOICE` or `MULTIPLE_CHOICE` field, or a tag to a `NOTE` field. For NOTE fields, the option is stored as a tag and returned as a fieldOption.
+  - [Get all fields](https://developer.rocketlane.com/reference/get-all-fields.md)
+  - [Create a Field](https://developer.rocketlane.com/reference/create-field.md): Create a custom field for PROJECT, TASK, USER, or COMPANY object types. fieldType NOTE is allowed for PROJECT and COMPANY. For NOTE fields, optional fieldOptions are stored as tags.
+- Time Tracking
+  - [Get a time entry](https://developer.rocketlane.com/reference/get-time-entry.md): This endpoint can be used to get a time entry using its ID. This API returns the time entry object that matches the ID. The `includeFields` param can be used to customise the response.
+  - [Update a time entry](https://developer.rocketlane.com/reference/update-time-entry.md): This endpoint can be used to update a time entry using its ID. To ensure that the total time for all the time entries added for that date does not exceed 24 hours, the fields `date` and `minutes` are…
+  - [Delete a time entry](https://developer.rocketlane.com/reference/delete-time-entry.md): This endpoint can be used to delete a time entry using its ID. Upon successful deletion, _`HTTP status 204` - no content_ is returned as a response with no response body.
+  - [Get all time entries](https://developer.rocketlane.com/reference/get-all-time-entries.md): This endpoint can be used to get all time entries. You can refine your search by adding filters. Filters are given as query parameters and have a defined structure: key is `field.operator` and value…
+  - [Create a time entry](https://developer.rocketlane.com/reference/create-time-entry.md): This endpoint can be used to create a time entry. It is mandatory to provide values for these three properties: `date`, `minutes` and the source of the time entry, which can be either one of…
+  - [Search time entries](https://developer.rocketlane.com/reference/search-time-entries.md): This endpoint can be used to search for time entries. You can refine your search by adding filters. Filters are given as query parameters and have a defined structure: key is `field.operator` and…
+  - [Get time entry categories](https://developer.rocketlane.com/reference/get-time-entry-categories.md): This endpoint can be used to fetch the time entry categories. This API returns a paginated object containing the various time entry categories present.
+- [Space Documents](https://developer.rocketlane.com/reference/space-documents.md)
+  - [Get space document by Id](https://developer.rocketlane.com/reference/get-space-document.md)
+  - [Update space document by Id](https://developer.rocketlane.com/reference/update-space-document.md)
+  - [Delete space document by Id](https://developer.rocketlane.com/reference/delete-space-document.md)
+  - [Get all space documents](https://developer.rocketlane.com/reference/get-all-space-documents.md)
+  - [Create a space document](https://developer.rocketlane.com/reference/create-space-document.md)
+- [Budgets](https://developer.rocketlane.com/reference/budgets.md): Endpoints for budget resources
+  - [Update milestone revenue recognition configs for a budget](https://developer.rocketlane.com/reference/update-budget-milestone-revenue-recognition-configs.md)
+  - [Update manual revenue recognition configs for a budget](https://developer.rocketlane.com/reference/update-budget-manual-revenue-recognition-configs.md)
+  - [Get budget by Id](https://developer.rocketlane.com/reference/get-budget.md)
+  - [Update budget by Id](https://developer.rocketlane.com/reference/update-budget.md)
+  - [Delete budget by Id](https://developer.rocketlane.com/reference/delete-budget.md)
+  - [Get all budgets](https://developer.rocketlane.com/reference/search-budgets.md)
+  - [Create budget](https://developer.rocketlane.com/reference/create-budget.md)
+- [Tasks](https://developer.rocketlane.com/reference/tasks.md)
+  - [Get task by Id](https://developer.rocketlane.com/reference/get-task.md)
+  - [Update task by Id](https://developer.rocketlane.com/reference/update-task.md)
+  - [Delete task by Id](https://developer.rocketlane.com/reference/delete-task.md)
+  - [Remove followers from a task by Id](https://developer.rocketlane.com/reference/remove-followers-from-task.md)
+  - [Remove dependencies from a task by Id](https://developer.rocketlane.com/reference/remove-dependencies-from-task.md)
+  - [Remove assignees from a task by Id](https://developer.rocketlane.com/reference/remove-assignees-from-task.md)
+  - [Move a task to the phase by Id](https://developer.rocketlane.com/reference/move-task-to-given-phase.md)
+  - [Add followers to a task by Id](https://developer.rocketlane.com/reference/add-followers-to-task.md)
+  - [Add dependencies to a task by Id](https://developer.rocketlane.com/reference/add-dependencies-to-task.md)
+  - [Add assignees to a task by Id](https://developer.rocketlane.com/reference/add-assignee-to-task.md)
+  - [Get all tasks](https://developer.rocketlane.com/reference/get-all-tasks.md)
+  - [Create a task](https://developer.rocketlane.com/reference/create-task.md)
+- [Custom Revenue Recognition Configs](https://developer.rocketlane.com/reference/custom-revenue-recognition-configs.md): Endpoints for custom revenue recognition configurations
+  - [Get custom revenue recognition config by Id](https://developer.rocketlane.com/reference/get-custom-revenue-recognition-config.md)
+  - [Get all custom revenue recognition configs](https://developer.rocketlane.com/reference/get-all-custom-revenue-recognition-configs.md)
+- [Projects](https://developer.rocketlane.com/reference/projects.md)
+  - [Get project by Id](https://developer.rocketlane.com/reference/get-project.md)
+  - [Update project by Id](https://developer.rocketlane.com/reference/update-project.md)
+  - [Delete project by Id](https://developer.rocketlane.com/reference/delete-project.md)
+  - [Un assign placeholders from an user in a project](https://developer.rocketlane.com/reference/unassign-placeholders.md)
+  - [Remove members from a project](https://developer.rocketlane.com/reference/remove-members.md)
+  - [Import a template to a project](https://developer.rocketlane.com/reference/import-template.md)
+  - [Assign placeholders to an user in a project](https://developer.rocketlane.com/reference/assign-placeholders.md)
+  - [Archive project by Id](https://developer.rocketlane.com/reference/archiveproject.md)
+  - [Add members to a project](https://developer.rocketlane.com/reference/add-members.md)
+  - [Get all projects](https://developer.rocketlane.com/reference/get-all-projects.md)
+  - [Create a project](https://developer.rocketlane.com/reference/create-project.md)
+  - [Get placeholders](https://developer.rocketlane.com/reference/get-placeholders.md): This endpoint can be used to search for placeholders across project. The response body is paginated and you can control the pagination using the `limit` and `pageToken` parameters.
+- [Phases](https://developer.rocketlane.com/reference/phases.md)
+  - [Get phase by Id](https://developer.rocketlane.com/reference/get-phase.md)
+  - [Update phase by Id](https://developer.rocketlane.com/reference/update-phase.md)
+  - [Delete phase by Id](https://developer.rocketlane.com/reference/delete-phase.md)
+  - [Get all phases](https://developer.rocketlane.com/reference/get-all-phases.md)
+  - [Create a phase](https://developer.rocketlane.com/reference/create-phase.md)
+- [Users](https://developer.rocketlane.com/reference/users.md)
+  - [Get user by Id](https://developer.rocketlane.com/reference/get-user.md)
+  - [Get all users](https://developer.rocketlane.com/reference/get-all-users.md)
+- [Spaces](https://developer.rocketlane.com/reference/spaces.md)
+  - [Get space by Id](https://developer.rocketlane.com/reference/get-space.md)
+  - [Update space by Id](https://developer.rocketlane.com/reference/update-space.md)
+  - [Delete space by Id](https://developer.rocketlane.com/reference/delete-space.md)
+  - [Get all spaces](https://developer.rocketlane.com/reference/get-all-spaces.md)
+  - [Create a space](https://developer.rocketlane.com/reference/create-space.md)

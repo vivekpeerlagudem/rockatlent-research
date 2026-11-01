@@ -1,0 +1,205 @@
+TITLE: How to add Events from your Google Calendar to your Timesheet? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000714074-how-to-add-events-from-your-google-calendar-to-your-timesheet-
+
+How to add Events from your Google Calendar to your Timesheet? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Google Calendar to your Timesheet?
+
+Created by Niharika Pandey, Modified on Wed, 9 Sep at 6:52 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Time Tracking in Rocketlane
+
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+Importing Time Entries from Allocations
+
+Collapse Days and Rearrange Columns in Timesheets
+
+No article available
+
+You can connect your Google Calendar to Timesheets in Rocketlane and add calendar events as timesheet entries. This helps you quickly log time for meetings and other scheduled work without manually entering every detail.
+Once connected, you can select calendar events from your timesheet, associate them with a project or non-project activity, and add them as time entries.
+In this article
+
+Enable calendar integration for Timesheets
+
+Connect Google Calendar to Timesheets
+
+Add Google Calendar events to your timesheet
+
+How event duration is used
+
+Enable calendar integration for Timesheets
+
+Click your profile icon from the left navigation bar and go to Settings .
+
+Select Time Tracking and go to Calendar Integration .
+
+Use the toggle to enable or disable calendar integration.
+
+Choose Google Calendar .
+Tip Turn on the option to track time from calendar events directly against tasks, milestones, activities, or phases if you want to link calendar events to specific project work.
+
+Connect Google Calendar to Timesheets
+If you use Google Calendar, you can add events from your calendar as timesheet entries in Rocketlane.
+
+Go to the My Timesheet page.
+
+Click Add from Calendar .
+If you are using this for the first time, you need to authorize Rocketlane to access your Google account. You will be prompted to sign in to your Google account.
+Click Sign in with Google .
+Click Allow to authorize Rocketlane to access your calendar.
+Rocketlane requests permission to:
+
+View events on your calendar.
+
+Save and download calendars you can access using Google Calendar.
+
+Add Google Calendar events to your timesheet
+After you authorize Rocketlane to access your Google Calendar, you can add events, such as customer meetings, as timesheet entries in Rocketlane.
+
+Go to the My Timesheet page.
+
+Click Add from Calendar .
+
+Select the calendar events you want to add to your timesheet for the week.
+
+Review the project or activity association for each event.
+If the meeting attendees are invited to a project in Rocketlane, Rocketlane automatically selects the project associated with the calendar event.
+If a project is not automatically selected, choose a project manually or attribute the time to a Non-Project Activity .
+If you have enabled tracking time against tasks, milestones, phases, or activities, you can also track time for the calendar event against those items.
+
+After selecting the events, click Add Activity at the bottom-right of the page.
+
+How event duration is used
+The duration of the calendar event is automatically added to the time entry. For example, if the calendar event is blocked for 1 hour, the time entry is recorded as 1h 00m on the same day as the event.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+Why am I not able to sync Calendar to Timesheet?
+
+PTO and Timesheets FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,249 @@
+TITLE: Partners in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000718183-partners-in-rocketlane
+
+Partners in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Partners in Rocketlane
+
+Partners in Rocketlane
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:49 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Partners in Rocketlane
+
+How to Add Partners to your Rocketlane Projects?
+
+Client Partners in Rocketlane:
+
+No article available
+
+In this article
+
+How to add a new Partner to your Rocketlane Account
+
+How to edit a Partner's Profile
+
+How to configure roles for Partners
+
+How to add team members to your Partner's profile from your Rocketlane account
+
+How to enable partners to track time
+
+How to invite Partners and Partner Team Members to Projects
+
+Keep your implementation partners informed about your projects and workflows by using Rocketlane's Partners feature. This helps improve cost effectiveness, operational efficiency, and time to value with the support of experts in their fields.
+Based on access control, you have complete control over what is visible to your partners. For strategic partners, you can decide whether you want to introduce your partners to your customers. You can also limit the number of licenses each partner has access to so that only the required team members are working on your projects.
+
+How to add a new Partner to your Rocketlane Account
+
+Click your Profile icon from the left navigation bar and go to Settings .
+
+Go to Partners and select New partner .
+
+Select the Roles that you want your partner's team members to use. If you want to create more roles for your partners, click Manage roles here . You will be redirected to Roles and Placeholders in your Rocketlane account, where you can mark new and existing roles as Available to Partners .
+
+Read more about configuring roles here: How to configure roles for Partners .
+
+Click Add and proceed after selecting the roles you want your partners to use.
+
+From the New partner dialog box, update the following information:
+Field Description
+Logo The partner company's logo. Recommended size: 250 x 250 px, maximum file size: 2 MB.
+Name Name of the partner company.
+Website The partner company's website URL.
+Partner admin Email ID of the person who manages the partner company.
+Max licenses they can add Add a cap to the maximum number of licenses that can be used by your partner's team. Licenses are used only when partner team members are added. Unused licenses will continue to be available for your team.
+Access level Choose the level of access for all team members in the partner company. The available levels are Permissive , Moderate , and Restricted .
+Strategic Partner checkbox If you mark a partner as strategic, your customers will be able to see their company name and logo in the project. Otherwise, partner team members will appear to be part of your own company.
+
+The available access levels are:
+Access level Description
+Permissive Access to all shared and private resources in a project.
+Moderate Access to all resources marked as shared in a project.
+Restricted Access to only the resources assigned to them.
+
+Once you have provided the accurate partner details and set the right permissions and number of licenses, click Create Partner .
+
+After being saved, the new partner's profile will reflect on the Partners page. The Partners page list shows the admin from the partner's side, how many licenses have been used out of the total licenses assigned, the access level of the partner's profile, and whether their status is active or disabled.
+
+How to edit a Partner's Profile
+
+Click the partner's name that you want to edit from the Partners page.
+
+From the profile tab, click the Edit icon next to the partner company's name.
+
+Except the partner admin, you can edit the rest of the partner properties from the Edit partner dialog box.
+
+Click Save to reflect the edits you have made to your partner's properties.
+
+How to configure roles for Partners
+
+From Settings , go to Roles and Placeholders . You can mark a new role as well as existing roles as available to partners from here.
+
+You can mark a new role as available to partners during role creation. For existing roles, click the More actions icon next to the role name and select Edit role .
+
+Click the Available to partners checkbox to configure that role for partner team members as well.
+
+How to add team members to your Partner's profile from your Rocketlane account
+
+From the Partners page, click the Partner team members tab.
+
+From the team members tab, click Invite members .
+
+In the Invite Team Members dialog box, fill in the details of the team member to be invited.
+Field Description
+Email address Provide the email ID of your team member where they will receive the invite link.
+Role Select the role for the partner team member.
+Permission Choose the permission level for the partner team member.
+
+There are two kinds of permissions in Rocketlane for partner team members:
+Permission Description
+Admin Can access all projects to which their company is added.
+Collaborator Can access only those projects they are invited to.
+
+Click Invite to send an invitation email to your partner team member.
+
+The invitation email will look something like this:
+
+The invited team member will show up in the Invited tab from the partner's profile until they accept the invite from the email and log in.
+
+How to enable partners to track time
+Rocketlane allows you to enable partners to track time on timesheets, apply time-offs, and use holiday calendars.
+What does this mean for your business?
+
+Partners can accurately track the time they invest in projects, which helps maintain precise utilization rates.
+
+You can set up cost rates and bill rates for partners and monitor the revenue they bring in from the time tracked on your projects.
+
+You can plan and allocate projects to partners based on their capacity.
+To enable partners to track time in Rocketlane:
+
+Go to Settings > Partners and select a partner.
+
+Click Edit near the partner name.
+
+Check the Can track time box and click Save .
+Read more about how to track time here .
+
+How to invite Partners and Partner Team Members to Projects
+To know more about how to add partners to new and existing projects, and how to add partner team members to projects, read the solution article: How to Add Partners to your Rocketlane Projects?
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Client Partners in Rocketlane:
+
+How to manage your Rocketlane subscription?
+
+Managing Internal Domains for Meetings and Emails
+
+Difference & Precedence Between Account and Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,52 @@
+%% Nitro AI and agent architecture: triggers, inputs, outputs, human gates.
+%% Solid = documented [D]; dashed = marketing claim [M]. Hexagons = human gates.
+%% Evidence: D1-040..D1-064, D1-070..D1-072, D1-090
+flowchart LR
+  subgraph IN["Inputs"]
+    T["Transcripts: meetings + email threads [D]"]
+    RD["Rocketlane data: account attrs, project metadata,<br/>config [D]"]
+    KB["Knowledge base: AI pages, API docs,<br/>website, files [D]"]
+    TE["Time entries being logged [D]"]
+  end
+  subgraph AG["Agents and AI features"]
+    AIF["AI Fills<br/>trigger: user types / [D]"]
+    SIG["Signals<br/>trigger: new transcript [D]"]
+    DOC["Documentation Agent<br/>trigger: manual or on-event (account conditions) [D]"]
+    TG["Timesheet Governance<br/>trigger: entry logged / updated / submitted [D]"]
+    RAI["Resource AI<br/>trigger: user wizard [D]"]
+    PG["Project Governance agent [M]"]
+    AN["AI Analyst [M]"]
+  end
+  subgraph OUT["Outputs and write targets"]
+    DR["Draft text in project update /<br/>document / chat [D]"]
+    SO["Signal occurrence on ACCOUNT [D]"]
+    NP["Nitro page on ACCOUNT<br/>(living, auto-updating) [D]"]
+    FLAG["Flag / block time entry [D]"]
+    ALLOC["Resource allocations [D]"]
+    BLK["Blocked project action [M]"]
+  end
+  G1{{"Review and edit before publish [D]"}}
+  subgraph CFG["Configuration-time human gates"]
+    G2{{"Admin reviews and tests signal definition before creating it [D]"}}
+    G3{{"Admin previews and tests policy before enabling [D]"}}
+  end
+  G4{{"User reviews plan and financials, then allocates [D]"}}
+  T --> AIF --> G1 --> DR
+  T --> SIG
+  RD --> SIG
+  KB --> SIG
+  G2 -. "governs definitions, not each occurrence" .-> SIG
+  SIG --> SO
+  T --> DOC
+  KB --> DOC
+  DOC --> NP
+  TE --> TG
+  G3 -. "governs policy, not each enforcement" .-> TG
+  TG --> FLAG
+  RD --> RAI --> G4 --> ALLOC
+  PG -.-> BLK
+  AN -.-> RD
+  subgraph EXTA["External agents"]
+    MCP["External AI assistant via Rocketlane MCP:<br/>24 read/write tools, no meeting or signal tools [D]"]
+  end
+  MCP --> TASKS["Tasks, phases, time entries,<br/>projects, comments [D]"]

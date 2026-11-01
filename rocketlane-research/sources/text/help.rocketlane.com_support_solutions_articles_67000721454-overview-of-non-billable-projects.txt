@@ -1,0 +1,205 @@
+TITLE: How to understand financials for non bilable projects? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721454-overview-of-non-billable-projects
+
+How to understand financials for non bilable projects? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Overview of non billable projects
+
+Overview of non billable projects
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:55 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+Non-billable activities are tasks or work that are not invoiced to clients. These activities are usually internal or administrative, like team meetings, research, or training. Keeping track of non-billable time helps businesses manage their resources and project costs, even if those activities are not directly charged to clients.
+
+Take a course on Financial Management here.
+
+Key concepts to remember for navigating finance dashboards
+
+Cost is calculated based on the hourly cost rate of your team members.
+Hours tracked * Cost rates of respective team members/roles
+
+Budgeted hours : When you create a project, you typically estimate or set a total number of hours that you expect it will take to complete the project as budgeted hours.
+
+Allocated hours : The total number of hours allocated for the project via resource management.
+
+Tracked hours : refers to the total number of hours that your team has tracked for the project. It represents the actual time spent working on the project and is reported using timesheets.
+
+You can track your finances after creating a project with an appropriate billing method and allocating project hours, budget, and resources.
+
+Accessing Financials Dashboards
+
+The financial dashboard gives you insights into your projects' real-time budget and time usage. The dashboard lets you compare the real-time utilization of your budget with the estimated budget and enables you to make necessary adjustments for the smooth running of the project.
+
+To access Financials,
+
+Navigate to Projects
+
+Select a Fixed fee project you wish to view
+
+Click on the Financials tab to track your project budget usage alongside the project hours.
+
+Hours Progress Charts
+
+The progress charts provide you with information on the hours tracked for the project over time.
+
+X-axis is days.
+Y-axis is tracked hours
+
+Hours breakdown charts
+
+Shows the monthly breakdown of billable and non-billable hours and the corresponding allocated hours
+
+Summary Table
+You can view the detailed summary of hours usage and cost for the overall duration of the project or on a granular monthly basis.
+
+Hours Details table shows the detailed breakdown of hours tracked on the project
+
+Cost details table shows the detailed breakdown of cost incurred for the project.
+
+Group by Roles and People Visualize the cost and hours utilized by each role and team member on the project
+
+Group by Phases and tasks Visualize the cost and hours utilized by different phases and tasks in the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Introducing Expense Management in Rocketlane
+
+Supported Billing Methods
+
+Time Tracking Report: Analyse how your team spends time where
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

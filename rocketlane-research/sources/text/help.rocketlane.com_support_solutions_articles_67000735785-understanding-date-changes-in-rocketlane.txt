@@ -1,0 +1,274 @@
+TITLE: Why do my task and phase dates change in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000735785-understanding-date-changes-in-rocketlane
+
+Why do my task and phase dates change in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+Understanding Date Changes in Rocketlane
+
+Understanding Date Changes in Rocketlane
+
+Created by Monica Madan, Modified on Tue, 6 Aug, 2024 at 3:56 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+Adding SmartFill to Templates and Projects
+
+How to Create and Manage Placeholders?
+
+Understanding Date Changes in Rocketlane
+
+No article available
+
+This guide explains why dates change in Rocketlane even without direct modifications. It explores how altering the dates of tasks, phases, and parent tasks connected by dependency chains can automatically adjust project timelines.
+
+In this article
+
+Date Change Impact Notifications and Audit Trail
+
+1. Influences on Project Start and Due Dates:
+Scenario 1: Project Creation
+
+Scenario 2: Importing Templates After Project Creation
+
+2. Influences on Phase Start and Due Dates
+Scenario 1: Automation Enabled
+
+Scenario 2: Tasks moving outside boundary
+
+Scenario 3: Dependencies
+
+3. Influences on Task Start and Due Dates:
+Scenario 1: DependenciesDependency conflicts in a finish-to-start relationship occur when
+
+Scenario 2: Phase Shifting
+
+4. Influences on Parent Task’s Start and Due Dates
+Subtask Alignment:
+
+Automatic Timeline Adjustments in Dependency Chains
+
+Predecessor and Successor Tasks:
+
+A predecessor task is one that must be completed before its successor task can begin. This relationship ensures that project workflows are logically sequenced and tasks are completed in the correct order.
+
+Predecessor : This is the task or phase upon which the subsequent task (the successor) is dependent. It acts as a blocker until it is completed.
+Successor : This is the task or phase that relies on the completion of its predecessor to start. It cannot be completed until the predecessor task finishes.
+
+Now, let's see what influences dates changes in,
+
+Projects
+
+Phases and
+
+Tasks
+
+1. Influences on Project Start and Due Dates:
+
+Scenario 1: Project Creation
+
+Manual Setup: When creating a project from scratch, you can manually set the start and due dates. This allows flexibility in aligning project timelines with business priorities and resource availability.
+
+Template-Based Setup : Importing templates automates much of the project setup process. The due date of the project is typically derived from the last task's due date in the imported template, ensuring projects are scheduled efficiently.
+
+Note : Once a project is created, changing the due date of the last task does not automatically adjust the project’s due date. This requires manual updating to reflect any changes in project scope or timeline.
+
+Scenario 2: Importing Templates After Project Creation
+
+Adjusting Due Dates : Importing templates with tasks extending beyond the current project end date adjusts the project’s due date accordingly. This ensures that the project timeline accommodates all required tasks and milestones.
+
+Example : If a project is initially due on June 1st and an imported template extends its tasks by 10 days, the new project due date becomes June 12th (excluding weekends). If the template's tasks fit within the original deadline, no adjustments are necessary.
+
+2. Influences on Phase Start and Due Dates
+
+In Rocketlane, phase start and due dates are influenced by several factors, ensuring alignment with task dependencies and project timelines:
+
+Default Behavior:
+
+By default, Rocketlane determines phase dates based on the earliest start date of its tasks and the latest due date among them. This ensures that phases encompass all necessary tasks within their defined timeframe.
+
+Scenario 1: Automation Enabled
+
+When workflow management (avatar>settings>workflow management) automation is enabled, phase dates automatically adjust to align with the earliest and latest task dates. This can increase or decrease the phase duration.
+
+Example :
+
+Suppose a phase originally starts on June 1st and ends on June 30th. If the first task’s start date is adjusted to June 3rd, Rocketlane will automatically shift the phase start date to June 3rd to maintain alignment with the earliest task’s date. This adjustment also applies if the due date of the last task changes, impacting the phase’s end date to update to the latest task’s date. Additionally, any tasks dependent on those with updated dates will also be adjusted to preserve task dependencies and project sequencing.
+
+Scenario 2: Tasks moving outside boundary
+
+Boundary Adjustment: Regardless of automation settings, Rocketlane automatically updates phase dates if any tasks are moved outside the phase start and end dates.
+
+Example :
+
+Suppose a phase is scheduled to start on June 3rd. If the start date of the earliest task within this phase is moved to June 1st due to project requirements or task dependencies, Rocketlane will adjust the phase start date accordingly to June 1st. This ensures that all tasks are logically contained within the phase timeline.
+
+Similarly, if a phase is set to end on June 30th and the due date of the last task is extended to July 1st, Rocketlane will automatically shift the phase’s end date to July 1st. This adjustment maintains coherence in project scheduling, aligning phase durations with updated task timelines.
+
+By automatically adapting phase dates to accommodate task movements, Rocketlane supports efficient project management, ensuring tasks are executed within their designated phases while maintaining clarity and alignment in project timelines.
+
+Scenario 3: Dependencies
+
+Dependency conflicts in a finish-to-start relationship occur when
+
+the due date of the predecessor phase is later than the start date of the successor phase, or
+
+when the start date of the successor phase is earlier than the due date of the predecessor phase.
+
+In Rockeltane, a finish-to-start dependency can be established between phases. When there is a conflict between phases, the system automatically updates the phase dates to resolve the conflict. This adjustment ensures that the start date of the successor phase is set to one day after the due date of the predecessor phase.
+
+3. Influences on Task Start and Due Dates:
+
+Scenario 1: Dependencies
+
+Dependency conflicts in a finish-to-start relationship occur when
+
+the due date of the predecessor task is later than the start date of the successor task, or
+
+when the start date of the successor task is earlier than the due date of the predecessor task.
+
+In Rockeltane, a finish-to-start dependency can be established between tasks. When there is a conflict between tasks, the system automatically updates the task dates to resolve the conflict. This adjustment ensures that the start date of the successor task is set to one day after the due date of the predecessor task.
+
+Scenario 2: Phase Shifting
+
+When you drag and move the entire phase in the timeline view, all task dates within the phase will adjust accordingly to stay within the phase duration.
+
+4. Influences on Parent Task’s Start and Due Dates
+
+In Rocketlane, the start and due dates of parent tasks are directly influenced by the alignment of their subtasks. Here’s how it works:
+
+Subtask Alignment:
+The dates of subtasks must remain within the start and due date boundaries defined for their parent task. If any subtask’s dates extend beyond these boundaries, Rocketlane automatically adjusts the parent task’s dates to encompass the earliest start date and latest due date of its subtasks.
+
+Example:
+Consider a parent task, Task A, scheduled to start on June 1st and end on June 5th. Task A contains two subtasks. If the due date of the second subtask is updated to June 8th, exceeding Task A's original end date of June 5th, Rocketlane will automatically extend the due date of Task A to June 8th. Similarly, if the start date of a subtask is set to May 31st, Rocketlane will adjust the start date of Task A accordingly to May 31st to ensure all subtasks fall within the parent task’s timeline.
+
+Automatic Timeline Adjustments in Dependency Chains
+To visualize how these rules work in a dependency chain, imagine a task in a successor phase that relies on a task in a predecessor phase. If you change the due date of the predecessor task to after the start date of the successor task, or if the start date of the successor task is earlier than the predecessor task's due date, the dates for both tasks, along with the dates for their respective phases, will automatically adjust. This adjustment ensures that everything aligns correctly within the project timeline.
+
+Date Change Impact Notifications and Audit Trail
+
+When you adjust dates for a predecessor task or phase that affects other dependent tasks or phases, causing their dates to change, we now display a pop-up to highlight these changes before they are finalized. You’ll also have access to audit logs that detail which tasks were impacted and what caused the changes. These logs include hyperlinks, so you can click through and navigate directly to the affected tasks.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+Nitro Credit Consumption
+
+Understanding Task Dependencies in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

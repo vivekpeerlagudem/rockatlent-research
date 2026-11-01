@@ -1,0 +1,193 @@
+TITLE: Understanding the Rocketlane's Forms Feature : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000712718-understanding-the-rocketlane-s-forms-feature
+
+Understanding the Rocketlane's Forms Feature : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Understanding the Rocketlane's Forms Feature
+
+Understanding the Rocketlane's Forms Feature
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:47 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane's Forms Feature: An Introduction
+
+Understanding the Rocketlane's Forms Feature
+
+No article available
+
+In this article
+
+How to Create a Form Template
+
+Form Builder
+
+Form Responses
+
+Form Automations
+
+Form Settings
+
+With the Forms feature in Rocketlane, you can create, share, and collect information in a structured format. Forms also allow you to automatically sync responses to project fields, task fields, and even create new tasks.
+Short on time? Watch the video.
+Have some time? Watch the webinar on forms best practices here .
+
+How to Create a Form Template
+Create form templates from the templates section.
+Go to Templates > Form Templates and click the New Form Template button from the top-right corner of the screen.
+
+Form Builder
+You can create the form from the Builder tab by adding questions, project fields, and task fields to it.
+To read about how to build a form, click here .
+Tip You can add dynamic questions using the branching feature for questions with multiple choices.
+
+This can also be exported as a CSV for further analysis.
+
+Form Responses
+The Responses tab lets you view all form responses in a table format. The responses are grouped by the projects they have been added to.
+The columns for the table are:
+Column Description
+Form Details Mentions the project that the form template has been added to and the number of responses recorded by form users.
+Due date Mentions the due date for the form added to the task.
+Assignees Mentions the assignees added to the task that has the form template added.
+Form Questions Fields Mentions each question in the form and records the responses added to the question.
+Created By Mentions which user provided the form response.
+Created on Mentions the date on which the form response was created.
+Updated by Mentions which user updated the form response.
+Updated on Mentions the date on which the form response was updated.
+
+Form Automations
+The Automations tab allows you to create a task in the project when a form is submitted. If a task field was used in the form, the value will automatically populate in the created task field.
+
+Form Settings
+
+Responses
+Manage how many responses can be accepted from a single user.
+Setting Description
+Accepts multiple responses Used when multiple responses need to be collected. For example, to collect employee details or crowd feedback.
+Accept only one response Used when only one response is required. For example, a handoff. The response can be edited after submission.
+
+Sharing
+Setting Description
+Restricted Only people logged in to your project can submit a response.
+Anyone with the link Anyone with the form link can submit a response.
+Note The responses submitted will be anonymous since these users are not a part of the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Rocketlane's Forms Feature: An Introduction
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+The 4 Letters to better Customer Experience
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

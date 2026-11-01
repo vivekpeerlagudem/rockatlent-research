@@ -1,0 +1,373 @@
+TITLE: Creating a Documentation Agent : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755213-creating-a-documentation-agent
+
+Creating a Documentation Agent : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Creating a Documentation Agent
+
+Creating a Documentation Agent
+
+Created by Advaith R, Modified on Thu, 30 Jul at 11:15 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Documentation Agents in Rocketlane
+
+Configuring Nitro Page Templates
+
+Creating a Documentation Agent
+
+Creating and Managing Nitro Pages in Rocketlane
+
+No article available
+
+A Documentation Agent connects a Nitro page template to selected sources, knowledge bases, and a trigger. Once configured, the agent uses the template structure to generate documentation from meetings, emails, and supporting knowledge.
+Documentation Agents can run manually or automatically, depending on the trigger setup. They help teams create structured documents such as handoff notes, discovery summaries, implementation documentation, onboarding summaries, and customer context pages.
+
+Navigate to the Agent Builder
+To create a Documentation Agent:
+
+Click the sparkle icon from the left sidebar.
+
+Select Agents .
+
+[image: Sidebar menu with Agents selected]
+
+Select Documentation Agent from the agents list.
+
+[image: Agents page with the Documentation agent card]
+
+Click + New Agent .
+
+[image: Documentation Agents list with the New Documentation Agent button]
+The New Documentation Agent setup page opens.
+
+Step 1: Select a Template and Configure Sources
+The first step is to choose the Nitro page template, define the sources the agent can use, add document context fields, and attach knowledge bases.
+
+Select a Nitro Page Template
+The Nitro page template defines the structure of the document the agent will generate. It controls the blocks, sections, questions, summaries, tables, and other content areas the agent fills.
+To select a template:
+
+In the Agent name field, enter a name for the agent.
+Example: Document my Items
+
+Use the Select a Nitro page template dropdown.
+
+Choose the template the agent should use.
+
+[image: Nitro page template modal with the Next button]
+Select the template that best matches the type of document this agent should generate.
+
+Choose Sources
+Sources define the content the agent can use to generate the document.
+Two source types are available:
+Source
+What it does
+
+Meetings
+Allows the agent to use meeting content as context.
+
+Emails
+Allows the agent to use email threads as context.
+
+At least one source must be selected.
+
+Use meeting sources
+Enable Meetings if the agent should generate content from meeting recordings or transcripts.
+After enabling Meetings , use the dropdown to select specific meeting templates. This limits which meetings qualify as sources for the agent.
+[image: Source configuration with a meeting template selected]
+
+Use email sources
+Enable Emails if the agent should generate content from email threads.
+After enabling Emails , use the dropdown to select specific email templates.
+Example: Default Email Template
+
+Add Document Context Fields
+The Get document context section lets you define structured input fields that provide additional context when the agent runs.
+These fields help the agent understand the document’s purpose, scope, or specific instructions.
+A default field such as Risk analysis may appear as an example.
+
+Add a new input field
+To add a field:
+
+Click + Add input .
+
+In the New Agent Field modal, enter the Field Name .
+Example: Risk analysis
+
+Select the Field Type .
+Available field types include:
+
+Boolean
+
+Multi-line Text
+
+Text
+
+Number
+
+Date
+
+Single Select
+
+Multi Select
+
+Single User
+
+Add a Description , if required.
+The description is used as AI context.
+Example: “This field tracks the number of risks raised by the customer and why it affects them.”
+
+Click Add Field to save the field.
+
+Click Cancel to discard the field.
+
+Edit or remove input fields
+
+Click the pencil icon to edit an existing field.
+
+Click the × icon to remove a field.
+
+Allow Users to Select Specific Calls and Emails
+Use this toggle when users should be able to choose the exact meetings or email threads each time they run the Documentation Agent.
+When enabled, users can select specific meeting recordings or email threads during agent invocation.
+Use this when the document should be generated from a curated set of sources instead of all qualifying sources.
+
+Add Knowledge Base Context
+Attach knowledge bases so the agent can reference supporting material while generating the document.
+Knowledge bases can include:
+
+Product documentation
+
+SOW templates
+
+Internal implementation guides
+
+Process documents
+
+Customer-facing reference material
+
+To attach a knowledge base, use the Knowledge base section in the agent setup. Add Knowledge , then select the relevant folders or files.
+[image: Select knowledge panel with folders and files]
+For more details on creating knowledge bases, refer to the knowledge base setup article.
+After configuring sources, input fields, and knowledge base context, click Continue: Trigger .
+
+Step 2: Configure the Trigger
+The trigger defines when and how the Documentation Agent runs.
+
+Trigger for Document Creation
+Choose one of the following trigger options:
+Trigger
+What it does
+
+Manual
+Lets users run the agent on demand. This is the default option.
+
+On event
+Runs the agent automatically based on account field conditions. Similar to the conditions while creating automations
+
+[image: Manual and On event trigger options with Living Document setting]
+
+Manual trigger
+Use Manual when users should decide when to generate the document.
+This works well for handoff notes, meeting summaries, discovery documents, and documents that need human selection of sources before generation.
+
+On-event trigger
+Use On event when the document should be generated automatically when configured account conditions are met. On event , then click Add trigger to define the event rules.
+
+Note: On event triggers are disabled if "Allow the users to select specific calls and emails" option is selected
+[image: Add trigger panel with Account event rules]
+Example:
+
+Account type is Enterprise
+
+[image: Trigger target dropdown with Account, Project, and Task]
+
+Configure Living Document Behavior
+The Living document setting controls whether the generated document stays updated as new source material becomes available.
+Setting
+Behavior
+
+Enabled
+The document updates continuously using subsequent calls and emails that match the configured criteria.
+
+Disabled
+The document is generated once using the sources available at the time of invocation. No automatic updates occur.
+
+[image: Living Document switch enabled]
+Enable Living document when the document should stay current as new meetings and emails come in.
+Disable it when the document should represent a point-in-time snapshot.
+After configuring the trigger and living document behavior, click Next .
+
+View AI Context for Template Blocks
+[image: Document preview and AI context panel]
+When reviewing the template inside the agent, you can inspect the AI context configured for each block.
+This helps verify how the agent will interpret and generate content for each section of the document.
+To view AI context:
+
+Select a block from the left panel.
+
+The selected block is highlighted.
+
+The right-hand AI context panel displays the block details. AI context panel displays the selected block’s prompts, which you can review and customize.
+
+[image: Populated AI context with customization controls]
+The panel shows:
+[image: Input panel with template, sources, and knowledge settings]
+
+Block name
+
+Instruction configured in the template
+
+[image: Trigger panel with trigger and Living Document settings]
+Example instruction: Summarise the meeting
+[image: Lower document section with its AI context]
+If no block is selected, the panel shows:
+Select blocks to see AI context.
+
+Override AI Context
+Use Override AI Context to add supplementary instructions for this Documentation Agent without changing the underlying Nitro page template.
+To override AI context:
+
+Select a block from the left panel.
+
+In the right-hand AI context panel, click Override AI Context .
+
+Add the additional instruction in the Add more AI context field.
+
+Click Save .
+
+Click Cancel to discard the override.
+
+Add Additional Context
+If no override exists for a block, click + Add additional context to add instructions specific to this agent.
+This opens the same Add more AI context field.
+Use this when a block needs extra guidance for this agent, but the template itself should remain unchanged.
+
+Save the Documentation Agent
+After reviewing the template, sources, trigger, and AI context:
+
+Click Done from the top-right corner.
+
+[image: Name the document agent modal with Save button]
+The Documentation Agent is saved and can be used based on the trigger configuration.
+[image: Saved Documentation Agent at the top of the list]
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Managing Nitro Pages in Rocketlane
+
+Introduction to Signals in Rocketlane
+
+Nitro Credit Consumption
+
+How to automate project workflows with HTTPS requests
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

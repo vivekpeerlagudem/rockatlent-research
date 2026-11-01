@@ -1,0 +1,158 @@
+TITLE: Understanding Sprints, Epics and Backlogs in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000749156-understanding-sprints-epics-and-backlogs-in-rocketlane
+
+Understanding Sprints, Epics and Backlogs in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Sprint Planning
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+Created by Advaith R, Modified on Mon, 1 Dec, 2025 at 1:44 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+How to read the sprints overview page
+
+How to read the sprints report
+
+Understanding Epics in Rocketlane
+
+Step-by-step guide to Sprint Planning
+
+Understanding Backlogs in Rocketlane
+
+No article available
+
+What are Sprints, Epics and Backlogs?
+
+Think of a sprint as a watering can. You fill it with just enough water (work) to get visible progress done in a short, focused time window. That’s your sprint – targeted, time-boxed effort.
+Now, where does this water come from?
+It comes from a bucket nearby – your epic . This bucket is filled over time with ideas, feature requirements, tasks, and more. You won’t empty it in one go; instead, you draw from it gradually, sprint by sprint.
+Inside that bucket is some water you haven’t used yet – this is your backlog . Some of it is ready to use (well-defined tasks), and some might be murky (needs clarification or grooming). You revisit and refine this backlog constantly.
+
+What are Sprints, Epics and Backlogs in Rocketlane?
+When managing large volumes of work across multiple projects, it helps to organize your initiatives into high-level goals and break them down into manageable pieces. Rocketlane's Sprints, Epics and Backlogs are designed to help you do just that. Sprints in Rocketlane allow you to organize and execute pieces of work within fixed, short periods. They are time-boxed cycles, typically lasting one or more weeks, used to group related tasks and focus your team's effort on delivering a specific increment of value.
+
+Epics in Rocketlane serve as large containers for major initiatives or high-level goals. They allow you to group related features, requirements, or substantial pieces of work that may take several weeks or even months to complete. By using Epics, teams can maintain a clear focus on the strategic objective, easily track the overall progress of a major deliverable, and communicate the status of large-scale efforts to stakeholders. They provide the necessary context for breaking down big ideas into smaller, more manageable tasks that can then be prioritized and executed.
+
+Backlogs in Rocketlane functions as the single source of truth for all planned, potential, and unexecuted work. It is essentially a prioritized master list of tasks, user stories, and Epics that need to be completed. The Backlog allows teams to centralize all incoming requests, scope changes, and future features, giving them complete visibility into what needs to be done. By continuously grooming and prioritizing the Backlog, teams ensure that they are always working on the items that deliver the highest value next, making it the primary pool from which work is pulled into Sprints.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Epics in Rocketlane
+
+Understanding Backlogs in Rocketlane
+
+Account Level Default Permissions
+
+How to read the sprints report
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

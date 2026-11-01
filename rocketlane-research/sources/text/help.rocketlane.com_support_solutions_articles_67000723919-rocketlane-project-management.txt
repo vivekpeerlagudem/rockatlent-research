@@ -1,0 +1,183 @@
+TITLE: How to manage projects? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000723919-rocketlane-project-management
+
+How to manage projects? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Rocketlane Project Management
+
+Rocketlane Project Management
+
+Created by Monica Madan, Modified on Thu, 15 Oct at 5:28 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Project Management
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+Managing a project in Rocketlane
+
+Managing a project in Rocketlane
+Teams often need one place to plan the work, track progress, and keep the customer informed. Each project brings these together in a set of tabs:
+Tab What you use it for
+Overview Project status, dates, completion, task counts, project updates, project info, and hours.
+Project plan Phases, tasks, and milestones in the Board view, or as a Gantt chart in the Timeline view.
+List / Board Work with project tasks as a list, or as a board grouped by status, priority, due date, phase, or a single-select custom field.
+Spaces Documents and pages shared with the customer.
+Chat Conversations with your team and the customer.
+Project updates Write and share status updates.
+Form responses Review responses to forms added to the project.
+All files Files shared across the project.
+Note Some tabs appear only when the related feature is turned on for your account and you have permission to view it. Financials appears when financials are turned on for your account and set up for the project, and can include Budgets , Tracked time , Expenses , Expense reports , and Invoices . If financials are not turned on, Tracked time appears as its own tab when timesheets are turned on. Resource management appears when you have access to resource planning or resource requests for the project, and Sheets appears when Sheets is turned on for your account.
+
+Hey there! Here is a quick demo on the projects page of Rocketlane. Watch it if you don't have time to read through the articles.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+How to Manage Task Dependencies?
+
+Introduction to Financial Management
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

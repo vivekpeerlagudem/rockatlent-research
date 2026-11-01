@@ -1,0 +1,233 @@
+TITLE: People Performance: Analyse your team's efficiency, collaboration and utilization : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000710072-people-performance-analyse-your-team-s-efficiency-collaboration-and-utilization
+
+People Performance: Analyse your team's efficiency, collaboration and utilization : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Created by Niharika Pandey, Modified on Mon, 15 Jun at 9:19 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+The People Performance Report lets you analyse the performance of your team members. It also has sections listing the top performers based on task completion, billable utilization and collaboration.
+
+You can view each team member in the account and track their performance based on their information for the respective fields.
+
+Filter
+
+Lets you filter team members based on roles and placeholders or even exact team member names.
+
+Timeframe
+
+This filter lets you analyse the people performance based on time frames so that you can specifically monitor performances for specific time periods.
+
+The ' Custom' option lets you add custom ' Start date' and ' Due date' so that you can analyse people performance for specific dates.
+
+Top Performer Cards
+
+Top Performers: Task Completion
+The Task completion top performers card lists the top three team members based on the percentage of total tasks marked as Completed.
+
+Top Performers: Billable Utilisation
+The Billable Utilization top performers card lists the top three team members based on the percentage of total hours marked as Billable out of the Available capacity (Capacity − Time off − Holidays) of a team member.
+
+Top Performers: Collaboration
+The Collaboration top performers card lists the top three team members based on the total number of messages and comments sent.
+
+The People Performance Report Table
+
+Here is a list of the People Performance table fields:
+
+Team Members
+
+Lists all the team members added to the Rocketlane account.
+
+Role
+
+Mentions the Role that the team member has been added as.
+
+Total Projects
+
+Mentions the total number of Projects the team member has been assigned to.
+
+Tasks Assigned
+
+Mentions the new Tasks assigned to the team member in the selected timeframe.
+
+Total Tasks
+
+Mentions the total Tasks assigned to the team member in the selected timeframe.
+
+Tasks Completed on-time
+
+Mentions the total Tasks assigned to the team member that have been marked as complete before the Due date.
+
+Tasks Completed late
+
+Mentions the total Tasks assigned to the team member that have been marked as complete after the Due date.
+
+Tasks Blocked
+
+Mentions the total Tasks assigned to the team member that have been marked as Blocked at least once.
+
+Tasks marked At- risk
+
+Mentions the total Tasks assigned to the team member that have been marked as At- Risk at least once.
+
+Messages and Comments
+
+Mentions the total number of messages and comments sent by a team member.
+
+Capacity
+
+Mentions the total capacity of the team member for the selected time frame in terms of hours.
+
+Hours Tracked
+
+Mentions the total number of hours that have been tracked by the respective team member from the total budgeted hours (both billable and non billable).
+
+There is a clickable link here which takes you to the time tracking report of that team member for better visibility of the hours tracked by them.
+
+Billable Utilisation:
+
+Mentions the Billable Utilisation of team members based on the percentage of total hours marked as Billable out of their Available capacity (Capacity − Time off − Holidays).
+
+Billable utilization = (Billable time / (Capacity − Time off − Holidays)) * 100
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Performance: Insights on Project Timelines and Task completion
+
+​Time analytics report
+
+People Tab: Effectively Manage your Team's Capacity
+
+Time Tracking Report: Analyse how your team spends time where
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

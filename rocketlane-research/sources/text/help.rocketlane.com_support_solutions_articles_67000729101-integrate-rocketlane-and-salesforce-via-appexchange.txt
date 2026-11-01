@@ -1,0 +1,299 @@
+TITLE: Integrate Rocketlane and Salesforce via AppExchange : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000729101-integrate-rocketlane-and-salesforce-via-appexchange
+
+Integrate Rocketlane and Salesforce via AppExchange : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+Integrate Rocketlane and Salesforce via AppExchange
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+Created by Monica Madan, Modified on Fri, 17 Oct, 2025 at 3:37 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup the Rocketlane Salesforce Integration?
+
+Getting started with the Rocketlane Salesforce Integration
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+No article available
+
+Rocketlane is now available on the Salesforce AppExchange and this article will guide you through the process of installing the Salesforce managed package into your account.
+
+In this article
+
+What does this integration mean for you?
+Permissions required for a salesforce user to authenticate rocketlane integration
+
+Integrate and Install rocketlane for salesforce
+Verify installation Salesforce
+
+Setting up Apex triggers in Salesforce
+
+What does this integration mean for you?
+Using the Salesforce managed packages for Rocketlane, you can now securely,
+
+Create projects from your CRM with ease on any updates on your preferred salesforce objects, such as an opportunity being marked closed won.
+
+Synchronizes Salesforce object fields with Rocketlane project fields, ensuring data parity between the two systems.
+
+Stay updated with your clients' needs, bridging communication gaps that may arise from a lack of context.
+
+To connect your Salesforce account with Rocketlane, ensure that the user whose credentials you are using to connect the accounts has the required permissions enabled.
+
+Permissions required for a salesforce user to authenticate rocketlane integration
+
+To ensure that the integration between rocketlane and salesforce works as expected, you need to enable certain permissions in your Salesforce account.
+
+Here are the steps to follow:
+1. Go to Home > Administration > Users > Permission sets.
+2. Create a new set or edit an existing one
+3. Search for the following permissions and enable them:
+System Permissions -> Api Enabled
+System Permissions -> Apex REST Services
+System Permissions -> Modify Metadata Through Metadata API Functions
+System Permissions -> Customize Application
+Apex Class Access -> rocketlane.RlIntegrationAuthApi, rocketlane.RlIntegrationConfigApi (Please note that these classes become accessible only after the successful installation of Rocketlane in salesforce)
+
+Note: Author Apex
+
+All the above permissions should be allowed in the permission set and mapped to the user whose credentials are to be used for integration.
+
+To assign a permission set to a user in Salesforce, follow these steps:
+
+Click the user who you want to assign the permission set to.
+
+In the Permission Set Assignments related list, select Edit Assignments
+
+Add the permission set to the user
+
+Once the permissions are enabled for the user whose credentials are used to integrate the salesforce and Rocketlane accounts, you can start the integration process.
+
+Integrate and Install rocketlane for salesforce
+To connect your Salesforce account to Rocketlane, follow these steps:
+
+Log in to your Rocketlane account.
+
+Navigate to your avatar and select "Settings".
+
+In the "Accounts" section, go to "Integrations" and select "Salesforce".
+
+Under "Settings", click the "Log into production" button.
+
+Login using the Salesforce user with the required permissions mentioned above.
+
+Once the accounts are connected, you need to install the Rocketlane Managed Package in your Salesforce organization that you connected to Rocketlane
+
+Return to the Salesforce settings page in Rocketlane.
+
+Under "Install Rocketlane App," click the "Go to Salesforce" button. You will be redirected to the Rocketlane installation page in Appexchange.
+
+Click the "Get it Now" button
+
+Reach out to us at care@rocketlane.com to get the authentication key and a dd the key to install Rocketlane
+
+Choose the salesforce account and install
+
+Approve third party access and press continue
+
+Accept the terms and conditions and click confirm and install package
+
+Return to the Salesforce settings page in Rocketlane and look for a “Installed successfully” text in green.
+
+This indicates that you have successfully integrated both accounts.
+
+Verify installation in Salesforce
+
+To double-check the installation of the Rocketlane app, follow the steps below:
+
+For Lightning version:
+
+Click on the app launcher icon and search for Rocketlane.
+
+Click the Rocketlane app and view the Rocketlane account you connected to Salesforce.
+
+For Classic version:
+
+Click on the app menu on the top right corner of your Salesforce page.
+
+From the drop-down menu, select "App Launcher" and search for the Rocketlane app.
+
+Note : If the app is still not not enlisted after installing the managed package, please reach out to care@rocketlane.com
+
+Setting up Apex triggers in Salesforce
+The Rocketlane-Salesforce integration needs events from Salesforce to be sent to Rocketlane when certain events happen in the Salesforce org (for eg, if there is a automation configured to trigger when an Opportunity stage becomes closed, that has to be sent as an event to Rocketlane for processing).
+
+To achieve this, Apex Triggers need to be created in the Salesforce organization, which will be responsible for sending this event.
+There are two ways to set up Apex triggers in Salesforce:
+
+Automatic : To automate the deployment of Apex triggers in Salesforce, you need to grant the "Author Apex" permission to the user whose credentials are used to integrate your Rocketlane and Salesforce accounts. This enables Rocketlane to manage the creation/updating of the required Apex triggers.
+
+Manual : To manually deploy Apex triggers in Salesforce, you first need to create the required Apex Trigger in your Salesforce account and then obtain the code from us and add it to the Apex trigger. You can obtain the code from us by sending an email to care@rocketlane.com
+
+Apex Trigger deployment in Salesforce occurs only once per object and is initiated when you establish a new data flow from Rocketlane.
+
+When Apex Triggers are Deployed
+
+Deployment is triggered automatically the first time one of the following events happens for a specific Salesforce object (e.g., Opportunity ):
+
+A new automation rule is created in Rocketlane that targets that object.
+
+A new field sync is set up for any field belonging to that object.
+
+The Deployment Process
+
+When either of the above actions is taken, Rocketlane checks Salesforce for an existing trigger on the specified object.
+
+If no trigger is present, Rocketlane uses the "Author Apex" permissions to deploy a new trigger.
+
+Crucially, once the trigger has been successfully deployed for an object the first time, no further deployments for that object are ever required. All future automation and field sync configurations for that object will use the existing trigger.
+
+Here is a sample Apex trigger for opportunity.
+
+trigger RocketlaneSampleOpportunityTrigger on Opportunity (after insert, after update, after delete, after undelete) {
+
+try {
+Integer integrationId = <integrationId>;
+SObjectType sObjectType = Opportunity.sObjectType;
+rocketlane.RlSystemTriggerContext triggerContext = new rocketlane.RlSystemTriggerContext();
+rocketlane.RlTriggerHandler.pushToRocketlane(integrationId, sObjectType, triggerContext);
+}
+catch(Exception e) {
+System.debug('Exception when processing trigger: ' + e.getMessage());
+System.debug(e.getStackTraceString());
+}
+
+}
+
+Here, you need to update the placeholder “integrationId.” and to do so,
+
+Navigate to the Salesforce integration settings page in Rocketlane
+
+Search and obtain the Id from the URL on the address bar
+
+Replace this obtained Id on the apex trigger.
+
+Note : For reference field mappings (eg. Opportunity.Account.Name), triggers need to be created for the reference field types also. (Account trigger in this example)
+
+To learn more about field mapping and automations in Salesforce integration, click here .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+Getting started with the Rocketlane Salesforce Integration
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

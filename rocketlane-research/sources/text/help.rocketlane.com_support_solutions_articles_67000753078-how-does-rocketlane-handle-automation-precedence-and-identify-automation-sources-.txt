@@ -1,0 +1,174 @@
+TITLE: How does Rocketlane handle automation precedence and identify automation sources? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753078-how-does-rocketlane-handle-automation-precedence-and-identify-automation-sources-
+
+How does Rocketlane handle automation precedence and identify automation sources? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+Created by Advaith R, Modified on Tue, 28 Apr at 6:24 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is the e-mail that I set up as an automation not getting sent out?
+
+Setting Up HTTPS Requests for project visibility
+
+How can I automate the visibility of project phases based on whether a project field contains a specific value, especially if the field has multiple values?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How do updates to automations in a project template affect existing and future projects?
+
+No article available
+
+Rocketlane provides robust automation capabilities to streamline workflows and improve efficiency. This article explains how Rocketlane determines the execution order of automations and how users can identify the source of automation-triggered updates.
+
+Overview of Automation in Rocketlane
+Automations in Rocketlane can be configured at different levels, including global (workspace-level) automations and task-level automations. Understanding how these automations interact and how to trace their actions is essential for effective project management.
+
+Precedence Rules for Automations
+When both a global automation and a task-level automation are configured to run at the same time, Rocketlane prioritizes the global automation. The system executes global automations first, followed by task-level automations, with a minor delay between the two. This ensures that workspace-level rules are applied before task-specific rules.
+
+Identifying Automation Sources via Activity Logs
+Rocketlane’s activity log provides detailed information about automation-triggered updates, allowing users to identify the source of changes. Here’s how to distinguish between updates triggered by different types of automations:
+
+Form (Template-Level) Automation Updates: If a task assignee update is triggered by a form submission (template or project-level form automation), the activity log will display the user who submitted the form as the actor responsible for the change.
+
+Global (Workspace-Level) Automation Updates: If the update is triggered by a global automation, the activity log will show “Automation bot” as the actor for the change.
+By reviewing the activity log, users can easily determine whether a task update originated from a form-level or global automation.
+
+Practical Tips for Managing Automations
+
+Regularly review your automation configurations to ensure they align with your project goals.
+
+Use the activity log to monitor and troubleshoot automation-triggered updates.
+
+Prioritize global automations for rules that should apply across the entire workspace, and use task-level automations for more specific, localized actions.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Automation Pricing
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

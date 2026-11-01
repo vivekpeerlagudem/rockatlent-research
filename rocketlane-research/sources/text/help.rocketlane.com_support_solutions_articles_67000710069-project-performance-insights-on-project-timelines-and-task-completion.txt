@@ -1,0 +1,328 @@
+TITLE: Project Performance: Insights on Project Timelines and Task completion : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000710069-project-performance-insights-on-project-timelines-and-task-completion
+
+Project Performance: Insights on Project Timelines and Task completion : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Project Performance: Insights on Project Timelines and Task completion
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Created by Niharika Pandey, Modified on Mon, 3 Mar, 2025 at 2:28 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+The Project Performance Report in Rocketlane lets you analyse how efficiently is your team managing projects and completing tasks.
+
+You can track when your projects have started and ended, budgeted vs tracked hours, intended vs actual project duration difference, percentage of phases and tasks completed on time a lot more.
+
+There are two tabs in the Project Performance report:
+
+The Project timeline view: This view lets you compare the intended project timelines versus the actual project timelines.
+
+T he Phases and Tasks view: This view lets you to get into detail and track the timelines for specific phases and tasks too.
+
+Filter
+
+Lets you filter projects or tasks or phases based on project fields
+
+Projects Created Filter:
+
+This filter lets you analyse the people performance based on time frames so that you can specifically monitor performances for specific time periods.
+
+The ' Custom' option lets you add custom ' Start date' and ' Due date' so that you can analyse people performance for specific dates.
+
+Export CSV
+
+Click on the export icon to export the data in the table as a csv.
+
+Project Performance: Project Timelines Tab
+
+Project Performance Cards
+
+The Project Performance cards indicate some useful statistics to help you analyse your team's output better.
+
+Based on the filters applied and the time period selected, get a quick summary of the the projects in terms of average deviation in start date and end date, the percentage of projects starting and ending on time and also the budgeted vs tracked hours.
+
+Are projects starting on time?
+Mentions the average difference between planned and actual start dates of projects.
+
+Projects started on time
+Mentions the percentage of projects that have the same planned and actual start dates.
+
+Are projects ending on time?
+Mentions the average difference between planned and actual end dates of projects.
+
+Projects completed on time
+Mentions the percentage of projects that have the same planned and actual end dates.
+
+Budgeted vs tracked hours
+Mentions the number of budgeted hours vs the tracked hours that have been added for team members.
+
+The Project Performance Report Table
+
+Here is a list of the Project Performance table fields:
+
+Project Name
+Mentions the Name of the Project.
+
+Start date - Planned
+Mentions the Start date that is planned for the project at the time of project creation.
+
+Start Date - Actual
+Mentions the Start date on which the project actually started.
+
+Starting Delay
+Mentions the difference between the actual vs planned start dates.
+
+End date - Planned
+Mentions the End date that is planned for the project at the time of project creation.
+
+End date - Actual
+Mentions the End date on which the project was actually marked as Complete.
+
+Completion Delay
+Mentions the difference between the actual vs planned end dates.
+
+Duration - Planned
+Mentions the total duration of a project that was planned during project creation. Basically, it is the difference between actual end and start dates.
+
+Duration - Actual
+Mentions the actual duration for which the project was run. Basically, it is the difference between actual end and start dates.
+
+Duration Difference
+Mentions the difference in the number of hours
+
+Budgeted Hours
+Mentions the total number of budgeted hours assigned to a project.
+
+Total Tracked Hours
+The total number of hours that have been tracked by team members in the project.
+
+Hours Difference
+Mentions the difference between the budgeted and tracked hours.
+
+Customer Name
+Mentions the Customer Name project field.
+
+Status
+Mentions the current Status of the project .
+
+Project Owner
+Mentions the team member who created the project .
+
+Template
+Mentions the name of the Template that has been used to create the project .
+
+Last 5 updates
+Last 5 Status Updates that have been generated for the project.
+
+Project Performance: Phases and Tasks Tab
+
+Project Performance Cards
+
+The Project Performance cards indicate some useful statistics to help you analyse your team's output better.
+
+Based on the filters applied and the time period selected, get a quick summary of the the phases completed on time, tasks completed on time and the average project CSAT.
+
+Phases completed on time
+Mentions the percentage of phases that have the same planned and actual start dates.
+
+Tasks completed on time
+Mentions the percentage of tasks that have the same planned and actual start dates.
+
+Average project CSAT
+Mentions the CSAT rating of all project CSAT ratings.
+
+The Project Performance Report Table
+
+Here is a list of the Project Performance table fields:
+
+Project Name
+Mentions the Name of the Project.
+
+Phases
+Mentions the number of phases in the project.
+
+Phases completed on-time
+Mentions the number of phases in the proje ct that have been marked c ompleted on the planned due date.
+
+Phases completed Late
+Mentions the number of phases in the proje ct that have been marked c ompleted after the planned due date.
+
+Tasks
+Mentions the number of tasks in the project.
+
+Tasks completed on-time
+Mentions the count of tasks completed on time.
+
+Tasks completed Late
+Mentions the number of tasks in the proje ct that have been marked c ompleted after the planned due date.
+
+Tasks not completed
+Mentions the number of tasks in the proje ct that have not yet been marked as C ompleted .
+
+Milestones
+Mentions the number of tasks marked as Milestone in the project.
+
+Milestones completed on-time
+Mentions the number of milestone tasks in the proje ct that have been marked c ompleted on the planned due date.
+
+Milestones completed Late
+Mentions the number of milestone tasks in the proje ct that have been marked c ompleted after the planned due date.
+
+Milestones not completed
+Mentions the number of milestone tasks in the proje ct that have not yet been marked as C ompleted .
+
+Project CSAT
+Mentions the average CSAT rating of the project.
+
+Non Template tasks
+Mentions the number of tasks in the project that were not a part of the template used for that project.
+
+Customer Name
+Mentions the Customer Name project field.
+
+Status
+Mentions the current Status of the project .
+
+Project Owner
+Mentions the team member who created the project .
+
+Template
+Mentions the name of the Template that has been used to create the project .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+The 4 Letters to better Customer Experience
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

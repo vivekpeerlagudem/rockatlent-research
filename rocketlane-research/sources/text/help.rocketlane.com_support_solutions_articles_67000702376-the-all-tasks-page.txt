@@ -1,0 +1,226 @@
+TITLE: The All Tasks Page : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000702376-the-all-tasks-page
+
+The All Tasks Page : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+The All Tasks Page
+
+The All Tasks Page
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:09 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+In this article
+
+Accessing the All Tasks Page
+
+List View and Kanban View
+
+Default Filtered Views
+
+Custom Filter Views
+
+Applying Filters and Adding Views
+
+The All Tasks page allows you to view the global list of all the tasks from your Rocketlane account. You can read or edit task properties like project, assignee, start date, due date, and more.
+You can also view custom task lists based on task status, assignee, due date, and other fields. Choose from default view options or create custom views using filters.
+You can filter tasks based on your preferences and save the filtered list as a shared or private view.
+
+Accessing the All Tasks Page
+Click the All Tasks icon from the left vertical navigation bar.
+
+List View and Kanban View
+
+List View
+The All Tasks page opens with the List view by default. To read more about the List view, click here .
+
+Kanban View
+The All Tasks page also has a Kanban view. To read more about navigating the Kanban view, click here .
+
+Default Filtered Views
+The All Tasks page has default filters that help you view specific tasks from the global task list.
+The default filter options are:
+Filter Description
+Everything Displays all the tasks from all projects.
+Assigned to me Displays tasks assigned to you.
+Created by me Displays the tasks created by you.
+Overdue Displays tasks that have exceeded their due date.
+Unassigned Displays tasks that have no assignees.
+No Due Date Displays tasks that have not been assigned a due date.
+At risk Displays tasks that have been marked At risk .
+Blocked Displays tasks that have been marked as Blocked .
+Milestones Displays tasks that have been marked as a milestone.
+
+Custom Filter Views
+You can apply custom filters based on your preferences and save them as a private or shared view.
+The custom view categories are:
+Category Description
+My Saved Views Displays your private saved views. Only you can view these.
+Shared Views Displays all the views that have been saved as shared.
+
+Applying Filters and Adding Views
+
+From the All Tasks page, click Filter .
+
+The filter selection has two modes: Simple mode and Advanced mode . By default, Simple mode opens, but you can switch by clicking Switch to advanced mode .
+
+You can apply filters for the following categories in Simple mode : Filter Description
+Assignee You can select multiple assignees. The filter criteria says Can be one of .
+Responsible Allows you to choose the organization responsible for the task execution.
+Project You can select multiple projects. The filter criteria says Can be one of .
+Due Date Allows you to filter tasks based on due date. You can choose a custom due date or from the default options available.
+Created by You can filter tasks based on which user account created it. This does not allow multiple selection, and the filter criteria says Created by is exactly .
+Show Tasks You can filter tasks based on completion status. Choose from Complete , Incomplete , or All .
+
+You can choose a custom filter from Advanced mode and apply it to task fields.
+
+Click Done to view the filtered tasks.
+
+Click Save view as to save this filter as a view.
+
+From the New View dialog box, give a name to the view and choose whether you want the view to be private or shared.
+
+Click Save to save the view.
+
+Your view will be added to My saved views for views marked as Only me , and to Shared views for views marked as All team members .
+
+Click Clear to exit the filter mode.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+The All Tasks Page: List View
+
+Keyboard Shortcuts in Rocketlane
+
+Step-by-step guide to Sprint Planning
+
+How to understand and manage deactivated user behaviour
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

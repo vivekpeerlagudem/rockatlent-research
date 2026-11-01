@@ -1,0 +1,214 @@
+TITLE: Setting up Dashboards in Sheets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748155-setting-up-dashboards-in-sheets
+
+Setting up Dashboards in Sheets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Setting up Dashboards in Sheets
+
+Setting up Dashboards in Sheets
+
+Created by Advaith R, Modified on Wed, 8 Jul at 4:44 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+In this article
+
+Add a widget
+
+Create a custom card
+
+Create a custom chart
+
+Create a pivot table
+
+The Overview tab is a customizable dashboard that provides a high-level view of your sheet data. It lets you display key metrics as numerical cards and generate charts to visualize data distribution and trends - giving you at-a-glance insights without leaving the sheet.
+
+Add a widget
+
+In your sheet, click on the Overview tab.
+
+Choose one of the available widget types: Add custom card , Add custom chart , or Add pivot table .
+
+Create a custom card
+Cards display a total, count, or average of a column field - a quick way to view key project metrics at a glance.
+
+Select Add card .
+
+Name your card: Give it a concise, descriptive name.
+
+Choose a field for card: Select the column whose data you want to display.
+
+Choose the aggregation type: Select Count, Sum, or Average.
+
+Add a unit (optional): Specify a prefix or suffix (for example $, hours, %) to give context to the value.
+
+Add filters (optional): Apply conditions to display only relevant data.
+
+Click Create to add the card to your overview.
+
+Create a custom chart
+
+Name your chart: Give it a clear, descriptive name.
+
+Choose a sheet tab: Select the primary data source for your chart.
+
+Select a chart style: Choose the visual style that best represents your data (Bar, Pie, Line, or Donut).
+
+Configure the X-axis: Select the column for the horizontal axis. Additional filter options may become available based on your selection.
+
+Configure the Y-axis: Select the column for the vertical axis.
+
+Add filters (optional): Apply conditions to display only the data you need.
+Note Only bar chart is supported at this time.
+
+Create a pivot table
+
+Select a data source: Choose the tab from the sheet to use as the data source.
+
+Select values: Choose the field you want to display as the values in your pivot table.
+
+Select columns: Choose the field you want to display as columns.
+
+Select rows: Choose the field you want to display as rows.
+
+Once all fields are configured, click Create pivot .
+
+Note Picklists are displayed along the X-axis (horizontal axis - Rows and Columns), while numerical values correspond to the Y-axis (vertical axis - Values).
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Configure How Utilisation Is Calculated
+
+Setting Up Dashboards to Track Key Metrics
+
+Q: How can I create a dashboard chart to accurately show the total number of projects in the same current phase?
+
+Rocketlane Sheets Shortcuts & Tips
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

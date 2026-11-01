@@ -1,0 +1,165 @@
+TITLE: Merging Duplicate Accounts in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000744929-merging-duplicate-accounts-in-rocketlane
+
+Merging Duplicate Accounts in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Accounts
+Merging Duplicate Accounts in Rocketlane
+
+Merging Duplicate Accounts in Rocketlane
+
+Created by Advaith R, Modified on Tue, 27 May, 2025 at 4:12 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting up and managing Accounts
+
+Merging Duplicate Accounts in Rocketlane
+
+No article available
+
+When handling projects in Rocketlane, there may be situations where two or more accounts are unintentionally created for the same client or company. This often happens when deal names vary, or when CRM automation tools like HubSpot introduce minor changes in naming conventions during account creation (e.g., "Acme Inc." vs. "Acme Corporation"). To resolve this and ensure all associated project data is consolidated, Rocketlane provides the ability to merge accounts.
+
+How to Merge Accounts in Rocketlane
+To merge duplicate accounts:
+
+Click on the Accounts tab from the left navigation bar.
+
+Open the account that you want to use as the destination account (i.e., the account into which others will be merged).
+
+Navigate to the Settings of the account.
+
+Under General Information , click on the Merge Accounts option.
+
+This will open the merge interface where you can select accounts to be merged.
+
+Selecting Accounts to Merge
+
+On the left panel, select the source accounts that you want to merge into the destination account.
+
+On the right panel, the current account will be selected as the destination account by default. If needed, you can choose another account as the destination.
+
+Click Merge Accounts to confirm the action. After merging, you’ll see that the source account data has been fully consolidated into the destination account.
+
+Once the merge is complete:
+
+All projects , files , notes , and customer members from the source accounts will be moved to the destination account. Account-level custom fields from the source accounts however, will not be carried over to the destination account.
+
+Note: This action cannot be undone. Review your selection carefully before confirming the merge.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+Why am I not able to add a customer team member to a project?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

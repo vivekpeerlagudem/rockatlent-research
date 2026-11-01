@@ -1,0 +1,257 @@
+TITLE: Rocketlane  Azure User Provisioning Integration with SCIM : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747396-setting-up-azure-user-provisioning-integration-with-scim
+
+Rocketlane Azure User Provisioning Integration with SCIM : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Created by Advaith R, Modified on Thu, 23 Jul at 4:03 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+In this article
+
+Overview of SCIM Provisioning Capabilities
+
+Step 1: Set Up the Rocketlane Application in Entra ID
+
+Step 2: Generate API Token in Rocketlane
+
+Step 3: Configure SCIM Provisioning in Entra
+
+Step 4: Configure Microsoft Entra ID Mapping
+
+Step 5: Enable SCIM in Rocketlane
+
+Step 6: Test the Integration
+
+Rocketlane now supports SCIM-based user provisioning via Microsoft Entra ID (formerly Azure Active Directory). This integration helps automate user creation, updates, and deactivation, so your IT team no longer has to manage users manually in Rocketlane.
+With this in place, Rocketlane mirrors user changes from Entra, streamlining identity and access management for growing teams.
+
+Overview of SCIM Provisioning Capabilities
+Once enabled, SCIM-based provisioning automatically handles:
+
+User Creation: Users assigned to the Rocketlane app in Entra are created in Rocketlane.
+
+User Updates: Updates to user attributes, such as name or email, in Entra are synced to Rocketlane.
+
+User Deactivation: Unassigned users in Entra are disabled or removed in Rocketlane.
+
+Step 1: Set Up the Rocketlane Application in Entra ID
+
+Log in to your Entra Admin Center .
+
+Navigate to Enterprise apps > All Application > New Application > Create your own application .
+
+Name the app, for example, Rocketlane .
+
+Choose “Integrate any other application you don’t find in the gallery (Non-gallery)” and click Create .
+
+Step 2: Generate API Token in Rocketlane
+To connect Entra with Rocketlane, you’ll need an API token that authorizes SCIM operations.
+
+Go to Settings in your Rocketlane account.
+
+Scroll to API Settings .
+
+Click Create API Key .
+
+Name the key clearly, for example, Entra SCIM Integration .
+
+Copy the generated API key. You’ll use this in the Entra setup.
+
+Important Copy and store the API key securely when it is generated. You will need to paste it into Entra as the secret token.
+
+Step 3: Configure SCIM Provisioning in Entra
+
+Go to the Rocketlane application in Entra. Navigate to Provisioning > Get Started .
+
+Fill in the following fields:
+Provisioning Mode: Automatic
+
+Authentication Method: Bearer Authentication
+
+Tenant URL:
+https://<your-subdomain>.api.rocketlane.com/api/scim/v2
+
+Example: If your Rocketlane domain is acme.rocketlane.com , the SCIM Base URL would be https://acme.api.rocketlane.com/api/scim/v2
+
+Secret Token: Paste the API key you generated from Rocketlane.
+
+Click Test Connection to verify.
+
+On success, click Save to confirm and enable the integration.
+
+Step 4: Configure Microsoft Entra ID Mapping
+
+After saving the configuration, you should be able to see the option to configure attribute mapping.
+
+Disable Provision Microsoft Entra ID Groups .
+
+Configure Provision Microsoft Entra ID User’s Attribute Mapping so that it looks like the figure below.
+
+Make sure Provision Microsoft Entra ID Users is enabled and Target Object Actions has Create , Update , and Delete enabled as well. Once done, click Save .
+
+Turn Provisioning Status to On and click Save .
+
+Step 5: Enable SCIM in Rocketlane
+
+Log in to your Rocketlane instance.
+
+Navigate to Settings > SCIM .
+
+Click Set up SCIM integration .
+
+Under Choose Integration , select AzureAD .
+
+Set a Default Role and Permission Set .
+Recommendation: Choose the lowest-privilege role and permissions to avoid giving unnecessary access by default.
+
+Click Enable . Once enabled, provisioning actions from Entra ID will begin syncing with Rocketlane.
+
+Step 6: Test the Integration
+After enabling SCIM, verify that provisioning is working correctly:
+
+Assign a user in Entra ID to the Rocketlane application.
+
+Confirm that the user is created in Rocketlane.
+
+Update user details , such as email or name, in Entra and check that changes reflect in Rocketlane.
+
+Unassign or deactivate a user in Entra and verify that the user is deactivated in Rocketlane.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,28 @@
+---
+updatedAt: 2025-06-03T20:49:20.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Spaces
+
+## Spaces Overview
+
+The Rocketlane Spaces APIs provides developers with the tools to manage spaces within the Rocketlane platform programmatically. Spaces are virtual environments where teams collaborate, share information, and work on project related documents and files. This API allows for the creation, retrieval, and management of spaces, enabling seamless integration into custom workflows and applications.
+
+You can perform basic functions around spaces that include adding spaces, updating the name of the spaces.
+
+***
+
+## Default Spaces Fields
+
+| Field     | Description                                                                                                                        |
+| :-------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| spaceId   | The space’s unique, system-generated identifier, which can be used to identify the space globally.                                 |
+| spaceName | The name of the space.                                                                                                             |
+| project   | The project associated with space and it is mandatory for the space object to get created and map accordingly.                     |
+| createdAt | The time when the space was created. The referenced time will be in epoch millis.                                                  |
+| createdBy | The team member object who created the space.                                                                                      |
+| updatedAt | The time when the space was last updated. Any changes that's related to the space are captured and specified here in epoch millis. |
+| updatedBy | The team member object who updated the space.                                                                                      |
+| private   | Sets the privacy of the space. You can mark a space as private or shared.                                                          |

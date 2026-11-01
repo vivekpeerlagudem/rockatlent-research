@@ -1,0 +1,16 @@
+%% Signal detection lifecycle as documented. Evidence: D1-044..D1-048, D1-033
+flowchart TD
+  A["New transcript arrives (meeting or email) [D]"] --> B{"Linked to a customer account?<br/>project membership or domain match [D]"}
+  B -- "no, or internal-only" --> X1["Skipped [D]"]
+  B -- yes --> C{"Blacklist / exclusions? [D]"}
+  C -- match --> X2["Skipped [D]"]
+  C -- none --> D["For each signal definition [I]"]
+  D --> E{"Eligibility filters pass?<br/>e.g. ARR > 100K, region, channel [D]"}
+  E -- no --> X3["Detection not run [D]"]
+  E -- yes --> F["AI evaluates instructions, examples,<br/>business context from KB [D]"]
+  F --> G{"Condition detected? [D]"}
+  G -- no --> X4["Evaluation ends [D]"]
+  G -- yes --> H["Signal occurrence: type, reason code, title,<br/>description, citations, people, date [D]"]
+  H --> I["Attached to ACCOUNT; visible per Signals RBAC scope [D]"]
+  I --> J["Optional manual association to project [D]"]
+  I --> K["Can be hidden by permitted users [D]<br/>No automatic resolve/close [D]"]

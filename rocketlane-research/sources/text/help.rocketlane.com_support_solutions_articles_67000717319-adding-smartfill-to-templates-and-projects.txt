@@ -1,0 +1,239 @@
+TITLE: Adding SmartFill to Templates and Projects : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000717319-adding-smartfill-to-templates-and-projects
+
+Adding SmartFill to Templates and Projects : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+Adding SmartFill to Templates and Projects
+
+Adding SmartFill to Templates and Projects
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 6:45 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+Adding SmartFill to Templates and Projects
+
+How to Create and Manage Placeholders?
+
+Understanding Date Changes in Rocketlane
+
+No article available
+
+In this article
+
+How to add SmartFill to your Projects as well as Templates
+
+How to add Conditional SmartFill to Templates
+
+Adding SmartFill and Conditional SmartFill to Project Templates
+
+Adding SmartFill and Conditional SmartFill to Document Templates
+
+Adding SmartFill to Form Templates
+
+Adding SmartFill and Conditional SmartFill to Project Update Templates
+
+Adding SmartFill to Projects
+
+Information about projects and team members can be dynamically updated using Rocketlane's SmartFill feature. SmartFill is supported for rich text format fields in both project modules and templates. It can be used as a dynamic text replacement solution, for customizing standard messaging and project updates based on real-time customer data, and for instant access to important project information.
+Using SmartFill, you can obtain real-time values for both default and custom project fields and team member fields. Team member fields are nested under the roles that are available in your account.
+In templates, how the SmartFill field values are updated will depend on the project to which they have been added and the fallback value provided.
+In essence, SmartFill offers a syntax-based approach as well as an in-app selection panel from which you can select project and team member fields. Conditional SmartFill enables you to build custom if/else blocks based on conditional project field filters and supports rich text format.
+You can also provide fallback values for both SmartFill and Conditional SmartFill added to templates, so that substitute text is available in case the preferred value is not available.
+Note For user type project fields, Rocketlane supports the respective team member fields also. You can click a user or multi-user field and select the required team member field(s) for the user(s).
+
+How to add SmartFill to your Projects as well as Templates
+Syntax:
+{{project.projectField | FALLBACK}}
+Add the opening braces for the syntax, {{ , and choose the project field or team member field option from the SmartFill selection panel.
+In templates and certain modules in projects, you can click the in-app SmartFill icon and choose SmartFill to see the project and team member fields selection pop-up where your cursor is placed.
+After selecting the SmartFill field, the SmartFill placeholder text appears in the syntax format, which has two sections:
+
+Project Field
+
+Fallback
+You can click the project field and replace the selection by choosing another project field.
+Click Add fallback to add a substitute value to be displayed in case the project field has no value to return.
+You can type the fallback text to be displayed when the SmartFill field value is not available. Click Done to save the text.
+The SmartFill syntax will look like the screenshot below when added to templates. When the templates are added to a project, the SmartFill syntax will be replaced by project field values or the fallback value.
+
+How to add Conditional SmartFill to Templates
+Note Conditional SmartFill is not supported in projects or form templates. It is only available in Project Templates, Document Templates, and Project Update Templates.
+
+Syntax:
+{% if | CONDITION %}
+{% elseif | CONDITION %}
+{% else | FALLBACK %}
+{%endif%}
+Conditional SmartFill enables you to build custom if/else blocks based on conditional project field filters and supports rich text format.
+After adding the opening braces for the syntax, {% , the Conditional SmartFill panel opens up.
+In templates, you can click the in-app SmartFill icon and choose Conditional SmartFill . The Conditional SmartFill panel opens up.
+You can start building your custom if/else block from the Conditional SmartFill dialog box.
+Add a filter condition based on project field values from the IF block.
+Next, add the text that you want to be displayed in case the IF condition is satisfied.
+Tip The text blocks in the Conditional SmartFill dialog box support the SmartFill feature. You can add the opening braces for the syntax, {{ , and choose project field or team member field options from the selection panel.
+
+You can add an else if condition by clicking the Add else if button.
+Set the filter conditions and text for the ELSE IF block.
+Add the text for the ELSE block and click Done .
+The Conditional SmartFill syntax will look like the screenshot below when added to templates. When the templates are added to a project, the Conditional SmartFill syntax will be replaced by project field values or the fallback value.
+
+Adding SmartFill and Conditional SmartFill to Project Templates
+
+From Task descriptions
+
+From Private Notes in a Task
+
+From Documents in Spaces
+
+Adding SmartFill and Conditional SmartFill to Document Templates
+
+Adding SmartFill to Form Templates
+Note Form Templates only support SmartFill. They do not support Conditional SmartFill.
+
+In the Question Field label , add the opening braces for the syntax, {{ , and choose the project field or team member field option from the SmartFill selection panel.
+
+Adding SmartFill and Conditional SmartFill to Project Update Templates
+
+Adding SmartFill to Projects
+Note You can only add SmartFill to projects. There is no fallback value involved. If the project field or team member field is populated, it will show the value where the cursor is placed. If not, it will return nothing.
+
+From Task descriptions
+
+From Private Notes in a Task
+
+From Conversations
+
+From Documents in Spaces
+
+From Project Updates
+
+From the Chat section in a Project
+
+From the New Business Goal Description in Project Overview Page
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Keyboard Shortcuts in Rocketlane
+
+How to create project templates?
+
+How to build your customer portal
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

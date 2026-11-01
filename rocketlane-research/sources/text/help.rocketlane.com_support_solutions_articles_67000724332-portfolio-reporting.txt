@@ -1,0 +1,228 @@
+TITLE: Portfolio reporting : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000724332-portfolio-reporting
+
+Portfolio reporting : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Portfolio reporting
+
+Portfolio reporting
+
+Created by Monica Madan, Modified on Wed, 18 Dec, 2024 at 5:22 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+CSAT Reports: Measure and Analyse your Customers Reviews
+
+Project Performance: Insights on Project Timelines and Task completion
+
+Operations Insights Report: The Overview Tab
+
+Operations Insights Report: By Template Tab
+
+Operations Insights Report: The Tracked vs Planned Tab
+
+Time Tracking Report: Analyse how your team spends time where
+
+People Performance: Analyse your team's efficiency, collaboration and utilization
+
+Portfolio reporting
+
+No article available
+
+Rocketlane enables you to track and understand revenue and profitability effectively across your portfolio of projects for a given time period. These reports also facilitate accurate revenue forecasting and aid in financial planning and analysis.
+
+> This report helps you analyze revenue for a chosen time period, such as the last quarter, and determine if you are on track with your revenue forecast for that same period.
+
+> You can view detailed information on the revenue generated from your projects for example, if you wish to track the revenue made from fixed fee projects for a specific region, you can apply a filter to display all projects tagged to the North America region. This information will be available under the fixed fee tab in the portfolio reports.
+
+Time Period - By default, the time period for the report will be “this quarter,” but you can click on the time period and change the duration to your preference.
+
+Note: All values you see in the reports are based on the time period you have chosen
+
+Filter - Lets you view data on a granular level by providing options to segment and analyse data.
+The portfolio report has three views
+
+All
+
+Fixed Fee
+
+Time and Material
+
+The dashboard consists of:
+
+No. of projects - Provides the total number of projects that overlap with the selected time period. This card also shows you how this number compares to the previous period of the same length.
+
+Hours - For the chosen time period this card shows the total tracked time and the allocated hours across projects.
+
+Revenue - Shows the total revenue tracked for T&M project and revenue recognised for Fixed fee projects.
+
+Cost - Shows actual and forecasted project costs based on tracked time and allocated hours. This is across all projects.
+
+Profit - Shows the total actual profit and forecasted profit based on the project budget for fixed fee projects and based on rate cards for T&M projects.
+
+Profit margin - Shows the comparison between actual and forecasted margins.
+
+Click to read about the revenue recognition calculations for Fixed fee and financial numbers calculations for Time and Material .
+
+Additionally for subscription projects the dashboard consists of:
+
+Subscriptions : Indicates the number of subscription projects that were active during the selected time period.
+
+New Subscriptions : Represents the count of subscriptions initiated within the chosen time frame.
+
+Terminating Subscriptions : Indicates the number of subscriptions approaching the end of their tenure within the selected time period.
+
+Profitability Breakdown
+This chart shows the revenue, cost, profit and the profit margin achieved for all projects on a monthly basis.
+
+Hours Breakdown
+This chart provides you with information on the allocated and tracked hours for the project on a monthly basis.
+
+Summary table for All Projects
+This table offers detailed information on project hours, revenue, costs, profit, and profit margin. You can compare the actual data with the forecasted data to make informed decisions at the right time.
+
+Summary table for Fixed fee projects
+This table offers detailed information on project hours, recognised revenue percentage, recognised revenue, costs, profit, and profit margin. You can compare the actual data with the forecasted data to make informed decisions at the right time.
+
+Revenue recognition percentage:
+It is the percentage of revenue you recognised for the chosen time period. It is calculated based on the revenue recognition method you use.
+
+Forecasted revenue recognised percentage: Is the percentage of revenue forecasted to be recognised based on the allocated hours in that time period and the revenue recognition method you use.
+
+Actual revenue recognised percentage: Is the percentage of revenue recognised based on the hours tracked in that time period and the revenue recognition method you use.
+
+Note that in fixed fee projects, revenue is the fixed fee.
+
+Summary table for Time and Material projects
+This table offers detailed information on project hours, revenue,, costs, profit, and profit margin. You can compare the actual data with the forecasted data to make informed decisions at the right time.
+
+Forecasted revenue is calculated based on the rate card and allocated hours on the project.
+
+Actual revenue is calculated based on rate card and time tracked on the project.
+
+Summary table for Subscription projects
+This table offers detailed information on subscription frequency, period budget, period hours, revenue recognised, costs, profit, and profit margin. You can compare the actual data with the forecasted data to make informed decisions at the right time.
+
+Frequency is the subscription intervals that indicate the frequency or time period for which your service is billed or subscribed to. This can be monthly, quarterly or yearly.
+
+Period budget represents the fixed fee of every subscription period
+
+Period hours represents the budgeted hours of every subscription period
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+Introduction to Financial Management
+
+Setting up currencies
+
+Setting up team member fields
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

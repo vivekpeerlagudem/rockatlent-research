@@ -1,0 +1,187 @@
+TITLE: Importing Time Entries from Allocations : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748668-importing-time-entries-from-allocations
+
+Importing Time Entries from Allocations : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+Importing Time Entries from Allocations
+
+Importing Time Entries from Allocations
+
+Created by Advaith R, Modified on Mon, 17 Nov, 2025 at 7:33 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Time Tracking in Rocketlane
+
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+Importing Time Entries from Allocations
+
+Collapse Days and Rearrange Columns in Timesheets
+
+No article available
+
+If you've already allocated hours to projects in Rocketlane, you can import them directly into your timesheet instead of entering them manually.
+How it works
+
+Go to the Timesheets page
+
+Click Add Row > Import from allocations
+
+Review the suggested time entries that appear based on your allocations for the week
+
+Edit any details you need to:
+
+Add or edit work descriptions (auto-populated if the allocation was for a specific task or phase)
+
+Select a category
+
+Mark as billable or non-billable
+
+Add notes
+
+Update any other custom fields your organization has set up
+
+Add the entries to your timesheet
+
+Things to note
+
+You won't be able to log time if certain settings are enabled, such as
+
+Restricting time tracking if the project is completed / cancelled / in other restricted statuses
+
+Restricting time tracking if you are not part of the project.
+
+If the time period has been locked by an admin
+
+Some fields may be read-only based on your permissions. Contact your admin if you need to edit a locked field
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Collapse Days and Rearrange Columns in Timesheets
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Account Level Default Permissions
+
+Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

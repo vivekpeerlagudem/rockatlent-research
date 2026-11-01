@@ -1,0 +1,138 @@
+TITLE: Q: Why didn't the bot record my meeting, and why can't I find the recording in my account? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747285-q-why-didn-t-the-bot-record-my-meeting-and-why-can-t-i-find-the-recording-in-my-account-
+
+Q: Why didn't the bot record my meeting, and why can't I find the recording in my account? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Q: Why didn't the bot record my meeting, and why can't I find the recording in my account?
+
+Q: Why didn't the bot record my meeting, and why can't I find the recording in my account?
+
+Created by Advaith R, Modified on Tue, 2 Sep, 2025 at 7:15 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I seeing an error?
+
+Q: Why didn't the bot record my meeting, and why can't I find the recording in my account?
+
+No article available
+
+A: The bot was unable to record your meeting due to a lack of recording permissions. Additionally, the recording was not synced because our system is configured to only pull meetings where an active team member is the host. Since the host of your meeting was an external user, the meeting was not synced. Please note that it is not possible to change the host of a completed Zoom meeting.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+Why am I seeing an error?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

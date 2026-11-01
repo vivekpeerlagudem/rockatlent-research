@@ -1,0 +1,266 @@
+TITLE: Understanding Task Dependencies in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000741312-understanding-task-dependencies-in-rocketlane
+
+Understanding Task Dependencies in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Understanding Task Dependencies in Rocketlane
+
+Understanding Task Dependencies in Rocketlane
+
+Created by Advaith R, Modified on Fri, 30 Oct at 6:54 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+In most projects, some work cannot begin until other work is done, and a delay in one task quietly throws off the dates of the tasks that follow it. Task dependencies in Rocketlane help you manage project timelines by linking tasks with logical relationships. Once tasks are linked, changes to one task automatically adjust the schedules of related tasks, keeping your project plan consistent.
+In this article
+
+Before You Start
+
+What Are Task Dependencies?
+
+Types of Dependencies in Rocketlane
+
+Add Dependencies From the Timeline View
+
+How Dependencies Work
+
+Handling Multiple Dependencies for a Task
+
+Key Dependency Rules in Rocketlane
+
+FAQ
+
+Summary
+
+Before You Start
+
+Available to every account: linking tasks with finish-to-start dependencies.
+
+Setting required for more types and lag: three more types (start to start, finish to finish and start to finish) and lag become available once an admin turns on Additional dependencies in Settings > Automations > Workflow management .
+
+Plan: this setting is available on the Premium and Enterprise plans.
+
+When the setting is off: the Predecessors column, Dependency type and Lag do not appear. See How to Manage Task Dependencies? for the other ways to add a finish-to-start dependency.
+For the steps and what each type means, see How to Manage Task Dependencies?
+[image: Workflow Management settings with Additional dependencies turned on]
+What Are Task Dependencies?
+Dependencies define relationships between tasks in a project. For example, if Task B requires the completion of Task A to proceed, these tasks are connected by a dependency. When changes are made to the completion date of Task A, they indirectly affect the start or due dates of Task B, ensuring that the relationship between tasks is preserved.
+
+Types of Dependencies in Rocketlane
+Rocketlane supports four dependency types: Finish to start (FS) , Start to start (SS) , Finish to finish (FF) and Start to finish (SF) . Finish to start is the default. For what each type means and how to turn on the other three, see How to Manage Task Dependencies?
+
+Add Dependencies From the Timeline View
+When Additional dependencies is turned on, set up dependencies and lag from the project plan's Timeline view:
+
+Open the project and go to its plan.
+
+Switch to the Timeline view.
+
+In the Predecessors column, select the cell for the task you want to link. [image: Add predecessor tasks drawer with the Dependency type options and Lag]
+
+In Add predecessor tasks for , select the predecessor task.
+
+Select the Dependency type . Finish to start is selected by default.
+
+Enter the Lag in days, if the successor should wait after the predecessor.
+
+To link another predecessor, select Add another predecessor .
+
+Select Done .
+Note Lag must be zero or more. Rocketlane does not support negative lag (lead time).
+
+How Dependencies Work
+
+Example Scenario 1: Two Tasks With a Finish-to-Start Dependency
+In this example, Task A is the parent and Task B is the child, with a Finish to start dependency and a lag of 3 days.
+
+Parent Task Moves Forward:
+If Task A is delayed by 3 days, Task B will also shift forward by 3 days to maintain the 3-day lag.
+
+Child Task Adjustment:
+If you attempt to move Task B backward without moving Task A, a dialog box will warn you that the dependency will be broken. However, you can move Task B beyond the 3-day lag without violating the dependency.
+
+Example Scenario 2: Adjusting Artificial Lags
+If an artificial lag is introduced to Task B, such as setting a start delay greater than 3 days, and Task A is delayed further, Task B will adjust as long as the dependency is not violated.
+
+Handling Multiple Dependencies for a Task
+A task can have multiple dependencies, with each specifying different lags. For example:
+
+Task B has a 3-day Finish to start dependency on Task A.
+
+Task B also has a 6-day Finish to start dependency on Task C.
+If Task A is delayed, Task B will adjust accordingly. However, Task B will also honor the 6-day gap required by Task C. In such cases, Task B maintains the largest lag, 6 days in this example, to satisfy all dependencies.
+
+Key Dependency Rules in Rocketlane
+
+Predecessor Can Move the Successor:
+Changes to a predecessor task's timeline will affect its successor.
+
+Successor Cannot Move the Predecessor:
+Adjusting the successor task does not impact the predecessor, preserving the dependency flow.
+
+Dependency Violations:
+If you attempt to move a task in a way that violates its dependencies, Rocketlane prompts you with a warning, ensuring logical consistency.
+
+FAQ
+
+Why Don't I See the Predecessors Column in the Timeline View?
+The Predecessors column appears only when Additional dependencies is turned on in Settings > Automations > Workflow management . Ask an admin to turn it on, or use the other methods in How to Manage Task Dependencies? to add a finish-to-start dependency.
+
+Why Can't I Find the Additional dependencies Setting?
+The setting is shown to accounts on the Premium and Enterprise plans, and to accounts that have it as an add-on. Otherwise, tasks can be linked with finish-to-start dependencies only.
+
+Can I Enter a Negative Lag So the Successor Overlaps the Predecessor?
+No. Lag must be zero or more. To let work overlap, use a start to start or finish to finish dependency instead.
+
+Summary
+
+Dependencies link tasks so that a change to one task's dates carries through to the tasks that depend on it.
+
+Every account has finish-to-start dependencies. Start to start, finish to finish, start to finish and lag need Additional dependencies turned on in Settings > Automations > Workflow management (Premium and Enterprise plans).
+
+With the setting on, add predecessors from the Predecessors column in the project plan's Timeline view.
+
+Lag is entered in days and cannot be negative.
+
+When a predecessor is delayed, its successors move forward to keep the dependency and lag. A task with several predecessors respects the largest gap.
+
+For the meaning of each dependency type and the step-by-step setup, see How to Manage Task Dependencies?
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Date Changes in Rocketlane
+
+How to Manage Task Dependencies?
+
+Guide to Using Rocketlane MCP Tools
+
+Setup Best Practices for Rocketlane Admins
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

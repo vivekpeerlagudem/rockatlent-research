@@ -1,0 +1,194 @@
+TITLE: Access Control for Financial Management : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721357-access-control-for-financial-management
+
+Access Control for Financial Management : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Access Control for Financial Management
+
+Access Control for Financial Management
+
+Created by Monica Madan, Modified on Wed, 19 Jul, 2023 at 5:44 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Access Control for Financial Management
+
+No article available
+
+ACCESS
+ADMIN
+SUPER USER
+COLLABORATOR
+
+Can see revenue numbers and budget on projects
+✅
+✅
+✅
+
+Can see the budget and rates tab on project settings
+✅
+✅
+❌
+
+Can edit the project budget and project hours in project settings
+✅
+✅
+❌
+
+Can change the project rate cards
+✅
+✅
+❌
+
+Can manually set project billing rates
+✅
+✅
+❌
+
+Can see cost, profit and margin numbers on projects
+✅
+❌
+❌
+
+Can view rate cards settings page
+✅
+✅
+❌
+
+Can create or update rate cards
+✅
+❌
+❌
+
+Can manage cost for roles and people
+✅
+❌
+❌
+
+Note: If you are a project owner you can
+- View revenue numbers and budget on projects
+- View budget and rates tab on project settings
+- Edit the project budget and project hours in project settings
+- Change the rate cards on the project
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Financial Management
+
+How much does the permissions module cost
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Managing Invoicing Permissions in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

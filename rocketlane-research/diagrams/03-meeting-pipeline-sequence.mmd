@@ -1,0 +1,47 @@
+%% Meeting Intelligence pipeline, end to end. [D] documented, [I] inferred, [U] unknown.
+%% Evidence: D1-020..D1-036, D1-040..D1-053
+sequenceDiagram
+  autonumber
+  participant Host as Meeting host / participants
+  participant Src as Cloud source<br/>(Teams via Graph, Zoom, Meet, Gong)
+  participant NT as Rocketlane AI Notetaker
+  participant Cap as Capture and ingestion
+  participant Cls as Classification and customer matching
+  participant Pg as Meeting page (template, first match)
+  participant Sig as Signals pipeline
+  participant User as PM / team member
+  participant Doc as Documentation Agent
+
+  alt Cloud retrieval [D]
+    Host->>Src: Record + transcribe in provider
+    Cap->>Src: Retrieve completed recording + transcript via provider API after meeting ends [D]
+    Note over Cap,Src: Graph subscription vs polling, latency [U]
+  else Notetaker [D]
+    NT->>Host: Joins scheduled call from host's connected calendar (licensed host) [D]
+    NT->>Cap: Recording [D]
+    Note over NT,Cap: Transcription method [U]
+  end
+  Cap->>Cap: Apply exclusions (person, domain, keyword) [D]
+  Cap->>Cap: Duplicate meeting from 2 sources is "handled" [D], method [U]
+  Cap->>Cls: Normalise to common transcript object [D]
+  Cls->>Cls: Participants internal vs external, customer meeting if ≥1 external [D]
+  Cls->>Cls: Match account: exact email, then contact domain, then website, else unassociated [D]
+  Cls->>Pg: Create meeting page for every captured meeting [D]
+  Note over Pg: Attached to ACCOUNT, not project. Project link is manual [D]
+  opt Associated customer meeting and Signals enabled [D]
+    Pg->>Sig: New transcript triggers detection [D]
+    Sig->>Sig: Per signal definition, eligibility filters gate detection [D]
+    Sig->>Sig: AI evaluates conditions, creates signal occurrence with citations [D]
+    Sig-->>User: Signal card on account (RBAC-scoped). No auto-close [D]
+  end
+  opt User-invoked AI Fill [D]
+    User->>Pg: Select meetings + AI Fill template in update/document/chat
+    Pg-->>User: Generated draft content
+    User->>User: Review / edit, then publish (human gate) [D]
+    Note over User: No write-back to fields or tasks [D]
+  end
+  opt Documentation Agent [D]
+    Doc->>Pg: Manual or on-event trigger reads matching meetings/emails + knowledge base
+    Doc-->>User: Nitro page under account, with citations and answer history
+    Note over Doc: Living document updates automatically. No approval step documented [D]
+  end

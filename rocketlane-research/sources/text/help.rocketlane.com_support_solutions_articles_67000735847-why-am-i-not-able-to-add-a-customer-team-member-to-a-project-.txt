@@ -1,0 +1,158 @@
+TITLE: Why am I not able to add a customer team member to a project? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000735847-why-am-i-not-able-to-add-a-customer-team-member-to-a-project-
+
+Why am I not able to add a customer team member to a project? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why am I not able to add a customer team member to a project?
+
+Why am I not able to add a customer team member to a project?
+
+Created by Ramnath Venkatesh, Modified on Fri, 5 Jul, 2024 at 12:57 PM by Ramnath Venkatesh
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to add a customer team member to a project?
+
+Why is the Customer not receiving the Magic Link in their Email?
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+Why Can't I Upload and Save a Customer Logo?
+
+How much does the permissions module cost
+
+No article available
+
+When the customer team member is already part of another company:
+
+In Rocketlane, a customer user can only belong to one customer company. If you encounter a situation where a user is already part of another company, it is often due to a naming discrepancy (e.g., trying to add Jennifer to "Acme Private Limited" when she is already part of "Acme Pvt. Ltd.").
+
+Merging Duplicate Companies
+
+If the two companies are actually the same, please reach out to us via our chat. Provide the names of the company to be purged and the target company, and we will merge them for you. This process will delete the purged company and transfer all team members and project information to the target company. ( e.g., All data from “Acme Private Limited” would be transferred under “Acme Pvt. Ltd.” and “Acme Private Limited” would be deleted)
+
+Removing Users from Incorrect Companies
+
+If the companies are not the same and the user was mistakenly added to the previous one (e.g., attempting to add Jennifer to "Acme Pvt. Ltd. " but she was mistakenly added to "Acme Global Pvt. Ltd."), let us know the email ID of the customer via our chat. We will remove them from the back end, and you can invite them again to the desired company.
+
+The customer has already been invited or is part of the project but not displayed under the team members section:
+
+Sometimes, when you try to invite a customer, you might receive an error message indicating that the customer is already part of the project. If you cannot see them in the list of Customer team members but can still assign tasks to them within the project, please reach out to us via our chat and provide the email ID of the customer user. We’ll remove them from the back end for you, after which you can send them a new invite (Opening the link in a New Incognito tab is recommended)
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+Managing Internal Domains for Meetings and Emails
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

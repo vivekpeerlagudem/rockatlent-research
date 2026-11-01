@@ -1,0 +1,240 @@
+TITLE: Sheets Widget in the Customer Portal : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748157-sheets-widget-in-the-customer-portal
+
+Sheets Widget in the Customer Portal : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Sheets Widget in the Customer Portal
+
+Sheets Widget in the Customer Portal
+
+Created by Advaith R, Modified on Thu, 15 Oct at 5:28 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+In this article
+
+Add the Sheets widget to the Customer Portal
+
+What customers can do in the Sheets widget
+
+What customers see when tabs are private
+
+Notifications for customers
+
+Opening a Sheets notification
+
+Set default notification preferences for customers
+
+Add the Sheets widget to the Customer Portal
+To allow customers to view and access sheets that are part of their projects:
+
+Open your Customer Portal Template .
+
+Next to the section bucket, click the + icon to add a section.
+
+Select Sheets .
+
+The Sheets widget is added to the portal and displays sheets that are relevant to the customer's project.
+
+What customers can do in the Sheets widget
+Customers can work with sheets directly from the Customer Portal based on the access available to them.
+
+Communicate through chat and comments.
+
+Manage data by updating values, creating tabs, and modifying fields.
+
+Use Spotlight to highlight specific sheet capabilities.
+
+What customers see when tabs are private
+Your team may keep some sheet tabs internal. The Customer Portal shows customers only the content shared with them.
+Situation What the customer sees
+A tab is marked as private The tab is hidden. Other tabs and the Overview remain visible.
+Every tab in the sheet is private The sheet opens on its Overview .
+A link points to a private tab The sheet opens on its Overview .
+The sheet's task is private The sheet is not shown. Opening a direct link shows Permission denied .
+Customers cannot mark tabs as private or shared. To change what customers see, a team member updates the tab from the project sheet. For more information, refer to Sheets in Projects .
+
+Notifications for customers
+Customers can receive notifications when a sheet or tab they can access is updated. This helps them stay informed about assignments, due dates, status changes, and other activity without repeatedly checking the portal.
+
+What customers are notified about
+Customers can receive notifications when:
+
+A sheet is deleted.
+
+A tab is created, renamed, or deleted.
+
+A tab's status, due date, or assignee changes.
+
+A tab is assigned to them.
+
+A row is assigned to them.
+Assignment notifications are sent only to the customer being assigned. Other notifications are sent to project members who can view the sheet, except the person who made the change.
+Note Customers must be project members and have permission to view the sheet. They do not receive notifications about sheets they cannot access or changes they make themselves.
+
+For the complete list of notification events, channels, and default settings, see Managing Notification Settings .
+
+Opening a Sheets notification
+When a customer selects a Sheets notification, Rocketlane opens the sheet in the Customer Portal with the relevant tab selected.
+Notifications about comments or mentions inside a sheet cell open the corresponding tab, scroll to the row, and open the comment on that cell.
+Note Comment and mention notifications are controlled under Messages , not Sheets , in notification settings.
+
+If the relevant tab has been deleted or is private, the sheet opens on its Overview . If the entire sheet has been deleted, the customer sees a Not found page.
+
+Set default notification preferences for customers
+Admins can choose which Sheets notifications are enabled for customers by default.
+
+Go to Settings .
+
+Open the customer portal notification settings.
+
+Find the Sheets section.
+
+Turn the available notification events on or off for each channel.
+On this page, the assignment events appear as:
+
+Sheet tab is assigned to them
+
+Sheet row is assigned to them
+These labels indicate that the admin is configuring notification defaults on behalf of customers.
+Changing these defaults requires permission to edit Customer Portal settings. Once configured, the selected preferences replace Rocketlane's built-in defaults for customers.
+Customers can also update their own notification preferences from the notification settings in their portal.
+Note Changing the default settings does not override notification preferences that an individual customer has already customized.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Invoice Widget for the Customer Portal
+
+Tracking Time in the Customer Portal
+
+How to build your customer portal
+
+Sheets in Projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

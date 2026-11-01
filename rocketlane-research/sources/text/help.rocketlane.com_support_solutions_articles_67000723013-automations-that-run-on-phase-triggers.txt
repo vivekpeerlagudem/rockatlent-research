@@ -1,0 +1,165 @@
+TITLE: Examples of phase triggers : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000723013-automations-that-run-on-phase-triggers
+
+Examples of phase triggers : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Automations that run on phase triggers
+
+Automations that run on phase triggers
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Automations that run on project triggers
+
+Automations that run on task triggers
+
+Automations that run on phase triggers
+
+Automations that run on form triggers
+
+No article available
+
+Phase triggers monitor events that happen within phases, such as start date changes, due date changes, status updates, and phase deletion. You can use these triggers to automate follow-up actions when important phase-level changes occur.
+Phase triggers can be configured at the template level for projects that use specific templates , or globally for all phases across projects.
+In this article
+
+Start date and due date updated
+
+Phase status updated
+
+Phase deleted
+
+Start date and due date updated
+The Start date updated and Due date updated triggers run when a phase start date or due date changes.
+You can use these triggers to notify stakeholders when a key phase timeline changes.
+For example, when the start date or due date of the Go-live phase is postponed by 3 days, you can notify the project owner.
+
+Phase status updated
+The Phase status updated trigger runs when the status of a phase changes.
+You can use this trigger to update project-level fields or notify teams when a phase reaches a specific status.
+For example, when the Implementation phase is marked complete, you can update the project status to Implementation completed .
+
+Phase deleted
+The Phase deleted trigger runs when a phase is deleted from a project.
+You can use this trigger to notify relevant stakeholders when a phase is removed.
+For example, when a phase is deleted, you can notify the project owner and BU head in Slack.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Automations
+
+Automations in Sheets
+
+Automation Logs in Rocketlane
+
+Setting up Template automations
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

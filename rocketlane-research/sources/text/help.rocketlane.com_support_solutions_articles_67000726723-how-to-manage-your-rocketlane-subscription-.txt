@@ -1,0 +1,249 @@
+TITLE: How to manage your Rocketlane subscription? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000726723-how-to-manage-your-rocketlane-subscription-
+
+How to manage your Rocketlane subscription? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Plans and Billing
+How to manage your Rocketlane subscription?
+
+How to manage your Rocketlane subscription?
+
+Created by Monica Madan, Modified on Thu, 23 Nov, 2023 at 6:43 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to manage your Rocketlane subscription?
+
+No article available
+
+In this article
+
+Add licenses when inviting team members
+
+Add licenses from plans & billing
+
+Manage plans
+
+Manage payment method
+
+Manage invoices
+
+The purpose of this article is to help you
+
+- Manage your Rocketlane subscription and licenses
+- Track and update your payment method
+- Access and act on your invoices
+
+Add licenses when inviting team members
+When you invite a team member to Rocketlane, it consumes one license. If you run out of licenses but want to add a new member, follow these steps:
+
+Navigate to your avatar
+
+Select Settings
+
+Under Account, select Team members
+
+Click the “Invite team member” button
+
+If you are running out of licenses, the system will add a new license to your subscription and let you invite a team member from here.
+
+Add licenses from plans & billing
+If you know how many new team members will be joining, you can add new licenses to your subscription before inviting them to Rocketlane.
+
+To do that;
+
+Navigate to your avatar
+
+Select Settings
+
+Under Account, select Plans & Billing
+
+Here, you can view the total licenses in your account
+
+Click “add new licenses”
+
+Input the number of licenses and click the “purchase subscription” button
+
+The system will automatically add the licenses and charge you on a pro-rata basis.
+
+Dashboard Overview : Check top cards for total licenses, available licenses, and usage by team vs. partners.
+
+Shared Licenses : Licenses are common; invite team members or partners based on availability.
+
+Zero Available Licenses : When none available, prompt to purchase licenses for new invites on a pro-rata basis.
+
+Reactivation Process : Reactivating consumes one license; if none available, prompted to purchase an additional license.
+
+Manage plans
+Under Plans & Billings, you can add your finance teams and business heads to the invoice email list. You can also view and download past invoices.
+
+To make changes to the plan
+
+Under “more options” click on “change plan”
+
+Here, you can,
+
+Add new licenses by increasing team member size
+
+Change billing cycle from Monthly to Annual
+
+Upgrade to the choice of plan
+
+Make the necessary adjustments and click upgrade
+
+Note:
+All upgrades are done on a pro-rata basis and credits are automatically calculated based on your existing payments to the current subscription cycle.
+Downgrades are scheduled only at the end of the subscription period.
+
+Manage payment method
+Under plans and billing, you have options to choose your preferred method of payment. Rocketlane offers the following options.
+
+Under “more options” click on “change payment method”
+
+Here you can,
+
+Add new credit card (you can add more than one)
+
+Use ACH payment method and pay using Gocardless
+
+You can also pay using “bill.com” to “Rocketlane Crop” or get in touch with us through finance@rocketlane.com
+
+Manage invoices
+Under Plans & Billings, you can choose to add your finance teams, and business heads to the invoice email list and also view and download the past invoices.
+
+To add people to the invoicing list,
+
+Under Plans & Billing, locate the “Send invoices to” section
+
+Click “Edit emails” and add the email addresses of all the finance members
+
+Click save to send invoices to the members in the list.
+
+To access invoices,
+
+Scroll down to the Invoices section
+
+Hover over the row of an invoice you wish to download
+
+Click the “download” icon at the far right end
+
+The invoice will be downloaded and saved on your computer.
+
+If you have any questions around our billing plans, please contact your CSM or reach out to care@rocketlane.com.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing Internal Domains for Meetings and Emails
+
+How To Setup Your Company references?
+
+Excluding Meetings and Emails from Capture
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

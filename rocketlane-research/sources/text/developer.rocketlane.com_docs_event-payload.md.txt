@@ -1,0 +1,465 @@
+---
+updatedAt: 2025-06-03T20:46:59.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Event Payload
+
+The event object payload for a successful webhook delivery of an update object event contains a change log whereas for a non-update event it shares the object data without a change log.
+
+Refer to the respective resource's Public API response to understand the payload structure and changelog structure.
+
+## Payload Structure
+
+```json PAYLOAD
+{
+    "eventId": "xxyyzz-aabbcc-ddeeff",
+    "resourceType": "TASK",
+    "eventType": "TASK_UPDATED.",
+    "version": "1.0",
+    "data": {
+       "task" : {...}
+    },
+    "changeLog": {
+        "changedFields": [..],
+        "from": {...},
+        "to": {...}
+    },
+    "source": {
+        "webhook": {
+            "webhookId": 12345,
+            "webhookName": "XXYY"
+        },
+        "actor": {
+            "emailId": "u12345@example.com",
+            "userId": 123450,
+            "firstName": "Foo",
+            "lastName": "Bar"
+        }
+    },
+    "eventOccurredAt": 1702358978350,
+    "eventTriggeredAt": 1702358979164
+}
+
+```
+
+* #### ***eventId:***
+  The unique identifier assigned to every event that is initiated by Rocketlane. Please provide this eventId in any correspondence with support so that it may be used for troubleshooting.
+* #### ***resourceType:***
+  The type of resource for which the event is triggered. Currently supported resource types:
+  * TASK
+* #### ***eventType:***
+  The type of event that can be triggered for the available resource types.\
+  Currrently supported event types are:
+  * TASK\_CREATED
+  * TASK\_UPDATED
+  * TASK\_DELETED
+  * PROJECT\_CREATED
+  * PROJECT\_UPDATED
+  * PROJECT\_ARCHIVED
+  * PROJECT\_DELETED
+  * PHASE\_CREATED
+  * PHASE\_UPDATED
+  * PHASE\_DELETED
+* #### ***version:***
+  The version of the webhook payload being sent.
+* #### ***data:***
+  Contains the actual changed resource's information.
+* #### ***data.task :***
+  If resourceType is `TASK` then `data` will contain the task details. Refer to the `201` response of [Task API](https://developer.rocketlane.com/reference/create-task)  for a more detailed definition of the structure.
+* #### ***changeLog:***
+  Contains the information of resource's previous and current state. This will be sent only in events with the `_UPDATED` *eventType*.
+* The structure of  [changeLog.from](#changelogfrom) and [changeLog.to](#changelogto) are dependent on the resourceType.\
+  If resourceType is `TASK` , then `changeLog.from` and `changeLog.to` will follow the structure of\
+  [Task API ](https://developer.rocketlane.com/reference/tasks)responses.
+* #### ***changeLog.changedFields:***
+  Contains the list of fields changed during the event
+* #### ***changeLog.from:***
+  Contains the old value of the resource (before the event happened)
+* #### ***changeLog.to:***
+  Contains the new value of the resource (after the event happened)
+* #### ***source:***
+  Source information of the event.
+* #### ***source.webhook:***
+  Webhoook configuration information for which the event triggered
+* #### ***source.webhook.webhookId:***
+  The unique identifier of a webhook in Rocketlane.
+* #### source.webhook.webhookName :
+  Name of the webhook.
+* #### ***actor:***
+  Actor is the user who is responsible for the event.\
+  For example, if a team member John updates the taskName then John is the actor of this TASK\_UPDATED event.
+* #### ***actor.emailId:***
+  Email Identifier of the actor user.
+* #### ***actor.userId:***
+  Unique Identifier of the actor user.
+* #### ***actor.firstName:***
+  FirstName of the actor user.
+* #### ***actor.lastName:***
+  LastName of the actor user.
+* #### ***eventOccurredAt:***
+  Timestamp (in epochmillis) of when the event occurred at in Rocketlane.
+* #### ***eventTriggeredAt:***
+  Timestamp(in epochmillis) of when the event was sent from Rocketlane to the external system.
+
+***
+
+## Sample Payloads
+
+### TASK\_CREATED Event Payload
+
+```json TASK_CREATED
+{
+    "eventId": "b6c68150-86f3-4a26-9a5f-66db5ca24b87",
+    "resourceType": "TASK",
+    "eventType": "TASK_CREATED",
+    "version": "1.0",
+    "data": {
+        "task": {
+            "taskId": 278,
+            "taskName": "task2",
+            "startDate": "2023-12-04",
+            "dueDate": "2023-12-04",
+            "archived": false,
+            "type": "TASK",
+            "createdAt": 1702266224499,
+            "updatedAt": 1702266224518,
+            "createdBy": {
+                "emailId": "dev@rocketlane.com",
+                "userId": 1,
+                "firstName": "Dev",
+                "lastName": "Curry"
+            },
+            "updatedBy": {
+                "emailId": "dev@rocketlane.com",
+                "userId": 1,
+                "firstName": "Dev",
+                "lastName": "Curry"
+            },
+            "project": {
+                "projectId": 102,
+                "projectName": "Eu_proj_11_12_v1"
+            },
+            "phase": {
+                "phaseId": 106,
+                "phaseName": "Phase2"
+            },
+            "status": {
+                "value": 1,
+                "label": "To do"
+            },
+            "fields": [
+                {
+                    "fieldId": 142,
+                    "fieldLabel": "Region",
+                    "fieldValue": [
+                        1
+                    ]
+                },
+                {
+                    "fieldId": 143,
+                    "fieldLabel": "Release Owner",
+                    "fieldValue": 1
+                }
+            ],
+            "assignees": {},
+            "followers": {
+                "members": [
+                    {
+                        "emailId": "dev@rocketlane.com",
+                        "userId": 1,
+                        "firstName": "Dev",
+                        "lastName": "Curry"
+                    }
+                ]
+            },
+            "dependencies": []
+        }
+    },
+    "source": {
+        "webhook": {
+            "webhookId": 7,
+            "webhookName": "Test Zel"
+        },
+        "actor": {
+            "emailId": "dev@rocketlane.com",
+            "userId": 1,
+            "firstName": "Dev",
+            "lastName": "Curry"
+        }
+    },
+    "eventOccurredAt": 1702266225732,
+    "eventTriggeredAt": 1702266229620
+}
+
+```
+
+### TASK\_UPDATED Event Payload (`taskName` updated )
+
+```json TASK_UPDATED
+{
+    "eventId": "a3c7825b-9c89-42ac-8859-50e243d0c131",
+    "resourceType": "TASK",
+    "eventType": "TASK_UPDATED",
+    "version": "1.0",
+    "data": {
+        "task": {
+            "taskId": 318,
+            "taskName": "Hire Chief Operating Officer",
+            "startDate": "2023-05-28",
+            "dueDate": "2023-07-31",
+            "archived": false,
+            "effortInMinutes": 300,
+            "progress": 39,
+            "atRisk": false,
+            "type": "TASK",
+            "createdAt": 1704199898318,
+            "updatedAt": 1704199902177,
+            "createdBy": {
+                "emailId": "bobo@rocketlane.com",
+                "userId": 1,
+                "firstName": "Bob",
+                "lastName": "Odenkrik"
+            },
+            "updatedBy": {
+                "emailId": "bobo@rocketlane.com",
+                "userId": 1,
+                "firstName": "Bob",
+                "lastName": "Odenkrik"
+            },
+            "project": {
+                "projectId": 110,
+                "projectName": "Hamlin, Hamlin & McGill"
+            },
+            "phase": {
+                "phaseId": 115,
+                "phaseName": "Hire for different roles"
+            },
+            "status": {
+                "value": 3,
+                "label": "Completed"
+            },
+            "fields": [
+                {
+                    "fieldId": 142,
+                    "fieldLabel": "Region",
+                    "fieldValue": [
+                        1
+                    ]
+                },
+                {
+                    "fieldId": 143,
+                    "fieldLabel": "Release Owner",
+                    "fieldValue": 1
+                }
+            ],
+            "assignees": {
+                "members": [
+                    {
+                        "emailId": "bobo@rocketlane.com",
+                        "userId": 1,
+                        "firstName": "Bob",
+                        "lastName": "Odenkrik"
+                    }
+                ]
+            },
+            "followers": {
+                "members": [
+                    {
+                        "emailId": "bobo@rocketlane.com",
+                        "userId": 1,
+                        "firstName": "Bob",
+                        "lastName": "Odenkrik"
+                    }
+                ]
+            },
+            "dependencies": [],
+            "priority": {
+                "value": 1,
+                "label": "high"
+            }
+        }
+    },
+    "changeLog": {
+        "changedFields": [
+            "taskName"
+        ],
+        "from": {
+            "taskName": "Hire operations head"
+        },
+        "to": {
+            "taskName": "Hire Chief Operating Officer"
+        }
+    },
+    "source": {
+        "webhook": {
+            "webhookId": 1,
+            "webhookName": "Receive Rocketlane Notification"
+        },
+        "actor": {
+            "emailId": "bobo@rocketlane.com",
+            "userId": 1,
+            "firstName": "Bob",
+            "lastName": "Odenkrik"
+        }
+    },
+    "eventOccurredAt": 1704199907693,
+    "eventTriggeredAt": 1704199908692
+}
+```
+
+### TASK\_UPDATED Event Payload (`assignee` updated)
+
+```json TASK_UPDATED
+{
+    "eventId": "255166b2-6d8c-4998-a41d-a28248a24841",
+    "resourceType": "TASK",
+    "eventType": "TASK_UPDATED",
+    "version": "1.0",
+    "data": {
+        "task": {
+            "taskId": 394,
+            "taskName": "Hire Chief Distribution Officer",
+            "startDate": "2023-05-28",
+            "dueDate": "2023-07-31",
+            "archived": false,
+            "effortInMinutes": 300,
+            "progress": 39,
+            "atRisk": false,
+            "type": "TASK",
+            "createdAt": 1704698334640,
+            "updatedAt": 1704715247842,
+            "createdBy": {
+                "emailId": "bryanc@gmail.com",
+                "userId": 1,
+                "firstName": "Bryan",
+                "lastName": "Cranston"
+            },
+            "updatedBy": {
+                "emailId": "bryanc@gmail.com",
+                "userId": 1,
+                "firstName": "Bryan",
+                "lastName": "Cranston"
+            },
+            "project": {
+                "projectId": 143,
+                "projectName": "A1A Car Wash"
+            },
+            "phase": {
+                "phaseId": 143,
+                "phaseName": "Expand team"
+            },
+            "status": {
+                "value": 1,
+                "label": "To do"
+            },
+            "fields": [
+                {
+                    "fieldId": 142,
+                    "fieldLabel": "Region",
+                    "fieldValue": [
+                        1
+                    ]
+                },
+                {
+                    "fieldId": 143,
+                    "fieldLabel": "Release Owner",
+                    "fieldValue": 1
+                }
+            ],
+            "assignees": {
+                "members": [
+                    {
+                        "emailId": "bryanc@gmail.com",
+                        "userId": 1,
+                        "firstName": "Bryan",
+                        "lastName": "Cranston"
+                    },
+                    {
+                        "emailId": "aaronp@gmail.com",
+                        "userId": 1,
+                        "firstName": "Aaron",
+                        "lastName": "Paul"
+                    }
+                ]
+            },
+            "followers": {
+                "members": [
+                    {
+                        "emailId": "bryanc@gmail.com",
+                        "userId": 1,
+                        "firstName": "Bryan",
+                        "lastName": "Cranston"
+                    },
+                    {
+                        "emailId": "aaronp@gmail.com",
+                        "userId": 1,
+                        "firstName": "Aaron",
+                        "lastName": "Paul"
+                    }
+                ]
+            },
+            "dependencies": [],
+            "billable": false,
+            "timeEntryCategory": {
+                "categoryId": 1,
+                "categoryName": "Meeting"
+            },
+            "priority": {
+                "value": 1,
+                "label": "high"
+            }
+        }
+    },
+    "changeLog": {
+        "changedFields": [
+            "assignees"
+        ],
+        "from": {
+            "assignees": {
+                "members": [
+                    {
+                        "emailId": "bryanc@gmail.com",
+                        "userId": 1,
+                        "firstName": "Bryan",
+                        "lastName": "Cranston"
+                    }
+                ]
+            }
+        },
+        "to": {
+            "assignees": {
+                "members": [
+                    {
+                        "emailId": "bryanc@gmail.com",
+                        "userId": 1,
+                        "firstName": "Bryan",
+                        "lastName": "Cranston"
+                    },
+                    {
+                        "emailId": "aaronp@gmail.com",
+                        "userId": 1,
+                        "firstName": "Aaron",
+                        "lastName": "Paul"
+                    }
+                ]
+            }
+        }
+    },
+    "source": {
+        "webhook": {
+            "webhookId": 180,
+            "webhookName": "Receive Rocketlane Notification"
+        },
+        "actor": {
+            "emailId": "bryanc@gmail.com",
+            "userId": 1,
+            "firstName": "Bryan",
+            "lastName": "Cranston"
+        }
+    },
+    "eventOccurredAt": 1704715249136,
+    "eventTriggeredAt": 1704715249811
+}
+```

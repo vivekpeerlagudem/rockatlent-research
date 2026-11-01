@@ -1,0 +1,246 @@
+TITLE: Custom Time Entry Fields in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747136-custom-time-entry-fields-in-rocketlane
+
+Custom Time Entry Fields in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+Custom Time Entry Fields in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+Created by Advaith R, Modified on Mon, 25 Aug, 2025 at 3:52 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Time Tracking in Rocketlane
+
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+Importing Time Entries from Allocations
+
+Collapse Days and Rearrange Columns in Timesheets
+
+No article available
+
+Rocketlane lets you define custom time entry fields inside the Time Tracking module. This feature enables teams to collect more context around time entries, enforce mandatory inputs, and even inherit values from existing fields in tasks, projects, or accounts.
+Here’s how to set up and use custom time entry fields effectively.
+
+Setting up Custom Time Entry Fields
+To configure custom fields for time entries:
+
+Go to Settings in your Rocketlane instance.
+
+Navigate to Fields .
+
+Locate the section labeled Time Entry Fields .
+
+To add a new custom field:
+
+Click New Field .
+
+Provide a Name for your field.
+
+Choose a Field Type (e.g., text, dropdown, date, number).
+
+Add an optional Description to help team members understand the field’s purpose.
+
+Assign the field to a specific Section , for organizational clarity.
+
+You’ll see a toggle labeled Mandatory . Enabling this means:
+
+The time entry cannot be submitted unless this field is filled.
+
+When making a field mandatory, you must also define how its value should be populated:
+
+Manual Entry: The user is prompted to enter the value manually during time submission.
+
+Inherited Entry: The field value is automatically pulled from another source such as:
+
+A task-level field
+
+A project-level field
+
+An account-level field
+
+On Selecting inherited fields allow you to define a fallback value , which is used if:
+
+A user skips filling a manual field.
+
+An inherited source field is empty.
+
+This ensures smooth submission without interruptions due to missing data.
+
+Click Save to finalize the field setup.
+
+Setting Section level Permissions
+Once you’ve saved the field:
+
+Click on the Section where the field was added.
+
+You can now set:
+
+View permissions : Who can see the field.
+
+Edit permissions : Who can update it.
+
+? Note: If a field is marked as mandatory, it overrides permission settings —meaning it will be visible to everyone , regardless of the view/edit rules.
+
+RBAC Permissions:
+
+Time tracking:
+Custom Time Entry Field Values:
+
+Can view custom time entry field values:
+
+Permission Scope: Either Group & Visible (can view custom field values in sections assigned to their groups) or Global (can view all custom time entry field values).
+
+Function: Allows users to view custom time entry field values for the time entries they can access.
+
+Can edit custom time entry field values:
+
+Permission Scope: Either Group & Visible (can edit all visible field values and those custom field values in sections assigned to their groups) or Global (can edit all custom time entry field values).
+
+Function: Allows users to edit custom time entry field values for the time entries they can access.
+
+Time Entry Fields
+
+Can manage time entry fields settings: Allows a user to configure the settings for time entry fields.
+
+Allows time entry fields creation: Enables a user to create new time entry fields.
+
+Can edit existing time entry fields: Enables a user to edit existing time entry fields.
+
+Can create new time entry field sections: Enables a user to create new time entry field sections.
+
+Can associate field sections to groups: Allows a user to map time entry field sections to groups. This permission has two options:
+
+All groups: The user can map time entry field sections to any group.
+
+Restricted: The user can only map time entry field sections to groups they belong to.
+
+Can delete time entry fields: Enables a user to delete time entry fields
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Guide to Using Rocketlane MCP Tools
+
+Time Tracking Report: Analyse how your team spends time where
+
+Custom Expense Fields in Rocketlane
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

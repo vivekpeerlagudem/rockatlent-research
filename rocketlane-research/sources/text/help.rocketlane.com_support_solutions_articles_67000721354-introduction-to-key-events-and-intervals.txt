@@ -1,0 +1,142 @@
+TITLE: Introduction to Key Events and Intervals : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721354-introduction-to-key-events-and-intervals
+
+Introduction to Key Events and Intervals : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Introduction to Key Events and Intervals
+
+Introduction to Key Events and Intervals
+
+Created by Monica Madan, Modified on Wed, 2 Aug, 2023 at 6:00 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Key Events and Intervals
+
+No article available
+
+The duration between presenting your product or service to customers and them recognizing its worth is known as "time to value." A longer time to value means getting customers to accept your services is harder. To improve this, it's important to identify any issues causing delays in delivering your project or services and work towards reducing the time to value.
+
+Rocketlane introduces key events and intervals that provides a clear and logic-loaded understanding of areas in your projects where you spend more than the estimated time. These key events capture the start and end date of your project's tasks, phases, and milestones and flag any delay in starting or completing important milestones.
+
+Intervals help you measure the time between these key events and compare it to your benchmark intervals. Doing this lets you determine your time to value for critical tasks. If you're completing these tasks ahead of schedule, you can adjust your benchmark value and figure out what you did right and apply it to future projects.
+
+Read about setting up key events and intervals here . If you don't have time watch the video below.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Key Events and Intervals
+
+The Interval IQ Report in Rocketlane
+
+Key Events and Intervals in Rocketlane
+
+Account Level Default Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

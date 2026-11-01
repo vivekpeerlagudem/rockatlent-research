@@ -1,0 +1,286 @@
+TITLE: How To Setup Your Company references? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000722550-how-to-setup-your-company-references-
+
+How To Setup Your Company references? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How To Setup Your Company references?
+
+How To Setup Your Company references?
+
+Created by Monica Madan, Modified on Fri, 21 Aug at 1:15 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How To Setup Your Company references?
+
+How to configure your company email address?
+
+How to customize your domain URL?
+
+Configure How Utilisation Is Calculated
+
+No article available
+
+As your organization grows, Rocketlane needs to reflect how your team actually operates: which timezone you work in, how you measure capacity, when your fiscal year starts, and how your account looks to your own team and to your customers.
+Account Preferences is where you configure these defaults for your entire Rocketlane account. Changes here apply account-wide, not just to your own user profile.
+In this article
+
+Where to find it
+
+Who can access these settings
+
+What you can configure
+
+Company logo
+
+Company name
+
+Timezone
+
+Weekly team capacity
+
+Utilization
+
+Organisation calendar
+
+Appearance
+
+Sample data
+
+FAQ
+
+Where to find it
+Go to Settings , then select Preferences under the Account section of the left-hand navigation.
+
+Who can access these settings
+
+Viewing this page requires the Can manage account preferences permission. Changing a setting requires the write-level version of the same permission. If a setting appears without a Change link or editable control, you have read-only access to it.
+
+Partner users see only Company logo and Company name . The remaining settings, including Timezone, Weekly team capacity, Utilization, Organisation calendar, Appearance, and Sample data, are not shown to Partner users.
+Note Sample data behaves differently from the other settings on this page. If you do not have write access, it is hidden entirely instead of appearing as read-only.
+
+What you can configure
+Setting What it controls
+Company logo The logo shown across your account
+Company name Your organization's display name
+Timezone The timezone used for account-wide date and time calculations
+Weekly team capacity Expected weekly working hours per team member
+Utilization How utilization percentage is calculated
+Organisation calendar Your fiscal year start month
+Appearance Sidebar branding and project plan background
+Sample data Whether your account still has Rocketlane's sample content
+
+Company logo
+
+Go to Settings > Preferences .
+
+Click Upload logo .
+
+Choose an image file from your device.
+
+Rocketlane replaces the current logo as soon as the upload finishes.
+
+Company name
+
+Click Change next to Company name .
+
+Enter your organization's name.
+
+Save your changes.
+Note The name field is required. You cannot save an empty company name.
+
+Timezone
+
+Click Change next to Timezone .
+
+Search for and select your timezone. Each option shows its current UTC offset alongside the name.
+
+Save your changes.
+
+Weekly team capacity
+Rocketlane uses this figure across Resource Management, Timesheets, and capacity reports, so it is important to set it accurately.
+
+Click Change next to Weekly team capacity .
+
+Enter the number of hours and minutes, if needed, that a team member is expected to be available each week.
+
+Save your changes.
+Note The value must divide evenly across your organization's working days. Otherwise, Rocketlane asks you to adjust it.
+
+Utilization
+This setting controls how Rocketlane calculates each person's utilization percentage across Resource Management, Timesheets, and reports.
+
+Click Change next to Utilization .
+
+Choose how utilization should be calculated.
+
+Save your changes.
+Option Calculated against What it measures
+Total Capacity Weekly capacity only Expected working hours based on weekly capacity
+Total Capacity Net Holidays Weekly capacity minus holidays Expected working hours minus holidays
+Total Capacity Net Timeoffs Weekly capacity minus time off Expected working hours minus time off
+Available Capacity Weekly capacity minus holidays and time off Expected working hours minus holidays and time off
+Note If you have not configured this setting, Rocketlane calculates utilization using Available Capacity by default.
+
+Organisation calendar
+Your fiscal year start month determines how Rocketlane groups dates into quarters across quarter-based reports and analytics.
+
+Click Change next to Organisation calendar .
+
+Select the month your fiscal year begins in. Rocketlane shows a preview of how Q1 through Q4 map to calendar months.
+
+Save your changes.
+
+Note If you have not set a fiscal year start month, Rocketlane uses January by default.
+
+Appearance
+Appearance controls how your account navigation looks, with separate previews for your team's view and your customers' view.
+Setting What it does
+Sidebar background color Sets the side navigation background color. Rocketlane automatically adjusts the sidebar text and hover color to remain readable.
+Project plan background Shows or hides the background image on the project plan view.
+
+Click Change next to Appearance .
+
+Set a sidebar background color and turn the project plan background on or off.
+
+Review the previews for your team and your customers.
+
+Save your changes.
+
+Sample data
+New Rocketlane accounts include sample projects, tasks, and other content so you can explore the product before adding your own data.
+
+If the account still contains sample content, select Remove sample data when you are ready to work with your own projects.
+
+If the sample content has already been removed, the button reads Reload sample data . Use it to bring the sample content back, for example, to test a feature using example data before using it on a real project.
+
+Note Removing sample data is permanent. Rocketlane asks you to confirm before deleting it.
+
+FAQ
+
+Why can't I see some of these settings?
+Most Account Preferences settings are hidden from Partner users, and all settings require the Can manage account preferences permission to view.
+
+Why can I see a setting but not change it?
+You have read access but not write access to Account Preferences. Ask an account admin to update the setting or grant you write access.
+
+Does changing the fiscal year start affect reports I have already built?
+It changes how Rocketlane groups dates into quarters going forward in any quarter-based report or analytics view.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting up currencies
+
+How to customize your domain URL?
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+How to Integrate Freshsales with Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

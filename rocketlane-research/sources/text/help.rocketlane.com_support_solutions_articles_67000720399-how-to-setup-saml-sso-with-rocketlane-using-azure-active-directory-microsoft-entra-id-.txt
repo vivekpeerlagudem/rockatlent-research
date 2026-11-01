@@ -1,0 +1,250 @@
+TITLE: How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000720399-how-to-setup-saml-sso-with-rocketlane-using-azure-active-directory-microsoft-entra-id-
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Created by Niharika Pandey, Modified on Mon, 8 Sep, 2025 at 8:04 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+This help document introduces you to SSO and IdPs and shows you how to configure SAML SSO for Rocketlane using the Azure Active Directory IdP.
+
+What is SSO?
+
+Single sign-on (SSO) is an authentication method that enables users to securely authenticate with multiple applications and websites by using just one set of credentials.
+
+What are Identity Providers (IdPs)?
+
+An identity provider (IdP) is a service that stores and verifies user identity. IdPs are typically cloud-hosted services, and they often work with single sign-on (SSO) providers to authenticate users. Some examples of IdPs are Okta, Google Workspace, and Azure AD.
+
+Creating a SAML SSO Enterprise Application using Azure AD
+
+Log in to your Microsoft Azure portal. If you do not have a Microsoft Azure account, create one.
+
+Select Azure Active Directory under the Azure Services section.
+
+Select 'Enterprise Applications' under the Manage section from the left navigation bar.
+
+Click on 'New application'.
+
+Click on 'Create your own application' to get started with creating a new app.
+
+Add a name for your app in the slider that pops up. Click on 'Create' to begin working on a new application.
+
+From your application's Overview page, select 'Set up single sign on' under the 'Getting Started' section.
+
+Select SAML from the Single sign-on page of your enterprise application.
+
+To set up your Basic SAML configuration, click on Edit .
+
+To get started with your basic SAML configuration, please add temporary URL values for Identifier (Entity ID) and Reply URL (Assertion Consumer Service URL).
+
+Click on Save to add the 'Basic SAML Configuration' setup to your enterprise application.
+
+Under Attributes and Claims please click on Edit . You need to add two claims here namely email and username.
+
+Click on 'Add new claim' to add a claim.
+
+In the Manage claim page, add ' email ' in the ' Name ' field and ' user.userprincipalname' in the ' Source attribute' field.
+
+Repeat step 13 and click on 'Add new claim' to add a claim.
+
+In the Manage claim page, add ' username ' in the ' Name ' field and ' user.userprincipalname' in the ' Source attribute' field.
+
+Download the Base64 Certificate and open this file in any text editor.
+
+You will need the Base64 Certificate, the 'Login URL," and the "Azure AD Identifier' from the ' SAML Based Sign-On" page to configure SAML SSO in your Rocketlane instance.
+
+Authenticating SAML with Rocketlane
+
+From your Rocketlane account, click on your profile icon from the left navigation bar and click on Settings.
+
+Go to Security .
+
+Click on Setup SAML SSO.
+
+The ' Setup SAML SSO' dialog box opens.
+
+Copy values from the ' SAML Based Sign-on' page in your Enterprise Application in Azure AD to your SAML SSO setup dialog box in Rocketlane according to this table:
+
+Azure AD: SAML Based sign-on Rocketlane App: Setup SAML SSO
+Microsoft Entra Identifier
+IDP Entity ID
+
+Login URL IDP Login URL
+Certificate (Base64) X.509 Certificate
+
+Relay State Rocketlane's (SP) Relay State
+
+Note: Do not copy the header and footer while copying the certificate.
+
+Click Next .
+
+The ' Do you want to enable SAML SSO?" dialog box appears. Click on 'Yes, enable now'.
+
+Click on 'View information to be configured in your IdP.'
+
+You will need Rocketlane's (SP) entity ID and Rocketlane's (SP) log-in URL from this dialog box.
+
+Copy values from the ' SAML SSO setup' dialog box in Rocketlane to the ' SAML Based Sign-On" page in your Enterprise Application in Azure AD according to this table:
+
+Rocketlane App: Setup SAML SSO Azure AD: SAML Based sign-on
+Rocketlane’s (SP) Entity ID
+Identifier (Entity ID)
+Rocketlane’s (SP) Log in URL
+Sign on URL
+
+Rocketlane’s (SP) Log in URL
+Reply URL (Assertion Consumer Service URL)
+
+Click Save to update the 'Basic SAML Configuration' settings in Azure AD.
+
+Adding People to your SAML App
+
+From the left menu bar in Azure AD, go to 'Users and groups' and select 'Add user or group' to add users from your Azure AD Enterprise Application to SAML SSO. Select users from the 'Add Assignment' page here.
+
+Logging in to Rocketlane using SAML SSO
+
+Go to your Rocketlane login.
+
+Choose the ' Sign in with SSO' option.
+
+Enter your credentials on the Azure AD page. You will be redirected and logged in to your Rocketlane account .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to setup SAML SSO with Rocketlane using Google?
+
+Updating SSO for Rocketlane's Authentication Migration
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

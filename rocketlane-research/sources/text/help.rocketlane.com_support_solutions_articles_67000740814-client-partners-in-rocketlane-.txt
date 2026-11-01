@@ -1,0 +1,199 @@
+TITLE: Client Partners in Rocketlane: : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740814-client-partners-in-rocketlane-
+
+Client Partners in Rocketlane: : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Client Partners in Rocketlane:
+
+Client Partners in Rocketlane:
+
+Created by Advaith R, Modified on Thu, 23 Jul at 5:52 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Partners in Rocketlane
+
+How to Add Partners to your Rocketlane Projects?
+
+Client Partners in Rocketlane:
+
+No article available
+
+In this article
+
+What Are Client Partners in Rocketlane?
+
+Setting Up Client Partners in Rocketlane
+
+Creating a Client Partner Company
+
+Assigning Client Partners to Projects
+
+How Client Partners Work
+
+In many industries, intermediaries like brokers or agents play a vital role in bridging the gap between service providers and their end customers. These intermediaries manage crucial tasks, such as gathering information, filling out forms, and ensuring smooth communication, on behalf of the customers they represent.
+While these intermediaries are integral to your customer’s success, they operate outside your organization, creating a unique relationship dynamic that requires careful management.
+Rocketlane’s Client Partner feature is designed to seamlessly incorporate these intermediaries into your projects, providing them with the appropriate access they need to perform their role without compromising the security or efficiency of your operations.
+Whether you’re in insurance, healthcare, or any other sector relying on intermediaries, this feature ensures smooth collaboration while respecting the distinct roles of all stakeholders.
+
+What Are Client Partners in Rocketlane?
+Rocketlane’s Client Partner functionality is designed for intermediaries like brokers or agents who need to collaborate with both you and your end customers. Client partners can access the Customer Portal , interact with project elements, and manage their responsibilities without being considered direct partners or customers.
+Client partners are treated like end customers in terms of portal access, but with additional capabilities that allow them to navigate across accounts and projects. For instance, if a client partner is added to projects for multiple customers, such as Acme and Oscorp, they can switch between projects belonging to these customer accounts using a navigation bar in the portal.
+
+Setting Up Client Partners in Rocketlane
+
+Creating a Client Partner Company
+
+In your Vendor Portal , go to Settings > Partners and select Add Partners .
+
+Select the Client Partners option.
+
+Enter the company name, specify the number of licenses, and assign a Client Partner Admin . Ensure that you use the client partner company domain.
+
+Once created, the Partner Admin receives an email notification, but no Get Started link. The email informs them that they will gain access to the Customer Portal once assigned to a project.
+Note One Client Partner license counts the same as one regular Partner license.
+
+Assigning Client Partners to Projects
+There are four ways to invite Client Partner Team Members to projects:
+
+1. Via Projects
+Navigate to Projects and select a project. Click the Invite button and enter the email ID of the Client Partner Team Member. However, ensure that the Client Partner organization has been invited.
+
+2. Via the Project Team Members Page
+Go to Project Settings . Under the Team Members section, click Add Partners to add and assign Client Partner Team Members.
+
+3. Via the Project Creation Flow
+During project creation, under the Add Partner section, select the relevant Client Partner company and proceed to assign team members.
+
+4. Via the Customer Portal
+In the customer portal, click the Share button on the top right, add the Client Partner’s email address, and click Invite .
+By default, an invitation email is sent to the Partner Admin. Additional users from the company can also be added to the project as needed.
+The Client Partner Admin has access to all projects within an account, allowing them to oversee activities and manage tasks effectively. Client Partner Team Members only gain access to the specific projects they are assigned to. By default, only one partner admin can be present for a Client Partner Company. All other members are added as collaborators.
+
+How Client Partners Work
+
+Navigating the Customer Portal as a Client Partner
+
+The Customer Portal accessed by the client partner is similar to that of an end customer, but with an additional feature: the ability to navigate between different projects across multiple accounts using the navigation bar. While client partners are treated much like end customers in terms of access and functionality, they can seamlessly move between accounts. For instance, if a client partner is added to a project for Acme and another for Oscorp, they can easily switch between the two projects using the navigation bar.
+
+Client partners can interact with files, widgets, chats, notifications, and action items, see counts for pending approvals, CSAT ratings, and other actionable items. They can also view and interact with chat conversations and receive updates about the project’s progress.
+
+If a client partner is assigned to multiple projects within the same customer company, a project picker allows easy navigation between those projects.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Partners In Rocketlane: Explainer Video
+
+Partners in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

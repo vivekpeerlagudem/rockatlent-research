@@ -1,0 +1,238 @@
+TITLE: Introduction to Sheets in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748152-introduction-to-sheets-in-rocketlane
+
+Introduction to Sheets in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Introduction to Sheets in Rocketlane
+
+Introduction to Sheets in Rocketlane
+
+Created by Advaith R, Modified on Wed, 8 Jul at 4:10 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+In this article
+
+When to use Sheets
+
+Key features
+
+Creating sheet templates
+
+Add and configure columns
+
+Think of Sheets as a centralized store for your structured data. It allows you to manage and manipulate data right inside Rocketlane, ensuring critical information is instantly integrated with your project context.
+
+When to use Sheets
+Sheets is ideal for situations where you need to manage more data than is practical with standard tasks or forms. Common use cases include:
+
+Requirement gathering
+Collecting detailed requirements for projects involving multiple products or licenses.
+For example, during the discovery phase of a large client implementation that occurs in modules, you use distinct sheets to capture and track functional specifications, dependencies, and sign-offs for each module in one central repository.
+
+User data management
+Organizing user information such as names, emails, and roles for onboarding processes.
+For example, you collect a list of 500 end-users across 15 different client departments, logging their names, required user licenses, and training completion status directly in a sheet - your source of truth to invite users into the platform.
+
+RAID logs
+Maintaining a comprehensive log of risks, assumptions, issues, and decisions throughout the project lifecycle.
+For instance, your weekly project review could involve opening the RAID sheet, where every team member is assigned a column to log and update the status of potential risks - ensuring all critical obstacles are tracked, assigned an owner, and prioritized for mitigation.
+
+User acceptance testing (UAT)
+Tracking bugs, escalations, and testing feedback in a centralized location.
+Testers log all reported bugs directly into the sheet, including the steps to reproduce, severity rating, and screenshots. This sheet then serves as the source of truth for the team to manage and prioritize their fixes.
+
+Complex data tracking
+Managing intricate datasets, such as those in logistics, that involve multiple partners, customers, and transport mediums.
+For example, a project that requires tracking the deployment of hardware across 20 global sites. You use a sheet to log the unique serial number of each device, its current transit partner, expected delivery date, and the final customer location - providing real-time visibility into the entire logistical process.
+
+Key features
+Feature What it means
+Lightweight data fabric Acts as a simple data store in your project - configure, store, sync, and collaborate on data without needing external tools.
+Project-scoped Information is specific to that project, so you always know exactly where to find the data without unnecessary hunting.
+Customer access Sheets can be added to the customer portal, allowing customers to view and log data specific to their needs.
+
+Creating sheet templates
+To create a sheet template:
+
+Navigate to the Templates section.
+
+Select Sheet Templates from the menu.
+
+Click Create a sheet template to open a new, untitled sheet.
+
+Give your template a descriptive name (for example, "RAID Log").
+
+Add multiple tabs to your sheet to organize different sets of data.
+
+Add and configure columns
+
+In your sheet template, click the + icon to add a new column.
+
+Select a column type from the options below.
+
+Configure the column by giving it a name, adding a description, and setting any specific options for that column type (for example, adding choices for a single or multi select).
+
+Click Add column to add it to your template.
+Column type What it does
+Short text Allows a brief, single line of text (for example a name, ID, or short title).
+Multiline text Allows longer text blocks spanning multiple lines (for example detailed notes or descriptions).
+Multi select Allows choosing one or more predefined options from a dropdown (for example selecting multiple impacted teams).
+Single select Allows choosing one predefined option from a dropdown (for example a status like To Do, In Progress, Done).
+Date Requires a specific calendar date input (for example a due date or creation date).
+Date range Requires a start date and an end date (for example a project duration or testing window).
+Assignee Allows selection of assignees responsible for the row item (for example the owner of a requirement or risk).
+Number Requires a whole number or decimal input (for example quantity or count).
+Percentage A numerical input automatically formatted as a percentage (for example completion percentage).
+Currency A numerical input formatted with a selected currency symbol (for example budget allocation or expense amount).
+Email Requires input in standard email format (for example a client contact email).
+URL Requires input in standard web address format (for example a link to a resource or external document).
+Attachment Allows uploading and attaching files (for example screenshots, receipts, or external documents).
+Task link Allows a URL to a task that exists within the current project.
+Document link Allows a URL to a document or file within your project's document repository.
+Single user Allows selection of a single user from the system for tracking roles or ownership.
+Multiple user Allows selection of multiple users from the system (for example listing all stakeholders involved).
+Boolean A true/false input displayed as a checkbox or toggle (for example Completed or Billable).
+Rating Allows a rating input visualized using stars or a numerical scale (for example severity of a bug).
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Understanding Task Dependencies in Rocketlane
+
+Copy-Paste Data into Rocketlane Sheets
+
+Automation Pricing
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

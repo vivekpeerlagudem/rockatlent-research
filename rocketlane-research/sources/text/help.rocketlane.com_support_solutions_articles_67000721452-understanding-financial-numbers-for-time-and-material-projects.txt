@@ -1,0 +1,217 @@
+TITLE: How to calculate financial numbers for time and material projects? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721452-understanding-financial-numbers-for-time-and-material-projects
+
+How to calculate financial numbers for time and material projects? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Understanding financial numbers for Time and Material projects
+
+Understanding financial numbers for Time and Material projects
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:56 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+When using the time and material method, you bill clients based on the time your team worked on their projects, ensuring that clients are billed accurately for the resources invested. However, as your business grows, managing profits and finances can become challenging without proper planning and tracking.
+
+Rocketlane simplifies financial planning and tracking by calculating revenue, cost, profit, and margin for you.
+
+Take a course on Financial Management here.
+
+Planned financial numbers
+
+With Rocketlane, you can plan your projects by allocating time for team members under resource management and setting up rate cards for the project. Using the allocated hours and bill rates, Rocketlane will forecast the revenue for the project. We will use this resource allocation plan alongside cost rates of team members to forecast cost, profit and margin for your projects.
+
+1. Planned Revenue
+
+This is the potential revenue you can generate from the project based on your resource allocation plan.
+
+Planned Revenue = Sum of all (Allocated time * Bill rates for the roles)
+
+2. Planned Cost
+
+This is the potential cost you will incur on the project based on your resource allocation plan.
+
+Planned Cost = Sum of all (Allocated time * Cost rates for the team members)
+
+3. Planned Profit
+
+This is the potential profit you will make on the project.
+
+Planned Profit = Planned Revenue - Planned Cost
+
+4. Planned Profit Margin
+
+This is the potential margin you will make on the project.
+
+Planned Profit Margin (%) = Planned Profit / Planned Revenue * 100
+
+Actual financial numbers
+As your team tracks hours in timesheets , based on the rate card used on the project, Rocketlane calculates the revenue you are making on the project in real time. We also calculate the overall cost incurred on the project, based on the cost rates set for team members or roles.
+
+1. Revenue
+
+The actual revenue you are making on the project.
+
+Revenue = Sum of all (Tracked time * Bill rates for the roles)
+
+2. Cost
+
+The actual cost incurred on the project.
+
+Cost = Sum of all (Tracked time * Cost rates for the team members)
+
+3. Profit
+
+The actual profit you are making on the project.
+
+Profit = Revenue - Cost
+
+4. Profit Margin
+
+The actual profit margin for the project. Tracking the profit margin helps you monitor the profitability of the project throughout its duration.
+
+Margin (%) = Profit / Revenue * 100
+
+To get an overview of the Financials Dashboard for Time and Material projects, click here .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Financial Management
+
+Supported Billing Methods
+
+Portfolio reporting
+
+Creating projects with Financials
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

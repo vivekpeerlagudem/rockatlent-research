@@ -1,0 +1,244 @@
+TITLE: How to setup SAML SSO with Rocketlane using Google? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000702672-how-to-setup-saml-sso-with-rocketlane-using-google-
+
+How to setup SAML SSO with Rocketlane using Google? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Security and Compliance
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+Created by Niharika Pandey, Modified on Fri, 29 Jul, 2022 at 3:28 PM by Niharika Pandey
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+Setting Up Okta User Provisioning Integration with SCIM
+
+Setting Up Azure User Provisioning Integration with SCIM
+
+Setting Up SCIM User Provisioning with Okta in Rocketlane
+
+Updating SSO for Rocketlane's Authentication Migration
+
+No article available
+
+This help document introduces you to SSO and IdPs and how to configure SAML SSO for Rocketlane using Google IdP.
+
+What is SSO?
+
+Single sign-on (SSO) is an authentication method that enables users to securely authenticate with multiple applications and websites by using just one set of credentials.
+
+What are Identity Providers (IdPs)?
+
+An identity provider (IdP) is a service that stores and verifies user identity. IdPs are typically cloud-hosted services, and they often work with single sign-on (SSO) providers to authenticate users. Some examples of IdPs are Okta, Google Workspace and azure AD.
+
+Creating a SAML SSO App Integration using Google
+
+Go to admin.google.com and login through your Google admin id. You will be redirected to the Google Admin Console.
+
+From the Google Admin Console go to Menu > Apps > Web and Mobile apps .
+
+Click Add app > Add custom SAML app.
+
+Under 'App details' add App name, Description and App icon. Click Continue .
+
+The 'Google Identity Provider details' page displays the SSO URL, Entity ID and Certificate.
+
+Authenticating Google Identity Provider details with Rocketlane
+
+From your Rocketlane account, go to Settings > Security.
+
+Click on the ' Setup SAML SSO' button.
+
+The ' Setup SAML SSO' dialog box opens at the 'Configure SAML Single Sign On' page.
+
+You have to add details from your IDP to this dialog box.
+
+Copy values from the ' Google Identity Provider details' page to your ' SAML SSO setup' dialog box in Rocketlane according to this table:
+
+Google Identity Provider details page Rocketlane App: Configure SAML Single Sign On
+SSO URL IDP Login URL
+Entity ID IDP Entity ID
+Certificate X.509 Certificate
+
+Note: After copying and pasting the certificate, please delete the header and footer.
+
+Authenticating Service Provider details with Google
+
+Click Next from the 'Setup SAML SSO' dialog box in Rocketlane.
+
+This will take you to the 'SAML Configuration for your IDP' page.
+
+The Service Provider details mentioned here will help to authenticate with the IDP.
+
+Click Continue on 'Google Identity Provider Details' page.
+
+The 'Service Provider details' page opens.
+
+This page allows you to add the Service provider details to authenticate the SAML app.
+
+C opy the Service Provider details from Rocketlane to Google's 'Service Provider details' page.
+
+Rocketlane: SAML Configuration for your IDP Google: Service Provider Details page
+Rocketlane's (SP) Entity ID Entity ID
+Rocketlane's (SP) Login URL ACS URL
+
+SAML Attribute mapping
+
+Click Continue from the 'Service Provider details' page from the Google Admin console.
+
+T his will take you to the 'Attribute mapping' page. Click 'Add mapping' under the Attributes section to add a new mapping.
+
+Select the following values to add mapping:
+
+Google Directory Attributes App Attributes
+Primary email email
+
+Primary email username
+
+Click Finish .
+
+You will be redirected to the SAML app that you created using the Google Admin Console.
+
+Adding Users to your SAML App in Google
+
+Under the 'User Access' section , click on ' View Details'.
+
+By default it opens at 'All users in this account' page. You can select 'ON for everyone' option in case you want everyone to have access to your SAML app.
+
+Or go to Groups and search for a user group and select it.
+
+Select the 'Service Status' checkbox which says ' ON' and click Save .
+
+Logging in to Rocketlane using SAML SSO
+
+Go to your Rocketlane login.
+
+Choose the ' Sign in with SSO' option.
+
+Enter your credentials in the Google page. You will be redirected to Rocketlane .
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How to setup SAML SSO with Rocketlane using Okta?
+
+Updating SSO for Rocketlane's Authentication Migration
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

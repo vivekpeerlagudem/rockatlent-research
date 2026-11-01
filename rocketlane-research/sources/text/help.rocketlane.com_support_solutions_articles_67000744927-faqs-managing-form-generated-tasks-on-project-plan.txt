@@ -1,0 +1,207 @@
+TITLE: FAQs: Managing Form-Generated Tasks on Project Plan : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000744927-faqs-managing-form-generated-tasks-on-project-plan
+
+FAQs: Managing Form-Generated Tasks on Project Plan : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+Created by Advaith R, Modified on Mon, 26 May, 2025 at 3:20 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How is Project age calculated?
+
+How to delete a project?
+
+Can documents and files sent in "All Files" and "Conversations" be deleted?
+
+How to take an export of the project plan?
+
+How do I add a new project in Rocketlane?
+
+How can I find out the number of projects that were cancelled within a specific time period?
+
+Is there a reason I am added to every project?
+
+When setting a "Start on" date for a task within a project template, does this refer to working days or calendar days?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+How can I filter a project view to display multiple specific categories of phases?
+
+Allocations and Accomodations
+
+Why are users being automatically re-added to my Rocketlane projects after I remove them?
+
+How to Identify and Replace an Incorrect Project Template in Rocketlane
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+How is the 'Time to Onboard' metric calculated in Rocketlane?
+
+How do I reactivate a deactivated user in Rocketlane, and are there any associated costs?
+
+How can I access and retrieve documents using the Rocketlane API?
+
+How do I embed SharePoint links in Rocketlane Spaces and resolve common visibility issues?
+
+How to Create Clickable URLs in Rocketlane Tasks or Projects?
+
+How do I use the 'Completed At' field to filter tasks in Rocketlane dashboards?
+
+Enhanced Filtering and Task List Management (FAQ)
+
+Why are tasks created from forms not appearing on the Board or Project Plan view?
+
+Who can view form responses in Rocketlane, and how can they be shared with customers?
+
+How can I manage project status options in Rocketlane?
+
+FAQ: Reordering Phases in a Project Plan Template
+
+FAQ: Document Tasks in Document Templates
+
+How do I move a subtask to a different parent task?
+
+Categorize Projects by Focus Area
+
+Can I move or expose the standard "Effort" field into custom task field sections?
+
+Can I filter tasks assigned to me that are linked to a form submission ?
+
+No article available
+
+Q: Why aren't tasks created from my form submissions appearing on my project board/plan view?
+A: Tasks generated from form submissions will only appear on your Project Plan view if the "Add the newly created task under a specific phase" option is enabled in your Form Automation settings. If this setting is not active, the tasks will only be visible in the general Task List view for that project.
+Q: How can I ensure tasks created from forms are automatically placed into a specific phase on my project board?
+A: To have form-generated tasks appear directly within a phase on your project plan, you need to:
+
+Go to your Form Automation settings.
+
+Enable the option "Add the newly created task under a specific phase."
+
+After enabling this setting, you must re-import the form into your project for the changes to take effect. Forms do not dynamically update their settings in projects where they've already been added.
+Q: My project board isn't a "template board," but I still want form-generated tasks to appear on it. Is this possible?
+A: Currently, the automatic placement of form-generated tasks into a specific phase directly on a project board is primarily designed to work when the form is linked to a project template which defines those phases. If you're using a non-template project board, direct automatic placement of tasks into a specific phase via form automation might be limited. You can still view tasks in the general Task List and manually assign them to phases from there.
+Q: What if I edit a form template after it's already in use on a project? Do the changes apply automatically?
+A: No, changes made to a form template do not dynamically update in projects where the form has already been applied. To implement the latest settings or updates from the template, you will need to remove the existing form from the project and then re-import it . It's advisable to consider an alert or notification feature that could inform users when a linked template form has been updated.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Rocketlane Project Management
+
+Creating and Managing Subtasks
+
+Step-by-step guide to Sprint Planning
+
+How to Create and Manage Placeholders?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

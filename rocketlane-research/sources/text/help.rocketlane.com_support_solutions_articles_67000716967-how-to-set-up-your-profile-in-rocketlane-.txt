@@ -1,0 +1,169 @@
+TITLE: How to Set Up your Profile in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000716967-how-to-set-up-your-profile-in-rocketlane-
+
+How to Set Up your Profile in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+How to Set Up your Profile in Rocketlane?
+
+How to Set Up your Profile in Rocketlane?
+
+Created by Monica Madan, Modified on Wed, 22 Jul at 7:08 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Set Up your Profile in Rocketlane?
+
+Managing Notification Settings
+
+Difference & Precedence Between Account and Project Level Permissions
+
+Multilingual Support in Rocketlane
+
+No article available
+
+Setting up a user profile is essential for other team members and customers to identify the person working with them and to have visibility of the user's attributes.
+To setup your user profile,
+
+Login as an Admin
+
+Navigate to your profile icon at the bottom of the page
+
+Select profile
+
+You can update the following details in your profile,
+Profile detail Description
+Change picture You can upload a personal profile picture from your computer for other users to quickly identify you.
+Name If you wish to change your name created while inviting you to Rocketlane, you can click on change name and update your profile.
+Password To change your current password, click on change password and enter your current and new password. If you don't remember your current password, click the forgot password option and use the link mailed to you to set a new password. The email to reset the password looks like this.
+Time off - You can apply your leaves using the Apply time off option.
+
+In the Apply time off pane, select the time off dates you are unavailable
+
+Add notes if any, for users to read on when they get notified about your time off
+
+Check the option to notify your project owners of the projects you are working on about your time off
+
+If you wish to notify others in your team, you can add their names from the drop down and click Apply
+
+View time off history lets you view your past and upcoming time offs
+Note Your role and weekly capacity can only be edited by user with Admin or Super user permissions.
+
+If you have any further questions, please reach out to care@rocketlane.com
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Apply for Time Off in Rocketlane?
+
+General FAQs
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+PTO and Timesheets FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,207 @@
+TITLE: Understanding Epics in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000749157-understanding-epics-in-rocketlane
+
+Understanding Epics in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Sprint Planning
+Understanding Epics in Rocketlane
+
+Understanding Epics in Rocketlane
+
+Created by Advaith R, Modified on Wed, 10 Dec, 2025 at 6:36 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+How to read the sprints overview page
+
+How to read the sprints report
+
+Understanding Epics in Rocketlane
+
+Step-by-step guide to Sprint Planning
+
+Understanding Backlogs in Rocketlane
+
+No article available
+
+Enabling Epics and Backlogs in Rocketlane
+To start using Epics and Backlogs:
+
+Go to Settings > Sprint Settings .
+
+Enable the toggles for Epics .
+
+Once enabled, these tabs will be available in your Sprint Planning workspace.
+
+Navigating to Epics
+
+Click the checklist icon on the left navigation bar.
+
+Select Sprint Planning .
+
+Use the top navigation to switch between Sprints , Epics , and Backlogs .
+
+Using Epics in Rocketlane
+Epics help you group related tasks across projects under one broader initiative. For example, if your design team handles requests from multiple projects, you can create a “Design Bucket” epic and track all design-related tasks in one place.
+
+To create a new Epic:
+
+Navigate to Epics tab
+
+Click Create a new Epic .
+
+Add a name and assign an owner .
+
+Optionally, set a start date , end date , and status if you plan to complete the epic within a timeframe.
+
+Choose one or more projects from which you want to pull tasks into this epic.
+
+Fill in any custom epic fields (configured in Settings > Epic Fields).
+
+After creating the epic, you’ll be taken to the Tasks tab within the epic.
+
+Adding Tasks to an Epic
+
+A pop-up will prompt you to select tasks from the projects you linked earlier.
+
+Select the tasks you want to include, then click Add [X] tasks .
+
+You can also click Add task to create a new task directly inside the epic. This lets you define the project, assignee, due date, and description.
+
+You can add more projects to an epic at any time.
+
+Filtering and Managing Tasks within an Epic
+Within your epic’s task list, use filters to narrow down your view by:
+
+Assignee
+
+Responsible
+
+Project
+
+Due Date
+
+Created By
+
+Task status or other criteria
+
+In the Epic Overview tab, where you’ll find all the populated epic fields displayed as cards along with the summary of progress and tasks
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+Understanding Backlogs in Rocketlane
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

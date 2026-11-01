@@ -1,0 +1,215 @@
+---
+updatedAt: 2025-06-03T20:46:55.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Pagination
+
+Responses that return multiple objects will be paginated. This page explains how pagination is structured and how to traverse through pages.
+
+The `pageSize` option can be used to restrict the amount of responses displayed/available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain a key called the `pageToken`.
+
+Items in the objects are returned as an array in a key named *data*. If there are more results, the pagination parameter *hasMore* will be true. The API will also return a *nextPageToken* that gives you access to the following page. The key *nextPage* is a URL that can traverse to the following page.
+
+***
+
+### Pagination Parameters
+
+The following parameters are in the pagination object:
+
+<Table>
+  <thead>
+    <tr>
+      <th>
+        Parameter 
+      </th>
+
+      <th>
+        Function
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        ***pageSize***
+      </td>
+
+      <td>
+        Denotes the page size mentioned in the current request (limit).  
+
+        It defaults to 100 if left blank or if the specified `pageSize` is more than 100.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        ***nextPageToken***
+      </td>
+
+      <td>
+        Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination.  
+
+        This token is valid for 15 minutes
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        ***nextPage***
+      </td>
+
+      <td>
+        Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        ***totalRecordCount***
+      </td>
+
+      <td>
+        Denotes the total resources matching the filters
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        ***pageToken***
+      </td>
+
+      <td>
+        This is used to add the token to get the next page, leaving this empty will return the 1st page
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+***
+
+The two parameters that must be given in the request URL to enable pagination are listed below:
+
+* ***pageSize*** = no of rows per page
+* ***pageToken*** = token to get the next page, leaving this empty will return the 1st page
+
+***Eg*** : pageSize=10\&pageToken=59c12a42-dd10-11ed-afa1-0242ac120002
+
+***Response format***
+
+```
+"pagination": 
+{  
+  "pageSize": 10,  
+  "hasMore": true,  
+  "totalRecordCount": 20,  
+  “nextPageToken” : 78c12a42-dd10-11ed-afa1-0242ac1206171,
+  "nextPage": "https://api.rocketlane.com/api/1.0/tasks?pageSize=10&pageToken=0d949fbc-0589-4bcd-a552-c03e7fd269fb&sortBy=taskId&sortOrder=DESC   
+}
+```
+
+To move to the next page, use the *nextPageToken* or visit the *nextPage* URL directly.
+
+***
+
+### **Sample Codes**
+
+This code uses the get all tasks API to paginate through the response body. This code displays all the possible pages and lists all the responses with their respective page counts. Each page response section also displays the *nextPage* key, which can be used to get to the following page.
+
+> The following code uses the get all tasks API to paginate through the response body using the *nextPage* key.
+
+```python
+import json  
+import requests
+
+#This example shows you how to navigate through the pages with minimum inputs
+
+url = "<http://api.rocketlane.com/api/1.0/tasks>"  
+headers = {  
+    "accept": "application/json",  
+    "api-key": "REPLACE_YOUR_API_KEY_HERE"  
+}  
+cnt = 0  
+while True:  
+    params = {  
+        "pageSize": 10  
+    }  
+    cnt += 1  
+    print(str(cnt)+" Page Printing")  
+    response = requests.get(url, headers=headers, params=params)  
+    print(response.text)  
+    response_json = json.loads(response.text)  
+    # In response, API will return pagination information required to fetch next set of resources  
+    # Eg:  
+    #     "pagination": {  
+    #         "pageSize": 10,  
+    #         "hasMore": true,  
+    #         "totalRecordCount": 20,  
+    #         "nextPageToken" : 78c12a42-dd10-11ed-afa1-0242ac1206171  
+    #         "nextPage": "<https://api.rocketlane.com/api/1.0/tasks?pageSize=10&pageToken=0d949fbc-0589-4bcd-a552-c03e7fd269fb&sortBy=taskId&sortOrder=DESC>  
+    #    }  
+    # "hasMore" gives flexibility to stop the navigation when we hit the last page.  
+    #  hasMore == true then lastPage else pages available  
+    if not response_json["pagination"]["hasMore"]:  
+        print("Exiting as hasMore = " + str(response_json["pagination"]["hasMore"]))  
+        break  
+    # "nextPage" gives the fully constructed url to get the next set of resources  
+    url = response_json["pagination"]["nextPage"]
+```
+
+> The following code uses the get all tasks API to paginate through the response body using the *nextPageToken* key.
+
+````python
+import json
+import requests
+
+# This example shows you how to navigate through the pages
+
+url = "https://api.rocketlane.com/api/1.0/tasks"
+
+headers = {  
+    "accept": "application/json",  
+    "api-key": "REPLACE_YOUR_API_KEY_HERE"  
+}
+
+# "pageToken" is for getting the next page of resources
+
+# Here pageToken = None means if pageToken is passed empty then the API will always return the default(1st) page
+
+pageToken = None  
+cnt = 0
+
+while True:  
+    params = {  
+        "pageSize": 10,  
+        "pageToken": pageToken,  
+        "sortBy": "taskId",  
+        "sortOrder": "DESC"  
+    }  
+    cnt += 1  
+    print(str(cnt) + " Page Printing")  
+    response = requests.get(url, headers=headers, params=params)  
+    print(response.text)  
+    response_json = json.loads(response.text)
+# In response, API will return pagination information required to fetch next set of resources
+# Eg:
+#     "pagination": {
+#         "pageSize": 10,
+#         "hasMore": true,
+#         "totalRecordCount": 20,
+#         "nextPageToken" : 78c12a42-dd10-11ed-afa1-0242ac1206171
+#         "nextPage": "https://api.rocketlane.com/api/1.0/tasks?pageSize=10&pageToken=0d949fbc-0589-4bcd-a552-c03e7fd269fb&sortBy=taskId&sortOrder=DESC  
+#    }
+
+# "hasMore" gives flexibility to stop the navigation when we hit the last page. 
+#  hasMore == true then lastPage else pages available
+if not response_json["pagination"]["hasMore"]:
+    print("Exiting as hasMore = " + str(response_json["pagination"]["hasMore"]))
+    break
+
+# "nextPageToken" gives the token we need to pass at pageToken = <nextPageToken> in search request to get next set of resources
+pageToken = response_json["pagination"]["nextPageToken"]
+```
+````

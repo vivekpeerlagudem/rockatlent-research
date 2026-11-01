@@ -1,0 +1,231 @@
+TITLE: Connect Rocketlane MCP to Claude Code : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754219-connect-rocketlane-mcp-to-claude-code
+
+Connect Rocketlane MCP to Claude Code : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Connect Rocketlane MCP to Claude Code
+
+Connect Rocketlane MCP to Claude Code
+
+Created by Advaith R, Modified on Wed, 19 Aug at 6:56 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Guide to Using Rocketlane MCP Tools
+
+Connect Rocketlane MCP to Claude
+
+Connect Rocketlane MCP to Claude Code
+
+Connecting Rocketlane MCP to Cursor
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+No article available
+
+Rocketlane MCP (Model Context Protocol) lets your AI assistant securely access Rocketlane so you can search projects, create and update tasks, and stay on top of delivery work without switching tools.
+Rocketlane MCP connects to your AI tool through an MCP server URL and uses OAuth for authentication.
+In this article
+
+When to use
+
+Prerequisites
+
+Connect Rocketlane MCP to Claude Code
+Prerequisites for Claude Code
+
+Install Claude CLI
+
+Register the MCP server
+
+Authorize in Claude Code
+
+When to use
+Use Rocketlane MCP when you want to:
+
+Create, update, and search tasks across projects.
+
+Summarize project status and flag overdue or blocked work.
+
+Turn customer inputs, such as handoff notes, discovery context, or SOWs, into a structured project plan.
+
+Log or update time entries from your AI assistant, where supported in your setup.
+
+Search users, projects, and fields so actions can be performed with the correct values.
+
+Prerequisites
+Before connecting Rocketlane MCP, ensure that:
+
+You have a Rocketlane user account.
+
+You have access to the projects you want to work with.
+
+Your Rocketlane permissions allow the actions you want to perform, such as creating tasks, updating tasks, or creating time entries.
+
+Your AI tool supports MCP and OAuth, or supports adding MCP servers.
+
+Connect Rocketlane MCP to Claude Code
+Follow these steps to connect Rocketlane MCP to Claude Code.
+
+Prerequisites for Claude Code
+Before registering the MCP server, ensure that Claude CLI is installed.
+To check whether Claude CLI is installed, run:
+claude --version
+If you see command not found: claude , follow the installation steps below.
+
+Install Claude CLI
+
+Step 1: Install Node.js, if not already installed
+On macOS, using Homebrew:
+brew install node
+On Windows:
+
+Download Node.js from nodejs.org .
+
+Run the installer.
+On Linux, Ubuntu or Debian:
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - sudo apt-get install -y nodejs
+
+Step 2: Install Claude CLI globally
+npm install -g @anthropic-ai/claude-cli
+
+Step 3: Verify installation
+claude --version
+You should see the Claude CLI version number.
+
+Register the MCP server
+Run this command in your terminal:
+claude mcp add --transport http rocketlane https://rocket-mcp.rl-platforms.rocketlane.com/mcp
+
+Authorize in Claude Code
+
+Start a Claude Code session.
+
+Enter /mcp .
+
+Select Rocketlane from the MCP list.
+
+Select Authorize and complete OAuth.
+After authorization, Rocketlane MCP tools are available in the session.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connect Rocketlane MCP to Claude
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+Connecting Rocketlane MCP to Cursor
+
+Connecting Rocketlane MCP to ChatGPT
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

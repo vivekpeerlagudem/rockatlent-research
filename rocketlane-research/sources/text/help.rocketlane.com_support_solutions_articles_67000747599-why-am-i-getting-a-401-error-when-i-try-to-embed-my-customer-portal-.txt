@@ -1,0 +1,156 @@
+TITLE: Why am I getting a 401 error when I try to embed my customer portal? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747599-why-am-i-getting-a-401-error-when-i-try-to-embed-my-customer-portal-
+
+Why am I getting a 401 error when I try to embed my customer portal? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why am I getting a 401 error when I try to embed my customer portal?
+
+Why am I getting a 401 error when I try to embed my customer portal?
+
+Created by Advaith R, Modified on Wed, 17 Sep, 2025 at 3:29 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Can I restrict certain forms in the customer portal?
+
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later?
+
+2FA and Magic Links
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Why am I getting a 401 error when I try to embed my customer portal?
+
+Hide the Effort Column from the Customer Portal Task List
+
+How do I edit or customize the Customer Portal for a specific project?
+
+How can I embed a video in the Customer Portal?
+
+No article available
+
+A 401 error, which indicates an "unauthorized" request, typically occurs when the system is unable to authenticate the user trying to access the embedded portal. This can happen for three main reasons:
+
+Missing or Incorrect Shared Secret Key: The most common cause is that the portal has not been configured with a Shared Secret Key . This key acts as a secure password between your system and the embedded portal. You can resolve this by generating the key in your Rocketlane settings under Settings > Customer Portal > Embed Customer Portal .
+
+Incorrect User ID: The error can also happen if the user ID used for the embedding is not recognized as a valid customer. This occurs when you use an email address that belongs to a vendor, internal team member, or anyone who is not designated as a customer in the system. To fix this, you must use an External ID that is associated with a customer to embed the portal.
+
+Incorrect Project ID Data Type: If you're embedding the portal via code, the project ID must be passed as a number , not a string. Passing the ID as a string will cause the authentication to fail, resulting in a 401 error.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+General FAQs
+
+How can I embed a video in the Customer Portal?
+
+Why am I seeing an error?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

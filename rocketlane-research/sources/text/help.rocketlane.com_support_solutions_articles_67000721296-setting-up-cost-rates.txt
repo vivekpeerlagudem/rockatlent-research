@@ -1,0 +1,247 @@
+TITLE: How to set up and manage cost rates for team members in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721296-setting-up-cost-rates
+
+How to set up and manage cost rates for team members in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Setting up Cost rates
+
+Setting up Cost rates
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:51 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+In Rocketlane, you can set the bill and cost rates for your team members. These rates are used in calculating project revenue and profit margins. Bill rates refer to the amount you charge your customers, while cost rates are based on the salary you pay your employees.
+
+Setting up cost rates for team members involved in a project is necessary for you to keep track of project cost effectively. Cost rates can be set up based on,
+
+Roles
+
+Team Members
+
+Take a course on Financial Management here.
+
+In this article
+
+Setting up cost rates based on roles
+
+Setting up cost rates for Team Members
+
+Editing cost rates
+
+Editing cost rates
+
+Setting up cost rates based on roles
+
+Assign cost rates to roles to ensure that every team member's role has a standard cost rate.
+
+To set up Role based cost rates,
+
+Navigate to your avatar , click on settings
+
+Under the Accounts section, select Roles and Placeholders
+
+Click on the three dots near the role you wish to edit
+
+Select Manage cost rate
+
+If you have employed people from different countries, you can set the individual’s country currency and if not default it to company currency.
+
+U pdate the hourly cost rate for that role
+
+Click Save
+
+Choose if the rates need to apply going forward or need to backdate from a selected date
+
+Setting up cost rates for Team Members
+
+Establish cost rates for each team member to track a team member's expenses in projects in detail.
+
+To set up cost rates for Team Members,
+
+Navigate to your profile icon , click on settings
+
+Under the Accounts section, select Team Members
+
+Click on the three dots near the member you wish to edit.
+
+Select Manage cost rate and update the hourly cost rate for that member
+
+If you have employed people from different countries, you can set the individual’s country currency and if not default it to company currency.
+
+If you wish to copy the hourly role rate for this team member, you can check the box, “ Same as role rate. ”
+
+Click Save
+
+Choose if the rates need to apply going forward or need to backdate from a selected date
+
+Note: if you have set cost rates for both individual team members and roles, the cost set at team member level will take precedence and will be used to calculate the project cost.
+Editing cost rates
+You can easily update your employees' cost rates in Rocketlane when you make salary adjustments, such as giving a raise.
+
+There are two options to go about this
+
+Going forward - The new cost rate will apply to all times reported by your team members going forward.
+
+Backdate cost rate - The new cost rate will apply to all previously reported times by your team members starting from the selected date.
+
+To edit cost rates for team members and roles,
+
+Click on the three dots near the member or role you wish to edit.
+
+Select Manage cost rate
+
+Update the hourly cost rate for that member and click save
+
+In the Update cost rate pop-up box, you will have radio buttons to update cost rate for future time entries or backdate cost rate. Choose the relevant button
+
+Click save
+
+View cost history and audit logs
+Cost History gives the chronological sequence of changes made to cost rates for a team member. This timeline includes the corresponding effective dates and provides comprehensive details about the individuals who made changes to cost rates.
+
+The audit log accurately records the date of cost rate updates, providing transparency into the individuals within the team responsible for making these updates.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Quick guide to setting up Financials
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Understanding financial numbers for Time and Material projects
+
+Setting up currencies
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

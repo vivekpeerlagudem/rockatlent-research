@@ -1,0 +1,263 @@
+TITLE: Automating CSAT Score Updates From Form Responses : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000751093-automating-csat-score-updates-from-form-responses
+
+Automating CSAT Score Updates From Form Responses : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Automating CSAT Score Updates From Form Responses
+
+Automating CSAT Score Updates From Form Responses
+
+Created by Advaith R, Modified on Tue, 28 Jul at 6:36 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Automating CSAT Score Updates From Form Responses
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Auto Invite Customer Champion on Project Creation
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Embedding Calendly Links in Rocketlane
+
+Turn Customer Form Submissions into Immediate Action
+
+No article available
+
+Use this workflow to automatically aggregate CSAT ratings submitted through a form into project fields. This helps you track the total CSAT score and number of responses without manually updating project fields.
+This setup uses:
+
+Two project-level custom fields.
+
+One form template for CSAT ratings.
+
+One project template task with the CSAT form attached.
+
+One template-level automation on the CSAT form task, with condition blocks for ratings 1 to 5.
+In this article
+
+Create required custom fields
+
+Create the CSAT form template
+
+Add the CSAT form as a task
+
+Update cumulative CSAT score
+
+Increment number of CSAT responses
+
+Result
+
+Create required custom fields
+Start by creating two project-level custom fields. These fields store the running total of CSAT ratings and the number of responses received.
+
+Go to Settings > Project Fields .
+
+Create a Number type project field named Cumulative CSAT Score .
+
+Create a Number type project field named Number of CSAT Responses .
+
+Create the CSAT form template
+Next, create a CSAT form template that captures the customer’s rating.
+
+Go to Templates > Form Templates .
+
+Create or open your CSAT form template.
+
+Add a question with the following setup:
+Question text: How would you rate your experience?
+
+Field type: Single Select
+
+Options: 1, 2, 3, 4, 5
+
+Save the form template.
+
+Add the CSAT form as a task
+Add the CSAT form to a task in your project template. This ensures every project created from the template includes the CSAT form task.
+
+Go to Templates > Project Templates .
+
+Open the relevant project template.
+
+Add a task, for example CSAT Feedback Form .
+
+Attach the CSAT form template to this task.
+
+Save the project template.
+
+Update cumulative CSAT score
+Configure this automation on the CSAT form task inside the project template.
+
+Select the CSAT form task in the project template.
+
+In the right-side panel, go to the Automations tab.
+
+Click Create automation .
+
+Set the trigger as New form response received .
+Next, add condition and action blocks for each rating value.
+
+Rating = 1
+Add a condition block for the rating question:
+Setting Value
+Question How would you rate your experience?
+Condition Exactly equals
+Value 1
+Add an action block to update the cumulative score:
+Setting Value
+Action Update project field
+Field to update Cumulative CSAT Score
+Update type Add value
+Value 1
+Repeat the same structure for each rating value:
+
+If rating = 2, add 2 to Cumulative CSAT Score .
+
+If rating = 3, add 3 to Cumulative CSAT Score .
+
+If rating = 4, add 4 to Cumulative CSAT Score .
+
+If rating = 5, add 5 to Cumulative CSAT Score .
+Important Use Add value , not Replace value . This keeps a running total instead of overwriting the existing CSAT score.
+
+Increment number of CSAT responses
+After the rating-based condition blocks, add one final action to increase the response count.
+Setting Value
+Action Update project field
+Field to update Number of CSAT Responses
+Update type Add value
+Value 1
+This ensures every new form response increases the response count by 1.
+
+Result
+Every time a CSAT form response is submitted:
+
+The selected rating is added to Cumulative CSAT Score .
+
+Number of CSAT Responses is incremented by 1.
+
+The project always shows the latest CSAT total and response count.
+You can use these fields to calculate the average CSAT score:
+Average CSAT = Cumulative CSAT Score ÷ Number of CSAT Responses
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+Automations that run on task triggers
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+Introduction to Automations
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

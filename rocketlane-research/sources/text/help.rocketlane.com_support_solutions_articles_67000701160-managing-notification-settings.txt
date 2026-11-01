@@ -1,0 +1,307 @@
+TITLE: Managing Notification Settings : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701160-managing-notification-settings
+
+Managing Notification Settings : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Managing Notification Settings
+
+Managing Notification Settings
+
+Created by Niharika Pandey, Modified on Mon, 28 Sep at 6:20 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Set Up your Profile in Rocketlane?
+
+Managing Notification Settings
+
+Difference & Precedence Between Account and Project Level Permissions
+
+Multilingual Support in Rocketlane
+
+No article available
+
+In this article
+
+Accessing notification settings
+
+Notification types
+
+Feature-based notification settings
+Messages
+
+Tasks
+
+Sheets
+
+Forms
+
+Documents
+
+Phases
+
+Projects
+
+Project updates
+
+Timesheets
+
+Dates
+
+Reminders
+
+Notifications help you stay updated about project-related activity. You can customise which notifications you receive for your user account and choose how you receive them.
+Notification preferences are available for features such as tasks, messages, documents, forms, project updates, timesheets, and project dates.
+You can also configure reminders for upcoming task start dates and due dates.
+
+Accessing notification settings
+You can access Notification Settings in two ways.
+
+From Notifications
+
+Click the bell icon in the left navigation bar.
+
+Click the Configure icon from the Notifications view.
+
+From Settings
+
+Go to Settings from the left navigation bar.
+
+Click Notifications .
+
+The Notification Settings page lets you customise your notification preferences.
+
+Notification types
+Depending on the notification, you can receive updates through email, in-app notifications, or Slack.
+
+Note To clear all notifications, click Clear All in the Notifications pane. To restore cleared notifications, open Cleared Notifications and click Restore .
+
+Feature-based notification settings
+Notification settings are grouped by feature. You can enable or disable the available notification channels based on the updates you want to receive.
+The following tables show the available notifications and their default settings.
+Note ✅ indicates a notification that is enabled by default. ☑️ indicates a notification that cannot be unsubscribed from.
+
+Messages
+Notification Email In-app Slack
+New messages in tasks or documents that I follow ✅
+Messages mentioning me ✅ ☑️ ☑️
+Message reactions ✅ ✅ ✅
+Someone replies to my messages ✅ ☑️ ☑️
+
+Tasks
+Notification Email In-app Slack
+New tasks created
+Notify me and follow all tasks created in the projects that I'm a part of ✅
+Notify me when new tasks are created in the projects that I'm a part of ✅
+Do not notify
+Status changed ✅ ✅
+Task is assigned to me ✅ ☑️ ☑️
+I'm mentioned in a task ✅ ☑️ ☑️
+Assignee changed ✅
+Dependency changes ✅
+Priority changed ✅
+Task estimates changed ✅
+Attachment is added to the task ✅ ☑️
+Task name or description changed ✅
+Custom field changed ✅
+
+Sheets
+Sheets notifications keep you informed about changes to sheets, tabs, and row assignments in projects you belong to.
+Notification Email In-app Slack
+Sheet deleted ✅
+Sheet tab created ✅
+Sheet tab status changed ✅ ✅
+Sheet tab is assigned to me ✅ ✅ ✅
+Sheet tab assignee changed ✅
+Sheet tab due date changed ✅ ✅
+Sheet tab name changed ✅
+Sheet tab deleted ✅
+Sheet row is assigned to me ✅ ✅ ✅
+Note Creating a sheet or changing the sheet's own status, assignee, or due date is covered by the Tasks notification settings. The Sheets section covers sheet deletion and changes to tabs and rows. Comments and mentions inside sheet cells are controlled under Messages , not Sheets . Slack checkboxes remain unavailable until the Slack integration is configured. Sheets notifications are delivered as Slack direct messages and cannot currently be sent to Slack channels.
+
+The two assigned to me events notify only the person being assigned. All other Sheets events notify project members except the person who made the change. You receive a notification only if you are a project member and have permission to view the sheet. None of the Sheets notifications are mandatory.
+
+Forms
+Notification Email In-app Slack
+New form response or updates ✅ ✅ ☑️
+
+Documents
+Notification Email In-app Slack
+New document is created
+Notify me and follow all documents created in projects that I'm a part of ✅ ✅
+Notify me when new documents are created in projects that I'm a part of ✅ ✅ ☑️
+Do not notify ✅ ✅ ✅
+I'm mentioned in a document ✅ ☑️ ☑️
+
+Phases
+Notification Email In-app Slack
+Notify me when a phase is added or deleted and when its status changes ✅ ✅ ☑️
+Phase start date or due date is changed ✅ ✅ ✅
+
+Projects
+Notification Email In-app Slack
+Project status is changed ✅ ☑️ ✅
+Project start date or due date is changed ✅ ✅ ✅
+
+Project updates
+Notification Email In-app Slack
+Project update is published ☑️ ✅ ✅
+
+Timesheets
+Timesheet notifications keep submitters informed about reminders and approval outcomes, while notifying approvers when a timesheet requires review. Email and in-app notifications are enabled by default. You can turn off individual notifications that you do not want to receive.
+
+Timesheet submission notifications
+These notifications are sent to the person submitting the timesheet.
+Notification When it is sent Email In-app
+Timesheet submission reminder Before the timesheet due date ✅ ✅
+Timesheet overdue reminder After the due date if the timesheet has not been submitted ✅ ✅
+Timesheet approved When an approver approves the timesheet ✅ ✅
+Timesheet rejected When an approver rejects the timesheet ✅ ✅
+
+Timesheet approval notifications
+These notifications are sent to timesheet approvers.
+Notification When it is sent Email In-app
+Timesheet approval requested When a timesheet is submitted for the approver's review ✅ ✅
+Note The due date and timing of submission and overdue reminders are configured separately by an admin under Settings > Time Tracking . Your notification preferences determine whether you receive those reminders but do not change when they are scheduled.
+
+Note Turning off a timesheet notification affects only your own notification preferences. It does not change the timesheet submission or approval workflow for other users.
+
+Dates
+Notification Email In-app Slack
+Start date changes
+Tasks I'm assigned to ✅ ✅ ☑️
+All tasks on projects I'm a part of ✅ ✅
+Due date changes
+Tasks I'm assigned to ✅ ✅ ☑️
+All tasks on projects I'm a part of ✅ ✅
+Due date overdue
+Tasks I'm assigned to ✅ ✅ ☑️
+All tasks on projects I'm a part of ✅ ✅
+
+Reminders
+Reminders let you choose how far in advance you want to be notified about a task's start date or due date. Available reminder timings: same day, 1 day before, 2 days before, 3 days before, or 1 week before.
+Notification Email In-app Slack
+Start date
+Tasks I'm assigned to ✅
+All tasks on projects I'm a part of ✅
+Due date
+Tasks I'm assigned to ✅ ✅
+All tasks on projects I'm a part of ✅ ✅
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Sheets Widget in the Customer Portal
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+Sheets in Projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

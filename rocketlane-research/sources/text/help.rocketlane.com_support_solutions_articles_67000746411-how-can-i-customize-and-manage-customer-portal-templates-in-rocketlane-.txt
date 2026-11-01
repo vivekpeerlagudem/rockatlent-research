@@ -1,0 +1,172 @@
+TITLE: How can I customize and manage customer portal templates in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746411-how-can-i-customize-and-manage-customer-portal-templates-in-rocketlane-
+
+How can I customize and manage customer portal templates in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How can I customize and manage customer portal templates in Rocketlane?
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Created by Advaith R, Modified on Thu, 24 Jul, 2025 at 4:06 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Can I restrict certain forms in the customer portal?
+
+A customer signed up with their email address but didn't provide their first or last name. How can they add this information later?
+
+2FA and Magic Links
+
+How can I customize and manage customer portal templates in Rocketlane?
+
+Why am I getting a 401 error when I try to embed my customer portal?
+
+Hide the Effort Column from the Customer Portal Task List
+
+How do I edit or customize the Customer Portal for a specific project?
+
+How can I embed a video in the Customer Portal?
+
+No article available
+
+In Rocketlane, customer portal templates can be customized to meet your specific project needs. Below, we outline key customization steps, limitations, and important considerations to help you manage these templates effectively.
+
+Changing the Theme of a Customer Portal Template
+Rocketlane allows you to edit and customize the theme of a template without starting from scratch. Here’s how you can make changes:
+
+Edit the Existing Theme: - Go to Templates > Customer Portal Templates, and select your Customer Portal Template. Use the "Edit" or "pen" option located on the template interface to make changes. This enables you to update colors, font styles, button styles, and other design elements.
+
+Duplicating Templates for Independent Changes: - To avoid affecting live portals or existing projects, create a duplicate of your original template and make changes in the copy. Editing this duplicated template will not impact existing templates or data.
+
+Note: Selecting an initial theme is final, though you can still update colors via the same editing tool.
+
+Limitations on Template Customizations
+While you can change many visual aspects of your customer portal template, keep the following limitations in mind:
+
+Themes cannot be changed entirely after selection. You can only update aspects such as colors within the selected theme.
+
+Changes made to the template will automatically reflect in the projects that use it. To ensure existing projects are unaffected, use a duplicate for testing new changes.
+
+Administrative Permissions
+If you find yourself unable to edit or access the settings of a customer portal, it might be due to insufficient user permissions. Only admins have the authority to update customer portal settings. If needed, request an admin to make the changes.
+
+Data Integrity During Editing
+One major advantage of Rocketlane is that editing a customer portal template does not lead to any data loss. All changes you make will automatically reflect in the updated template without erasing existing data.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+General FAQs
+
+Client Partners in Rocketlane:
+
+How do I edit or customize the Customer Portal for a specific project?
+
+2FA and Magic Links
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

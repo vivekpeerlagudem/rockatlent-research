@@ -1,0 +1,550 @@
+---
+updatedAt: 2026-04-29T07:54:54.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get company by Id
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Companies",
+      "description": "Endpoints for the companies resource. Companies can have multiple addresses (see Addresses API; filter with companyId.eq). Company notes are managed via POST /1.0/companies/{companyId}/add-notes or included on create/update."
+    }
+  ],
+  "paths": {
+    "/1.0/companies/{companyId}": {
+      "get": {
+        "tags": [
+          "Companies"
+        ],
+        "summary": "Get company by Id",
+        "operationId": "get-company",
+        "parameters": [
+          {
+            "name": "companyId",
+            "in": "path",
+            "description": "The company's unique, system-generated identifier, which can be used to identify the company globally.",
+            "required": true,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            },
+            "example": 200
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "Use this query parameter to opt in for companies to be returned in the response body. Use comma separated values to fetch the respective fields. If left blank, default properties are returned.",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "companyUrl",
+                  "notes"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerCompanyPublicAPIResponseEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "This error denotes that there is an error that occured within our servers. The response body could help narrow down the cause for the error by our support team.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/serverErrorErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "Example500": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "SERVER_ERROR"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Server Error: Something went wrong on our end. Could not perform the requested action."
+          }
+        }
+      },
+      "serverErrorErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example500"
+            }
+          }
+        }
+      },
+      "CompanyAccountOwnerPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The Account owner's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for Account owner.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the Account owner.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the Account owner.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The account owner of the company."
+      },
+      "CompanyCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The Email id of the user who created the company.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The User id of the user who created the company.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user who created the company.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user who created the company.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The details of the user who created the company."
+      },
+      "CompanyFieldPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The field identifier",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The `fieldLabel` is the name of the custom Account field",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "string",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an number array and it must match the type of the field. Refer [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with project.",
+            "readOnly": true,
+            "example": "1000"
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Represents a custom field associated with the company account, including the field identifier, label, and its assigned value. Custom fields allow storing additional company-specific information beyond standard fields."
+      },
+      "CompanyNotePublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "noteId": {
+            "type": "integer",
+            "description": "Unique identifier of the note.",
+            "format": "int64",
+            "example": 1
+          },
+          "fieldId": {
+            "type": "integer",
+            "description": "ID of the note-type custom field this note belongs to.",
+            "format": "int64",
+            "example": 44
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "Display name of the note-type field.",
+            "example": "Account Notes"
+          },
+          "noteTitle": {
+            "type": "string",
+            "description": "Optional title of the note.",
+            "example": "Q1 Planning Discussion"
+          },
+          "noteText": {
+            "type": "string",
+            "description": "Plain text content of the note.",
+            "example": "Initial contact: discussed Q1 roadmap and pricing"
+          },
+          "tags": {
+            "type": "array",
+            "description": "Tags selected for this note, resolved from the field's tag options.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyNoteTagPublicResponseEntity"
+            }
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds when the note was created.",
+            "format": "int64",
+            "example": 1750343334605
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds when the note was last updated.",
+            "format": "int64",
+            "example": 1750343334570
+          }
+        },
+        "description": "Note on a company note-type custom field. Returned when includeFields=notes is specified."
+      },
+      "CompanyNoteTagPublicResponseEntity": {
+        "type": "object",
+        "properties": {
+          "tagId": {
+            "type": "integer",
+            "description": "The unique identifier of the tag",
+            "format": "int64",
+            "example": 1
+          },
+          "label": {
+            "type": "string",
+            "description": "The display label of the tag",
+            "example": "sales"
+          },
+          "color": {
+            "type": "string",
+            "description": "The color associated with the tag",
+            "example": "blue"
+          }
+        },
+        "description": "Tags selected for this note, resolved from the field's tag options."
+      },
+      "CompanyUpdatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The Email id of the user who last updated the company.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The User id of the user who last updated the company.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user who last updated the company.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user who last updated the company.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The details of the user who last updated the company."
+      },
+      "CustomerCompanyPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "companyId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The company's unique, system-generated identifier, which can be used to identify the company globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "companyName": {
+            "type": "string",
+            "description": "The name of the company.",
+            "example": "Acme Inc"
+          },
+          "companyUrl": {
+            "type": "string",
+            "description": "The URL of the client's website. Unless explicitly stated, the value for this field can be left blank.",
+            "example": "https://www.acme.com"
+          },
+          "visibility": {
+            "type": "string",
+            "description": "Visibility of the company. Allowed values: `EVERYONE`, `MEMBERS`, and `GROUP`. Create/update via the Public API only accept `EVERYONE` and `MEMBERS` (same as projects); `GROUP` may appear in responses when set through other product flows.",
+            "example": "EVERYONE",
+            "enum": [
+              "EVERYONE",
+              "MEMBERS",
+              "GROUP",
+              "EVERYONE",
+              "MEMBERS",
+              "GROUP"
+            ]
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the company was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the company was updated. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/CompanyCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/CompanyUpdatedByUserPublicAPI"
+          },
+          "description": {
+            "type": "string",
+            "description": "A detailed description or notes about the company. Useful for storing organizational context, business details, or internal notes.",
+            "example": "Leading software development partner for enterprise solutions"
+          },
+          "accountOwner": {
+            "$ref": "#/components/schemas/CompanyAccountOwnerPublicResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Custom fields associated with the company.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyFieldPublicResponseAPIEntity"
+            }
+          },
+          "notes": {
+            "type": "array",
+            "description": "Notes on note-type custom fields. Included when includeFields=notes.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyNotePublicResponseAPIEntity"
+            }
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

@@ -1,0 +1,438 @@
+TITLE: Credit Notes for Multi-Budget Projects in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754870-credit-notes-for-multi-budget-projects-in-rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Created by Advaith R, Modified on Tue, 4 Aug at 8:12 PM by Bala L
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+In this article
+
+When to Use
+
+How Multi-Budget Changes Credit Notes
+
+Create a Credit Note for a Multi-Budget Invoice
+
+Select Invoice Line Items by Budget
+
+Modify Line Items by Budget
+
+Add More Projects and Budgets During Credit Note Creation
+
+Budget Breakdown on Credit Note Preview
+
+Impact on Financials
+Budget-Level Reversal
+
+Available Credit Is Reduced in Draft
+
+Applying Credit Remains Invoice-Level
+
+Credit Note Statuses for Multi-Budget Credit Notes
+
+Credit Note Custom Fields in Multi-Budget Credit Notes
+
+Permissions for Multi-Budget Credit Notes
+
+Imported Line Items vs. Ad Hoc Lines in Multi-Budget Credit Notes
+Use Imported Line Items
+
+Use Ad Hoc Lines
+
+Credit notes in Rocketlane help reverse all or part of an already issued invoice without editing the original invoice.
+For the source invoice workflow, see Invoices for Multi-Budget Projects in Rocketlane .
+When multi-budget is enabled, credit notes follow the same budget structure as the source invoice. This means you can reverse invoice amounts against the specific budget the original invoice line item belonged to, not just the project.
+For example, if an invoice includes line items from Implementation , Training , and Change Order budgets, the credit note can reverse line items from one or more of those budgets while keeping the reversal tied to the correct budget.
+Note This article applies only to accounts where multi-budget is enabled. For the standard credit note workflow, setup, lifecycle, and application steps, refer to this article .
+
+When to Use
+Use credit notes for multi-budget projects when:
+
+An issued invoice includes line items from multiple budgets.
+
+A specific budget-level charge needs to be reversed.
+
+A customer disputes line items from one budget but not the entire invoice.
+
+A billed time entry, expense, fixed fee, or subscription period needs to be credited against the correct budget.
+
+A single credit note needs to include line items from multiple project budgets.
+
+You need the credit note preview to show the project and budget breakdown.
+For general guidance on when to use credit notes instead of discounts, refunds, coupons, or write-offs, refer to this article .
+
+How Multi-Budget Changes Credit Notes
+When multi-budget is not enabled, a credit note reverses invoice line items at the project level.
+When multi-budget is enabled, a credit note can reverse line items at both:
+
+Project level
+
+Budget level
+This means each credit note section can be tied to a specific budget under a project.
+The core rule remains the same: a credit note cannot credit more than what was invoiced. With multi-budget enabled, Rocketlane applies this rule at both the project and budget levels.
+Cap What it checks
+Project-level cap The total credited amount cannot exceed what was invoiced for the project.
+Budget-level cap The total credited amount against a budget cannot exceed what was invoiced for that budget.
+If a line item is not tied to a budget, only the project-level cap applies.
+Note Multi-budget does not change the purpose of a credit note. It only adds budget-level grouping and budget-level validation to the standard credit note workflow.
+
+Create a Credit Note for a Multi-Budget Invoice
+The credit note creation flow follows the standard credit note flow, with budget-level grouping added when selecting and modifying line items.
+To create a credit note for a multi-budget invoice:
+
+Go to Invoices .
+
+Open the Credit notes tab.
+
+Click New credit note .
+Alternatively, open an approved source invoice, click More actions , and select Create credit note .
+[image: Create credit note option in the More actions menu of an approved invoice]
+
+Confirm the account and source invoice. Keep Apply credit to invoice when created selected when the credit should automatically reduce that invoice’s balance.
+[image: Apply credit to invoice when created selected in Credit note details]
+
+Select the invoice line items to credit.
+When multi-budget is enabled, line items are grouped by:
+Project
+
+Budget
+
+Line item
+
+Select the parent multi-budget project to include its invoice line items by default. Deselect specific budgets or individual line items when you need to create a partial credit.
+[image: Screenshot 10]
+
+Review and modify line items.
+Each selected budget appears as its own section with its own available credit amount.
+
+Use Add projects and budgets if you need to include another budget while creating the credit note.
+
+Add notes and attachments, if required.
+
+Preview the credit note.
+The preview shows the credit note broken down by project and budget.
+
+Click Apply credit note to finalize the credit note. When Apply credit to invoice when created is selected, Rocketlane also applies the credit to the source invoice.
+Before the credit note is created, Rocketlane checks that the credited amount does not exceed the invoiced amount at the applicable project and budget levels.
+For the full standard credit note creation flow, refer to this article .
+
+Select Invoice Line Items by Budget
+In a multi-budget invoice, line items are grouped based on the budget they were billed against.
+This makes it easier to credit only the relevant portion of the invoice.
+For example, if the source invoice includes:
+
+Implementation budget line items
+
+Training budget line items
+
+Change Order budget line items
+You can select only the Training budget line items if the correction applies only to Training.
+
+Note Selecting line items from one budget does not affect other budgets on the invoice unless you explicitly select line items from those budgets too.
+
+Modify Line Items by Budget
+After selecting invoice line items, each selected budget gets its own section in the credit note.
+Each section shows its own Available credit limit , which indicates how much can still be credited for that budget. The Summary contains only the selected budgets, and each included budget retains its own line items and credit amount.
+Use this step to:
+
+Review the selected budget-level line items.
+
+Adjust credit amounts.
+
+Remove line items that should not be credited.
+
+Add another project or budget.
+
+Add ad hoc line items, if required.
+
+Note The available credit amount is tracked separately for the project and for each selected budget. Rocketlane does not allow the credit note to exceed the amount originally invoiced at the applicable level.
+
+For standard line item import behavior, restore options, and line item validation rules, refer to this article .
+
+Add More Projects and Budgets During Credit Note Creation
+If you need to include another project or budget after you have already started modifying line items, use Add projects and budgets from the summary panel.
+This lets you add more budget sections without restarting the credit note.
+Use this when:
+
+The credit applies to more than one budget.
+
+The credit applies to more than one project.
+
+The credit note was started with only one budget, but another budget also needs to be credited.
+
+A multi-project invoice includes budget-level line items that need to be credited together.
+
+Budget Breakdown on Credit Note Preview
+The credit note preview shows how the credit is split across projects and budgets.
+Use the preview to confirm:
+
+The correct project is included.
+
+The correct budget is included.
+
+The correct line items are selected.
+
+The credit amount is within the available credit amount.
+
+The document reflects the expected project and budget breakdown.
+For the standard credit note preview actions, such as saving as draft or applying the credit note, refer to this article .
+
+[image: Itemized continuation of the multi-budget credit note preview]
+
+Impact on Financials
+When a credit note is created for a multi-budget invoice, the financial impact follows the budget structure of the credited line items.
+
+Budget-Level Reversal
+Revenue and tax reversal happens against the specific budget associated with the credited invoice line item.
+For example, if a line item was originally invoiced under the Training budget, the credit note reverses the amount against that same budget.
+This keeps the credit note aligned with the budget that was originally billed.
+
+Available Credit Is Reduced in Draft
+Available credit is reduced as soon as the credit note exists in Draft .
+It does not need to be approved, opened, or applied before the available credit amount changes.
+This applies to both:
+
+Project-level available credit
+
+Budget-level available credit
+Note A draft credit note still reduces the available amount that can be credited. If the draft is no longer needed, delete or void it based on your credit note workflow so the amount is not held unnecessarily.
+
+Applying Credit Remains Invoice-Level
+Applying a credit note to an invoice is still a single aggregate action.
+The budget-level detail is captured in how the credit note is created, but the credit is applied to the invoice balance as one amount.
+For example, a credit note can include line items from multiple budgets, but when the credit is applied, it reduces the invoice balance as a whole.
+For standard credit application steps, including applying from the credit note or from the invoice, refer to this article .
+
+Credit Note Statuses for Multi-Budget Credit Notes
+Multi-budget does not add new credit note statuses.
+A credit note has one status for the whole document, even if it includes line items from multiple projects or budgets.
+For example, a credit note that includes three budgets does not have separate statuses for each budget. The credit note moves through the standard credit note lifecycle as a single document.
+Note Status is tracked at the credit note level, not at the budget level.
+
+For credit note statuses such as Draft , In Review , Open , Closed , and Voided , refer to this article .
+
+Credit Note Custom Fields in Multi-Budget Credit Notes
+Multi-budget does not change how credit note custom fields work.
+Credit notes use the invoice custom fields already configured in Rocketlane. You do not need to create a separate set of custom fields for multi-budget credit notes.
+Credit notes also include native fields such as:
+
+Status
+
+Credit note number
+
+Amount
+
+Date of issue
+For standard credit note custom field behavior and invoice custom field setup, refer to this article .
+
+Permissions for Multi-Budget Credit Notes
+Multi-budget does not add separate credit note permissions.
+Credit note access is still governed by project-level permissions. Budget membership does not control whether a user can create, edit, void, delete, or apply a credit note.
+This means:
+
+A user’s project access controls credit note actions.
+
+Being a member of a specific budget does not grant credit note access.
+
+Not being a member of a specific budget does not automatically restrict credit note access.
+
+Multi-budget availability is controlled by the account-level multi-budget entitlement, not by RBAC permissions.
+Note Budget membership and credit note permissions are separate. Budget membership affects budget-related project work, but it does not control credit note actions.
+
+For standard credit note permissions and invoice permission dependencies, refer to this article .
+
+Imported Line Items vs. Ad Hoc Lines in Multi-Budget Credit Notes
+A credit note line item can be created in two ways:
+
+Imported from the source invoice
+
+Added manually as an ad hoc line
+This standard behavior remains the same for multi-budget credit notes. The difference is that each line item must be tied to the correct project and budget where applicable.
+
+Use Imported Line Items
+Use imported line items when you are reversing a specific item that was billed.
+Examples:
+
+A customer disputed a specific budget-level charge.
+
+A particular expense should not have been invoiced.
+
+A time entry was billed incorrectly.
+
+A fixed fee was included under the wrong budget.
+
+A subscription period needs to be reversed.
+Imported line items carry details from the original invoice, such as the description and tax code. They also keep the credit tied to the original billed item and budget.
+This is the recommended option for most credit notes because it keeps the audit trail clear.
+For standard imported line item behavior, tax code handling, restore behavior, and line-item limits, refer to this article .
+
+Use Ad Hoc Lines
+Use an ad hoc line when the correction does not map to one specific billed item.
+Examples:
+
+A lump-sum reversal for an entire invoice.
+
+A reversal for an entire budget’s worth of billing.
+
+A negotiated goodwill credit.
+
+A general adjustment that is not tied to a single original line item.
+When multi-budget is enabled, ad hoc lines must still be associated with the relevant project and budget.
+Ad hoc lines are still capped at the project and budget level. However, they are not tied to a specific original invoice line item, so review the amount carefully before saving or submitting the credit note.
+Note If the original invoice used multiple tax codes, select the tax code for the ad hoc line carefully. If the issue is that the original invoice used the wrong tax code, voiding and reissuing the invoice may be more appropriate than creating a credit note.
+
+For general guidance on ad hoc line items and tax code behavior, refer to this article .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

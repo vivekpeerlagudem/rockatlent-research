@@ -1,0 +1,933 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Search time entries
+
+This endpoint can be used to search for time entries. You can refine your search by adding filters. Filters are given as query parameters and have a defined structure: key is `field.operator` and value is `value`. For instance: `date.gt=2023-02-11`, `minutes.eq=250`. Apart from filters, you can add `sortBy` combined with `sortOrder` to sort the time entries. The response body is paginated and you can control the pagination using the `limit` and `pageToken` parameters.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Time Tracking",
+      "description": "Endpoints for time entries and timesheets"
+    }
+  ],
+  "paths": {
+    "/1.0/time-entries/search": {
+      "get": {
+        "tags": [
+          "Time Tracking"
+        ],
+        "summary": "Search time entries",
+        "description": "This endpoint can be used to search for time entries. You can refine your search by adding filters. Filters are given as query parameters and have a defined structure: key is `field.operator` and value is `value`. For instance: `date.gt=2023-02-11`, `minutes.eq=250`. Apart from filters, you can add `sortBy` combined with `sortOrder` to sort the time entries. The response body is paginated and you can control the pagination using the `limit` and `pageToken` parameters.",
+        "operationId": "search-time-entries",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "string",
+              "example": "notes,user"
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field. Valid fields to perform sortBy are: `MINUTES`, `DATE`, `ID` and `BILLABLE`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "minutes",
+                "date",
+                "id",
+                "billable"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "date.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain time-entries whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "date.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of time-entries that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "date.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain time-entries whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "date.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain time-entries whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "date.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain time-entries whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "project.eq",
+            "in": "query",
+            "description": "You can use this param to specify some project Id and the responses will contain exact matches of time-entries that match the given project.",
+            "schema": {
+              "type": "number",
+              "example": 201
+            }
+          },
+          {
+            "name": "task.eq",
+            "in": "query",
+            "description": "You can use this param to specify some task Id and the responses will contain exact matches of time-entries that match the given task.",
+            "schema": {
+              "type": "number",
+              "example": 202
+            }
+          },
+          {
+            "name": "projectPhase.eq",
+            "in": "query",
+            "description": "You can use this param to specify some project phase Id and the responses will contain exact matches of time-entries that match the given phase.",
+            "schema": {
+              "type": "number",
+              "example": 210
+            }
+          },
+          {
+            "name": "category.eq",
+            "in": "query",
+            "description": "You can use this param to specify some category Id and the responses will contain exact matches of time-entries that match the given category.",
+            "schema": {
+              "type": "number",
+              "example": 5
+            }
+          },
+          {
+            "name": "user.eq",
+            "in": "query",
+            "description": "You can use this param to specify some user Id and the responses will contain exact matches of time-entries that belong to the user with the given user Id.",
+            "schema": {
+              "type": "number",
+              "example": 5
+            }
+          },
+          {
+            "name": "sourceType.eq",
+            "in": "query",
+            "description": "You can use this param to specify a source type for the time entries and the responses will contain exact matches of time-entries that have the given source type.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "GOOGLE_CALENDAR",
+                "OUTLOOK_CALENDAR",
+                "TASK",
+                "PROJECT",
+                "PHASE",
+                "ADHOC",
+                "MILESTONE"
+              ]
+            }
+          },
+          {
+            "name": "activityName.eq",
+            "in": "query",
+            "description": "You can use this param to specify some activity name and the responses will contain exact matches of time-entries that match the given activity name.",
+            "schema": {
+              "type": "string",
+              "example": "Pre-Sales Campaign"
+            }
+          },
+          {
+            "name": "activityName.cn",
+            "in": "query",
+            "description": "You can use this param to specify some text and the responses will contain time-entries that contain the given text in their activity name.",
+            "schema": {
+              "type": "string",
+              "example": "Sales"
+            }
+          },
+          {
+            "name": "activityName.nc",
+            "in": "query",
+            "description": "You can use this param to specify some text and the responses will contain time-entries that _DO NOT_ contain the given text in their activity name.",
+            "schema": {
+              "type": "string",
+              "example": "Sales"
+            }
+          },
+          {
+            "name": "approvalStatus.eq",
+            "in": "query",
+            "description": "You can use this param to specify an approval status for the time entries and the responses will contain exact matches of time-entries that have the given approval type.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "NOT_SUBMITTED",
+                "SUBMITTED",
+                "APPROVED",
+                "REJECTED"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseTimeEntries"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TimeEntryApprovedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "User who approved the time entry"
+      },
+      "TimeEntryBillRatePublicAPI": {
+        "type": "object",
+        "properties": {
+          "rate": {
+            "type": "number",
+            "description": "The monetary amount assigned to a specific service or activity.",
+            "example": 40
+          },
+          "currency": {
+            "type": "string",
+            "description": "The three-letter ISO currency code representing the currency in which transactions are conducted.",
+            "example": "EUR"
+          }
+        },
+        "description": "The hourly rate charged to customers for the projects or services provided."
+      },
+      "TimeEntryCategoryPublicAPI": {
+        "type": "object",
+        "properties": {
+          "categoryName": {
+            "type": "string",
+            "description": "The name of the category.",
+            "readOnly": true,
+            "example": "Pre-sales"
+          },
+          "categoryId": {
+            "type": "integer",
+            "description": "The unique identifier for the category.",
+            "format": "int64",
+            "example": 8
+          }
+        },
+        "description": "Category associated with the time entry"
+      },
+      "TimeEntryCostRatePublicAPI": {
+        "type": "object",
+        "properties": {
+          "rate": {
+            "type": "number",
+            "description": "The monetary amount assigned to a specific service or activity.",
+            "example": 40
+          },
+          "currency": {
+            "type": "string",
+            "description": "The three-letter ISO currency code representing the currency in which transactions are conducted.",
+            "example": "USD"
+          }
+        },
+        "description": " The hourly rate assigned to employees for the work they perform for your organization"
+      },
+      "TimeEntryCreatedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the time entry."
+      },
+      "TimeEntryFieldPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the field.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The label of the field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "object",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an array and it must match the type of the field.",
+            "readOnly": true,
+            "example": 1000
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Custom fields associated with the time entry"
+      },
+      "TimeEntryPhasePublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "phaseId": {
+            "type": "integer",
+            "description": "The unique identifier for the phase.",
+            "format": "int64",
+            "example": 201
+          },
+          "phaseName": {
+            "type": "string",
+            "description": "The name of the phase.",
+            "readOnly": true,
+            "example": "Go live"
+          }
+        },
+        "description": "Project phase associated with the time entry"
+      },
+      "TimeEntryProjectPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme Onboarding"
+          },
+          "projectId": {
+            "type": "integer",
+            "description": "The project’s unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 204
+          }
+        },
+        "description": "Project associated with the time entry"
+      },
+      "TimeEntryPublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "The financials budget associated with this time entry."
+      },
+      "TimeEntryRejectedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "User who rejected the time entry"
+      },
+      "TimeEntrySubmittedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "User who submitted the time entry\n\nNote: This field may be null, even when the time entry is in an APPROVED or REJECTED state, as time entries can be approved or rejected without an explicit submission step."
+      },
+      "TimeEntryTaskPublicAPI": {
+        "type": "object",
+        "properties": {
+          "taskName": {
+            "type": "string",
+            "description": "The name of the task.",
+            "readOnly": true,
+            "example": "Kickoff meeting"
+          },
+          "taskId": {
+            "type": "integer",
+            "description": "The task’s unique, system-generated identifier, which can be used to identify the task globally.",
+            "format": "int64",
+            "example": 201
+          }
+        },
+        "description": "Task associated with the time entry"
+      },
+      "TimeEntryUpdatedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the ttime entry."
+      },
+      "UserPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "readOnly": true,
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "User associated with the time entry",
+        "readOnly": true
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "ExampleAPIResponseTimeEntries": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/TimeEntryPublicAPIResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationTimeEntries"
+          }
+        }
+      },
+      "ExamplePaginationTimeEntries": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/time-entries?includeFields=category,minutes&billable.eq=false&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100&assignee.any=1&startDate.gt=2022-01-02"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "TimeEntryPublicAPIResponseForExample": {
+        "type": "object",
+        "properties": {
+          "timeEntryId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique, system-generated identifier, which can be used to identify the time entry globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "date": {
+            "type": "string",
+            "description": "Date of the time entry in format YYYY-MM-DD",
+            "example": "2023-03-28"
+          },
+          "minutes": {
+            "maximum": 1440,
+            "minimum": 1,
+            "type": "integer",
+            "description": "Duration of the time entry in minutes",
+            "format": "int64",
+            "example": 250
+          },
+          "activityName": {
+            "type": "string",
+            "description": "Name of the adhoc activity being performed",
+            "example": "Pre-Sales campaign"
+          },
+          "project": {
+            "$ref": "#/components/schemas/TimeEntryProjectPublicAPIResponseEntity"
+          },
+          "task": {
+            "$ref": "#/components/schemas/TimeEntryTaskPublicAPI"
+          },
+          "projectPhase": {
+            "$ref": "#/components/schemas/TimeEntryPhasePublicAPIResponseEntity"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Timestamp of creation time of the entry in epoch milliseconds",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "Timestamp of last updated time of the entry in epoch milliseconds",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/TimeEntryCreatedByPublicResponse"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/TimeEntryUpdatedByPublicResponse"
+          },
+          "billable": {
+            "type": "boolean",
+            "description": "Whether the time entry is billable. Defaults to true",
+            "example": true,
+            "default": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/UserPublicAPIResponseEntity"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Notes for the time entry",
+            "example": "Working on API integration"
+          },
+          "category": {
+            "$ref": "#/components/schemas/TimeEntryCategoryPublicAPI"
+          },
+          "sourceType": {
+            "type": "string",
+            "description": "Type of source of the time entry Eg: Task, Adhoc (Activity), Milestone",
+            "readOnly": true,
+            "example": "Task",
+            "enum": [
+              "GOOGLE_CALENDAR",
+              "OUTLOOK_CALENDAR",
+              "TASK",
+              "PROJECT",
+              "PHASE",
+              "ADHOC",
+              "MILESTONE"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "description": "Status of the time entry",
+            "enum": [
+              "NOT_SUBMITTED",
+              "SUBMITTED",
+              "APPROVED",
+              "REJECTED"
+            ]
+          },
+          "submittedBy": {
+            "$ref": "#/components/schemas/TimeEntrySubmittedByPublicResponse"
+          },
+          "submittedAt": {
+            "type": "integer",
+            "description": "Time of submission for time entry\n\nNote: This field may be null, even when the time entry is in an APPROVED or REJECTED state, as time entries can be approved or rejected without an explicit submission step.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "approvedBy": {
+            "$ref": "#/components/schemas/TimeEntryApprovedByPublicResponse"
+          },
+          "approvedAt": {
+            "type": "integer",
+            "description": "Time of approval for time entry",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "rejectedBy": {
+            "$ref": "#/components/schemas/TimeEntryRejectedByPublicResponse"
+          },
+          "rejectedAt": {
+            "type": "integer",
+            "description": "Time of rejection for time entry",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "deleted": {
+            "type": "boolean",
+            "description": "Whether the time entry is deleted.",
+            "example": true
+          },
+          "costRate": {
+            "$ref": "#/components/schemas/TimeEntryCostRatePublicAPI"
+          },
+          "billRate": {
+            "$ref": "#/components/schemas/TimeEntryBillRatePublicAPI"
+          },
+          "budget": {
+            "$ref": "#/components/schemas/TimeEntryPublicProjectFinancialsBudgetResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Custom fields associated with the time entry",
+            "items": {
+              "$ref": "#/components/schemas/TimeEntryFieldPublicResponseAPIEntity"
+            }
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

@@ -1,0 +1,355 @@
+TITLE: Invoices for Multi-Budget Projects in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754838-invoices-for-multi-budget-projects-in-rocketlane
+
+Invoices for Multi-Budget Projects in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Invoices for Multi-Budget Projects in Rocketlane
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Created by Advaith R, Modified on Thu, 16 Jul at 7:50 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+TABLE OF CONTENTS
+
+When to Use
+
+How Multi-Budget Changes Invoicing
+
+What You Can Bill Against a Budget
+
+Create an Invoice for a Multi-Budget Project
+
+Budget Breakdown on Invoice PDFs
+
+Viewing Budget Details After Invoice Creation
+
+Payments, Write-Offs, and Budget Rollups
+
+Revenue Recognition and Invoicing
+
+Invoice Statuses in Multi-Budget Invoices
+
+Invoice Approvals in Multi-Budget Invoices
+
+Invoice Custom Fields in Multi-Budget Invoices
+
+Permissions for Multi-Budget Invoices
+
+Tax Codes in Multi-Budget Invoices
+
+Billing Logged Work vs. Adding Ad Hoc Lines
+
+Credit Notes for Multi-Budget Invoices
+
+Billing Schedules and Events
+
+Invoices in Rocketlane can include work from one or more projects. When multi-budget is enabled, invoice line items are also associated with the relevant budget within each project.
+This helps finance teams and project managers bill work by budget, review budget-level invoice totals during invoice creation, and generate invoice PDFs that show or hide the budget breakdown based on what the customer should see.
+Note This article applies only to accounts where multi-budget is enabled. If your account does not use multi-budget, invoice line items are associated with projects without an additional budget-level breakdown. For standard invoice creation, refer to this article.
+
+When to Use
+Use multi-budget invoicing when:
+
+A project has multiple budgets that need to be billed separately.
+
+A single invoice needs to include work from multiple budgets.
+
+You want invoice line items grouped by project and budget.
+
+You need to bill time entries, expenses, fixed fees, subscription periods, or ad hoc charges against specific budgets.
+
+Your finance team needs budget-level visibility while creating or previewing invoices.
+
+You want invoice PDFs to include a budget breakdown.
+
+How Multi-Budget Changes Invoicing
+When multi-budget is not enabled, invoice line items are associated with a project.
+When multi-budget is enabled, each invoice line item is associated with:
+
+A project
+
+A budget under that project
+This means a single invoice can include multiple projects and multiple budgets. Each selected budget carries its own line items and subtotals during invoice creation.
+Each selected budget can also have different line items based on the work billed against it. For example, one budget can include time entries and expenses, while another budget on the same invoice can include fixed fees or ad hoc charges.
+Note Multi-budget changes how invoice line items are grouped and subtotaled. It does not change the overall invoice lifecycle, approval workflow, tax setup, or payment workflow. For the standard invoice lifecycle, refer to this article.
+
+What You Can Bill Against a Budget
+Invoice line items can come from different sources.
+Line item source Description
+Time entries Bill time logged against project work.
+Expenses Bill expenses recorded against the project or budget.
+Fixed fees Bill fixed-fee items configured for the project or budget.
+Subscription periods Bill subscription-based periods where applicable.
+Ad hoc entries Add manually entered charges that do not come from an underlying source item.
+When multi-budget is enabled, each line item must be associated with the correct budget under the project.
+For example, if a project has separate Implementation, Training, and Support budgets, the invoice line items should be assigned to the budget they consume from.
+For standard invoice line item fields such as description, quantity, unit price, amount, tax, and total, refer to this article.
+
+Create an Invoice for a Multi-Budget Project
+Invoice creation follows the standard invoice creation flow, with an additional budget selection step when multi-budget is enabled.
+To create an invoice for a multi-budget project:
+
+Go to Invoices .
+
+Click Create invoice .
+
+Select the project or projects to invoice.
+
+Select the budget under each project.
+When multi-budget is enabled, projects appear with their budgets listed beneath them. Rocketlane preselects the default budget for each project. If a project has more than one budget, select the budget you want to bill before continuing.
+
+Select the work to bill.
+You can include supported billable items such as time entries, expenses, fixed fees, or subscription periods. The available items are filtered and grouped based on the selected budgets.
+
+Review and modify line items.
+Each project has its own line item grid. If the project includes multiple selected budgets, line items are grouped by budget.
+
+Review the project and budget totals.
+The summary section shows totals by project and, where applicable, by budget.
+
+Choose whether to show or hide the budget breakdown.
+Use Hide budget breakdown if you want the invoice to show a single project total instead of separate budget subtotals.
+
+Preview the invoice.
+The invoice PDF follows the same budget breakdown setting selected during invoice creation.
+
+Create or send the invoice.
+For the full standard invoice creation flow, including invoice details, Bill To, From address, notes, attachments, preview, and saving as draft, refer to this article.
+
+Budget Breakdown on Invoice PDFs
+When budget breakdown is shown, the invoice PDF includes budget-level subtotals under the relevant project.
+When Hide budget breakdown is selected, the PDF collapses the budget split and shows a single project total instead of separate budget subtotals.
+Use the budget breakdown when the customer should see how invoice amounts are split across budgets. Hide the breakdown when the customer should only see the project-level total.
+Note The budget breakdown can be shown or hidden on the invoice PDF. When hidden, the invoice shows a project-level total instead of separate budget subtotals.
+
+For other invoice PDF settings, default notes, addresses, and invoice essentials, refer to this article.
+
+Viewing Budget Details After Invoice Creation
+Budget breakdown is most visible during invoice creation and preview.
+After an invoice is created, the invoice detail page focuses on the overall invoice details, such as status, invoice fields, approval, payment records, and email activity.
+To review budget-level invoice information after creation, use invoice list views or reporting areas that include budget-level invoice rollups.
+Invoice list views can show budget names and include budget-based filtering when multi-budget is enabled.
+For general invoice list page metrics, filters, saved views, payment statuses, and outstanding balances, refer to this article.
+
+Payments, Write-Offs, and Budget Rollups
+Payments and write-offs are recorded against the whole invoice.
+Rocketlane does not create a separate payment or write-off record for each budget on the invoice.
+Note Payments and write-offs are recorded against the whole invoice. Rocketlane does not create separate payment or write-off records for each budget.
+
+Budget-level financial values are calculated from the invoice total. Rocketlane prorates invoice-level values, such as invoiced amount, paid amount, written-off amount, and outstanding amount, based on each budget’s share of the invoice total.
+This means:
+
+The invoice remains the source of truth for payment and write-off records.
+
+Budget-level values are derived from the invoice totals.
+
+Voided invoices are excluded from these rollups.
+Note Budget-level financial values are derived from the invoice total. They are calculated based on each budget’s share of the invoice amount and are not stored as separate budget-level payment records.
+
+For steps to record payments, write off invoices, void invoices, or delete invoices, refer to this article.
+
+Revenue Recognition and Invoicing
+Revenue recognition is calculated separately from invoicing.
+Creating, paying, crediting, or writing off an invoice does not automatically update revenue recognition for the budget. Revenue recognition follows the budget’s revenue configuration and is not directly driven by invoice line items.
+Note Revenue recognition is calculated separately from invoicing. Creating, paying, crediting, or writing off an invoice does not automatically update the budget’s revenue recognition values.
+
+Invoice Statuses in Multi-Budget Invoices
+Multi-budget does not change invoice statuses. Status is tracked at the invoice level, not at the budget level.
+A multi-budget invoice has one overall status, even when it includes several projects and budgets.
+For example, an invoice that includes three budgets does not have separate statuses for each budget. The invoice moves through the standard invoice lifecycle as a single invoice.
+Note Invoice status is tracked at the invoice level, not at the budget level.
+
+For invoice status definitions and lifecycle details, refer to this article. For actions available in each status, refer to this article.
+
+Invoice Approvals in Multi-Budget Invoices
+Multi-budget does not change invoice approval behavior.
+Approvals are requested, reviewed, and completed for the invoice as a whole. They are not requested separately for each budget on the invoice.
+For approval chains, approval workflow setup, automated approvals, and manual approval requests, refer to this article.
+
+Invoice Custom Fields in Multi-Budget Invoices
+Multi-budget does not change how invoice custom fields are configured or filled.
+Invoice custom fields remain invoice-level fields. They are not configured separately per budget.
+The multi-budget-specific field behavior is the ability to show or hide the budget breakdown during invoice creation and PDF generation.
+For creating invoice custom fields, supported field types, and display-on-invoice behavior, refer to this article.
+
+Permissions for Multi-Budget Invoices
+Invoice permissions are controlled at the project level.
+Budget membership does not determine whether a user can create, view, approve, void, or manage invoices. A user’s invoice access depends on their role and invoice-related permissions for the project.
+Note Invoice permissions are project-level permissions, not budget-level permissions. Budget membership does not control invoice access or invoice actions.
+
+For details on invoice access, creation, approvals, status management, payments, write-offs, invoice control, billing events, and invoice settings permissions, refer to this article.
+
+Tax Codes in Multi-Budget Invoices
+Multi-budget does not change the tax code setup or tax calculation behavior.
+Taxes continue to apply at the invoice line item level. If tax codes are enabled, line items can use the configured tax code behavior, regardless of which budget the line item belongs to.
+For tax code setup, tax components, invoice display options, default tax codes, and tax calculation behavior, refer to this article.
+
+Billing Logged Work vs. Adding Ad Hoc Lines
+Most invoice line items come from work already recorded in Rocketlane, such as time entries, expenses, fixed fees, or subscription periods.
+These items carry their original amount and description. After they are billed, they are excluded from other invoices, helping prevent the same item from being billed twice.
+Ad hoc lines are different. They are manually entered and do not come from an underlying source item.
+Use ad hoc lines when you need to add a one-off charge to the invoice.
+When multi-budget is enabled, ad hoc lines must still be assigned to the correct project and budget.
+Note Review ad hoc lines carefully before sending the invoice. Since these lines are manually entered and do not come from an underlying billable item, Rocketlane does not automatically validate them against the remaining budget amount.
+
+Credit Notes for Multi-Budget Invoices
+If a multi-budget invoice needs to be corrected after it is issued, use credit notes instead of editing the invoice directly.
+Credit notes are created from a source invoice and help reverse all or part of an already issued invoice while preserving an audit trail. For multi-project invoices, credit notes reflect the project-level grouping of the source invoice.
+For creating credit notes, applying credits, credit note limits, and credit note lifecycle, refer to this article.
+
+Billing Schedules and Events
+Billing schedules and billing events can generate invoices based on dates, task status changes, or project status changes.
+When working with multi-budget projects, ensure that the invoices generated from billing schedules or events are reviewed for the correct project and budget breakdown before sending them to the customer.
+For billing schedule setup, billing events, templates, date-based events, task-based events, project-based events, timezone control, and invoice conditions, refer to this article and this article.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

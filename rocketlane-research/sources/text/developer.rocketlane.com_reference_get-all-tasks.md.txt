@@ -1,0 +1,1404 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all tasks
+
+The *Get all tasks* API enables users to find tasks in their Rocketlane instances using advanced filtering options. This API is intended to provide a flexible and fast means of getting task data based on various parameters.
+
+Developers can integrate task search functionality into their applications and platforms by using this API. You can fine-tune your searches and retrieve the task related data you need for integration into your applications or platforms by using the available parameters.
+
+> 📘 Note
+>
+> Archived tasks are not reflected in the response body.
+
+The `includeFields` param can be used to customize the response.You can fine-tune your searches and retrieve the field related data you need for integration into your applications or platforms by using filters.
+
+You can use any combination of these parameters to execute searches based on your specifications. In addition to filters, `sortBy` and `sortOrder` can be used to sort the projects. The response body is [paginated](https://developer.rocketlane.com/v1.0/docs/pagination), and you can control the pagination using the `limit` and `pageToken` parameters.
+
+## Pagination
+
+The *Get all tasks* API accommodates pagination in the response body. The `pageSize` option can be used to restrict the amount of responses displayed/available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain the `pageToken`.
+
+Please refer to the [pagination](https://developer.rocketlane.com/v1.0/docs/pagination) section for further information on this.
+
+## Filtering
+
+The capacity to execute more sophisticated and nuanced searches on a dataset by combining numerous criteria and conditions is referred to as filtering.
+
+Complex filtering in the context of the *Get all tasks* API allows users to build elaborate search queries to return specific subsets of projects that satisfy specific requirements. By catering to a wide range of use cases, this enhanced filtering functionality considerably increases the API's utility and versatility.
+
+The API reference includes a comprehensive range of filtering options.
+
+### Custom Field Filtering
+
+The *Get all tasks* API offers custom field filtering in addition to the regular filtering options.
+
+Users can utilise custom field filtering to define and apply their own task fields as search criteria. This powerful feature allows users to search for tasks based on custom task fields, allowing the API to be tailored to a variety of use cases where default fields may be insufficient.
+
+We can provide both project and task custom fields to the API, and it will return the appropriate response.
+
+| Type    | Description           |
+| :------ | :-------------------- |
+| Project | Custom project fields |
+| Task    | Custom task fields    |
+
+Please refer to the below table for more information on how to construct the filtering criteria for custom fields.
+
+| Field name                                       | Text                       | Number                     | Yes/No                     | Date                       | Single Selection           | Multi Selection            | Rating                     |
+| ------------------------------------------------ | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ***`{type}.field.{field_id}.value`***            |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.contains`***         | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.notContains`***      | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.greaterThan`***      |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.lessThan`***         |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.greaterThanEqual`*** |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.lessThanEqual`***    |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isEmpty`***          | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isNotEmpty`***       | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isTrue`***           |                            |                            | :ballot\_box\_with\_check: |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.isFalse`***          |                            |                            | :ballot\_box\_with\_check: |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.oneOf`***            |                            |                            |                            |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |                            |
+| ***`{type}.field.{field_id}.noneOf`***           |                            |                            |                            |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |                            |
+
+For more detailed examples related to searching/ filtering using custom fields refer to the [search](https://developer.rocketlane.com/docs/search) section.
+
+The field\_id can be fetched from this [API](https://developer.rocketlane.com/v1.0/reference/get-all-fields). Additional parameters can be passed to fetch fields associated with projects or tasks, which can then be used to perform searches on the tasks.
+
+For more information about this, please refer to the [custom fields](https://developer.rocketlane.com/v1.0/docs/custom-fields) section.
+
+### Criteria Match
+
+In addition to standard filtering and custom field filtering, the *Get all tasks* API also supports the use of ***AND*** and ***OR*** conditions for more advanced filtering options. Users can combine different filters and custom field queries with these logical operators to build complex yet accurate search queries.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Tasks",
+      "description": "Endpoints for tasks resource"
+    }
+  ],
+  "paths": {
+    "/1.0/tasks": {
+      "get": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Get all tasks",
+        "operationId": "get-all-tasks",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "startDateActual",
+                  "dueDateActual",
+                  "type",
+                  "phase",
+                  "assignees",
+                  "followers",
+                  "dependencies",
+                  "billable",
+                  "csatEnabled",
+                  "priority",
+                  "timeEntryCategory",
+                  "budgets",
+                  "taskPrivateNote",
+                  "parent",
+                  "externalReferenceId"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "taskName",
+                "startDate",
+                "dueDate",
+                "startDateActual",
+                "dueDateActual"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "startDate.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of tasks that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of tasks that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of tasks that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDateActual.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.gt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.eq",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain exact matches of tasks that match the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.lt",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.ge",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are greater than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDateActual.le",
+            "in": "query",
+            "description": "You can use this param to specify some date and the responses will contain tasks whose date are less than or equal to the given date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "createdAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are greater than the given tasks created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of tasks that match the given tasks created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are less than the given tasks created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are greater than or equal to the given tasks created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are less than or equal to the given tasks created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are greater than the given tasks updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of tasks that match the given tasks updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are less than the given tasks updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are greater than or equal to the given tasks updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain tasks whose date are less than or equal to the given tasks updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "projectId.eq",
+            "in": "query",
+            "description": "You can use this param to specify some value as project id and the responses will contain exact matches of tasks that match the given value.",
+            "schema": {
+              "type": "number",
+              "example": 10000
+            }
+          },
+          {
+            "name": "phaseId.eq",
+            "in": "query",
+            "description": "You can use this param to specify some value as phase id and the responses will contain exact matches of tasks that match the given value.",
+            "schema": {
+              "type": "number",
+              "example": 10000
+            }
+          },
+          {
+            "name": "taskName.eq",
+            "in": "query",
+            "description": "You can use this param to specify some task name and the responses will contain exact matches of tasks that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Stark Onboarding"
+            }
+          },
+          {
+            "name": "taskName.cn",
+            "in": "query",
+            "description": "You can use this param to specify some task name and the responses will contain matches of tasks that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Stark Onboarding"
+            }
+          },
+          {
+            "name": "taskName.nc",
+            "in": "query",
+            "description": "You can use this param to specify some task name and the responses will not contain matches of tasks that match the given name.",
+            "schema": {
+              "type": "string",
+              "example": "Stark Onboarding"
+            }
+          },
+          {
+            "name": "effortInMinutes.eq",
+            "in": "query",
+            "description": "You can use this param to specify some value as effort and the responses will contain exact matches of tasks that match the given value.",
+            "schema": {
+              "type": "number",
+              "example": 10000
+            }
+          },
+          {
+            "name": "effortInMinutes.gt",
+            "in": "query",
+            "description": "You can use this param to specify some value as effort and the responses will contain exact matches of tasks greater than that of the given value.",
+            "schema": {
+              "type": "number",
+              "example": 10000
+            }
+          },
+          {
+            "name": "effortInMinutes.lt",
+            "in": "query",
+            "description": "You can use this param to specify some value as effort and the responses will contain exact matches of tasks lesser than that of the given value.",
+            "schema": {
+              "type": "number",
+              "example": 10000
+            }
+          },
+          {
+            "name": "progress.eq",
+            "in": "query",
+            "description": "You can use this param to specify some value as progress and the responses will contain exact matches of tasks that match the given value.",
+            "schema": {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number",
+              "example": 55
+            }
+          },
+          {
+            "name": "progress.gt",
+            "in": "query",
+            "description": "You can use this param to specify some value as progress and the responses will contain exact matches of tasks greater than that of the given value.",
+            "schema": {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number",
+              "example": 55
+            }
+          },
+          {
+            "name": "progress.lt",
+            "in": "query",
+            "description": "You can use this param to specify some value as progress and the responses will contain exact matches of tasks lesser than that of the given value.",
+            "schema": {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number",
+              "example": 55
+            }
+          },
+          {
+            "name": "includeArchive.eq",
+            "in": "query",
+            "description": "You can use this parameter to specify whether responses will include the archived tasks.",
+            "schema": {
+              "type": "boolean",
+              "example": false
+            }
+          },
+          {
+            "name": "task.status.eq",
+            "in": "query",
+            "description": "You can use this param to provide status and the responses will contain tasks that are equal to the given status",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "task.status.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide statuses and the responses will contain tasks that  contains the given status",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          },
+          {
+            "name": "task.status.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide statuses and the responses will not contain tasks that are equal to the given status",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          },
+          {
+            "name": "project.status.eq",
+            "in": "query",
+            "description": "You can use this param to provide status of project and the responses will contain tasks whose project's status are equal to the given status",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "project.status.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide statuses of project and the responses will contain tasks whose project's statuses that contains the given status",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          },
+          {
+            "name": "project.status.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide statuses of project and the responses will not contain tasks whose project's statuses are equal to the given status(es)",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          },
+          {
+            "name": "externalReferenceId.eq",
+            "in": "query",
+            "description": "You can use this param to provide external reference id and the responses will contain tasks that are equal to the given id",
+            "schema": {
+              "type": "string",
+              "example": "task_1818910101"
+            }
+          },
+          {
+            "name": "assignee.userId.eq",
+            "in": "query",
+            "description": "You can use this param to provide a comma-separated list of user ids and the responses will contain exact matches of tasks whose assignees match exactly the given set of user ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "assignee.userId.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide a comma-separated list of user ids and the responses will contain tasks that have at least one assignee matching any of the given user ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "assignee.userId.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide a comma-separated list of user ids and the responses will not contain tasks that have assignees matching any of the given user ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseTasks"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "AssigneePublicAPI": {
+        "type": "object",
+        "properties": {
+          "members": {
+            "type": "array",
+            "description": "The list includes both `team members` and `customers` assigned to the task.",
+            "readOnly": true,
+            "items": {
+              "$ref": "#/components/schemas/TaskUserPublicAPI"
+            }
+          },
+          "placeholders": {
+            "type": "array",
+            "description": "The list contains all the placeholders assigned to the task.",
+            "readOnly": true,
+            "items": {
+              "$ref": "#/components/schemas/TaskPlaceholderPublicAPI"
+            }
+          }
+        },
+        "description": "The users who are assigned the responsibility to execute the task. The assignees can be either **members** (team members or customers) or **placeholders**."
+      },
+      "ProjectPublicAPITaskResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "The `project` associated with task."
+      },
+      "RevenueRecognitionPlanPublicResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "type": "integer",
+            "description": "The budget ID associated with this revenue recognition plan",
+            "format": "int64",
+            "example": 101
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "The budget name associated with this revenue recognition plan",
+            "example": "Budget A"
+          },
+          "recognisedPercentage": {
+            "type": "number",
+            "description": "The recognised revenue percentage",
+            "format": "double",
+            "example": 50
+          },
+          "recognisedAmount": {
+            "type": "number",
+            "description": "The recognised revenue amount",
+            "format": "double",
+            "example": 5000
+          }
+        },
+        "description": "This gives the breakdown of all the plans the task is in"
+      },
+      "RoleResponsePublicAPI": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "type": "integer",
+            "description": "The role's unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 101
+          },
+          "roleName": {
+            "type": "string",
+            "description": "The name of the role.",
+            "readOnly": true,
+            "example": "Designer"
+          }
+        },
+        "description": "The role of the member or placeholder to whom allocation is made for",
+        "readOnly": true
+      },
+      "TaskCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the task."
+      },
+      "TaskFieldPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the field.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The label of the field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "object",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an array and it must match the type of the field. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with task.",
+            "readOnly": true,
+            "example": 1000
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Fields lists the custom project fields whose values were provided during project creation or updated later. Refer these [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know more about different types of custom fields returned in response."
+      },
+      "TaskFollowersPublicResponse": {
+        "type": "object",
+        "properties": {
+          "placeholders": {
+            "type": "array",
+            "description": "The list contains all the placeholders following the task.",
+            "readOnly": true,
+            "items": {
+              "$ref": "#/components/schemas/TaskPlaceholderPublicAPI"
+            }
+          },
+          "members": {
+            "type": "array",
+            "description": "The list includes both `team members` and `customers` assigned to the task.",
+            "readOnly": true,
+            "items": {
+              "$ref": "#/components/schemas/TaskUserPublicAPI"
+            }
+          }
+        },
+        "description": "The task followers are the team members who keep track of the execution of the project. It can be either `members` (team members or customers) or `placeholders`."
+      },
+      "TaskPhasePublicLiteAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "phaseId": {
+            "type": "integer",
+            "description": "The unique identifier for the phase.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "phaseName": {
+            "type": "string",
+            "description": "The name of the phase.",
+            "readOnly": true,
+            "example": "Go live"
+          }
+        },
+        "description": "The `phase` associated with the task."
+      },
+      "TaskPlaceholderPublicAPI": {
+        "type": "object",
+        "properties": {
+          "placeholderId": {
+            "type": "integer",
+            "description": "The unique identifier for the placeholder.",
+            "format": "int64",
+            "example": 201
+          },
+          "placeholderName": {
+            "type": "string",
+            "description": "The name of the placeholder.",
+            "readOnly": true,
+            "example": "Customer Success"
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleResponsePublicAPI"
+          }
+        },
+        "description": "The list contains all the placeholders following the task.",
+        "readOnly": true
+      },
+      "TaskPriorityPublicResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value serves as a distinct identification for every priority field’s choice.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 2
+          },
+          "label": {
+            "type": "string",
+            "description": "The label is the name for every priority field’s choice.",
+            "readOnly": true,
+            "example": "High"
+          }
+        },
+        "description": "Determines the level of priority of the task."
+      },
+      "TaskPublicLiteAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "taskName": {
+            "type": "string",
+            "description": "The **name** of the task.",
+            "readOnly": true,
+            "example": "Kick off"
+          }
+        },
+        "description": "The parent task of the task."
+      },
+      "TaskPublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "The budgets associated with this task."
+      },
+      "TaskPublicTimeEntryCategoryResponse": {
+        "type": "object",
+        "properties": {
+          "categoryId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique Identifier of the category in which the task's time entry is added.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "categoryName": {
+            "type": "string",
+            "description": "Category Name in which the task's time entry is added.",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "The category in which the task's time entry is added."
+      },
+      "TaskStatusPublicResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The value of the status field is the unique identifier for status fields.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 2
+          },
+          "label": {
+            "type": "string",
+            "description": "The label is the name of the status.",
+            "readOnly": true,
+            "example": "In progress"
+          }
+        },
+        "description": "The task status value and the label. v 10, l xyz."
+      },
+      "TaskUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The list includes both `team members` and `customers` assigned to the task.",
+        "readOnly": true
+      },
+      "ExampleAPIResponseTasks": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/TaskPublicResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationTasks"
+          }
+        }
+      },
+      "ExamplePaginationTasks": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/tasks?includeFields=category,minutes&billable.eq=false&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100&assignee.any=1&startDate.gt=2022-01-02"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "TaskPublicResponseForExample": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "taskName": {
+            "type": "string",
+            "description": "The **name** of the task.",
+            "example": "Kick off"
+          },
+          "taskDescription": {
+            "type": "string",
+            "description": "The `description` of the task. The description body needs to be in **html** format to avoid any formatting issues in the application.",
+            "example": "<p>Schedule Kick off meeting with the stakeholders involved.</p>"
+          },
+          "startDate": {
+            "type": "string",
+            "description": "The date when a task starts its execution. It can be empty. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDate": {
+            "type": "string",
+            "description": "The date when a task completes its execution. It can be empty. If both `startDate` and `dueDate` are specified for a given task, it is necessary that the latter should be on or after the given `startDate`. The format for the due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "archived": {
+            "type": "boolean",
+            "description": "The field `archived` denotes whether the task is archived or not. The task if archived will not be available in all search requests.",
+            "example": false
+          },
+          "effortInMinutes": {
+            "type": "integer",
+            "description": "The effort is the expected time required to complete the task. The value is determined in minutes.",
+            "format": "int32",
+            "example": 3000
+          },
+          "progress": {
+            "type": "integer",
+            "description": "The task's progress, if indicated, will be available here and ranges in value from 0 to 100. The task's status can be used in place of this field, however progress can offer more precise data.",
+            "format": "int32",
+            "example": 50
+          },
+          "atRisk": {
+            "type": "boolean",
+            "description": "Indicates whether the task has been marked as At Risk. This parameter is used to indicate that immediate action is necessary to unblock the task's execution.",
+            "example": true
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the task was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the task was last updated. Any changes that's related to the task are captured and specified here in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/TaskCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/TaskCreatedByUserPublicAPI"
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPITaskResponseEntity"
+          },
+          "status": {
+            "$ref": "#/components/schemas/TaskStatusPublicResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Fields lists the custom project fields whose values were provided during project creation or updated later. Refer these [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know more about different types of custom fields returned in response.",
+            "items": {
+              "$ref": "#/components/schemas/TaskFieldPublicResponseAPIEntity"
+            }
+          },
+          "revenueRecognitionTask": {
+            "type": "boolean",
+            "description": "This depicts if the task is part of a milestone revenue recognition plan or not. "
+          },
+          "revenueRecognitionDetails": {
+            "type": "array",
+            "description": "This gives the breakdown of all the plans the task is in",
+            "items": {
+              "$ref": "#/components/schemas/RevenueRecognitionPlanPublicResponse"
+            }
+          },
+          "revRecRecognisedPercentage": {
+            "type": "number",
+            "description": "The recognised revenue percentage (only when multi-line budgets is not enabled)",
+            "format": "double",
+            "example": 50
+          },
+          "revRecRecognisedAmount": {
+            "type": "number",
+            "description": "The recognised revenue amount (only when multi-line budgets is not enabled)",
+            "format": "double",
+            "example": 5000
+          },
+          "totalAllocatedMins": {
+            "type": "integer",
+            "description": "Total allocated minutes for this task",
+            "format": "int64",
+            "example": 2430
+          },
+          "startDateActual": {
+            "type": "string",
+            "description": "The date on which the task status is changed to **In Progress**. The status can be either the default (**In Progress**) status or a custom status that is categorized as **In Progress**. It can be null for tasks that have not yet begun. The format for the actual start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "dueDateActual": {
+            "type": "string",
+            "description": "The date on which the task status is changed to **Completed**. The status can be either the default status **Completed** or a custom status that is categorized as **Completed**. It will be null if the task is yet to be completed. The format for the actual due date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "type": {
+            "type": "string",
+            "description": "The type of the task if specified will be available here. There are two options: `MILESTONE` or `TASK`. If a task is not explicitly marked as a milestone, it takes the default value as `TASK`. Milestones refer to critical tasks in the project that include an inbuilt CSAT capability that allows customers to offer CSAT evaluations depending on the task's execution.",
+            "example": "MILESTONE",
+            "enum": [
+              "TASK",
+              "MILESTONE"
+            ]
+          },
+          "phase": {
+            "$ref": "#/components/schemas/TaskPhasePublicLiteAPIResponseEntity"
+          },
+          "assignees": {
+            "$ref": "#/components/schemas/AssigneePublicAPI"
+          },
+          "followers": {
+            "$ref": "#/components/schemas/TaskFollowersPublicResponse"
+          },
+          "dependencies": {
+            "type": "array",
+            "description": "Task Dependencies allow you to define relationships between tasks that are dependent on each other.\nNote: Rocketlane allows you to have finish to start task dependencies. This means that dependent tasks are meant to start after the dependencies are marked as Complete.",
+            "items": {
+              "$ref": "#/components/schemas/TaskPublicLiteAPIResponseEntity"
+            }
+          },
+          "parent": {
+            "$ref": "#/components/schemas/TaskPublicLiteAPIResponseEntity"
+          },
+          "externalReferenceId": {
+            "type": "string",
+            "description": "An externalReferenceId is a unique identifier that links entities or transactions between external systems and Rocketlane, ensuring accurate data correlation and consistency.",
+            "readOnly": true,
+            "example": "task_8171"
+          },
+          "billable": {
+            "type": "boolean",
+            "description": "Indicates whether the task is billable or non billable.",
+            "example": true
+          },
+          "timeEntryCategory": {
+            "$ref": "#/components/schemas/TaskPublicTimeEntryCategoryResponse"
+          },
+          "budgets": {
+            "type": "array",
+            "description": "The budgets associated with this task.",
+            "items": {
+              "$ref": "#/components/schemas/TaskPublicProjectFinancialsBudgetResponse"
+            }
+          },
+          "csatEnabled": {
+            "type": "boolean",
+            "description": "In case of milestone tasks, this field determines if a CSAT survey will be sent out on completion of the task"
+          },
+          "priority": {
+            "$ref": "#/components/schemas/TaskPriorityPublicResponse"
+          },
+          "taskPrivateNote": {
+            "type": "string",
+            "description": "The `privateNote` for the task is intended exclusively for team members. The note's content should be in `HTML` format to prevent any formatting issues in the application."
+          },
+          "private": {
+            "type": "boolean",
+            "description": "This depicts if the task is private or not.",
+            "example": false
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

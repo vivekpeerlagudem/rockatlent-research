@@ -1,0 +1,259 @@
+TITLE: Turn Customer Form Submissions into Immediate Action : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755348-turn-customer-form-submissions-into-immediate-action
+
+Turn Customer Form Submissions into Immediate Action : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Turn Customer Form Submissions into Immediate Action
+
+Turn Customer Form Submissions into Immediate Action
+
+Created by Advaith R, Modified on Wed, 5 Aug at 7:11 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Automating CSAT Score Updates From Form Responses
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Auto Invite Customer Champion on Project Creation
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Embedding Calendly Links in Rocketlane
+
+Turn Customer Form Submissions into Immediate Action
+
+No article available
+
+Customer form responses often provide the information teams need to continue onboarding, complete configurations, approve requests, or begin the next stage of a project. When team members must manually check individual projects for new responses, important submissions can go unnoticed and delay the work that follows.
+You can create a form automation that notifies the appropriate internal team members as soon as a customer submits a response. The email can alert recipients to review the form in Rocketlane or include selected response data directly, helping teams act on customer inputs sooner and maintain consistent handoffs across projects.
+In this article
+
+What this workflow helps you achieve
+
+How it works
+
+Before you begin
+
+Step 1: Map form questions to fields
+
+Step 2: Add an automation to the form
+
+Step 3: Configure the email action
+
+Example
+
+What this workflow helps you achieve
+This workflow helps teams:
+
+Respond to customer submissions without waiting for someone to check the project.
+
+Route form completions to the team members responsible for the next step.
+
+Reduce delays caused by missed or unnoticed responses.
+
+Include important customer information directly in the notification email.
+
+Apply a consistent follow-up process across projects created from the same template.
+
+How it works
+The automation uses New form response as the trigger and Send email as the action.
+You can configure the email in two ways:
+Email type How it works
+Completion notification The recipient receives an email confirming that the form was submitted and can open Rocketlane to review the responses.
+Email containing response data Form questions are mapped to project or task fields. The mapped fields are then added to the email using SmartFill.
+Note SmartFill cannot directly reference individual form question responses. To include a response in the email, map the form question to a corresponding project or task field.
+
+Before you begin
+Ensure that:
+
+The form has been added to the relevant project template.
+
+The internal recipient who should receive the email has been identified.
+
+Any responses that must appear in the email are mapped to project or task fields.
+If the email only needs to notify the recipient that the form was completed, field mapping is not required.
+
+Step 1: Map form questions to fields
+Complete this step only if the email needs to contain the submitted responses.
+
+Go to Templates .
+
+Open the relevant project template.
+
+Add Form task and select the form.
+
+Open the form question whose response should appear in the email.
+
+Map the question to the appropriate project or task field (in its Form template).
+
+Repeat this process for each response you want to include.
+
+Save the form.
+When the customer submits the form, the submitted values are automatically added to the mapped fields.
+Note Create or identify the required project and task fields before mapping the form questions.
+
+Step 2: Add an automation to the form
+
+From the project template.
+
+Select the relevant form.
+
+Click Add Automation > Blank State .
+
+Select New form response as the trigger.
+The automation will run whenever a customer submits a new response to that form.
+
+Step 3: Configure the email action
+
+Add Send email as the automation action.
+
+Select the internal team member or members who should receive the email.
+
+Enter the email subject and message.
+
+If required, use SmartFill {{ to add the mapped project or task fields to the email body.
+
+Save the automation.
+For a simple completion notification, the email can inform the recipient that the form was submitted and ask them to open the project to review it.
+If the email must contain response data, add the corresponding mapped fields through SmartFill.
+
+Example
+A customer submits an onboarding form containing the following questions:
+
+Preferred launch date
+
+Primary contact
+
+Implementation requirements
+Each question is mapped to a corresponding project field. The email automation then uses SmartFill to include those project fields in the message.
+The internal recipient could receive an email similar to:
+Subject: Onboarding form submitted for [Project Name]
+The onboarding form has been submitted.
+
+Preferred launch date: [Launch Date]
+
+Primary contact: [Primary Contact]
+
+Implementation requirements: [Requirements]
+Open the project in Rocketlane to review the complete response.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Report on Form Responses in Rocketlane
+
+Introduction to Automations
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,203 @@
+TITLE: How to set up automations to all projects, phases and tasks? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000722962-setting-up-global-automations
+
+How to set up automations to all projects, phases and tasks? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Setting up Global automations
+
+Setting up Global automations
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 7:50 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Automations
+
+Setting up Global automations
+
+Setting up Template automations
+
+What are saved automations and how to use them?
+
+Automation Pricing
+
+How to automate project workflows with HTTPS requests
+
+How to set schedules using Automations?
+
+Automation Logs in Rocketlane
+
+No article available
+
+When establishing workflows, you face a choice between applying the workflow universally to all projects or tailoring it for particular projects. Workflows that are applicable across all projects can be configured as global automations. On the other hand, workflows designed for specific project types can be established as templates from which these specialized projects are created.
+In this article
+
+Setting up global automations
+
+Creating an automation rule
+
+Rearrange and delete actions
+
+Working with action blocks
+
+Short on time? Watch the video below.
+
+Setting up global automations
+To set up global automations:
+
+Navigate to your avatar and click Settings .
+
+Scroll down to the Advanced section.
+
+Select Automations .
+
+Select the New automation button.
+
+Click Blank slate .
+
+Creating an automation rule
+Follow the steps below to create an automation rule.
+Name the rule: Add a clear name for the automation rule so it is easy to identify later.
+Trigger this rule on: Select the type of trigger that should fire the rule. The automation rule can be triggered on a project, phase, or task.
+Choose a trigger: Based on the type of trigger you choose, the list of available triggers will appear on the right. Choose the required trigger from the list.
+Action block 1: An action block consists of conditions and actions.
+Add condition: Click to add conditions. In the pop-up, choose the matching condition as All or Any .
+Next, add one or more condition filters and click Save .
+Add an action: To add an action, click the button and specify what the system should do based on the rule. This can include updating project status and fields, including any custom fields you may have created.
+Note You can add more than one action that needs to be performed by the rule.
+
+Rearrange and delete actions
+
+You can rearrange actions inside an action block using the sort icon.
+
+Click the cross mark to delete any action.
+
+Working with action blocks
+Action block 2: You can have more than one action block set up for an automation rule and use one rule to perform a set of actions if the predefined conditions are met.
+Note Action blocks are executed linearly, meaning each action block is processed one after the other. If any action block encounters errors or exceptions, it might affect the subsequent blocks.
+
+Under More actions :
+
+Click the three dots near the action block.
+
+Choose to duplicate and edit an action block.
+
+Click Delete to delete an action block.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Introduction to Automations
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+Automations that run on form triggers
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,20 @@
+---
+updatedAt: 2025-06-03T20:46:57.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Overview
+
+Webhooks in Rocketlane provide a powerful mechanism for real-time communication and data synchronisation between Rocketlane and any external systems. By leveraging webhooks, users can receive instant notifications about various events occurring within Rocketlane, enabling seamless integration with third-party tools, automations, and custom workflows.
+
+## Key Features
+
+* ### Event-driven Notifications
+  Rocketlane webhooks are triggered by specific events, such as task updates, project changes, or user actions. This event-driven model ensures that external systems are notified precisely when relevant activities occur.
+* ### Secure Payloads
+  Rocketlane webhooks use only HTTPS so that communication with the external system is always secure. Payloads can further be secured using authentication mechanisms, ensuring that the the recipient server is able to authenticate and authorize the webhooks requests.
+* ### Easy Integration
+  Rocketlane's webhook system is designed for ease of integration. Users can set up and manage webhooks through the Rocketlane interface, configuring the external endpoints to receive notifications.
+* ### Real-time Updates
+  Webhooks enable real-time updates, eliminating the need for polling or periodic checks. External systems receive information instantly when a relevant event occurs within Rocketlane.

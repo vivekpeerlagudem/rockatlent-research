@@ -1,0 +1,377 @@
+TITLE: Streamline Account Management with Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000734659-setting-up-and-managing-accounts
+
+Streamline Account Management with Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Accounts
+Setting up and managing Accounts
+
+Setting up and managing Accounts
+
+Created by Monica Madan, Modified on Fri, 3 Jan, 2025 at 2:15 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting up and managing Accounts
+
+Merging Duplicate Accounts in Rocketlane
+
+No article available
+
+Rocketlane's account management provides your post sales team with insights into your clients’ sentiment, health, and profitability, all in one place. You no longer need to scramble across different platforms; everything you need to drive your business forward is at your fingertips.
+
+But that's not all. Rocketlane allows you to navigate the complex network of stakeholders within your clients' organizations easily. You can quickly identify key decision-makers, seize opportunities for upselling and cross-selling with precision, and save valuable time by engaging with the right people from the start.
+
+Moreover, You get a comprehensive view of your history with your clients, including previous implementations, service nuances, and product intricacies. It enables you to anticipate your clients' needs, exceed their expectations, and build unbreakable trust and loyalty.
+
+With Rocketlane's account management, you can craft conversations with precision, driven by clearly defined goals for both your clients' success and your company's growth. Say goodbye to uphill battles and hello to seamless progress with Rocketlane.
+
+In this article
+
+Setup Account and note fields
+
+Adding account fields
+
+Create a new account
+
+Accounts view
+
+Board view of your accounts portfolio
+
+List view of your Account portfolio
+
+What happens when you click on an account?
+
+Accounts summary
+Overview
+
+People
+
+Engagement
+
+Financials
+
+Files
+
+How to follow an account
+
+Sync account fields and notes with Salesforce
+
+Setup Account and note fields
+To effectively understand your customers and their accounts, it's recommended to include various details in your account fields during both the creation and management phases. This can be achieved by gathering and documenting key information when setting up an account, for example adding the customer's "company size," as an account field helps categorize them into the appropriate tier.
+
+Another example is, identifying the "account owner," who is typically responsible for managing the customer relationship, crucial for effective account management. Overall, incorporating these details into your account fields can enhance your understanding of your customers and their accounts, leading to more effective and personalized interactions.
+
+A wide range of information can be included as fields, such as joining dates, reporting managers, and ID numbers. To effectively manage and organize this information, several field types can be utilized with ease.
+
+Text
+A single-line text field where users can type the details.
+
+Multiline
+A paragraph field that lets users type in length
+
+Number
+Lets users add numbers like employee id
+
+Yes/No
+Is a either/or field
+
+Date
+Lets users add dates like the joining date of the employees
+
+Single choice
+Lets users one option from multiple choices
+
+Multiple choice
+Lets users select as many relevant options from the available choices
+
+Single user
+Lets users map the team member to another user like their manager
+
+Multiple user
+
+Lets users to map the team member to multiple other users like reportees.
+
+Notes
+Lets you create multiline notes related to projects, customer meetings and so on.
+
+Adding account fields
+
+To add account fields,
+
+Login as an admin and navigate to your profile icon
+
+Select settings and scroll down to the Fields section
+
+Select Account fields and click on New field
+
+A New team member field pane will appear on the screen, for you to add the necessary details
+
+Give the field a relevant name, for example, company size
+
+Select the relevant Field type. For company size, the field type can be Number
+
+Add a description, that would act like a tooltip for the users to understand what information needs to go into the field
+
+After adding the necessary details, click save
+
+To keep all the important information about your customers organized and easily accessible, you can group their fields into sections.
+
+You can drag and drop existing team fields into the new section
+
+Create a new field and map it to the section of choice.
+
+You have the option to include these account fields either during the creation of a new account or within the accounts summary section.
+
+Here is how a note field looks like:
+
+Note: You can add tags to the notes field to easily filter and categorize them.
+
+Create a new account
+You can seamlessly add customer information and set up new accounts, ensuring all their essential details are securely stored in one centralized location. From account ownership to website details, logo, and even custom fields tailored to your specific needs, Rocketlane empowers you to maintain comprehensive records with ease.
+
+To get started:
+
+Navigate to " Accounts " on the left navigation bar.
+
+Click the " New Account " button to begin adding the account details.
+
+Assign an account manager or designate the customer success team as the account owner .
+
+Fill the necessary account fields
+
+Click " Save " to create a new account for your customer.
+
+Note: You can also create a new account by simply adding the customer information while creating a project. You can update the account details like name, website etc; at any time by going to: Accounts > Select an account > Settings (Gear icon) .
+
+Accounts view
+You have the option to view your accounts in either a detailed list or a board view, allowing you to group and review them based on different factors like health, stage, and renewal dates. Furthermore, when you open an account, you can easily access all the relevant information associated with that account. Let's dive deeper into this feature.
+
+Filter accounts: You can filter accounts based on conditions like ARR, account owner and view the results grouped based on health of the account. For example, if you wish to view accounts that are of ARR $50k with the account owner as Paul, and view them based on the status of their health, you can do so and save the view as private or shared.
+
+Search accounts : You can also use the search icon to search for specific accounts.
+
+Board view of your accounts portfolio
+Board view is particularly helpful when you need to run meetings or stand-ups to discuss account health or accounts in various lifecycle stages, where you can organize and group the accounts based on various factors like account owner, account stage and so on.
+
+List view of your Account portfolio
+The accounts list view displays a comprehensive list of all accounts in your system, providing key account information at a glance. Clicking on any account takes you to the account summary page, offering a hyper-personalized view of your customer's information, including projects, engagements, portfolio, and more details discussed in the account summary section.
+
+Note: Adding notes is effortless from the list view. Simply click on the notes section, and a notes drawer will appear, allowing you to add your notes directly.
+
+What happens when you click on an account?
+When you click on an account, you'll see a concise summary featuring essential information about the account. This includes any important notes that have been pinned, any notes specifically related to the account, a timeline view of recent activities, updates on ongoing projects sent out to the customer, and a comprehensive list of all projects you're managing for that customer.
+
+When you click on “view all” for any of these sections, you will be taken to the account summary page of the account. You can also simply click on the project name and be taken to the summary page.
+
+Accounts summary
+The account summary page provides a comprehensive overview of all activities within your account, offering a 360-degree perspective on your business interactions with the customer. It showcases how you manage their projects, deliver value through updates, and engage with them effectively. Additionally, it facilitates understanding of key collaborators from the customer's side through an organized org tree, enabling quick access for various types of engagement, from follow-ups on tasks to identifying upselling opportunities.
+
+Let’s go over these sections one by one.
+
+Overview
+The overview section offers a comprehensive summary of your account information. Here, you can personalize your dashboard by adding account details as widgets, jotting down notes, and accessing project updates. It's your hub for updates, new implementations, and gauging sentiment, providing centralized context.
+
+Account fields : You have a plethora of customer information that you can either add directly by clicking on the field, or sync with your CRM and Rocketlane to import and export fields seamlessly.
+
+Account info : Customize your dashboard to reflect account health, ownership, revenue, and more by adding widgets to the account info section for a quick overview of your account's status.
+
+Recent engagements : Keep track of all notes taken during various interactions like QBRs, steering committee meetings, or daily stand-ups.
+
+Add notes : Simply click the "add note" button to jot down notes, map them to specific account fields, and add tags for easy organization and retrieval.
+
+Pinned notes : Highlight the most important or recent notes by pinning them to the top for easy access. Click the three dots near the note to pin notes.
+
+Recent activities : Review all updates made to projects and individuals associated with the account, providing a timeline of activities. Click on "view all" for a detailed overview of engagement history.
+
+Project updates : Access and verify all updates sent to customers as part of project progress. Click on "view all" for a comprehensive overview of all updates sent to customers.
+
+Projects : Gain insight into all current and past projects undertaken for the customer. Click "view all" for a detailed overview of all customer projects in project view.
+
+People
+This section provides a detailed roster of all customer team members, highlighting their roles within their organization and their impact on the project. What sets this apart is the ability to create an organizational tree using Rocketlane. This feature allows you to visualize the hierarchy within the customer's company, making it easier to identify key decision-makers. Armed with this knowledge, you can initiate tailored conversations and engagements, opening doors to strategic expansion opportunities.
+
+List View : Displays customer team members associated with the account. Customize roles, contact types, and establish hierarchy by assigning team members as reportees or managers.
+
+Org Tree : Switch to org tree view to visualize customer team hierarchy. Create or edit the org tree, selecting team members linked to projects. Define hierarchy by assigning team members as reportees or managers.
+
+Engagement
+
+This section encompasses all interactions with the account, such as task creation, note-taking, and project updates. It arranges these activities in reverse chronological order, making it easy to access the latest updates first.
+
+Timeline : Provides a chronological list of every update, change, and engagement within the customer's account, with the most recent events displayed first.
+
+Notes: Offers a comprehensive list of all notes recorded for the customer's account, categorized into sections like CSM notes and project notes. You can also start adding notes directly from this section.
+
+Projects
+Displays all projects undertaken for the customer, allowing you to click on any project to access its details.
+
+Project Updates
+Presents a list of all updates sent to the customer regarding their projects. Clicking on an update opens a drawer containing the detailed information sent to the customer.
+
+Financials
+Gain access to a tailored financial portfolio for each client, offering invaluable insights into your business relationships. This feature provides a comprehensive snapshot of your completed projects, including details such as costs, profits, revenues, margins, and total hours invested for the client. By reviewing financials and project hours for each client, you can find lucrative opportunities, tailor your business strategy, and address client concerns.
+
+Files
+A central space for you to find all important customer files sorted into folders for easy access collected from various projects run for the customer, you can search and find important ones here. To add files to projects, simply click "add files" and you'll be redirected to the project to upload them. Additionally, pinning files allows for quicker access to important information without the need for extensive searching.
+
+How to follow an account
+To begin following an account and receive notifications for its activities, simply click on the "follow" icon.
+
+Who can follow an account?
+
+All project members associated with the customer account are automatically added as followers.
+
+If you click on the follow icon and choose to follow the account.
+
+If you work on the account, such as updating account fields or adding notes, you will automatically become a follower.
+
+Sync account fields and notes with Salesforce
+
+You can now sync your Salesforce object fields with Rocketlane account fields, enabling seamless transfer and mapping of information between the two platforms.
+
+Example Scenarios
+
+Sync the Rocketlane account field "account ARR" with the Salesforce object field "Revenue" under the Accounts or Opportunity object.
+
+Sync the Rocketlane project field "Project completion date" with the "last project completion date" in Salesforce.
+
+How to Sync Fields
+
+Navigate to your Salesforce integration and go to the field sync section.
+
+Select the Rocketlane field you wish to sync and map it to the corresponding Salesforce object field.
+
+Enable one-way or two-way sync to save the changes.
+
+Syncing Notes
+To sync Rocketlane account notes with Salesforce:
+
+Ensure that notes are enabled in your Salesforce account and added to your page layout.
+
+In the Salesforce field sync page, select either enhanced or legacy notes.
+
+Enable two-way sync with Rocketlane account notes so that all new notes are created in both Salesforce and Rocketlane.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+Approval workflow for Invoices
+
+How to Manage Task Dependencies?
+
+Automation Pricing
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

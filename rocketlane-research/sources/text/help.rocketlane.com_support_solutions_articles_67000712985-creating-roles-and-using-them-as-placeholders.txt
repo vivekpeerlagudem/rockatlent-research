@@ -1,0 +1,164 @@
+TITLE: Creating roles and using them as placeholders : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000712985-creating-roles-and-using-them-as-placeholders
+
+Creating roles and using them as placeholders : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Creating roles and using them as placeholders
+
+Creating roles and using them as placeholders
+
+Created by Monica Madan, Modified on Wed, 22 Jul at 7:03 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Inviting Your Team to your Rocketlane Account
+
+Setting up team member fields
+
+Creating roles and using them as placeholders
+
+How to understand and manage deactivated user behaviour
+
+No article available
+
+In any company, team members are assigned tasks according to their skills, which defines their role in the organization. You can easily create these roles and assign the corresponding roles to your team members while inviting them to Rocketlane. You can also create roles for your customers who you will collaborate with on the project.
+When creating a project, you can use roles as temporary placeholders if you're unsure who will handle a task. This allows you to add a placeholder for a team member or a customer and later replace it with the actual person who will work on the project.
+For instance, if you're undecided about which team member will create the design for a website, you can add the placeholder role of "Designer" during project creation. Later on, when you know which team member from the design team will take on the task, you can replace "Designer" with their name.
+Short of time to read the article? Watch video here
+
+Create a Role
+To create a role,
+
+Log in as an admin or super user and navigate to your profile icon .
+
+Click on Settings and select Roles and Placeholders under the account section.
+
+Click on New role+ .
+
+In the new role task pane, select the type of role as team member or customer .
+
+Enter the role name as you wish, like “creative designer”.
+
+Check the box near Use as placeholder if you can assume this role during project creation.
+
+Click Save to create a role.
+
+You can switch between the Team members and Customer tabs to view the roles under each category.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Create and Manage Placeholders?
+
+Setup Best Practices for Rocketlane Admins
+
+Using Skills Matrix to Assign Skills to Projects
+
+How to allocate resources as percentage of capacity
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

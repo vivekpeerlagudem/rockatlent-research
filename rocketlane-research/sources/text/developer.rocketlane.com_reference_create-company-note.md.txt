@@ -1,0 +1,376 @@
+---
+updatedAt: 2026-08-03T08:41:00.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Create a note for a company
+
+Creates a note on a NOTE-type custom field for a company.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Companies",
+      "description": "Endpoints for the companies resource. Companies can have multiple addresses (see Addresses API; filter with companyId.eq). Company notes are managed via POST /1.0/companies/{companyId}/add-notes or included on create/update."
+    }
+  ],
+  "paths": {
+    "/1.0/companies/{companyId}/add-notes": {
+      "post": {
+        "tags": [
+          "Companies"
+        ],
+        "summary": "Create a note for a company",
+        "description": "Creates a note on a NOTE-type custom field for a company.",
+        "operationId": "create-company-note",
+        "parameters": [
+          {
+            "name": "companyId",
+            "in": "path",
+            "description": "The company's unique, system-generated identifier, which can be used to identify the company globally.",
+            "required": true,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            },
+            "example": 200
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyNoteCreateRequestAPIEntity"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "The resource was successfully created in the database.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompanyNotePublicResponseAPIEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "This error denotes that there is an error that occured within our servers. The response body could help narrow down the cause for the error by our support team.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/serverErrorErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "Example500": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "SERVER_ERROR"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Server Error: Something went wrong on our end. Could not perform the requested action."
+          }
+        }
+      },
+      "serverErrorErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example500"
+            }
+          }
+        }
+      },
+      "CompanyNotePublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "noteId": {
+            "type": "integer",
+            "description": "Unique identifier of the note.",
+            "format": "int64",
+            "example": 1
+          },
+          "fieldId": {
+            "type": "integer",
+            "description": "ID of the note-type custom field this note belongs to.",
+            "format": "int64",
+            "example": 44
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "Display name of the note-type field.",
+            "example": "Account Notes"
+          },
+          "noteTitle": {
+            "type": "string",
+            "description": "Optional title of the note.",
+            "example": "Q1 Planning Discussion"
+          },
+          "noteText": {
+            "type": "string",
+            "description": "Plain text content of the note.",
+            "example": "Initial contact: discussed Q1 roadmap and pricing"
+          },
+          "tags": {
+            "type": "array",
+            "description": "Tags selected for this note, resolved from the field's tag options.",
+            "items": {
+              "$ref": "#/components/schemas/CompanyNoteTagPublicResponseEntity"
+            }
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds when the note was created.",
+            "format": "int64",
+            "example": 1750343334605
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds when the note was last updated.",
+            "format": "int64",
+            "example": 1750343334570
+          }
+        },
+        "description": "Note on a company note-type custom field. Returned when includeFields=notes is specified."
+      },
+      "CompanyNoteTagPublicResponseEntity": {
+        "type": "object",
+        "properties": {
+          "tagId": {
+            "type": "integer",
+            "description": "The unique identifier of the tag",
+            "format": "int64",
+            "example": 1
+          },
+          "label": {
+            "type": "string",
+            "description": "The display label of the tag",
+            "example": "sales"
+          },
+          "color": {
+            "type": "string",
+            "description": "The color associated with the tag",
+            "example": "blue"
+          }
+        },
+        "description": "Tags selected for this note, resolved from the field's tag options."
+      },
+      "CompanyNoteCreateRequestAPIEntity": {
+        "required": [
+          "fieldId",
+          "noteText"
+        ],
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "type": "integer",
+            "description": "ID of the note-type field this note belongs to.",
+            "format": "int64",
+            "example": 44
+          },
+          "noteTitle": {
+            "type": "string",
+            "description": "Optional title for the note.",
+            "example": "Q1 Planning Discussion"
+          },
+          "noteText": {
+            "type": "string",
+            "description": "Plain text content of the note.",
+            "example": "This is a note"
+          },
+          "tagIds": {
+            "type": "array",
+            "description": "Optional tag IDs from the field's available tag options.",
+            "example": [
+              1,
+              2
+            ],
+            "items": {
+              "type": "integer",
+              "description": "Optional tag IDs from the field's available tag options.",
+              "format": "int64"
+            }
+          }
+        },
+        "description": "Request to create a note on a company note-type custom field. Use POST /1.0/companies/{companyId}/add-notes, or include in POST /1.0/companies. fieldId must reference a NOTE-type field (GET /1.0/fields). tagIds are optional."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

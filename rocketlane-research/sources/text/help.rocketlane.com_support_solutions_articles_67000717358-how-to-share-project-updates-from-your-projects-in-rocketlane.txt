@@ -1,0 +1,207 @@
+TITLE: How to Share Project Updates from your Projects in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000717358-how-to-share-project-updates-from-your-projects-in-rocketlane
+
+How to Share Project Updates from your Projects in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Share Project Updates from your Projects in Rocketlane
+
+How to Share Project Updates from your Projects in Rocketlane
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:37 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Share Project Updates from your Projects in Rocketlane
+
+No article available
+
+In this article
+
+How to add a Project Update to a Project in Rocketlane
+
+Customising Project Updates from your Projects
+
+Adding Dynamic Sections and Formatting the Text in your Project Updates
+
+Adding Custom Task Sections to your Project Updates
+
+Adding Collaborators and the Conversations Section
+
+How to Publish a Project Update
+
+With Project Updates, you can deliver regular updates about your project to keep your team on track. These updates include task-related information and the status of the project.
+Stakeholders can identify and keep a tab on the project's tasks, milestones, and approvals by receiving updates at regular intervals. Sharing Project Updates can help you identify bottlenecks early, prevent them, and identify where the team is running ahead of time so you can shift project timelines accordingly.
+Project Updates help you automate the process of keeping all team members in a project updated. You can customise your updates according to what you want to focus on. You can choose from a range of dynamic sections to share the project's tasks, milestones, and approvals.
+You can choose the team members who will receive updates, and the update will be shared via email to their registered email IDs. The data for the dynamic sections will be auto-populated according to your project.
+
+How to add a Project Update to a Project in Rocketlane
+
+Go to Projects and select the project that you want to add the Project Update for. Click the Project Updates tab to add a new update, edit draft updates, or view sent updates.
+
+You can view All , Sent , and Draft Project Updates from this page.
+
+Click New update to add a new Shared Project Update .
+
+To add a new Private Project Update , click the dropdown arrow and select New Private update .
+
+The following are the ways in which you can add a shared or private Project Update to your projects in Rocketlane:
+
+Create a Project Update from scratch using a blank Project Update.
+
+Add a Project Update template.
+
+Note Private Project Updates are only visible to your organisation's team.
+
+Customising Project Updates from your Projects
+The Project Update panel is structured in an email-like layout to help you better visualise and customise your Project Updates. You can edit the Project Updates from this panel before sending them out.
+You can edit the following sections for customising your Project Update email:
+Section Description
+Subject Add the subject line for the Project Update email that will be sent out.
+To Select the recipients of the project update. The default selection is All project members , which includes team members from your team and your customer's team for a shared Project Update. For a private Project Update, it includes only your team. You can use the edit button to choose team members explicitly from the drop-down menu.
+CC Add email addresses of stakeholders who have not been added to the project. You can use this option to share project updates with them. You can also invite these people to the project before sending the Project Update. This step is optional.
+Add Status Choose whether to include the current status of your project in the Project Update. This is optional. Choose from On track , Ahead of time , Running late , and At risk .
+
+Adding Dynamic Sections and Formatting the Text in your Project Updates
+By adding your own text and dragging and dropping sections from the Highlights panel on the right, you can customise the information shared in the body of your Project Updates.
+The sections in the Highlights panel include Tasks , Milestones , and Approvals . These sections get dynamically populated based on the filters that you apply to each section.
+These filters let you choose tasks, milestones, and approvals based on their status and time period.
+For example, to share updates about upcoming tasks for the next two weeks, you can customise the Tasks section by selecting Upcoming in the next two weeks .
+You can drag and drop this section into the document after customising it. You can do the same for Milestones and Approvals .
+Basic formatting options are available for editing the content in the Project Update, including headings, formatting styles, text colour, bullets, and numbering. You can also add images and tables in the message as part of the Project Update email.
+You can share supporting files by adding attachments to the Project Update email as well.
+You can delete the Project Update draft by clicking the Delete button from the toolbar at the bottom of the screen.
+
+Adding Custom Task Sections to your Project Updates
+With the Add tasks option in Project Updates, you can choose whether to add existing tasks from your project or create new tasks in the project. Based on the criteria you want to group them by, you can create a custom task section.
+Place the cursor where you want to add the task section and click Add tasks from the toolbar at the bottom of the panel.
+An untitled task section will be added where the cursor was placed. You can choose to either add an existing task or create a new task in the project from this task section itself.
+You can rename the new task section. After adding tasks to a task section, you can update the assignees and due dates of the tasks.
+
+Adding Collaborators and the Conversations Section
+By adding collaborators to your Project Update, you can invite them to collaborate on your Project Update drafts. This dropdown will show you the list of team members from both your team and your customer's team in case of a shared Project Update.
+The Conversations section can be accessed by clicking the conversations icon from the navigation bar on the right.
+If you mention any team member in the Conversations section, you will be asked if they can be added as a collaborator, as only collaborators can view your drafts.
+
+How to Publish a Project Update
+A Project Update can be published by clicking the Send button from the toolbar at the bottom of the panel.
+The following screenshot shows how a Project Update email looks.
+You can click the Open Project update button to view the Project Update in your Rocketlane instance and view the tasks mentioned in the update.
+Whenever someone responds to the Project Update email, the message is added to the Conversations section in the Project Update.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to get started with Rocketlane's Integration for Slack?
+
+How to Create a New Blank Rocketlane Doc?
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+Client Partners in Rocketlane:
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

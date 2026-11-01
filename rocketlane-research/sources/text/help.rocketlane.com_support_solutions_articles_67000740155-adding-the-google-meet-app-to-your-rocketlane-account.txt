@@ -1,0 +1,416 @@
+TITLE: Adding the Google Meet app to your Rocketlane account : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740155-adding-the-google-meet-app-to-your-rocketlane-account
+
+Adding the Google Meet app to your Rocketlane account : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Adding the Google Meet app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Created by Advaith R, Modified on Tue, 18 Aug at 7:30 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+Connect Google Meet to Rocketlane to bring eligible Google Meet recordings and transcripts into Meeting Intelligence. Captured meetings can be accessed from meeting pages and used with features such as AI Fills and Signals, depending on the meeting and your account configuration.
+Google Meet can operate alongside Gong, Zoom, Microsoft Teams, and the Rocketlane AI Notetaker. Connecting Google Meet does not require you to disable any other recording source.
+In this article
+
+How the Google Meet integration works
+
+Before you begin
+
+Enable recording and transcription
+
+Connect Google Meet in Rocketlane
+
+Record and transcribe meetings
+
+Which recordings are retrieved?
+
+Use Google Meet with other recording sources
+
+Retrieve historical Google Meet recordings
+
+Use Google Meet recordings with AI Fills
+
+Use the Rocketlane AI Notetaker in Google Meet
+
+Disconnect Google Meet
+
+Troubleshooting
+
+Frequently asked questions
+
+How the Google Meet integration works
+After the integration is connected, Rocketlane retrieves eligible completed Google Meet recordings and transcripts through Google APIs. No Rocketlane bot is required for cloud recording retrieval.
+Google Meet recordings are created and stored in Google Drive according to your organization’s Google Workspace configuration. Rocketlane uses the available recording and transcript data to process the meeting.
+The Google Meet integration supports two related workflows:
+Workflow How it works
+Google Meet cloud recording retrieval Rocketlane retrieves eligible recordings and transcripts after they become available through Google Workspace.
+Rocketlane AI Notetaker on Google Meet The AI Notetaker joins eligible scheduled Google Meet calls and records them. The host must have a Rocketlane license and a connected calendar.
+You can enable one or both workflows. Google Meet cloud retrieval and the AI Notetaker can operate at the same time.
+
+Before you begin
+Ensure that:
+
+Meeting Intelligence is enabled in Rocketlane.
+
+You have administrator access in Rocketlane.
+
+You have Google Workspace administrator access for the organization you want to connect.
+
+Your Google Workspace edition supports Google Meet recording and transcription.
+
+Recording and transcription are enabled for the relevant users or organizational units.
+
+The relevant meetings are recorded and transcribed in Google Meet.
+
+Customer contacts and company website information are maintained in Rocketlane to support meeting matching.
+Note Google Workspace recording and transcription availability depends on your Google Workspace subscription and administrator configuration.
+
+Step 1: Enable recording and transcription in Google Workspace
+Before connecting Google Meet to Rocketlane, confirm that the required Google Meet features are available to the users whose meetings should be retrieved.
+Using the Google Admin console:
+
+Review the Google Meet settings for the relevant organizational units or groups.
+
+Enable meeting recording where required.
+
+Enable meeting transcription where required.
+
+Confirm that the users who host customer meetings are permitted to create recordings and transcripts.
+If recording or transcription is unavailable during a meeting, review the user’s Google Workspace edition, role, and organizational-unit settings.
+
+Step 2: Connect Google Meet in Rocketlane
+To connect Google Meet:
+
+Sign in to Rocketlane as an administrator.
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find Google Meet under Cloud recording sources .
+
+Click Connect .
+
+Sign in using the Google account that should authorize the connection.
+
+Review the permissions requested by Rocketlane.
+
+Authorize Rocketlane to access the eligible meeting recordings and transcripts.
+Once authorization is complete, Google Meet appears as a connected recording source in Rocketlane.
+Note Connecting Google Meet is an account-level action. The authorized connection is used to retrieve eligible Google Meet recordings for the Rocketlane account.
+
+Step 3: Record and transcribe meetings in Google Meet
+For Rocketlane to retrieve a Google Meet meeting through the cloud integration, the required recording and transcript data must be created in Google Meet.
+During an eligible Google Meet call:
+
+Start the meeting recording.
+
+Start transcription if it is not enabled automatically by your Google Workspace configuration.
+
+Conduct and end the meeting normally.
+
+Allow Google Meet time to process the recording and transcript.
+The generated files are stored according to Google Workspace behavior, typically in the meeting organizer’s Google Drive. Rocketlane retrieves eligible meeting data after it becomes available through Google.
+Note Cloud retrieval can include eligible ad hoc meetings. The meeting does not need to have been scheduled through a calendar connected to Rocketlane.
+
+Which Google Meet recordings are retrieved?
+Rocketlane retrieves eligible Google Meet recordings when at least one participant:
+
+Has an email address that matches an internal Rocketlane user.
+
+Uses an email domain recognized as an internal domain from your Rocketlane team members or partners.
+The meeting host or participant does not need a Rocketlane license solely for Google Meet cloud recording retrieval. A connected Rocketlane calendar is also not required for cloud retrieval.
+After an eligible meeting is retrieved:
+
+Rocketlane creates a meeting page for the captured meeting.
+
+Rocketlane classifies the meeting as internal or customer-facing.
+
+For customer meetings, Rocketlane attempts to associate the meeting with the appropriate company.
+
+AI Fills and Signals run according to their respective configurations and eligibility rules.
+Note Meeting pages are available for all captured meetings, including meetings that are not associated with a customer. Signals require an eligible customer meeting associated with a company.
+
+Use Google Meet with other recording sources
+Google Meet can remain connected while other cloud recording sources and the Rocketlane AI Notetaker are enabled.
+For example:
+
+One team can retrieve recordings from Google Meet.
+
+Another team can continue using Gong or Zoom.
+
+Selected meeting hosts can use the Rocketlane AI Notetaker.
+Rocketlane can receive meetings from each configured source without requiring one recording method to be selected for the entire account.
+Note If the same meeting is received through more than one configured source, you do not need to disconnect either source.
+
+Retrieve historical Google Meet recordings
+When historical recording retrieval is enabled, Rocketlane can search Google Meet for eligible earlier recordings.
+Historical retrieval can run when:
+
+Google Meet is connected as a new cloud recording source.
+
+Historical retrieval is enabled for the first time.
+
+The configured historical retrieval period is changed.
+
+A new customer company is created in Rocketlane.
+Rocketlane matches historical meetings using available customer contacts, participant domains, company website information, and company names.
+To review or change this behavior, go to Settings > Meeting Intelligence > Capture and find the historical recording retrieval settings.
+Note Historical retrieval is limited by the period configured in Meeting Intelligence. When retrieval is triggered by the creation of a new customer, Rocketlane uses the configured period up to the supported limit for new-customer retrieval.
+
+Use Google Meet recordings with AI Fills
+Once a Google Meet meeting has been captured, team members can use it with AI Fills according to the configured AI Fills meeting scope.
+AI Fills can generate content such as:
+
+Meeting summaries
+
+Follow-up emails
+
+Action items
+
+Decisions and next steps
+
+Project updates
+
+Project documents
+
+Internal notes
+AI Fills can also be configured to process internal meetings. This setting is managed under Settings > Meeting Intelligence > AI Fills .
+For instructions on creating templates and generating content, refer to Create and Use AI Fills .
+
+Use the Rocketlane AI Notetaker in Google Meet
+The Rocketlane AI Notetaker can join scheduled Google Meet calls alongside the cloud integration.
+For the AI Notetaker to join a host’s meetings:
+
+The AI Notetaker must be enabled for that team member.
+
+The host must have a Rocketlane license.
+
+The host must connect Google Calendar or Outlook to Rocketlane.
+
+The calendar event must contain a valid Google Meet link.
+These requirements apply to the AI Notetaker workflow. They do not apply to every person whose Google Meet cloud recording is retrieved.
+
+Disconnect Google Meet from Rocketlane
+To stop Rocketlane from retrieving new Google Meet recordings:
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find Google Meet under Cloud recording sources .
+
+Open the Google Meet connection settings.
+
+Click Disconnect .
+
+Confirm the disconnection.
+Rocketlane will stop retrieving new recordings and transcripts through the Google Meet connection. Meetings retrieved before the disconnection remain available in Rocketlane.
+If your organization also needs to revoke Rocketlane’s authorization in Google Workspace, remove the applicable authorization from the relevant Google administrator or account settings.
+
+Troubleshooting
+
+A Google Meet recording is not appearing in Rocketlane
+Verify that:
+
+The meeting was recorded in Google Meet.
+
+A transcript was generated and has finished processing.
+
+The Google Meet integration is still connected in Rocketlane.
+
+At least one participant matches an internal Rocketlane user or recognized internal domain.
+
+The connected Google account is permitted to access the relevant recording.
+
+Recording or transcription is unavailable in Google Meet
+Check whether:
+
+The user’s Google Workspace edition includes the required feature.
+
+Recording and transcription are enabled for the user’s organizational unit or group.
+
+The user has an eligible role in the meeting.
+
+An administrator has restricted recording or transcription.
+
+The AI Notetaker did not join a Google Meet call
+Verify that:
+
+The AI Notetaker is enabled for the meeting host.
+
+The host has a Rocketlane license.
+
+The host has connected the correct Google Calendar or Outlook account.
+
+The calendar event contains a valid Google Meet link.
+
+A meeting was captured but was not associated with a customer
+Check whether:
+
+The customer contacts have been added to Rocketlane.
+
+The participant email domains match the expected customer.
+
+The customer’s website URL is present on its company record.
+
+Multiple companies use the same domain or have similar names.
+The meeting page remains available even when Rocketlane cannot associate the meeting with one customer confidently.
+
+Frequently asked questions
+
+Does connecting Google Meet disable other recording sources?
+No. Google Meet can operate alongside Gong, Zoom, Microsoft Teams, and the Rocketlane AI Notetaker.
+
+Does every Google Meet host need a Rocketlane license?
+No. A Rocketlane license is not required solely for Google Meet cloud recording retrieval. A license and connected calendar are required when the host uses the Rocketlane AI Notetaker.
+
+Must a meeting be scheduled on a connected calendar for cloud retrieval?
+No. Eligible Google Meet cloud recordings can be retrieved even when the meeting was not scheduled through a Rocketlane-connected calendar.
+
+Are earlier Google Meet recordings imported automatically?
+They can be retrieved when historical recording retrieval is enabled and the recordings meet the configured date and matching criteria.
+
+What happens to existing meetings after Google Meet is disconnected?
+Previously retrieved meetings remain available in Rocketlane. New Google Meet recordings are no longer retrieved after the connection is disconnected.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Adding the Zoom app to your Rocketlane account
+
+How to setup SAML SSO with Rocketlane using Google?
+
+Integrating the Gong app to your Rocketlane account
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

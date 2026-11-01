@@ -1,0 +1,71 @@
+---
+updatedAt: 2025-06-03T20:46:49.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# API Explorer
+
+Discover how to use Rocketlane's API Explorer
+
+With the help of an easy to use, in-context interface provided by Rocketlane's REST API reference, you can explore various REST API endpoints. You can directly use your browser to request APIs and read their responses by using the built-in API explorer.
+
+***
+
+## How to work with the Rocketlane API Explorer?
+
+* ***Select an API endpoint***
+
+  To access the API explorer, visit the REST API reference and select any API endpoint.\
+  For example, here is the section for:\
+  GET [\<https://api.rocketlane.com/api/1.0/projects/\{projectId}>](https://developer.rocketlane.com/reference/get-project)
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/c23b9d9-image.png" />
+
+* ***Authenticate using your API key***
+
+  After choosing an API endpoint, provide your api-key (also known as the header) under the Authentication section on the right side of the page.
+
+<Image align="center" className="border" width="50% " border={true} src="https://files.readme.io/819a4b5-image.png" />
+
+* ***Fill in the required fields***
+
+  Provide the required parameters. You may also enter any input/output options here as well.
+
+<Image align="center" className="border" width="50% " border={true} src="https://files.readme.io/6ebdf75-image.png" />
+
+* ***View the response***
+
+  Once the request has been built, click on *Try It!* to make your API request. For example, the following shows an example request and 200 response
+
+<Image align="center" className="border" width="90% " border={true} src="https://files.readme.io/39ae6d7-image.png" />
+
+***
+
+## Expert Tips on using the API Explorer
+
+* **Select Parameter values**
+
+  For request parameters, a dropdown menu can be found in the property itself showing enumerated values. Here are some examples of enumerated value choices for the Object type while searching for templates.
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/b12173a-image.png" />
+
+* **Sample Response**\
+  Select the HTTP status code from the right side of the screen to display a sample response (such as a 200 response for a GET request) for a certain API endpoint.
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/778fdd4-Screenshot_2023-08-03_at_8.01.11_PM.png" />
+
+In the above example, selecting 200 will display the following sample response:
+
+<Image align="center" className="border" width="40% " border={true} src="https://files.readme.io/437d921-image.png" />
+
+* **Schemas**\
+  To see object schemas directly in the API explorer, select the 200 response for a GET request for that resource. For example, see the 200 response option here (highlighted in red) for GET [\<https://api.rocketlane.com/api/1.0/phases/\{phaseId}>](https://developer.rocketlane.com/reference/get-phase)
+
+<Image align="center" width="0px" src="https://files.readme.io/57bee4d-Screenshot_2023-08-03_at_8.05.27_PM.png" />
+
+![](https://files.readme.io/8689aa2-Screenshot_2023-08-03_at_8.05.27_PM.png)
+
+In the above example, selecting 200 will open a dialog box  that features the full schema for that resource (in this case, a user resource)
+
+<Image align="center" width="40% " src="https://files.readme.io/a26052c-image.png" />

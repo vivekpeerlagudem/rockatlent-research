@@ -1,0 +1,169 @@
+TITLE: Integrating Slack with the New Customer Portal : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000742314-integrating-slack-with-the-new-customer-portal
+
+Integrating Slack with the New Customer Portal : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Rocketlane Customer Portal
+Integrating Slack with the New Customer Portal
+
+Integrating Slack with the New Customer Portal
+
+Created by Advaith R, Modified on Wed, 29 Jul at 5:55 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to build your customer portal
+
+How to invite customers to your portal
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Integrating Slack with the New Customer Portal
+
+Tracking Time in the Customer Portal
+
+Invoice Widget for the Customer Portal
+
+Embedding your portal on On Prem and Cloud Solutions
+
+No article available
+
+Rocketlane’s Slack integration lets team members receive project-related notifications in Slack. With this integration, teams can stay updated on project activity, take quick actions from Slack, and maintain a dedicated Slack channel for each Rocketlane project.
+Team members can use the Slack integration to:
+
+Receive real-time notifications for project updates.
+
+Take actions on projects from Slack, such as updating tasks and replying to conversations.
+
+Maintain a dedicated Slack channel for each Rocketlane project.
+In this article
+
+Connect your Slack account
+
+Connect your Slack account
+
+In the Customer Portal, click the Notifications bell icon.
+
+Click the Slack icon from the notifications panel.
+
+On the new page, click Add to Slack . You will be redirected to the Slack login page.
+
+Log in to your Slack account and authorize Rocketlane’s integration.
+Note Once Slack is connected, you will receive Slack notifications when updates occur in projects your customers are involved in.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to get started with Rocketlane's Integration for Slack?
+
+How to enable the new customer portal for new and existing projects in Rocketlane
+
+Project Settings
+
+Hide the Effort Column from the Customer Portal Task List
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

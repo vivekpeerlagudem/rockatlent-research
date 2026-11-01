@@ -1,0 +1,35 @@
+---
+updatedAt: 2025-06-03T20:48:49.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Users
+
+Rocketlane provides a robust set of User APIs designed to facilitate seamless user management within the Rocketlane platform. These APIs enables the fetching of detailed user information, supporting both individual and bulk retrieval.
+
+You can fetch detailed user related information such as their email id, type (team member, partner or customer), status(active, invited or inactive), permission levels, capacity etc. The response will include both default and custom team member fields.
+
+***
+
+## Default User Fields
+
+| Field             | Description                                                                                                                                                                                                         |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| userId            | The user’s unique, system-generated identifier, which can be used to identify the user globally.                                                                                                                    |
+| email             | The email identifier of the user.                                                                                                                                                                                   |
+| firstName         | The first name of the user.                                                                                                                                                                                         |
+| lastName          | The last name of the user.                                                                                                                                                                                          |
+| type              | The type of the user. It can be either TEAM\_MEMBER, PARTNER or CUSTOMER                                                                                                                                            |
+| status            | The status of the user. It can be either INACTIVE, INVITED or ACTIVE                                                                                                                                                |
+| role              | The role of the user.                                                                                                                                                                                               |
+| company           | The company that the user belongs to.                                                                                                                                                                               |
+| permission        | The team member object who created the phase.                                                                                                                                                                       |
+| fields            | Custom user fields can be created and their values set during user creation. These values can also be added or edited later. The field value can be a string, number, or array, and must align with the field type. |
+| capacityInMinutes | The capacity of user, should be multiples of 5, default value is capacity configured in profile.                                                                                                                    |
+| holidayCalendar   | The Holiday calendar of the user.                                                                                                                                                                                   |
+| profilePictureUrl | The URL of the user's profile picture.                                                                                                                                                                              |
+| createdAt         | The time when the user was created. The referenced time will be in epoch millis.                                                                                                                                    |
+| createdBy         | The team member who updated the information of the user.                                                                                                                                                            |
+| updatedAt         | The time when the user's information was updated. Any changes that's related to the user are captured and specified here in epoch millis.                                                                           |
+| updatedBy         | The team member who updated the information of the user.                                                                                                                                                            |

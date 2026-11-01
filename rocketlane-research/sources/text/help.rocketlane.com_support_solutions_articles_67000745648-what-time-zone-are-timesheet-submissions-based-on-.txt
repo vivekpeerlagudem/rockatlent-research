@@ -1,0 +1,161 @@
+TITLE: What time zone are timesheet submissions based on? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000745648-what-time-zone-are-timesheet-submissions-based-on-
+
+What time zone are timesheet submissions based on? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+What time zone are timesheet submissions based on?
+
+What time zone are timesheet submissions based on?
+
+Created by Advaith R, Modified on Mon, 23 Jun, 2025 at 3:52 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to sync Calendar to Timesheet?
+
+FAQ: Calendar Start Day Customization
+
+Why do deactivated users appear in my timesheet approval lists, and how can I manage their visibility?
+
+How do Time Offs reflect in resource management, and do they prevent accidental assignments?
+
+What time zone are timesheet submissions based on?
+
+Why can't I see a specific project in the Resource Management tab, even if other users with similar permissions can?
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+What are hard and soft allocations in Rocketlane, and how do I use them effectively?
+
+How to Manage Timesheet Approvers in Rocketlane
+
+What is the difference between allocation and utilization?
+
+Why is "Import from my allocations" coming up blank on my timesheet?
+
+No article available
+
+Q: Are timesheet submission reminders based on the user's local timezone or the account's default timezone?
+A: Currently, timesheet submission reminders are sent based on the account's default timezone , not the individual user's local timezone.
+For example, if your Rocketlane account is set to the US Eastern Time Zone and a reminder is scheduled for 6:00 PM EST, all users will receive that reminder at 6:00 PM EST, regardless of their physical location (e.g., a user in the UK would receive it in their early morning hours).
+
+[image: profile picture]
+Generate Audio Overview
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+​Time analytics report
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Timesheet Policies in Rocketlane
+
+How to Manage Timesheet Approvers in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

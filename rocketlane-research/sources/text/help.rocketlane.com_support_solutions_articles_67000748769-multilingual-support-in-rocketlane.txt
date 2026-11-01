@@ -1,0 +1,326 @@
+TITLE: Multilingual Support in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000748769-multilingual-support-in-rocketlane
+
+Multilingual Support in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Multilingual Support in Rocketlane
+
+Multilingual Support in Rocketlane
+
+Created by Advaith R, Modified on Wed, 22 Jul at 7:21 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+How to Set Up your Profile in Rocketlane?
+
+Managing Notification Settings
+
+Difference & Precedence Between Account and Project Level Permissions
+
+Multilingual Support in Rocketlane
+
+No article available
+
+In this article
+
+How to Add New Languages
+
+Available Languages
+
+Language Settings for Fields
+
+Editing Custom Translations
+
+Language Translation Scope
+System Default Labels
+
+Custom Labels
+
+Language Preferences and Permissions
+Personal Language Preferences
+
+Team-level Language Adjustments
+
+Permissions
+
+Translation Behavior Limitations
+Non-System Generated Content
+
+Exports
+
+Rocketlane’s multilingual translation feature is designed to enhance usability for teams working across different regions and languages.
+This feature is especially beneficial for customers operating in multiple countries and regions, such as the EU , Japan , and other countries with different native languages. By allowing users to work in their native language, Rocketlane aims to ensure that language barriers do not hinder the efficiency of teams and their workflow.
+With this feature, users can now view and interact with Rocketlane in their preferred language, streamlining workflows and improving collaboration across diverse geographies.
+
+How to Add New Languages
+Admins or users with permission to configure languages can add new languages as needed for their organization. To do so:
+
+Navigate to the settings page in Rocketlane and click on Language Configurations .
+
+Click Add new language and choose the language you want to add.
+
+Rocketlane adds the new language as a separate column in the translation table.
+Once the language is added, users can select it from their profile and view and work in the newly added language.
+
+Available Languages
+The following languages are currently available for translation:
+
+Spanish (Spain)
+
+Spanish (Latin America)
+
+Portuguese (Brazil)
+
+Portuguese (Portugal)
+
+French
+
+German
+
+Italian
+
+Finnish
+
+Swedish
+
+Dutch
+
+Japanese
+
+Language Settings for Fields
+Rocketlane allows for translations across all customizable fields . This includes:
+
+Project fields
+
+Task fields
+
+Account fields
+
+Customer team member fields
+
+Team member fields
+
+Timesheet categories
+
+Expense fields
+
+Sheet fields
+
+Skills fields
+
+Sprints fields
+
+Key events and intervals
+
+Roles and placeholders
+For example, if the term " Priority " is used as a custom field label in a task, it appears in the newly selected language once a translation is available. Admins and users with permissions can also edit the translation for better clarity or accuracy based on regional dialects.
+
+Editing Custom Translations
+Admins and users with permissions can edit the translations of custom strings, for any of the field types listed in Language Settings for Fields, directly in the system from the Language Configurations page.
+For example, if the Swedish translation for " Performance Rating " does not align with the intended meaning, users can locate the string in the table and modify the translated value to suit their needs.
+To edit a translation:
+
+Go to Settings and click on Language Configurations .
+
+Click on the table cell of the language you wish to edit.
+
+Type your new translation; it will be saved automatically.
+
+Language Translation Scope
+Rocketlane supports system default labels and custom labels in multiple languages:
+
+System Default Labels
+These are pre-configured labels and phrases within Rocketlane that are consistent across all accounts. Examples include:
+
+Navigation menu labels, such as Dashboard , Tasks , and Projects
+
+Default field names, such as Due Date , Priority , and Assignee
+These default strings are automatically translated based on the selected language and are displayed according to each user’s language preference.
+
+Custom Labels
+These are labels or entries that you edit for your account in the Settings page, for example, custom field labels for the field types listed in the Language Settings for Fields section.
+When you add a new language, Rocketlane adds a column for that language in the Language Configurations page and shows the values for each string. If translations aren't available yet, the cells are autofilled in English, and users can then enter or update translations manually by double-clicking the translated phrase.
+
+Language Preferences and Permissions
+
+Personal Language Preferences
+Users can switch their language preference directly from their profile settings. After logging in, they can follow these steps:
+
+Navigate to their personal profile .
+
+Select the change language option and choose a preferred language from the list of enabled languages.
+This allows them to work in their native language, improving the overall experience in Rocketlane.
+
+Team-level Language Adjustments
+Admins or users with appropriate permissions can also change the language for other users. This is done from the Team Members tab, where they can access individual user details and update the language preference for each team member.
+
+Go to Settings > Team Members to load the list.
+
+Locate the desired team member, click the three-dot menu (...) , and select View Details .
+
+In the profile pane that appears, click Edit profile .
+
+Scroll to the Account Permission section, find the Language field, and select the new language from the dropdown menu.
+
+Permissions
+The multilingual feature is controlled through specific permissions. These permissions determine who can configure languages at an account level and who can update language preferences. These permissions include:
+
+Can configure languages - Allows users to add and disable languages from the Language Configurations page and edit translated content for system and custom labels.
+
+Can change others’ language - Admin-level permission to modify the language settings of other users from the Team Members tab.
+To grant Language Configurations permissions:
+
+Go to [Profile Picture] > Settings .
+
+In the left sidebar, navigate to Groups > Permissions .
+
+Select the User Role .
+
+Find Language configurations and check all the boxes:
+Can update language configurations
+
+Can add language
+
+Can edit translated content
+
+Can disable language
+
+Can assign language to user
+
+Click Save the Changes .
+
+Note By default, Rocketlane allows all users to change the language used in their own profile.
+
+Translation Behavior Limitations
+While the multilingual feature adds significant flexibility, there are a few areas where the translation may not be applied:
+
+Non-System Generated Content
+
+Reports: Custom reports created by users will not be translated automatically. The user will need to manually enter the report name in the language of their choice.
+
+Templates: Templates, such as project templates or task templates, will not be translated. Similar to reports, users will need to create them in the language they wish to use.
+
+Chat and Conversations: Any content typed directly into chat or conversations will remain in the language the user inputs. Translation is applied only to system-generated strings.
+
+Exports
+Currently, exports , such as CSV or PDF files, are generated in English , regardless of the user’s selected language. While the data inside the export will reflect the translated fields, the export file itself will not be translated.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+How much does the permissions module cost
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

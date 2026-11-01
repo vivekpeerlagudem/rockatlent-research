@@ -1,0 +1,368 @@
+TITLE: Optimize Project Management with Rocketlane's Sprints: Perfect for Agile, Ongoing Projects, and Custom Development : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000734417-step-by-step-guide-to-sprint-planning
+
+Optimize Project Management with Rocketlane's Sprints: Perfect for Agile, Ongoing Projects, and Custom Development : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Sprint Planning
+Step-by-step guide to Sprint Planning
+
+Step-by-step guide to Sprint Planning
+
+Created by Monica Madan, Modified on Tue, 13 Aug, 2024 at 1:30 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Understanding Sprints, Epics and Backlogs in Rocketlane
+
+How to read the sprints overview page
+
+How to read the sprints report
+
+Understanding Epics in Rocketlane
+
+Step-by-step guide to Sprint Planning
+
+Understanding Backlogs in Rocketlane
+
+No article available
+
+Rocketlane's Sprints feature provides project managers with an all-in-one solution for managing ongoing projects, issue tracking and custom developments. It seamlessly integrates sprint planning and execution into your project management workflow, offering a centralized view of project issues and progress. This ensures transparency throughout the entire lifecycle of the project.
+
+In this article
+
+Setting up Sprints
+
+Setting up sprint custom fields
+
+Create Sprints
+
+Plan your sprint
+Add new tasks
+
+Add tasks from a completed sprint
+
+Adding existing tasks to sprint
+
+Start sprints
+
+Create sprints from projects
+View Sprints timeline
+
+Templatize sprints
+
+How customers view sprints
+
+Delete sprints
+
+Completing a sprint
+
+Sprint board
+
+Sprint View
+
+Running short of time? Watch a tutorial video here!
+
+The interactive Kanban boards in Sprints make progress tracking and scrum meetings simpler, empowering teams to identify bottlenecks caused by delays in completing important developments or addressing major bugs/issues reported on high-end projects. Additionally, you can tailor sprints to your team's needs by incorporating tasks from one or multiple ongoing projects, making it easier to track issues reported within the project.
+
+By integrating sprints into project plans that are shared with customers, you can improve communication and transparency in progress tracking. Leveraging Rocketlane's Sprints feature enhances collaboration and efficiency, ultimately leading to the continued success of your projects.
+
+In this article, we'll guide you through the process of creating, running, and measuring sprints, as well as how effectively they can integrate with your projects!
+
+Who can access Sprints:
+
+Setting up Sprints
+To do that,
+
+Navigate to your avatar, select settings, scroll down to sprints
+
+Click on sprint settings and enable sprints
+
+Enable Sprint points
+Setting sprint points is important for planning the workload in each sprint. Sprint points are determined based on the complexity of each task and task intricacy rather than sticking to predetermined schedules. By tracking the completion of sprint points in each sprint, the team can gauge its velocity and predict how many similarly complex tasks can be handled in future sprints. This encourages collaborative efforts to achieve sprint objectives and simplifies the planning process for subsequent sprints.
+
+Rocketlane offers four methods for adding sprint points:
+
+Linear: Assign points to tasks using simple increments like 1, 2, 3, 4, and so on.
+
+Exponential : Determine points for tasks based on exponential values to represent the complexity or uncertainty of larger tasks, such as 1, 2, 4, 8, 16, and so forth.
+
+Fibonacci : Assign points to tasks following the Fibonacci sequence, such as 1, 2, 3, 5, 8, and so on.
+
+Task Efforts : Calculate points based on the effort assigned to tasks in a project. For eg., If you have set the multiple for points as 2X of effort, a task with 4h of effort will have points of 8.
+
+Define default status :
+You have the option to establish status columns within your sprint kanban board, through which tasks transition from one status to the next.
+
+For example: Status can include, “in progress” “in review” “completed”
+
+Setting up sprint custom fields
+To categorize the types of sprints you conduct and manage sprint-related information effectively, you can utilize sprint fields. For instance, you may have sprints designated for UAT, Development, Internal, or for Customers.
+
+To set up sprint fields:
+
+Go to your avatar icon > settings > sprints > sprint fields.
+
+Click on the 'New Field' button and give the field a label.
+
+Choose the field type, provide a description, and save the field.
+
+You can create multiple sections for different types of sprints and continue adding fields under each section as needed.
+
+Create Sprints
+Now, you're ready to create sprints tailored for various purposes such as issue management, custom development, UAT, etc.
+
+Here's how:
+
+Go to the ' All tasks ' icon and choose ' sprints '.
+
+Click on the ' New sprint ' button to begin adding sprint details.
+
+Name your sprint and set its duration, typically ranging from one week to four.
+
+Specify the start date and assign the owner and collaborators for the sprint.
+
+Select if the sprint is created to action sprint tasks for a specific project by choosing single project or if the sprint can incorporate sprint tasks from multiple projects
+
+Add the project(s) for which you wish to run sprints
+
+Click “ next” to fill the sprint fields
+
+Finally, create your sprint.
+
+Note : If you mark a sprint as private, only your internal team members can see the sprint tasks.
+
+Plan your sprint
+Sprints are used to effectively plan, track, and collaborate on various tasks related to development, issue resolution, UAT, and more. These sprints consist of tasks that may originate exclusively within the specific sprint, or they may come from projects with tasks designated for sprints, and also from those pending completion from previous sprints.
+
+Add new tasks
+You can add new tasks to the sprints from the sprint planning view.
+
+Click the “Add new tasks” button
+
+Name the task, associate it to a project
+
+Fill the assignee, due date, description and
+
+Click create
+
+Add tasks from a completed sprint
+This option lets you import incomplete tasks from previous sprints.
+
+Here, you can add tasks from previous sprints by selecting the sprint from the dropdown menu.
+
+Additionally, you can set up a view to assign tasks by filtering them based on criteria like task status, name, or project name.
+
+To add existing tasks to the sprint, simply click the "+" icon next to the tasks.
+
+Adding existing tasks to sprint
+You have the option to select and include tasks added to sprints from various projects. This includes tasks such as issues, customisations and so on which can be added to the current sprint.
+
+Here, you can create a view for assigning tasks by filtering them based on conditions like task status, name or project name.
+
+To add existing tasks to the sprint, simply click the "+" icon next to the tasks.
+
+Note : If your sprint includes tasks from multiple projects, you can add more projects to the existing sprint. To do this, click on “add” near “underlying projects” and select the additional projects whose tasks you want to include in the sprint.
+
+Tip : After adding, creating, or importing tasks, you can add or edit sprint points and effort hours for each task within the "additional info" section of the task. This helps you to track the progress of the sprint in terms of efforts.
+
+Note : You cannot add tasks from other active sprints to the current sprint.
+
+Start sprints
+Do not forget to click the “start sprints” button to start the sprints.
+
+Create sprints from projects
+Sprints can be used for ongoing projects to manage custom developments, UATs, and other customer deliverables that are part of the projects. This approach improves visibility and collaboration on customization and issues raised during the project, ensuring they can be effectively managed within the sprint framework.
+
+To add sprints to a project:
+
+Go to Projects
+
+Select a project and go to the project plan tab
+
+Click the dropdown near “Add new task” and choose “Add a new sprint”
+
+Then, fill out the sprint details and follow the steps outlined in the “Create sprints” section.
+
+View Sprints timeline
+When you switch to the timeline view of your project plan, you'll see the sprint duration indicated by start and end icons. These icons are denoted in green for on-time start and completion, and in red for delays.
+
+Templatize sprints
+If sprints are typically included in your project plan, Rocketlane allows you to add sprints when you create a project template. Here's how:
+
+Go to Templates and select Project Templates.
+
+Choose a template and navigate to the Projects tab.
+
+Under Phases, add a new sprint and fill out the sprint details on the right-hand side.
+
+Once you create a project, you can begin adding tasks to the sprint that you added to the project template used for creating the project.
+
+How customers view sprints
+Customers can view and access sprints from their portal.
+
+By clicking on a sprint, they can see its details, including the sprint owner, timelines, all tasks included in the sprint, and their current progress.
+
+Delete sprints
+To delete a sprint,
+
+Go to sprints
+
+Click on the three dots near the sprints
+
+Click delete
+
+Completing a sprint
+A sprint is automatically marked as completed based on the timeline you set during creation, such as 1 week, 2 weeks, etc.
+
+If you want to manually complete a sprint, follow these steps:
+
+Navigate to the sprints section and select the sprint you wish to complete.
+
+Inside the sprint, click the “Complete Sprint” button.
+
+The system will prompt you for the following inputs:
+
+Managing incomplete tasks : You can easily move these tasks to another sprint.
+
+Choose the sprint type : Select whether this sprint is a new or existing sprint.
+
+If existing : Choose from the list of sprints.
+
+If new : Name the sprint, select timelines, and save to complete the sprint.
+
+Sprint board
+Managing scrum meetings and keeping track of your sprints is made easy with our interactive kanban boards. These boards help you visualize the progress of assigned tasks and monitor continuous improvements.
+
+Once tasks are added to the sprint, you can see them on the boards, neatly arranged into columns that represent task statuses. These statuses are determined by the default settings you've chosen for the sprint and also include the statuses of imported tasks, with each task placed accordingly.
+
+You have the flexibility to add tasks from previous sprints, create new tasks, or add existing tasks from different projects to the current sprint.
+
+You can personalize the view on the sprint board to display either only the tasks assigned to you or all tasks. If you're a collaborator on the sprint, the default view will only show tasks assigned to you; otherwise, you can see all tasks. Simply click on the "view" dropdown to switch between viewing all tasks, completed tasks, and incomplete tasks.
+
+Sprint View
+As a sprint owner or admin, you have access to view all active and upcoming sprints on the sprints view page. Similar to a project view page, you'll find all the sprint fields displayed as columns alongside the sprints, providing insights into the health and progress of each sprint.
+
+On this page, you can customize the column arrangement according to your preferences. Additionally, you can create views using filters and save them as shared or private views. For example, if you want to see sprints for a specific sprint owner or particular projects, you can apply filters to display only the sprints that meet these criteria and then save the view for future reference.
+
+Read more about the sprint overview page here .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Backlogs in Rocketlane
+
+Understanding Epics in Rocketlane
+
+How to read the sprints overview page
+
+Understanding Task Dependencies in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

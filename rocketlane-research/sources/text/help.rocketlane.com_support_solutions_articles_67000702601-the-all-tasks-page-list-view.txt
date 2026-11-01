@@ -1,0 +1,221 @@
+TITLE: The All Tasks Page: List View : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000702601-the-all-tasks-page-list-view
+
+The All Tasks Page: List View : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+The All Tasks Page: List View
+
+The All Tasks Page: List View
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:09 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a New Task?
+
+Basics of Project Tasks
+
+How to Manage Task Dependencies?
+
+Creating and Managing Subtasks
+
+The All Tasks Page
+
+The All Tasks Page: List View
+
+The All Tasks Page: Kanban View
+
+Adding Custom Task Statuses
+
+Understanding Task Dependencies in Rocketlane
+
+No article available
+
+In this article
+
+List View: Task fields
+
+Performing Bulk Actions with Tasks
+
+Filters and Views
+
+Exporting Task Lists as CSVs
+
+The List view on the All Tasks page allows you to have a global view of all tasks across all projects in a list format. You can read or edit task properties like project, assignee, start date, due date, and more.
+You can also view custom task lists based on task status, assignee, due date, and other fields. Choose from default view options or create custom views using filters.
+You can filter tasks based on your preferences and save the filtered list as a shared or private view.
+
+List View: Task fields
+Each task has associated properties called task fields. Here is the list of task fields available in the All Tasks List view :
+
+Project
+
+Assignee
+
+Priority
+
+Start Date
+
+Due Date
+
+Effort
+
+Progress
+
+At Risk
+
+Completed At
+
+Responsible
+
+Created By
+
+Created At
+
+Billable
+
+Category
+Note There is a count of the total number of tasks at the bottom of the page.
+
+Performing Bulk Actions with Tasks
+You can click the checkbox on the left of each task to select it.
+On selecting a task, the task selection dialog box appears on the left side of the screen.
+You can edit the following properties for tasks in bulk:
+
+Set Status
+
+Set Start Date
+
+Set Due Date
+
+Shift Dates
+
+Add Assignee
+
+Reassign to
+
+Delete
+
+Filters and Views
+To read more about how to apply filters and save views, click here .
+
+Exporting Task Lists as CSVs
+Click the Export icon from the top-right corner of the screen.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+The All Tasks Page: Kanban View
+
+The All Tasks Page
+
+How to Create and Manage Placeholders?
+
+Creating and Managing Subtasks
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

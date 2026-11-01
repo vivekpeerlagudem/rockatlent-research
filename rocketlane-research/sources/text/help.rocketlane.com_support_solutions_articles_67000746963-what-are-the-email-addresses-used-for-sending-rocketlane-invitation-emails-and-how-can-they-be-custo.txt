@@ -1,0 +1,159 @@
+TITLE: What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746963-what-are-the-email-addresses-used-for-sending-rocketlane-invitation-emails-and-how-can-they-be-custo
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+Created by Advaith R, Modified on Thu, 14 Aug, 2025 at 2:48 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to add a customer team member to a project?
+
+Why is the Customer not receiving the Magic Link in their Email?
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+Why Can't I Upload and Save a Customer Logo?
+
+How much does the permissions module cost
+
+No article available
+
+Understanding Rocketlane Invitation Email Addresses
+When using Rocketlane, invitation emails are sent to users for project collaborations and account setup. Understanding the source email addresses and customization options helps ensure smooth delivery and proper identification of these emails.
+
+Default and Custom Email Addresses for Invitations
+By default, Rocketlane sends invitation emails from a pre-configured email address. To determine or customize the sending email address, you can:
+
+Navigate to Settings: In your Rocketlane portal, go to Settings > Email Configuration.
+
+View Default Email Address: In the email configuration section, you'll see the default address used for invitations.
+
+White-Label the Email Address: If desired, you can customize and use your own domain to send these emails. This enhances brand visibility and ensures that recipients recognize the email as coming from your organization.
+
+As an example, for some instances, emails are sent from welcome@success.rocketlane.com.
+
+Additional Email Addresses Used
+Rocketlane can also send invitation emails from specific addresses such as notifications@success.rocketlane.com under certain circumstances.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Excluding Meetings and Emails from Capture
+
+Email Intelligence: How Email Ingestion Works
+
+Embedding your portal on On Prem and Cloud Solutions
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

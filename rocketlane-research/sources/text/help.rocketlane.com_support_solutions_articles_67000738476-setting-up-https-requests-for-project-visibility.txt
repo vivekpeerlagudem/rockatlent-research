@@ -1,0 +1,204 @@
+TITLE: Setting Up HTTPS Requests for project visibility : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000738476-setting-up-https-requests-for-project-visibility
+
+Setting Up HTTPS Requests for project visibility : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Setting Up HTTPS Requests for project visibility
+
+Setting Up HTTPS Requests for project visibility
+
+Created by Srishti Rathi, Modified on Fri, 20 Sep, 2024 at 6:16 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is the e-mail that I set up as an automation not getting sent out?
+
+Setting Up HTTPS Requests for project visibility
+
+How can I automate the visibility of project phases based on whether a project field contains a specific value, especially if the field has multiple values?
+
+Why Isn’t My Automation Working When Using the 'Is Exactly' Condition in Rocketlane?
+
+How can I configure automations in Rocketlane to capture the De-escalation or De-risked date?
+
+What are the common reasons for automation failures in Rocketlane and how can they be resolved?
+
+I created a new automation in a template and saved it. Why is it missing?
+
+How does Rocketlane handle automation precedence and identify automation sources?
+
+How do updates to automations in a project template affect existing and future projects?
+
+No article available
+
+In this article, we’ll guide you through the process of setting up HTTPS requests to make your project visible to everyone . Follow the detailed steps below to get started.
+
+1. Obtain the API key
+2. Set up the automation
+
+Obtain API Key
+To obtain the API key that you’ll need for setting up the automation,
+
+Please go to settings --> API --> Create API key.
+
+Then give a name of the API key and then add it.
+
+Next please copy the KEY and keep it handy as we will require it while setting up the automation.
+
+Set up the automation
+To set up the automation.
+
+1. Please go to settings --> Automation --> New automation --> Blank slate.
+2. Please fill in the details as per below.
+
+Trigger this rule on : All projects
+Trigger : Project created
+Add an action : Send HTTPS Request
+
+Please check the screenshot for reference:
+
+3. Once you select "send http request" , a new window will open up. Please fill in the details as per below.
+
+Name & description : Please add the details for your reference.
+URL : https://api.rocketlane.com/ api/1.0/projects/
+Under the dropdown please select : PUT
+
+Once you paste the above URL please add a space and then use smart fills ( {{ ) to add project id.
+To be added after the url : " {{project id"
+
+4. Once the smartfill is populated as per below, please remove the space which was added in the previous step.
+
+5. Then go to body tab and delete all the information and add the below.
+
+{
+"visibility": "EVERYONE"
+}
+
+6. Now go under the headers tab, please fill the below details.
+
+Headers : "api-key"
+Value : Please paste the api key which was copied in the initial step
+
+7. Please ensure to uncheck the box in Headers and Params
+
+After which you can save the automation. Then the visibility for all projects will be "Everyone" soon after creation.
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to automate project workflows with HTTPS requests
+
+Creating Private Tasks Automatically in Rocketlane
+
+Project Settings
+
+How to setup and manage groups in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

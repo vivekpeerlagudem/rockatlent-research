@@ -1,0 +1,222 @@
+TITLE: How to get started with the Rocketlane Zapier integration? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000706512-how-to-get-started-with-the-rocketlane-zapier-integration-
+
+How to get started with the Rocketlane Zapier integration? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+How to get started with the Rocketlane Zapier integration?
+
+How to get started with the Rocketlane Zapier integration?
+
+Created by Niharika Pandey, Modified on Wed, 5 Jul, 2023 at 3:25 PM by Niharika Pandey
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to get started with the Rocketlane Zapier integration?
+
+No article available
+
+The Rocketlane Zapier integration allows you to use Zapier to connect Rocketlane with other applications across the web.
+
+Zapier automates the flow of information from one web app to the Rocketlane and vice versa. You can link your account with the pre-built zaps, or setup your own zap to create a new workflow and automate the link between two apps.
+
+What is a Zap?
+A basic zap in Zapier will have a trigger from a specific web app and an action in another web app.
+Example: You can set up a zap to create Rocketlane projects from new Salesforce records. This allows Zapier to automate the flow of information from Salesforce to Rocketlane and vice-versa.
+
+Getting started with the Rocketlane Zapier Integration
+
+Go to Settings .
+
+Go to Integrations .
+
+Select Zapier .
+
+Copy and use the API Token provided here to connect to Zapier .
+
+Th is is a unique identifier used to authenticate you to Zapier. Keep your token private to avoid sharing sensitive information.
+
+Popular Rocketlane Zaps
+
+Supported Triggers
+
+Form Submitted
+Triggers when a Form response is submitted
+
+Project Created
+Triggers when a new Project is created
+
+Task Message Created
+Triggers when a new message is added in task
+
+Task Updated
+Triggers when a new task is updated
+
+Project Message Created
+Triggers when a new message is added in a project
+
+Project Updated
+Triggers when a project is updated
+
+Task Created
+Triggers when a new task is created
+
+Supported Actions
+
+Archive Project
+Archives a project
+
+Delete a Project
+Deletes a project
+
+Import a template to a Project
+Imports one or more templates to a project
+
+Create Project
+Creates a project
+
+Create Task
+Creates a task
+
+Post Task Message
+Creates a new Task Message
+
+Update Project
+Update a Project
+
+Update Task
+Updates a task
+
+Search Project
+Search project by id
+
+Search Project (V2)
+Search Project
+
+Search Task
+Search task by Id
+
+Search Task (V2)
+Search task
+
+User
+Search user by email id
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to setup the Rocketlane Salesforce Integration?
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+The Workato Rocketlane Integration
+
+How to get started with Rocketlane's Integration for Zapier?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

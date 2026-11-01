@@ -1,0 +1,263 @@
+TITLE: Rocketlane Documents : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000701006-rocketlane-documents
+
+Rocketlane Documents : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Rocketlane Documents
+
+Rocketlane Documents
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:26 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+What are Spaces?
+
+Private and Shared Spaces
+
+Embedding a File in Spaces
+
+Rocketlane Documents
+
+Adding Documents to Your Project on Rocketlane
+
+How to Create a New Blank Rocketlane Doc?
+
+No article available
+
+In this article
+
+How to Create a New Blank Rocketlane Doc
+
+Rocketlane Documents: Features and Functionalities
+
+Adding Hyperlinks, Comments and Tasks to Highlighted Text
+
+Adding Links to Highlighted Text
+
+Adding Comments to Highlighted Text
+
+Adding Tasks to Highlighted Text
+
+Adding Task Sections
+
+Inserting a Private Section
+
+Shareable documents are an integral part of customer onboarding and project management. You can create documents within your Rocketlane projects and allow your team members to view or edit these documents.
+All team members can collaborate through document spaces. Link tasks, add comments, request approvals, tag your team members, and assign team members to tasks, all through Rocketlane Documents.
+
+How to Create a New Blank Rocketlane Doc
+Click here to read more about how to create a blank document using Rocketlane.
+
+Rocketlane Documents: Features and Functionalities
+Feature Description
+Heading Styles Choose from Normal text, Heading 1, Heading 2, and Heading 3.
+Format Text Highlight text by using Bold, Italics, and Underline formatting options.
+Font Color Pick your text color scheme from the color panel.
+Strikethrough text Cross out action items that have been completed or cancel out text that has lost relevance.
+Code Block Add pieces of code using the code format to differentiate code from other text.
+Lists Organize your text using numbered lists, bulleted lists, or checklists.
+Change Alignment Align text to the left, center, or right for ease of reading.
+Insert Image Add images for better presentation.
+Add an emoji Add emojis to text to communicate better.
+Insert table Display associated data fields in a tabular format.
+Insert panels Add panels with pre-designed formatting. You can add Information, Success, Warning, and Error panels.
+Insert Sections Add document task sections or private text sections to your document.
+Freeze/Unfreeze Document Freeze the document in its current state. Once frozen, the document is no longer editable and enters read-only mode. Anyone from Rocketlane can unfreeze the document and edit it.
+Request Approval Request approval from a customer or team member.
+Export to PDF Export your document in PDF format.
+More Actions Copy the document URL or delete the document.
+Conversations Chat with your customers and team members to discuss document-related updates.
+Comments Leave comments related to the document.
+Tasks Add document task sections to the document.
+
+Request Approval
+The Request Approval dialog box opens with the following fields:
+
+Type: Private or shared approval, depending on which space the document belongs to.
+
+Approvers: Assign customers and/or team members as approvers.
+
+Due Date: Add a due date for document approval.
+
+Add a short note: Add a note for your approvers.
+Click Request to send the approval request to your approvers.
+
+More Actions
+
+Copy URL: Copy the document's URL.
+
+Delete: Delete the document.
+
+Adding Hyperlinks, Comments and Tasks to Highlighted Text
+While drafting documents, you can quickly add a hyperlink, comment, or Document task to a segment of text.
+Upon selecting text, you have three options:
+Option Description
+Link Lets you add a URL to the web page that you want users to land on by clicking the selected text.
+Add Comment Lets you leave a comment for your team members.
+Add task Lets you add Document Tasks to related text.
+
+Adding Links to Highlighted Text
+
+Select text and right-click on it. Choose the link icon.
+
+Type the URL of the page you want to link in the dialog box that appears and click the green tick to link the highlighted text.
+
+Adding Comments to Highlighted Text
+
+Select text and right-click on it. Choose Add comment .
+
+Type the comment in the dialog box that appears and click Add to add the comment to the highlighted text.
+
+Adding Tasks to Highlighted Text
+
+Select text and right-click on it. Choose Add task .
+
+A dialog box will appear asking for the task name, task assignee, and task description. By default, the selected text from the document is auto-filled as the task description. You can edit the task description after creating the task too. Click Create .
+
+The text with a related Document task also gets a green underline.
+
+All tasks created from selecting text snippets from the document are visible on the right side under the Document tasks section.
+
+You can assign people, scroll to the document reference, and delete tasks from this panel.
+
+For more detailed task assignments, click on the task and explore the pop-up banner related to the task.
+
+Adding Task Sections
+
+From the top navigation bar, go to Insert Sections > Add Tasks .
+
+An Untitled tasks section is added to the document where the cursor was placed. It is also added to the column of tasks on the right side of the screen. You can use this section for grouping tasks together.
+
+You can rename Untitled tasks and start adding tasks by clicking Add Task . Type the task name and press Enter .
+
+Under the Assigned to column, click Choose and pick a team member from the drop-down list.
+
+To delete the task, click the More actions hamburger menu icon next to the task and click Delete .
+
+Inserting a Private Section
+You can add sections of text that are confidential or not intended to be read by people in the team who are not from your organization.
+
+From the top navigation bar, choose Insert Sections . Select Private Section .
+
+A private section will be added to your document with a pale yellow background. You can type the confidential information in that section.
+
+Note Currently, duplicating documents under Spaces isn’t possible. However, you can create document templates to reuse and recreate documents as needed.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Adding Documents to Your Project on Rocketlane
+
+What are Spaces?
+
+How can I access and retrieve documents using the Rocketlane API?
+
+The Conversations Section in Rocketlane and How to Track your Conversations?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

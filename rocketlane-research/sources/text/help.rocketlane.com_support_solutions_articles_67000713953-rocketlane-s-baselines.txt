@@ -1,0 +1,157 @@
+TITLE: Rocketlane's Baselines : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000713953-rocketlane-s-baselines
+
+Rocketlane's Baselines : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Rocketlane's Baselines
+
+Rocketlane's Baselines
+
+Created by Niharika Pandey, Modified on Wed, 18 Dec, 2024 at 8:13 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane's Baselines
+
+No article available
+
+A baseline is a clearly defined starting timeline for your project plan. It is a fixed reference point to measure and compare your project’s progress against. This helps you to assess the performance of your project over time. In case there are any scheduled delays, you can quickly process how will it impact project costs.
+A project baseline is a key tool for a successful project outcome. It helps you oversee the entire project, monitor performance, spot potential problems, and easily identify areas for change.
+
+Adding a Baseline to your Rocketlane Project
+
+Select the project and go to the 'Timeline' view of the project plan.
+
+Go to Baseline . The Default baseline is 'At project create' which records the project timeline when you create the project.
+
+When you choose a baseline it reflects on the gantt chart as grey bars. This helps you to have a visual clarity on deviations.
+
+You can create multiple baselines to help measure changes in the plan. For each timeline that you want to freeze as a baseline, go to Baseline and click on New .
+
+Add a name and description in the New baseline dialog box, you can add the date of when the baseline was created for avoiding confusion later.
+
+You can view a maximum of three baselines together in the gantt chart.
+
+Hover over the baseline to get a summary of the timelines and deviations (in case there are any).
+
+Automatic Baseline Creation post importing a Template to your Rocketlane Project
+
+Whenever you import a template to a Rocketlane project, a baseline gets created to record the timeline before the template import. You can read more about how to import templates and edit the baseline created post template import here.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+2FA and Magic Links
+
+How much does the permissions module cost
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

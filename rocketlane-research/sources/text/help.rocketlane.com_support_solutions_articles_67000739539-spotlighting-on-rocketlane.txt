@@ -1,0 +1,220 @@
+TITLE: Spotlighting on Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000739539-spotlighting-on-rocketlane
+
+Spotlighting on Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Spotlighting on Rocketlane
+
+Spotlighting on Rocketlane
+
+Created by Advaith R, Modified on Thu, 23 Jul at 4:52 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+Tasks
+
+Forms
+
+Spaces
+
+Chat
+
+Task List Saved View
+
+Files
+
+Rocketlane’s Spotlight feature helps you draw attention to critical tasks, documents, shared views, or chat messages. By adding a spotlight, you make these items stand out, prompting your customers or team to take action, whether it’s completing tasks, reviewing documents, or responding to messages. This feature helps you prioritise important tasks, ensuring key items aren’t overlooked, and boosting engagement with your team members.
+Below are the list of features that you can spotlight in Rocketlane:
+
+Tasks
+Task Pane View, Project Plan View
+When viewing the project plan, you can spotlight tasks in each phase to remind team members of their importance:
+
+Select the task you want to spotlight.
+
+Click the sunlight icon.
+
+Add a label to convey your message.
+
+Click Add to apply the spotlight.
+Alternatively, in the task pane view, click the More Actions button and repeat the same steps.
+
+Forms
+You can also spotlight forms within your project to ensure key forms are highlighted for your team. Here's how to do it:
+
+Under a project phase, click the dropdown next to Add Task and select Add Form .
+
+Choose a form template to create the form.
+
+Once the form is created, follow the same steps as spotlighting a task to add a spotlight to the form.
+
+Spaces
+In the Spaces section, you can spotlight any document within private or shared spaces to draw attention to critical information.
+
+Navigate to the document you wish to spotlight and select the More Actions button.
+
+Under more actions, click the Add spotlight button.
+
+Chat
+Task Chat, Project Chat
+You can spotlight specific messages within the chat window of a task or in the project chat, ensuring essential communication stands out.
+
+Navigate to the chat you wish to spotlight, and hover over the message for the More Actions button to appear.
+
+Under more actions, click the Add spotlight button.
+
+Task List Saved View
+In the List section, you can filter tasks by assignee, responsible party, due date, created by, or task status. Save this filtered view as either a private or shared list. Once saved, use the More Actions button and click the Spotlight icon to highlight the view for your team.
+
+Files
+In the All Files section of your project, you can spotlight files added by you or your teammates. To spotlight a file:
+
+To the left of the file’s name, you’ll see the spotlight icon appear.
+
+Click the spotlight icon to highlight the file, drawing attention to it.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Hide the Effort Column from the Customer Portal Task List
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Cursor
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

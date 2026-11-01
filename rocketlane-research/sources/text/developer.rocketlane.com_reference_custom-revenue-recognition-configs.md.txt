@@ -1,0 +1,27 @@
+---
+updatedAt: 2026-08-06T11:03:57.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Custom Revenue Recognition Configs
+
+Endpoints for custom revenue recognition configurations
+
+## Custom Revenue Recognition Config Overview
+
+Rocketlane's custom revenue recognition configs define reusable recognition methods that can be attached to project budgets.
+
+When you create or update a budget, set `revenueRecognitionType` to `CUSTOM_REVENUE_RECOGNITION` and provide `customRevenueRecognitionConfigId` to use one of these configs. The Custom Revenue Recognition Configs API is read-only: you can list configs and retrieve a config by id. Configs themselves are managed in the Rocketlane product.
+
+The Rocketlane Custom Revenue Recognition Configs API offers a robust and versatile solution for developers to look up available custom recognition methods and attach them to budgets through the Budgets API.
+
+***
+
+## Default Custom Revenue Recognition Config Fields
+
+| Field                              | Description                                                                                                                                                        |
+| :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| customRevenueRecognitionConfigId   | The config’s unique, system-generated identifier, which can be used to identify the custom revenue recognition configuration globally and on budget create/update. |
+| customRevenueRecognitionConfigName | The name of the custom revenue recognition configuration.                                                                                                          |
+| billingType                        | The billing type this configuration is associated with. Allowed values are `FIXED_FEE` and `TIME_AND_MATERIAL`.                                                    |

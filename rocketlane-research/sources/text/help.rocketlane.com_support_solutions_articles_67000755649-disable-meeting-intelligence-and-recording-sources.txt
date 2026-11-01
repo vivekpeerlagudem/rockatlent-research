@@ -1,0 +1,440 @@
+TITLE: Disable Meeting Intelligence and Recording Sources : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755649-disable-meeting-intelligence-and-recording-sources
+
+Disable Meeting Intelligence and Recording Sources : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Disable Meeting Intelligence and Recording Sources
+
+Disable Meeting Intelligence and Recording Sources
+
+Created by Advaith R, Modified on Thu, 29 Oct at 7:42 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+Meeting Intelligence settings are divided into independent controls for recording sources, the Rocketlane AI Notetaker, AI Fills, Signals, and historical recording retrieval. This allows administrators to stop one capability without necessarily changing the others.
+For example, you can disconnect Zoom while continuing to retrieve recordings from Gong, or disable the AI Notetaker while keeping cloud recording sources connected.
+This article explains the available controls and what to consider before disabling or disconnecting them.
+In this article
+
+Who can change these settings?
+
+Before you disable a feature
+
+Understand the available controls
+
+Disable Meeting Intelligence
+
+Disable the Rocketlane AI Notetaker
+
+Disable the AI Notetaker for selected team members
+
+Disconnect a cloud recording source
+
+Disable historical recording retrieval
+
+Disable AI Fills
+
+Stop AI Fills from processing internal meetings
+
+Disable Signals
+
+Disconnect a user's calendar
+
+Re-enable a feature or reconnect a source
+
+Troubleshooting
+
+Frequently asked questions
+
+Who can change these settings?
+Meeting Intelligence can be disabled or reconfigured by Account Admins and users with permission to manage Meeting Intelligence settings.
+Connecting or disconnecting a cloud recording source is an account-level action. Calendar connections used by the Rocketlane AI Notetaker are managed separately by individual users.
+
+Before you disable a feature
+Before changing the configuration:
+
+Identify which teams use each recording source.
+
+Check whether another source will continue capturing the affected meetings.
+
+Confirm whether the change should affect only new meetings or also access to previously captured meetings.
+
+Notify users who rely on AI Fills or Signals if those capabilities will be disabled.
+
+Review any confirmation message displayed by Rocketlane before completing the action.
+Note Because recording sources can operate in parallel, disabling one source does not require you to disable the others.
+
+Understand the available controls
+Control Where to manage it Primary effect
+Meeting Intelligence Settings > Meeting Intelligence > Setup & recording Controls Meeting Intelligence at the account level.
+Rocketlane AI Notetaker Settings > Meeting Intelligence > Setup & recording Controls whether the notetaker joins eligible scheduled meetings.
+Gong, Zoom, Microsoft Teams, or Google Meet Settings > Meeting Intelligence > Setup & recording Controls whether Rocketlane retrieves new recordings from that cloud source.
+Historical recording retrieval Settings > Meeting Intelligence > Setup & recording Controls automatic searches for eligible earlier recordings.
+AI Fills Settings > Meeting Intelligence > AI Fills Controls AI-generated content from captured meetings.
+Internal meetings in AI Fills Settings > Meeting Intelligence > AI Fills Controls whether AI Fills can process internal-only meetings.
+Signals Settings > Meeting Intelligence > Signals Controls signal generation for eligible customer meetings.
+Tip To skip only specific meetings or emails instead of turning a feature off, use exclusions. For more information, see Excluding Meetings and Emails from Capture .
+
+Disable Meeting Intelligence
+Use the account-level Meeting Intelligence control when you want to stop Meeting Intelligence rather than changing one recording source or feature.
+To disable it:
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Turn off Meeting Intelligence .
+
+Review the confirmation message describing the affected functionality.
+
+Confirm the action.
+Disabling Meeting Intelligence affects new meeting capture and processing at the account level. If you want to stop only one recorder or one AI capability, use the corresponding individual control instead.
+Previously captured meeting pages and meeting data should be reviewed separately from the setting that controls new processing.
+
+Disable the Rocketlane AI Notetaker
+Disable the AI Notetaker when you no longer want it to join scheduled meetings, but want cloud recording sources to continue operating.
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find the Rocketlane AI Notetaker settings.
+
+Turn off the AI Notetaker.
+
+Review the confirmation message.
+
+Confirm the change.
+After the AI Notetaker is disabled:
+
+It will not be scheduled to join new eligible meetings.
+
+Connected cloud recording sources can continue retrieving recordings.
+
+Users can continue using meetings retrieved from connected cloud sources.
+Disabling the AI Notetaker does not require users to disconnect their calendars. Calendar connections may continue to be used by other Rocketlane features.
+
+Disable the AI Notetaker for selected team members
+If only certain users should stop using the AI Notetaker, update the team-member selection instead of disabling it for the entire account.
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Open the Rocketlane AI Notetaker configuration.
+
+Open the team-member selection.
+
+Remove the users whose meetings should no longer be recorded by the notetaker.
+
+Save the configuration.
+Other selected team members can continue using the AI Notetaker.
+Note Removing a user from the AI Notetaker configuration does not prevent their meetings from being retrieved through a connected cloud recording source.
+
+Disconnect a cloud recording source
+Disconnect a source when Rocketlane should stop retrieving new recordings from that provider.
+The following sources can be managed independently:
+
+Gong
+
+Zoom
+
+Microsoft Teams
+
+Google Meet
+To disconnect a source:
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find the required platform under Cloud recording sources .
+
+Open its connection settings.
+
+Click Disconnect .
+
+Confirm the disconnection.
+After a source is disconnected:
+
+Rocketlane stops retrieving new recordings from that source.
+
+Other connected recording sources continue operating.
+
+The Rocketlane AI Notetaker can continue joining eligible meetings if it remains enabled.
+
+Meetings retrieved before disconnection remain available in Rocketlane.
+Note Disconnecting a source in Rocketlane may not remove the Rocketlane application authorization from the provider. If required by your organization's security process, revoke the application separately in Gong, Zoom, Microsoft 365, or Google Workspace.
+
+Disable historical recording retrieval
+Turn off historical retrieval when Rocketlane should stop automatically searching connected cloud sources for earlier recordings.
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find the historical recording retrieval setting.
+
+Turn off automatic retrieval.
+
+Save the configuration.
+Disabling historical retrieval does not disconnect your cloud sources. Rocketlane can continue retrieving eligible new recordings from those sources.
+Previously retrieved historical meetings remain available in Rocketlane.
+
+Disable AI Fills
+Disable AI Fills when users should no longer generate AI Fill content from captured meetings.
+
+Go to Settings > Meeting Intelligence > AI Fills .
+
+Turn off AI Fills .
+
+Review the confirmation message.
+
+Confirm the change.
+Disabling AI Fills does not disconnect cloud recording sources or automatically disable the Rocketlane AI Notetaker. Meeting capture and Signals are configured separately.
+
+Stop AI Fills from processing internal meetings
+If AI Fills should continue for customer meetings but not for internal-only meetings, change the meeting scope instead of disabling AI Fills completely.
+
+Go to Settings > Meeting Intelligence > AI Fills .
+
+Turn off the option to include internal meetings.
+
+Save the configuration.
+AI Fills will continue to process eligible customer meetings according to the account configuration. Meeting pages remain available for captured internal meetings.
+
+Disable Signals
+Disable Signals when Rocketlane should stop generating new signal insights from eligible customer conversations.
+
+Go to Settings > Meeting Intelligence > Signals .
+
+Turn off Signals .
+
+Review the confirmation message.
+
+Confirm the change.
+Disabling Signals does not disconnect recording sources or disable AI Fills. Captured meeting pages remain available.
+
+Disconnect a user's calendar
+Calendar connections are required for meeting hosts using the Rocketlane AI Notetaker. They are not required for cloud recording retrieval.
+To disconnect a user's calendar:
+
+Sign in as the user whose calendar should be disconnected.
+
+Open the user's account or calendar settings.
+
+Find the connected Google Calendar or Outlook account.
+
+Click Disconnect .
+
+Confirm the action.
+After the calendar is disconnected, Rocketlane cannot use that calendar to schedule the AI Notetaker for the user's meetings.
+Recordings can still be retrieved for the user through connected cloud sources when they meet the applicable ingestion criteria.
+Note A calendar connection is a user-level setting. An administrator disabling the AI Notetaker does not necessarily disconnect individual calendar accounts.
+
+Re-enable a feature or reconnect a source
+To resume a disabled capability, return to its Meeting Intelligence settings page and enable it again.
+To reconnect a cloud recording source:
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find the disconnected source.
+
+Click Connect .
+
+Sign in to the provider.
+
+Review and authorize the requested access.
+After reconnection, Rocketlane begins retrieving newly eligible recordings according to the source configuration. Historical recordings are retrieved only when the applicable historical retrieval behavior is enabled or triggered.
+
+Troubleshooting
+
+Meetings continue arriving after a source is disconnected
+Check whether:
+
+The same meeting was captured by another connected cloud source.
+
+The Rocketlane AI Notetaker attended the meeting.
+
+The meeting was already queued for processing before the source was disconnected.
+
+Another administrator reconnected the source.
+Parallel ingestion means that disconnecting one source does not prevent the same meeting from arriving through another enabled source.
+
+The AI Notetaker still appears on a meeting
+Check whether:
+
+The meeting was scheduled before the AI Notetaker was disabled.
+
+The host is still included in the AI Notetaker team-member selection.
+
+The AI Notetaker was disabled at the intended account or user scope.
+
+Cloud recordings stopped after the AI Notetaker was disabled
+Disabling the AI Notetaker should not require cloud sources to be disconnected. Verify that the required Gong, Zoom, Microsoft Teams, or Google Meet connection remains active.
+
+AI Fills is unavailable even though meetings are still captured
+Check whether AI Fills is enabled under Settings > Meeting Intelligence > AI Fills . Recording capture and AI Fills are controlled separately.
+
+Signals are no longer generated
+Verify that:
+
+Signals are enabled under Settings > Meeting Intelligence > Signals .
+
+The meeting is classified as a customer meeting.
+
+The meeting is associated with a customer company.
+
+The required recording and transcript were processed successfully.
+
+Frequently asked questions
+
+Does disconnecting one cloud source disable the others?
+No. Gong, Zoom, Microsoft Teams, and Google Meet are connected independently.
+
+Does disabling the AI Notetaker stop cloud recording retrieval?
+No. Connected cloud sources can continue retrieving eligible recordings while the AI Notetaker is disabled.
+
+Are existing meetings deleted when a cloud source is disconnected?
+No. Meetings retrieved before disconnection remain available in Rocketlane.
+
+Can AI Fills be disabled while Signals remain enabled?
+Yes. AI Fills and Signals have independent settings.
+
+Can internal meetings be excluded without disabling AI Fills?
+Yes. Turn off internal meetings under Settings > Meeting Intelligence > AI Fills . AI Fills can continue processing eligible customer meetings.
+
+Does disconnecting a calendar affect cloud ingestion?
+No. It prevents Rocketlane from using that calendar to schedule the AI Notetaker. Eligible cloud recordings can still be retrieved through connected providers.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

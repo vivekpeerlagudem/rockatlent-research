@@ -1,0 +1,208 @@
+TITLE: How to set up team member fields in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000720643-setting-up-team-member-fields
+
+How to set up team member fields in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Get Started
+Setting up team member fields
+
+Setting up team member fields
+
+Created by Monica Madan, Modified on Wed, 22 Jul at 6:59 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Inviting Your Team to your Rocketlane Account
+
+Setting up team member fields
+
+Creating roles and using them as placeholders
+
+How to understand and manage deactivated user behaviour
+
+No article available
+
+In this article
+
+Types of fields
+
+Adding team member fields
+
+Creating new sections for team member fields
+
+Adding team member fields to the section
+
+Adding more information about your team members to their profiles can give you a more comprehensive view of your team member portfolio. You can create custom fields for team members and group their information under relevant sections.
+For instance, you might create a section for contact details, such as email, phone number, and blood type, and a separate section for work-related information, such as certifications, skills, and region. You can set up these sections beforehand and fill in the fields as you create team member profiles. This way, you can keep all the necessary details organized and easily accessible.
+
+Types of fields
+A wide range of information can be included as fields, such as joining dates, reporting managers, and ID numbers. To effectively manage and organize this information, several field types can be utilized with ease.
+Field type Description
+Text A single-line text field where users can type the details.
+Multiline A paragraph field that lets users type in length
+Number Lets users add numbers like employee id
+Yes/No Is a either/or field
+Date Lets users add dates like the joining date of the employees
+Single choice Lets users one option from multiple choices
+Multiple choice Lets users select as many relevant options from the available choices
+Single user Lets users map the team member to another user like their manager
+Multiple user Lets users to map the team member to multiple other users like reportees.
+Short of time to read the article? Watch video here.
+
+Adding team member fields
+The user who invites new team members to the Rocketlane account will fill in the fields added here.
+To add new fields for your team members,
+
+Login as an admin and navigate to your profile icon
+
+Select settings and scroll down to the Fields section
+
+Select Team member fields and click on New field
+
+A New team member field pane will appear on the screen, for you to add the necessary details
+
+Give the field a relevant name , for example, employee ID
+
+Select the relevant Field type . For employee ID, the field type can be Number
+
+Add a description , that would act like a tooltip for the users to understand what information needs to go into the field
+
+After adding the necessary details, click save
+
+Creating new sections for team member fields
+To keep all the important information about your team members organized and easily accessible, you can group their fields into sections.
+To create a new section to include team member fields,
+
+Login as an admin and navigate to your profile icon
+
+Select settings and scroll down to the Fields section
+
+Select Team member fields and click on New section +
+
+Give your section a name and click on the green tick mark to save the section
+
+Adding team member fields to the section
+After creating a new section,
+
+You can drag and drop existing team fields into the new section
+
+Create a new field and map it to the section of choice.
+
+Tip You can add skills to your team member's profile by setting up a Skill Matrix. Click here to learn more .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Inviting Your Team to your Rocketlane Account
+
+Setting up custom invoice fields
+
+Managing Allocations on the Resource Management Timeline
+
+How to set up permissions for team members and customers (RBAC)
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

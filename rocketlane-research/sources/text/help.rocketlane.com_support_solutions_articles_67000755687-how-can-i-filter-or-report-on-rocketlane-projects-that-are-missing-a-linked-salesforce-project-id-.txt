@@ -1,0 +1,176 @@
+TITLE: How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755687-how-can-i-filter-or-report-on-rocketlane-projects-that-are-missing-a-linked-salesforce-project-id-
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+Created by Advaith R, Modified on Thu, 20 Aug at 6:01 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to add Salesforce object links to projects?
+
+How to Integrate Freshsales with Rocketlane
+
+Modifying Rocketlane's native Salesforce (SF) integration to sync data from plain text fields
+
+Why can't I manually add or find an "Actual Completion Date" field to sync with Salesforce
+
+What are the current capabilities and limitations of the Slack integration.
+
+Why isn't my Rocketlane to Zapier automation working consistently?
+
+How does the Rocketlane HubSpot integration handle data syncing and updates?
+
+My Workato automation is failing with a 'Rate limit exceeded' error. What should I do?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+Why am I having trouble embedding Gong links in Rocketlane?
+
+FAQ: HubSpot Integration & Field Sync in Rocketlane
+
+FAQ: Salesforce Field Sync — User Fields Not Populating in Rocketlane
+
+FAQ: Jira Instance Not Being Created via Rocketlane
+
+FAQ: Errors in the Salesforce Integration Error Log
+
+Rocketlane & Salesforce: Notes Sync FAQ
+
+Salesforce Integration FAQs
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+No article available
+
+As Rocketlane does not natively offer a filter for the raw Salesforce Object ID/URL, use the following setup:
+
+Map a Custom Field: Create a custom project field in Rocketlane and map it to the Salesforce Object ID field in your Salesforce integration settings. You can now use this custom field in Custom Reports or the Project List View to filter by Is Empty .
+
+Handle Deleted SFDC Projects: If a project is deleted in Salesforce, its ID will not automatically clear in Rocketlane. To resolve this:
+
+Create a custom Yes/No field named SFDC Project Deleted .
+
+Build an automation in Rocketlane: Trigger: When SFDC Project Deleted is updated to Yes → Action: Clear value for the custom SFDC Object ID field.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Setting up and managing Accounts
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

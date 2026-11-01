@@ -1,0 +1,362 @@
+TITLE: Time Tracking in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000686734-time-tracking-in-rocketlane
+
+Time Tracking in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Time Tracking
+Time Tracking in Rocketlane
+
+Time Tracking in Rocketlane
+
+Created by Madhusudhan Venkatesan, Modified on Thu, 15 Oct at 5:30 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Time Tracking in Rocketlane
+
+How to add Events from your Google Calendar to your Timesheet?
+
+How to add Events from your Outlook Calendar to your Timesheet?
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Custom Time Entry Fields in Rocketlane
+
+Importing Time Entries from Allocations
+
+Collapse Days and Rearrange Columns in Timesheets
+
+No article available
+
+Time is one of the most important resources available to a services team. Tracking it accurately helps teams understand effort, improve delivery predictability, review utilization, and protect project profitability.
+
+Rocketlane's time tracking feature helps teams log time against project tasks and activities, mark entries as billable or non-billable, submit timesheets for approval, and generate timesheet data for reporting and invoicing.
+
+In this article
+
+When to use
+
+Enable time tracking
+
+Open timesheets
+
+Configure time tracking in templates
+
+Timesheet lock dates and status restrictions
+
+When to use
+
+Use time tracking in Rocketlane when:
+
+Teams need to track time spent on project tasks and activities.
+
+Customers are billed based on time spent.
+
+Managers need visibility into weekly effort and utilization.
+
+Finance teams need accurate timesheet data for billing and reporting.
+
+Teams need to distinguish between billable and non-billable work.
+
+Submitted timesheets need approval before they are used for downstream processes.
+
+Enable time tracking
+
+Time tracking is disabled by default. Enable it from account settings before teams can start logging time.
+
+Note Only users whose role includes the Can manage Time tracking settings permission can turn time tracking on or off. Account admins have this permission by default.
+
+To enable time tracking:
+
+Go to Settings → Time tracking . Turn on the toggle in the top-right corner of the screen.
+
+In the Team member's capacity field, set the number of hours per week that each member of your team works.
+
+Select the Working days for your team.
+
+Set the day and time of the week by which your team is expected to submit their timesheets.
+
+Use the Send reminders option to configure when reminders are sent to your team to fill in their timesheets.
+
+If you are tracking multiple tasks in parallel, or there are multiple activities you want to track, use the Time entry categories option to create categories. Your team members can then log time against each category. Type the category name and click Add .
+
+Use the Approval settings to select who approves your team members' timesheets. Select either Project owners approve timesheets for their projects or Timesheet approver approves timesheets for their team . If you don't set the Approvers , approval requests go to the account admins.
+
+After you enable the feature, a clock icon is added to the left side panel.
+
+Open timesheets
+
+To view timesheets:
+
+Click the clock icon in the left navigation panel.
+
+The Timesheets page opens.
+
+If the user is a manager or admin, the page includes two tabs: My timesheet and Approvals .
+
+Tasks and activities already added to the user's timesheet appear under My timesheet .
+
+Add tasks to a timesheet
+
+Add tasks to a timesheet when time needs to be tracked against project work.
+
+To add tasks:
+
+Click Add tasks .
+
+Select the project the task is linked to.
+
+Optionally, filter the tasks: Completed , In progress , Submitted last week , and All tasks .
+
+From the tasks listed, select the tasks you want to include in the timesheet.
+
+Add activities to a timesheet
+
+Projects often include ad hoc work that may not be captured as a task in the project plan. Rocketlane allows users to track time against activities as well.
+
+To add an activity:
+
+Click Add activity . The activity form appears:
+
+Fill in a timesheet
+
+To log time in a timesheet:
+
+Go to Timesheets → My timesheet .
+
+Click the time field under the relevant day of the week.
+
+Enter the time spent on the task or activity.
+
+Repeat this for all tasks and activities worked on during the week.
+
+Click Submit week for approval .
+
+Once submitted, the approver is notified.
+
+Note Any changes made after submission are automatically updated for the approver.
+
+Add time from a task
+
+Time can also be logged directly from a task.
+
+To add time from a task:
+
+Open the task.
+
+Click the clock icon.
+
+The time entry is added to the user's timesheet.
+
+Approve timesheets
+
+Approvers can review and approve submitted timesheets from the Approvals tab.
+
+To view timesheets pending approval:
+
+Go to Timesheets → Approvals .
+
+The Approvals tab lists team members along with timesheet submission status, approval status, total time tracked, team member capacity, and percentage of billable hours.
+
+Send timesheet reminders
+
+If a team member has not submitted their timesheet, approvers can send a reminder.
+
+To send a reminder:
+
+Go to Timesheets → Approvals .
+
+Find the team member who has not submitted their timesheet.
+
+Click Send reminder .
+
+Rocketlane sends a reminder to the team member to complete and submit their timesheet.
+
+Approve a submitted timesheet
+
+Approvers can approve a timesheet directly from the Approvals tab or open it for a detailed review.
+
+Approve from the list
+
+Click the Approve option next to each team member who has submitted their timesheet, or
+
+For a detailed view, open their timesheet by clicking their name, check the information, and click the Approve button in the bottom-right corner.
+
+Review before approving: Go to Timesheets → Approvals , click the team member's name, review the submitted timesheet, and click Approve in the bottom-right corner.
+
+Message a team member during review
+
+Approvers can start a conversation with the team member while reviewing a timesheet. To message a team member, open the submitted timesheet, click Message in the bottom section, enter the message, and send it. Everyone added as an approver can view and participate in this conversation.
+
+Make changes after approval
+
+Once a timesheet is approved, the team member cannot modify it. If changes are required, the team member must use the Withdraw option, make the necessary changes, and submit the timesheet again for approval.
+
+Configure time tracking in templates
+
+When time tracking is enabled for the account, time tracking options become available inside project templates. Use template-level time tracking settings to define default billable behavior and categories for tasks created from the template.
+
+To configure time tracking in a project template:
+
+Go to Templates and select the relevant project template.
+
+Click the task for which you want to track time.
+
+Find the section called Time entry settings .
+
+This section allows you to mark the task as billable.
+
+You can also map the task to a category (see Enable time tracking to learn how to create categories for time tracking).
+
+When projects are created from the template, the configured time tracking settings are applied to those tasks.
+
+Timesheet lock dates and status restrictions
+
+Timesheet lock dates help keep historical time entries consistent after financial close. Locking can restrict changes to time entries on or before a configured lock date. Locking affects both time entry details and approval status actions, depending on the settings and RBAC permissions configured.
+
+Configure timesheet lock dates
+
+Timesheet lock dates are configured from Settings → Time tracking . When a lock date is configured, entries dated on or before the lock date are treated as locked. Entries after the lock date continue to follow the normal submission and approval workflow.
+
+Restrict approval actions on locked entries
+
+Rocketlane includes a setting to restrict approvers from modifying approval status on or before the lock date. When this option is enabled, regular users and approvers cannot submit time entries, withdraw submitted entries, approve entries, or reject entries. Only admins can override locked entries and change their status.
+
+Note Restricting approvers from modifying approval status on or before the lock date is disabled by default. Enable it from time tracking settings for stricter locking behavior.
+
+RBAC permissions for locked time entries
+
+Timesheet locking is controlled by two separate permissions:
+
+Can edit details of date-locked time entries controls whether hours, dates, and notes can be edited after the lock date.
+
+Can change status of date-locked time entries controls whether locked entries can be submitted, approved, rejected, or withdrawn.
+
+Interaction with status lock
+
+When status lock is enabled, Rocketlane disables Can change status of date-locked time entries for non-admin users, so regular users cannot submit, approve, reject, or withdraw locked entries. When status lock is disabled, the permission remains enabled based on the user's assigned role, and users with the required permission can change the status of locked entries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Automation Pricing
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+How much does the permissions module cost
+
+Getting started with the Rocketlane Salesforce Integration
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

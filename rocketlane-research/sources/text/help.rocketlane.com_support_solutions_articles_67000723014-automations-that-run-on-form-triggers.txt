@@ -1,0 +1,161 @@
+TITLE: Examples of form triggers : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000723014-automations-that-run-on-form-triggers
+
+Examples of form triggers : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Automations that run on form triggers
+
+Automations that run on form triggers
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:33 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Automations that run on project triggers
+
+Automations that run on task triggers
+
+Automations that run on phase triggers
+
+Automations that run on form triggers
+
+No article available
+
+Form triggers monitor events that happen within forms, such as new form responses and form approval responses. You can use these triggers to automate follow-up actions when customers or internal teams submit or approve form responses.
+Form triggers can be configured at the template level for projects that use specific templates. To set them up, open a project template, select a form inside the template, and add an automation.
+Form triggers include all task triggers, along with form-specific triggers.
+In this article
+
+New form response
+
+New form approval response
+
+New form response
+The New form response trigger runs when a new response is submitted for a form.
+You can use this trigger to start workflows based on the submitted response.
+For example, when a new form response is received and the selected use case is Onboarding , you can import the onboarding project template.
+You can use this trigger under Template automations by navigating to Templates > Project template > Select any form > Add automation .
+
+New form approval response
+The New form approval response trigger runs when an approval response is received for a submitted form response.
+You can use this trigger to notify stakeholders or run follow-up actions after a form response is approved.
+For example, when a new form response is approved, you can send an email to project members.
+This trigger can be used in both Global Automations and Template Automations .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Automations
+
+Automation Logs in Rocketlane
+
+Automations in Sheets
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

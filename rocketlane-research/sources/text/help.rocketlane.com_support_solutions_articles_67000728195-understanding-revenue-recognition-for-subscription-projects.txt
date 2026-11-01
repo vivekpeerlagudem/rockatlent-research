@@ -1,0 +1,197 @@
+TITLE: Understanding revenue recognition for subscription projects : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000728195-understanding-revenue-recognition-for-subscription-projects
+
+Understanding revenue recognition for subscription projects : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Understanding revenue recognition for subscription projects
+
+Understanding revenue recognition for subscription projects
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:57 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+Revenue recognition, a core accounting principle, guides how companies record their earnings over a particular period, regardless of when they receive payment. This is part of the accrual accounting method, which prioritizes recording revenue when it’s earned.
+
+Take a course on Financial Management here.
+
+To properly apply this principle, careful project planning and budgeting are essential. By monitoring the time spent on a project, a company can gradually record revenue in line with project advancement. This method ensures the recorded revenue corresponds accurately with the services delivered, providing a true representation of the company’s performance.
+Rocketlane offers multiple methods for recognising revenue, making it easy to keep track of finances.
+
+Let's break down the definitions used in the revenue recognition calculations:
+Period budget represents the fixed fee of every subscription period where fixed fee is the predetermined fee that you have agreed upon with the customer for the entire project.
+Period hours represents the budgeted hours of every subscription period, where budgeted hours is typically the total number of hours you expect to take to complete the project. This represents the planned time for the project.
+Period Tracked hours : This refers to the total number of hours that your team has logged for the project within a period. It represents the actual time spent working on the project and is reported by your team via timesheets.
+Period Allocated hours : The sum of hours allocated for individual resources assigned to the project.
+
+Method 1 :
+
+Recognise revenue at the end of period
+The revenue recognized at the end of each period will be 100% of the period budget. The project revenue recognized will be the sum of the revenue for past subscription periods.
+
+Method 2 :
+
+Recognise revenue based on hours tracked as percentage of total period hours
+Recognised revenue for a period = (Tracked hours for that period /Period hours) * Fixed Fee
+Forecasted recognised revenue for a period = (Allocated hours for that period /Period hours) * Fixed Fee
+
+Method 3 :
+
+Recognise revenue based on hours tracked as percentage of total allocated hours for the subscription period
+Recognised revenue for a period = (Tracked hours for that period / Total allocated hours) * Fixed Fee
+Forecasted recognised revenue for a period = (Allocated hours for that period / Total allocated hours) * Fixed Fee
+
+Things to remember:
+1. As the team keeps logging more hours and makes progress on the project, the revenue gets recognized for those hours.
+2. However, the revenue that can be recognized is limited to the fixed fee, with a maximum cap of 100%.
+3. Once a project is marked as completed, if the recognized revenue is below 100%, the system will recognize the remaining portion of the fixed fee on the project completion date.
+
+To choose the appropriate revenue recognition method for subscription projects in Rocketlane,
+
+Navigate to your avatar , and select settings
+
+Scroll down to the Operations and Financials section
+
+Select Financial Management
+
+On the Financials page, you can select the preferred Revenue recognition for subscription projects
+
+To get an overview of the Financials Dashboard, click here .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Portfolio reporting
+
+Creating projects with Financials
+
+Supported Billing Methods
+
+Understanding revenue recognition for Fixed Fee projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

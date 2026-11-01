@@ -1,0 +1,409 @@
+TITLE: Adding the Zoom app to your Rocketlane account : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000739674-adding-the-zoom-app-to-your-rocketlane-account
+
+Adding the Zoom app to your Rocketlane account : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Adding the Zoom app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Created by Monica Madan, Modified on Thu, 20 Aug at 4:59 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+Connect Zoom to Rocketlane to bring eligible Zoom cloud recordings and transcripts into Meeting Intelligence. Captured meetings can be accessed from meeting pages and used with features such as AI Fills and Signals, depending on the meeting and your account configuration.
+Zoom can operate alongside Gong, Microsoft Teams, Google Meet, and the Rocketlane AI Notetaker. Connecting Zoom does not require you to disable any other recording source.
+In this article
+
+How the Zoom integration works
+
+Before you begin
+
+Step 1: Enable cloud recording and audio transcription
+
+Step 2: Connect Zoom in Rocketlane
+
+Which Zoom recordings are retrieved?
+
+Use Zoom with other recording sources
+
+Retrieve historical Zoom recordings
+
+Use Zoom recordings with AI Fills
+
+Use the Rocketlane AI Notetaker in Zoom meetings
+
+Disconnect Zoom from Rocketlane
+
+Troubleshooting
+
+Frequently asked questions
+
+How the Zoom Integration Works
+After the integration is connected, Rocketlane retrieves eligible completed recordings from the Zoom Cloud through Zoom's API. No Rocketlane bot is required for cloud recording retrieval.
+The Zoom integration can support two related workflows:
+Workflow How it works
+Zoom cloud recording retrieval Rocketlane retrieves eligible recordings and transcripts after meetings are recorded in the Zoom Cloud.
+Rocketlane AI Notetaker on Zoom The AI Notetaker joins eligible scheduled Zoom meetings and records them. The host must have a Rocketlane licence and a connected calendar.
+You can enable one or both workflows. If your organization uses the AI Notetaker and Zoom cloud recordings, they can operate at the same time.
+
+Before You Begin
+Ensure that:
+
+Meeting Intelligence is enabled in Rocketlane.
+
+You have administrator access in Rocketlane.
+
+You are the Zoom account owner or have sufficient Zoom administrator privileges to authorize the integration.
+
+Your Zoom account supports cloud recording.
+
+Cloud recording is enabled for the relevant Zoom users or groups.
+
+Audio transcription is enabled in Zoom.
+
+Meetings that should be available in Rocketlane are recorded to the Zoom Cloud.
+The Zoom account must support cloud recording, such as a Zoom Pro, Business, Education, or Enterprise account.
+Note Locally recorded meetings cannot be retrieved through the Zoom cloud integration.
+
+Step 1: Enable Cloud Recording and Audio Transcription in Zoom
+Before connecting Zoom to Rocketlane, verify the required recording settings in Zoom:
+
+Sign in to the Zoom web portal as an account owner or administrator.
+
+Under Admin , go to Account Management > Account Settings .
+
+Open the Recording tab.
+
+Enable Cloud recording .
+
+Enable Audio transcript .
+
+Confirm that these settings apply to the users or groups whose meetings should be available in Rocketlane.
+For additional information about Zoom cloud recording settings, refer to Zoom's cloud recording documentation .
+Note Zoom administrators can lock settings at the account or group level. If a setting cannot be changed for an individual user, review the applicable account and group policies.
+
+Step 2: Connect Zoom in Rocketlane
+To connect Zoom:
+
+Sign in to Rocketlane as an administrator.
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find Zoom under Cloud recording sources .
+
+Click Connect .
+
+Sign in to the Zoom account you want to connect.
+
+Review the permissions requested by Rocketlane.
+
+Click Authorize to complete the connection.
+Once authorization is complete, Zoom appears as a connected recording source in Rocketlane.
+Note Connecting Zoom is an account-level action. One authorized connection is used to retrieve eligible recordings for the Rocketlane account.
+
+Which Zoom Recordings Are Retrieved?
+Rocketlane retrieves eligible Zoom cloud recordings involving:
+
+Active Rocketlane team members.
+
+Participants whose email domain matches an internal domain identified from your Rocketlane team members or partners.
+The meeting host or participant does not need a Rocketlane licence solely for Zoom cloud recording retrieval. Rocketlane matches eligible recordings using meeting and participant information received through Zoom's API.
+A recording must be available in the Zoom Cloud, and the necessary transcript data must be available, before Rocketlane can process it.
+After an eligible meeting is retrieved:
+
+Rocketlane creates a meeting page for the captured meeting.
+
+Rocketlane attempts to classify the meeting as internal or customer-facing.
+
+For customer meetings, Rocketlane attempts to associate the meeting with the appropriate company.
+
+AI Fills and Signals run according to their respective configurations and eligibility rules.
+Note Meeting pages are available for all captured meetings, including meetings that are not associated with a customer. Signals require an eligible customer meeting associated with a company.
+
+Use Zoom with Other Recording Sources
+Zoom can remain connected while other cloud recording sources and the Rocketlane AI Notetaker are enabled.
+For example:
+
+A sales team can continue recording calls in Gong.
+
+An implementation team can use Zoom cloud recording.
+
+Other team members can use the Rocketlane AI Notetaker.
+Rocketlane can receive meetings from all these sources without requiring one recording method to be selected for the entire account.
+Note If the same meeting is received through more than one configured source, you do not need to disconnect either source.
+
+Retrieve Historical Zoom Recordings
+When historical recording retrieval is enabled, Rocketlane can search Zoom for eligible earlier recordings.
+Historical retrieval can run when:
+
+Zoom is connected as a new cloud recording source.
+
+Historical retrieval is enabled for the first time.
+
+The configured historical retrieval period is changed.
+
+A new customer company is created in Rocketlane.
+Rocketlane matches historical meetings using available customer contacts, participant domains, company website information, and company names.
+To review or change this behavior, go to Settings > Meeting Intelligence > Setup & recording and find the historical recording retrieval settings.
+Note Historical retrieval is limited by the period configured in Meeting Intelligence. When retrieval is triggered by the creation of a new customer, Rocketlane uses the configured period up to the supported limit for new-customer retrieval.
+
+Use Zoom Recordings with AI Fills
+Once a Zoom meeting has been captured, team members can use it with AI Fills according to the AI Fills meeting-scope configuration.
+AI Fills can generate content such as:
+
+Meeting summaries
+
+Follow-up emails
+
+Action items
+
+Decisions and next steps
+
+Project updates
+
+Project documents
+
+Internal notes
+For instructions on creating templates and generating content, refer to Create and Use AI Fills .
+
+Use the Rocketlane AI Notetaker in Zoom Meetings
+The Rocketlane AI Notetaker can join scheduled Zoom meetings alongside the cloud integration.
+For the AI Notetaker to join a host's meetings:
+
+The AI Notetaker must be enabled for that team member.
+
+The host must have a Rocketlane licence.
+
+The host must connect Google Calendar or Outlook to Rocketlane.
+
+The Zoom integration must be configured as required for the notetaker to join Zoom meetings.
+Zoom does not support anonymous bot participants. Connecting Zoom allows the Rocketlane AI Notetaker to join supported Zoom meetings using the authorized integration.
+Note These requirements apply to the AI Notetaker workflow. They do not mean that every user whose cloud recording is retrieved must have a Rocketlane licence or connected calendar.
+
+Disconnect Zoom from Rocketlane
+To stop Rocketlane from retrieving new Zoom recordings:
+
+Go to Settings > Meeting Intelligence > Setup & recording .
+
+Find Zoom under Cloud recording sources .
+
+Open the Zoom connection settings.
+
+Click Disconnect .
+
+Confirm the disconnection.
+Rocketlane will stop retrieving new recordings from Zoom. Recordings that were retrieved before the disconnection remain available in Rocketlane.
+
+Remove the Rocketlane App from Zoom
+If you also want to remove the application authorization from your Zoom account:
+
+Sign in to the Zoom web portal.
+
+Open the Zoom App Marketplace .
+
+Go to Manage > Added Apps .
+
+Find the Rocketlane application.
+
+Click Remove and confirm the action.
+Removing the application from Zoom prevents Rocketlane from accessing new Zoom recording data until the connection is authorized again.
+
+Troubleshooting
+
+A Zoom recording is not appearing in Rocketlane
+Verify that:
+
+The meeting was recorded to the Zoom Cloud rather than to a local device.
+
+Cloud recording and audio transcription were enabled for the meeting host.
+
+The Zoom integration is still connected in Rocketlane.
+
+The meeting involved an eligible Rocketlane team member or an internal email domain recognized by Rocketlane.
+
+The recording and transcript have finished processing in Zoom.
+
+The AI Notetaker did not join a Zoom meeting
+Verify that:
+
+The AI Notetaker is enabled for the meeting host.
+
+The host has a Rocketlane licence.
+
+The host has connected the correct Google Calendar or Outlook account.
+
+The calendar event contains a valid Zoom meeting link.
+
+The Zoom integration remains authorized.
+
+A meeting was captured but was not associated with a customer
+Rocketlane may have been unable to identify one customer confidently. Check whether:
+
+The customer contacts have been added to Rocketlane.
+
+The participant email domains match the expected customer.
+
+The customer's website URL is present on the company record.
+
+Multiple customer companies use the same domain or have similar names.
+The meeting page remains available even when the meeting cannot be associated with a customer.
+
+Frequently Asked Questions
+
+Does connecting Zoom disable Gong or the AI Notetaker?
+No. Zoom can operate alongside Gong, Microsoft Teams, Google Meet, and the Rocketlane AI Notetaker.
+
+Does every Zoom meeting host need a Rocketlane licence?
+No. A Rocketlane licence is not required solely for Zoom cloud recording retrieval. A licence and connected calendar are required when the host uses the Rocketlane AI Notetaker.
+
+Are existing Zoom recordings imported automatically?
+They can be retrieved when historical recording retrieval is enabled and the recordings meet the applicable date and matching criteria.
+
+Are local Zoom recordings supported?
+No. Rocketlane retrieves recordings made available through the Zoom Cloud.
+
+What happens to existing meetings after Zoom is disconnected?
+Previously retrieved meetings remain available in Rocketlane. New Zoom recordings are no longer retrieved after the connection is disconnected.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Adding the Google Meet app to your Rocketlane account
+
+Integrating the Gong app to your Rocketlane account
+
+How to setup SAML SSO with Rocketlane using Google?
+
+How to setup SAML SSO with Rocketlane using Azure Active Directory( Microsoft Entra ID)?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

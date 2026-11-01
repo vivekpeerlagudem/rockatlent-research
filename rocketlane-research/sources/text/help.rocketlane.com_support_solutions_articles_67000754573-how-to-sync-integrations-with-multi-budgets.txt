@@ -1,0 +1,209 @@
+TITLE: How to Sync Integrations with Multi-Budgets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754573-how-to-sync-integrations-with-multi-budgets
+
+How to Sync Integrations with Multi-Budgets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+How to Sync Integrations with Multi-Budgets
+
+How to Sync Integrations with Multi-Budgets
+
+Created by Advaith R, Modified on Wed, 5 Aug at 5:21 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+Connecting upstream sales data with Rocketlane gives delivery teams immediate visibility into financial targets. By mapping Salesforce opportunities, line items, or automation tools like Workato to project and budget-level fields, teams can move from sales to delivery without manual data entry.
+In this article
+Map Salesforce fields to budget fields
+
+Create and retrieve multi-budgets with Workato
+
+Multi-budgets can be aligned with upstream sales data.
+Common patterns include:
+
+A Salesforce Opportunity or Sales Order creates a project in Rocketlane.
+
+Opportunity line items or Sales Order line items map to budgets under that project.
+Field sync can map Salesforce fields to:
+
+Project-level fields
+
+Budget-level fields
+
+Map Salesforce fields to budget fields
+To map Salesforce fields to Rocketlane budget fields:
+
+Go to Settings > Integrations .
+
+Open the Salesforce integration.
+[image: Settings Integrations page with the Salesforce integration card]
+On the Fields sync tab, select Budget from the Objects sidebar.
+[image: Salesforce Fields sync tab with Budget selected in the Objects sidebar]
+If no Budget mappings exist, click Add a Salesforce object . In the Salesforce object selector, select Budget , then click Ok .
+[image: Select a Salesforce Object dialog with Budget selected]
+Under the Salesforce column, click Add a field and select each Salesforce field you want to map. For example, add Budget Name and Last Modified Date .
+
+In the Rocketlane column, select the corresponding Rocketlane budget field for each Salesforce field to establish the mappings.
+[image: Budget mapping table with Budget Name and Last Modified Date Salesforce fields] Automation platforms such as Workato can be used to:
+
+Create budgets based on line items.
+
+Keep sales and delivery financials in sync.
+
+Create and retrieve multi-budgets with Workato
+A Workato recipe can use Rocketlane’s Create Financials Budget and Search Project Financials Budget actions to create a budget and retrieve the budgets associated with a project.
+The Rocketlane connector for Workato includes two actions for working with multi-budgets:
+Action Description
+Create Financials Budget Creates a budget for a Rocketlane project. You can configure details such as the project, billing method, revenue recognition method, duration input type, and budget value.
+Search Project Financials Budget Retrieves the financial budgets associated with a project using its Project ID.
+[image: Workato recipe canvas with the Rocketlane New Project trigger and Create Financials Budget action configured with example project ID 1349246 and Fixed Fee billing] Add the required action to your Workato recipe and select your active Rocketlane connection.
+To create a budget, select Create Financials Budget and configure the financial details based on the project’s requirements.
+[image: Create Financials Budget settings with Tracked Hours by Project Hours revenue recognition, Budgeted Hours duration input, and example Fixed Fee value 12000] To retrieve the budgets associated with a project, select Search Project Financials Budget and use Project ID as the search parameter.
+[image: Workato Rocketlane budget action search showing Create Financials Budget and Search Project Financials Budget, with the search action selected]
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Rocketlane's Integration for HubSpot
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

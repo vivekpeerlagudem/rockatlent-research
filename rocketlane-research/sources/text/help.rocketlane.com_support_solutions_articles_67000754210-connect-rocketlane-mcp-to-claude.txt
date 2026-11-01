@@ -1,0 +1,195 @@
+TITLE: Connect Rocketlane MCP to Claude : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754210-connect-rocketlane-mcp-to-claude
+
+Connect Rocketlane MCP to Claude : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Connect Rocketlane MCP to Claude
+
+Connect Rocketlane MCP to Claude
+
+Created by Advaith R, Modified on Tue, 4 Aug at 5:38 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Guide to Using Rocketlane MCP Tools
+
+Connect Rocketlane MCP to Claude
+
+Connect Rocketlane MCP to Claude Code
+
+Connecting Rocketlane MCP to Cursor
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Gemini Enterprise
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+No article available
+
+Rocketlane MCP, or Model Context Protocol, lets your AI assistant securely access Rocketlane so you can search projects, create and update tasks, and stay on top of delivery work without switching tools.
+Rocketlane MCP connects to your AI tool through an MCP server URL and uses OAuth for authentication.
+In this article
+
+When to use Rocketlane MCP
+
+Prerequisites
+
+Connect Rocketlane MCP to Claude Desktop
+
+When to use Rocketlane MCP
+Use Rocketlane MCP when you want your AI assistant to help with delivery work in Rocketlane.
+You can use it to:
+
+Create, update, and search tasks across projects.
+
+Summarize project status and flag overdue or blocked work.
+
+Turn customer inputs, such as handoff notes, discovery context, or SOWs, into a structured project plan.
+
+Log or update time entries from your AI assistant, where supported in your setup.
+
+Search users, projects, and fields so actions can be performed with the correct values.
+
+Prerequisites
+Before connecting Rocketlane MCP, make sure:
+
+You have a Rocketlane user account and access to the projects you want to work with.
+
+Your Rocketlane permissions allow the actions you want to perform, such as creating tasks, updating tasks, or creating time entries.
+
+Your AI tool supports MCP and OAuth, or supports adding MCP servers.
+
+Connect Rocketlane MCP to Claude Desktop
+Use the following steps to connect Rocketlane MCP to Claude Desktop.
+
+In your Claude account, go to Customise > Connectors > Rocketlane > Connect . If the mcp isnt listed under connectors, browse for the connector
+
+Complete the OAuth authorization flow.
+
+Click Connect next to Rocketlane in the Connectors list to start the authorization.
+
+Sign in with your Rocketlane credentials to grant access.
+
+Enter the one-time code sent to your email to verify your identity.
+
+Select your Rocketlane organization to complete the connection.
+Note We recommend using Claude Sonnet 4.6 and enabling lazy tool loading if it is available in your Claude setup.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Connect Rocketlane MCP to Claude Code
+
+Log Time in Rocketlane Using Claude and Rocketlane MCP
+
+Connecting Rocketlane MCP to ChatGPT
+
+Connecting Rocketlane MCP to Cursor
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

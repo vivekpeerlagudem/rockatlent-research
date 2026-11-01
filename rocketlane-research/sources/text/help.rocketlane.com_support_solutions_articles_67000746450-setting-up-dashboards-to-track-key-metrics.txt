@@ -1,0 +1,212 @@
+TITLE: Setting Up Dashboards to Track Key Metrics : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000746450-setting-up-dashboards-to-track-key-metrics
+
+Setting Up Dashboards to Track Key Metrics : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Best Practices & Shortcuts
+Setting Up Dashboards to Track Key Metrics
+
+Setting Up Dashboards to Track Key Metrics
+
+Created by Advaith R, Modified on Fri, 25 Jul, 2025 at 6:04 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Best Practices for Users
+
+Setting Up Dashboards to Track Key Metrics
+
+The 4 Letters to better Customer Experience
+
+No article available
+
+One of the best ways to tap into Rocketlane's full potential and see real success in tracking and achieving your business goals is using Dashboards. With the right cards and charts, you'll gain clear insights into your team's progress, identify challenges before they escalate, and make it easier to achieve your goals.
+
+To Create a Dashboard:
+
+Login as an admin and navigate to Dashboards and click Create New Dashboard .
+
+Add a name for the dashboard, choose the visibility setting, and click Create .
+
+Click New Chart to add cards and charts to your dashboard.
+
+Important Cards and Charts:
+
+Projects In-Progress Card
+
+Go to New Chart > Add New Card.
+
+Name the card and select Project Count as the field.
+
+Under filters, set "Where Status is exactly In Progress".
+
+This card will show all currently active projects.
+
+Projects Overdue Card
+
+Follow the same steps as above, but under filters, set "Where Due Date is before Today".
+
+CSAT Score Card
+
+Create a card using the CSAT field to display the average CSAT rating for all projects.
+
+Project Status Chart
+
+Navigate to New Chart > New Chart.
+
+Select Status for the X-axis and Projects under "Create chart based on".
+
+This chart will display the current status of all projects.
+
+Additionally under Group By, select Project Owner, to make the chart group each project by its owner.
+
+Task by Status Chart
+
+Create this chart similar to the Project Status Chart, but select Tasks under "Create chart based on".
+
+Milestone Tasks Completion Trend Chart
+
+Choose Line Chart Style and set:
+
+X-axis: Task Due Date
+
+Y-axis: Task Count
+
+Group By: Status
+
+Under filters, set:
+
+"Where Status is exactly Completed"
+
+"Type contains MILESTONE"
+
+This chart will show the trend of milestone task completions over time.
+
+Status of All Tasks (At Risk)
+
+To take a look at all Tasks at risk and their current status;
+
+Select Tasks under "Create Chart Based On".
+
+Set X-axis as Status and Y-axis as Task Count .
+
+Filter for At Risk = True .
+
+By implementing these cards and charts, you’ll have a clear view of your team’s progress and project performance metrics.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Setting up Dashboards in Sheets
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+How to Create Dashboards in Rocketlane and add Widgets to it?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

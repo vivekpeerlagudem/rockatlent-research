@@ -1,0 +1,534 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Create a time-off
+
+Team members can apply for time off while keeping the project team informed to ensure the project's progress remains unaffected. This allows team members to take time off without hindering ongoing project activities. Using the `Create a time-off` API, you can also create a time-off for team members, which returns the created time-off object.
+
+> 📘 When a user requests time off, the system will automatically determine the time off duration by excluding any holidays and weekends within the requested date range. Holidays are identified from the user's holiday calendar, ensuring that only regular working days are counted as time off.
+
+To customise the response, utilise the includeFields parameter, and it will return the created time-off in the response body.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Time-Offs",
+      "description": "Endpoints for time-offs resource"
+    }
+  ],
+  "paths": {
+    "/1.0/time-offs": {
+      "post": {
+        "tags": [
+          "Time-Offs"
+        ],
+        "summary": "Create a time-off",
+        "operationId": "create-timeoff",
+        "parameters": [
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "note",
+                  "notifyUsers"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TimeOffPublicAPIRequestEntity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "The resource was successfully created in the database.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TimeOffPublicAPIResponseEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "This error denotes that there is an error that occured within our servers. The response body could help narrow down the cause for the error by our support team.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/serverErrorErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "Example500": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "SERVER_ERROR"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Server Error: Something went wrong on our end. Could not perform the requested action."
+          }
+        }
+      },
+      "serverErrorErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example500"
+            }
+          }
+        }
+      },
+      "TImeOffNotifyUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "projectOwners": {
+            "type": "boolean",
+            "description": "Notify project owners of projects I'm part of.",
+            "example": false
+          },
+          "others": {
+            "type": "array",
+            "description": "Users to notify about your time off.",
+            "items": {
+              "$ref": "#/components/schemas/TimeOffOtherUsersPublicAPIResponse"
+            }
+          }
+        },
+        "description": "Users to notify about your time off."
+      },
+      "TimeOffCreatedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the time off."
+      },
+      "TimeOffOtherUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The email identifier of the user.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The user's unique, system-generated identifier, which can be used to identify the user globally.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "Users to notify about your time off."
+      },
+      "TimeOffPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "timeOffId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique `identifier` of the time-off is generated by the system and used to identify the time-off globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "user": {
+            "$ref": "#/components/schemas/TimeOffUserPublicAPIResponseEntity"
+          },
+          "note": {
+            "type": "string",
+            "description": "The note or comment about the time-off.",
+            "example": "Sick leave."
+          },
+          "startDate": {
+            "type": "string",
+            "description": "The time-off start date. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "The time-off end date. The `endDate` must be on or after the `startDate`, formatted as _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "durationInMinutes": {
+            "type": "integer",
+            "description": "The `durationInmMinutes` per day for applied time off interval. For `FULL_DAY` time off, the duration is calculated as `CAPACITY_IN_MINUTES / WORKING_DAYS_OF_WEEK`, while for `HALF_DAY` time off, it is calculated as `(CAPACITY_IN_MINUTES / WORKING_DAYS_OF_WEEK) / 2`. These calculations are based on the user's defined capacity.",
+            "format": "int32",
+            "example": 50
+          },
+          "type": {
+            "type": "string",
+            "description": "The `type` of the time-off.",
+            "example": "FULL_DAY",
+            "enum": [
+              "FULL_DAY",
+              "HALF_DAY",
+              "CUSTOM"
+            ]
+          },
+          "notifyUsers": {
+            "$ref": "#/components/schemas/TImeOffNotifyUsersPublicAPIResponse"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The timestamp when the time-off was created, represented in epoch milliseconds.\n",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/TimeOffCreatedByPublicResponse"
+          }
+        }
+      },
+      "TimeOffUserPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the customer.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the customer.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the customer.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The time-off user."
+      },
+      "TImeOffNotifyUsersPublicRequest": {
+        "type": "object",
+        "properties": {
+          "projectOwners": {
+            "type": "boolean",
+            "description": "Notify project owners of projects I'm part of.",
+            "example": false
+          },
+          "others": {
+            "type": "array",
+            "description": "Users to notify about your time off.",
+            "items": {
+              "$ref": "#/components/schemas/TimeOffOtherUsersPublicRequest"
+            }
+          }
+        },
+        "description": "Users to notify about your time off."
+      },
+      "TimeOffOtherUsersPublicRequest": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          }
+        },
+        "description": "Users to notify about your time off."
+      },
+      "TimeOffPublicAPIRequestEntity": {
+        "required": [
+          "endDate",
+          "startDate",
+          "type",
+          "user"
+        ],
+        "type": "object",
+        "properties": {
+          "timeOffId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique `identifier` of the time-off is generated by the system and used to identify the time-off globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "user": {
+            "$ref": "#/components/schemas/TimeOffUserPublicAPIRequestEntity"
+          },
+          "note": {
+            "type": "string",
+            "description": "The note or comment about the time-off.",
+            "example": "Sick leave."
+          },
+          "startDate": {
+            "type": "string",
+            "description": "The time-off start date. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "The time-off end date. The `endDate` must be on or after the `startDate`, formatted as _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "type": {
+            "type": "string",
+            "description": "The `type` of the time-off.",
+            "example": "50",
+            "enum": [
+              "FULL_DAY",
+              "HALF_DAY",
+              "CUSTOM"
+            ]
+          },
+          "notifyUsers": {
+            "$ref": "#/components/schemas/TImeOffNotifyUsersPublicRequest"
+          },
+          "durationInMinutes": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The duration of time off is determined by the type selected: if the time off type is `CUSTOM`, the `durationInMinutes` field is `required`.",
+            "format": "int32",
+            "example": 50
+          }
+        }
+      },
+      "TimeOffUserPublicAPIRequestEntity": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the customer.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the customer.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the customer.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The time-off user."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

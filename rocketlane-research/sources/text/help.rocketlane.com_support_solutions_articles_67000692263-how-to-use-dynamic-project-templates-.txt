@@ -1,0 +1,188 @@
+TITLE: How to use dynamic project templates? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000692263-how-to-use-dynamic-project-templates-
+
+How to use dynamic project templates? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+How to use dynamic project templates?
+
+How to use dynamic project templates?
+
+Created by Shreeda R, Modified on Thu, 23 Jul at 6:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Templates
+
+Articles in this series
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+Adding SmartFill to Templates and Projects
+
+How to Create and Manage Placeholders?
+
+Understanding Date Changes in Rocketlane
+
+No article available
+
+Are you tired of dealing with rigid project plans that struggle to adapt to your evolving projects? Rocketlane has got you covered. Say goodbye to the frustration of managing eleventh-hour changes.
+In this article
+
+How to set dynamic conditions for project templates
+
+How to create a new project using dynamic project templates
+
+In Rocketlane, you can use a master project template and customize the project plan based on specific criteria to suit projects with varying requirements. This can be done by setting conditions such as, if the ARR exceeds $10000, then introduce the kick-off phase. Here, only if a project meets this condition will the kick-off phase be included. These conditions can be set at the task level, phase level, and subtask level.
+You can leverage project fields as conditions in dynamic templates, including custom project fields imported from the Salesforce integration. It is crucial to fill these project fields during project creation for Rocketlane to smartly tailor the ideal project template and use it to create a project.
+Tip This dynamic approach influences the project's effort allocation. If a task is not created due to the conditions, the corresponding effort is subtracted from the project budget. For instance, if a task requires 5 hours of effort and is not created, the project's total estimated hours will be reduced accordingly.
+
+How to set dynamic conditions for project templates
+
+Go to Templates and select the Dynamic view from the other available views at the top.
+
+Here, you can set dynamic conditions for phases, tasks, and subtasks as per your requirement.
+
+For example, let's say you want to do GDPR compliance for Europe-based customers. You can add a condition saying if the region is Europe, then add this particular task.
+
+To establish a condition at any project stage, click Add Condition corresponding to that stage.
+
+Click Add conditions to specify conditions for the phase, task, or subtask creation to happen. This opens a pane for you to filter and set the conditions.
+
+The dropdown list consists of various project fields from which you can select the relevant field and alter the values accordingly.
+
+You can set conditions on multiple project fields by using the Add Filter option.
+
+Once all conditions for task creation are set, click Done to save them.
+
+The set conditions will be reflected alongside the task on the Dynamic Templates page.
+
+Lastly, click Save at the top right corner of the page to preserve all changes made to your project template.
+
+How to create a new project using dynamic project templates
+
+For instance, let us use a template with dynamic conditions for a task called GDPR compliance, where the condition is Region is exactly Europe .
+
+During the new project creation process, the additional information section allows you to assign values to the project fields, which in this case is Region .
+
+Now, when a project is created using the template with the dynamic condition, the GDPR compliance task will be created if the region is assigned as Europe and skipped if it is anything else.
+This is how Rocketlane's dynamic project templates allow you to manage a master template while automatically tailoring it to different types of customers based on their unique requirements and scope.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to create project templates?
+
+How to create task templates?
+
+How to Plan and Manage Resource Allocation using Templates?
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

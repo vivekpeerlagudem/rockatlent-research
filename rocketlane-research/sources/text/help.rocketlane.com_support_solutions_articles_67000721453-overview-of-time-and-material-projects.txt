@@ -1,0 +1,269 @@
+TITLE: How to understand financials for time and material projects? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721453-overview-of-time-and-material-projects
+
+How to understand financials for time and material projects? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Overview of time and material projects
+
+Overview of time and material projects
+
+Created by Monica Madan, Modified on Fri, 11 Apr, 2025 at 2:45 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+Time and Material billing is a method of charging clients based on the actual hours worked. This approach is ideal for projects with constantly changing requirements, ensuring that clients are billed accurately for the hours reported.
+
+Take a course on Financial Management here.
+
+In this Article
+
+Key concepts to remember for navigating financials dashboard
+
+Accessing Financials for Time and Material projects
+
+Revenue Tracker
+
+Hours Tracker
+
+Progress Charts
+
+Breakdown charts
+
+Hours breakdown
+
+Summary Table
+
+Key concepts for navigating financials dashboard
+
+Budgeted hours: When you create a project, you typically estimate or set a total number of hours that you expect it will take to complete the project as budgeted hours.
+
+Allocated hours - The total number of hours allocated for the project via resource management.
+
+Tracked hours refers to the total number of hours that your team has tracked for the project. It represents the actual time spent working on the project and is reported using timesheets.
+
+Budget is the notional revenue target for the project. The system will send you budget notifications based on this.
+
+Note:
+
+Actual values are calculated based on the time tracked during the delivery of the project
+
+Forecasted values are calculated based on the resource allocation plan for the project
+
+ACTUALS
+
+Revenue is calculated based on the hourly bill rate of your team members.
+Hours tracked * Bill rates of the assigned roles
+
+Cost is calculated based on the hourly cost rate of your team members.
+Hours tracked * Cost rates of respective team members/roles
+
+Profit i s the cost remaining from the revenue after covering all project costs
+Revenue - Cost
+
+Profit Margin is the ratio of profit to recognised revenue
+(Profit/Revenue)*100
+
+Forecasted
+
+Forecasted revenue is Allocated hours* Bill rates
+
+Forecasted cost is Allocated hours * Cost rates
+
+Forecasted profit is Forecasted revenue - Forecasted cost
+
+Forecasted profit margin is (forecasted profit / forecasted revenue)*100
+
+Accessing Financials for Time and Material projects
+
+The financial dashboard gives you insights into your projects' real-time budget and time usage. The dashboard lets you compare the real-time utilization of your budget with the estimated budget and enables you to make necessary adjustments for the smooth running of the project.
+
+To access Financials,
+
+Navigate to Projects
+
+Select a Fixed fee project you wish to view
+
+Click on the Financials tab to track your project budget usage alongside the project hours.
+
+Revenue Tracker
+The Time and Material revenue tracker enables you to track revenue relative to the project budget and determine the remaining amount.
+
+Hours Tracker
+The Budgeted hours tracker helps monitor tracked hours in comparison to the budgeted hours and identifies the remaining budgeted hours.
+
+Progress Charts
+With the progress chart, you can understand data regarding how revenue recognised and hours usage has progressed for the project over time. This helps you compare the current progress with the planned trajectory of revenue and hours.
+
+Revenue Progress
+The progress charts provide you with information on the revenue recognised for the project over time.
+
+X-axis is days.
+Y-axis is revenue
+
+Hours Progress
+The progress charts provide you with information on the hours tracked for the project over time.
+
+X-axis is days.
+Y-axis is tracked hours
+
+Breakdown charts
+A Breakdown chart shows you the monthly breakdown of revenue recognised and hours usage
+
+Revenue breakdown
+Shows the monthly breakdown of forecasted and actual revenue recognised and the corresponding profit margin
+
+Hours breakdown
+Shows the monthly breakdown of billable and non-billable hours and the corresponding allocated hours
+
+Summary Table
+You can view the detailed summary of hours usage and cost for the overall duration of the project or on a granular monthly basis.
+
+Revenue details table shows the detailed breakdown of revenue recognised and cost incurred for the project.
+
+Hours details table shows the detailed breakdown tracked hours for the project.
+
+Group by Roles and People Visualize the cost and hours utilized by each role and team member on the project
+
+Group by Phases and tasks Visualize the cost and hours utilized by different phases and tasks in the project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding financial numbers for Time and Material projects
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Setting up Rate cards
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

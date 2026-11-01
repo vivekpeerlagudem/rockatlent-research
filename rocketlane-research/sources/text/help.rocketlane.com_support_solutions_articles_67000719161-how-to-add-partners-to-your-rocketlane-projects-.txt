@@ -1,0 +1,184 @@
+TITLE: How to Add Partners to your Rocketlane Projects? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000719161-how-to-add-partners-to-your-rocketlane-projects-
+
+How to Add Partners to your Rocketlane Projects? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to Add Partners to your Rocketlane Projects?
+
+How to Add Partners to your Rocketlane Projects?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:51 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Partners in Rocketlane
+
+How to Add Partners to your Rocketlane Projects?
+
+Client Partners in Rocketlane:
+
+No article available
+
+In this article
+
+How to invite Partners while creating a Project
+
+How to add Partners and Partner Team members to existing Projects
+
+Keep your implementation partners informed about your projects and workflows by using Rocketlane's Partners feature. This helps improve cost effectiveness, operational efficiency, and time to value with the support of experts in their fields.
+Based on access control, you have complete control over what is visible to your partners. For strategic partners, you can decide whether you want to introduce your partners to your customers. You can also limit the number of licenses each partner has access to so that only the required team members are working on your projects.
+Read more about Partners here .
+
+How to invite Partners while creating a Project
+
+While creating a new project, you can add the partner company in the first step itself.
+
+You can add multiple partners to your projects from here.
+
+Post project creation, the partner admins will be notified of their partner companies being added to the project.
+
+The partner admins can then add the team members assigned from their team to the project from the Partner Portal.
+
+You can also add partner team members in the next step where you assign placeholders picked up from the template used for project creation. Click Next: Project Team .
+
+Under Assign placeholders , click the Select team members dropdown for the placeholder you want to resolve.
+
+You can either assign the placeholder to the partner company or directly add team members from the partner's team.
+
+If you assign the partner company to the placeholder, you are holding the partner company responsible for the execution of those tasks. The partner admin will assign the tasks to the respective team members.
+
+Once the project is created, you can see the vendor, customer, and partner(s) from the responsible filter at the top right of the screen.
+
+You can click any of these to filter the tasks assigned to the respective organizations.
+
+How to add Partners and Partner Team members to existing Projects
+
+Go to your project and click the Settings icon from the top right corner of the screen.
+
+Go to Team members .
+
+Click Add partner from the Team members page.
+
+You can select multiple partners from the dropdown. Click Done to add the selected partners to your project.
+
+Your partner admin will be notified about their organization being added to the project. Partner admins will then assign the respective team members from their team to this project.
+
+To add partner team members, type the email ID of your partner's team member or select their name from the dropdown under Select people or add emails .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Partners in Rocketlane
+
+Allocations and Accomodations
+
+How to invite customers to your portal
+
+How to use dynamic project templates?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

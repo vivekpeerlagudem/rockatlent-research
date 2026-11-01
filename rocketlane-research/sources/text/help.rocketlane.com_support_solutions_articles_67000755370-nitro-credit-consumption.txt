@@ -1,0 +1,231 @@
+TITLE: Nitro Credit Consumption : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755370-nitro-credit-consumption
+
+Nitro Credit Consumption : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Nitro Credit Consumption
+
+Nitro Credit Consumption
+
+Created by Advaith R, Modified on Thu, 6 Aug at 8:06 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Nitro Credit Consumption
+
+No article available
+
+As teams use Nitro agents across meetings, projects, and reports, administrators may need visibility into how credits are being consumed and which agent runs account for that usage.
+The Nitro credit consumption page provides an account-level view of available credits, monthly usage, and individual agent runs. You can use it to monitor credit consumption, identify usage patterns, and export detailed records for further analysis.
+Note This page is available only for accounts with Nitro. To learn more about Nitro, refer to this article .
+
+In this article
+
+Understanding Nitro credits
+
+When the page becomes available
+
+Access Nitro credit consumption
+
+View your credit summary
+
+Review agent runs
+
+Export credit consumption data
+
+Manage access to credit consumption
+
+Add or renew Nitro credits
+
+Understanding Nitro credits
+Term Description
+Credit The unit used to measure Nitro AI usage. Each time a Nitro agent runs, it consumes credits based on the work performed.
+Agent run One complete execution of a Nitro agent, such as generating a meeting summary, detecting signals, or creating an analyst report. A run does not represent each individual AI call made during the execution.
+Credit cycle The current period covered by your Nitro credit balance. The Credits used value is measured against this period.
+Promotional credits Additional promotional credits available on your account.
+
+When the page becomes available
+The Nitro credit consumption page is added to your account automatically when Nitro is enabled. No additional setup is required.
+
+Access Nitro credit consumption
+To open the page:
+
+Go to Settings .
+
+Select Nitro .
+
+Click Nitro credit consumption .
+
+View your credit summary
+The summary card at the top of the page displays:
+
+Credits used: The number of credits consumed against the credits currently available. Usage is represented through a progress bar.
+
+Promo credits: Any promotional credits available on your account.
+Below the summary card, the Credits consumed by month chart displays Nitro credit usage for the previous six months.
+This helps administrators compare recent usage and identify changes in credit consumption over time.
+[image: Nitro credit consumption page showing credit totals, monthly consumption, and agent run logs]
+Review agent runs
+The agent runs table lists each completed Nitro agent run on your account.
+Each row displays:
+Field Description
+Run date and time When the agent run occurred.
+Run by The user who initiated the run. System-triggered runs display a Nitro tag instead of a user’s name.
+Agent The Nitro agent that completed the run.
+Credits used The number of credits consumed by that run.
+[image: Scrolled Nitro credit consumption log showing historical runs by users and agents] You can filter the table by:
+
+User
+
+Agent
+
+Credit amount
+These filters help you review usage for a particular team member, agent, or level of credit consumption.
+
+Export credit consumption data
+To export agent run details:
+
+Apply any required filters to the agent runs table.
+
+Click Export at the top of the table.
+[image: Export confirmation modal showing CSV processing, email delivery, and Close button] The exported CSV contains the rows matching the currently applied filters.
+Depending on the size of the export, the CSV is either downloaded directly or sent to your email address.
+
+Manage access to credit consumption
+Access to the page is controlled by the Can access Nitro credit consumption page permission.
+By default, this permission is available to:
+
+Account Admins
+
+Super Users
+To provide another role with access:
+
+Go to Settings > Permissions .
+
+Open the relevant role.
+
+Enable Can access Nitro credit consumption page .
+
+Save the changes.
+[image: Super User role editor showing the Can access Nitro credit consumption page permission] Only users with this permission can access Nitro credit consumption details.
+
+Add or renew Nitro credits
+For questions about adding credits, renewing your credit allocation, or managing your Nitro subscription, contact the Rocketlane support team at care@rocketlane.com .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Managing Nitro Pages in Rocketlane
+
+Configuring Nitro Page Templates
+
+Creating a Documentation Agent
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

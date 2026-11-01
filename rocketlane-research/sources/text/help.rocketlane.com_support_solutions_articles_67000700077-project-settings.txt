@@ -1,0 +1,238 @@
+TITLE: Project Settings : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000700077-project-settings
+
+Project Settings : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Project Settings
+
+Project Settings
+
+Created by Niharika Pandey, Modified on Wed, 14 Oct at 7:02 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Project Management
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+How to access project settings
+
+Project settings: General information
+
+Project settings: Project visibility
+
+Project settings: Team members
+
+Project settings: Slack notifications
+
+When a project's details, access, or financial setup changes after kickoff, you update it from the project's Project settings . Settings are grouped into two sections in the left menu.
+Section Settings
+Project information General information , Project visibility , Team members , Vault , Slack notifications
+Operations and financials Financial configuration , Budget management , Expense budgets , Project rate cards , Resource management , Billing schedule
+Note You see only the settings your account has enabled and your role has permission to view. Slack notifications appears only when Slack is connected to your account. Vault appears only when AI agents are enabled for your account. Items under Operations and financials depend on the Financials, Expenses, Invoices, and Resource management features.
+
+How to access project settings
+
+Go to Projects and open a project.
+
+In the project header, click the settings (gear) icon. The tooltip reads Project settings .
+
+The General information page opens. If your role cannot view general information, Team members opens instead. Use the left menu to move between settings.
+
+Project settings: General information
+You can update project details from this section.
+Setting Description
+Upload logo Allows you to manually upload a logo for your customer.
+Company name Edit the customer's company name.
+Customer's Website You can add the customer's domain to the project.
+Project name Edit the name of the project.
+Project status Choose from a range of project status options.
+
+Project template Mentions the template used to create the project plan.
+Start date Edit the start date of the project.
+Due date Edit the due date of the project.
+Customer domains Customer email domains from which you can invite customers to join this project.
+Workflow Management A collapsible panel at the bottom of the page that holds the project-level controls below. You see only the controls your role allows.
+Project audit logs Click Export to download the history of updates on the project and who made them. Requires permission to edit the project.
+Archive project Archives the project. You can unarchive it later. Requires permission to delete the project.
+Delete project Deletes the project permanently. It cannot be restored. Requires permission to delete the project.
+Save project as template Creates a project template from this project, based on the relative start and due dates of its phases, tasks, and subtasks. Requires permission to create templates.
+Tip By default, Rocketlane fetches the logo for your customer's company based on the domain added and uploads it when the project is created.
+
+Tip To unarchive a project, go to Settings > Archived Projects . Go to the More Actions icon next to your project and select Unarchive .
+
+Project settings: Project visibility
+You can choose who to share your project-related information with.
+Visibility option Description
+Everyone Everyone from your team can view the project and join it themselves.
+Restricted > Team members Visible only to project team members.
+Restricted > Groups & Team members Visible only to project team members and to members of the groups you select. Available on accounts that use roles and permissions.
+
+Project settings: Team members
+When people join, leave, or change responsibilities on a project, you manage them from Team members . The page lists your team, customer users, and partners on the project. Each person's More actions menu shows only the actions your role allows.
+Action What it does
+Make project owner Transfers project ownership to an active team member. The current owner loses admin access to the project.
+Resend invitation Resends the project invitation to a customer user who has not signed up yet.
+Add role / Update role Sets a customer user's role on this project.
+Set project permission Sets project-level permissions for the person. Available on accounts that use roles and permissions.
+Leave project Removes yourself from the project.
+Remove Removes the person from the project.
+Note The project owner cannot leave or be removed. Make someone else the project owner first.
+
+Project settings: Slack notifications
+You can choose if you want to receive Slack notifications for the project and in which specific channel.
+
+Select the Slack channel to which you want notifications delivered.
+
+Select I don’t want to receive Slack updates for this project if you do not want updates from this project to be sent to any Slack channel.
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+How to Manage Task Dependencies?
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

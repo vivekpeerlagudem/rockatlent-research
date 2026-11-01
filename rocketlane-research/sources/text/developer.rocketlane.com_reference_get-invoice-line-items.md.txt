@@ -1,0 +1,435 @@
+---
+updatedAt: 2026-04-30T11:16:08.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get invoice line items by invoice Id
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Invoices",
+      "description": "Endpoints for invoices resource"
+    }
+  ],
+  "paths": {
+    "/1.0/invoices/{invoiceId}/lines": {
+      "get": {
+        "tags": [
+          "Invoices"
+        ],
+        "summary": "Get invoice line items by invoice Id",
+        "operationId": "get-invoice-line-items",
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "description": "Unique identifier of the invoice",
+            "required": true,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            },
+            "example": 200
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseInvoiceLineItems"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "ExampleAPIResponseInvoiceLineItems": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/InvoiceLineItemResponseEntity"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationInvoiceLineItems"
+          }
+        }
+      },
+      "ExamplePaginationInvoiceLineItems": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/invoices/123/lines?pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "InvoiceLineItemResponseEntity": {
+        "type": "object",
+        "properties": {
+          "invoiceLineItemId": {
+            "type": "integer",
+            "description": "The unique identifier for the invoice line item.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 123
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the line item or service provided.",
+            "example": "Development services for Q1"
+          },
+          "quantity": {
+            "type": "number",
+            "description": "The quantity of the item or service.",
+            "example": 10
+          },
+          "unitPrice": {
+            "type": "number",
+            "description": "The unit price for the item or service.",
+            "example": 100
+          },
+          "amount": {
+            "type": "number",
+            "description": "The total amount for this line item (quantity * unit price).",
+            "example": 1000
+          },
+          "sourceId": {
+            "type": "integer",
+            "description": "The unique identifier of the source entity (e.g., project ID) that this line item is associated with.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 456
+          },
+          "sourceType": {
+            "type": "string",
+            "description": "The type of source entity that this line item is associated with (e.g., PROJECT).",
+            "readOnly": true,
+            "example": "PROJECT",
+            "enum": [
+              "PROJECT"
+            ]
+          },
+          "taxCode": {
+            "$ref": "#/components/schemas/TaxCodePublicAPIResponseEntity"
+          },
+          "taxComponents": {
+            "type": "array",
+            "description": "List of tax components that make up this tax code.",
+            "readOnly": true,
+            "items": {
+              "$ref": "#/components/schemas/TaxComponentPublicAPIResponseEntity"
+            }
+          },
+          "budget": {
+            "$ref": "#/components/schemas/InvoicePublicProjectFinancialsBudgetResponse"
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      },
+      "InvoicePublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "List of financials budgets mapped to this invoice"
+      },
+      "TaxCodePublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "taxCodeId": {
+            "type": "integer",
+            "description": "The unique identifier for the tax code",
+            "format": "int64",
+            "readOnly": true,
+            "example": 456
+          },
+          "taxCodeName": {
+            "type": "string",
+            "description": "The name of the tax code",
+            "readOnly": true,
+            "example": "GST 18%"
+          },
+          "taxCodeRate": {
+            "type": "number",
+            "description": "The tax rate percentage for the tax code",
+            "readOnly": true,
+            "example": 18
+          },
+          "taxCodeAmount": {
+            "type": "number",
+            "description": "The tax amount calculated for this tax code",
+            "readOnly": true,
+            "example": 180
+          }
+        },
+        "description": "Tax code information for this line item.",
+        "readOnly": true
+      },
+      "TaxComponentPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "taxComponentId": {
+            "type": "integer",
+            "description": "The unique identifier for the tax component",
+            "format": "int64",
+            "readOnly": true,
+            "example": 123
+          },
+          "taxComponentName": {
+            "type": "string",
+            "description": "The name of the tax component",
+            "readOnly": true,
+            "example": "GST"
+          },
+          "taxComponentRate": {
+            "type": "number",
+            "description": "The tax rate percentage for the tax component",
+            "readOnly": true,
+            "example": 18
+          },
+          "taxComponentAmount": {
+            "type": "number",
+            "description": "The tax amount calculated for this tax component",
+            "readOnly": true,
+            "example": 180
+          },
+          "taxComponentType": {
+            "type": "string",
+            "description": "The type of tax component (e.g., GST, VAT, etc.)",
+            "readOnly": true,
+            "example": "GST"
+          }
+        },
+        "description": "List of tax components that make up this tax code.",
+        "readOnly": true
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

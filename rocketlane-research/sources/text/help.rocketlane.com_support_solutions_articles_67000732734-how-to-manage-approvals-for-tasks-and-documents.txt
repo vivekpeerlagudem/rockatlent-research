@@ -1,0 +1,183 @@
+TITLE: How to manage approvals for tasks and documents : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000732734-how-to-manage-approvals-for-tasks-and-documents
+
+How to manage approvals for tasks and documents : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+How to manage approvals for tasks and documents
+
+How to manage approvals for tasks and documents
+
+Created by Monica Madan, Modified on Thu, 23 Jul at 5:31 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to manage approvals for tasks and documents
+
+No article available
+
+In this article
+
+Raising a request for task approval
+
+Approving a request
+
+Raising a request for document approval
+
+When managing client-facing projects, you're often crafting proposals and customizations that require input from different team members or customers. Rocketlane helps ensure these services are delivered on time and at a high quality by making it easy to get approvals from the right stakeholders.
+With Rocketlane's task and document approval feature, you can streamline the approval process and ensure everyone is on board every step of the way.
+
+Raising a request for task approval
+To raise an approval request:
+
+Go to Projects and select the project you're working on.
+
+In either the project plan view or the list view, click a task.
+
+Inside the task, click the three dots for more actions.
+
+Click Request Approval .
+
+In the approval pane, mark the approval as private or shared with customers.
+
+Assign the approver who needs to approve the task.
+
+Set the due date for when the task needs to be approved.
+
+As the requester, you'll receive a notification of the approval or rejection.
+If the request wasn't approved, you can follow the same steps to raise a new approval request.
+After approval, you'll see the request marked as approved.
+
+Approving a request
+As the approver of a task or document approval, you will be notified via in-app notification, email, or Slack. You can either approve the request or request changes.
+As an approver, you can open the request and approve it or request changes.
+If you want to request changes to the task, click Change required and add your comments.
+If the request is good to approve, you can go ahead and confirm approval.
+
+Raising a request for document approval
+To request approval for a document:
+
+Go to Projects and select your project.
+
+Navigate to Spaces and choose the document you want approval for.
+
+In the toolbar at the top of the document, locate the approval button and click it to raise an approval request.
+
+Follow the steps outlined above for raising an approval request and approving a request to complete the document approval flow.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introducing Expense Management in Rocketlane
+
+Account Level Default Permissions
+
+Project Level Permissions
+
+Rocketlane Documents
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

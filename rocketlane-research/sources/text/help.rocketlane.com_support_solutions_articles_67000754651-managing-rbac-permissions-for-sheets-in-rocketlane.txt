@@ -1,0 +1,446 @@
+TITLE: Managing RBAC Permissions for Sheets in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754651-managing-rbac-permissions-for-sheets-in-rocketlane
+
+Managing RBAC Permissions for Sheets in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Created by Advaith R, Modified on Mon, 6 Jul at 8:38 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+Introduction to Sheets in Rocketlane
+
+Configuring Fields in Sheets
+
+Automations in Sheets
+
+Setting up Dashboards in Sheets
+
+Sheets in Projects
+
+Sheets Widget in the Customer Portal
+
+Copy-Paste Data into Rocketlane Sheets
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Rocketlane Sheets Shortcuts & Tips
+
+No article available
+
+In this article
+
+How Sheets permissions are structured
+
+Configure global Sheets permissions
+
+Sheet template permissions
+
+Permissions for sheets in a project
+
+Sheets permissions
+Sub-permissions under Can edit sheet properties
+
+Sheet tab permissions
+Sub-permissions under Can edit sheet tab properties
+
+Column values vs cell values
+
+Sheet field settings permissions
+
+Sheet field values permissions
+
+Global access vs group-based access
+Permissions that support group-based access
+
+Notes about sub-permissions
+
+Template-level sheet permissions
+Configure template-level permissions
+
+Create a template permission set
+
+How template permissions work
+
+Column and field configuration in templates
+
+Configure tab permissions in a template
+
+Configure column sections in a template
+
+Configure field sections in a template
+
+Default access behavior without the RBAC add-on
+
+Rocketlane allows admins to control access to Sheets using role-based access control (RBAC). With Sheets RBAC, admins can decide what users can view, create, edit, delete, or manage across sheet templates and sheets inside projects.
+Sheets permissions are configured at two levels: Global Sheets permissions that apply across the workspace for all sheets in projects, and Sheet template permissions that apply only to sheets created from a specific sheet template.
+
+How Sheets permissions are structured
+
+Sheets permissions are divided into two main sections:
+Section What it controls
+Sheet Template Actions users can perform on sheet templates.
+Project Sheet Actions users can perform inside sheets within projects.
+The Sheets in project section is further divided into four categories:
+Category What it controls
+Sheets Sheet-wide and tab-level actions. Controls access to an entire sheet, including whether users can view, create, edit, delete, or manage it.
+Sheet Tab Column and cell-level actions inside sheet tabs. Controls access to individual tabs within a sheet. (A sheet tab is a separate view or section inside a sheet, similar to a tab in a spreadsheet.)
+Sheet Field Settings Field configuration from the sheet settings page. Controls access to field configuration including field type, field name, and how a field is structured. Think of this as the blueprint for a field.
+Sheet Field Values Viewing and editing values entered into sheet fields. Controls access to the actual data entered inside a field - what a user types or selects when filling out a sheet, separate from how the field is set up.
+Note These permissions control what a user can do inside sheets they already have access to. They do not automatically give users access to sheets they could not previously access.
+
+Configure global Sheets permissions
+Global Sheets permissions are configured from the workspace permissions settings.
+To configure global Sheets permissions:
+
+Go to Settings → Permissions .
+
+Select Account level .
+
+Select the role you want to configure.
+
+Open the Sheet section.
+
+Enable or disable the required permissions.
+
+Save the changes.
+The Sheet section includes two subsections: Sheet template and Permissions for Sheets in Projects .
+
+Sheet template permissions
+Sheet template permissions control what users can do with sheet templates. These are configured globally under the Sheet template section.
+
+Permission What it allows
+Can create and manage templates Allows the user to configure sheet templates.
+Can manage template permissions Allows the user to manage permission sets inside a sheet template.
+Can associate sheet tabs to groups on sheet templates Allows the user to associate sheet tabs with groups on a template. Can be scoped to all groups or only groups the user is part of.
+Can create new field sections on sheet templates Allows the user to create field sections inside sheet templates.
+Can associate field sections to groups on sheet templates Allows the user to associate field sections with groups. Can be scoped to all groups or only groups the user is part of.
+Can create new column sections on sheet templates Allows the user to create column sections inside sheet templates.
+Can associate column sections to groups on sheet templates Allows the user to associate column sections with groups. Can be scoped to all groups or only groups the user is part of.
+Note If an association permission is not enabled, the association option may still appear in the UI, but it will be grayed out.
+
+Permissions for sheets in a project
+These permissions control what users can do inside sheets that exist within projects. They are grouped into four categories: Sheets , Sheet Tab , Sheet Field Settings , and Sheet Field Values .
+
+Sheets permissions
+Sheets permissions control sheet-wide and tab-level actions.
+Permission What it allows
+Can view sheet tab Allows the user to view sheet tabs in sheets they have access to. Without this permission, the user can enter the sheet, but tabs appear empty. Only the sheet overview remains accessible.
+Can create sheet tab Allows the user to create new sheet tabs.
+Can delete sheet tab Allows the user to delete sheet tabs.
+Can edit sheet properties Allows the user to edit sheet-level properties. This unlocks additional sub-permissions.
+Can delete sheet Allows the user to delete sheets in a project.
+
+Sub-permissions under Can edit sheet properties
+When Can edit sheet properties is enabled, the following sub-permissions become available:
+Sub-permission What it allows
+Can manage sheet and sheet tab freeze Allows the user to freeze or unfreeze sheets and sheet tabs.
+Can manage sheet versions Allows the user to create and restore sheet versions.
+Can manage comments in sheet Allows the user to add, update, reply to, and delete comments.
+Can manage visualisations Allows the user to add, update, and delete sheet visualisations. Users without this permission can still view existing charts.
+Can run a scenario Allows the user to trigger click-of-a-button automations in a sheet instance. Scheduled and event-based automations are not visible in sheet instances and are not affected by this permission.
+
+Sheet tab permissions
+Sheet tab permissions control what users can do inside individual sheet tabs.
+Permission What it allows
+Can view sheet columns Allows the user to view columns in sheet tabs.
+Can create sheet columns Allows the user to create new columns in sheet tabs.
+Can edit sheet column values Allows the user to modify column configuration, such as adding or removing options in a Single select or Multi select column.
+Can edit sheet cell values Allows the user to enter or update data inside cells beneath a column.
+Can delete sheet columns Allows the user to delete columns from the sheet.
+Can edit sheet tab properties Allows the user to edit tab-level properties. This unlocks additional sub-permissions.
+Note Column values and cell values are different things. Column values refer to how a column is configured (for example, what options appear in a dropdown). Cell values refer to what a user actually types or selects in a cell. An admin might allow users to fill in data while preventing them from changing the column setup.
+
+Sub-permissions under Can edit sheet tab properties
+When Can edit sheet tab properties is enabled, the following sub-permissions become available:
+
+Can edit assignee
+
+Can edit status
+
+Can edit start date
+
+Can edit due date
+
+Can manage sheet conditional highlights
+
+Column values vs cell values
+The permissions Can edit sheet column values and Can edit sheet cell values control different actions.
+Permission Controls
+Can edit sheet column values Column configuration, such as dropdown options in Single select or Multi select columns.
+Can edit sheet cell values Data entered into cells beneath a column.
+For example, an admin may allow collaborators to update cell data while preventing them from changing dropdown options or column configuration. This is a common setup when teams want users to update project information without changing the structure of the sheet.
+
+Sheet field settings permissions
+Sheet field settings permissions control what users can do in the sheet fields settings page of a sheet instance. This page is accessed from the gear icon inside the sheet.
+Note When Can manage sheet settings is disabled, the gear icon is removed from the sheet instance. The settings page is not accessible, even through a direct URL.
+
+Permission What it allows
+Can create new sheet fields Allows the user to create new sheet fields from the sheet settings page.
+Can edit existing sheet fields Allows the user to edit existing fields, including disabling a field, renaming it, adding or deleting options from a multi-select field, or moving fields across sections.
+Can create new field sections Allows the user to create new field sections in project sheets.
+Can associate field sections to groups Allows the user to associate field sections with groups. Can be scoped to all groups or only groups the user is part of.
+Can delete sheet fields Allows the user to delete sheet fields in projects.
+
+Sheet field values permissions
+Sheet field values permissions control whether users can view or edit values entered into sheet fields.
+Permission What it allows
+Can view sheet field values Allows the user to view values entered into sheet fields.
+Can edit sheet field values Allows the user to edit values entered into sheet fields.
+
+Global access vs group-based access
+Many permissions under Permissions for Sheets in a Project support access modes, configured from the permission modal for each permission.
+Access mode What it means
+Global access The permission applies to all relevant content in the sheet the user has access to.
+Group & Visible The permission applies only to content associated with the user's groups and content visible to all.
+Created by user The user can only perform this action on content they personally created. For example, with Created by user on Can edit sheet tab properties, a user can edit properties of tabs they created but cannot modify tabs created by others. This scope is unique to Sheets and does not exist elsewhere in Rocketlane.
+For example: with Global access for Can view sheet columns, the user can see all columns in the sheet they have access to. With Group & Visible , the user can see only columns associated with their groups and columns visible to all.
+
+Permissions that support group-based access
+Permission Group-scoped behavior
+Can view sheet tab User can see sheet tabs associated with their groups.
+Can view sheet columns User can see columns associated with their groups.
+Can edit sheet cell values User can edit cells in columns associated with their groups.
+Can edit sheet tab properties User can edit properties of tabs associated with their groups.
+Can view sheet field values User can see values of field sections associated with their groups.
+Can edit sheet field values User can edit values of field sections associated with their groups.
+
+Notes about sub-permissions
+
+Sub-permissions are available only when the parent permission is enabled.
+
+Permissions apply only to sheets a user already has access to.
+
+Enabling a permission does not automatically expose new sheets to the user.
+
+If a user cannot access a sheet, Sheets RBAC does not grant access by itself.
+
+Created by user restricts action to content the user created. Users can edit only properties of tabs/sheets they created, not tabs created by others. This scope is unique to Sheets and no equivalent exists elsewhere in Rocketlane.
+
+Template-level sheet permissions
+Rocketlane supports permission sets at the sheet template level. These permission sets allow admins to configure different access rules for different sheet templates without changing workspace-wide defaults.
+Use template-level permissions when one template needs stricter access than another. For example:
+
+A RAID log template may be editable only by project owners.
+
+An Onboarding tracker template may allow collaborators to update data.
+
+Configure template-level permissions
+Template-level permissions are configured from inside the sheet template.
+To configure template-level permissions:
+
+Go to Templates → Sheet templates .
+
+Open the relevant sheet template.
+
+Click the three-dot menu in the top-right of the template editor.
+
+Select Sheet permission .
+
+Review the existing permission sets for the template.
+
+Click + New permission to create a permission set.
+The Sheet permission page lists the permission set name, scope, created by, and created on.
+
+Create a template permission set
+To create a permission set:
+
+Click + New permission .
+
+Enter a name for the permission set.
+
+Under Select permission set , use the Label dropdown to associate this permission set with an existing custom permission set.
+
+Configure the permissions required for this template.
+
+Click Save .
+The permission set editor includes the same permission categories as global RBAC: Sheets, Sheet tab, Sheet field settings, and Sheet field values.
+
+How template permissions work
+Template permissions do not replace global permissions. Rocketlane uses the union of the user's global Sheets permissions and the permissions granted in the specific sheet template.
+Scenario Result
+A permission is enabled globally and disabled on the template The user still has the permission.
+A permission is disabled globally and enabled on the template The user gets the permission for sheets created from that template.
+Note There is no separate RBAC override for an individual sheet inside a project. Permissions are controlled only at the global level or the template level.
+
+Column and field configuration in templates
+Sheet templates include a configuration page for tabs, fields, and columns. This controls how sheet content is organized into sections and how visibility and edit access are scoped to groups. This is the primary way to configure group-based access within a sheet template.
+To access this configuration, open the template settings. The configuration page includes three tabs:
+Tab What it controls
+Tabs View and edit permissions for sheet tabs.
+Fields Field sections and their group associations.
+Columns Column sections and their group associations.
+
+Configure tab permissions in a template
+The Tabs tab lists all sheet tabs in the template. Each tab includes view and edit permission settings. Available options include All team members or Only select groups and roles . Use the three-dot menu on a tab row to access additional actions.
+
+Configure column sections in a template
+The Columns tab allows columns to be organized into named sections. Each section can be scoped to specific groups and roles.
+To create a column section:
+
+Open the Columns tab.
+
+Click + New section .
+
+Enter the Section name .
+
+Use Select columns to choose the columns for the section. Columns are grouped by sheet tab in the dropdown.
+
+Click Create section .
+After a section is created, use the three-dot menu on the section row to open its permissions.
+Permission Options
+View All team members, or only select groups and roles.
+Edit All team members, only select groups and roles, or none.
+
+Configure field sections in a template
+The Fields tab works like the Columns tab, but for sheet fields.
+To create a field section:
+
+Open the Fields tab.
+
+Click + New section .
+
+Enter the section name.
+
+Select the fields to include.
+
+Click Create section .
+Use the permissions modal to configure view and edit access. Field section permissions include the same options as column sections: view and edit, each scoped to all team members, select groups and roles, or none.
+
+Default access behavior without the RBAC add-on
+If you do not have the RBAC add-on in your Rocketlane subscription, users are assigned one of the default roles: Admin , Super user , Project owner , or Collaborator .
+When Sheets RBAC is applied, these roles receive preset access instead of unrestricted admin-like behavior. Depending on the role, default restrictions may include:
+
+Deleting sheet tabs
+
+Deleting sheet columns
+
+Editing column configuration values
+
+Associating field or column sections to groups
+
+Managing template-level permissions
+Note Managing template-level permissions is admin-only.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+How much does the permissions module cost
+
+How to set up permissions for team members and customers (RBAC)
+
+Difference & Precedence Between Account and Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

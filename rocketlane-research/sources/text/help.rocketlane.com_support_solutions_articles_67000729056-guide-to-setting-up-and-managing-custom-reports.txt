@@ -1,0 +1,617 @@
+TITLE: Creating custom reports  : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000729056-guide-to-setting-up-and-managing-custom-reports
+
+Creating custom reports : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Reporting and Dashboard
+Guide to setting up and managing custom reports
+
+Guide to setting up and managing custom reports
+
+Created by Monica Madan, Modified on Tue, 26 May at 6:28 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Enterprise
+
+Articles in this series
+
+Guide to setting up and managing custom reports
+
+Formula Fields in Rocketlane: A Comprehensive Guide
+
+Report on Form Responses in Rocketlane
+
+No article available
+
+Tailored reports transform Rocketlane data into actionable insights. Develop reports customized to fulfill your team's requirements, monitor KPIs, assess delivery health, and evaluate profitability or engagement by leveraging data from projects, personnel, tasks, and time tracking.
+TABLE OF CONTENTS
+
+When to Use
+
+Create a Report
+
+Select the Report Type
+
+Select a Data Source
+Projects
+
+Tasks
+
+People and Roles
+
+Time tracking
+
+Data Source Map
+Identify the focus first
+
+Understand People and Project connections
+
+Build a Tabular report
+
+Build a Pivot Table Report
+Use Filters in Reports
+
+Saving views
+Save a view from a report
+
+Open a saved view later
+
+Add Cards, Charts, and Conditional Highlighting
+
+Add charts
+
+Add conditional highlighting
+
+Export Reports
+One-time export:
+
+Scheduled exports:
+
+Schedule a Report Export
+
+Use Day-level granularity in Custom Reports
+Day-level grouping in Pivot reports
+Time period requirement for DATE columns
+
+Day-level grouping in Charts
+
+Allowed date ranges for Day granularity
+
+Behavior when switching to Day
+
+When to Use
+Customized reports prove beneficial for tracking and analyzing:
+
+Key performance indicators (KPIs)
+
+Trends in project progress and delivery
+
+Profitability and margins within the portfolio
+
+Utilization of team members and billable hours
+
+Customer engagement along with operational health
+
+Pressed for time? Watch the video!
+
+Note: To create custom reports, the user must have Create and Edit report permissions.
+
+Create a Report
+Creating a report follows six steps:
+
+Select the report type: Tabular or Pivot table.
+
+Select the data source (Projects, Tasks, People/Roles, Time tracking).
+
+Select the fields to include.
+
+Build the report table.
+
+Add cards, charts, and conditional highlighting.
+
+Save the report.
+
+Select the Report Type
+Choose between a tabular report and a pivot table based on how the data needs to be analyzed.
+Criteria
+Tabular report
+Pivot table
+
+Structure
+Displays data in a grid format with columns
+Summarizes data using rows and columns and supports rearranging
+
+Best for
+Viewing granular lists of records
+Identifying trends, patterns, and comparisons across dimensions
+
+Complexity
+Works well for fixed views
+Better for multi-dimensional and exploratory analysis
+
+Select a Data Source
+A data source defines the foundation of the report. Start by identifying the main theme of the report, then select the source that matches what the report is centered on.
+Rocketlane provides pre-built data sources to simplify reporting:
+
+Projects
+Use Projects to analyze project-level outcomes and business impact, such as:
+
+Profitability
+
+Time-to-value
+
+Portfolio performance across regions or products
+
+Tasks
+Use Tasks when analysis needs task-level detail, such as:
+
+Billable tasks
+
+Overdue tasks
+
+Tasks grouped by billing type or status
+
+People and Roles
+Use People and Roles to understand team performance and utilization, such as:
+
+Utilization and billable utilization
+
+Billable hours and allocated hours
+
+Margins and productivity by role or user
+
+Time tracking
+Use Time tracking to understand where time is spent and how that impacts cost and profitability, such as:
+
+Tracked hours by category (meetings, migrations, configuration)
+
+Cost, profit, and margins by time entry category
+
+Data Source Map
+Data sources and fields are connected through relationships. The fields available in a report depend on the selected source and which related objects can be reached from it.
+
+Identify the focus first
+Before selecting fields, determine what the report is trying to measure:
+
+Projects and financial outcomes
+
+Task health and execution
+
+People performance and utilization
+
+Understand People and Project connections
+The link between people and projects is membership. Because membership is the connecting relationship:
+
+Project-based reports can show user fields such as username to reflect the members involved.
+
+People-based reports can show project name to reflect which projects users are associated with.
+Example use cases:
+
+Add Username to a project report to understand margins or tracked time by user within projects.
+
+Add Project name to a people report to view utilization alongside project associations.
+
+Build a Tabular report
+Tabular reports display selected fields as columns and are best suited for listing records in detail.
+Example: Create a task health report.
+
+Click Create report.
+
+Select Tabular.
+
+Select Tasks as the data source.
+
+Select the fields to include, for example:
+Priority
+
+Status
+
+Type
+
+Click Create.
+Note: After adding fields, a time range filter appears. Adjust the time range to view data for a specific period.
+
+Build a Pivot Table Report
+Pivot reports are designed for analyzing trends and comparing metrics across multiple dimensions.
+Example: Analyze financial contribution for projects.
+
+Click Create report.
+
+Select Pivot table.
+
+Enter the report name.
+
+Select Projects as the source.
+
+Add values the pivot should represent, for example:
+Margin
+
+Actual cost
+
+Actual revenue
+
+Add fields for Rows, for example:
+Region
+
+Add fields for Columns, for example:
+Project name
+
+Note: Up to two fields can be added for rows and columns.
+
+Tip: Pivot tables include a Time period option to view trends by week, month, or quarter.
+
+Use Filters in Reports
+Filters help narrow reports to specific segments and improve readability.
+Examples of common filter use cases:
+
+Region-based reporting (EU vs NA vs APAC)
+
+Team-based reporting
+
+Product or service line breakdowns
+Filters can also be saved as views so the same report can be reused for different segments.
+Time period filter
+A time range filter appears once fields are added. Adjust it to report on a specific time frame.
+
+Saving views Saved views allow you to utilize the same customized report with various filter sets (for instance, to monitor different segments or thresholds) without having to reconstruct the report from scratch.
+
+Save a view from a report
+
+Select your custom report: Launch the custom report for which you want to create a view.
+
+Configure your filter: Click on Filter and input your filter criteria. For example: "Allocated hours exceed 2h."
+
+Press the Save button located next to the filter controls.
+
+Provide a descriptive name (for instance, Allocated hours > 2h) and continue.
+
+Decide who can view the saved view: While saving, select Make this view available for:
+Only me : The view remains private to you.
+
+Specific team members: Choose individual team members or a group who should have access.
+
+All team members: The view is accessible to everyone in the workspace (depending on their report access permissions).
+
+Open a saved view later
+Once saved:
+
+Click Default views .
+
+Choose your saved view to apply it immediately whenever you wish to access that filtered report again.
+
+Add Cards, Charts, and Conditional Highlighting
+Cards, charts, and conditional highlighting help communicate key insights visually. The selected data source remains consistent across tables, cards, and charts within the same report.
+Add cards
+
+Click Cards.
+
+Enter a name for the card.
+
+Select the field the card should display.
+
+Set the unit (time or currency), and add a prefix if required.
+
+Add filters to refine the metric.
+
+Click Create.
+
+Add charts
+
+Click Charts.
+
+Enter a name for the chart.
+
+Select the chart type (column or line).
+
+Select fields for the Y-axis, and choose an aggregation (SUM, COUNT, AVERAGE).
+
+Select the field for the X-axis to group results (for example Username).
+
+Add filters if needed.
+
+Click Create.
+Note: Grouping is not available when multiple fields are added to the Y-axis.
+
+Add conditional highlighting
+
+Conditional highlighting helps draw attention to values that require action.
+Single color rules:
+
+Click Conditional highlighting.
+
+Select the field to highlight.
+
+Select Single color.
+
+Define the rule (for example billable utilization greater than 50%).
+
+Select a color.
+
+Click Create.
+
+Create additional rules and reorder them as needed.
+
+Multi color rules:
+
+Click Conditional highlighting.
+
+Select the field to highlight.
+
+Select Multi color.
+
+Select one of the following:
+Smart highlight to automatically highlight maximum and minimum values
+
+Custom highlight to define your own minimum and maximum values
+
+Select a color palette.
+
+Click Create.
+
+Reorder the rules to ensure the most important highlights appear first.
+
+Reminder: Utilize filters to examine a more detailed subset of data within your reports.
+
+Export Reports
+Reports can be shared externally either as a one-time export or through scheduled exports.
+
+One-time export:
+
+Open the report.
+
+Click Share.
+
+Select Export.
+This exports the current view of the report as a CSV file.
+
+Scheduled exports:
+Scheduled exports deliver reports automatically on a defined cadence.
+
+S cope
+
+Available only for custom reports (tabular and pivot).
+
+Supported formats:
+PDF for cards and charts
+
+CSV for tables
+
+PDF + CSV to include both
+
+Delivery and limits
+
+Files up to 5 MB are sent as email attachments.
+
+Larger files are delivered via a link that expires after 7 days.
+
+Each organization can have up to 10 active scheduled exports.
+
+CSV size constraints
+
+Tabular reports are capped at 10,000 rows.
+
+Pivot reports are capped at 5,000 rows.
+
+For larger datasets, apply additional filters or surface key metrics using cards or charts.
+
+Schedule a Report Export
+
+Open the custom report.
+
+Click Share.
+
+Click Schedule export.
+
+The Schedule report dialog includes:
+Schedules remaining : Shows how many scheduled exports are still available for the organization (for example 10 of 10).
+
+Basic info :
+
+Select a view: Choose which saved view to schedule.
+If the report has only one view (Default View), this field appears greyed out.
+
+Repeats every: Set the frequency (for example every 1 week).
+
+On this day of the week: Select one or more days (Mon–Sun).
+
+Starts on / at / Time zone: Select the start date, time, and time zone.
+
+Email recipient info : Send the export by email to Rocketlane users or external recipients.
+
+To: Select primary recipients.
+
+Add Cc: Add optional recipients.
+
+Email subject: Edit the email subject line.
+
+Email body: Add an optional message.
+
+Report format
+
+CSV: Sends the table data as CSV.
+
+PDF: Sends cards and charts as PDF.
+
+CSV and PDF: Sends both.
+
+PDF options are available only when the report contains cards or charts.
+
+After entering the details, click Save. The scheduled export is created and the report is delivered automatically by email based on the configured cadence.
+
+*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]" data-scroll-anchor="false" data-testid="conversation-turn-158" data-turn="assistant" data-turn-id="3160c19e-243b-437f-9b38-1755ecc15a73" data-turn-id-container="3160c19e-243b-437f-9b38-1755ecc15a73" dir="auto">
+Use Day-level granularity in Custom Reports
+Custom Reports support grouping date-related fields by Day , in addition to Week , Month , Quarter , and Year . Day-level grouping is intended for short time windows where daily trends matter (for example, daily task completions, daily time entry volume, or day-wise status changes).
+Day granularity is available in:
+
+Pivot reports (grouping date fields in rows or columns)
+
+Charts inside custom reports (X-axis zoom level in the chart builder and editor)
+When Day is selected, labels render in DD MMM YYYY format (for example, 22 May 2026 ).
+
+Day-level grouping in Pivot reports
+In pivot reports, Day can be used when grouping by a date-related field in the Rows or Columns section.
+
+Time period requirement for DATE columns
+When a pivot includes a DATE column, a time period filter must be set.
+
+If no time period filter is configured, the report defaults to Last 12 Months .
+This ensures the report always has a defined time window to evaluate and prevents unbounded queries.
+
+Day-level grouping in Charts
+In the custom chart builder and editor, Day is available as an X-axis grouping option when the X-axis is based on a date-related field.
+When Day is selected:
+
+X-axis labels switch to the DD MMM YYYY format.
+
+The supported date range is limited to a maximum of 31 days.
+
+Allowed date ranges for Day granularity
+To keep report queries performant, Day-level granularity supports only the following time ranges:
+
+This Week
+
+Last Week
+
+This Month
+
+Last Month
+
+Last 30 Days
+
+Custom ranges up to 31 days
+The following time ranges are not supported with Day granularity:
+
+This Quarter , Last Quarter , Next Quarter
+
+This Year , Last Year
+
+Last 60 / 90 / 180 Days
+
+Last 12 Months , Last 10 Years
+
+Year to Date
+
+Overall , Anytime
+These limits apply across report reads and exports. If an unsupported combination is selected, server-side validation returns a clear error rather than running the query.
+
+Behavior when switching to Day
+When a date field is switched to Day granularity while a wider range is selected, the report automatically adjusts the range:
+
+Switching a column or chart grouping to Day while a wider range is selected (for example Last 12 Months or a custom range greater than 31 days) automatically narrows the range to Last 30 Days .
+While Day is active, the time range dropdown displays only the allowed options listed above.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Configure How Utilisation Is Calculated
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+Understanding Approval Workflows for Expense Management in Rocketlane
+
+Introducing Expense Management in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,176 @@
+TITLE: Types of Billing methods Supported by Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721297-supported-billing-methods
+
+Types of Billing methods Supported by Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Supported Billing Methods
+
+Supported Billing Methods
+
+Created by Monica Madan, Modified on Mon, 15 Jul, 2024 at 11:51 AM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+With Rocketlane, you can easily manage your projects while staying within budget and reaching your revenue goals. Our software simplifies the billing process, whether you bill by time and material, fixed fee, or non-billable projects, all while streamlining your billing process for maximum efficiency.
+
+Take a course on Financial Management here.
+
+Time and Material : Time and Material billing involves tracking and charging clients based on actual hours worked. It offers flexibility for projects with evolving requirements, enabling accurate billing for the resources invested. Clients are billed for the hours worked by the team.
+
+Read more on Time and Material financial calculations here
+
+Fixed Fee : Fixed Fee billing entails setting a predetermined price for a project, regardless of the time and resources involved. This billing type provides cost predictability for clients, who pay a fixed amount for the entire project. It allows businesses to manage their budget and clearly understand the project's financial scope.
+
+Read more on revenue recognition for Fixed-fee projects here
+
+Subscription : With Rocketlane's subscription billing, you can easily manage projects with monthly, quarterly, or yearly recurring fixed budgets and budgeted hours.
+
+Key advantages of this billing method include Predictable Revenue which the fixed subscription period ensures a consistent and reliable revenue stream, and Optimized Operational Efficiency which clearly defined timeframes for purchased hours streamline projects and processes, benefiting both service providers and clients alike.
+
+Read more on revenue recognition for Subscription projects here
+
+Non-billable: Non billable activities pertain to tasks or work that are not invoiced directly to clients. These activities are mostly internal or administrative, such as team meetings, research, or training. Keeping track of non-billable time assists businesses in comprehending resource allocation and project costs, even if those particular activities are not directly charged to clients.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting Up Snowflake Data Sharing with Rocketlane
+
+Understanding Task Dependencies in Rocketlane
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Automation Pricing
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

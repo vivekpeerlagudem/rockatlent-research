@@ -1,0 +1,299 @@
+TITLE: Phase Level Effort Planning on Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000739592-phase-level-effort-planning-on-rocketlane
+
+Phase Level Effort Planning on Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+Phase Level Effort Planning on Rocketlane
+
+Phase Level Effort Planning on Rocketlane
+
+Created by Monica Madan, Modified on Mon, 28 Oct, 2024 at 10:49 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+With phase-level effort planning, you gain more control over resource management by specifying how many hours each team member will contribute at different phases of a project. This feature enables you to:
+
+Assign the exact number of hours each team member should contribute during each phase of the project.
+
+Automatically convert planned efforts into real-time allocations without manual intervention. As project timelines shift, your resource plans will stay perfectly in sync.
+
+In this article
+
+How phase effort planning works in templates
+How to enable phase level effort planning:
+
+How to setup phase efforts in template
+
+How to use auto allocation with phase efforts in templates
+
+How phase effort planning works in projects
+How to enable effort planning on a project
+
+How to set phase efforts for individual phases on the project
+
+How to use auto allocation with phase efforts on the project
+
+How to manage permissions for phase effort planning
+
+This makes it easier to manage and visualize how resources are allocated across each phase of the project. You can set up phase-level effort planning when you create your templates or apply it to existing projects that don’t have predefined allocations. It’s also ideal for situations where you need to assign effort seamlessly for team members working on different project phases.
+Phase-level effort planning is available for both:
+
+Templates : Set up phase-specific allocations right from the start when designing project templates.
+
+Projects : Implement phase-level effort planning for ongoing projects, especially those created without predefined allocations, to effortlessly assign effort across team members and phases.
+
+How phase effort planning works in templates
+With phase-level effort planning, you now have the flexibility to allocate efforts to different phases of a project by specifying the effort each team member or placeholder should contribute in each phase. This allows for more detailed control over how resources are allocated throughout the project's phase.
+To set up phase-level effort planning in a template:
+
+Enable Phase Effort Planning : Turn on phase-level effort planning for your template.
+
+Set Phase Efforts : Define the effort hours for each phase of the template.
+
+Use Auto Allocation : Leverage the auto allocation feature to convert planned efforts into real-time resource allocations based on your phase-level effort setup.
+
+How to enable phase level effort planning:
+To activate phase-level effort planning in a template:
+
+Go to Templates
+
+Select Project templates
+
+Choose a template and naviagate to Settings .
+
+Choose the Phase-Level Effort Planning option to enable it.
+
+How to setup phase efforts in template
+
+Once phase-level effort planning is enabled, you can begin assigning effort hours to the team members who are responsible for specific phases of the project in the template. This allows for precise allocation of resources, ensuring that each team member’s contribution is planned in alignment with the project’s needs at every phase of the project.
+To do that,
+
+Open the project template and select the phase you want to edit.
+
+In the side panel, under phase details locate the option to add efforts.
+
+Choose the placeholders or team members to assign effort hours for that phase.
+
+Enter the number of hours for each selection and click Save to confirm your allocations
+
+How to use auto allocation with phase efforts in templates
+Auto-allocation in Rocketlane is a smart way to automatically allocate total effort hours to resources in the project based on the effort and duration assigned to them in each phase. This smart allocation ensures that resources are optimally utilized and that planned hours align seamlessly with project timelines.
+To do this,
+
+Ensure all phases have assigned placeholders or team members and effort hours.
+
+Go to the Allocations tab within the template.
+
+Toggle the Auto Allocate function in the top-right corner to activate automatic allocation.
+
+How phase effort planning works in projects
+To set up phase-level effort planning for a project:
+
+Enable Phase Effort Planning : Activate phase-level effort planning for the project.
+
+Set Phase Efforts : Assign effort hours for each team member or placeholder in the individual project phases.
+
+Use Auto Allocation : Automatically distribute the planned efforts to resources using the auto allocation feature.
+
+How to enable effort planning on a project
+To enable phase level effort planning for a project,
+
+Navigate to Projects
+
+Select your project and navigate to Project Settings.
+
+Go to Resource Management and then select Effort Planning Level .
+
+You will see two options: At Task Level and At Phase Level.
+
+Choose the “ At phase level .”
+
+Note: After assigning placeholders and efforts at the task level, if you switch back to phase allocation, all efforts will aggregate into their respective phases. However, switching from phase-level allocations to task-level allocations will reset the task allocations to zero.
+
+How to set phase efforts for individual phases on the project
+Setting up efforts for individual phases of a project involves allocating the specific effort each team member needs to contribute to successfully complete the phases they are assigned to. This ensures that every member's workload is clearly defined, under each phase of the project paving way for streamlined resource management at every phase of the project.
+
+To do this,
+
+Navigate to the Project Plan , select a phase to edit.
+
+Click " Edit " next to the phase effort.
+
+A list of assignees for that phase will appear.
+
+Edit the entries and add effort to the assignees , which will then aggregate to form the total phase hours.
+
+Save the changes.
+
+How to use auto allocation with phase efforts on the project
+
+Auto allocation with phase efforts streamlines the distribution of planned effort hours among resources assigned to each phase in the project. After enabling phase effort planning and assigning effort hours for each phase, you can use the ‘Auto Allocate’ feature to automatically convert these planned efforts into real-time allocations. This ensures your resource plans remain aligned with shifting project timelines without requiring manual adjustments.
+
+To do that,
+
+Select your project and navigate to Project Settings.
+
+Go to Resource Management and then select Effort Planning Level .
+
+Set allocation mode as auto-allocate
+
+How to manage permissions for phase effort planning
+You can determine which team members have the authority to manage effort planning at the phase level for projects. This enables you to assign specific individuals the responsibility of allocating resources and making adjustments, ensuring that only authorized personnel can modify critical project resources.
+To do that
+Click on Profile and Go to Settings > Permissions > New Permission.
+
+Under Resource Management (Project Level):
+
+Select options like "Can view allocation totals for projects," "Can turn auto-allocations on/off for a project," and "Can manage level of effort planning."
+
+Under Phase Permissions:
+
+Enable "Can edit phase effort."
+
+Under Task Permissions:
+
+Enable "Can edit effort."
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Guide to Using Rocketlane MCP Tools
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Project Level Permissions
+
+Account Level Default Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

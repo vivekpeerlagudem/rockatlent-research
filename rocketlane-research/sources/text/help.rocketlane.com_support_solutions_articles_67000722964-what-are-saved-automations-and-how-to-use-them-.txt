@@ -1,0 +1,219 @@
+TITLE: How to save and re-use automations? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000722964-what-are-saved-automations-and-how-to-use-them-
+
+How to save and re-use automations? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+What are saved automations and how to use them?
+
+What are saved automations and how to use them?
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:24 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Automations
+
+Setting up Global automations
+
+Setting up Template automations
+
+What are saved automations and how to use them?
+
+Automation Pricing
+
+How to automate project workflows with HTTPS requests
+
+How to set schedules using Automations?
+
+Automation Logs in Rocketlane
+
+No article available
+
+For projects with similar automation needs, you do not need to create the same automation rules repeatedly. You can save an automation rule and apply it across preferred areas in templates.
+In this article
+
+Save an Automation
+
+Apply saved automations in templates
+
+Manage saved automation
+
+Edit Automations
+
+Duplicate Automations
+
+Delete Automations
+
+Save an Automation
+To save an automation:
+
+Open the template that has the automation you want to save.
+
+Navigate to the phase or task where the automation has been configured.
+
+Click the Automations tab on the right.
+
+Click the three dots next to the automation rule and select Save automation .
+
+Once the automation is saved, click View saved automation to view or edit it.
+
+Apply saved automations in templates
+Rocketlane lets you apply saved automations to templates without recreating the automation rule from scratch.
+To apply a saved automation:
+
+Open a project template.
+
+Navigate to the phase or task where the automation rule should be applied.
+
+Click the Automations tab on the right.
+
+Click the New automation button.
+
+From the slider, select and apply the preferred saved automation.
+
+Manage saved automation
+To view and access saved automations:
+
+Navigate to Templates .
+
+Click Saved Automations .
+
+Saved automations are categorized into phases, tasks, and forms.
+The saved automations list includes:
+
+Automation name: The name of the saved automation.
+
+Applied in: The number of tasks where the saved automation is applied. Click the number to open a slider with the list of tasks. You can click a task in the slider to open the task where the automation runs.
+
+Created on and Created by: The date on which the automation was saved and the user who created it.
+Click the three dots next to an automation to Duplicate , Modify , Rename , or Delete it.
+
+Edit Automations
+To make changes to a saved automation, click Modify and edit the automation rule.
+Note Modifying a saved automation will update it in all places where it has been applied.
+
+Duplicate Automations
+If you need to tweak only certain parts of an automation workflow, click Duplicate . This creates a copy of the existing automation rule.
+You can edit the duplicated automation and apply it wherever needed.
+
+Delete Automations
+To delete a saved automation, click Delete .
+Important Deleting a saved automation permanently deletes it from your account. It will also remove the automation from all places where it has been applied.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Introduction to Automations
+
+Setting up Template automations
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

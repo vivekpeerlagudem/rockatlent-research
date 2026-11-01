@@ -1,0 +1,202 @@
+TITLE: How do I move a subtask to a different parent task? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000752951-how-do-i-move-a-subtask-to-a-different-parent-task-
+
+How do I move a subtask to a different parent task? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How do I move a subtask to a different parent task?
+
+How do I move a subtask to a different parent task?
+
+Created by Advaith R, Modified on Mon, 20 Apr at 12:19 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How is Project age calculated?
+
+How to delete a project?
+
+Can documents and files sent in "All Files" and "Conversations" be deleted?
+
+How to take an export of the project plan?
+
+How do I add a new project in Rocketlane?
+
+How can I find out the number of projects that were cancelled within a specific time period?
+
+Is there a reason I am added to every project?
+
+When setting a "Start on" date for a task within a project template, does this refer to working days or calendar days?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+How can I filter a project view to display multiple specific categories of phases?
+
+Allocations and Accomodations
+
+Why are users being automatically re-added to my Rocketlane projects after I remove them?
+
+How to Identify and Replace an Incorrect Project Template in Rocketlane
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+How is the 'Time to Onboard' metric calculated in Rocketlane?
+
+How do I reactivate a deactivated user in Rocketlane, and are there any associated costs?
+
+How can I access and retrieve documents using the Rocketlane API?
+
+How do I embed SharePoint links in Rocketlane Spaces and resolve common visibility issues?
+
+How to Create Clickable URLs in Rocketlane Tasks or Projects?
+
+How do I use the 'Completed At' field to filter tasks in Rocketlane dashboards?
+
+Enhanced Filtering and Task List Management (FAQ)
+
+Why are tasks created from forms not appearing on the Board or Project Plan view?
+
+Who can view form responses in Rocketlane, and how can they be shared with customers?
+
+How can I manage project status options in Rocketlane?
+
+FAQ: Reordering Phases in a Project Plan Template
+
+FAQ: Document Tasks in Document Templates
+
+How do I move a subtask to a different parent task?
+
+Categorize Projects by Focus Area
+
+Can I move or expose the standard "Effort" field into custom task field sections?
+
+Can I filter tasks assigned to me that are linked to a form submission ?
+
+No article available
+
+A: To move or reassign a subtask, follow these steps:
+
+Navigate to the Timeline View of your project.
+
+Locate the subtask you wish to move.
+
+Click on the More Actions (three-dot menu) icon next to that task.
+
+Select Rearrange from the dropdown menu to select its new parent task or position by drag and drop.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Managing Subtasks
+
+Understanding Date Changes in Rocketlane
+
+Step-by-Step Workflow Automation Basics
+
+Understanding Task Dependencies in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

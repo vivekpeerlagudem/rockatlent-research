@@ -1,0 +1,220 @@
+TITLE: How to create projects billing method in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721465-creating-projects-with-financials
+
+How to create projects billing method in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Creating projects with Financials
+
+Creating projects with Financials
+
+Created by Monica Madan, Modified on Thu, 29 Aug, 2024 at 2:05 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+In this article, we will help you understand how to manage your financial information while creating a project. For further information on creating a project in Rocketlane, please refer to this article
+
+Take a course on Financial Management here.
+
+In this article
+
+Financials for Fixed fee projects
+
+Financials for Time and material projects
+
+Financials for subscription projects
+
+Financials for Non billable projects
+
+Financials for Fixed fee projects
+
+If you have fixed-price projects where your customers pay you for the entire project regardless of how much time and resources you use, make sure to include the following information:
+
+Currency is the project currency in which you bill your customers
+
+Fixed fee is the amount your customer pays you for the project. It will be the revenue you earn.
+
+Budgeted hours refer to the total amount of time you have set aside to complete the project.
+
+Revenue Recognition: If a standard revenue recognition method is not already set for the account, select a revenue recognition method from the available options.
+
+Note: When creating a project, you have the option to choose the method of revenue recognition if it hasn't been set on an account level already.
+
+Financials for Time and material projects
+
+If you have a time and material project where customers pay for the hours and resources used, make sure to include the following information:
+
+Currency is the project currency in which you bill your customers
+
+Rate cards lists the hourly bill rates of the team members working on your project. You can use this information to invoice your customers for the time your team tracks.
+
+Project budget refers to the amount of money you have allocated for this specific project.
+
+Budgeted hours refer to the total amount of time you have set aside for finishing the project.
+
+Financials for subscription projects
+
+With Rocketlane's subscription billing, you can easily manage projects with monthly, quarterly, or yearly recurring fixed budgets and budgeted hours.
+
+The following information would be required for a subscription project:
+
+Currency is the project currency
+
+Subscription is the method of billing
+
+Subscription frequency typically refers to how often a subscription renews or occurs within a set timeframe, such as monthly, quarterly or yearly.
+
+Subscription start date is the date you start your subscription
+
+Period budget represents the fixed budget of every subscription period.
+
+Period hours represent the budgeted hours of every subscription period.
+
+No. of periods number of subscription periods.
+
+Financials for Non billable projects
+
+To keep track of non-billable projects, you can monitor the budgeted hours . This helps you measure the time spent on internal tasks or non-billable activities that are similar in nature.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introducing Expense Management in Rocketlane
+
+Setting up currencies
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Overview of non billable projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

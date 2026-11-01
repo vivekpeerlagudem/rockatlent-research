@@ -1,0 +1,155 @@
+TITLE: Why is  ETC “0”? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000736303-why-is-etc-0-
+
+Why is ETC “0”? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why is ETC “0”?
+
+Why is ETC “0”?
+
+Created by Ramnath Venkatesh, Modified on Wed, 17 Jul, 2024 at 4:56 PM by Ramnath Venkatesh
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is ETC “0”?
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+No article available
+
+The Estimated Time to Complete (ETC) for a manually allocated project is calculated as follows:
+ETC = Sum of (remaining days * allocated hours per resource)
+For example, let's say today is July 1st, and the project's due date is July 10th. This gives us 9 remaining days. We have two resources working on the project:
+
+Resource A is allocated 2 hours per day.
+
+Resource B is allocated 3 hours per day.
+
+The calculation would be:
+ETC = (9 days * 2 hours/day for Resource A) + (9 days * 3 hours/day for Resource B)
+ETC = (9 * 2) + (9 * 3)
+ETC = 18 + 27 =45 hours
+So, the total ETC is 45 hours.
+In a nutshell, for ETC to not be zero, we need
+1. Allocation for resources in the project.
+2. Remaining days in the project.
+
+Hence, the ETC must've been populated as zero either because the project was marked completed or because there are no remaining days and hence no allocations.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why am I seeing an error?
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+FAQ: Time Off & Reporting in Rocketlane
+
+Salesforce Integration FAQs
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

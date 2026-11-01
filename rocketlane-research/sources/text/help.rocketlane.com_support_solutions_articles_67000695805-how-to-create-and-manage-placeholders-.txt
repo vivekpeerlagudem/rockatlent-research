@@ -1,0 +1,251 @@
+TITLE: How to Create and Manage Placeholders? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000695805-how-to-create-and-manage-placeholders-
+
+How to Create and Manage Placeholders? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Templates
+How to Create and Manage Placeholders?
+
+How to Create and Manage Placeholders?
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 6:51 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to create project templates?
+
+How to use dynamic project templates?
+
+How to create task templates?
+
+Adding SmartFill to Templates and Projects
+
+How to Create and Manage Placeholders?
+
+Understanding Date Changes in Rocketlane
+
+No article available
+
+In this article
+
+Managing Placeholders
+
+Using Placeholders in Templates
+
+Resolving Placeholders during Project Create
+
+Resolving Placeholders globally
+
+Resolving Placeholders from Tasks
+
+While planning projects, it is not always clear who from the team would have the bandwidth to take up the projects.
+Here, placeholders come handy while helping you plan your projects and assign tasks with precision.
+Using placeholders in Rocketlane, you can define the different kinds of roles and expertise that are needed in the project and assign placeholders to the tasks accordingly. Eventually, you can assign any team member to the placeholders according to availability and expertise.
+Let's have a look at how we can create placeholders and use them.
+
+Managing Placeholders
+Placeholders in Rocketlane are always created for a Role .
+For each role you create in the system, Rocketlane creates a placeholder for you automatically. You can also have more than one placeholder for a role.
+Note Please make sure the Use as placeholder checkbox is checked for the roles you wish to create and use placeholders for.
+
+Go to Settings > Roles .
+
+In the Roles section, click the More Actions icon for the role you want to use as a placeholder.
+
+Click Edit role .
+
+In the Edit role dialog box, select the Use as placeholder checkbox and click Save .
+
+Notice that the Use as placeholder column is now checked for your role.
+
+Note In case the role you want does not exist, you can create a new role and use it as a placeholder.
+
+Using Placeholders in Templates
+You can use placeholders in your templates to mention which task is taken care of by which specific role, such as customer success or implementation consultant. There are placeholders for your customers too.
+
+For an existing template, go to Templates > Project Templates and select your template.
+
+Select any task. In the Task details section on the right side of the view, click Choose under Assigned to .
+
+You can assign the task to any placeholder. Select any placeholder from the options available under the Placeholders section.
+
+You can also create a new placeholder by clicking + New .
+
+In the New Placeholder dialog box, select a role from the options available and name your new placeholder. Click Create New to create a new placeholder.
+
+You can even have placeholders for your customer.
+
+You can assign multiple placeholders to a task. All the selected placeholders will be reflected under the Assignees section.
+
+Click Done once you have assigned all placeholders for the task.
+
+Click Save on the top-right side of the screen to save the changes made to the template.
+
+Resolving Placeholders during Project Create
+While creating a project using a template that has placeholders, you can assign the placeholders to your team members who are qualified to take up the responsibility.
+Doing so will add the team members to the project and assign all relevant tasks to them.
+
+Go to Projects > New Project . Select the template with placeholders assigned under Choose a project template . Click Next: Teammates .
+
+Choose your team members and invite team members from the customer's team too. Select Next: Placeholders .
+
+In the Assign Tasks section, you can view the different placeholders with the number of tasks assigned to them based on the template being used for creating the project.
+
+Team members added to the project in the previous step will be auto-assigned based on the placeholders. You can also manually change the auto-assigned team members.
+
+You can manually assign team members to placeholders.
+
+You can also select the checkbox for assigning all unassigned tasks to the Project owner.
+
+Click Next: Project Fields and fill in all additional information regarding the project. Click Create project once you are done.
+
+Resolving Placeholders globally
+Easily resolve placeholders by assigning actual team members with just one click using the Manage Placeholder feature.
+
+Click the Manage Placeholder icon on the top right corner within your project.
+
+You will get a list of placeholders with the total number of tasks assigned under each placeholder.
+
+Clicking the dropdown will reveal the list of team members.
+
+Once you select the respective team member for all the placeholders and click Done , the placeholder gets auto-resolved and the tasks will be assigned to the team members without requiring manual assignment.
+
+Resolving Placeholders from Tasks
+
+From Task Pane
+
+From the Project Plan or List view, you can select a task and click Choose under the Assign to option.
+
+Notice that the task assignees can either be placeholders or team members.
+
+In case you add a placeholder to the list of assignees, the Find a team member feature allows you to list team members with the role selected.
+
+Choose from a list of team members in the Assign Placeholders dialog box. You can even invite team members who are not a part of the project and assign tasks to them. Click Done .
+
+From Task List
+In the List view, you can assign placeholders and/or team members to the tasks under the Assignee section.
+
+From Bulk Edits
+
+You can select multiple tasks from the left-most checkbox of each task from the List view.
+
+The Add assignee option under People lets you add an assignee to all the selected tasks.
+
+The Reassign to option under People lets you reassign all the selected tasks to new assignees.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing Invoicing Permissions in Rocketlane
+
+Managing RBAC Permissions for Sheets in Rocketlane
+
+Introducing Expense Management in Rocketlane
+
+Account Level Default Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,314 @@
+TITLE: Creating Private Tasks Automatically in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000757489-creating-private-tasks-automatically-in-rocketlane
+
+Creating Private Tasks Automatically in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Creating Private Tasks Automatically in Rocketlane
+
+Creating Private Tasks Automatically in Rocketlane
+
+Created by Advaith R, Modified on Wed, 28 Oct at 7:29 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How is Project age calculated?
+
+How to delete a project?
+
+Can documents and files sent in "All Files" and "Conversations" be deleted?
+
+How to take an export of the project plan?
+
+How do I add a new project in Rocketlane?
+
+How can I find out the number of projects that were cancelled within a specific time period?
+
+Is there a reason I am added to every project?
+
+When setting a "Start on" date for a task within a project template, does this refer to working days or calendar days?
+
+FAQs: Managing Form-Generated Tasks on Project Plan
+
+How can I filter a project view to display multiple specific categories of phases?
+
+Allocations and Accomodations
+
+Why are users being automatically re-added to my Rocketlane projects after I remove them?
+
+How to Identify and Replace an Incorrect Project Template in Rocketlane
+
+How can I enable, trigger, and troubleshoot CSAT surveys for milestone tasks in Rocketlane?
+
+How is the 'Time to Onboard' metric calculated in Rocketlane?
+
+How do I reactivate a deactivated user in Rocketlane, and are there any associated costs?
+
+How can I access and retrieve documents using the Rocketlane API?
+
+How do I embed SharePoint links in Rocketlane Spaces and resolve common visibility issues?
+
+How to Create Clickable URLs in Rocketlane Tasks or Projects?
+
+How do I use the 'Completed At' field to filter tasks in Rocketlane dashboards?
+
+Enhanced Filtering and Task List Management (FAQ)
+
+Why are tasks created from forms not appearing on the Board or Project Plan view?
+
+Who can view form responses in Rocketlane, and how can they be shared with customers?
+
+How can I manage project status options in Rocketlane?
+
+FAQ: Reordering Phases in a Project Plan Template
+
+FAQ: Document Tasks in Document Templates
+
+How do I move a subtask to a different parent task?
+
+Categorize Projects by Focus Area
+
+Can I move or expose the standard "Effort" field into custom task field sections?
+
+Can I filter tasks assigned to me that are linked to a form submission ?
+
+No article available
+
+Private tasks keep internal project work hidden from customers. When a project contains several internal tasks, changing each task’s visibility manually can be time-consuming and easy to miss.
+You can standardize task privacy through a project template, or set it programmatically through the Rocketlane REST API.
+In this article
+Choose a method
+Private tasks in a project template
+Create a private task using the REST API
+Make an existing task private using the REST API
+Permissions
+Things to know
+FAQ
+Summary
+
+Choose a method
+Method When to use it
+Project template Projects follow a repeatable structure, and the same tasks or phases should always stay private.
+REST API Tasks are created or updated through an integration or another automated workflow.
+
+Private tasks in a project template
+Use a project template when projects should start with predefined private work. You can set privacy at two levels:
+
+Individual tasks : mark only the tasks that should be hidden.
+
+An entire phase : mark the phase, and every task in it is private.
+
+Mark a phase as private
+
+Open the project template from Templates > Project templates .
+
+In the plan, click the phase name to open its details.
+
+Click the More actions menu (three dots) in the phase details and select Mark as private .
+
+Mark a task as private
+
+Open the project template.
+
+Click the task to open its details.
+
+Click the More actions menu (three dots) in the task details and select Mark as private .
+Template changes are saved automatically. When a project is created from the template, the privacy settings carry into the project.
+Note Use phase-level privacy when an entire workstream is internal. Every task in a private phase is private, including tasks added to the phase later, which reduces the risk of a task being shared by accident.
+
+Create a private task using the REST API
+For tasks created through an integration, include "private": true in the task creation request.
+Endpoint
+POST https://api.rocketlane.com/api/1.0/tasks
+Example request
+{
+"taskName": "My task",
+"project": {
+"projectId": 12345
+},
+"private": true
+}
+The task is created as private and is not shared with customers.
+
+Make an existing task private using the REST API
+To change an existing task, send "private": true in an update request.
+Endpoint
+PUT https://api.rocketlane.com/api/1.0/tasks/{taskId}
+Replace {taskId} with the ID of the task you want to update.
+Example request
+{
+"private": true
+}
+
+Permissions
+Who can change visibility depends on the permission set. Each permission can be scoped to private, shared, or both.
+Permission What it controls
+Visibility (tasks) Whether a user can set a task to private, shared, or both.
+Can manage phase visibility Whether a user can set a phase to private, shared, or both.
+
+Things to know
+
+Template privacy standardizes visibility across repeatable project structures.
+
+Tasks created in a private phase are private automatically.
+
+A task inside a private phase, or under a private parent task, cannot be changed to shared. The REST API rejects the request.
+
+The API method suits tasks that are created or updated outside the Rocketlane interface.
+
+Use the Boolean value true , without quotation marks, when setting the private property in a JSON request.
+
+FAQ
+
+Can I make every task in a phase private?
+Yes. Mark the phase as private in the project template. Every task in that phase, including tasks added later, is private.
+
+Can I make only selected template tasks private?
+Yes. Mark the required tasks as private without changing the visibility of the phase.
+
+Can an integration create a task as private?
+Yes. Include "private": true when creating the task through the REST API.
+
+Can I change an existing task from shared to private through the API?
+Yes. Send a PUT request for the task with "private": true in the request body.
+
+Why can't I make a task in a private phase shared?
+Tasks follow the privacy of their phase or parent task. To share the task, move it to a shared phase, or make the phase shared first.
+
+Which method should I use?
+Use a project template when the same privacy structure should apply to repeatable projects. Use the REST API when task creation or visibility is controlled by an integration.
+
+Summary
+
+Private tasks are hidden from customers.
+
+In a project template, use More actions > Mark as private on a task or on a whole phase.
+
+Projects created from the template keep those privacy settings.
+
+Tasks in a private phase are always private and cannot be made shared.
+
+Integrations can create or update private tasks with "private": true through the REST API.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+Adding Documents to Your Project on Rocketlane
+
+How to get started with Rocketlane's Integration for Slack?
+
+How to Manage Task Dependencies?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

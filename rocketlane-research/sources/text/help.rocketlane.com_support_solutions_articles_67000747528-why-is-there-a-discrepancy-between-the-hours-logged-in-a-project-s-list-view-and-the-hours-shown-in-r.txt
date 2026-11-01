@@ -1,0 +1,156 @@
+TITLE: Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747528-why-is-there-a-discrepancy-between-the-hours-logged-in-a-project-s-list-view-and-the-hours-shown-in-r
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+Created by Advaith R, Modified on Tue, 16 Sep, 2025 at 6:50 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to sync Calendar to Timesheet?
+
+FAQ: Calendar Start Day Customization
+
+Why do deactivated users appear in my timesheet approval lists, and how can I manage their visibility?
+
+How do Time Offs reflect in resource management, and do they prevent accidental assignments?
+
+What time zone are timesheet submissions based on?
+
+Why can't I see a specific project in the Resource Management tab, even if other users with similar permissions can?
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+What are hard and soft allocations in Rocketlane, and how do I use them effectively?
+
+How to Manage Timesheet Approvers in Rocketlane
+
+What is the difference between allocation and utilization?
+
+Why is "Import from my allocations" coming up blank on my timesheet?
+
+No article available
+
+The discrepancy occurs because Resource Management does not show allocations on weekends . While you can log effort for a task on any day of the week, Rocketlane's Resource Management module is designed to display resource allocations on weekdays (Monday through Friday) by default. Therefore, any effort assigned to a task with a start or due date that falls on a Saturday or Sunday will be included in the List View's total (i.e, when the total is calculated) but will not appear in the Resource Management view's total hours. To ensure the hours are reflected in Resource Management, you should adjust the task's start and due dates to a weekday.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Why is ETC “0”?
+
+Overview of fixed fee projects
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Managing Allocations on the Resource Management Timeline
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

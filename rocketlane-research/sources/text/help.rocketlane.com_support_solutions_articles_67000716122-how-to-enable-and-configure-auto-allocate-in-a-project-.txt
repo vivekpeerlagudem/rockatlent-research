@@ -1,0 +1,182 @@
+TITLE: How to Enable and Configure Auto-allocate in a Project? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000716122-how-to-enable-and-configure-auto-allocate-in-a-project-
+
+How to Enable and Configure Auto-allocate in a Project? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+Created by Niharika Pandey, Modified on Thu, 19 Dec, 2024 at 5:02 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+With Auto-allocate, project managers can now incorporate any number of ad hoc changes to the project plan, without worrying about the additional burden of updating resource allocations for every change. With the Auto-allocate feature in Resource Management and Rocketlane Projects, you can define phases, tasks, task duration, the estimated effort required to execute each task, and assign placeholders/ team members for the roles that are required to execute the task.
+
+When Auto-allocate is turned on for a project, Rocketlane automatically updates the resource allocations when the timelines and/or assignees for a task are modified. For project managers, this means they can add new tasks, remove tasks that have been dropped from the project, move task timelines around, and update task assignees without a second thought. Keeping up with changes to the project scope just got a whole lot easier and hassle-free.
+
+How to Enable Auto-allocate for projects in Rocketlane?
+
+Note: The pre-requisite for enabling auto-allocate for your projects is to define the duration , assignees and the effort fields for tasks.
+
+Go to Resource Management > Projects.
+
+Go to the Project that you want to enable auto- allocate for. Go to More Actions > Enable auto allocate
+
+Note: Please take into account that enabling auto-allocate will overwrite any existing allocations, and there is no way to get back your previous allocations.
+
+Click OK from the confirmation dialog box.
+
+Notice the auto-allocate icon next to the project name indicating that auto-allocate is turned on for this project.
+
+Editing Allocations Post Enabling Auto-allocate for a Project
+
+Post enabling auto-allocate for a project, the Allocations tab will be available in a read only format wherein you cannot edit the allocation for a placeholder or team member from the timeline view.
+
+However, you can click on an allocation and view the source tasks that are contributing to the allocation.
+
+You can click and go to the tasks from this pane and edit the task properties ( assignees, duration, effort ) to edit allocations for that task.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+Key Events and Intervals in Rocketlane
+
+Phase Level Effort Planning on Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

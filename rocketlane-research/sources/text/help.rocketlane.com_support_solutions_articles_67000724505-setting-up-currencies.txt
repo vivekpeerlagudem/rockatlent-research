@@ -1,0 +1,221 @@
+TITLE: How to use multicurrency to set a company currency? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000724505-setting-up-currencies
+
+How to use multicurrency to set a company currency? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Setting up currencies
+
+Setting up currencies
+
+Created by Monica Madan, Modified on Fri, 17 Nov, 2023 at 3:04 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting up currencies
+
+No article available
+
+Rocketlane’s multi currency feature lets you manage your projects across multiple geographies and get accurate financial insights in any currency you use in your projects.
+
+In this article
+
+Setup company currency
+
+View currency history
+
+Features that use currencies
+With multi currency you can:
+
+Establish a company-wide currency and track the revenue and profitability of your company
+
+Easily manage exchange rates
+
+Create rate cards in multiple currencies and bill customers in their local currencies.
+
+Set up cost rates in currencies specific to your employees’ location
+
+Setup company currency
+
+Company currency - The currency your company uses to manage portfolio and report on the financial performance. You can have only one company currency for your business.
+
+To add new currency
+
+Login as an admin and navigate to your avatar
+
+Select Settings
+
+Scroll down to the Operations and financials section
+
+Select Currencies
+
+Click the New Currency button
+
+Select the currency from the subsequent dropdown. Eg: (Euro - EUR)
+
+Determine the exchange rate , which reflects how much one unit of foreign currency is equivalent to your company currency. Example: You can define 1 Euro (foreign currency) equal to 1.07 USD (your company currency)
+
+After setting up the currency, enable it by toggling it on
+
+To set up company currency
+
+Click on the three dots next to the currency for more actions
+
+Set as company currency .
+
+View currency history
+To track changes made to exchange rates over time, simply click on the three dots for more actions next to the relevant currencies and access the 'View History' option to review the chronological timeline of edits.
+
+Current exchange rate - The latest updated exchange rate.
+Effective from date - The date from when this exchange rate takes effect
+Updated by - The team member who updated the exchange rate
+
+Audit logs
+
+Offers a comprehensive record of all modifications to exchange rates, granting insight into the individuals responsible for each specific change.
+
+Edit currency
+
+To edit currency exchange rates,
+
+Click on the three dots next to the currency for more actions
+
+Click edit
+
+Make changes to the exchange rate
+
+Choose the option to change the exchange rate for future currencies or backdate it to the date from when the currency was created.
+
+Features that use currencies
+
+Rate cards - When creating rate cards for your services, you can select the currencies you want to use. You then set bill rates for all the different roles in these currencies.
+Know more .
+
+Cost rates - If you have employed people from different countries, you can add the individual’s country currencies to manage the cost rate of team members.
+Know more .
+
+Project creation - When creating a new project, you can choose the currency for that project. This ensures that project-related financial data, like costs and revenue, is displayed in the project's chosen currency.
+Know more
+
+Project Financials page - Financials section in projects will now show the revenue and profitability in the project’s chosen currency.
+Know more .
+
+Portfolio Reporting - In the portfolio report, Rocketlane uses the exchange rates you've set to convert data from different projects into your company's currency.
+Know more .
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Setting up Rate cards
+
+Introducing Expense Management in Rocketlane
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+Managing budget and rates in project settings
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

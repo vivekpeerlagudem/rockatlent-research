@@ -1,0 +1,207 @@
+TITLE: Documentation Agents in Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755211-documentation-agents-in-rocketlane
+
+Documentation Agents in Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Documentation Agents in Rocketlane
+
+Documentation Agents in Rocketlane
+
+Created by Advaith R, Modified on Thu, 30 Jul at 10:45 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Documentation Agents in Rocketlane
+
+Configuring Nitro Page Templates
+
+Creating a Documentation Agent
+
+Creating and Managing Nitro Pages in Rocketlane
+
+No article available
+
+Documentation Agents automatically create structured project documentation by gathering information from the work already happening across a team. They listen to meetings, read through emails, and pull in relevant product or customer knowledge, then convert that input into polished, structured documents.
+Documents can also be kept continuously updated. The latest requirements, decisions, and changes from each meeting or email can automatically flow into the correct sections of configured templates, without manual updates.
+
+When to Use
+Documentation Agents are useful when there is a need to:
+
+Consolidate information from multiple meetings and email threads into a single structured artifact
+
+Maintain a living document that stays current as new interactions occur
+
+Standardize documentation output across teams by enforcing consistent templates
+
+Reduce manual effort required to write, update, and maintain delivery documentation
+
+What Documentation Agents Can Generate
+Documentation Agents can generate a wide range of project and delivery documents, including:
+
+Business Requirements Document (BRD)
+
+Solution Design Document (SDD)
+
+Discovery Notes
+
+Scope of Work (SOW)
+
+Implementation Plan
+
+Hand-off Documents
+
+Data Migration Plan
+
+Integration Design Document
+
+And much more..
+
+Documentation Agents vs AI Fills
+Both Documentation Agents and AI Fills use AI, but they operate at different depth and scope.
+
+AI Fills
+Documentation Agents
+
+Purpose
+Tactical help for meetings and quick updates
+Strategic knowledge creation across projects
+
+Output
+Short, structured fills, such as summaries and quick notes
+Large documents and detailed artifacts capturing deep context
+
+Scope
+Meeting-level tasks
+End-to-end workflows across Sales, Implementation, CS, and Governance
+
+Sources
+Mostly call transcripts
+Calls, emails, PDFs, spreadsheets, and documents
+
+Knowledge depth
+Surface-level
+Deep, contextual, multi-source
+
+Frequency
+Used per meeting
+Used to build permanent knowledge assets
+
+Use AI Fills for fast meeting-scoped outputs. Use Documentation Agents when complete, durable project documentation is required across multiple sources.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Managing Nitro Pages in Rocketlane
+
+Configuring Nitro Page Templates
+
+Introducing Custom Apps: Build What You Need Inside Rocketlane
+
+How to automate project workflows with HTTPS requests
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

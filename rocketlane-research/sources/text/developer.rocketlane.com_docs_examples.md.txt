@@ -1,0 +1,141 @@
+---
+updatedAt: 2025-06-03T20:46:50.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Examples
+
+Understand Rocketlane's APIs with an example use case
+
+## Example API Request
+
+***Create a project (POST)***
+
+***API endpoint:*** [\<https://api.rocketlane.com/api/1.0/projects>](https://developer.rocketlane.com/reference/get-all-projects)
+
+***
+
+## Request
+
+The base URL with versioning (add versioning link) for all requests to Rocketlane APIs is: [https://api.rocketlane.com/api/1.0](https://developer.rocketlane.com/reference)
+
+Every API request you make will start with the same base URL. Now, since we want to operate on projects, the full URL in our case becomes:\
+[\<https://api.rocketlane.com/api/1.0/projects>](https://developer.rocketlane.com/reference/projects)
+
+We'll make a POST request to that URL, which serves as our API endpoint for creating a project. In the header, we'll authorize the request with our API key.
+
+```json
+curl --request POST  
+     --url <https://api.rocketlane.com/api/1.0/projects>  
+     --header 'accept: application/json'  
+     --header 'api-key: <api-key>'  
+     --header 'content-type: application/json'
+```
+
+For our POST body, we'll send a data object that encapsulates all the fields that we want to set.
+
+```
+{
+    "projectName":"Acme onboarding",
+    "customer":{
+        "companyName":"Acme Inc"
+    },
+    "owner":{
+        "emailId":"john.doe@rocketlane.com"
+    }
+}
+```
+
+***
+
+## Response
+
+After requesting information from the API, you will receive a response in JSON format. In our specific case, the API returns a 201 Created response status code, indicating that the request was successful and led to the creation of a resource.
+
+```json
+{
+    "projectId":201,
+    "projectName":"Acme onboarding",
+    "startDate":"2023-03-28",
+    "dueDate":"2023-03-28",
+    "startDateActual":"2023-03-28",
+    "dueDateActual":"2023-03-28",
+    "createdAt":1681319726000,
+    "updatedAt":1681319726000,
+    "customer":{
+        "companyId":201,
+        "companyName":"Acme Inc",
+        "companyUrl":"https://www.acme.com"
+    },
+    "partnerCompanies":[
+        {
+            "companyId":301,
+            "companyName":"Modert Inc",
+            "companyUrl":"https://www.modert.com"
+        }
+    ],
+    "archived":false,
+    "visibility":"EVERYONE",
+    "owner":{
+        "emailId":"john.doe@rocketlane.com",
+        "userId":201,
+        "firstName":"John",
+        "lastName":"Doe"
+    },
+    "teamMembers":{
+        "members":[
+            {
+                "emailId":"john.doe@rocketlane.com",
+                "userId":201,
+                "firstName":"John",
+                "lastName":"Doe"
+            }
+        ],
+        "customers":[
+            {
+                "emailId":"rachel.green@acme.com",
+                "userId":301,
+                "firstName":"Rachel",
+                "lastName":"Green"
+            }
+        ],
+        "customerChampion":{
+            "emailId":"ruth.bell@acme.com",
+            "userId":302,
+            "firstName":"Ruth",
+            "lastName":"Bell"
+        }
+    },
+    "status":{
+        "value":2,
+        "label":"In progress"
+    },
+    "fields":[
+        {
+            "fieldId":201,
+            "fieldLabel":"MRR",
+            "fieldValue":"1000"
+        }
+    ],
+    "annualizedRecurringRevenue":10000,
+    "projectFee":100000,
+    "budgetedHours":1000,
+    "trackedHours":530,
+    "allocatedHours":500,
+    "progressPercentage":42,
+    "plannedDurationInDays":24,
+    "inferredProgress":"RUNNING_LATE",
+    "projectAgeInDays":38,
+    "customersInvited":5,
+    "customersJoined":12,
+    "createdBy":{
+        "emailId":"john.doe@rocketlane.com",
+        "userId":201,
+        "firstName":"John",
+        "lastName":"Doe"
+    }
+}
+```
+
+In the above code snippet, the entire record of the newly-created project is returned.

@@ -1,0 +1,362 @@
+TITLE: Using Multi-Project Budgets in Rocketlane (Enterprise only) : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754565-using-multi-project-budgets-in-rocketlane-enterprise-only-
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only) : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Created by Advaith R, Modified on Fri, 9 Oct at 7:04 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+Multi-project budgets allow a single project to have more than one budget, each with its own billing method, revenue recognition method, and team. This is useful when a project contains multiple commercial components, such as implementation, support, and change orders, under the same project.
+For requirements and limitations before enabling this feature, see Enabling Multi-Budget: Requirements and Constraints . For a comparison with single-budget projects, see Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate .
+In this article
+
+Overview
+
+Project and budget relationship
+
+Budget status
+
+The default budget
+
+Budget team members
+
+Restrict time tracking by budget
+
+Task and phase budgets
+
+How budgets are prefilled
+
+Filter the project plan by budget
+
+Permissions and RBAC
+
+FAQ
+
+Overview
+By default, each project has a single budget. With multi-project budgets enabled:
+
+A project can have multiple budgets.
+
+Each budget can have its own billing method and revenue recognition method.
+
+Each budget has its own team.
+
+Tasks and phases can be associated with one or more budgets.
+
+Budget amounts and hours roll up to the project level.
+Note All budgets in a project use the same project currency. Currency cannot be configured separately for an individual budget. Changing the project currency changes it for every budget in the project.
+
+Key concepts
+
+Project and budget relationship
+A project has one currency and one set of overall project settings. Under that project, you can create multiple budgets. For example, a project could contain separate budgets for:
+
+Discovery
+
+Solutioning
+
+Implementation
+
+Change Order 1
+Each budget can define its own:
+
+Billing method and revenue recognition method
+
+Start and end dates
+
+Budget status
+
+Custom fields configured at the budget level
+Note The fields available on a budget depend on its billing method. Subscription budgets show subscription frequency, period budget, and number of periods instead of bill rate, revenue recognition, budget amount, and budgeted hours. Non-billable budgets do not show subscription fields, revenue recognition, bill rate, or budget amount. Fixed-fee budgets do not show subscription fields or bill rate.
+
+Budget status
+Rocketlane includes three default budget statuses:
+
+Proposed
+
+Active
+
+Completed
+These statuses cannot be deleted.
+You can add custom statuses from Settings > Fields > Budget fields . Each custom status belongs to one of the Proposed, Active, or Completed status groups. The group determines how Rocketlane treats the budget. For example, moving a budget to any status in the Completed group records its actual completion date.
+Note Custom statuses can be used in Rocketlane, but some bulk import workflows accept only Proposed , Active , and Completed .
+
+The default budget
+Every project has exactly one default budget. The budget created automatically with the project, named Default Project Budget , is initially set as the default. Budgets added later are not automatically made the default.
+To set another budget as the default:
+
+Go to Project Settings > Budget Management .
+
+On the budget's row, open More actions .
+
+Select Set as default .
+The default budget is also used as a fallback. If a supported time entry, expense, or resource allocation is saved without a budget, Rocketlane assigns it to the project's default budget rather than leaving it unassigned. A budget belonging to another project cannot be used.
+Note The default budget cannot be deleted. Set another budget as the default before deleting it.
+
+Budget team members
+Project team members belong to every budget by default. Removing someone from a budget affects only that budget. They remain part of the project and continue to belong to any other budgets they have not been removed from.
+Note Customer users and partner users are never budget members.
+
+Budget membership affects different areas of the project in different ways:
+Area Effect of removing someone from a budget
+Resource Management They cannot be allocated against that budget.
+Task effort Per-budget effort rows are created only for budgets the assignee belongs to.
+Time tracking There is no effect unless your account restricts time tracking by budget membership.
+Expenses There is no membership restriction. Anyone creating an expense can select any budget in the project.
+
+Manage a budget's team
+
+Go to Project Settings > Budget Management .
+
+Select the budget you want to manage.
+
+Open the Team members tab.
+
+Select Add team member / Placeholder . Placeholders appear in the same picker as people. There is no separate option for adding placeholders.
+
+Choose the people or placeholders you want, then select Invite .
+Note If a selected person is not already part of the project, Rocketlane asks you to confirm. Select Invite & assign to add them to both the project and the budget. If you cancel, people in your selection who were already project members are still added to the budget.
+
+Note
+You do not need to add someone to a budget before allocating them to it. If you add a person or placeholder from Resource Management while working within a budget, Rocketlane adds them to the budget as part of the same action.
+
+Removing a member from a budget also removes their resource allocations and their task assignment for that budget.
+
+Restrict time tracking by budget
+By default, anyone who can track time on a project can track time against any of its budgets. You can change this using the options under Team members can only track time for in Timesheet settings.
+Setting What it does
+Budgets they are part of Limits each person to budgets they have not been removed from. This option is available only when Projects they are part of is also enabled.
+Budgets in these statuses Limits everyone to budgets with the selected statuses. This works independently of budget membership and project-level restrictions.
+Both settings are disabled by default and can be used together.
+Note The budget membership restriction is checked when a time entry is created. Editing an existing time entry does not re-check its budget against the user's current budget membership.
+
+Task and phase budgets
+Tasks and phases can each be associated with one or more budgets.
+When time, allocations, or expenses are recorded against a task or phase, the associated budget determines where the cost and revenue are applied.
+
+Associate a task with budgets
+
+Open the task and go to the Additional Info tab.
+
+Expand Financial settings .
+
+Select one or more budgets in the Budget field.
+
+Associate a phase with budgets
+
+In the project plan, open the phase's More actions menu and select Edit , or select the edit icon on the phase row.
+
+In Edit project phase , select one or more budgets in the Budget field.
+
+How budgets are prefilled
+When you log time, Rocketlane prefills the budget when the task or phase has exactly one budget associated with it, or when only one project budget is available to you.
+When you add an expense, selecting a task prefills the budget from that task when it has exactly one budget. Otherwise, Rocketlane falls back to the phase and then the project. If a budget cannot be inferred, you must select one.
+Note A budget is required for an expense when multi-project budgets are enabled. If you select an expense budget, the project budget is determined from it and the project field is locked.
+
+Filter the project plan by budget
+In the project plan, use the Budgets filter to show only tasks associated with the selected budgets. A phase remains visible as long as it contains a task that matches the filter.
+Note The Budgets filter changes only what is displayed in the project plan. It does not change permissions, dates, or reporting.
+
+Permissions and RBAC
+Budget access is controlled through permission sets alongside your existing project-level access rules.
+Permission What it controls
+Can view project budgets Viewing the Budgets tab and a budget's details
+Create budgets Adding a budget to a project
+Can modify budgets Editing a budget
+Can delete budgets Deleting a budget
+Can modify budget members Adding and removing budget team members
+Can manage budget settings Account-level budget configuration
+Can manage budget fields Creating and editing budget fields
+Note Without Can modify budget members , the Team members tab is read-only and the Add team member option is not available.
+
+Budget membership works alongside these permissions rather than replacing them. Permissions determine what someone can do with budgets. Membership determines which budgets they can be allocated against and, when the relevant time-tracking restriction is enabled, which budgets they can track time against.
+
+FAQ
+
+Why can't I see a particular budget when I log time?
+Two separate settings can hide a budget from the picker, and both can be enabled at the same time. If time tracking is restricted to Budgets they are part of , you see only budgets you have not been removed from. If it is restricted to Budgets in these statuses , you see only budgets whose status is allowed.
+If no statuses are configured, no status restriction applies. If neither restriction is enabled, you can track time against any budget in the project.
+
+Which budget does Rocketlane choose when it fills one in for me?
+If the task or phase has exactly one budget associated with it, that budget is used. If there is only one budget available to you on the project, that budget is used. Where Rocketlane needs to choose a single fallback budget, it uses the project's default budget rather than whichever budget appears first in the list.
+If more than one budget could apply and no single budget can be inferred, you select the budget yourself.
+
+Can a task or phase be linked to more than one budget?
+Yes. Tasks and phases can both be associated with multiple budgets. On a task, the default budget appears first, and selecting additional budgets adds them to the existing selection.
+
+Why am I being asked to choose a budget when I assign someone to a task?
+This happens when the person is not currently a member of any budget in the project. Rocketlane asks which budget or budgets they should be added to so their effort and allocations can be associated with a budget.
+
+When I add time against a specific budget, why do I only see some of the project's tasks?
+The task list is filtered to tasks associated with the budget you selected. If your account is not using multiple budgets, the list shows tasks associated with the project's default budget.
+
+What happens if I remove someone from a budget?
+They are removed only from that budget and remain part of the project and any other budgets they have not been removed from. Their resource allocations and task assignment for that budget are also removed.
+
+Do I need to add someone to a budget before I can allocate them to it?
+No. If you add a person or placeholder from Resource Management while working within a budget, Rocketlane adds them to that budget as part of the same action.
+
+Is time logged against a non-billable budget treated as billable?
+No. The budget's billing method determines the default. Time recorded against a non-billable budget defaults to non-billable. Time recorded against a billable budget defaults to billable unless the task or work item specifies otherwise.
+
+What happens to the estimate to complete when a budget is marked completed?
+The estimate to complete becomes zero for that budget.
+
+Do budget custom field values need to be set on every record?
+No. When a custom field is defined at the budget level and no value is supplied on the record, the value is inherited from the budget.
+
+Can I filter Resource Management by budget?
+Yes. Budget filters are available on both the People and Projects tabs. You can filter using budget name, status, start and end dates, number of periods, period hours, budgeted amount, revenue recognition method, subscription frequency, and custom budget fields.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+How to Sync Integrations with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Enabling Multi-Budget: Requirements and Constraints
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

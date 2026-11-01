@@ -1,0 +1,501 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get user by Id
+
+Based on a user’s unique identifier (`userId`), users can retrieve extensive information about a specific user using the *Get user by Id* API. This endpoint is very helpful for gaining access to detailed user related information such as their email id, type (team member, partner or customer), status(active, invited or inactive), permission levels, capacity etc. The response will include both default and custom team member fields.
+
+The response can be customised using the `includeFields` parameter.
+
+***
+
+> In case, any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Users",
+      "description": "Endpoints for users resource"
+    }
+  ],
+  "paths": {
+    "/1.0/users/{userId}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get user by Id",
+        "operationId": "get-user",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "The user's unique, system-generated identifier, which can be used to identify the user globally.",
+            "required": true,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            },
+            "example": 200
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "role",
+                  "company",
+                  "permission",
+                  "holidayCalendar",
+                  "capacityInMinutes",
+                  "profilePictureUrl"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsersPublicAPIResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "If we were unable to locate the resource you were looking for or the proper API endpoint you were looking for, this error would show up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/notFoundErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example404": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_FOUND"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Found: Resource not found for given ID"
+          }
+        }
+      },
+      "notFoundErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example404"
+            }
+          }
+        }
+      },
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "FieldUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The custom user field’s unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The fieldLabel is the name of the custom user field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "string",
+            "description": " The fieldValue is the value provided while creation or updating the user information.  The fieldValue can be a string, an integer, or an number array and it will match the type of the field. Refer [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with user.",
+            "readOnly": true,
+            "example": "1000"
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Custom user fields can be created and their values set during user creation. These values can also be added or edited later. The field value can be a string, number, or array, and must align with the field type. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with user."
+      },
+      "PermissionUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "permissionId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique system-generated identifier for permission, which can be used to identify the permission globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 933
+          },
+          "permissionName": {
+            "type": "string",
+            "description": "The name of the permission.",
+            "readOnly": true,
+            "example": "Account Admin"
+          }
+        },
+        "description": "The Permission of the user."
+      },
+      "RoleUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The role's unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 136
+          },
+          "roleName": {
+            "type": "string",
+            "description": "The name of the role.",
+            "readOnly": true,
+            "example": "Customer Success"
+          }
+        },
+        "description": "The role of the user."
+      },
+      "UsersCompanyPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "companyId": {
+            "type": "integer",
+            "description": "The company's unique, system-generated identifier, which can be used to identify the company globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 116
+          },
+          "companyName": {
+            "type": "string",
+            "description": "The name of the company of the user.",
+            "readOnly": true,
+            "example": "Modert"
+          }
+        },
+        "description": "The company of the user."
+      },
+      "UsersCreatedByResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the information of the user."
+      },
+      "UsersHolidayCalendarPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "calenderId": {
+            "type": "integer",
+            "description": "The unique system-generated identifier for calendar, which can be used to identify the permission globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 93
+          },
+          "calenderName": {
+            "type": "string",
+            "description": "The name of the calendar.",
+            "readOnly": true,
+            "example": "India Holiday Calendar"
+          }
+        },
+        "description": "The Holiday calendar of the user."
+      },
+      "UsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The user's unique, system-generated identifier, which can be used to identify the user globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "email": {
+            "minimum": 1,
+            "type": "string",
+            "description": "The email identifier of the user.",
+            "readOnly": true,
+            "example": "johndoe@rocketlane.com"
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          },
+          "type": {
+            "minimum": 1,
+            "type": "string",
+            "description": "The type of the user.",
+            "readOnly": true,
+            "example": "TEAM_MEMBER",
+            "enum": [
+              "TEAM_MEMBER",
+              "PARTNER",
+              "CUSTOMER",
+              "EXTERNAL_PARTNER"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "description": "The status of the user.",
+            "readOnly": true,
+            "example": "ACTIVE",
+            "enum": [
+              "INACTIVE",
+              "INVITED",
+              "ACTIVE",
+              "PASSIVE"
+            ]
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleUsersPublicAPIResponse"
+          },
+          "company": {
+            "$ref": "#/components/schemas/UsersCompanyPublicAPIResponse"
+          },
+          "permission": {
+            "$ref": "#/components/schemas/PermissionUsersPublicAPIResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Custom user fields can be created and their values set during user creation. These values can also be added or edited later. The field value can be a string, number, or array, and must align with the field type. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with user.",
+            "items": {
+              "$ref": "#/components/schemas/FieldUsersPublicAPIResponse"
+            }
+          },
+          "capacityInMinutes": {
+            "minimum": 5,
+            "type": "integer",
+            "description": "The capacity of user, should be multiples of 5, default value is capacity configured in profile.",
+            "format": "int32",
+            "example": 2400
+          },
+          "holidayCalendar": {
+            "$ref": "#/components/schemas/UsersHolidayCalendarPublicAPIResponse"
+          },
+          "profilePictureUrl": {
+            "type": "string",
+            "description": "The URL of the user's profile picture.",
+            "example": "https://s3.amazonaws.com/rocketlane-profile-pic-public/_default/ftue/John.jpg"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the user was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/UsersCreatedByResponse"
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the user's information was updated. Any changes that's related to the user are captured and specified here in epoch millis.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/UsersCreatedByResponse"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

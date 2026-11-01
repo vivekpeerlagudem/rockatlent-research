@@ -1,0 +1,229 @@
+TITLE: Percentage of capacity: A flexible method to allocate resources : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740156-how-to-allocate-resources-as-percentage-of-capacity
+
+Percentage of capacity: A flexible method to allocate resources : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+How to allocate resources as percentage of capacity
+
+How to allocate resources as percentage of capacity
+
+Created by Monica Madan, Modified on Wed, 27 Nov, 2024 at 7:01 PM by Monica Madan
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+We’ve enhanced Rocketlane’s resource allocation capabilities with a new method: Percentage of Capacity . This addition makes resource management more intuitive, flexible, and aligned with how project managers naturally think about resource allocation.
+So, what is the percentage of capacity, you ask?
+It is a resource allocation method that assigns work based on a specific percentage of a person’s work capacity within a given period.
+For example:
+Imagine a team member has an 8-hour work capacity per day (determined from the team member settings). A project manager wants them to dedicate 50% of their time to a particular task. The project manager selects “percentage of capacity” as the allocation method, and enters 50%. Rocketlane automatically fetches the team member’s capacity, calculates the exact time allocation per day/week.
+Note: The “Percentage of Capacity” method calculates time allocations based solely on a person’s available capacity. It does not account for time-offs or any existing allocations.
+
+Why it matters
+Previously, allocating resources based on percentages required manual calculations and frequent capacity checks, especially for teams with varying work schedules. The new Percentage of Capacity method simplifies this process by automatically calculating the hours based on predefined capacities. This enhancement:
+
+Supports diverse allocation styles.
+
+Reduces manual calculations.
+
+Adapts to different capacities across roles and teams.
+
+How to set it up
+
+Set Allocation Method
+
+Navigate to Resource Management > People or Projects .
+
+Drag and drop a new allocation.
+
+Choose one of the three allocation methods:
+
+Total Hours : Allocate a total number of hours over a specific period.
+
+Hours/Day or Hours/Week : Allocate a fixed number of hours per day or week.
+
+Percentage of Capacity : Allocate a percentage of a person’s daily or weekly capacity (e.g., 50%).
+
+Enter the value (e.g., “50%” for capacity).
+
+On clicking “Done”, Rocketlane automatically creates an allocation based on your inputs.
+
+Note: Allocations are always displayed in terms of hours per day or hours per week, regardless of the method used to create them
+You can switch between allocation methods at any time. The app recalculates the values based on the new method. The last-used allocation method is saved as the default for new allocations.
+
+Where It Can Be Used
+
+1. Resource Management
+
+People tab : Allocate resources efficiently across tasks based on capacity.
+
+Projects tab : Distribute workloads dynamically among team members.
+
+2. Project Templates
+Define resource allocations in templates using percentages.
+
+Note: When creating an allocation for a placeholder, the capacity defaults to the account-level default capacity used for placeholders.
+
+3a. Resource Requests
+Simplify capacity-based resource requests and approvals. For instance, a request for 50% capacity will reflect the appropriate hours based on the resource’s predefined capacity.
+
+3b. Resource Approvals
+A request approver can see the allocation method used to request a given resource.
+
+4. Resource AI
+Enhance decision-making by leveraging capacity-based insights to optimize resource assignments.
+
+When planning your team using Resource AI, you can set the allocation method for every placeholder independently.
+
+Example Use Cases
+
+Daily Allocation : Assign 75% capacity to a resource with an 8-hour day. This automatically allocates 6 hours/day.
+
+Weekly Allocation : Allocate 50% capacity for a resource with a 40-hour workweek. This calculates as 20 hours/week.
+
+Switching Methods : Start with a percentage allocation (e.g., 50%), then switch to Total Hours for better granularity as project needs evolve.
+
+This enhancement ensures that resource allocation in Rocketlane is not only more efficient but also tailored to how project managers work, making your projects smoother and more successful.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to use Resource AI to optimize resource allocation?
+
+Projects Tab: Find The Best Team For Your Projects
+
+Capacity Planning
+
+Configure How Utilisation Is Calculated
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

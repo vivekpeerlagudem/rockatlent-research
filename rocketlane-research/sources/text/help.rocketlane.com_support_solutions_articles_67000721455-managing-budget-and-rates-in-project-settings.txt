@@ -1,0 +1,195 @@
+TITLE: How to manage financials under project settings in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000721455-managing-budget-and-rates-in-project-settings
+
+How to manage financials under project settings in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Managing budget and rates in project settings
+
+Managing budget and rates in project settings
+
+Created by Monica Madan, Modified on Fri, 5 Jun at 5:22 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Financial Management
+
+Quick guide to setting up Financials
+
+Setting up Rate cards
+
+Setting up Cost rates
+
+Supported Billing Methods
+
+Creating projects with Financials
+
+Managing budget and rates in project settings
+
+Configuring project budget alerts
+
+Project-Specific Rate Cards in Rocketlane
+
+Configuring a Custom Fiscal Year in Rocketlane
+
+No article available
+
+Once you've created a project with Financials, you can modify its budget and rates if necessary.
+
+To do so,
+
+Navigate to Projects and select a project you wish to edit
+
+Click on the gear-shaped icon on the top right corner of the page to edit the budgets and bill rates
+
+Under Project Settings , select Budgets and rates
+
+Click on the pencil icon near the Project budget, Budgeted hours or Currency to edit the fields directly
+
+Click edit near bill rates, and the "edit bill rates" slider will appear
+
+Select the " Choose a rate card" radio button to select a pre-configured rate card from the dropdown
+
+Choose the set manually radio button to edit the hourly bill rates for the team members allocated for the project
+
+Make the necessary changes and click save
+
+Select if the changes should apply going forward or from the start of the project .
+
+For subscription projects, you can modify the subscription start date, number of periods, yearly budget, yearly hours from project settings.
+
+Note : You won't be able to shorten the subscription period to less than the current duration. For instance, if your current subscription period is 3 out of 6, you cannot decrease the total period to anything less than 3.
+
+Note: When modifying currencies, keep in mind that if you're utilizing rate cards in your T&M projects, verify that the rate card includes the currency applicable to your project.
+
+View History
+
+You can view the history of changes made to the budgeted hours , budget, currency and bill rates by clicking the history icon near these fields.
+
+Note:
+1. You can change the billing type for projects (example - A fixed fee billing type can be changed to time and material)
+2. You can edit only Project budget and Budgeted hours for fixed fee projects.
+3. You can only edit Budgeted hours for non-billable projects
+
+Note: When modifying currencies, keep in mind that if you're utilizing rate cards in your T&M projects, verify that the rate card includes the currency applicable to your project.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Access Control for Financial Management
+
+Introducing Expense Management in Rocketlane
+
+Introduction to Financial Management
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

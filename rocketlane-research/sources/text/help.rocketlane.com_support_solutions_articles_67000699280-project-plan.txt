@@ -1,0 +1,422 @@
+TITLE: Project Plan : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000699280-project-plan
+
+Project Plan : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Project Plan
+
+Project Plan
+
+Created by Niharika Pandey, Modified on Wed, 14 Oct at 7:01 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Project Management
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+How to Create a Rocketlane Project?
+
+Inviting your Team and Customers to a Project in Rocketlane
+
+Project Overview
+
+Project Plan
+
+Project Settings
+
+Shifting Dates for the Project Plan from the Timeline View
+
+The Projects Page View in Rocketlane
+
+Rocketlane Project Management
+
+Spotlighting on Rocketlane
+
+Sharing Saved Views with Specific Users and Groups
+
+Bulk Updates for Projects
+
+Using Global Search in Rocketlane
+
+No article available
+
+In this article
+
+Project plan views
+
+Project plan menu bar
+Tasks filter
+
+Responsible filter
+
+Present
+
+Export
+
+The board view
+
+Project phases
+Editing project phases
+
+Changing the project phase status
+
+Adding project phases
+
+Reordering project phases
+
+Project tasks
+Task properties
+
+Adding a task to a phase
+
+The timeline view
+Baseline
+
+Shift dates
+
+Timeline view controls
+
+Critical path
+
+Creating task dependencies
+
+Quicker task actions in timeline view
+
+Range picker
+
+FAQ
+
+The Project Plan tab gives you an organised, detailed view of your project. Use it to track progress, identify at-risk tasks, and manage your team's work across phases and timelines.
+
+Project plan views
+The project plan has two views:
+
+Board view - a bird's-eye view of the project flow with a focus on phases, tasks, and assignees.
+
+Timeline view - track dates and project timelines using a Gantt chart format.
+
+Note When you switch between projects, Rocketlane remembers your last selected view so you can pick up right where you left off.
+
+Project plan menu bar
+
+Tasks filter
+Use the View menu to show All tasks , Incomplete tasks , or Completed tasks .
+
+Responsible filter
+The Responsible filter shows tasks owned by a specific company. Choose All , your company, the customer company, or any partner company on the project.
+
+Present
+The Present icon enters full-screen presentation mode and displays a clean overview of the project plan.
+Tip Presentation mode is useful during kick-off calls with customers as it skips displaying private phases and tasks.
+
+Board view: Presents each project phase sequentially. Use the arrow icons in the top-right corner to navigate between phases.
+
+Timeline view: Presents project timelines without displaying private phases and tasks.
+
+Export
+Export converts the project plan into a PDF or Excel file. Clicking Export opens a dialog box with the following options:
+
+Option What it does
+Status Choose which tasks to include: all, incomplete, or completed.
+Responsible Include tasks owned by a specific company, or all companies.
+File format Board view exports to PDF . Timeline view exports to Excel (default) or PDF .
+Orientation Choose portrait or landscape. Shown when the file format is PDF.
+Include private tasks Choose Yes or No .
+Click Export after adjusting the file properties to download the file.
+
+The board view
+The board view presents all project phases in a column-wise format, with tasks listed under each phase.
+Tip Add a task from the board view by clicking the Add task icon at the end of each phase.
+
+Project phases
+Rocketlane projects are divided into phases for easier planning and execution.
+
+Editing project phases
+Each project phase can be edited from the board view in the Project Plan tab.
+
+In Board view, hover over the phase name and select the Edit (pencil) icon. If manual phase ordering is turned on, select the More actions icon, then Edit .
+
+In the Edit project phase dialog, update any of the following:
+Project phase name
+
+Date (start and due dates)
+
+Type : select the button to switch between Shared and Private
+
+Project phase description
+
+Budget (shown when budgets are enabled for your account and you have access)
+
+Select Save . To remove the phase, select Delete phase .
+Tip Hover over the progress bar below each phase to see a tooltip summary of completed, in-progress, and to-do tasks. The current date is marked with a pointer on the progress bar to show where you should be in the plan.
+
+Changing the project phase status
+Change the phase status from the board view. Click the status indicator next to the phase name and choose from:
+
+To do
+
+In progress
+
+Completed
+
+Blocked
+
+Adding project phases
+Scroll right to the last phase and click the Create project phase icon to add a new phase.
+
+You can add a new phase in two ways:
+
+Import phases using project templates: Add phases by importing a project template from the project plan view. Go to Create project phase > Import templates . Learn more about importing phases .
+
+Create a new project phase: Choose Create project phase , then add the phase name, start date, due date, and privacy type. Click Save to create the phase.
+
+Reordering project phases
+You can manually reorder phases to control how the project plan is structured. When manual phase ordering is enabled, phases do not automatically reorder based on their start dates in the Timeline or Board view - you can drag and drop phases instead.
+To allow manual phase ordering:
+
+Go to Settings .
+
+Under Automations , select Workflow management .
+
+In the Phase automation section, select the checkbox Allow phases within a project to be manually reordered, overriding the default start date–based order.
+To reorder phases in a project:
+
+Open the project and go to Project plan in Board view.
+
+Hover over a phase name and select the More actions icon.
+
+Select Rearrange phases .
+
+Drag the phases into the order you want, then select Done .
+
+When importing phases from a template, newly added phases are placed at the end and can be reordered after.
+Note When manual ordering is turned on, the phase edit option also moves into this More actions menu (select Edit ).
+
+Note If manual phase ordering is turned off, phases return to the default order based on their start dates.
+
+Project tasks
+Each project phase consists of tasks, which make it easier to delegate resources and manage the project in detail.
+Tip Drag and drop tasks to rearrange the order inside a phase.
+
+Task properties
+Click on any task to edit its properties from the detail pane. Learn more about task properties .
+
+Adding a task to a phase
+
+In Board view, select Add task at the bottom of the phase. To add a task at the top of the phase instead, hover over the phase name and select the + icon.
+
+Type the task name.
+
+Optionally, select the calendar icon to set the start and due dates, and select the assignee icon to choose an assignee.
+
+Press Enter to create the task. Press Esc to discard it.
+Note If you click outside the card after typing a name, the task is created. Tasks added to a private phase are private.
+
+To add something other than a blank task, select the arrow next to Add task and choose one of the following:
+Option What it does
+Add form... Adds a form to the phase.
+Add from task template... Adds tasks from a saved task template.
+Add sprint... / Create a new sprint Adds a sprint to the phase (available when sprint planning is enabled).
+Add sheet Adds a sheet to the phase (available when Sheets is enabled).
+To add a description, open the task after creating it and edit it in the task detail pane.
+
+The timeline view
+The Timeline view lets you track dates and project timelines using a Gantt chart format.
+
+Change the start and end date of a task by sliding its timeline bar. Drag the ends of the bar to change the task duration. Phase dates are automatically synchronised based on the earliest task start date and the latest task end date.
+Note Phase dates follow the earliest task start date and latest task due date only while the Phase automation setting Align the phase start date with the start date of the earliest task and the phase due date with the due date of the latest task automatically is turned on ( Settings > Automations > Workflow management ). It is on by default.
+
+The grid on the left shows the plan structure along with Start date , Due date , Duration , and Assignees columns, followed by the Gantt chart. When additional dependencies are enabled for your account, an S.No column and a Predecessors column also appear. Use the column chooser on the toolbar to show or hide columns from the Available columns list.
+
+Tip Slide the vertical bar on the left of the Gantt chart to expand or contract the viewing window.
+
+Baseline
+The Baseline feature saves a reference point for your project timelines, giving you a record of how far you have deviated from the original plan.
+To create a baseline:
+
+In Timeline view, select Baseline on the toolbar.
+
+Select New .
+
+Enter a name and optional notes, then select Save .
+
+To compare, select up to three baselines from the Baseline menu. Grey bars on the timeline show each selected baseline. Baseline names must be unique within a project.
+
+Shift dates
+Shift dates lets you adjust phase and task dates in bulk when there is a delay or acceleration in project timelines - without visiting each task individually.
+Click Shift dates from the top navigation bar.
+
+The Shift dates dialog opens. Configure the parameters and optionally save a baseline before making changes.
+
+Setting Options
+Tell us what to shift Entire project plan , or All tasks starting from a task you select.
+How do you want to make the changes to the plan? Shift to a particular date : pick the new start date. Shift by a number of days : choose a number, choose Days , Weeks , or Months , and choose Later or Earlier .
+Add a new baseline to track changes Saves a baseline of the plan as it was before the shift. Enter a name and optional notes.
+Select Confirm to apply the changes.
+
+Timeline view controls
+
+Control What it does
+Zoom filter Set the zoom level from Quarter down to Day.
+Expand all tasks Expand all tasks for every phase.
+Collapse all tasks Collapse all tasks and bring focus back to phases.
+Zoom to fit Fits the entire project plan's Gantt chart into the viewing window.
+Zoom in / Zoom out Maximise or minimise the view on a macro or micro level.
+Previous / Next timespan Navigate to the previous or next timespan based on the current zoom level.
+
+Critical path
+When a project slips, teams need to know which tasks actually move the end date. Turn on Show critical path on the Timeline toolbar to highlight the tasks that affect the project due date. Two extra columns, Late start date and Total slack , appear while the toggle is on.
+Note The toggle is available only after the project's start and due dates are set. Sprints are hidden while the critical path is shown.
+
+Creating task dependencies
+Create task dependencies directly from the timeline by linking the end of one task bar to the start of another.
+
+Note Dragging from the end of one bar to the start of another creates a finish-to-start dependency. Start to Start, Finish to Finish, and Start to Finish dependencies are available when an admin turns on Additional dependencies in Settings > Automations > Workflow management .
+
+Quicker task actions in timeline view
+Under More actions in the timeline view, you can perform the following without opening the task details:
+
+Convert a task to a milestone
+
+Move it to a different phase
+
+Make it private
+
+Delete it
+
+Range picker
+The range picker lets you select both the start and end dates for a task at once, directly from the start or due date column - without needing to adjust duration settings separately.
+
+FAQ
+
+What happens if I press Enter without typing a task name?
+Nothing is created. Type a name first, or press Esc to close the card.
+
+Why is my new task private?
+Tasks added to a private phase are private.
+
+Can I compare more than one baseline?
+Yes. You can select up to three baselines at a time.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding Task Dependencies in Rocketlane
+
+How to Manage Task Dependencies?
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+Project Level Permissions
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

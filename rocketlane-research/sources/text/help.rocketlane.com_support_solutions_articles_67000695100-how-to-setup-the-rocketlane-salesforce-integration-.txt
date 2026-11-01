@@ -1,0 +1,277 @@
+TITLE: How to setup the Rocketlane Salesforce Integration? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000695100-how-to-setup-the-rocketlane-salesforce-integration-
+
+How to setup the Rocketlane Salesforce Integration? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+How to setup the Rocketlane Salesforce Integration?
+
+How to setup the Rocketlane Salesforce Integration?
+
+Created by Niharika Pandey, Modified on Tue, 31 Mar at 8:30 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Integrations
+
+Articles in this series
+
+How to setup the Rocketlane Salesforce Integration?
+
+Getting started with the Rocketlane Salesforce Integration
+
+Integrate Rocketlane and Salesforce via AppExchange
+
+Salesforce to Rocketlane: Opportunity-to-Projects Mapping (PSA Best Practices)
+
+No article available
+
+The Rocketlane Salesforce integration allows you to automatically create projects and sync data seamlessly between Salesforce and Rocketlane.
+
+The integration helps with streamlining your sales to onboarding handoff. It improves communication and visibility between your sales and onboarding teams by keeping all necessary information such as sales notes, project status, estimated completion date in sync.
+
+So, let's get started with the first step of the Rocketlane Salesforce Integration.
+
+Integrating Salesforce with Rocketlane
+
+Note: The Salesforce integration works for Enterprise edition or above of Sales Cloud. You will need admin access to your Salesforce account to enable this integration.
+
+Click Settings from the panel on the left side of the screen.
+
+Go to Integrations .
+
+Choose Salesforce .
+
+You will be redirected to the Settings tab on the Salesforce Integration page. Click on Login to Salesforc e to connect Rocketlane to Salesforce.
+
+On the Salesforce page, provide your admin username and password and click Login .
+
+The next step will be to verify your identity by completing the two-step verification process. You will be asked to authorise data access between Rocketlane and Salesforce. Click Allow .
+
+You have now successfully integrated your Salesforce account with Rocketlane.
+
+Enabling Error Notifications
+
+Once connected to Salesforce, you can enable email notifications by toggling the button below. This will allow you to receive alerts when your Salesforce integration encounters errors. You can then specify the recipients of these emails and set a delay period after error detection before the notification is sent.
+
+Creating Automations
+
+Automations help you to specify triggers in Salesforce that get you started with project creation in Rocketlane.
+
+Rocketlane also allows you to create multiple automation rules based on all the possible Salesforce triggers for project creation.
+
+Let's have a look at how you can start with creating an automation rule.
+
+In the Automations section, click New Automation .
+
+The 'New automation to create a project' tab opens. Click Edit under Automation Name.
+
+Give a Name and Description for the automation in the Automation Name dialog box. Click Save .
+
+Assign a Salesforce object that will determine the trigger for project creation. Click Save .
+
+You can define the trigger in the 'When this change happens on the object' step. Here you can determine triggers based on second-level objects too.
+
+You can also assign multiple triggers by clicking the Add Trigger option. Click Save to save the triggers assigned.
+
+You can also add one or more conditions to the automation rule using the 'And these conditions are satisfied' option. This means the project will only be created after the conditions are met post the trigger being satisfied. Click Save .
+
+In the last step, you have to add details for the creation of the Rocketlane project using information from Salesforce objects.
+
+Add a Project Name, Start Date, Due Date, Company, Project Owner, and Template . Click Save .
+
+Click the Save button after setting up all the Automation rules.
+
+You can now view your automation in the Automations tab.
+
+The order of listing of the automation rules decides the priority for execution. Only the first automation from the list that matches your conditions will be executed.
+
+You can rearrange the order by dragging and dropping automation rules in the list using the icon to the left of each automation.
+
+Enabling Fields Sync
+
+Fields Sync allows enabling one-way and two-way flow of data between Salesforce and Rocketlane.
+
+In this section you can map fields between your Rocketlane's project and Salesforce Objects such as 'Opportunity'.
+
+Let us take a look at how you can enable fields sync between Salesforce and Rocketlane.
+
+In the Fields Sync section, you will be asked to add a Salesforce object. Please ensure that this is the same object that was used in the automation earlier.
+
+After adding the object, click OK .
+
+Now you will be asked to map Salesforce fields to Rocketlane project fields. Under the Salesforce column, you can choose the Salesforce object's fields and the referenced object's fields.
+
+Under the Rocketlane column, choose from a list of project fields that correspond to the Salesforce fields.
+
+The arrow button or the directional arrow button helps you to determine the direction of the sync between Salesforce And Rocketlane fields.
+
+Note: In some cases, the fields you want to map will be referenced Salesforce Objects. In such a case, the system lets you map fields from the referenced object to your projects fields.
+
+Keep note that t he system will only get details from the first level of referenced objects and not any further.
+
+For example, you can map a Salesforce referenced object ' [Owner] Email' to ' Project owner' in Rocketlane.If in case you have ' Opportunity ' -> ' Owner ' -> ' Manager ' as the hierarchy, details from the ' Manager ' object will not be fetched.
+
+One-Way and Two-Way Sync
+
+The following table lists the compatibility between different field types in Salesforce and Rocketlane.
+
+Salesforce Field Type
+Direction of Sync Allowed
+Rocketlane Field Type
+
+Auto Number
+SF ➡️ RL Number
+Formula SF ➡️ RL Based on formula result type, Text, Multiline
+Roll-Up Summary SF ➡️ RL Text, Multiline
+Checkbox SF↔️RL
+Boolean
+Currency SF↔️RL
+Number
+Date SF↔️RL
+Date
+Email SF↔️RL
+Single User select, Multi user select, Text
+Geolocation SF↔️RL
+Text, Multiline
+Number SF↔️RL
+Number
+Percent SF↔️RL
+Number
+Phone SF↔️RL
+Text, Multiline
+Picklist SF↔️RL
+Single Select
+Text, Multiline (only SF -> RL)
+Picklist (Multi-select) SF↔️RL
+Multi Select
+Text, Multiline (only SF -> RL)
+Text
+Text Area
+Text Area (Long)
+Text Area (Rich)
+Text (Encrypted)
+SF ↔️ RL
+Text, Multiline
+Time SF ➡️ RL Text, Multiline
+URL SF ↔️ RL
+Text, Multiline
+Lookup Relationship/ Referenced object SF ➡️ RL Depending on the field chosen from the referenced object.
+
+Error Logs
+Rocketlane now surfaces the last 100 logs from the errors that happened in automations between Salesforce and Rocketlane under the error log section.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to get started with the Rocketlane Zapier integration?
+
+Getting started with the Rocketlane Salesforce Integration
+
+Enabling Multi-Budget: Requirements and Constraints
+
+How to Sync Integrations with Multi-Budgets
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

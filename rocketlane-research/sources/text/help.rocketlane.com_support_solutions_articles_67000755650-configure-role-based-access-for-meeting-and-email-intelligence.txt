@@ -1,0 +1,378 @@
+TITLE: Configure Role-Based Access for Meeting and Email Intelligence : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755650-configure-role-based-access-for-meeting-and-email-intelligence
+
+Configure Role-Based Access for Meeting and Email Intelligence : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Created by Advaith R, Modified on Wed, 19 Aug at 8:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+Rocketlane provides role-based access control (RBAC) permissions for Meeting Intelligence and Email Intelligence. These permissions allow administrators to control who can manage intelligence settings, view captured meeting or email pages, edit or delete those pages, and manage meeting page templates.
+Page permissions can also be limited using access scopes. For example, a role can be allowed to view all meetings, only meetings associated with accounts in accessible projects, meetings involving members of the user's groups, or only meetings the user participated in.
+This article explains the available permissions, their dependencies, and how to configure their access scopes.
+In this article
+
+When to use
+
+Before you begin
+
+Open the role permissions
+
+Meeting Intelligence permissions
+Access to Meeting Intelligence settings
+
+Access to meeting pages
+
+Meeting Intelligence scope options
+
+Access to meeting page templates
+
+Email Intelligence permissions
+Access to Email Intelligence settings
+
+Access to email pages
+
+Email Intelligence scope options
+
+Permission dependencies
+
+Example role configurations
+
+Things to consider
+
+Frequently asked questions
+
+When to use
+Configure these permissions when you want to:
+
+Restrict who can manage Meeting Intelligence or Email Intelligence settings.
+
+Allow users to view captured meetings or emails without allowing edits or deletion.
+
+Limit meeting and email visibility to specific accounts, groups, or the user's own activity.
+
+Control who can create, edit, disable, or delete meeting page templates.
+
+Give different roles different levels of access to intelligence data.
+
+Before you begin
+Ensure that:
+
+Meeting Intelligence or Email Intelligence is enabled for your account, as required.
+
+You have permission to manage roles and permissions.
+
+The role you want to configure already exists, or you have created a role for the required users.
+
+Users have access to the relevant projects and accounts when you plan to use Account access .
+
+User groups are configured when you plan to use Group access .
+Note RBAC permissions control what a user can access or manage. They do not enable Meeting Intelligence or Email Intelligence for the account.
+
+Open the role permissions
+To configure the permissions:
+
+Go to Settings > Permissions .
+
+Open Account level permissions.
+
+Select the role you want to configure.
+
+Expand Meeting intelligence or Email intelligence .
+
+Enable the required permissions and configure their scopes.
+
+Save the role.
+
+Meeting Intelligence permissions
+Meeting Intelligence permissions control access to its settings, captured meeting pages, and meeting page templates.
+
+Access to Meeting Intelligence settings
+Enable Can manage meeting intelligence settings to allow members of the role to configure Meeting Intelligence features and processing rules.
+This permission is independent of meeting page access. Grant it only to roles responsible for configuring Meeting Intelligence for the account.
+
+Access to meeting pages
+The following permissions control what users can do with captured meeting pages:
+Permission What it allows
+Can view meeting pages View meeting pages within the selected scope.
+Can edit meeting pages Edit meeting pages within the selected scope.
+Can delete meeting pages Delete meeting pages within the selected scope.
+Can edit meeting pages and Can delete meeting pages are sub-permissions of Can view meeting pages . Enable viewing before granting either action.
+Each enabled meeting page permission can have its own scope. Click the scope shown beside or beneath the permission to change it.
+
+Meeting Intelligence scope options
+The following scopes are available for meeting page permissions:
+Scope Meetings included
+Global access All meetings across all accounts.
+Account access Meetings from accounts in projects the user can access.
+Group access Meetings with participants who belong to the user's groups.
+Only me Meetings the user participated in.
+To select a scope:
+
+Click the current scope displayed for the meeting page permission.
+
+Select the required option under Meeting intelligence scope options .
+
+Click Save .
+Example A project manager can be given Account access for viewing meeting pages. The project manager can then view meetings from accounts in projects they can access, without receiving access to meetings across every account.
+
+Access to meeting page templates
+Meeting page template permissions control access to templates and their configuration:
+Permission What it allows
+Can view meeting page templates View meeting page templates and their configuration.
+Can manage meeting page templates Create, edit, and disable meeting page templates.
+Can delete meeting page templates Permanently remove meeting page templates.
+Can manage meeting page templates and Can delete meeting page templates are sub-permissions of Can view meeting page templates .
+Enable only Can view meeting page templates when a user needs to review template configuration without changing it. Enable management or deletion only for roles responsible for maintaining the templates.
+Note The page-level scope selector applies to meeting pages. The template permissions shown here do not use the meeting page scope options.
+
+Email Intelligence permissions
+Email Intelligence permissions control who can configure Email Intelligence and access captured email pages.
+
+Access to Email Intelligence settings
+Enable Can manage email intelligence settings to allow members of the role to configure Email Intelligence features and processing rules.
+This permission does not automatically grant access to view, edit, or delete email pages. Configure those permissions separately.
+
+Access to email pages
+The following permissions control access to email pages:
+Permission What it allows
+Can view email pages View email pages within the selected scope.
+Can edit email pages Edit email pages within the selected scope.
+Can delete email pages Delete email pages within the selected scope.
+Can edit email pages and Can delete email pages are sub-permissions of Can view email pages . Enable viewing before granting either action.
+Each enabled email page permission can have its own access scope. Click the scope displayed beside or beneath the permission to change it.
+
+Email Intelligence scope options
+Email page permissions use the corresponding Email Intelligence scopes:
+Scope Emails included
+Global access All emails across all accounts.
+Account access Emails from accounts in projects the user can access.
+Group access Emails involving participants who belong to the user's groups.
+Only me Emails the user participated in.
+Select the scope separately for viewing, editing, and deleting email pages based on the access required by the role.
+
+Permission dependencies
+The permissions use the following parent and sub-permission structure:
+Parent permission Available sub-permissions
+Can view meeting pages Can edit meeting pages, Can delete meeting pages
+Can view meeting page templates Can manage meeting page templates, Can delete meeting page templates
+Can view email pages Can edit email pages, Can delete email pages
+If a parent permission is disabled, its sub-permissions are not available to the role.
+Settings permissions are separate from page and template permissions. A role can therefore be configured to manage intelligence settings without receiving page access, or to use meeting and email pages without managing the account-level configuration.
+
+Example role configurations
+
+Account Administrator
+An administrator responsible for configuring and maintaining intelligence features can be given:
+
+Permission to manage Meeting Intelligence settings.
+
+Global view, edit, and delete access to meeting pages.
+
+Permission to view, manage, and delete meeting page templates.
+
+Permission to manage Email Intelligence settings.
+
+Global view, edit, and delete access to email pages.
+
+Project Manager
+A project manager who should work only with accessible customer accounts can be given:
+
+Account access for viewing and editing meeting pages.
+
+Account access for viewing and editing email pages.
+
+No permission to delete pages.
+
+No permission to manage intelligence settings or meeting page templates.
+
+Team Member
+A team member who should access only their own conversations can be given:
+
+Only me for viewing meeting pages.
+
+Only me for viewing email pages.
+
+Edit or delete access only when required.
+
+No access to intelligence settings or meeting page templates.
+
+Things to consider
+
+Grant delete permissions only to roles that need to permanently remove meeting pages, email pages, or meeting page templates.
+
+Use Account access when users should follow their existing project and account access.
+
+Use Group access when conversation visibility should follow team groups.
+
+Use Only me for the most restricted access to a user's own meetings or emails.
+
+Review the scope selected for each page permission. View, edit, and delete permissions can be configured separately.
+
+Confirm that users belong to the correct groups and have access to the expected projects before troubleshooting missing meeting or email pages.
+
+Frequently asked questions
+
+Can a user edit meeting pages without view permission?
+No. Can edit meeting pages is a sub-permission of Can view meeting pages .
+
+Can a user delete email pages without view permission?
+No. Can delete email pages is a sub-permission of Can view email pages .
+
+Does permission to manage intelligence settings include page access?
+No. Settings access and page access are configured separately.
+
+Does Account access provide access to every customer account?
+No. It includes meetings or emails from accounts in projects the user can access.
+
+What does Group access include?
+For Meeting Intelligence, it includes meetings with participants in the user's groups. For Email Intelligence, it includes emails involving participants in the user's groups.
+
+Can meeting page template permissions use Account access or Group access?
+The scope selector shown for meeting page permissions does not apply to meeting page template permissions. Template viewing, management, and deletion are controlled directly by the corresponding template permissions.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Meeting Page Templates
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

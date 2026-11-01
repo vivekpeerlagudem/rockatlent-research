@@ -1,0 +1,421 @@
+TITLE: How Rocketlane Matches Meetings to Customers : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755648-how-rocketlane-matches-meetings-to-customers
+
+How Rocketlane Matches Meetings to Customers : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+NITRO
+How Rocketlane Matches Meetings to Customers
+
+How Rocketlane Matches Meetings to Customers
+
+Created by Advaith R, Modified on Thu, 29 Oct at 7:38 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Nitro
+
+Articles in this series
+
+Enabling Meeting intelligence in Rocketlane (For Admins)
+
+Integrating the Gong app to your Rocketlane account
+
+Adding the Zoom app to your Rocketlane account
+
+Adding the Google Meet app to your Rocketlane account
+
+Connect Microsoft Teams to Rocketlane
+
+How To Use AI Fills
+
+How Rocketlane Matches Meetings to Customers
+
+Disable Meeting Intelligence and Recording Sources
+
+Configure Role-Based Access for Meeting and Email Intelligence
+
+Managing Internal Domains for Meetings and Emails
+
+Excluding Meetings and Emails from Capture
+
+No article available
+
+When Rocketlane captures a meeting, it attempts to determine which customer company the conversation belongs to. A correct association makes the meeting available in the appropriate customer context and allows customer-specific features, such as Signals, to process it.
+Rocketlane uses participant and company information to identify one confident customer match. If the available information points to multiple companies, Rocketlane avoids guessing and may leave the meeting unassociated.
+This article explains the matching process, what happens when a meeting cannot be matched, and how to improve matching accuracy.
+In this article
+
+Why customer matching matters
+
+Information Rocketlane uses for matching
+
+Before matching begins
+
+The three-step customer-matching process
+
+Step 1: Exact email match
+
+Step 2: Match the participant domain to known contacts
+
+Step 3: Match the participant domain to a company website
+
+Why Rocketlane uses exact matching
+
+How ambiguous results are handled
+
+What happens after a meeting is matched?
+
+What happens when a meeting is not matched?
+
+Historical recording matching for new customers
+
+Best practices for reliable customer matching
+
+Troubleshooting
+
+Frequently asked questions
+
+Why customer matching matters
+Customer matching determines:
+
+Which customer company the meeting is associated with.
+
+Where the meeting appears in the customer’s meeting history and related project context.
+
+Whether customer-specific Signals can be generated.
+
+Whether historical recordings can be retrieved for a newly added customer.
+Meeting capture and customer matching are separate processes. A meeting can be captured successfully even when Rocketlane cannot identify its customer.
+Note A meeting page is created for every captured meeting. An unmatched meeting remains available through its meeting page and can still be used with AI Fills when it meets the configured AI Fills scope.
+
+Information Rocketlane uses for matching
+Rocketlane can use the following information:
+
+Meeting participant email addresses
+
+Customer contacts stored in Rocketlane
+
+Email domains associated with known customer contacts
+
+Website URLs stored on customer company records
+Maintaining accurate customer contacts and company websites gives Rocketlane the exact information it needs to match meetings reliably.
+
+Before matching begins
+Rocketlane separates internal participants from potential customer participants.
+A participant can be considered internal when their email address or domain belongs to an eligible Rocketlane team member or partner. Team members and partners with an Active , Invited , or Passive status contribute to internal classification. Deactivated and removed users do not.
+Meeting bots, calendar resources, no-reply addresses, and other non-person participants are excluded where they cannot reliably identify a customer.
+Public email providers such as Gmail, Yahoo, Outlook, and iCloud are not used for domain-based customer matching because the same domain can belong to unrelated individuals and companies.
+
+The three-step customer-matching process
+Rocketlane evaluates three exact matching methods in order. It stops when it identifies one customer company.
+Step Rocketlane compares Confident result
+1. Exact email match Participant emails with known customer contacts One customer company
+2. Contact-domain match Participant domains with the exact domains of known customer contacts One customer company
+3. Company-website match Participant domains with the exact website domains on company records One customer company
+Rocketlane does not use fuzzy company-name matching. If the three steps do not identify one customer company, the meeting remains unassociated.
+The way Rocketlane handles an ambiguous result depends on the matching step. The sections below explain each step in detail.
+
+Step 1: Exact email match
+Rocketlane first checks whether a meeting participant’s complete email address exactly matches a known contact associated with a customer company.
+
+When one company is found
+If the participant is associated with exactly one customer company, Rocketlane associates the meeting with that company and stops the matching process.
+
+When multiple companies are found
+If the same participant email resolves to contacts associated with more than one customer company, Rocketlane does not guess. It stops the automated matching process and leaves the meeting unassociated.
+It does not continue to domain or website matching in this situation because an exact email match that points to multiple companies is already ambiguous.
+
+Example
+A meeting includes:
+
+alice@acme.com
+
+bob@acme.com
+
+carol@yourcompany.com
+If alice@acme.com is a known contact associated with ACME, Rocketlane associates the meeting with ACME. It can do this even if Bob has not previously been added as a contact.
+
+Step 2: Match the participant domain to known contacts
+If no exact email match is found, Rocketlane checks whether a participant’s email domain exactly matches the domain of a known customer contact.
+This allows Rocketlane to recognize a new participant from a company when another person from the same company is already stored as a contact.
+
+When one company is found
+If the domain is associated with exactly one customer company, Rocketlane associates the meeting with that company.
+
+When multiple companies are found
+If the domain is associated with more than one company, Rocketlane continues to the next matching step instead of selecting one of them.
+
+Example
+alice@acme.com is not stored as a contact, but dave@acme.com is a known contact associated with ACME. The shared acme.com domain allows Rocketlane to associate Alice’s meeting with ACME.
+Note Public email domains are excluded from domain matching. For customers using public email addresses, exact contact matching becomes especially important.
+
+Step 3: Match the participant domain to a company website
+If contact-domain matching does not identify one company, Rocketlane checks whether a participant’s email domain exactly matches the website domain stored on a customer company record.
+This allows a customer to be identified even when the company record does not yet contain any contacts.
+
+When one company is found
+If exactly one company has a website domain matching the participant domain, Rocketlane associates the meeting with that company.
+
+When multiple companies are found
+If more than one company uses the matching website domain, Rocketlane does not guess. It leaves the meeting unassociated.
+
+Example
+ACME exists in Rocketlane with acme.com saved as its website, but no contacts have been added. A meeting participant using alice@acme.com can still be associated with ACME through the website match.
+Note Adding a website URL to every customer company record improves matching before individual customer contacts have been created.
+
+Why Rocketlane uses exact matching
+Fuzzy company-name matching could associate meetings with the wrong customer when company names or domain fragments were similar. Rocketlane now uses only exact email, contact-domain, and company-website matches. When those checks cannot identify one customer company, Rocketlane leaves the meeting unassociated instead of guessing.
+
+How ambiguous results are handled
+Rocketlane prioritizes accuracy over creating an association for every meeting.
+Matching result What Rocketlane does
+Step 1 finds one company Associates the meeting and stops.
+Step 1 finds multiple companies Stops and leaves the meeting unassociated.
+Step 2 finds one company Associates the meeting and stops.
+Step 2 finds multiple companies Continues to Step 3.
+Step 3 finds one company Associates the meeting and stops.
+Step 3 finds multiple companies or no company Leaves the meeting unassociated.
+This prevents a meeting from being attached to the wrong customer when the available information does not identify one company exactly.
+
+What happens after a meeting is matched?
+After Rocketlane associates a meeting with a customer:
+
+The meeting appears in the customer’s meeting history and relevant project context.
+
+The customer association becomes available to supported AI Fills workflows.
+
+Eligible customer Signals can be generated when Signals are enabled.
+
+Teams can use the meeting content in project updates, documents, and supported communication areas.
+Signal visibility and related settings are configured separately under Settings > Meeting Intelligence > Signals and any applicable Signals settings in Rocketlane.
+
+What happens when a meeting is not matched?
+An unmatched meeting is not discarded. Rocketlane:
+
+Creates and retains its meeting page.
+
+Keeps the captured recording and transcript available according to account access.
+
+Allows it to be used with AI Fills when it meets the configured AI Fills scope.
+
+Excludes it from the customer’s meeting history until it is associated with a company.
+
+Does not generate customer Signals for it while it remains unassociated.
+If manual meeting reassignment is available, an eligible user can associate the meeting with the correct customer. The corrected association is then retained for that meeting.
+
+Historical recording matching for new customers
+When historical recording retrieval is enabled, Rocketlane can search connected cloud recording sources when a customer company is created.
+Supported cloud sources include:
+
+Gong
+
+Zoom
+
+Microsoft Teams
+
+Google Meet
+Rocketlane uses the same matching information to find eligible historical recordings:
+
+Exact customer contact emails
+
+Customer contact domains
+
+Company website domains
+Matching recordings are brought into Rocketlane and added to the customer’s meeting history. They can then be used with AI Fills and eligible customer Signals.
+To configure historical retrieval, go to Settings > Meeting Intelligence > Setup & recording .
+Note Historical retrieval applies only to connected cloud recording sources. The Rocketlane AI Notetaker cannot retroactively capture past meetings.
+
+Best practices for reliable customer matching
+
+Add customer contacts early
+Exact email matching is the strongest matching method. Add known customer stakeholders as contacts as early as possible.
+
+Add a website to every customer company
+A company website allows Rocketlane to recognize its email domain even when no contacts have been added.
+
+Keep contact associations accurate
+Avoid associating the same email address with unrelated customer companies unless that relationship is intentional. An exact email that points to multiple companies prevents automatic matching.
+
+Review customers using public email addresses
+Public domains cannot identify a company reliably. For customers using Gmail or another public provider, add each relevant participant as a known contact.
+
+Maintain internal users and partners
+Deactivate or remove users who should no longer contribute to internal-domain classification. Review partner records and user statuses when external participants are being classified as internal unexpectedly.
+To review the domains Rocketlane treats as internal, or add other domains your organization uses, see Managing Internal Domains for Meetings and Emails .
+
+Troubleshooting
+
+Meetings from one customer remain unassociated
+Check whether:
+
+The meeting participant emails are stored as customer contacts.
+
+The company website URL is present and accurate.
+
+The participant email domain matches the company’s actual website domain.
+
+The customer uses public email addresses.
+
+Multiple customer companies share the same domain.
+
+A meeting is associated with the wrong customer
+Check for:
+
+A participant email associated with the wrong company.
+
+Duplicate contacts using the same email address.
+
+An incorrect company website URL.
+
+Multiple customer records representing the same organization.
+Correct the underlying customer data before processing future meetings. If manual reassignment is available, move the existing meeting to the correct customer.
+
+A customer participant is being treated as internal
+Check whether the participant’s email or domain matches:
+
+An Active, Invited, or Passive team member.
+
+A partner user in the Rocketlane account.
+
+Another internal domain represented by an eligible team member or partner.
+
+A domain listed under Settings > AI capabilities > Internal domains . For more information, see Managing Internal Domains for Meetings and Emails .
+Review outdated user and partner records, particularly accounts that should have been deactivated.
+
+A public email address does not produce a domain match
+This is expected. Public domains such as Gmail and Yahoo are excluded from domain-based matching. Add the participant as a customer contact so Rocketlane can use exact email matching.
+
+Frequently asked questions
+
+Does every captured meeting need to be associated with a customer?
+No. Rocketlane creates a meeting page for every captured meeting. An unassociated meeting remains available, but it does not appear in a customer’s meeting history or generate customer Signals.
+
+Can AI Fills use an unmatched meeting?
+Yes, when the meeting meets the AI Fills scope configured for the account and the user can access it.
+
+Why does Rocketlane stop after an ambiguous exact email match?
+An exact email match is normally the strongest matching signal. If the same email points to multiple customer companies, continuing with weaker matching methods could associate the meeting incorrectly.
+
+Can Rocketlane match a company that has no contacts?
+Yes. If the company has an accurate website URL, Rocketlane can compare the participant’s email domain with the website domain.
+
+Are Gmail and other public domains used for customer matching?
+They are not used for domain-based matching. Rocketlane can still match a participant using an exact email address when that address has been added as a known customer contact.
+
+Does customer matching work with every recording source?
+Yes. Rocketlane applies the matching process to meetings captured from Gong, Zoom, Microsoft Teams, Google Meet, and the Rocketlane AI Notetaker.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Creating and Managing Nitro Pages in Rocketlane
+
+Excluding Meetings and Emails from Capture
+
+Configuring Nitro Page Templates
+
+Managing Internal Domains for Meetings and Emails
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

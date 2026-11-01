@@ -1,0 +1,169 @@
+TITLE: Task Fields : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000712997-task-fields
+
+Task Fields : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Task Fields
+
+Task Fields
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 6:23 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Task Fields
+
+No article available
+
+In this article
+
+How to access and create Task Fields in Your Rocketlane Account
+
+How to create a new Task Field section in Your Rocketlane Account
+
+How to add a new Task Field in Your Rocketlane Account
+
+The task fields in Rocketlane are attributes that help define tasks. There are some default fields, and you can add custom fields to your account as well.
+
+How to access and create Task Fields in Your Rocketlane Account
+
+Go to Settings .
+
+Go to Task fields .
+
+You will see a list of all the default and custom task fields added to your account.
+
+You can view the field type and whether each field has been enabled. Enabling a field determines whether the task field can be viewed in your projects.
+
+How to create a new Task Field section in Your Rocketlane Account
+Task fields are divided into sections for easier categorisation. You can create your own custom section to add task fields related to your organization's needs.
+
+Click New Section from the top-right side of the screen.
+
+Add a name for the new section and click the green checkbox button to save the section.
+
+A new section will be added for the task fields. You can add new fields to this section. This list displays the field description, field type, and status.
+
+How to add a new Task Field in Your Rocketlane Account
+
+Click the New field icon from the top-right side of the screen.
+
+From the New task field dialog box, add a field name, choose the field type and section, and add a description if needed. The description will show as a tooltip. Click Save after adding the details for the new task field.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Guide to Using Rocketlane MCP Tools
+
+The All Tasks Page: List View
+
+Report on Form Responses in Rocketlane
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

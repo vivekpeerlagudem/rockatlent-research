@@ -1,0 +1,189 @@
+TITLE: How do user roles and permissions affect team member management and project associations in Rocketlane? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000753168-how-do-user-roles-and-permissions-affect-team-member-management-and-project-associations-in-rocketlan
+
+How do user roles and permissions affect team member management and project associations in Rocketlane? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Created by Advaith R, Modified on Wed, 29 Apr at 4:15 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+General FAQs
+
+Rocketlane Support - How to reach us!
+
+Why am I receiving an error while performing an action?
+
+Resolving Webhook Issues Between Rocketlane and Zoho
+
+I'm experiencing issues with receiving notifications for tasks and form responses in my projects, and sometimes form responses are missing. What could be the reason, and how can I ensure I get the updates I need?
+
+I'm having trouble embedding a Gong call recording into Rocketlane Spaces, or it shows "Page not found" when clicked. What should I do?
+
+We've ended our services with Rocketlane. How do we ensure our customers stop receiving emails, and what is Rocketlane's policy for data retention and deletion?
+
+How can I configure, troubleshoot, and clear the custom domain for customer portals in Rocketlane?
+
+Why can't I see activity logs in the project chat?
+
+Why can't I add a Partner User, even though I have available licenses?
+
+How to Generate HAR
+
+The "Open Conversation" button in my email notifications doesn't redirect me to the Rocketlane Portal. How do I fix this?
+
+How can I tell if a task is private or visible to a customer?
+
+How Does User Status Impact License Usage in Rocketlane?
+
+How to Troubleshoot and Manage Visibility Issues in Rocketlane
+
+How do user roles and permissions affect team member management and project associations in Rocketlane?
+
+Why am I getting a rate limit error during bulk updates?
+
+Why is my public form still asking users to sign in?
+
+Why are tasks being marked as completed or blocked without the assignee taking action?
+
+No article available
+
+Understanding user roles and permissions in Rocketlane is essential for effectively managing team members and their associations with projects and accounts. This article provides an overview of how roles impact user actions and explains key scenarios related to team member management and project associations.
+
+Note: Default Roles and Permissions can be altered only if you have access to the RBAC module.
+
+Overview of User Roles and Permissions
+In Rocketlane, user roles determine the actions a user can perform within the platform. While roles like "Super user" may have extensive permissions, certain actions—such as adding team members or modifying project-level domain settings—are typically restricted to account administrators or users with elevated administrative permissions. If you encounter limitations in performing these actions, you may need to:
+
+Request an account administrator to adjust your role or permissions.
+
+Ask an account administrator to perform the required actions on your behalf.
+
+Managing Team Members
+When managing team members in Rocketlane, it’s important to understand how their roles and associations are configured. If you add someone as a team member and subsequently assign them to a project, they will automatically be associated with the corresponding account. This ensures seamless integration and access management for team members across projects and accounts.
+
+Project and Account Associations
+Rocketlane simplifies the process of associating team members with accounts and projects. By adding a team member to a project, you ensure that they are linked to the account managing that project. This automatic association streamlines user management and reduces the need for manual configuration.
+
+By understanding the role-based permissions and their implications, you can effectively manage team members and ensure proper associations within Rocketlane. If you encounter any issues, consult your account administrator for assistance.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Enable and Configure the Time Tracking Feature in Rocketlane?
+
+General FAQs
+
+Introducing Expense Management in Rocketlane
+
+How to Enable and Configure Auto-allocate in a Project?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

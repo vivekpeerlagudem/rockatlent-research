@@ -1,0 +1,151 @@
+TITLE: What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000747811-what-does-the-recognized-percentage-and-recognized-revenue-column-mean-in-rocketlane-s-portfolio-repo
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+Created by Advaith R, Modified on Wed, 1 Oct, 2025 at 4:48 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why is ETC “0”?
+
+What does the recognized percentage and Recognized Revenue column mean in Rocketlane's Portfolio Reporting?
+
+No article available
+
+Overview of Fixed-Fee Reporting Metrics
+Rocketlane's Portfolio Reporting includes various metrics to help you track the progress and financial aspects of your projects. Two key metrics under the Fixed Fee tab are the "recognized percentage" and the "Recognized Revenue" column. These metrics are essential for understanding how your revenue is being tracked and recognized.
+
+What Is the Recognized Percentage?
+The recognized percentage in Portfolio Reporting represents the portion of your project's fixed-fee revenue that has been accounted for (or "recognized") during a specific reporting period. This metric gives you a quick view of how much of the total fixed revenue has been realized within a selected timeframe.
+
+Recognized Percentage vs. Recognized Revenue Column
+While the recognized percentage indicates the proportion of recognized revenue, the "Recognized Revenue" column shows the exact amount of revenue that corresponds to the percentage. In other words:
+
+Recognized Percentage : Displays the percentage of fixed-fee revenue that has been recognized during the reporting period.
+
+Recognized Revenue Column : Displays the actual dollar amount equivalent for the recognized percentage.
+
+By interpreting these metrics together, you can gain a detailed understanding of your project’s revenue recognition progress and financial health.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Understanding revenue recognition for Fixed Fee projects
+
+Project Metrics
+
+Understanding revenue recognition for subscription projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

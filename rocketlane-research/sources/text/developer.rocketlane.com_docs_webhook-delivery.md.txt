@@ -1,0 +1,37 @@
+---
+updatedAt: 2025-06-03T20:47:00.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Webhook Delivery
+
+## Successful Delivery
+
+The status of the webhook delivery in Rocketlane is  determined by the HTTP response code that the receiving server provides.
+
+Rocketlane considers the following status codes as successful delivery.
+
+* ### 200 OK
+  This response code indicates a successful request. When Rocketlane sends a webhook event, receiving a "200 OK" response means that the event was successfully received and processed by the server.
+* ### 204 No Content
+  Similar to "200 OK," a "204 No Content" response code signifies that the server successfully received the request, processed it, but there is no additional content to send in the response body.
+
+When Rocketlane receives either of these response codes, it interprets the webhook delivery as successful, assuming that the receiving server has processed the event as expected.
+
+On the other hand, Rocketlane considers the delivery as failed if
+
+1. if a different response code is received than the above mentioned codes
+2. if no response is received for 10 seconds and the HTTP POST request times out
+
+***
+
+## Event Delivery order
+
+The order in which events are delivered via webhooks in Rocketlane, is not guaranteed to be strictly chronological. Webhooks typically provide real-time updates on various events as they occur, and the delivery order can depend on factors such as network latency, processing time, and the nature of the events themselves.
+
+***
+
+## Event Duplication
+
+Rocketlane guarantees exactly one delivery per event.

@@ -1,0 +1,279 @@
+TITLE: Analyze Multi-Budget Performance in Reports : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754572-analyze-multi-budget-performance-in-reports
+
+Analyze Multi-Budget Performance in Reports : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+Analyze Multi-Budget Performance in Reports
+
+Analyze Multi-Budget Performance in Reports
+
+Created by Advaith R, Modified on Mon, 28 Sep at 8:08 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+You can analyze budget data in Dashboards and Custom Reports using either the Budget or Project source, depending on the information you want to report on.
+
+Custom pivot reports: When using Budget as the source, add Project Budget under Values to report on budgeted amounts.
+
+Dashboard cards and chart widgets: When using Budget as the source, select Budgeted amount or Project Budget to summarize or plot budget values.
+
+Create a budget card widget
+
+Open Dashboard from the sidebar.
+
+Select Add new widget .
+
+Choose Add card , then select Next .
+
+Enter a name for the widget and set Source to Budget . Keep Budgeted amount selected to display the total budgeted amount.
+[image: Budget card widget with Budget as the source and Budgeted amount selected]
+
+To display another metric, open Choose field for card and select a field such as Budgeted hours consumed % .
+[image: Budget card field picker with Budgeted hours consumed percent available]
+
+Select Add to save the card widget to the dashboard.
+
+Create a budget chart widget
+
+From the Dashboard page, select Add new widget .
+
+Choose Add chart , then select Next .
+
+Enter a name for the widget and set Source to Budget . The default configuration plots the total Budgeted amount by month.
+[image: Budget chart plotting total Budgeted amount by month]
+
+Analyze the number of budgets
+
+Change Source to Project .
+
+Select Budget Count from the field picker.
+[image: Project source field picker with Budget Count selected]
+The chart displays the number of budgets in each monthly period.
+[image: Chart displaying the number of budgets in each monthly period]
+
+Analyze budget values by status
+
+Change Source back to Budget .
+
+For the Y1-Axis , select Project Budget .
+[image: Budget chart with Project Budget selected for the Y1-Axis]
+
+Under Group by , select Add field , then choose Budget Status .
+[image: Group by field picker with Budget Status available]
+The chart groups the values into budget statuses such as Proposed , Active , and Completed .
+[image: Budget chart grouped by Proposed, Active, and Completed statuses]
+
+Filter the chart
+
+Select Add conditions... and choose a budget field such as Budgeted hours .
+[image: Add conditions dialog with budget fields including Budgeted hours]
+
+Select an operator such as is greater than and enter the value you want to use for the condition.
+[image: Budgeted hours filter configured using the is greater than operator]
+
+Select Done to apply the condition.
+[image: Configured budget chart with the Budgeted hours condition applied]
+
+Select Add to save the chart widget to the dashboard.
+
+Create a custom tabular budget report
+
+Open Reports from the sidebar.
+
+Open the Custom Reports tab and select New custom report .
+
+Choose Tabular , then select Next .
+
+Select Budget as the report source.
+[image: Tabular report source menu with Budget selected]
+
+Enter a name for the report. Under Columns , select Add fields... .
+
+Expand Budget Fields and select Budget Start Date .
+[image: Tabular report column picker with Budget Start Date selected]
+
+Select Done . The report displays Budget Name and Budget Start Date .
+[image: Tabular report displaying Budget Name and Budget Start Date columns]
+
+To include a financial metric, select Add fields... , choose Estimated Cost under Financials Fields , and select Done .
+[image: Budget tabular report with an Estimated Cost column]
+
+Create a custom pivot budget report
+Pivot reports can use either Project or Budget as their source, depending on whether you want project-level or budget-level analysis.
+
+Using Project as the source
+
+From the Reports page, select New custom report .
+
+Choose Pivot table , then select Next .
+
+Select Project as the source.
+
+Under Values , select Add fields... .
+
+Add the project and financial fields you want to summarize, such as Project Budget , Invoiced Amount , Invoiced Outstanding Amount , Period Minutes , Period Revenue , and Budget Count .
+[image: Project-source pivot report value picker with budget and financial fields selected]
+Select Done to display the summarized values.
+[image: Pivot report displaying summarized Project-source values]
+
+Using Budget as the source
+For budget-level analysis, change the report source to Budget .
+
+Under Values , select Add fields... .
+
+Add the budget and financial metrics you want to summarize. These can include Invoiced Amount , Invoiced Paid Amount , Invoiced Outstanding Amount , Project Budget , PO amount , and Period Revenue .
+
+Select Done .
+[image: Budget-source pivot report with invoicing, project budget, purchase order, and period revenue values]
+Note When creating a custom pivot report with Budget as the source, use Project Budget under Values to report on budgeted amounts.
+
+Other reporting options
+The native Portfolio report can list projects with their budgets and display metrics for each budget alongside project totals. Use filters and groupings to analyze performance by budget, project, or company.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Enabling Multi-Budget: Requirements and Constraints
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

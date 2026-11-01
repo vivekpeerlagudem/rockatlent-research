@@ -1,0 +1,158 @@
+TITLE: Why is the Customer not receiving the Magic Link in their Email? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000735905-why-is-the-customer-not-receiving-the-magic-link-in-their-email-
+
+Why is the Customer not receiving the Magic Link in their Email? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+Why is the Customer not receiving the Magic Link in their Email?
+
+Why is the Customer not receiving the Magic Link in their Email?
+
+Created by Shreeda R, Modified on Mon, 8 Jul, 2024 at 6:52 PM by Shreeda R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to add a customer team member to a project?
+
+Why is the Customer not receiving the Magic Link in their Email?
+
+What are the email addresses used for sending Rocketlane invitation emails, and how can they be customized?
+
+Why Can't I Upload and Save a Customer Logo?
+
+How much does the permissions module cost
+
+No article available
+
+The reason why the customer is not receiving the magic link in their email might be due to firewall restrictions.
+
+These restrictions might cause the email to be flagged as potential spam, often resulting in it being sent to the spam folder. To resolve this issue,
+
+1.P lease ensure that the customer checks the spam folder if the email isn't in their inbox.
+
+2. The customer needs to whitelist the Rocketlane domain. Whitelisting allows emails from Rocketlane to bypass the firewall’s spam filter and ensures they are delivered to the inbox.
+
+They need to whitelist our (sendgrid) IP address. The IP adresses that has to be whitelisted for the SPF to pass are mentioned below:
+
+167.89.70.41
+167.89.105.49
+167.89.105.4
+167.89.105.234
+149.72.173.255
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to invite customers to your portal
+
+2FA and Magic Links
+
+General FAQs
+
+How to Manage Task Dependencies?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

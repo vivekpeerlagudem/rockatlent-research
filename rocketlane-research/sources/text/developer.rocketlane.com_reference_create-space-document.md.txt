@@ -1,0 +1,417 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Create a space document
+
+The *Create a space document* API allows users to create a new space document in the system for the given project. This endpoint provides a way for developers to add space document related details, including the `spaceDocumentName`, `spaceDocumentType`, `url`  and  `source` fields for the space object. This API returns the created space document object.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Space Documents",
+      "description": "Endpoints for space tabs resource"
+    }
+  ],
+  "paths": {
+    "/1.0/space-documents": {
+      "post": {
+        "tags": [
+          "Space Documents"
+        ],
+        "summary": "Create a space document",
+        "operationId": "create-space-document",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SpaceTabPublicRequestAPIEntity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "The resource was successfully created in the database.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SpaceTabPublicResponseAPIEntity"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "SpacePublicAPISpaceTabResponseEntity": {
+        "type": "object",
+        "properties": {
+          "spaceId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The space's unique, system-generated identifier, which can be used to identify the space globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "spaceName": {
+            "type": "string",
+            "description": "The name of the space.",
+            "readOnly": true,
+            "example": "General space"
+          }
+        },
+        "description": "Information about the space to which the space document belongs to."
+      },
+      "SpaceTabCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the space document."
+      },
+      "SpaceTabPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "spaceDocumentId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The space document's unique, system-generated identifier, which can be used to identify the space document globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "spaceDocumentName": {
+            "type": "string",
+            "description": "The name of the space document.",
+            "example": "Sample file",
+            "default": "Untitled"
+          },
+          "space": {
+            "$ref": "#/components/schemas/SpacePublicAPISpaceTabResponseEntity"
+          },
+          "spaceDocumentType": {
+            "type": "string",
+            "description": "Defines the type of the space document. This could be a Rocketlane document or an embedded document.",
+            "example": "ROCKETLANE_DOCUMENT",
+            "enum": [
+              "ROCKETLANE_DOCUMENT",
+              "EMBEDDED_DOCUMENT"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "description": "The url that is embedded in the space document.",
+            "example": "https://www.google.com"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SpaceTabSourcePublicResponse"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The timestamp when the space document was created.",
+            "format": "int64",
+            "example": 1680616174929
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/SpaceTabCreatedByUserPublicAPI"
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The timestamp when the space document was last updated.",
+            "format": "int64",
+            "example": 1680616174929
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/SpaceTabUpdatedByUserPublicAPI"
+          },
+          "private": {
+            "type": "boolean",
+            "description": "Describes the privacy of the space i.e. if it is private or shared.",
+            "example": true
+          }
+        }
+      },
+      "SpaceTabSourcePublicResponse": {
+        "type": "object",
+        "properties": {
+          "templateId": {
+            "type": "integer",
+            "description": "The unique identifier for the template.",
+            "format": "int64",
+            "example": 201
+          },
+          "templateName": {
+            "type": "string",
+            "description": "The name of the template.",
+            "readOnly": true,
+            "example": "Meeting Notes"
+          }
+        },
+        "description": "Sources denote the document templates based on which the document is created"
+      },
+      "SpaceTabUpdatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the space document."
+      },
+      "SpacePublicAPISpaceTabRequestEntity": {
+        "type": "object",
+        "properties": {
+          "spaceId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The space's unique, system-generated identifier, which can be used to identify the space globally.",
+            "format": "int64",
+            "example": 201
+          },
+          "spaceName": {
+            "type": "string",
+            "description": "The name of the space.",
+            "readOnly": true,
+            "example": "General space"
+          }
+        },
+        "description": "Information about the space to which the space document belongs to."
+      },
+      "SpaceTabImportPublicAPIRequestEntity": {
+        "type": "object",
+        "properties": {
+          "templateId": {
+            "type": "integer",
+            "description": "The unique identifier for the template.",
+            "format": "int64",
+            "example": 201
+          },
+          "templateName": {
+            "type": "string",
+            "description": "The name of the template.",
+            "readOnly": true,
+            "example": "Meeting Notes"
+          }
+        },
+        "description": "Sources denote the document templates based on which the document is created"
+      },
+      "SpaceTabPublicRequestAPIEntity": {
+        "required": [
+          "space",
+          "spaceDocumentType"
+        ],
+        "type": "object",
+        "properties": {
+          "spaceDocumentId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The space document's unique, system-generated identifier, which can be used to identify the space document globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "spaceDocumentName": {
+            "type": "string",
+            "description": "The name of the space document.By default, the name is 'Untitled'.",
+            "example": "Sample file"
+          },
+          "space": {
+            "$ref": "#/components/schemas/SpacePublicAPISpaceTabRequestEntity"
+          },
+          "spaceDocumentType": {
+            "type": "string",
+            "description": "Defines the type of the space document. This could be a Rocketlane document or an embedded document.",
+            "example": "ROCKETLANE_DOCUMENT",
+            "enum": [
+              "ROCKETLANE_DOCUMENT",
+              "EMBEDDED_DOCUMENT"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "description": "The url that is embedded in the space document.",
+            "example": "https://www.google.com"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SpaceTabImportPublicAPIRequestEntity"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

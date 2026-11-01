@@ -1,0 +1,693 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all time-offs
+
+The *Get all time-offs* API enables users to get all time offs in their Rocketlane instances using advanced filtering options. This API is intended to provide a flexible and fast means of getting time off related data based on various parameters.
+
+Developers can integrate the time off search feature into their applications and platforms by using this API. You can fine-tune your searches and retrieve the time offs related data you need for integration into your applications or platforms by using the available parameters.
+
+You can use any combination of these parameters to execute searches based on your specifications. In addition to filters, `sortBy` and `sortOrder` can be used to sort the projects. The response body is [paginated](https://developer.rocketlane.com/v1.0/docs/pagination), and you can control the pagination using the `limit` and `pageToken` parameters.
+
+## Pagination
+
+The *Get all time-offs* API accommodates pagination in the response body. The `pageSize` option can be used to restrict the amount of responses displayed/available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain the `nextPageToken`.
+
+Please refer to the [pagination](https://developer.rocketlane.com/v1.0/docs/pagination) section for further information on this.
+
+## Filtering
+
+The capacity to execute more sophisticated and nuanced searches on a dataset by combining numerous criteria and conditions is referred to as filtering.
+
+Complex filtering in the context of the *Get all time-offs* API allows users to build elaborate search queries to return specific subsets of time offs that satisfy specific requirements. By catering to a wide range of use cases, this enhanced filtering functionality considerably increases the API's utility and versatility.
+
+The API reference includes a comprehensive range of filtering options.
+
+Please refer to the link [here](https://developer.rocketlane.com/docs/search) for more information on how to construct the filtering criteria for time off related fields.
+
+### Criteria Match
+
+In addition to standard filtering and custom field filtering, the *Get all time-offs* API also supports the use of ***AND*** and ***OR*** conditions for more advanced filtering options. Developers can combine different filters and custom field queries with these logical operators to build complex yet accurate search queries.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Time-Offs",
+      "description": "Endpoints for time-offs resource"
+    }
+  ],
+  "paths": {
+    "/1.0/time-offs": {
+      "get": {
+        "tags": [
+          "Time-Offs"
+        ],
+        "summary": "Get all time-offs",
+        "operationId": "get-all-timeoffs",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "note",
+                  "notifyUsers"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "startDate",
+                "endDate",
+                "createdAt"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "startDate.gt",
+            "in": "query",
+            "description": "Returns responses with start dates greater than the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.eq",
+            "in": "query",
+            "description": "Returns responses with start dates equal to the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.lt",
+            "in": "query",
+            "description": "Returns responses with start dates lesser than the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.ge",
+            "in": "query",
+            "description": "Returns responses with start dates greater than or equal to the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "startDate.le",
+            "in": "query",
+            "description": "Returns responses with start dates lesser than or equal to the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "endDate.gt",
+            "in": "query",
+            "description": "Returns responses with start dates greater than the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "endDate.eq",
+            "in": "query",
+            "description": "Returns responses with start dates equal to the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "endDate.lt",
+            "in": "query",
+            "description": "Returns responses with start dates lesser than the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "endDate.ge",
+            "in": "query",
+            "description": "Returns responses with start dates greater than or equal to the specified date.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "endDate.le",
+            "in": "query",
+            "description": "Returns responses with start dates lesser than or equal to the specified date.e.",
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "type.eq",
+            "in": "query",
+            "description": "Returns responses with time-offs that exactly match the specified time off type.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "FULL_DAY",
+                  "HALF_DAY",
+                  "CUSTOM"
+                ]
+              }
+            }
+          },
+          {
+            "name": "type.oneOf",
+            "in": "query",
+            "description": "Returns responses with time-offs that matches one of the specified time off type.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 3,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "FULL_DAY",
+                  "HALF_DAY",
+                  "CUSTOM"
+                ]
+              }
+            }
+          },
+          {
+            "name": "type.noneOf",
+            "in": "query",
+            "description": "Returns responses with time-offs that matches none of the specified time off type.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 3,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "FULL_DAY",
+                  "HALF_DAY",
+                  "CUSTOM"
+                ]
+              }
+            }
+          },
+          {
+            "name": "userId.eq",
+            "in": "query",
+            "description": "Returns responses with time-offs that exactly match the specified user id.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "userId.oneOf",
+            "in": "query",
+            "description": "Returns responses with time-offs that matches one of the specified user id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "userId.noneOf",
+            "in": "query",
+            "description": "Returns responses with time-offs that matches none of the specified user id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2"
+            }
+          },
+          {
+            "name": "emailId.eq",
+            "in": "query",
+            "description": "Returns responses with time-offs that exactly match the specified user's email id.",
+            "schema": {
+              "type": "string",
+              "example": "dev@rocketlane.com"
+            }
+          },
+          {
+            "name": "emailId.oneOf",
+            "in": "query",
+            "description": "Returns responses with time-offs that matches one of the specified user's email ids.",
+            "schema": {
+              "type": "string",
+              "example": "dev@rocketlane.com,support@rocketlane.com"
+            }
+          },
+          {
+            "name": "emailId.noneOf",
+            "in": "query",
+            "description": "Returns responses with time-offs that matches none of the specified user's email ids.",
+            "schema": {
+              "type": "string",
+              "example": "test@rocketlane.com,support@rocketlane.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseTimeOffs"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "TImeOffNotifyUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "projectOwners": {
+            "type": "boolean",
+            "description": "Notify project owners of projects I'm part of.",
+            "example": false
+          },
+          "others": {
+            "type": "array",
+            "description": "Users to notify about your time off.",
+            "items": {
+              "$ref": "#/components/schemas/TimeOffOtherUsersPublicAPIResponse"
+            }
+          }
+        },
+        "description": "Users to notify about your time off."
+      },
+      "TimeOffCreatedByPublicResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the time off."
+      },
+      "TimeOffOtherUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The email identifier of the user.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The user's unique, system-generated identifier, which can be used to identify the user globally.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "Users to notify about your time off."
+      },
+      "TimeOffUserPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The user's email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the customer.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the customer.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the customer.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The time-off user."
+      },
+      "ExampleAPIResponseTimeOffs": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/TimeOffPublicAPIResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationTimeOffs"
+          }
+        }
+      },
+      "ExamplePaginationTimeOffs": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/time-offs?includeFields=note&sortBy=start&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "TimeOffPublicAPIResponseForExample": {
+        "type": "object",
+        "properties": {
+          "timeOffId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique `identifier` of the time-off is generated by the system and used to identify the time-off globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "user": {
+            "$ref": "#/components/schemas/TimeOffUserPublicAPIResponseEntity"
+          },
+          "note": {
+            "type": "string",
+            "description": "The note or comment about the time-off.",
+            "example": "Sick leave."
+          },
+          "startDate": {
+            "type": "string",
+            "description": "The time-off start date. The format for the start date is _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "The time-off end date. The `endDate` must be on or after the `startDate`, formatted as _YYYY-MM-DD_.",
+            "example": "2023-03-28"
+          },
+          "durationInMinutes": {
+            "type": "integer",
+            "description": "The `durationInmMinutes` per day for applied time off interval. For `FULL_DAY` time off, the duration is calculated as `CAPACITY_IN_MINUTES / WORKING_DAYS_OF_WEEK`, while for `HALF_DAY` time off, it is calculated as `(CAPACITY_IN_MINUTES / WORKING_DAYS_OF_WEEK) / 2`. These calculations are based on the user's defined capacity.",
+            "format": "int32",
+            "example": 50
+          },
+          "type": {
+            "type": "string",
+            "description": "The `type` of the time-off.",
+            "example": "FULL_DAY",
+            "enum": [
+              "FULL_DAY",
+              "HALF_DAY",
+              "CUSTOM"
+            ]
+          },
+          "notifyUsers": {
+            "$ref": "#/components/schemas/TImeOffNotifyUsersPublicAPIResponse"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The timestamp when the time-off was created, represented in epoch milliseconds.\n",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/TimeOffCreatedByPublicResponse"
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

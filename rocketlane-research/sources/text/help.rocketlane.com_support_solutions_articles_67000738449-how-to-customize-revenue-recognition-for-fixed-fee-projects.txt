@@ -1,0 +1,218 @@
+TITLE: How to Set Up Custom Revenue Recognition Tailored to Your Business Needs : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000738449-how-to-customize-revenue-recognition-for-fixed-fee-projects
+
+How to Set Up Custom Revenue Recognition Tailored to Your Business Needs : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+Created by Monica Madan, Modified on Thu, 17 Oct, 2024 at 12:02 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Overview of fixed fee projects
+
+Overview of time and material projects
+
+Overview of subscription projects
+
+Overview of non billable projects
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding financial numbers for Time and Material projects
+
+Understanding revenue recognition for subscription projects
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to Customize Revenue Recognition for Fixed Fee Projects
+
+No article available
+
+We recognize that each business has unique needs when it comes to revenue recognition. To offer flexibility, we have implemented custom revenue recognition. This feature enables you to recognise revenue for fixed fee projects based on specific criteria tailored to your business requirements. For instance, if you want to recognize revenue only based on billable hours once approved by project owners, you can customize the revenue recognition method to meet this requirement. .
+
+You can define the conditions that should be met for the tracked time to be used for revenue recognition based on:
+
+1. Approval status.
+2. Billability
+3. Category
+4. Role of the person who tracks time
+5. Team member who tracks time
+
+To set this up:
+
+Go to Settings > Financial Management > Revenue Recognition
+
+Navigate to the Custom Revenue Recognition Method section to create a new method
+
+Click " Create New Revenue Recognition "
+
+Configure the hours that need to recognize revenue based on the conditions. For example, if you wish for only billable approved hours to recognize revenue, follow these steps:
+
+Add a condition where "Billable is true" and "Approval status is approved"
+
+You can choose to match either all conditions or just one, but in this case, all conditions must be met.
+
+Choose the baseline to recognize revenue against. You can choose to recognise revenue as a percentage of budgeted hour or total allocated hours
+
+Click Create to create the new revenue recognition method
+
+To edit the method,
+
+Click on the three dots edit near the method and make changes.
+
+Note: You can edit an existing revenue recognition method at any time. Any changes you make will automatically apply to all projects that use that method.
+
+To delete the method,
+
+Click on the three dots edit near the method and delete
+
+Note: You cannot delete a revenue recognition method that has already been used in projects (active or archived), to ensure the preservation of historical information.
+
+Similarly, you can create additional revenue recognition methods for various business/project requirements, and these methods will automatically be added to the list of existing revenue recognition methods, which you can choose while creating a project.
+
+Example: Let's consider a project called "Modert's 2W onboarding," which lasts 10 days. The budgeted hours for the project is 100h and fixed fee allocated across the project is USD 6,250. The time tracked by the resources in timesheets so far is 53h
+
+Out of the 53 Hrs tracked, 5 Hrs are accounted as Non Billable whilst the rest 48 are billed and approved
+
+If the custom revenue condition is set as Billable Approved Hours, only specific tracked hours will contribute to revenue recognition. These conditions include:
+
+Billable must be set to "true."
+
+Approval Status must be exactly "Approved."
+
+The baseline for comparison is the Budgeted Hours, which serves as the denominator to calculate the percentage of project completion for revenue recognition.
+The formula for revenue calculation is:
+Revenue Recognition = (No. of Tracked Billable Hours that are Approved / Budgeted Hours) × Fixed Fee
+
+Which means that if the total hours tracked is 53, and the approved hours are 51, where 4 are non billable, then the total billable hours that are approved = 48
+
+Total budgeted hours = 100h
+
+Fixed Fee = 6,250 USD
+
+Therefore Revenue Recognised = (48/100) x 6250 = 3000
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Portfolio reporting
+
+Creating projects with Financials
+
+Understanding revenue recognition for Fixed Fee projects
+
+Understanding revenue recognition for subscription projects
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

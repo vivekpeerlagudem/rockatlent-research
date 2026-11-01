@@ -1,0 +1,242 @@
+TITLE: Setting Up a Weekly Reminder to Submit a Feedback Form : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000750448-setting-up-a-weekly-reminder-to-submit-a-feedback-form
+
+Setting Up a Weekly Reminder to Submit a Feedback Form : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Created by Advaith R, Modified on Tue, 28 Jul at 6:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Setting Up a Weekly Reminder to Submit a Feedback Form
+
+Automating CSAT Score Updates From Form Responses
+
+Track Stale Tasks Using a Last Comment Date Field
+
+Auto Invite Customer Champion on Project Creation
+
+Prevent Duplicate Phases When Importing Multiple Templates into the Same Project
+
+Embedding Calendly Links in Rocketlane
+
+Turn Customer Form Submissions into Immediate Action
+
+No article available
+
+Use this workflow to automatically remind project stakeholders to submit a feedback or CSAT form one week after a phase is completed, only if the form has not been submitted yet.
+This setup uses:
+
+Two project-level custom fields.
+
+Two template-level automations on the feedback form task.
+
+One global scheduled automation that sends the reminder email.
+In this article
+
+Create required custom fields
+
+Store the form URL when the form is created
+
+Mark the form as submitted when a response is received
+
+Create a global scheduled reminder automation
+
+Create required custom fields
+Start by creating two project-level custom fields. These fields store the form link and track whether a response has been received.
+
+Go to Settings > Accounts > Fields , or the equivalent Project fields configuration.
+
+Create a Text type project field named Form URL .
+
+Create a Boolean type project field named Form Submitted .
+
+Store the form URL when the form is created
+Configure this automation on the feedback form task inside the project template.
+
+Go to Templates > Projects .
+
+Open the relevant project template .
+
+Select the feedback form task .
+
+Go to the Automations tab.
+
+Click Create automation .
+Configure the first automation as follows:
+Setting Value
+Trigger When form created
+Action Update project fields
+Field to update Form URL
+Update type Replace value
+Value Use SmartFill to insert the form’s share URL.
+To add the value, click into the value box and type {{ to open SmartFill. Select the option that inserts the share URL for the form.
+Save the automation. This ensures the project’s Form URL field always holds the correct feedback form link.
+
+Mark the form as submitted when a response is received
+Next, create a second automation on the same feedback form task. This automation updates the project once a form response is received.
+
+On the feedback form task > Automations tab, click Create automation again.
+Configure the second automation as follows:
+Setting Value
+Trigger New form response
+Action Update project fields
+Field to update Form Submitted
+Update type Replace value
+Value Yes or True , depending on your field configuration.
+Save the automation. This updates the project’s Form Submitted flag once any response is received.
+
+Create a global scheduled reminder automation
+Finally, create a scheduled automation that checks once per day which projects need a feedback reminder.
+
+Go to Settings > Automations for global automations.
+
+Click Create automation .
+
+Configure the trigger
+Setting Value
+Trigger type On schedule
+Scope Tasks
+Schedule For example, every day at 8:00 AM . Adjust the time as needed.
+
+Configure the conditions
+Add conditions to identify projects where the feedback form reminder should be sent.
+Condition Value
+Task Select the task before the form task, for example the phase completion task that should precede feedback.
+Task status Task status is exactly Completed
+Completed At Completed At is more than 7 days ago
+Form Submitted Form Submitted is False
+
+Configure the action
+Configure the action to send the reminder email.
+Setting Value
+Action Send email
+Recipient Choose the appropriate recipient, such as the project owner, CSM, or internal admin who should follow up.
+Email content
+Add context that the feedback form is pending.
+
+Insert the Form URL project field using SmartFill.
+
+Save the automation.
+This automation runs every day, finds tasks that were completed more than a week ago, checks whether the feedback form has been submitted, and sends a reminder email only when Form Submitted is still false.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Understanding the Rocketlane's Forms Feature
+
+Time Tracking in Rocketlane
+
+Configure How Utilisation Is Calculated
+
+How to set schedules using Automations?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

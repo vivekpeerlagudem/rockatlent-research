@@ -1,0 +1,831 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all Resource allocations
+
+The *Get All Resource Allocations* API allows you to search and retrieve comprehensive allocation data for various projects. This endpoint is valuable for accessing detailed resource allocation information, suitable for analysis or integration into applications.
+
+You can customize the response using the `includeFields` parameter.   Sorting options, `sortBy` and `sortOrder`, allow additional customization, while the paginated response is controlled using `pageSize` and `pageToken` parameters.
+
+## Pagination
+
+The *Get all Resource allocations* API accommodates pagination in the response body. The `pageSize` option can be used to restrict the amount of responses displayed/available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain the `nextPageToken`.
+
+Please refer to the [pagination](https://developer.rocketlane.com/v1.0/docs/pagination) section for further information on this.
+
+## Filtering
+
+The capacity to execute more sophisticated and nuanced searches on a dataset by combining numerous criteria and conditions is referred to as filtering.
+
+Complex filtering in the context of the *Get all Resource allocations* API allows users to build elaborate search queries to return specific subsets of resource allocations that satisfy specific requirements. By catering to a wide range of use cases, this enhanced filtering functionality considerably increases the API's utility and versatility.
+
+The API reference includes a comprehensive range of filtering options.
+
+Please refer to the link [here](https://developer.rocketlane.com/docs/search) for more information on how to construct the filtering criteria.
+
+### Criteria Match
+
+The *Get all Resource allocations* API also supports the use of ***AND*** and ***OR*** conditions for more advanced filtering options. Users can combine different filters and custom field queries with these logical operators to build complex yet accurate search queries.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Resource Allocations",
+      "description": "Endpoints for resource allocation resource"
+    }
+  ],
+  "paths": {
+    "/1.0/resource-allocations": {
+      "get": {
+        "tags": [
+          "Resource Allocations"
+        ],
+        "summary": "Get all Resource allocations",
+        "operationId": "get-all-resource-allocations",
+        "parameters": [
+          {
+            "name": "startDate",
+            "in": "query",
+            "description": "You can use this parameter to define the start date, and the API response will return all resource allocations that start on or after the specified date.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "endDate",
+            "in": "query",
+            "description": "You can use this parameter to define an end date, and the API will return allocations that end on or before the specified date.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "Use this query parameter to opt in for fields to be returned in the response body. Use comma separated values to fetch the respective fields. If left blank, default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "member",
+                  "task",
+                  "placeholder",
+                  "duration"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "startDate",
+                "endDate",
+                "allocationType",
+                "allocationFor"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "memberId.eq",
+            "in": "query",
+            "description": "You can use this parameter to specify a member id, and the API will return allocations that exactly match the given member id. This allows for precise filtering of allocations based on the specified user.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "memberId.oneOf",
+            "in": "query",
+            "description": "You can use this parameter to specify multiple member ids, separated by commas, and the API will return allocations that match any of the provided member ids. ",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "memberId.noneOf",
+            "in": "query",
+            "description": "You can use this parameter to specify multiple member ids, separated by commas, and the API will return allocations that exclude any of the provided member ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "projectId.eq",
+            "in": "query",
+            "description": "You can use this parameter to specify a project id, and the API will return allocations that exactly match the given project id.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "projectId.oneOf",
+            "in": "query",
+            "description": "You can use this parameter to specify multiple project ids, separated by commas, and the API will return allocations that match any of the provided project ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "projectId.noneOf",
+            "in": "query",
+            "description": "You can use this parameter to specify multiple project ids, separated by commas, and the API will return allocations that exclude any of the provided project ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "placeholderId.eq",
+            "in": "query",
+            "description": "You can use this parameter to specify a placeholder id, and the API will return allocations that exactly match the given placeholder id.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "placeholderId.oneOf",
+            "in": "query",
+            "description": "You can use this parameter to specify multiple placeholder ids, separated by commas, and the API will return allocations that match any of the provided placeholder ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "placeholderId.noneOf",
+            "in": "query",
+            "description": "You can use this parameter to specify multiple placeholder ids, separated by commas, and the API will return allocations that exclude any matching placeholder ids.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseResourceAllocations"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "RoleResponsePublicAPI": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "type": "integer",
+            "description": "The role's unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 101
+          },
+          "roleName": {
+            "type": "string",
+            "description": "The name of the role.",
+            "readOnly": true,
+            "example": "Designer"
+          }
+        },
+        "description": "The role of the member or placeholder to whom allocation is made for",
+        "readOnly": true
+      },
+      "AllocationCreatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who created the allocation."
+      },
+      "AllocationUpdatedByUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the allocation"
+      },
+      "AllocationUserPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleResponsePublicAPI"
+          }
+        },
+        "description": "The team member associated for the allocation if chosen `allocationFor` is `TEAM_MEMBER`.",
+        "readOnly": true
+      },
+      "ExampleAPIResponseResourceAllocations": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/ResourceAllocationPublicAPIResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationResourceAllocations"
+          }
+        }
+      },
+      "ExamplePaginationResourceAllocations": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/resource-allocations?includeFields=role&sortBy=startDate&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "PlaceholderResponsePublicAPI": {
+        "type": "object",
+        "properties": {
+          "placeholderId": {
+            "type": "integer",
+            "description": "The placeholder's unique, system-generated identifier, which can be used to identify the placeholder globally.",
+            "format": "int64",
+            "example": 201
+          },
+          "placeholderName": {
+            "type": "string",
+            "description": "The name of the placeholder.",
+            "readOnly": true,
+            "example": "Customer Success"
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleResponsePublicAPI"
+          }
+        },
+        "description": "The placeholder associated for the allocation if chosen `allocationFor` is `PLACEHOLDER`.",
+        "readOnly": true
+      },
+      "ProjectPublicAPIAllocationResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "readOnly": true,
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "The `project` associated with resource allocation.",
+        "readOnly": true
+      },
+      "ResourceAllocationFieldPublicResponseAPIEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the field.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The label of the field.",
+            "readOnly": true,
+            "example": "Cost Center"
+          },
+          "fieldValue": {
+            "type": "object",
+            "description": "The value of the field. The fieldValue can be a string, an integer, or an array and it must match the type of the field.",
+            "readOnly": true,
+            "example": 1000
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The value of the field in string format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "The custom fields and their values associated with the resource allocation."
+      },
+      "ResourceAllocationPublicAPIResponseForExample": {
+        "type": "object",
+        "properties": {
+          "allocationId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The resource allocation's unique, system-generated identifier, which can be used to identify the resource allocation globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "startDate": {
+            "type": "string",
+            "description": "The date when a allocation started. The format for the start date is _YYYY-MM-DD_.",
+            "readOnly": true,
+            "example": "2023-03-28"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "The date when a allocation ended. The format for the start date is _YYYY-MM-DD_.",
+            "readOnly": true,
+            "example": "2023-03-28"
+          },
+          "secondsPerDay": {
+            "type": "integer",
+            "description": "The seconds created per day.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 45000
+          },
+          "minutesPerDay": {
+            "type": "integer",
+            "description": "The minutes created per day.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 750
+          },
+          "hoursPerDay": {
+            "type": "integer",
+            "description": "The hours created per day.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 12
+          },
+          "duration": {
+            "$ref": "#/components/schemas/ResourceAllocationTotalDurationPublicResponse"
+          },
+          "allocationType": {
+            "type": "string",
+            "description": "Type of allocation to be made.",
+            "readOnly": true,
+            "default": "HARD",
+            "enum": [
+              "SOFT",
+              "HARD"
+            ]
+          },
+          "allocationFor": {
+            "type": "string",
+            "description": "To whom allocation is for",
+            "readOnly": true,
+            "enum": [
+              "TEAM_MEMBER",
+              "PLACEHOLDER"
+            ]
+          },
+          "project": {
+            "$ref": "#/components/schemas/ProjectPublicAPIAllocationResponseEntity"
+          },
+          "tasks": {
+            "type": "array",
+            "description": "The `task(s)` associated with resource allocation.",
+            "readOnly": true,
+            "items": {
+              "$ref": "#/components/schemas/ResourceAllocationTaskPublicAPIEntity"
+            }
+          },
+          "member": {
+            "$ref": "#/components/schemas/AllocationUserPublicAPIResponseEntity"
+          },
+          "placeholder": {
+            "$ref": "#/components/schemas/PlaceholderResponsePublicAPI"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the allocation was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the allocation was last updated. Any changes that's related to the allocation are captured and specified here in epoch millis.",
+            "format": "int64",
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/AllocationCreatedByUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/AllocationUpdatedByUserPublicAPI"
+          },
+          "workId": {
+            "type": "integer",
+            "description": "ID of the associated work item (task, phase or milestone)",
+            "format": "int64",
+            "readOnly": true
+          },
+          "workType": {
+            "type": "string",
+            "description": "Type of work item (TASK, PHASE or MILESTONE)",
+            "readOnly": true,
+            "enum": [
+              "TASK",
+              "PHASE",
+              "MILESTONE"
+            ]
+          },
+          "includeSaturday": {
+            "type": "boolean",
+            "description": "Indicates whether Saturday is included as a working day for this allocation.",
+            "readOnly": true
+          },
+          "includeSunday": {
+            "type": "boolean",
+            "description": "Indicates whether Sunday is included as a working day for this allocation.",
+            "readOnly": true
+          },
+          "fields": {
+            "type": "array",
+            "description": "The custom fields and their values associated with the resource allocation.",
+            "items": {
+              "$ref": "#/components/schemas/ResourceAllocationFieldPublicResponseAPIEntity"
+            }
+          },
+          "budget": {
+            "$ref": "#/components/schemas/ResourceAllocationPublicProjectFinancialsBudgetResponse"
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      },
+      "ResourceAllocationPublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "The financials budget associated with this allocation."
+      },
+      "ResourceAllocationTaskPublicAPIEntity": {
+        "type": "object",
+        "properties": {
+          "taskName": {
+            "type": "string",
+            "description": "The task's unique, system-generated **identifier**, which can be used to identify the task globally.",
+            "readOnly": true,
+            "example": "Kickoff meeting"
+          },
+          "taskId": {
+            "type": "integer",
+            "description": "The **name** of the task.",
+            "format": "int64",
+            "example": 201
+          }
+        },
+        "description": "The `task(s)` associated with resource allocation.",
+        "readOnly": true
+      },
+      "ResourceAllocationTotalDurationPublicResponse": {
+        "type": "object",
+        "properties": {
+          "daysConsider": {
+            "type": "integer",
+            "description": "No. of week days considered for computing the `minutes`, `hours`, `seconds`. This is calculated for range between allocation's `startDate` and `endDate`.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 1
+          },
+          "seconds": {
+            "type": "integer",
+            "description": "The total allocation seconds for entire start date and end date.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 45000
+          },
+          "minutes": {
+            "type": "integer",
+            "description": "The total allocation minutes for entire start date and end date.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 750
+          },
+          "hours": {
+            "type": "integer",
+            "description": "The total allocation hours for entire start date and end date.",
+            "format": "int32",
+            "readOnly": true,
+            "example": 12
+          }
+        },
+        "description": "Total seconds, minutes, hours for the allocation. This is calculated for range between allocation's `startDate` and `endDate`.",
+        "readOnly": true
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

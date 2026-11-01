@@ -1,0 +1,180 @@
+TITLE: Introducing Custom Apps: Build What You Need Inside Rocketlane : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000745884-introducing-custom-apps-build-what-you-need-inside-rocketlane
+
+Introducing Custom Apps: Build What You Need Inside Rocketlane : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Custom Apps
+Introducing Custom Apps: Build What You Need Inside Rocketlane
+
+Introducing Custom Apps: Build What You Need Inside Rocketlane
+
+Created by Advaith R, Modified on Wed, 9 Jul, 2025 at 12:45 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introducing Custom Apps: Build What You Need Inside Rocketlane
+
+No article available
+
+Rocketlane now supports Custom Apps , enabling you to tailor and extend your workspace by embedding apps that mirror your internal processes. Whether it’s auto-carrying forward tasks, unifying data from multiple systems, or bringing in workflows that reflect how your teams operate—Custom Apps make it possible.
+No more context switching. No more scattered tools. You can now bring everything you need right inside Rocketlane.
+
+What Can You Do with Custom Apps?
+Custom Apps let you:
+
+Build custom workflows inside Rocketlane
+From onboarding flows to customer success automations, define your own rules and UI.
+
+Unify data from other tools
+Pull and display data from Salesforce, ERPs, and more to create a centralized view of everything your team needs.
+
+Surface key insights and actions where it matters
+Embed your app in strategic locations across the platform to reduce toggling and improve efficiency.
+
+Where Can Custom Apps Live?
+You can choose where to display your app based on the use case:
+Location Ideal Use Case
+Customer Portal Widget Show key data or actions for customers in their view.
+Project Tab Embed workflows or dashboards at a project level.
+Account Tab Display apps that reflect account-wide data or tools.
+Instance-wide Page Host utilities or reports accessible across Rocketlane.
+
+How to Upload a Custom App
+Once you've built your app, installing it on Rocketlane is simple.
+
+Step-by-Step:
+
+Build your app in your preferred code editor.
+
+Refer to the Rocketlane Developer Documentation for app structure, sample apps, and integration details.
+
+Go to Settings > Custom Apps .
+
+Click Create App .
+
+Name your app and upload the app file (ZIP).
+
+Click Install .
+
+✅ Once installed, your app will appear in the designated section (e.g., Project tab, Account tab).
+
+Developer Resources
+Access complete documentation, examples, and integration guidelines at:
+https://developer.rocketlane.com/v1.3/docs/examples#/
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Best Practices for Users
+
+Introducing Expense Management in Rocketlane
+
+The Workato Rocketlane Integration
+
+How can I filter or report on Rocketlane projects that are missing a linked Salesforce project ID?
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

@@ -1,0 +1,196 @@
+TITLE: Setting up custom invoice fields : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000740586-setting-up-custom-invoice-fields
+
+Setting up custom invoice fields : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Invoicing
+Setting up custom invoice fields
+
+Setting up custom invoice fields
+
+Created by Monica Madan, Modified on Fri, 16 May, 2025 at 10:38 AM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Invoicing on Rocketlane
+
+Quick guide to setting up Invoices
+
+Setting up custom invoice fields
+
+How to draft a new invoice
+
+Invoice list page
+
+Managing Invoices on Rocketlane
+
+Managing Invoicing Permissions in Rocketlane
+
+Tax Codes in Invoices: Smarter Tax Handling in Rocketlane
+
+Credit Notes in Rocketlane
+
+No article available
+
+If you need to populate custom information on the invoices, you can configure those as custom fields under the Invoice custom fields section.
+
+Go to the profile icon>settings>operations and financials>invoicing>invoice custom fields.
+
+Click on New field.
+
+A New team member field pane will appear on the screen, for you to add the necessary details.
+
+Give the field a relevant name, for example, Purchase order number or Payment Method : Bank transfer, credit card, PayPal, etc.
+
+Select the relevant Field type. For Purchase order the field type can be a number and for Payment method, the field type can be Single choice.
+
+Add a description, that would act like a tooltip for the users to understand what information needs to go into the field.
+
+After adding the necessary details, click save.
+
+Note: Here you can choose each field that needs to be displayed on the invoice, by checking the “display on invoice” box. For example, Purchase order can be a field shown on invoice and prepaid invoice can be a field not shown on invoice
+
+Text
+A single-line text field where users can type the details.
+
+Multiline
+A paragraph field that lets users type in length
+
+Number
+Lets users add numbers like employee id
+
+Yes/No
+Is a either/or field
+
+Date
+Lets users add dates like the joining date of the employees
+
+Single choice
+Lets users one option from multiple choices
+
+Multiple choice
+Lets users select as many relevant options from the available choices
+
+Single user
+Lets users map the team member to another user like their manager
+
+Multiple user
+
+Lets users to map the team member to multiple other users like reportees.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+Creating and Submitting Expense Reports in the Rocketlane Mobile App
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+Enhanced Time Tracking and Approval Experience in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

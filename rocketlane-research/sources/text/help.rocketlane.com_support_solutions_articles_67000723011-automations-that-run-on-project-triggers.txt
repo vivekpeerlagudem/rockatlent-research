@@ -1,0 +1,198 @@
+TITLE: Examples of project triggers : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000723011-automations-that-run-on-project-triggers
+
+Examples of project triggers : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+Automations that run on project triggers
+
+Automations that run on project triggers
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:29 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Automations that run on project triggers
+
+Automations that run on task triggers
+
+Automations that run on phase triggers
+
+Automations that run on form triggers
+
+No article available
+
+Project triggers monitor events across projects and help automate workflows that keep projects moving smoothly. You can use project triggers to respond to key project events, such as project creation, field updates, customer invitations, placeholder resolution, archiving, and deletion.
+Project triggers can be configured under Global Automations .
+
+Navigate to Avatar > Settings > Advanced > Automations .
+In this article
+
+Project created
+
+Field is updated
+
+Customer invited
+
+Placeholder resolved
+
+Project archived
+
+Project deleted
+
+Project created
+The Project created trigger runs when a new project is created.
+You can use this trigger to automatically apply templates, notify team members, or set up follow-up actions based on project details.
+For example, when a project is created with ARR greater than $100K, you can import the Simple Onboarding template.
+You can also add multiple action blocks for different ARR ranges. For example:
+
+If ARR is greater than $300K, import the Mid-market Onboarding template.
+
+If ARR is greater than $500K, import the Enterprise template.
+
+Field is updated
+The Field is updated trigger runs when a project field is updated.
+You can use this trigger to notify stakeholders, update related fields, or take action when a project reaches a specific state.
+For example, when the project status is updated to Blocked , you can notify the project owner and then archive the project.
+
+Customer invited
+The Customer invited trigger runs when a customer is invited to a project.
+You can use this trigger to start customer-facing workflows after inviting customers to the project.
+For example, when a customer is invited, you can send welcome emails and update the project status to In Progress .
+
+Placeholder resolved
+The Placeholder resolved trigger runs when a placeholder is replaced with an actual value, such as a customer name or team member.
+You can use this trigger to update project data or run follow-up actions after placeholder values are resolved.
+
+Customer placeholder resolved
+For example, when a customer placeholder is resolved, you can replace the placeholder value with the actual customer in the project list field and send welcome emails.
+
+Team member placeholder resolved
+For example, when a team member placeholder is resolved, you can turn soft allocations into hard allocations.
+
+Project archived
+The Project archived trigger runs when a project is archived.
+You can use this trigger to notify project members or run closure-related workflows.
+For example, when a project is archived, you can notify project members through Slack and email.
+
+Project deleted
+The Project deleted trigger runs when a project is deleted.
+You can use this trigger to notify relevant stakeholders when a project is removed.
+For example, when a project is deleted, you can notify project members through Slack and in-app notifications.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Automations
+
+Automations that run on form triggers
+
+How can I configure automation in Rocketlane to trigger actions based on specific field updates or conditions?
+
+Automations in Sheets
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

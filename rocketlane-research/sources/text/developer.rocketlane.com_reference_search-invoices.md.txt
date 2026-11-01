@@ -1,0 +1,1139 @@
+---
+updatedAt: 2026-04-30T11:16:08.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all invoices
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Invoices",
+      "description": "Endpoints for invoices resource"
+    }
+  ],
+  "paths": {
+    "/1.0/invoices": {
+      "get": {
+        "tags": [
+          "Invoices"
+        ],
+        "summary": "Get all invoices",
+        "operationId": "search-invoices",
+        "parameters": [
+          {
+            "name": "dateOfIssue.eq",
+            "in": "query",
+            "description": "Filter by date of issue (equals).",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dateOfIssue.gt",
+            "in": "query",
+            "description": "Filter by date of issue greater than.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dateOfIssue.ge",
+            "in": "query",
+            "description": "Filter by date of issue greater than or equal.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dateOfIssue.lt",
+            "in": "query",
+            "description": "Filter by date of issue less than.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dateOfIssue.le",
+            "in": "query",
+            "description": "Filter by date of issue less than or equal.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.eq",
+            "in": "query",
+            "description": "Filter by due date (equals).",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.gt",
+            "in": "query",
+            "description": "Filter by due date greater than.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.ge",
+            "in": "query",
+            "description": "Filter by due date greater than or equal.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.lt",
+            "in": "query",
+            "description": "Filter by due date less than.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "dueDate.le",
+            "in": "query",
+            "description": "Filter by due date less than or equal.",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2023-03-28"
+            }
+          },
+          {
+            "name": "amount.eq",
+            "in": "query",
+            "description": "Filter by amount (equals).",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 1000
+            }
+          },
+          {
+            "name": "amount.gt",
+            "in": "query",
+            "description": "Filter by amount greater than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 1000
+            }
+          },
+          {
+            "name": "amount.ge",
+            "in": "query",
+            "description": "Filter by amount greater than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 1000
+            }
+          },
+          {
+            "name": "amount.lt",
+            "in": "query",
+            "description": "Filter by amount less than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 1000
+            }
+          },
+          {
+            "name": "amount.le",
+            "in": "query",
+            "description": "Filter by amount less than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 1000
+            }
+          },
+          {
+            "name": "amountOutstanding.eq",
+            "in": "query",
+            "description": "Filter by amount outstanding (equals).",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountOutstanding.gt",
+            "in": "query",
+            "description": "Filter by amount outstanding greater than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountOutstanding.ge",
+            "in": "query",
+            "description": "Filter by amount outstanding greater than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountOutstanding.lt",
+            "in": "query",
+            "description": "Filter by amount outstanding less than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountOutstanding.le",
+            "in": "query",
+            "description": "Filter by amount outstanding less than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountPaid.eq",
+            "in": "query",
+            "description": "Filter by amount paid (equals).",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountPaid.gt",
+            "in": "query",
+            "description": "Filter by amount paid greater than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountPaid.ge",
+            "in": "query",
+            "description": "Filter by amount paid greater than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountPaid.lt",
+            "in": "query",
+            "description": "Filter by amount paid less than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountPaid.le",
+            "in": "query",
+            "description": "Filter by amount paid less than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountWrittenOff.eq",
+            "in": "query",
+            "description": "Filter by amount written off (equals).",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountWrittenOff.gt",
+            "in": "query",
+            "description": "Filter by amount written off greater than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountWrittenOff.ge",
+            "in": "query",
+            "description": "Filter by amount written off greater than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountWrittenOff.lt",
+            "in": "query",
+            "description": "Filter by amount written off less than.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "amountWrittenOff.le",
+            "in": "query",
+            "description": "Filter by amount written off less than or equal.",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 500
+            }
+          },
+          {
+            "name": "createdAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain invoices whose date are greater than the given invoice created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of invoices that match the given invoice created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain invoices whose date are less than the given invoice created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain invoices whose date are greater than or equal to the given invoice created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain invoices whose date are less than or equal to the given invoice created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "companyId.eq",
+            "in": "query",
+            "description": "You can use this param to provide a customer company id and the responses will contain exact matches of invoices that match the given customer company id.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "companyId.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide customer company ids separated by commas and the responses will contain matches of invoices that match any of the given customer company id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "companyId.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide customer company id separated by commas and the responses will not contain matches of invoices that match the given set of customer company id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "invoiceNumber.eq",
+            "in": "query",
+            "description": "Filter by invoice number (equals).",
+            "schema": {
+              "type": "string",
+              "example": "INV-2024-001"
+            }
+          },
+          {
+            "name": "invoiceNumber.cn",
+            "in": "query",
+            "description": "You can use this param to specify some text and the responses will contain invoices that contain the given text in their invoice number",
+            "schema": {
+              "type": "string",
+              "example": "INV"
+            }
+          },
+          {
+            "name": "invoiceNumber.nc",
+            "in": "query",
+            "description": "You can use this param to specify some text and the responses will contain invoices that _DO NOT_ contain the given text in their invoice number",
+            "schema": {
+              "type": "string",
+              "example": "US-21"
+            }
+          },
+          {
+            "name": "status.eq",
+            "in": "query",
+            "description": "You can use this param to provide status and the responses will contain invoices that are equal to the given status",
+            "schema": {
+              "type": "string",
+              "example": "DRAFT"
+            }
+          },
+          {
+            "name": "status.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide statuses and the responses will contain invoices that match one of the given statuses",
+            "schema": {
+              "type": "string",
+              "example": "DRAFT,PAID"
+            }
+          },
+          {
+            "name": "status.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide statuses and the responses will contain invoices that matches none of the given statuses",
+            "schema": {
+              "type": "string",
+              "example": "DRAFT,PAID"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "notes",
+                  "attachments"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "createdAt",
+                "invoiceNumber"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseInvoices"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "CustomerCompanyProjectPublicResponse": {
+        "type": "object",
+        "properties": {
+          "companyId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the customer company.",
+            "format": "int64",
+            "example": 201
+          },
+          "companyName": {
+            "type": "string",
+            "description": "The customer company name.",
+            "example": "Acme Inc"
+          },
+          "companyUrl": {
+            "type": "string",
+            "description": "The URL of the client's website. Unless explicitly stated, the value for this field can be left blank.",
+            "example": "https://www.acme.com"
+          }
+        },
+        "description": "Company details for the invoice"
+      },
+      "ProjectVendorUserPublicAPI": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who last updated the budget"
+      },
+      "InvoicePublicProjectFinancialsBudgetResponse": {
+        "type": "object",
+        "properties": {
+          "budgetId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the budget",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "budgetName": {
+            "type": "string",
+            "description": "Display name of the budget",
+            "readOnly": true,
+            "example": "Pre-sales"
+          }
+        },
+        "description": "List of financials budgets mapped to this invoice"
+      },
+      "InvoiceAttachmentPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "attachmentId": {
+            "type": "integer",
+            "description": "Attachment ID",
+            "format": "int64",
+            "example": 201
+          },
+          "attachmentName": {
+            "type": "string",
+            "description": "Attachment Name",
+            "example": "test_upload.png"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Attachment Created timestamp",
+            "format": "int64",
+            "example": 1680616174929
+          },
+          "location": {
+            "type": "string",
+            "description": "Attachment Location",
+            "example": "https://rocketlane.com/attachments/0/db83eb19-0bbf-4a37-b4e2-cd1b96708c73/test_upload.png"
+          },
+          "thumbLocation": {
+            "type": "string",
+            "description": "Attachment Thumb location",
+            "example": "https://rocketlane.com/attachments/0/db83eb19-0bbf-4a37-b4e2-cd1b96708c73/thumb_test_upload.png"
+          },
+          "visibility": {
+            "type": "boolean",
+            "description": "Attachment Visibility",
+            "example": false
+          }
+        },
+        "description": "List of attachments associated with the invoice"
+      },
+      "InvoiceFieldPublicResponseEntity": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique identifier for the field.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The label of the field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "object",
+            "description": "The `fieldValue` is the value provided while creation or updating. The fieldValue can be a string, an integer, or an array and it must match the type of the field. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with task.",
+            "readOnly": true,
+            "example": 1000
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Fields lists the custom invoice fields whose values were provided during invoice creation or updated later. Refer these [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know more about different types of custom fields returned in response."
+      },
+      "InvoiceProjectPublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The project's unique, system-generated identifier, which can be used to identify the project globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "projectName": {
+            "type": "string",
+            "description": "The name of the project.",
+            "example": "Acme onboarding"
+          }
+        },
+        "description": "List of projects mapped to this invoice"
+      },
+      "InvoicePublicAPIResponseEntity": {
+        "type": "object",
+        "properties": {
+          "invoiceId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "Unique identifier of the invoice",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "invoiceNumber": {
+            "type": "string",
+            "description": "Invoice number assigned to this invoice",
+            "example": "INV-2024-001"
+          },
+          "dateOfIssue": {
+            "type": "string",
+            "description": "Date when the invoice was issued. The format for the issue date is _YYYY-MM-DD_",
+            "example": "2023-03-28"
+          },
+          "dueDate": {
+            "type": "string",
+            "description": "Due date for the invoice payment. The format for the due date is _YYYY-MM-DD_",
+            "example": "2023-03-28"
+          },
+          "currency": {
+            "type": "string",
+            "description": "Currency of the invoice amount",
+            "readOnly": true,
+            "example": "USD",
+            "enum": [
+              "AFN",
+              "ALL",
+              "DZD",
+              "ARS",
+              "AMD",
+              "AUD",
+              "AZN",
+              "BHD",
+              "BDT",
+              "BYN",
+              "BZD",
+              "BOB",
+              "BAM",
+              "BWP",
+              "BRL",
+              "GBP",
+              "BND",
+              "BGN",
+              "BIF",
+              "KHR",
+              "CAD",
+              "CVE",
+              "XAF",
+              "CLP",
+              "CNY",
+              "COP",
+              "KMF",
+              "CDF",
+              "CRC",
+              "HRK",
+              "CZK",
+              "DKK",
+              "DJF",
+              "DOP",
+              "EGP",
+              "ERN",
+              "EEK",
+              "ETB",
+              "EUR",
+              "GEL",
+              "GHS",
+              "GTQ",
+              "GNF",
+              "HNL",
+              "HKD",
+              "HUF",
+              "ISK",
+              "INR",
+              "IDR",
+              "IRR",
+              "IQD",
+              "ILS",
+              "JMD",
+              "JPY",
+              "JOD",
+              "KZT",
+              "KES",
+              "KWD",
+              "LVL",
+              "LBP",
+              "LYD",
+              "LTL",
+              "MOP",
+              "MKD",
+              "MGA",
+              "MYR",
+              "MUR",
+              "MXN",
+              "MDL",
+              "MAD",
+              "MZN",
+              "MMK",
+              "NAD",
+              "NPR",
+              "TWD",
+              "NZD",
+              "NIO",
+              "NGN",
+              "NOK",
+              "OMR",
+              "PKR",
+              "PAB",
+              "PYG",
+              "PEN",
+              "PHP",
+              "PLN",
+              "QAR",
+              "RON",
+              "RUB",
+              "RWF",
+              "SAR",
+              "RSD",
+              "SGD",
+              "SOS",
+              "ZAR",
+              "KRW",
+              "LKR",
+              "SDG",
+              "SEK",
+              "CHF",
+              "SYP",
+              "TZS",
+              "THB",
+              "TOP",
+              "TTD",
+              "TND",
+              "TRY",
+              "USD",
+              "UGX",
+              "UAH",
+              "AED",
+              "UYU",
+              "UZS",
+              "VEF",
+              "VND",
+              "XOF",
+              "YER",
+              "ZMK",
+              "ZWL"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "description": "Current status of the invoice",
+            "example": "DRAFT"
+          },
+          "amount": {
+            "type": "number",
+            "description": "Total amount of the invoice including tax",
+            "readOnly": true,
+            "example": 1000.25
+          },
+          "tax": {
+            "type": "number",
+            "description": "Tax amount applied to the invoice",
+            "example": 100.25
+          },
+          "subTotal": {
+            "type": "number",
+            "description": "Total amount of the invoice excluding tax",
+            "readOnly": true,
+            "example": 1000.25
+          },
+          "amountOutstanding": {
+            "type": "number",
+            "description": "Balance amount remaining to be paid",
+            "readOnly": true,
+            "example": 500.25
+          },
+          "amountPaid": {
+            "type": "number",
+            "description": "Total amount paid for this invoice",
+            "readOnly": true,
+            "example": 500.25
+          },
+          "amountWrittenOff": {
+            "type": "number",
+            "description": "Total amount written off for this invoice",
+            "readOnly": true,
+            "example": 500.25
+          },
+          "notes": {
+            "type": "string",
+            "description": "Notes or additional information about the invoice",
+            "example": "This is the default address"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "Timestamp when the invoice was created",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "Timestamp when the invoice was last updated",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/ProjectVendorUserPublicAPI"
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/ProjectVendorUserPublicAPI"
+          },
+          "company": {
+            "$ref": "#/components/schemas/CustomerCompanyProjectPublicResponse"
+          },
+          "projects": {
+            "type": "array",
+            "description": "List of projects mapped to this invoice",
+            "items": {
+              "$ref": "#/components/schemas/InvoiceProjectPublicAPIResponseEntity"
+            }
+          },
+          "budgets": {
+            "type": "array",
+            "description": "List of financials budgets mapped to this invoice",
+            "items": {
+              "$ref": "#/components/schemas/InvoicePublicProjectFinancialsBudgetResponse"
+            }
+          },
+          "fields": {
+            "type": "array",
+            "description": "Fields lists the custom invoice fields whose values were provided during invoice creation or updated later. Refer these [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know more about different types of custom fields returned in response.",
+            "items": {
+              "$ref": "#/components/schemas/InvoiceFieldPublicResponseEntity"
+            }
+          },
+          "attachments": {
+            "type": "array",
+            "description": "List of attachments associated with the invoice",
+            "items": {
+              "$ref": "#/components/schemas/InvoiceAttachmentPublicAPIResponseEntity"
+            }
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      },
+      "ExampleAPIResponseInvoices": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/InvoicePublicAPIResponseEntity"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationInvoices"
+          }
+        }
+      },
+      "ExamplePaginationInvoices": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/invoices?pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

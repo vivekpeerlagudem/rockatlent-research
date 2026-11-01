@@ -1,0 +1,222 @@
+TITLE: Automate project workflows using https requests : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000729827-how-to-automate-project-workflows-with-https-requests
+
+Automate project workflows using https requests : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Automations
+How to automate project workflows with HTTPS requests
+
+How to automate project workflows with HTTPS requests
+
+Created by Monica Madan, Modified on Tue, 28 Jul at 6:26 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Introduction to Automations
+
+Setting up Global automations
+
+Setting up Template automations
+
+What are saved automations and how to use them?
+
+Automation Pricing
+
+How to automate project workflows with HTTPS requests
+
+How to set schedules using Automations?
+
+Automation Logs in Rocketlane
+
+No article available
+
+Certain project events, such as receiving approvals, gathering requirements, delays in deliverables, or process progress, may require follow-up actions. HTTPS requests in Rocketlane automations help you streamline these workflows by sending requests to Rocketlane or third-party systems when an automation runs.
+Using HTTPS requests, you can create automated workflows for actions such as creating projects, creating tasks, or sending secure notifications to third-party systems. This helps teams automate key project actions and keep external systems updated in real time.
+HTTPS requests can be used in automations triggered by events in projects, phases, tasks, and forms. These automations can be configured globally or within templates .
+In this article
+
+What goes into an HTTPS request
+
+Example: create a project from a form response
+
+Build the HTTPS request
+
+Test the HTTPS request
+
+What goes into an HTTPS request
+An HTTPS request includes the details Rocketlane needs to send data to another system or endpoint.
+
+Name: A relevant name for the request, such as Create project from form response .
+
+Description: A short description of what the request does.
+
+URL: The address and path of the server resource the request should reach.
+
+Body: The data sent from Rocketlane to the server. This is used to create, update, or pass information to the receiving system.
+
+Header: Key-value pairs that provide context and instructions for the request, such as authentication or accepted content type.
+
+Parameters: Key-value pairs in the URL or request body that help customize the request.
+Note Refer to the API documentation for help with URL and body construction.
+
+Example: create a project from a form response
+Let’s take an example where a project needs to be created automatically when a customer submits a form response. You can read more about setting up forms here .
+To set up the automation:
+
+Navigate to Templates and select a template.
+
+Click the form that gathers requirements from your customer.
+
+On the right, open the Automations tab.
+
+Click Add automation .
+
+Name the automation.
+
+Select the trigger as Form response received and add conditions if needed.
+
+Select the action as Send HTTPS request .
+
+Build the HTTPS request
+In this example, the HTTPS request creates a project when a customer submits a form response.
+To build the request:
+
+Name the request, for example Create project .
+
+Add a suitable description.
+
+Select the HTTPS method and construct the URL using the API documentation .
+
+Add the HTTPS payload to the body.
+{ "projectName": "{{Project->Company}} onboarding", "customer": { "companyName": "{{Project->Company}}" }, "owner": { "emailId": "monica@rocketlane.com" }, "financials": { "contractType": "NON_BILLABLE" }, "startDate": "{{Task-> Due Date}}", "sources": [ { "startDate": "{{Task-> Due Date}}", "templateId": 191952 } ] }
+Note You can use SmartFill to add fields such as due date and company. You can also retrieve the template ID of the template you want the project to use from the template URL.
+
+Refer to the screenshot below for an example of the Action block .
+Add the Header . For example, you can add API key authentication and use your API key.
+Set up parameters, if needed, and save the HTTPS request.
+
+Test the HTTPS request
+To test the request:
+
+Click the Test tab.
+
+Click Send next to the URL.
+If you receive any errors, reach out to care@rocketlane.com to troubleshoot further.
+You can set up similar HTTPS request automations globally to run across projects, phases, tasks, and forms.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to set schedules using Automations?
+
+Troubleshooting steps for HubSpot-triggered project creation in Rocketlane
+
+How to add Salesforce object links to projects?
+
+Automations that run on project triggers
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

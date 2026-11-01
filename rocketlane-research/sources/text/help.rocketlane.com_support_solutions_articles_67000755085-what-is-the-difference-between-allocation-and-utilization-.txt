@@ -1,0 +1,164 @@
+TITLE: What is the difference between allocation and utilization? : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000755085-what-is-the-difference-between-allocation-and-utilization-
+
+What is the difference between allocation and utilization? : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+FAQ
+What is the difference between allocation and utilization?
+
+What is the difference between allocation and utilization?
+
+Created by Advaith R, Modified on Mon, 27 Jul at 8:27 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Why am I not able to sync Calendar to Timesheet?
+
+FAQ: Calendar Start Day Customization
+
+Why do deactivated users appear in my timesheet approval lists, and how can I manage their visibility?
+
+How do Time Offs reflect in resource management, and do they prevent accidental assignments?
+
+What time zone are timesheet submissions based on?
+
+Why can't I see a specific project in the Resource Management tab, even if other users with similar permissions can?
+
+Why is there a discrepancy between the hours logged in a project's List View and the hours shown in Resource Management?
+
+What are hard and soft allocations in Rocketlane, and how do I use them effectively?
+
+How to Manage Timesheet Approvers in Rocketlane
+
+What is the difference between allocation and utilization?
+
+Why is "Import from my allocations" coming up blank on my timesheet?
+
+No article available
+
+What is allocation?
+Allocation is the number of hours planned for a team member on a project. It represents the demand placed on their time.
+
+What is utilization?
+Utilization is the percentage of a team member’s available capacity that has been allocated.
+Utilization = Allocated hours ÷ Available capacity × 100
+
+Example
+If a team member has 40 available hours and is allocated 30 hours, their utilization is 75%.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Metrics
+
+Calculating EAC (Estimate at completion) for revenue recognition
+
+How to allocate resources as percentage of capacity
+
+Operations Insights Report: By Template Tab
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

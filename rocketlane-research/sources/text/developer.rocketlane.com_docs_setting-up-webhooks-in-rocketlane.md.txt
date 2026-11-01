@@ -1,0 +1,95 @@
+---
+updatedAt: 2025-06-03T20:46:58.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Setting up Webhooks in Rocketlane
+
+## How to create webhooks in Rocketlane?
+
+### Access Rocketlane Settings
+
+Log in to your Rocketlane account. From the left Nav bar, click on your Profile Icon > Settings.
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/d82ab43-Screenshot_2024-01-18_at_9.42.34_PM.png" />
+
+### Create a New Webhook
+
+Click on Webhooks from the Settings menu. Click on "Add Webhook" button.
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/5223aab-Screenshot_2024-01-18_at_9.45.32_PM.png" />
+
+### Configure Webhook Details
+
+Fill in details for the webhook, including the Webhook Name and Webhook URL where Rocketlane should send the webhook request. Rocketlane only supports https in webhook URLs for security.
+
+<Image align="center" className="border" width="70% " border={true} src="https://files.readme.io/f370c5b-image.png" />
+
+### Set Up Authentication (Optional)
+
+Rocketlane supports authentication for webhooks to secure the communication between Rocketlane and the external\
+system.
+
+Only Basic Authentication is supported currently.\
+Please configure the necessary authentication parameters - username and password.
+
+Even though this step is optional, it is recommended that your webhook URLs be protected using basic authentication.
+
+<Image align="center" className="border" width="70% " border={true} src="https://files.readme.io/73b843e-image.png" />
+
+### Save your Webhook
+
+Click save to create the new Webhook and now it is ready to be used in automations.
+
+<Image align="center" className="border" width="70% " border={true} src="https://files.readme.io/15a87d6-Screenshot_2024-01-18_at_9.52.14_PM.png" />
+
+## Setting up Webhook triggers
+
+1. ### Create an automation
+
+   Go to automations. Create a new automation
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/149d6eb-Screenshot_2024-01-18_at_10.41.18_PM.png" />
+
+2. ### Add the name of the automation and select the trigger rule
+
+   Currently, we only support task triggers for webhooks.
+
+   ![](https://files.readme.io/c4f0989-Screenshot_2024-02-02_at_11.40.32_AM.png)
+
+3. ### Set up trigger event
+
+   Choose the trigger event for which you want the webhook to send updates.
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/8cf6525-image_24.png" />
+
+4. ### Set up conditions using filters (Optional)
+
+   Click on 'Add condition' to set up conditions for the action to be performed.
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/7392417-image_26.png" />
+
+   You can set up the filter conditions based on the trigger that you have chosen.
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/186a67c-image_27.png" />
+
+5. ### Add "Send Webhook" action
+
+   Please click on 'Add an action' and then select 'Send webhook'.
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/c864552-image_28.png" />
+
+   You can select the webhook from the drop down list in the action block.
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/1079e66-image_29.png" />
+
+   When you pick the webhook, a sample payload will be displayed. To preserve your webhook option, click the save button. To know more about payload, please refer [Event Payload](https://developer.rocketlane.com/docs/event-payload)
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/ec8ea9a-image_30.png" />
+
+6. ### Save and Test
+
+   Save your webhook automation configuration. Test the webhook to see if the external system receives the expected data.
+
+   <Image align="center" className="border" border={true} src="https://files.readme.io/ddf74fa-image_32.png" />

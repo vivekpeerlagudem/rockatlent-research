@@ -1,0 +1,995 @@
+---
+updatedAt: 2026-06-02T09:35:13.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Get all users
+
+The *Get all users* API enables users to get all users in their Rocketlane instances using advanced filtering options. This API is intended to provide a flexible and fast means of getting users related data based on various parameters.
+
+Developers can integrate the users search feature into their applications and platforms by using this API. You can fine-tune your searches and retrieve the users data you need for integration into your applications or platforms by using the available parameters.
+
+You can use any combination of these parameters to execute searches based on your specifications. In addition to filters, `sortBy` and `sortOrder` can be used to sort the users. The response body is [paginated](https://developer.rocketlane.com/v1.0/docs/pagination), and you can control the pagination using the `limit` and `pageToken` parameters.
+
+## Pagination
+
+The *Get all users* API accommodates pagination in the response body. The `pageSize` option can be used to restrict the amount of responses displayed/available in a single request. Additionally, if there are more entries than the ones accessible in the answer, the response(s) may contain the `nextPageToken`.
+
+Please refer to the [pagination](https://developer.rocketlane.com/v1.0/docs/pagination) section for further information on this.
+
+## Filtering
+
+The capacity to execute more sophisticated and nuanced searches on a dataset by combining numerous criteria and conditions is referred to as filtering.
+
+Complex filtering in the context of the *Get all users* API allows users to build elaborate search queries to return specific subsets of users that satisfy specific requirements. By catering to a wide range of use cases, this enhanced filtering functionality considerably increases the API's utility and versatility.
+
+The API reference includes a comprehensive range of filtering options.
+
+Please refer to the link [here](https://developer.rocketlane.com/docs/search) for more information on how to construct the filtering criteria for users related fields.
+
+### Custom Field Filtering
+
+The *Get all users* API offers custom field filtering in addition to the regular filtering options.
+
+> 📘 Note
+>
+> Custom fields are supported only for users of **type** `TEAM_MEMBER`. Therefore, custom filtering will only be applied to users of **type** `TEAM_MEMBER`.
+
+Users can utilise custom field filtering to define and apply their own `USER` fields as search criteria. This powerful feature allows users to search for users based on custom `USER` fields, allowing the API to be tailored to a variety of use cases where default fields may be insufficient.
+
+Please refer to the below table for more information on how to construct the filtering criteria for custom fields.
+
+| Field name                                       | Text                       | Number                     | Yes/No                     | Date                       | Single Selection           | Multi Selection            | Rating                     |
+| ------------------------------------------------ | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ***`{type}.field.{field_id}.value`***            |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.contains`***         | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.notContains`***      | :ballot\_box\_with\_check: |                            |                            |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.greaterThan`***      |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.lessThan`***         |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.greaterThanEqual`*** |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.lessThanEqual`***    |                            | :ballot\_box\_with\_check: |                            | :ballot\_box\_with\_check: |                            |                            | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isEmpty`***          | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isNotEmpty`***       | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |
+| ***`{type}.field.{field_id}.isTrue`***           |                            |                            | :ballot\_box\_with\_check: |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.isFalse`***          |                            |                            | :ballot\_box\_with\_check: |                            |                            |                            |                            |
+| ***`{type}.field.{field_id}.oneOf`***            |                            |                            |                            |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |                            |
+| ***`{type}.field.{field_id}.noneOf`***           |                            |                            |                            |                            | :ballot\_box\_with\_check: | :ballot\_box\_with\_check: |                            |
+
+For more detailed examples related to searching/ filtering using custom fields refer to the [search](https://developer.rocketlane.com/docs/search) section.
+
+The field\_id can be fetched from this [API](https://developer.rocketlane.com/v1.0/reference/get-all-fields). Additional parameters can be passed to fetch fields associated with users, which can then be used to perform searches on the users.
+
+For more information about this, please refer to the [custom fields](https://developer.rocketlane.com/v1.0/docs/custom-fields) section.
+
+### Criteria Match
+
+In addition to standard filtering and custom field filtering, the *Get all users* API also supports the use of ***AND*** and ***OR*** conditions for more advanced filtering options. Users can combine different filters and custom field queries with these logical operators to build complex yet accurate search queries.
+
+***
+
+> In case any issues arise or further assistance is required, please refer to the [error handling](https://developer.rocketlane.com/docs/http-status-codes) section or reach out to our support team at <care@rocketlane.com> for a prompt resolution.
+
+# OpenAPI definition
+
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Rocketlane API",
+    "description": "Rocketlane API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.rocketlane.com/api",
+      "description": "Production"
+    },
+    {
+      "url": "https://api.nitro.run/api",
+      "description": "Staging"
+    },
+    {
+      "url": "https://project.api.orbits.run/api",
+      "description": "Orbits"
+    }
+  ],
+  "security": [
+    {
+      "api-key": [
+        "read : write"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Users",
+      "description": "Endpoints for users resource"
+    }
+  ],
+  "paths": {
+    "/1.0/users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get all users",
+        "operationId": "get-all-users",
+        "parameters": [
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "This parameter sets the maximum number of responses to be displayed per page. If the page size is insufficient to accommodate the whole number of responses obtained, the pagination object will include a link to the next page as well as the next page token. If left blank, it defaults to 100.",
+            "schema": {
+              "minimum": 0,
+              "type": "number",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "pageToken",
+            "in": "query",
+            "description": "Use this parameter to specify the pageToken of a page to which you want to navigate. This pageToken can be obtained from a previous request which specified a limit and will only be active for 15 minutes after it is created.",
+            "schema": {
+              "type": "string",
+              "example": "59c12a42-dd10-11ed-afa1-0242ac120002"
+            }
+          },
+          {
+            "name": "includeFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify which fields should be returned in the response body by selecting from the drop down. To get the relevant fields, use comma separated values. If the field is left blank, the default properties are returned.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "role",
+                  "company",
+                  "permission",
+                  "holidayCalendar",
+                  "capacityInMinutes",
+                  "profilePictureUrl"
+                ]
+              }
+            }
+          },
+          {
+            "name": "includeAllFields",
+            "in": "query",
+            "description": "This query parameter allows you to specify if all the fields should be returned in the response body. If the field is left blank, the default properties are returned.",
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "You can use the sortBy param to sort the responses by the given field.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "email",
+                "firstName",
+                "lastName",
+                "type",
+                "status",
+                "capacityInMinutes"
+              ]
+            }
+          },
+          {
+            "name": "sortOrder",
+            "in": "query",
+            "description": "The sortOrder param can be used to specify the sorting order, which can be Ascending (ASC) or Descending (DESC). Descending is the default option.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ASC",
+                "DESC"
+              ]
+            }
+          },
+          {
+            "name": "match",
+            "in": "query",
+            "description": "You can use the match param to specify if we need to filter the entries using either AND(all) / OR(any). Defaults to AND.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "any"
+              ]
+            }
+          },
+          {
+            "name": "firstName.eq",
+            "in": "query",
+            "description": "You can use this param to specify some user first name and the responses will contain exact matches of users that match the given first name.",
+            "schema": {
+              "type": "string",
+              "example": "John"
+            }
+          },
+          {
+            "name": "firstName.cn",
+            "in": "query",
+            "description": "You can use this param to specify some user first name and the responses will contain matches of users that match the given first name.",
+            "schema": {
+              "type": "string",
+              "example": "John"
+            }
+          },
+          {
+            "name": "firstName.nc",
+            "in": "query",
+            "description": "You can use this param to specify some user first name and the responses will not contain matches of users that match the given first name.",
+            "schema": {
+              "type": "string",
+              "example": "John"
+            }
+          },
+          {
+            "name": "lastName.eq",
+            "in": "query",
+            "description": "You can use this param to specify some user last name and the responses will contain exact matches of users that match the given last ame.",
+            "schema": {
+              "type": "string",
+              "example": "Doe"
+            }
+          },
+          {
+            "name": "lastName.cn",
+            "in": "query",
+            "description": "You can use this param to specify some user last name and the responses will contain matches of users that match the given last name.",
+            "schema": {
+              "type": "string",
+              "example": "Doe"
+            }
+          },
+          {
+            "name": "lastName.nc",
+            "in": "query",
+            "description": "You can use this param to specify some user last name and the responses will not contain matches of users that match the given last name.",
+            "schema": {
+              "type": "string",
+              "example": "Doe"
+            }
+          },
+          {
+            "name": "email.eq",
+            "in": "query",
+            "description": "You can use this param to specify some user email id and the responses will contain exact matches of users that match the given email id.",
+            "schema": {
+              "type": "string",
+              "example": "johndoe@rocketlane.com"
+            }
+          },
+          {
+            "name": "email.cn",
+            "in": "query",
+            "description": "You can use this param to specify some user email id and the responses will contain matches of users that match the given email id.",
+            "schema": {
+              "type": "string",
+              "example": "johndoe@rocketlane.com"
+            }
+          },
+          {
+            "name": "email.nc",
+            "in": "query",
+            "description": "You can use this param to specify some user email id and the responses will not contain matches of users that match the given email id.",
+            "schema": {
+              "type": "string",
+              "example": "johndoe@rocketlane.com"
+            }
+          },
+          {
+            "name": "status.eq",
+            "in": "query",
+            "description": "You can use this param to provide a user status  and the responses will contain exact matches of users that match the given status.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "INACTIVE",
+                  "INVITED",
+                  "ACTIVE",
+                  "PASSIVE"
+                ]
+              }
+            }
+          },
+          {
+            "name": "status.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide user statuses separated by commas and the responses will contain matches of users that match one of the given user status.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 3,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "INACTIVE",
+                  "INVITED",
+                  "ACTIVE",
+                  "PASSIVE"
+                ]
+              }
+            }
+          },
+          {
+            "name": "status.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide user statuses separated by commas and the responses will contain matches of users that match the none of the given set of user statuses.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 3,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "INACTIVE",
+                  "INVITED",
+                  "ACTIVE",
+                  "PASSIVE"
+                ]
+              }
+            }
+          },
+          {
+            "name": "type.eq",
+            "in": "query",
+            "description": "You can use this param to provide a user type  and the responses will contain exact matches of users that match the given type.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "TEAM_MEMBER",
+                  "PARTNER",
+                  "CUSTOMER",
+                  "EXTERNAL_PARTNER"
+                ]
+              }
+            }
+          },
+          {
+            "name": "type.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide user types separated by commas and the responses will contain matches of users that match the none of the given set of user types.",
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "maxItems": 3,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "TEAM_MEMBER",
+                  "PARTNER",
+                  "CUSTOMER",
+                  "EXTERNAL_PARTNER"
+                ]
+              }
+            }
+          },
+          {
+            "name": "roleId.eq",
+            "in": "query",
+            "description": "You can use this param to provide a role id and the responses will contain exact matches of users that match the given role id.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "roleId.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide role ids separated by commas and the responses will contain matches of users that match one of the given role id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "roleId.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide role id separated by commas and the responses will contain matches of users that match the none of the given set of role id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "permissionId.eq",
+            "in": "query",
+            "description": "You can use this param to provide a permission id and the responses will contain exact matches of users that match the given permission id.",
+            "schema": {
+              "type": "string",
+              "example": 1
+            }
+          },
+          {
+            "name": "permissionId.oneOf",
+            "in": "query",
+            "description": "You can use this param to provide permission ids separated by commas and the responses will contain matches of users that match one of the given set of permission id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "permissionId.noneOf",
+            "in": "query",
+            "description": "You can use this param to provide permission ids separated by commas and the responses will contain matches of users that match the none of the given set of permission id.",
+            "schema": {
+              "type": "string",
+              "example": "1,2,3"
+            }
+          },
+          {
+            "name": "capacityInMinutes.eq",
+            "in": "query",
+            "description": "You can use this param to specify some value as capacity and the responses will contain exact matches of users that match the given value.",
+            "schema": {
+              "type": "number",
+              "example": 2400
+            }
+          },
+          {
+            "name": "capacityInMinutes.gt",
+            "in": "query",
+            "description": "You can use this param to specify some value as capacity and the responses will contain exact matches of capacity greater than that of the given value.",
+            "schema": {
+              "type": "number",
+              "example": 2400
+            }
+          },
+          {
+            "name": "capacityInMinutes.ge",
+            "in": "query",
+            "description": "You can use this param to specify some value as capacity and the responses will contain exact matches of capacity greater than or equal to that of the given value.",
+            "schema": {
+              "type": "number",
+              "example": 2400
+            }
+          },
+          {
+            "name": "capacityInMinutes.lt",
+            "in": "query",
+            "description": "You can use this param to specify some value as capacity and the responses will contain exact matches of capacity lesser than that of the given value.",
+            "schema": {
+              "type": "number",
+              "example": 2400
+            }
+          },
+          {
+            "name": "capacityInMinutes.le",
+            "in": "query",
+            "description": "You can use this param to specify some value as capacity and the responses will contain exact matches of capacity lesser than or equal to that of the given value.",
+            "schema": {
+              "type": "number",
+              "example": 2400
+            }
+          },
+          {
+            "name": "createdAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are greater than the given users created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of users that match the given users created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are less than the given users created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are greater than or equal to the given users created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "createdAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are less than or equal to the given users created date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.gt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are greater than the given users updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.eq",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain exact matches of users that match the given users updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.lt",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are less than the given users updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.ge",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are greater than or equal to the given users updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          },
+          {
+            "name": "updatedAt.le",
+            "in": "query",
+            "description": "You can use this param to provide an epoch milli value and the responses will contain users whose date are less than or equal to the given users updated date.",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1625164800000
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested action was successfully executed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ExampleAPIResponseUsers"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "This error typically happens when the request payload contains an error. If you want to make sure that the request's parameters are named correctly and are the right data types, you can examine the request's syntax.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/badRequestErrorlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "You see this error when trying to access this resource without being authenticated. Check the API request header to make sure it is not empty and has a valid api-key that you acquired from the Rocketlane API Settings tab.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/unauthorizedErrorlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Example401": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "NOT_AUTHORIZED"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Not Authorized: User not authorized"
+          }
+        }
+      },
+      "unauthorizedErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example401"
+            }
+          }
+        }
+      },
+      "Example400": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": "string",
+            "description": "Error code refers to the type of error that you are facing. Some examples of error codes are: `BAD_REQUEST`, `NOT_FOUND`, `INTERNAL_SERVER_ERROR`.",
+            "example": "BAD_REQUEST"
+          },
+          "errorMessage": {
+            "type": "string",
+            "description": "Error message describes in brief about the issue. You can read the error message to get a understanding of where the request went wrong and attempt to fix it.",
+            "example": "Bad Request: Minutes is negative"
+          },
+          "field": {
+            "type": "string",
+            "description": "Fields refers to the parameter/field that was invalid in the request (if any). It will point you to the field that needs attention.",
+            "example": "minutes"
+          }
+        }
+      },
+      "badRequestErrorlist": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Example400"
+            }
+          }
+        }
+      },
+      "FieldUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "fieldId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The custom user field’s unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "fieldLabel": {
+            "type": "string",
+            "description": "The fieldLabel is the name of the custom user field.",
+            "readOnly": true,
+            "example": "MRR"
+          },
+          "fieldValue": {
+            "type": "string",
+            "description": " The fieldValue is the value provided while creation or updating the user information.  The fieldValue can be a string, an integer, or an number array and it will match the type of the field. Refer [examples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with user.",
+            "readOnly": true,
+            "example": "1000"
+          },
+          "fieldValueLabel": {
+            "type": "string",
+            "description": "The `fieldValueLabel` is the value provided while creation or updating in a String format.",
+            "readOnly": true,
+            "example": "1000"
+          }
+        },
+        "description": "Custom user fields can be created and their values set during user creation. These values can also be added or edited later. The field value can be a string, number, or array, and must align with the field type. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with user."
+      },
+      "PermissionUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "permissionId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The unique system-generated identifier for permission, which can be used to identify the permission globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 933
+          },
+          "permissionName": {
+            "type": "string",
+            "description": "The name of the permission.",
+            "readOnly": true,
+            "example": "Account Admin"
+          }
+        },
+        "description": "The Permission of the user."
+      },
+      "RoleUsersPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The role's unique, system-generated identifier, which can be used to identify the role globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 136
+          },
+          "roleName": {
+            "type": "string",
+            "description": "The name of the role.",
+            "readOnly": true,
+            "example": "Customer Success"
+          }
+        },
+        "description": "The role of the user."
+      },
+      "UsersCompanyPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "companyId": {
+            "type": "integer",
+            "description": "The company's unique, system-generated identifier, which can be used to identify the company globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 116
+          },
+          "companyName": {
+            "type": "string",
+            "description": "The name of the company of the user.",
+            "readOnly": true,
+            "example": "Modert"
+          }
+        },
+        "description": "The company of the user."
+      },
+      "UsersCreatedByResponse": {
+        "type": "object",
+        "properties": {
+          "emailId": {
+            "type": "string",
+            "description": "The team members email identifier.",
+            "example": "john.doe@rocketlane.com"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "The unique identifier for the user.",
+            "format": "int64",
+            "example": 201
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          }
+        },
+        "description": "The team member who updated the information of the user."
+      },
+      "UsersHolidayCalendarPublicAPIResponse": {
+        "type": "object",
+        "properties": {
+          "calenderId": {
+            "type": "integer",
+            "description": "The unique system-generated identifier for calendar, which can be used to identify the permission globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 93
+          },
+          "calenderName": {
+            "type": "string",
+            "description": "The name of the calendar.",
+            "readOnly": true,
+            "example": "India Holiday Calendar"
+          }
+        },
+        "description": "The Holiday calendar of the user."
+      },
+      "ExampleAPIResponseUsers": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response.",
+            "items": {
+              "$ref": "#/components/schemas/UsersPublicResponseForExample"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/ExamplePaginationUsers"
+          }
+        }
+      },
+      "ExamplePaginationUsers": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "description": "Denotes the page size mentioned in the current request (limit). It defaults to 100 if left blank.",
+            "format": "int32",
+            "example": 100
+          },
+          "hasMore": {
+            "type": "boolean",
+            "description": "Tells us if there is more content.",
+            "example": true
+          },
+          "totalRecordCount": {
+            "type": "integer",
+            "description": "Denotes the total resources matching the filters.",
+            "format": "int64",
+            "example": 10398
+          },
+          "nextPage": {
+            "type": "string",
+            "description": "Denotes an API URL, which can be conveniently called to perform the subsequent search call to get to the next page.",
+            "example": "https://api.rocketlane.com/api/1.0/users?includeFields=capacityInMinutes&status.eq=ACTIVE&sortBy=status&sortOrder=desc&pageToken=e4a3dd8e-e338-11ed-b5ea-0242ac120002&limit=100"
+          },
+          "nextPageToken": {
+            "type": "string",
+            "description": "Denotes a unique token that points to the next page of resources. To get results from subsequent pages, you can use the nextPageToken available in the response under pagination. This token is valid for 15 minutes.",
+            "example": "e4a3dd8e-e338-11ed-b5ea-0242ac120002"
+          }
+        },
+        "description": "Responses that return multiple objects will be paginated. The pagination params define how pages are structured and how to traverse through pages."
+      },
+      "UsersPublicResponseForExample": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "The user's unique, system-generated identifier, which can be used to identify the user globally.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 201
+          },
+          "email": {
+            "minimum": 1,
+            "type": "string",
+            "description": "The email identifier of the user.",
+            "readOnly": true,
+            "example": "johndoe@rocketlane.com"
+          },
+          "firstName": {
+            "type": "string",
+            "description": "The first name of the user.",
+            "readOnly": true,
+            "example": "John"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "The last name of the user.",
+            "readOnly": true,
+            "example": "Doe"
+          },
+          "type": {
+            "minimum": 1,
+            "type": "string",
+            "description": "The type of the user.",
+            "readOnly": true,
+            "example": "TEAM_MEMBER",
+            "enum": [
+              "TEAM_MEMBER",
+              "PARTNER",
+              "CUSTOMER",
+              "EXTERNAL_PARTNER"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "description": "The status of the user.",
+            "readOnly": true,
+            "example": "ACTIVE",
+            "enum": [
+              "INACTIVE",
+              "INVITED",
+              "ACTIVE",
+              "PASSIVE"
+            ]
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleUsersPublicAPIResponse"
+          },
+          "company": {
+            "$ref": "#/components/schemas/UsersCompanyPublicAPIResponse"
+          },
+          "permission": {
+            "$ref": "#/components/schemas/PermissionUsersPublicAPIResponse"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Custom user fields can be created and their values set during user creation. These values can also be added or edited later. The field value can be a string, number, or array, and must align with the field type. Refer [e xamples](https://developer.rocketlane.com/v1.0/docs/custom-fields#examples-of-requests-and-responses-for-assigning-custom-field-values) to know how each `field_type` is associated with user.",
+            "items": {
+              "$ref": "#/components/schemas/FieldUsersPublicAPIResponse"
+            }
+          },
+          "capacityInMinutes": {
+            "minimum": 5,
+            "type": "integer",
+            "description": "The capacity of user, should be multiples of 5, default value is capacity configured in profile.",
+            "format": "int32",
+            "example": 2400
+          },
+          "holidayCalendar": {
+            "$ref": "#/components/schemas/UsersHolidayCalendarPublicAPIResponse"
+          },
+          "profilePictureUrl": {
+            "type": "string",
+            "description": "The URL of the user's profile picture.",
+            "example": "https://s3.amazonaws.com/rocketlane-profile-pic-public/_default/ftue/John.jpg"
+          },
+          "createdAt": {
+            "type": "integer",
+            "description": "The time when the user was created. The referenced time will be in epoch millis.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "createdBy": {
+            "$ref": "#/components/schemas/UsersCreatedByResponse"
+          },
+          "updatedAt": {
+            "type": "integer",
+            "description": "The time when the user's information was updated. Any changes that's related to the user are captured and specified here in epoch millis.",
+            "format": "int64",
+            "readOnly": true,
+            "example": 1681319726000
+          },
+          "updatedBy": {
+            "$ref": "#/components/schemas/UsersCreatedByResponse"
+          }
+        },
+        "description": "Reflects all the default and custom fields and their values for the object searched, in an array format. If the includeFields param is utilised in the request body, it will return a customised response."
+      }
+    },
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "name": "api-key",
+        "in": "header"
+      }
+    }
+  },
+  "x-readme": {
+    "proxy-enabled": false,
+    "explorer-enabled": true,
+    "samples-enabled": true
+  }
+}
+```

@@ -1,0 +1,200 @@
+TITLE: Default Fields : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000750281-default-fields
+
+Default Fields : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Default Fields
+
+Default Fields
+
+Created by Advaith R, Modified on Thu, 23 Jul at 5:58 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Project Fields
+
+Project Metrics
+
+Default Fields
+
+No article available
+
+Here's the list of default fields available in Rocketlane.
+Field Name Description
+companyUrl Company website URL.
+preferredTaxcodeId Identifier of the preferred tax code.
+annualizedRecurringRevenue Annualized recurring revenue amount.
+accountOwner Owner assigned to the account.
+description Text description of the record.
+effort Effort estimate for the record, typically in hours.
+trackedHours Number of hours tracked or logged for the record.
+isArchived Indicates whether the record is archived.
+status Current status of the record.
+epicId A unique identifier for the epic.
+epicName Name of the epic.
+startDate Planned start date.
+dueDate Planned due date.
+epicOwner Owner assigned to the epic.
+invoiceNumber Invoice reference number.
+dateOfIssue Date when the invoice was issued.
+amountWrittenOff Amount written off in the invoice currency.
+totalPaymentRecorded Total payment amount recorded against the invoice.
+amountOutstanding Remaining unpaid amount in the invoice currency.
+amount Invoice amount in the invoice currency.
+currency Currency code for monetary amounts. For example, USD.
+budgetedHours Total budgeted hours.
+phaseId A unique identifier for the phase.
+projectFee Project fee amount. This is the fixed fee, if applicable.
+inferredProgress Inferred progress based on the underlying completion percentage.
+projectName Name of the project.
+projectOwner Owner assigned to the project.
+dueDateActual Actual due date or completion date.
+customerChampion Primary customer-side champion or contact for the project.
+startDateActual Actual start date.
+budgetedMinutes Total budgeted minutes.
+projectId A unique identifier for the project.
+duration Planned duration. For example, in days.
+actualDuration Actual duration. For example, in days.
+actualStartDate Actual start date.
+actualDueDate Actual due date or completion date.
+sprintName Name of the sprint.
+sprintSquad Squad or team assigned to the sprint.
+point_progress Completed points / total points, represented as a percentage.
+task_progress Completed tasks / total tasks, represented as a percentage.
+sprintId A unique identifier for the sprint.
+completedAt Timestamp when the record was completed.
+taskEffortSetting Effort tracking unit used for tasks. For example, hours or points.
+taskDescription Description of the task.
+taskName Name of the task.
+type Type or category of the record.
+isCsatEnabled Indicates whether CSAT collection is enabled.
+privateTaskDescription Internal task description that is not visible externally.
+defaultTimeEntryCategory Default category for time entries.
+taskId A unique identifier for the task.
+atRisk Indicates whether the record is at risk.
+progress Overall progress percentage.
+defaultTimeEntryBillable Default billable flag for time entries. True if billable.
+submittedOn Timestamp when the time entry was submitted.
+submittedBy User who submitted the time entry.
+approvedOn Timestamp when the time entry was approved.
+approvedBy User who approved the time entry.
+rejectedOn Timestamp when the time entry was rejected.
+rejectedBy User who rejected the time entry.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Project Fields
+
+Task Fields
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Multilingual Support in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

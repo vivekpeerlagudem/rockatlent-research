@@ -1,0 +1,250 @@
+TITLE: How to Manage Resources with Multi-Budgets : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000754567-how-to-manage-resources-with-multi-budgets
+
+How to Manage Resources with Multi-Budgets : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Financial Management
+How to Manage Resources with Multi-Budgets
+
+How to Manage Resources with Multi-Budgets
+
+Created by Advaith R, Modified on Wed, 8 Jul at 5:54 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Enabling Multi-Budget: Requirements and Constraints
+
+Using Multi-Project Budgets in Rocketlane (Enterprise only)
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Manage Resources with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+Managing Expenses and Financials with Multi-Budgets
+
+Analyze Multi-Budget Performance in Reports
+
+Creating Posting Periods in Rocketlane
+
+How to Sync Integrations with Multi-Budgets
+
+Invoices for Multi-Budget Projects in Rocketlane
+
+Credit Notes for Multi-Budget Projects in Rocketlane
+
+Managing the Revenue Recognition Ledger in Rocketlane
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+No article available
+
+In this article
+
+Managing budget allocations from the Projects tab
+
+Managing budget allocations from the People tab
+Adding a budget from the People tab
+
+Allocating hours to a budget
+
+Creating resource requests
+New team member requests
+
+Additional hours requests
+
+Shift allocations requests
+
+Delete allocation requests
+
+When you enable multi-budgets, resource management becomes much more granular. Instead of allocating team members only at the overall project level, you can view, assign, and manage resource allocations for individual budgets directly within the project.
+In Resource Management, budgets appear directly under the project. The project row expands to show budgets, and under each budget, the team members who belong to that budget are listed. Allocations are made per budget, then aggregated at both the budget and project levels.
+
+Managing budget allocations from the Projects tab
+In Resource Management > Projects , expand a project to view its budgets. Expand a budget to see the team members assigned to that budget.
+
+Click Add team members under the budget that should receive the allocation.
+
+Select the team member or role to add to that budget.
+
+Click the + placeholder on the budget's scheduler row to create an allocation.
+
+In the allocation drawer, set the dates, confirm the Budget , choose the allocation method, enter the hours, select the allocation type, and choose the work item in the Work selector.
+
+Click Done to save the allocation. The selected budget determines which budget the planned hours consume.
+[image: Allocation drawer for a budget-level resource allocation]
+After the allocation is saved, the timeline displays allocations under the relevant budget and aggregates planned hours at both the budget and project levels.
+[image: Budget-level allocations displayed on the Projects timeline]
+
+Managing budget allocations from the People tab
+
+Adding a budget from the People tab
+
+Open Resource Management from the sidebar.
+
+In the People view, expand the relevant team member row to show their assigned projects.
+
+Expand the relevant project row to show budget and allocation details.
+
+Click Add budget under the expanded project row.
+
+Select the budget from the dropdown (for example Onboarding Budget or Solutioning Budget ).
+
+Click Done to add the selected budget to the project row.
+
+Allocating hours to a budget
+
+Click the + placeholder on the scheduler timeline row for the budget.
+
+Review the allocation details in the allocation modal.
+
+Click Done to save the allocation.
+To set custom allocation dates, click the date range control in the allocation modal, select the start and end dates in the date picker, click Done in the date picker, then click Done in the allocation modal to save.
+Tip Use resource requests when staffing needs to be formally requested. Use the People tab Add budget workflow to add an existing budget row and allocate hours for an existing assignment.
+
+Creating resource requests
+
+Open Resource Management or the project's resource view.
+
+Create a resource request (new team member or additional hours).
+
+Select the project .
+
+Select the budget the request belongs to.
+
+Fill in the remaining details and submit.
+Note For operations such as delete allocations or shift allocations , select the relevant budget so that Rocketlane adjusts the correct budget.
+
+New team member requests
+Select the project and team member or role, then select the budget from the project's available budgets before entering the request details.
+
+Additional hours requests
+Select the project and team member or placeholder, then select the budget before entering the requested date and hours.
+
+Shift allocations requests
+Select the project and the budget whose allocations should be shifted before choosing the shift date or shift options.
+
+Delete allocation requests
+Select the project and budget, then choose whether to delete the entire allocation or a specific range.
+[image: Delete allocation request]
+Note You can open Resource AI from Apps for a multi-budget project and use a strategy such as Load balance to plan and distribute workload. Replacement flows that swap one user for another across the project operate at project level and may apply across all budgets where that user is assigned.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Multi-Budget vs. Single-Budget Projects: What Changes and What to Validate
+
+How to Set Up and Manage Multiple Budgets in a Project
+
+How to Sync Integrations with Multi-Budgets
+
+Time Tracking with Multi-Budgets
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

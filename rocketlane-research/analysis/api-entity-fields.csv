@@ -1,0 +1,298 @@
+resource,field,type,nested_keys,source_page
+Budgets,billingType,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,budgetAmount,number,,https://developer.rocketlane.com/reference/create-budget
+Budgets,budgetFinancialsMetrics,object,actualRevenue estimatedRevenue actualRevenueInAccountCurrency estimatedRevenueInAccountCurrency actualTimeCost estimatedTimeCost actualTimeCostInAccountCurrency estimatedTimeCostInAccountCurrency,https://developer.rocketlane.com/reference/create-budget
+Budgets,budgetHours,number,,https://developer.rocketlane.com/reference/create-budget
+Budgets,budgetId,integer,,https://developer.rocketlane.com/reference/create-budget
+Budgets,budgetName,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,createdAt,integer,,https://developer.rocketlane.com/reference/create-budget
+Budgets,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-budget
+Budgets,currency,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,customRevenueRecognitionConfigId,integer,,https://developer.rocketlane.com/reference/create-budget
+Budgets,endDate,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/create-budget
+Budgets,isDefault,boolean,,https://developer.rocketlane.com/reference/create-budget
+Budgets,manualRevenueRecognitionConfigs,array,items: manualRevenueRecognitionConfigId recognitionDate recognisedRevenue recognisedPercentage,https://developer.rocketlane.com/reference/create-budget
+Budgets,milestoneRevenueRecognitionConfigs,array,items: milestoneRevenueRecognitionConfigId sourceType sourceId recognisedRevenue recognisedPercentage,https://developer.rocketlane.com/reference/create-budget
+Budgets,projectId,integer,,https://developer.rocketlane.com/reference/create-budget
+Budgets,projectName,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,revenueRecognitionType,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,startDate,string,,https://developer.rocketlane.com/reference/create-budget
+Budgets,status,object,value label,https://developer.rocketlane.com/reference/create-budget
+Budgets,subscriptionContract,object,subscriptionFrequency subscriptionStartDate periodMinutes periodBudget noOfPeriods,https://developer.rocketlane.com/reference/create-budget
+Budgets,timeAndMaterialContract,object,rateCard,https://developer.rocketlane.com/reference/create-budget
+Budgets,updatedAt,integer,,https://developer.rocketlane.com/reference/create-budget
+Budgets,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-budget
+Companies,accountOwner,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-company
+Companies,companyId,integer,,https://developer.rocketlane.com/reference/create-company
+Companies,companyName,string,,https://developer.rocketlane.com/reference/create-company
+Companies,companyUrl,string,,https://developer.rocketlane.com/reference/create-company
+Companies,createdAt,integer,,https://developer.rocketlane.com/reference/create-company-note
+Companies,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-company
+Companies,description,string,,https://developer.rocketlane.com/reference/create-company
+Companies,fieldId,integer,,https://developer.rocketlane.com/reference/create-company-note
+Companies,fieldLabel,string,,https://developer.rocketlane.com/reference/create-company-note
+Companies,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/create-company
+Companies,noteId,integer,,https://developer.rocketlane.com/reference/create-company-note
+Companies,noteText,string,,https://developer.rocketlane.com/reference/create-company-note
+Companies,noteTitle,string,,https://developer.rocketlane.com/reference/create-company-note
+Companies,notes,array,items: noteId fieldId fieldLabel noteTitle noteText tags createdAt updatedAt,https://developer.rocketlane.com/reference/create-company
+Companies,tags,array,items: tagId label color,https://developer.rocketlane.com/reference/create-company-note
+Companies,updatedAt,integer,,https://developer.rocketlane.com/reference/create-company-note
+Companies,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-company
+Companies,visibility,string,,https://developer.rocketlane.com/reference/create-company
+Custom Revenue Recognition Configs,billingType,string,,https://developer.rocketlane.com/reference/get-all-custom-revenue-recognition-configs
+Custom Revenue Recognition Configs,customRevenueRecognitionConfigId,integer,,https://developer.rocketlane.com/reference/get-all-custom-revenue-recognition-configs
+Custom Revenue Recognition Configs,customRevenueRecognitionConfigName,string,,https://developer.rocketlane.com/reference/get-all-custom-revenue-recognition-configs
+Fields,createdAt,integer,,https://developer.rocketlane.com/reference/create-field
+Fields,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-field
+Fields,enabled,boolean,,https://developer.rocketlane.com/reference/create-field
+Fields,fieldDescription,string,,https://developer.rocketlane.com/reference/create-field
+Fields,fieldId,integer,,https://developer.rocketlane.com/reference/create-field
+Fields,fieldLabel,string,,https://developer.rocketlane.com/reference/create-field
+Fields,fieldOptions,array,items: optionValue optionLabel optionColor,https://developer.rocketlane.com/reference/create-field
+Fields,fieldType,string,,https://developer.rocketlane.com/reference/create-field
+Fields,objectType,string,,https://developer.rocketlane.com/reference/create-field
+Fields,optionColor,string,,https://developer.rocketlane.com/reference/add-field-option
+Fields,optionLabel,string,,https://developer.rocketlane.com/reference/add-field-option
+Fields,optionValue,integer,,https://developer.rocketlane.com/reference/add-field-option
+Fields,private,boolean,,https://developer.rocketlane.com/reference/create-field
+Fields,ratingScale,string,,https://developer.rocketlane.com/reference/create-field
+Fields,updatedAt,integer,,https://developer.rocketlane.com/reference/create-field
+Fields,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-field
+Invoices,amount,number,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,amountOutstanding,number,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,amountPaid,number,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,amountWrittenOff,number,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,attachments,array,items: attachmentId attachmentName createdAt location thumbLocation visibility,https://developer.rocketlane.com/reference/get-invoice
+Invoices,budget,object,budgetId budgetName,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,budgets,array,items: budgetId budgetName,https://developer.rocketlane.com/reference/get-invoice
+Invoices,company,object,companyId companyName companyUrl,https://developer.rocketlane.com/reference/get-invoice
+Invoices,createdAt,integer,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/get-invoice
+Invoices,currency,string,,https://developer.rocketlane.com/reference/get-invoice-payments
+Invoices,dateOfIssue,string,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,description,string,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,dueDate,string,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/get-invoice
+Invoices,invoiceId,integer,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,invoiceLineItemId,integer,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,invoiceNumber,string,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,notes,string,,https://developer.rocketlane.com/reference/get-invoice-payments
+Invoices,paymentDate,string,,https://developer.rocketlane.com/reference/get-invoice-payments
+Invoices,paymentId,integer,,https://developer.rocketlane.com/reference/get-invoice-payments
+Invoices,paymentRecordType,string,,https://developer.rocketlane.com/reference/get-invoice-payments
+Invoices,projects,array,items: projectId projectName,https://developer.rocketlane.com/reference/get-invoice
+Invoices,quantity,number,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,sourceId,integer,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,sourceType,string,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,status,string,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,subTotal,number,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,tax,number,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,taxCode,object,taxCodeId taxCodeName taxCodeRate taxCodeAmount,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,taxComponents,array,items: taxComponentId taxComponentName taxComponentRate taxComponentAmount taxComponentType,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,unitPrice,number,,https://developer.rocketlane.com/reference/get-invoice-line-items
+Invoices,updatedAt,integer,,https://developer.rocketlane.com/reference/get-invoice
+Invoices,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/get-invoice
+Phases,budgets,array,items: budgetId budgetName,https://developer.rocketlane.com/reference/create-phase
+Phases,createdAt,integer,,https://developer.rocketlane.com/reference/create-phase
+Phases,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-phase
+Phases,dueDate,string,,https://developer.rocketlane.com/reference/create-phase
+Phases,dueDateActual,string,,https://developer.rocketlane.com/reference/create-phase
+Phases,phaseDescription,string,,https://developer.rocketlane.com/reference/create-phase
+Phases,phaseId,integer,,https://developer.rocketlane.com/reference/create-phase
+Phases,phaseName,string,,https://developer.rocketlane.com/reference/create-phase
+Phases,private,boolean,,https://developer.rocketlane.com/reference/create-phase
+Phases,project,object,projectId projectName,https://developer.rocketlane.com/reference/create-phase
+Phases,startDate,string,,https://developer.rocketlane.com/reference/create-phase
+Phases,startDateActual,string,,https://developer.rocketlane.com/reference/create-phase
+Phases,status,object,value label,https://developer.rocketlane.com/reference/create-phase
+Phases,updatedAt,integer,,https://developer.rocketlane.com/reference/create-phase
+Phases,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-phase
+Projects,allocatedHours,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,allocatedMinutes,number,,https://developer.rocketlane.com/reference/create-project
+Projects,annualizedRecurringRevenue,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,archived,boolean,,https://developer.rocketlane.com/reference/add-members
+Projects,autoAllocation,boolean,,https://developer.rocketlane.com/reference/create-project
+Projects,billableHours,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,billableMinutes,number,,https://developer.rocketlane.com/reference/create-project
+Projects,budgetedHours,number,,https://developer.rocketlane.com/reference/create-project
+Projects,createdAt,integer,,https://developer.rocketlane.com/reference/add-members
+Projects,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/add-members
+Projects,currency,string,,https://developer.rocketlane.com/reference/add-members
+Projects,currentPhases,array,items: phaseId phaseName,https://developer.rocketlane.com/reference/create-project
+Projects,customer,object,companyId companyName companyUrl,https://developer.rocketlane.com/reference/add-members
+Projects,customersInvited,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,customersJoined,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,dueDate,string,,https://developer.rocketlane.com/reference/add-members
+Projects,dueDateActual,string,,https://developer.rocketlane.com/reference/create-project
+Projects,externalReferenceId,string,,https://developer.rocketlane.com/reference/create-project
+Projects,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/add-members
+Projects,financials,object,contractType revenueRecognitionType fixedFeeContract timeAndMaterialContract subscriptionContract metrics,https://developer.rocketlane.com/reference/add-members
+Projects,inferredProgress,string,,https://developer.rocketlane.com/reference/create-project
+Projects,nonBillableHours,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,nonBillableMinutes,number,,https://developer.rocketlane.com/reference/create-project
+Projects,owner,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/add-members
+Projects,partnerCompanies,array,items: companyId companyName companyUrl,https://developer.rocketlane.com/reference/add-members
+Projects,percentageBudgetConsumed,number,,https://developer.rocketlane.com/reference/create-project
+Projects,percentageBudgetedHoursConsumed,number,,https://developer.rocketlane.com/reference/create-project
+Projects,placeholderId,integer,,https://developer.rocketlane.com/reference/get-placeholders
+Projects,placeholderName,string,,https://developer.rocketlane.com/reference/get-placeholders
+Projects,placeholderType,string,,https://developer.rocketlane.com/reference/get-placeholders
+Projects,placeholders,array,items: placeholder placeholderStatus user hourlyCostRate costRateCurrency hourlyBillRate billRateCurrency,https://developer.rocketlane.com/reference/assign-placeholders
+Projects,plannedDurationInDays,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,progressPercentage,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,project,object,projectId projectName,https://developer.rocketlane.com/reference/get-placeholders
+Projects,projectAgeInDays,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,projectFee,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,projectId,integer,,https://developer.rocketlane.com/reference/add-members
+Projects,projectName,string,,https://developer.rocketlane.com/reference/add-members
+Projects,remainingHours,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,remainingMinutes,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,role,object,roleId roleName,https://developer.rocketlane.com/reference/get-placeholders
+Projects,sources,array,items: prefix startDate templateId templateName,https://developer.rocketlane.com/reference/create-project
+Projects,startDate,string,,https://developer.rocketlane.com/reference/add-members
+Projects,startDateActual,string,,https://developer.rocketlane.com/reference/create-project
+Projects,status,object,value label,https://developer.rocketlane.com/reference/add-members
+Projects,teamMembers,object,members customers customerChampion,https://developer.rocketlane.com/reference/add-members
+Projects,trackedHours,integer,,https://developer.rocketlane.com/reference/create-project
+Projects,trackedMinutes,number,,https://developer.rocketlane.com/reference/create-project
+Projects,updatedAt,integer,,https://developer.rocketlane.com/reference/add-members
+Projects,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/add-members
+Projects,visibility,string,,https://developer.rocketlane.com/reference/add-members
+Resource Allocations,allocationFor,string,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,allocationId,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,allocationType,string,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,budget,object,budgetId budgetName,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,createdAt,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,duration,object,daysConsider seconds minutes hours,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,endDate,string,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,hoursPerDay,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,includeSaturday,boolean,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,includeSunday,boolean,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,member,object,emailId userId firstName lastName role,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,minutesPerDay,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,placeholder,object,placeholderId placeholderName role,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,project,object,projectId projectName,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,secondsPerDay,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,startDate,string,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,tasks,array,items: taskName taskId,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,updatedAt,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,workId,integer,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Resource Allocations,workType,string,,https://developer.rocketlane.com/reference/get-all-resource-allocations
+Space Documents,createdAt,integer,,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,private,boolean,,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,source,object,templateId templateName,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,space,object,spaceId spaceName,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,spaceDocumentId,integer,,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,spaceDocumentName,string,,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,spaceDocumentType,string,,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,updatedAt,integer,,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-space-document
+Space Documents,url,string,,https://developer.rocketlane.com/reference/create-space-document
+Spaces,createdAt,integer,,https://developer.rocketlane.com/reference/create-space
+Spaces,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-space
+Spaces,private,boolean,,https://developer.rocketlane.com/reference/create-space
+Spaces,project,object,projectId projectName,https://developer.rocketlane.com/reference/create-space
+Spaces,spaceId,integer,,https://developer.rocketlane.com/reference/create-space
+Spaces,spaceName,string,,https://developer.rocketlane.com/reference/create-space
+Spaces,updatedAt,integer,,https://developer.rocketlane.com/reference/create-space
+Spaces,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-space
+Tasks,archived,boolean,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,assignees,object,members placeholders,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,atRisk,boolean,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,billable,boolean,,https://developer.rocketlane.com/reference/create-task
+Tasks,budgets,array,items: budgetId budgetName,https://developer.rocketlane.com/reference/create-task
+Tasks,createdAt,integer,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,csatEnabled,boolean,,https://developer.rocketlane.com/reference/create-task
+Tasks,dependencies,array,items: taskId taskName,https://developer.rocketlane.com/reference/add-dependencies-to-task
+Tasks,dueDate,string,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,dueDateActual,string,,https://developer.rocketlane.com/reference/create-task
+Tasks,effortInMinutes,integer,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,externalReferenceId,string,,https://developer.rocketlane.com/reference/create-task
+Tasks,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,followers,object,placeholders members,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,parent,object,taskId taskName,https://developer.rocketlane.com/reference/create-task
+Tasks,phase,object,phaseId phaseName,https://developer.rocketlane.com/reference/create-task
+Tasks,priority,object,value label,https://developer.rocketlane.com/reference/create-task
+Tasks,private,boolean,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,progress,integer,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,project,object,projectId projectName,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,revRecRecognisedAmount,number,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,revRecRecognisedPercentage,number,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,revenueRecognitionDetails,array,items: budgetId budgetName recognisedPercentage recognisedAmount,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,revenueRecognitionTask,boolean,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,startDate,string,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,startDateActual,string,,https://developer.rocketlane.com/reference/create-task
+Tasks,status,object,value label,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,taskDescription,string,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,taskId,integer,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,taskName,string,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,taskPrivateNote,string,,https://developer.rocketlane.com/reference/create-task
+Tasks,timeEntryCategory,object,categoryId categoryName,https://developer.rocketlane.com/reference/create-task
+Tasks,totalAllocatedMins,integer,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,type,string,,https://developer.rocketlane.com/reference/create-task
+Tasks,updatedAt,integer,,https://developer.rocketlane.com/reference/add-assignee-to-task
+Tasks,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/add-assignee-to-task
+Time Tracking,activityName,string,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,approvedAt,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,approvedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,billRate,object,rate currency,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,billable,boolean,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,budget,object,budgetId budgetName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,category,object,categoryName categoryId,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,categoryId,integer,,https://developer.rocketlane.com/reference/get-time-entry-categories
+Time Tracking,categoryName,string,,https://developer.rocketlane.com/reference/get-time-entry-categories
+Time Tracking,costRate,object,rate currency,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,createdAt,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,date,string,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,deleted,boolean,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,minutes,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,notes,string,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,project,object,projectName projectId,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,projectPhase,object,phaseId phaseName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,rejectedAt,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,rejectedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,sourceType,string,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,status,string,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,submittedAt,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,submittedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,task,object,taskName taskId,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,timeEntryId,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,updatedAt,integer,,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-time-entry
+Time Tracking,user,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-time-entry
+Time-Offs,createdAt,integer,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,durationInMinutes,integer,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,endDate,string,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,note,string,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,notifyUsers,object,projectOwners others,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,startDate,string,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,timeOffId,integer,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,type,string,,https://developer.rocketlane.com/reference/create-timeoff
+Time-Offs,user,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/create-timeoff
+Users,capacityInMinutes,integer,,https://developer.rocketlane.com/reference/get-all-users
+Users,company,object,companyId companyName,https://developer.rocketlane.com/reference/get-all-users
+Users,createdAt,integer,,https://developer.rocketlane.com/reference/get-all-users
+Users,createdBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/get-all-users
+Users,email,string,,https://developer.rocketlane.com/reference/get-all-users
+Users,fields,array,items: fieldId fieldLabel fieldValue fieldValueLabel,https://developer.rocketlane.com/reference/get-all-users
+Users,firstName,string,,https://developer.rocketlane.com/reference/get-all-users
+Users,holidayCalendar,object,calenderId calenderName,https://developer.rocketlane.com/reference/get-all-users
+Users,lastName,string,,https://developer.rocketlane.com/reference/get-all-users
+Users,permission,object,permissionId permissionName,https://developer.rocketlane.com/reference/get-all-users
+Users,profilePictureUrl,string,,https://developer.rocketlane.com/reference/get-all-users
+Users,role,object,roleId roleName,https://developer.rocketlane.com/reference/get-all-users
+Users,status,string,,https://developer.rocketlane.com/reference/get-all-users
+Users,type,string,,https://developer.rocketlane.com/reference/get-all-users
+Users,updatedAt,integer,,https://developer.rocketlane.com/reference/get-all-users
+Users,updatedBy,object,emailId userId firstName lastName,https://developer.rocketlane.com/reference/get-all-users
+Users,userId,integer,,https://developer.rocketlane.com/reference/get-all-users

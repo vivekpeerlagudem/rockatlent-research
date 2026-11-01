@@ -1,0 +1,185 @@
+TITLE: Rocketlane's Forms Feature: An Introduction : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000711313-rocketlane-s-forms-feature-an-introduction
+
+Rocketlane's Forms Feature: An Introduction : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Project Management
+Rocketlane's Forms Feature: An Introduction
+
+Rocketlane's Forms Feature: An Introduction
+
+Created by Niharika Pandey, Modified on Thu, 23 Jul at 5:44 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Rocketlane's Forms Feature: An Introduction
+
+Understanding the Rocketlane's Forms Feature
+
+No article available
+
+In this article
+
+How to Create a Form Template
+
+How to Add a Form to Your Projects
+
+How to Add a Form to Your Templates
+
+How to Share a Form with Your Customers
+
+How to Configure Automations in Forms
+
+With Forms in Rocketlane, you can create, share, and collect information in a structured format. Forms also allow you to automatically sync responses to project fields, task fields, and even create new tasks.
+Here are a few use cases where you can use forms:
+
+Migration request forms
+
+Contact information forms
+
+Customer feedback forms
+
+Requirement gathering forms
+
+How to Create a Form Template
+You can create form templates from the templates section.
+
+Go to Templates from the vertical navigation bar.
+
+Go to Form Templates .
+
+Click New Form Template from the top-right corner of the screen.
+
+How to Add a Form to Your Projects
+You can add forms to your projects by selecting the dropdown option next to the Add task button. You can select a relevant form template to add to your project.
+It is that simple.
+Note You can add your form templates as subtasks in projects as well.
+
+How to Add a Form to Your Templates
+You can add forms to your templates by selecting the Add form button next to the Add new task button. You can select a relevant form template to add to your project.
+Note You can add your form templates as subtasks in templates.
+
+How to Share a Form with Your Customers
+Forms in Rocketlane have shareable links. To collect information from people who are not necessarily involved in your project, copy the shareable link and send it to your customers.
+If the respondent does not have access to the project, they will be presented with a web form version to fill in their responses.
+Note If the link is shared with a person not added to the project, their responses will be recorded as anonymous users.
+
+How to Configure Automations in Forms
+You can automatically create a task in Rocketlane when each form is submitted. The responses will be copied to the description section of the newly created task. If a task field was used on the form, values for those fields will also get populated in the task's info section.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Introduction to Financial Management
+
+Rocketlane's SmartFill feature: Explainer Video
+
+Understanding the Rocketlane's Forms Feature
+
+2FA and Magic Links
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

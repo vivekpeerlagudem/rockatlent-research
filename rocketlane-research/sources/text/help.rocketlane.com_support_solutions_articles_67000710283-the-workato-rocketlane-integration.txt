@@ -1,0 +1,232 @@
+TITLE: The Workato Rocketlane Integration : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000710283-the-workato-rocketlane-integration
+
+The Workato Rocketlane Integration : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Integrations in Rocketlane
+The Workato Rocketlane Integration
+
+The Workato Rocketlane Integration
+
+Created by Niharika Pandey, Modified on Wed, 5 Jul, 2023 at 3:23 PM by Niharika Pandey
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+The Workato Rocketlane Integration
+
+No article available
+
+What is Workato?
+
+Workato provides a highly secure and reliable integration and business automation service. It helps you automate business workflows across cloud and on-premises apps. You can easily transfer data across apps through Workato.
+
+You can quickly build automations on Workato making it easy for use for both IT and business users. It is designed for security, robustness, reliability, and high performance.
+
+What is the Workato Rocketlane Integration?
+
+The Workato Rocketlane integration allows you to easily set up intelligent automations for Rocketlane to allow the flow of information from one web app to Rocketlane and vice versa.
+
+You can use Workato to integrate Rocketlane with over 1000 apps.
+
+Visit the Workato Rocketlane integration page here.
+
+Getting started with the Workato Rocketlane Integration
+
+Go to Settings .
+
+Go to Integrations .
+
+Select Workato .
+
+Copy and use the API Token provided here to connect to Workato .
+
+Th is is a unique identifier used to authenticate you to Workato while creating connections. Keep your token private to avoid sharing sensitive information.
+
+Connecting to the Rocketlane Connector through Workato
+
+Login to app.workato.com and select Community Library from the left nav bar.
+
+Click on the ' Custom connectors' tab from the ' Community library' page.
+
+Search for Rocketlane from the ' Custom connectors' tab and click on the connector .
+
+Click on the ' Install connector' button from the top right side of the page.
+
+Click 'Accept and Install' to continue installing the Rocketlane connector .
+
+Click on 'Release latest version' be able to use it as a connector for your Recipes and Connections .
+
+For any new versions, click on 'Release latest version' from the same page here.
+
+You can now find the Rocketlane connector under the apps section for your new connections.
+
+How to create a Connection on Workato Using Rocketlane as a Connector?
+
+From the left navigation bar go to Projects .
+
+Go to Assets > Connections . Click Create > Connection to start a new connection.
+
+Search for Rocketlane from the New Connection page and select the connector.
+
+You will be redirected to the 'Connect to Rocketlane' page.
+
+Fill in the required details for the fields on this page. Paste the API key from Rocketlane's Workato integration page.
+
+Click Connect to create a new connection using Rocketlane as a connector.
+
+Rocketlane Integrations and Automation creation with Workato
+
+You can create your custom Rocketlane integrations using the following triggers and actions:
+
+Triggers
+
+Actions
+
+New Project Message Real-time Triggers when a new message is added in a project
+
+New Project Real-time Triggers when a new Project is created
+
+Updated Project Real-time Triggers when a project is updated
+
+New Task Message Real-time Triggers when a new message is
+
+New Task Real-time Triggers when a new task is created
+
+Updated Task Real-time Triggers when a new task is updated
+
+Create Project Creates a project
+
+Create Task Creates a task
+
+Post Task Message Creates a new Task Message
+
+Search Project Search for a Project
+
+Search Task Search for a Task
+
+Update Project Updates a Project
+
+Update Task Updates a Task
+
+Delete a Project Deletes a Project
+
+Archive a Project Archives a Project
+
+Hey! Here's hoping that this support document was useful. You can write to us at care@rocketlane.com in case of any queries.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+How to Sync Integrations with Multi-Budgets
+
+Allocations and Accomodations
+
+Enabling Multi-Budget: Requirements and Constraints
+
+What Changes When Multi-Budget Is Enabled in Rocketlane
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved

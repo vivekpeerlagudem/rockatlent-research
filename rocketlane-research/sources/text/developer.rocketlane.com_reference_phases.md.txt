@@ -1,0 +1,33 @@
+---
+updatedAt: 2025-06-03T20:48:15.000Z
+agentTools:
+  projectIndex: https://developer.rocketlane.com/llms.txt
+---
+
+# Phases
+
+## Phase Overview
+
+Rocketlane offers a phased approach to project management, allowing teams to break down projects into distinct phases to manage them more effectively. Each phase represents a specific stage in the project lifecycle and helps teams organize their work, track progress, and achieve project goals.
+
+You can perform basic functions around a phase that include adding tasks, start and end dates, and marking a phase as private or shared.
+
+***
+
+## Default Phase Fields
+
+| Field           | Description                                                                                                                                                                                                                                                                                     |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| phaseId         | The phase's unique, system-generated identifier, which can be used to identify the phase globally.                                                                                                                                                                                              |
+| phaseName       | The name of the phase.                                                                                                                                                                                                                                                                          |
+| project         | The project associated with phase and it is mandatory for the phase object to get created and mapped accordingly.                                                                                                                                                                               |
+| startDate       | On this date the phase's execution officially begins. The start date is mandatory. The format for the start date is YYYY-MM-DD.                                                                                                                                                                 |
+| dueDate         | The day on which the phase's execution is planned to be completed. The due date is mandatory. The dueDate must be on or after the given startDate. The format for the due date is YYYY-MM-DD.                                                                                                   |
+| startDateActual | The date on which the phase status is changed to in progress. The status can be either the default provided status (in progress) or custom statuses that are categorised as in progress. It can be null for phases that have not yet begun. The format for the actual start date is YYYY-MM-DD. |
+| dueDateActual   | The date when phase status gets changed to completed. The status can be either the default provided status (completed) or a custom status that is labelled under the Completed category. It will be null if the phase is yet to be completed. The format for the actual due date is YYYY-MM-DD. |
+| createdAt       | The time when the phase was created. The referenced time will be in epoch millis.                                                                                                                                                                                                               |
+| createdBy       | The team member object who created the phase.                                                                                                                                                                                                                                                   |
+| updatedAt       | The time when the phase was last updated. Any changes that’s related to the phase are captured and specified here in epoch millis.                                                                                                                                                              |
+| updatedBy       | The team member object who updated the phase.                                                                                                                                                                                                                                                   |
+| status          | The phase status value along with the label will be present here.                                                                                                                                                                                                                               |
+| private         | Sets the privacy of the phase. You can mark a phase as private or shared.                                                                                                                                                                                                                       |

@@ -1,0 +1,206 @@
+TITLE: Task Effort Planning : Rocketlane
+URL: https://help.rocketlane.com/support/solutions/articles/67000744656-task-effort-planning
+
+Task Effort Planning : Rocketlane
+
+Skip to main content
+
+Home
+
+Knowledge base
+
+Submit a ticket
+
+Login
+
+Sign up
+
+All
+
+Articles
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+Articles
+
+View all
+
+Topics
+
+View all
+
+Tickets
+
+View all
+
+[image: no results]
+Sorry! nothing found for
+
+Rocketlane Help
+Resource Management
+Task Effort Planning
+
+Task Effort Planning
+
+Created by Advaith R, Modified on Thu, 7 Aug, 2025 at 6:35 PM by Advaith R
+
+Plan Availability
+
+Essential
+
+Standard
+
+Premium
+
+Enterprise
+
+Articles in this series
+
+Resource Management: The Projects Tab
+
+Projects Tab: Find The Best Team For Your Projects
+
+People Tab: Effectively Manage your Team's Capacity
+
+Resource Management: The People Tab
+
+How to Plan and Manage Resource Allocation using Templates?
+
+How to Enable and Configure Auto-allocate in a Project?
+
+How to Enable and Configure Auto-allocate in a Template?
+
+Phase Level Effort Planning on Rocketlane
+
+How to allocate resources as percentage of capacity
+
+Task Effort Planning
+
+Managing Allocations on the Resource Management Timeline
+
+Managing Allocation Fields for Resource Management in Rocketlane
+
+No article available
+
+Rocketlane’s Task Effort Planning feature gives project managers control over how work is distributed among team members for each task.
+
+How to Assign Effort to a Task
+To assign effort to a specific task, follow these steps:
+
+From your project, go to the Project plan .
+
+Click on the task you want to assign effort to.
+
+In the task info window that opens, click Additional info .
+
+Scroll down to the Effort section
+
+Effort Customization Options
+When planning effort at the task level, you can define the total effort in hours and choose how it's distributed among assignees:
+
+Equal Split : Total effort is automatically divided equally among all task assignees.
+
+Custom Split : You can manually allocate effort to each assignee based on their expected workload or capacity.
+
+This allows teams to reflect the real distribution of responsibility per task, whether roles are shared evenly or require a heavier lift from some team members.
+
+Dynamic Effort Adjustments
+Effort planning is flexible and responds dynamically to changes in the task:
+
+If total effort changes :
+
+With equal split , all assignees’ hours update automatically to maintain equal shares.
+
+With a custom split , each person’s effort scales proportionally , maintaining the previously defined ratios.
+
+This ensures that updates to overall effort don’t disrupt planned workloads unless you choose to override them.
+
+Managing Assignees
+Effort planning accommodates real-world shifts in team composition:
+
+Adding a new assignee : They are added with zero hours by default , so you can manually define their effort without affecting existing allocations.
+
+Removing an assignee : Their share of hours is redistributed proportionally among the remaining team members, keeping the total task effort unchanged.
+
+Placeholder Support
+If you've added placeholders instead of actual team members during planning:
+
+Once resolved (i.e., replaced with a real user), the effort allocated to the placeholder carries over , preserving the original role-based distribution, to ensure continuity in planning without the need to manually re-assign effort after resolving placeholders.
+
+Auto-Allocation Integration
+When auto-allocation is enabled in your project settings:
+
+Task-level efforts defined here automatically translate into resource allocations on the project plan. This keeps your effort planning and resource allocation in sync , helping teams ensure that actual capacity planning aligns with task responsibilities.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Related Articles
+
+Phase Level Effort Planning on Rocketlane
+
+Guide to Using Rocketlane MCP Tools
+
+Account Level Default Permissions
+
+Step-by-step guide to Sprint Planning
+
+X
+
+[image: Preview]
+
+0 of 0
+
+Contact our support team
+
+Have more questions? Paid users can log in and email or chat with us.
+
+Start your free trial
+Chat with us
+
+© 2024. Rocketlane Corp. All Rights Reserved
